@@ -1,0 +1,512 @@
+﻿[
+  {
+    "q": "Biểu thức nào sau đây là phân thức đại số?",
+    "options": ["$\\frac{x+1}{x-2}$", "$\\sqrt{x}$", "$x^2 + \\sqrt{y}$", "$\\frac{x+y}{0}$"],
+    "answer": 0,
+    "explain": "Phân thức đại số có dạng $\\frac{A}{B}$ với $A, B$ là các đa thức và $B$ khác đa thức 0."
+  },
+  {
+    "q": "Phân thức $\\frac{3x^2y}{6xy^2}$ bằng phân thức nào sau đây?",
+    "options": ["$\\frac{x}{2y}$", "$\\frac{x}{y}$", "$\\frac{3x}{6y}$", "$\\frac{1}{2}$"],
+    "answer": 0,
+    "explain": "Rút gọn tử và mẫu cho $3xy$ ta được $\\frac{x}{2y}$."
+  },
+  {
+    "q": "Phương trình nào sau đây **không phải** là phương trình bậc nhất một ẩn?",
+    "options": ["$3x - 1 = 0$", "$0x + 5 = 0$", "$\\frac{1}{2}x - 4 = 0$", "$-x + 3 = 0$"],
+    "answer": 1,
+    "explain": "Phương trình bậc nhất một ẩn có dạng $ax + b = 0$ với $a \\neq 0$."
+  },
+  {
+    "q": "$x = -2$ là nghiệm của phương trình nào?",
+    "options": ["$x - 2 = 0$", "$2x + 4 = 0$", "$x + 1 = 0$", "$3x - 6 = 0$"],
+    "answer": 1,
+    "explain": "Thay $x = -2$ vào $2(-2) + 4 = 0$ (đúng)."
+  },
+  {
+    "q": "Trong các hàm số sau, hàm số nào là hàm số bậc nhất?",
+    "options": ["$y = x^2 + 1$", "$y = \\frac{2}{x}$", "$y = -3x + 4$", "$y = 0x - 5$"],
+    "answer": 2,
+    "explain": "Hàm số bậc nhất có dạng $y = ax + b$ với $a \\neq 0$."
+  },
+  {
+    "q": "Đường thẳng $y = 2x - 8$ cắt trục tung tại điểm có tọa độ là:",
+    "options": ["$(4; 0)$", "$(0; -8)$", "$(0; 8)$", "$(-8; 0)$"],
+    "answer": 1,
+    "explain": "Giao với trục tung thì $x = 0 \\Rightarrow y = -8$."
+  },
+  {
+    "q": "Một hộp có 4 viên bi xanh, 5 viên bi đỏ và 6 viên bi vàng. Chọn ngẫu nhiên 1 viên, số kết quả có thể xảy ra là:",
+    "options": ["4", "5", "15", "6"],
+    "answer": 2,
+    "explain": "Tổng số viên bi là $4 + 5 + 6 = 15$."
+  },
+  {
+    "q": "Một hộp có 20 thẻ đánh số từ 1 đến 20. Biến cố: 'Rút được thẻ ghi số chia hết cho 10' có số kết quả thuận lợi là:",
+    "options": ["1", "2", "10", "20$"],
+    "answer": 1,
+    "explain": "Các số chia hết cho 10 từ 1 đến 20 là: {10; 20}."
+  },
+  {
+    "q": "Chọn khẳng định **sai** về tam giác đồng dạng:",
+    "options": ["Hai tam giác bằng nhau thì đồng dạng", "Hai tam giác đồng dạng thì bằng nhau", "Tính chất đồng dạng có tính bắc cầu", "Mọi tam giác đều đồng dạng với nhau"],
+    "answer": 1,
+    "explain": "Hai tam giác đồng dạng chỉ bằng nhau khi tỉ số đồng dạng $k = 1$."
+  },
+  {
+    "q": "Cho $\\Delta MNP \\sim \\Delta ABC$ theo tỉ số đồng dạng $k = \\frac{1}{2}$. Khẳng định nào đúng?",
+    "options": ["$\\frac{MN}{AB} = \\frac{1}{2}$", "$\\frac{MN}{AB} = 2$", "$MN = AB$", "$\\frac{MP}{AC} = 2$"],
+    "answer": 0,
+    "explain": "Tỉ số các cạnh tương ứng bằng tỉ số đồng dạng $k$."
+  },
+  {
+    "q": "Công thức tính thể tích hình chóp tứ giác đều là gì? (với $S$ là diện tích đáy, $h$ là chiều cao)",
+    "options": ["$V = S \\cdot h$", "$V = \\frac{1}{2} S \\cdot h$", "$V = \\frac{1}{3} S \\cdot h$", "$V = 3 S \\cdot h$"],
+    "answer": 2,
+    "explain": "Thể tích hình chóp bằng $1/3$ diện tích đáy nhân chiều cao."
+  },
+  {
+    "q": "Các mặt bên của hình chóp tứ giác đều là hình gì?",
+    "options": ["Tam giác vuông", "Tam giác cân", "Hình chữ nhật", "Hình thang"],
+    "answer": 1,
+    "explain": "Hình chóp đều có các cạnh bên bằng nhau nên các mặt bên là tam giác cân."
+  },
+  {
+    "q": "Cho hai đường thẳng $d_1: y = 3x - 2$ và $d_2: y = 2x + 1$. Khẳng định nào sau đây đúng?",
+    "options": ["$d_1$ song song $d_2$", "$d_1$ trùng $d_2$", "$d_1$ cắt $d_2$", "$d_1$ vuông góc $d_2$"],
+    "answer": 2,
+    "explain": "Vì $a_1 (3) \\neq a_2 (2)$ nên hai đường thẳng cắt nhau."
+  },
+  {
+    "q": "Điểm nào sau đây thuộc đồ thị hàm số $y = 3x - 2$?",
+    "options": ["$(1; 1)$", "$(0; 2)$", "$(2; 3)$", "$(1; -2)$"],
+    "answer": 0,
+    "explain": "Thay $x = 1$ vào ta có $y = 3(1) - 2 = 1$."
+  },
+  {
+    "q": "Đường thẳng song song với $y = -4x + 1$ và đi qua điểm $(0; 5)$ có phương trình là:",
+    "options": ["$y = 4x + 5$", "$y = -4x + 5$", "$y = -4x - 5$", "$y = x + 5$"],
+    "answer": 1,
+    "explain": "Song song nên $a = -4$, đi qua $(0; 5)$ nên $b = 5$."
+  },
+  {
+    "q": "Hệ số góc của đường thẳng đi qua hai điểm $A(0; 3)$ và $B(1; 5)$ là:",
+    "options": ["$a = 3$", "$a = 5$", "$a = 2$", "$a = -2$"],
+    "answer": 2,
+    "explain": "Thay vào $y = ax + b$: $3 = a(0) + b \\Rightarrow b=3$; $5 = a(1) + 3 \\Rightarrow a=2$."
+  },
+  {
+    "q": "Gieo một con xúc xắc 6 mặt. Số kết quả có thể xảy ra là:",
+    "options": ["1", "6", "12", "36"],
+    "answer": 1,
+    "explain": "Các mặt của xúc xắc là {1; 2; 3; 4; 5; 6}."
+  },
+  {
+    "q": "Một hộp có 10 tấm thẻ từ 1 đến 10. Số kết quả thuận lợi cho biến cố 'Rút được thẻ là số nguyên tố' là:",
+    "options": ["3", "4", "5", "6"],
+    "answer": 1,
+    "explain": "Các số nguyên tố là {2; 3; 5; 7}."
+  },
+  {
+    "q": "Trong hộp có 10 thẻ, rút ngẫu nhiên 1 thẻ. Số kết quả thuận lợi cho biến cố 'Rút được số là số chính phương' là:",
+    "options": ["2", "3", "4", "1"],
+    "answer": 1,
+    "explain": "Các số chính phương từ 1 đến 10 là {1; 4; 9}."
+  },
+  {
+    "q": "Xác suất của biến cố 'Rút được số chính phương' trong 10 thẻ (từ 1-10) là:",
+    "options": ["0,3", "0,2", "0,4", "0,1"],
+    "answer": 0,
+    "explain": "$P = 3/10 = 0,3$."
+  },
+  {
+    "q": "Hệ số góc của đường thẳng $y = 7x - 3$ là:",
+    "options": ["7", "-3", "3", "-7"],
+    "answer": 0,
+    "explain": "Hệ số góc là giá trị của $a$ trong $y = ax + b$."
+  },
+  {
+    "q": "Kiểm tra 500 sản phẩm thấy 10 sản phẩm lỗi. Dự đoán số sản phẩm lỗi trong 2000 sản phẩm là:",
+    "options": ["20", "40", "50", "100"],
+    "answer": 1,
+    "explain": "Tỉ lệ lỗi $10/500 = 1/50$. Số lỗi dự đoán: $2000 \\cdot (1/50) = 40$."
+  },
+  {
+    "q": "Cho $\\Delta ABC$ vuông tại A, $AB = 9cm, AC = 12cm$. Độ dài cạnh $BC$ là:",
+    "options": ["15cm", "21cm", "13cm", "17cm"],
+    "answer": 0,
+    "explain": "$BC^2 = 9^2 + 12^2 = 81 + 144 = 225 \\Rightarrow BC = 15$."
+  },
+  {
+    "q": "Hình chóp tam giác đều có cạnh đáy $10cm$, trung đoạn $15cm$. Diện tích xung quanh là:",
+    "options": ["150 $cm^2$", "225 $cm^2$", "450 $cm^2$", "300 $cm^2$"],
+    "answer": 1,
+    "explain": "$S_{xq} = p \\cdot d = ( (10 \\cdot 3) / 2 ) \\cdot 15 = 15 \\cdot 15 = 225$."
+  },
+  {
+    "q": "Bài toán: Cô An đầu tư 400 triệu vào 2 khoản. Khoản 1 lãi 7%/năm, khoản 2 lãi 5%/năm. Tổng lãi 1 năm là 24 triệu. Bước 1: Gọi $x$ (triệu) là số tiền đầu tư khoản 1. Điều kiện của $x$ là:",
+    "options": ["$x > 400$", "$0 < x < 400$", "$x < 0$", "$x = 400$"],
+    "answer": 1,
+    "explain": "Số tiền đầu tư phải dương và nhỏ hơn tổng vốn."
+  },
+  {
+    "q": "Câu 1. Trong các biểu thức sau, biểu thức nào là phân thức đại số?",
+    "options": ["$\\frac{2x+1}{x-3}$", "$\\sqrt{x+1}$", "$\\frac{x^2+1}{0}$", "$3x^2 - \\sqrt{y}$"],
+    "answer": 0,
+    "explain": "Phân thức đại số có dạng A/B với A, B là các đa thức và B khác đa thức 0."
+  },
+  {
+    "q": "Câu 2. Phân thức $\\frac{x-y}{3x}$ bằng phân thức nào sau đây?",
+    "options": ["$\\frac{y-x}{3x}$", "$\\frac{x-y}{-3x}$", "$\\frac{2x-2y}{6x}$", "$\\frac{x^2-y^2}{3x^2}$"],
+    "answer": 2,
+    "explain": "Nhân cả tử và mẫu của phân thức với 2 ta được phân thức mới bằng phân thức đã cho."
+  },
+  {
+    "q": "Câu 3. Phương trình nào sau đây **không phải** là phương trình bậc nhất một ẩn?",
+    "options": ["$3x - 2 = 0$", "$1 - 5x = 0$", "$x^2 + 2 = 0$", "$\\frac{1}{2}x + 4 = 0$"],
+    "answer": 2,
+    "explain": "Phương trình bậc nhất một ẩn có dạng ax + b = 0 (a ≠ 0). Phương trình $x^2 + 2 = 0$ là phương trình bậc hai."
+  },
+  {
+    "q": "Câu 4. Giá trị $x = -2$ là nghiệm của phương trình nào sau đây?",
+    "options": ["$x + 2 = 0$", "$x - 2 = 0$", "$2x + 1 = 0$", "$3x - 6 = 0$"],
+    "answer": 0,
+    "explain": "Thay $x = -2$ vào phương trình $x + 2 = 0$ ta được $-2 + 2 = 0$ (đúng)."
+  },
+  {
+    "q": "Câu 5. Trong các hàm số sau, hàm số nào là hàm số bậc nhất?",
+    "options": ["$y = \\frac{2}{x} + 1$", "$y = 3x - 5$", "$y = x^2 - 1$", "$y = 0x + 4$"],
+    "answer": 1,
+    "explain": "Hàm số bậc nhất có dạng y = ax + b (a ≠ 0)."
+  },
+  {
+    "q": "Câu 6. Đường thẳng $y = 2x - 4$ cắt trục tung tại điểm $A$ có tọa độ là:",
+    "options": ["$A(0; -4)$", "$A(0; 4)$", "$A(2; 0)$", "$A(-4; 0)$"],
+    "answer": 0,
+    "explain": "Giao điểm với trục tung có hoành độ $x = 0$, thay vào hàm số ta được $y = -4$."
+  },
+  {
+    "q": "Câu 7. Một tổ học sinh có 4 bạn nam và 6 bạn nữ. Chọn ngẫu nhiên một bạn. Số kết quả có thể xảy ra là:",
+    "options": ["4", "6", "10", "24"],
+    "answer": 2,
+    "explain": "Tổng số học sinh là $4 + 6 = 10$, nên có 10 kết quả có thể xảy ra."
+  },
+  {
+    "q": "Câu 8. Một hộp có 12 viên bi gồm 4 bi đỏ, 3 bi xanh và 5 bi vàng. Biến cố 'Lấy được viên bi xanh' có số kết quả thuận lợi là:",
+    "options": ["12", "4", "3", "5"],
+    "answer": 2,
+    "explain": "Có 3 viên bi xanh nên có 3 kết quả thuận lợi cho biến cố này."
+  },
+  {
+    "q": "Câu 9. Khẳng định nào sau đây là **sai**?",
+    "options": ["Hai tam giác bằng nhau thì đồng dạng.", "Hai tam giác đồng dạng thì bằng nhau.", "Hai tam giác đều luôn đồng dạng.", "Hai tam giác vuông cân luôn đồng dạng."],
+    "answer": 1,
+    "explain": "Hai tam giác đồng dạng chỉ có các góc bằng nhau và các cạnh tỉ lệ, chưa chắc đã bằng nhau."
+  },
+  {
+    "q": "Câu 10. Cho $\\Delta ABC \\sim \\Delta DEF$. Khẳng định nào sau đây đúng?",
+    "options": ["$\\frac{AB}{DE} = \\frac{BC}{EF}$", "$\\frac{AB}{DF} = \\frac{BC}{EF}$", "$\\widehat{A} = \\widehat{E}$", "$\\widehat{B} = \\widehat{F}$"],
+    "answer": 0,
+    "explain": "Các cạnh tương ứng của hai tam giác đồng dạng lập thành các tỉ số bằng nhau."
+  },
+  {
+    "q": "Câu 11. Công thức tính diện tích xung quanh của hình chóp tam giác đều là $S_{xq} = p.d$. Trong đó $d$ là:",
+    "options": ["Đường cao của hình chóp", "Trung đoạn của hình chóp", "Cạnh đáy", "Chu vi đáy"],
+    "answer": 1,
+    "explain": "Trong công thức tính diện tích xung quanh hình chóp đều, d là độ dài trung đoạn."
+  },
+  {
+    "q": "Câu 12. Các mặt bên của hình chóp tứ giác đều là:",
+    "options": ["Hình chữ nhật", "Hình vuông", "Các tam giác cân bằng nhau", "Các tam giác vuông bằng nhau"],
+    "answer": 2,
+    "explain": "Hình chóp tứ giác đều có các mặt bên là các tam giác cân chung đỉnh."
+  },
+  {
+    "q": "Câu 13. Cho đường thẳng $d_1: y = 2x + 1$ và $d_2: y = x + 3$. Khẳng định nào đúng về vị trí tương đối của hai đường thẳng?",
+    "options": ["Song song", "Trùng nhau", "Cắt nhau", "Vuông góc"],
+    "answer": 2,
+    "explain": "Vì $a_1 \\ne a_2$ ($2 \\ne 1$) nên hai đường thẳng cắt nhau."
+  },
+  {
+    "q": "Câu 14. Điểm nào sau đây thuộc đồ thị hàm số $y = 3x - 2$?",
+    "options": ["(1; 1)", "(0; 2)", "(2; 3)", "(-1; 1)"],
+    "answer": 0,
+    "explain": "Thay $x = 1$ vào ta có $y = 3(1) - 2 = 1$. Vậy điểm (1; 1) thuộc đồ thị."
+  },
+  {
+    "q": "Câu 15. Đường thẳng đi qua điểm $A(0; 2)$ và song song với đường thẳng $y = -x + 5$ có phương trình là:",
+    "options": ["$y = x + 2$", "$y = -x - 2$", "$y = -x + 2$", "$y = 2x - 1$"],
+    "answer": 2,
+    "explain": "Song song nên $a = -1$, đi qua $A(0; 2)$ nên $b = 2$. Phương trình là $y = -x + 2$."
+  },
+  {
+    "q": "Câu 16. Hệ số góc của đường thẳng $y = 5x - 7$ là:",
+    "options": ["7", "-7", "5", "x"],
+    "answer": 2,
+    "explain": "Hệ số góc của đường thẳng $y = ax + b$ là $a$."
+  },
+  {
+    "q": "Câu 17. Gieo một con xúc xắc cân đối. Số kết quả có thể xảy ra là:",
+    "options": ["1", "2", "6", "12"],
+    "answer": 2,
+    "explain": "Xúc xắc có 6 mặt tương ứng với các số từ 1 đến 6."
+  },
+  {
+    "q": "Câu 18. Một túi đựng 20 viên bi đánh số từ 1 đến 20. Số kết quả thuận lợi cho biến cố 'Lấy được viên bi ghi số chia hết cho 5' là:",
+    "options": ["2", "4", "5", "10"],
+    "answer": 1,
+    "explain": "Các số chia hết cho 5 là: 5, 10, 15, 20. Có 4 kết quả thuận lợi."
+  },
+  {
+    "q": "Câu 19. Trong phép thử rút ngẫu nhiên 1 thẻ từ hộp 10 thẻ đánh số từ 1 đến 10, số kết quả thuận lợi cho biến cố 'Rút được số chính phương' là:",
+    "options": ["2", "3", "4", "5"],
+    "answer": 1,
+    "explain": "Các số chính phương từ 1 đến 10 là: 1, 4, 9. Có 3 kết quả thuận lợi."
+  },
+  {
+    "q": "Câu 20. Xác suất của biến cố 'Gieo con xúc xắc xuất hiện mặt 7 chấm' là:",
+    "options": ["0", "1", "1/6", "1/2"],
+    "answer": 0,
+    "explain": "Đây là biến cố không thể vì xúc xắc chỉ có tối đa 6 chấm."
+  },
+  {
+    "q": "Câu 21. Hệ số góc của đường thẳng đi qua hai điểm $A(0; 3)$ và $B(1; 5)$ là:",
+    "options": ["2", "3", "5", "8"],
+    "answer": 0,
+    "explain": "Hệ số góc $a = \\frac{y_2 - y_1}{x_2 - x_1} = \\frac{5 - 3}{1 - 0} = 2$."
+  },
+  {
+    "q": "Câu 22. Một xưởng sản xuất kiểm tra 500 sản phẩm và thấy 10 sản phẩm lỗi. Dự đoán số sản phẩm lỗi trong lô 2000 sản phẩm là:",
+    "options": ["20", "40", "50", "100"],
+    "answer": 1,
+    "explain": "Tỉ lệ lỗi là $10/500 = 1/50$. Trong 2000 sản phẩm sẽ có khoảng $2000 \\times (1/50) = 40$ lỗi."
+  },
+  {
+    "q": "Câu 23. Cho $\\Delta ABC$ vuông tại $A$ có $AB = 6cm, AC = 8cm$. Độ dài cạnh $BC$ là:",
+    "options": ["10 cm", "14 cm", "7 cm", "12 cm"],
+    "answer": 0,
+    "explain": "Áp dụng định lý Pythagore: $BC^2 = 6^2 + 8^2 = 100 \\Rightarrow BC = 10$."
+  },
+  {
+    "q": "Câu 24. Hình chóp tam giác đều có cạnh đáy bằng $6cm$, trung đoạn bằng $10cm$. Diện tích xung quanh là:",
+    "options": ["60 $cm^2$", "90 $cm^2$", "180 $cm^2$", "120 $cm^2$"],
+    "answer": 1,
+    "explain": "$S_{xq} = p.d = (6 \\times 3 / 2) \\times 10 = 90$."
+  },
+  {
+    "q": "Câu 25. Cô An đầu tư 200 triệu đồng vào hai loại trái phiếu: lãi suất 8%/năm và 6%/năm. Tổng lãi một năm là 15 triệu. Số tiền đầu tư vào loại 8% là:",
+    "options": ["100 triệu", "120 triệu", "150 triệu", "80 triệu"],
+    "answer": 2,
+    "explain": "Gọi x là tiền đầu tư 8%. Ta có: $0,08x + 0,06(200-x) = 15 \\Rightarrow 0,02x = 3 \\Rightarrow x = 150$."
+  },
+  {
+    "q": "Câu 26. Một cửa hàng bán hai loại gạo: gạo tám thơm giá 18.000đ/kg và gạo nếp giá 25.000đ/kg. Một khách mua tổng cộng 10kg hết 201.000đ. Số kg gạo nếp là:",
+    "options": ["3 kg", "4 kg", "5 kg", "6 kg"],
+    "answer": 0,
+    "explain": "Gọi x là gạo nếp. $25x + 18(10-x) = 201 \\Rightarrow 7x = 21 \\Rightarrow x = 3$."
+  },
+  {
+    "q": "Câu 27. Một mảnh vườn hình chữ nhật có chu vi 40m. Chiều dài hơn chiều rộng 4m. Diện tích mảnh vườn là:",
+    "options": ["96 $m^2$", "84 $m^2$", "100 $m^2$", "72 $m^2$"],
+    "answer": 0,
+    "explain": "Nửa chu vi là 20. Chiều dài: $(20+4)/2 = 12$. Chiều rộng: 8. Diện tích $12 \\times 8 = 96$."
+  },
+  {
+    "q": "Câu 28. Cho $\\Delta ABC \\sim \\Delta A'B'C'$ với tỉ số đồng dạng $k = 2$. Nếu diện tích $\\Delta ABC$ là 20 $cm^2$ thì diện tích $\\Delta A'B'C'$ là:",
+    "options": ["40 $cm^2$", "10 $cm^2$", "5 $cm^2$", "80 $cm^2$"],
+    "answer": 2,
+    "explain": "Tỉ số diện tích bằng bình phương tỉ số đồng dạng. $S/S' = k^2 = 4 \\Rightarrow S' = 20/4 = 5$."
+  },
+  {
+    "q": "Câu 29. Một cột cờ cao 5m có bóng dài 2m. Cùng lúc đó, một tòa nhà có bóng dài 12m. Chiều cao tòa nhà là:",
+    "options": ["24m", "30m", "15m", "20m"],
+    "answer": 1,
+    "explain": "Sử dụng tỉ số đồng dạng: $h/12 = 5/2 \\Rightarrow h = 30$."
+  },
+  {
+    "q": "Câu 30. Một thang dài 5m dựa vào tường. Chân thang cách tường 3m. Chiều cao thang chạm tới trên tường là:",
+    "options": ["4m", "2m", "4,5m", "3,5m"],
+    "answer": 0,
+    "explain": "Áp dụng định lý Pythagore: $h^2 = 5^2 - 3^2 = 16 \\Rightarrow h = 4$."
+  },
+  {
+    "q": "Câu 31. Cho hình chữ nhật $ABCD$ có $AB = 4, BC = 3$. Độ dài đường chéo $AC$ là:",
+    "options": ["5", "7", "6", "10"],
+    "answer": 0,
+    "explain": "$AC = \\sqrt{4^2 + 3^2} = 5$."
+  },
+  {
+    "q": "Câu 32. Cho $\\Delta ABC$ vuông tại $A$, đường cao $AH$. Khẳng định nào sau đây đúng?",
+    "options": ["$\\Delta HBA \\sim \\Delta ABC$", "$\\Delta HBA \\sim \\Delta HAC$", "Cả A và B đều đúng", "Cả A và B đều sai"],
+    "answer": 2,
+    "explain": "Trong tam giác vuông, đường cao hạ từ đỉnh góc vuông tạo ra hai tam giác vuông mới đồng dạng với nhau và đồng dạng với tam giác ban đầu."
+  },
+  {
+    "q": "Câu 33. Nếu $\\Delta ABC \\sim \\Delta DEF$ và $\\Delta DEF \\sim \\Delta MNP$ thì:",
+    "options": ["$\\Delta ABC \\sim \\Delta MNP$", "$\\Delta ABC = \\Delta MNP$", "$\\Delta ABC$ không liên quan đến $\\Delta MNP$", "$\\Delta ABC$ phụ với $\\Delta MNP$"],
+    "answer": 0,
+    "explain": "Tính chất bắc cầu của tam giác đồng dạng."
+  },
+  {
+    "q": "Câu 34. Cho tam giác $ABC$ có $AD$ là phân giác. Tỉ số nào sau đây là đúng?",
+    "options": ["$\\frac{DB}{DC} = \\frac{AB}{AC}$", "$\\frac{DB}{AB} = \\frac{DC}{AC}$", "Cả A và B đều đúng", "$\\frac{DB}{DC} = \\frac{AC}{AB}$"],
+    "answer": 2,
+    "explain": "Tính chất đường phân giác trong tam giác."
+  },
+  {
+    "q": "Câu 35. Một kim tự tháp dạng hình chóp tứ giác đều có cạnh đáy 20m, chiều cao 15m. Thể tích kim tự tháp là:",
+    "options": ["2000 $m^3$", "6000 $m^3$", "3000 $m^3$", "4500 $m^3$"],
+    "answer": 0,
+    "explain": "$V = \\frac{1}{3} S_{đáy} . h = \\frac{1}{3} \\times 20^2 \\times 15 = 2000$."
+  },
+  {
+    "q": "Câu 36. Một người đi xe đạp từ A đến B với vận tốc 12km/h, rồi quay về với vận tốc 15km/h. Tổng thời gian đi và về là 9 giờ. Quãng đường AB dài:",
+    "options": ["60km", "54km", "45km", "50km"],
+    "answer": 0,
+    "explain": "$x/12 + x/15 = 9 \\Rightarrow 9x/60 = 9 \\Rightarrow x = 60$."
+  },
+  {
+    "q": "Câu 37. Giá trị của phân thức $\\frac{x+2}{x-1}$ tại $x = 2$ là:",
+    "options": ["4", "1", "0", "2"],
+    "answer": 0,
+    "explain": "$(2+2)/(2-1) = 4$."
+  },
+  {
+    "q": "Câu 38. Điều kiện xác định của phân thức $\\frac{1}{x^2-4}$ là:",
+    "options": ["$x \\ne 2$", "$x \\ne -2$", "$x \\ne 2$ và $x \\ne -2$", "$x \\ne 4$"],
+    "answer": 2,
+    "explain": "Mẫu thức $x^2 - 4 \\ne 0 \\Rightarrow (x-2)(x+2) \\ne 0$."
+  },
+  {
+    "q": "Câu 39. Kết quả phép cộng $\\frac{1}{x} + \\frac{1}{x+1}$ là:",
+    "options": ["$\\frac{2}{2x+1}$", "$\\frac{2x+1}{x(x+1)}$", "$\\frac{1}{x(x+1)}$", "$\\frac{2}{x(x+1)}$"],
+    "answer": 1,
+    "explain": "Quy đồng mẫu thức: $\\frac{x+1 + x}{x(x+1)} = \\frac{2x+1}{x(x+1)}$."
+  },
+  {
+    "q": "Câu 40. Trong mặt phẳng tọa độ $Oxy$, điểm nằm trên trục hoành có tọa độ dạng:",
+    "options": ["(0; y)", "(x; 0)", "(x; x)", "(y; y)"],
+    "answer": 1,
+    "explain": "Điểm trên trục hoành có tung độ bằng 0."
+  },
+  {
+    "q": "Câu 41. Hàm số $y = (m-1)x + 3$ là hàm số bậc nhất khi:",
+    "options": ["$m \\ne 1$", "$m = 1$", "$m > 1$", "$m \\ne 0$"],
+    "answer": 0,
+    "explain": "Hệ số $a \\ne 0 \\Rightarrow m - 1 \\ne 0$."
+  },
+  {
+    "q": "Câu 42. Đường thẳng $y = -2x + 1$ song song với đường thẳng nào?",
+    "options": ["$y = 2x + 1$", "$y = -2x + 5$", "$y = x - 2$", "$y = -x + 1$"],
+    "answer": 1,
+    "explain": "Hai đường thẳng song song có cùng hệ số góc $a$ và $b \\ne b'$."
+  },
+  {
+    "q": "Câu 43. Một tòa nhà cao 10 tầng, mỗi tầng cao 3,2m. Một cây cọc cao 2m có bóng 0,5m. Bóng của tòa nhà dài bao nhiêu?",
+    "options": ["8m", "10m", "12,8m", "6,4m"],
+    "answer": 0,
+    "explain": "Chiều cao nhà: 32m. Tỉ lệ: $32/x = 2/0,5 \\Rightarrow 4x = 32 \\Rightarrow x = 8$."
+  },
+  {
+    "q": "Câu 44. Cho $\\Delta ABC$ có $AB=3, AC=4, BC=5$. $\\Delta A'B'C' \\sim \\Delta ABC$ có chu vi bằng 24. Cạnh dài nhất của $\\Delta A'B'C'$ là:",
+    "options": ["10", "12", "8", "6"],
+    "answer": 0,
+    "explain": "Chu vi $\\Delta ABC = 12$. Tỉ số đồng dạng $k = 24/12 = 2$. Cạnh dài nhất: $5 \\times 2 = 10$."
+  },
+  {
+    "q": "Câu 45. Hình chóp tứ giác đều có diện tích đáy 16 $cm^2$, chiều cao 6cm. Thể tích là:",
+    "options": ["32 $cm^3$", "96 $cm^3$", "48 $cm^3$", "16 $cm^3$"],
+    "answer": 0,
+    "explain": "$V = \\frac{1}{3} \\times 16 \\times 6 = 32$."
+  },
+  {
+    "q": "Câu 46. Gieo một đồng xu 50 lần, thấy có 28 lần xuất hiện mặt ngửa. Xác suất thực nghiệm của biến cố 'Mặt sấp xuất hiện' là:",
+    "options": ["0,56", "0,44", "0,28", "0,22"],
+    "answer": 1,
+    "explain": "Số lần sấp: $50 - 28 = 22$. Xác suất: $22/50 = 0,44$."
+  },
+  {
+    "q": "Câu 47. Phân thức đối của phân thức $\\frac{x-1}{x+1}$ là:",
+    "options": ["$\\frac{1-x}{x+1}$", "$\\frac{x-1}{-x-1}$", "$\\frac{x+1}{x-1}$", "Cả A và B đúng"],
+    "answer": 3,
+    "explain": "Phân thức đối có dấu trừ phía trước, có thể đưa vào tử hoặc mẫu."
+  },
+  {
+    "q": "Câu 48. Đồ thị hàm số $y = ax$ đi qua điểm $M(1; -2)$. Giá trị của $a$ là:",
+    "options": ["-2", "2", "-1/2", "1/2"],
+    "answer": 0,
+    "explain": "Thay $x=1, y=-2$ vào ta có $-2 = a(1)$."
+  },
+  {
+    "q": "Câu 49. Cho $\\Delta ABC$ đồng dạng $\\Delta MNP$ theo tỉ số $k = 1/3$. Chu vi $\\Delta ABC$ là 12. Chu vi $\\Delta MNP$ là:",
+    "options": ["4", "36", "12", "15"],
+    "answer": 1,
+    "explain": "$C_{ABC}/C_{MNP} = 1/3 \\Rightarrow C_{MNP} = 12 \\times 3 = 36$."
+  },
+  {
+    "q": "Câu 50. Tổng số tiền lãi từ hai khoản đầu tư là 20 triệu. Khoản A lãi 10%/năm, khoản B lãi 15%/năm. Nếu tổng vốn là 150 triệu, tiền đầu tư khoản B là:",
+    "options": ["100 triệu", "50 triệu", "75 triệu", "60 triệu"],
+    "answer": 0,
+    "explain": "$0,1(150-x) + 0,15x = 20 \\Rightarrow 0,05x = 5 \\Rightarrow x = 100$."
+  },
+  {
+    "q": "Câu 51. Trong tam giác vuông, bình phương cạnh huyền bằng:",
+    "options": ["Tổng bình phương hai cạnh góc vuông", "Hiệu bình phương hai cạnh góc vuông", "Tổng hai cạnh góc vuông", "Tích hai cạnh góc vuông"],
+    "answer": 0,
+    "explain": "Định lý Pythagore."
+  },
+  {
+    "q": "Câu 52. Hình đồng dạng phối cảnh là hình:",
+    "options": ["Phóng to hoặc thu nhỏ của nhau", "Luôn bằng nhau", "Có các góc khác nhau", "Có diện tích bằng nhau"],
+    "answer": 0,
+    "explain": "Khái niệm hình đồng dạng."
+  },
+  {
+    "q": "Câu 53. Cho phương trình $2x + m = x - 1$. Với $x = 3$, giá trị của $m$ là:",
+    "options": ["-4", "4", "-2", "2"],
+    "answer": 0,
+    "explain": "Thay $x=3$: $6 + m = 3 - 1 \\Rightarrow m = -4$."
+  },
+  {
+    "q": "Câu 54. Hàm số $y = f(x) = 2x^2 + 1$. Giá trị $f(-1)$ là:",
+    "options": ["3", "1", "-1", "-2"],
+    "answer": 0,
+    "explain": "$2(-1)^2 + 1 = 3$."
+  },
+  {
+    "q": "Câu 55. Một hộp sữa hình chóp tứ giác đều có cạnh đáy 10cm, chiều cao 12cm. Dung tích hộp sữa là:",
+    "options": ["400 $ml$", "1200 $ml$", "100 $ml$", "600 $ml$"],
+    "answer": 0,
+    "explain": "$V = \\frac{1}{3} \\times 100 \\times 12 = 400$ $cm^3$ = 400 $ml$."
+  },
+  {
+    "q": "Câu 56. Tỉ số của hai đoạn thẳng $AB = 2m$ và $CD = 10cm$ là:",
+    "options": ["1/5", "20", "2", "5"],
+    "answer": 1,
+    "explain": "Đổi 2m = 200cm. Tỉ số $200/10 = 20$."
+  },
+  {
+    "q": "Câu 57. Phân thức $\\frac{x^2-1}{x-1}$ rút gọn thành:",
+    "options": ["$x-1$", "$x+1$", "$1$", "$x$"],
+    "answer": 1,
+    "explain": "$(x-1)(x+1)/(x-1) = x+1$."
+  },
+  {
+    "q": "Câu 58. Một chiếc đèn lồng hình chóp tam giác đều có tất cả các cạnh bằng 10cm. Diện tích giấy dán 3 mặt bên là (làm tròn đến hàng đơn vị, biết $\\sqrt{75} \\approx 8,66$):",
+    "options": ["130 $cm^2$", "150 $cm^2$", "100 $cm^2$", "200 $cm^2$"],
+    "answer": 0,
+    "explain": "Mặt bên là tam giác đều cạnh 10. $S = 3 \\times (1/2 \\times 10 \\times 8,66) \\approx 130$."
+  },
+  {
+    "q": "Câu 59. Tìm x biết $x/2 + x/3 = 10$:",
+    "options": ["12", "10", "6", "15"],
+    "answer": 0,
+    "explain": "$5x/6 = 10 \\Rightarrow 5x = 60 \\Rightarrow x = 12$."
+  },
+  {
+    "q": "Câu 60. Đường thẳng $y = ax + b$ song song với $y = 3x$ và đi qua $M(1; 5)$. Tổng $a + b$ bằng:",
+    "options": ["5", "3", "2", "4"],
+    "answer": 0,
+    "explain": "$a = 3$. Thay vào: $5 = 3(1) + b \\Rightarrow b = 2$. Vậy $a + b = 5$."
+  }
+]
