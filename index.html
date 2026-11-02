@@ -1453,22 +1453,9 @@
       if (isSubmitted) return;
       hideCamWarningToast();
 
-      // Nếu đang ở chế độ Admin/GV kiểm tra
+      // Nếu đang ở chế độ Admin: Vô hiệu hóa tuyệt đối, không cảnh báo hay ngắt quãng
       if (isAdminMode) {
-        const doReset = confirm(
-          `🚨 [CẢNH BÁO VI PHẠM - CHẾ ĐỘ ADMIN/GV TEST]\n\n` +
-          `Hệ thống AI vừa phát hiện vi phạm quy chế:\n👉 "${reason}"\n\n` +
-          `• Đối với học sinh: Bài thi bị HỦY BỎ và tự động sinh bộ đề mới ngay lập tức.\n` +
-          `• Đối với Thầy (Admin): Đề đang được giữ lại để thầy kiểm tra tiếp.\n\n` +
-          `Thầy có muốn HỦY BÀI VÀ SINH BỘ ĐỀ MỚI NGAY LẬP TỨC để test thử tính năng này không?`
-        );
-        if (doReset) {
-          tabWarnings = 0;
-          faceLostCount = 0;
-          multiFaceCount = 0;
-          generateQuizQuestions();
-          alert("✅ Đã sinh bộ đề thi mới thành công!");
-        }
+        console.log(`[Admin Mode] Bỏ qua kiểm tra gian lận: ${reason}`);
         return;
       }
 
@@ -1509,7 +1496,12 @@
       if (savedLop && document.getElementById("lopSelect").querySelector(`option[value="${savedLop}"]`)) {
         document.getElementById("lopSelect").value = savedLop;
       }
-      if (savedName) {
+      // Hỗ trợ đăng nhập Admin qua URL param (vd: ?admin=1 hoặc ?role=admin)
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get("admin") === "1" || urlParams.get("role") === "admin" || urlParams.get("mode") === "admin") {
+        document.getElementById("hotenInput").value = "Admin";
+        validateStudentName();
+      } else if (savedName) {
         document.getElementById("hotenInput").value = savedName;
         validateStudentName();
       }
@@ -1651,13 +1643,26 @@
         return false;
       }
 
-      // ĐẶC QUYỀN GIÁO VIÊN / ADMIN TEST: Cho phép Nguyễn Văn Trị hoặc Admin vào làm bất kì bài nào
+      // ĐẶC QUYỀN GIÁO VIÊN / ADMIN: Mở khóa toàn bộ & VÔ HIỆU HÓA CÁC CHẾ ĐỘ KIỂM TRA GIAN LẬN
       const normName = normalizeVietnamese(rawName);
-      if (normName === "nguyen van tri" || normName === "admin" || normName === "nguyenvantri" || normName === "gv" || normName === "giao vien") {
+      const isAdminUser = (
+        normName === "admin" ||
+        normName.startsWith("admin ") ||
+        normName.startsWith("admin_") ||
+        normName === "quantri" ||
+        normName === "quan tri" ||
+        normName === "administrator" ||
+        normName === "nguyen van tri" ||
+        normName === "nguyenvantri" ||
+        normName === "gv" ||
+        normName === "giao vien" ||
+        normName === "giaovien"
+      );
+      if (isAdminUser) {
         isStudentVerified = true;
         isAdminMode = true;
         currentStudentData = { HoTen: rawName, MaHs: "ADMIN_TEST", Lop: lop || "GV_TEST" };
-        msgEl.innerHTML = "👑 <b>Chế độ Giáo viên / Admin Test:</b> Đã mở khóa quyền làm bài kiểm tra cho mọi môn và khối lớp!";
+        msgEl.innerHTML = "👑 <b>Chế độ Admin:</b> Đã mở khóa toàn quyền & <b>Vô hiệu hóa toàn bộ cơ chế kiểm tra gian lận</b>!";
         msgEl.style.color = "#7c3aed";
 
         const card = document.getElementById("siblingChallengeCard");
@@ -1665,6 +1670,12 @@
         siblingChallengePending = false;
         siblingChallengeResolved = true;
         siblingStatusTag = "ADMIN_TEST";
+
+        const camBadge = document.getElementById("camStatusBadge");
+        if (camBadge && !cameraReady) {
+          camBadge.textContent = "👑 Chế độ Admin: Không bắt buộc camera";
+          camBadge.style.background = "rgba(124,58,237,0.85)";
+        }
 
         checkCanStart();
         return true;
@@ -1887,9 +1898,15 @@
       } catch (err) {
         console.warn("Camera init error:", err);
         cameraReady = false;
-        badge.textContent = "❌ Vui lòng cấp quyền Camera để làm bài";
-        badge.style.background = "rgba(220,53,69,0.8)";
-        alert("Bạn bắt buộc phải cho phép Camera để làm bài kiểm tra!");
+        if (isAdminMode) {
+          badge.textContent = "👑 Chế độ Admin: Không bắt buộc camera";
+          badge.style.background = "rgba(124,58,237,0.85)";
+          checkCanStart();
+        } else {
+          badge.textContent = "❌ Vui lòng cấp quyền Camera để làm bài";
+          badge.style.background = "rgba(220,53,69,0.8)";
+          alert("Bạn bắt buộc phải cho phép Camera để làm bài kiểm tra!");
+        }
       }
     }
 
@@ -1919,6 +1936,7 @@
     }
 
     function showCamWarningToast(msg, isMulti = false) {
+      if (isAdminMode) return; // Vô hiệu hóa cảnh báo camera cho Admin
       const toast = document.getElementById("camWarningToast");
       const msgEl = document.getElementById("camWarningMsg");
       const iconEl = document.getElementById("camWarningIcon");
@@ -1936,11 +1954,31 @@
     }
 
     function startFaceMonitoring() {
+      // Vô hiệu hóa toàn bộ cơ chế giám sát mặt AI khi là Admin
+      if (isAdminMode) {
+        const dotEl = document.getElementById("headerCamDot");
+        const statusEl = document.getElementById("floatingCamStatus");
+        if (dotEl) {
+          dotEl.style.background = "#8b5cf6";
+          dotEl.title = "👑 Admin: Đã tắt giám sát chống gian lận";
+        }
+        if (statusEl) {
+          statusEl.textContent = "👑 Admin: Tắt giám sát";
+          statusEl.style.background = "rgba(124, 58, 237, 0.85)";
+        }
+        return;
+      }
+
       const video = document.getElementById("floatingCamVideo");
       const statusEl = document.getElementById("floatingCamStatus");
       if (!video || !window.faceapi) return;
 
       faceMonitorInterval = setInterval(async () => {
+        if (isAdminMode) {
+          clearInterval(faceMonitorInterval);
+          faceMonitorInterval = null;
+          return;
+        }
         if (isSubmitted || video.readyState < 2 || video.videoWidth === 0) return;
         try {
           const detections = await faceapi.detectAllFaces(
@@ -2038,8 +2076,9 @@
       }
     });
 
-    // Anti-cheat: tab switch detection (Mobile & Desktop)
+    // Anti-cheat: tab switch detection (Mobile & Desktop) - VÔ HIỆU HÓA KHI LÀ ADMIN
     document.addEventListener("visibilitychange", () => {
+      if (isAdminMode) return; // Admin được phép chuyển tab, chia sẻ màn hình thoải mái
       if (document.hidden && !isSubmitted && currentQuestions.length > 0) {
         tabWarnings++;
         if (tabWarnings < 2) {
@@ -2051,10 +2090,15 @@
       }
     });
 
-    // Disable shortcuts & right-click
-    document.addEventListener("contextmenu", e => e.preventDefault());
-    document.addEventListener("copy", e => e.preventDefault());
+    // Disable shortcuts & right-click (Mở khóa toàn bộ cho Admin kiểm tra)
+    document.addEventListener("contextmenu", e => {
+      if (!isAdminMode) e.preventDefault();
+    });
+    document.addEventListener("copy", e => {
+      if (!isAdminMode) e.preventDefault();
+    });
     document.addEventListener("keydown", e => {
+      if (isAdminMode) return;
       if (e.key === "F12" || (e.ctrlKey && e.shiftKey && e.key === "I") || (e.ctrlKey && e.key === "U")) {
         e.preventDefault();
       }
