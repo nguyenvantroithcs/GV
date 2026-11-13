@@ -1,0 +1,5420 @@
+{
+  "exam_info": {
+    "exam_id": "gk1_tin8_26_27",
+    "exam_title": "Kiểm Tra Giữa Học Kỳ I",
+    "subject": "Tin học 8",
+    "academic_year": "2026-2027",
+    "target_class": "8A7",
+    "max_score": 10.0,
+    "mcq_max": 7.0,
+    "essay_max": 3.0,
+    "official_key_p1": {
+      "C1": "A",
+      "C2": "C",
+      "C3": "B",
+      "C4": "B",
+      "C5": "C",
+      "C6": "D",
+      "C7": "C",
+      "C8": "B",
+      "C9": "B",
+      "C10": "C",
+      "C11": "C",
+      "C12": "B"
+    },
+    "official_key_p2": {
+      "13a": "S",
+      "13b": "Đ",
+      "13c": "Đ",
+      "13d": "Đ",
+      "14a": "S",
+      "14b": "Đ",
+      "14c": "Đ",
+      "14d": "S",
+      "15a": "S",
+      "15b": "Đ",
+      "15c": "Đ",
+      "15d": "Đ",
+      "16a": "S",
+      "16b": "Đ",
+      "16c": "S",
+      "16d": "Đ"
+    }
+  },
+  "students": [
+    {
+      "hs_id": "2410671199",
+      "student_name": "Nguyễn Văn Hải",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.0,
+      "max_score": 10.0,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.25,
+        "total_score": 5.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 13/16 ý đúng (3.25đ)",
+        "bubbles": [
+          {
+            "q": "C1",
+            "chosen": "A",
+            "key": "A",
+            "ok": true,
+            "x": 392,
+            "y": 477,
+            "has_bubble": true
+          },
+          {
+            "q": "C2",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 583,
+            "y": 550,
+            "has_bubble": true
+          },
+          {
+            "q": "C3",
+            "chosen": "D",
+            "key": "B",
+            "ok": false,
+            "x": 678,
+            "y": 622,
+            "has_bubble": true
+          },
+          {
+            "q": "C4",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 489,
+            "y": 694,
+            "has_bubble": true
+          },
+          {
+            "q": "C5",
+            "chosen": "D",
+            "key": "C",
+            "ok": false,
+            "x": 678,
+            "y": 765,
+            "has_bubble": true
+          },
+          {
+            "q": "C6",
+            "chosen": "D",
+            "key": "D",
+            "ok": true,
+            "x": 678,
+            "y": 840,
+            "has_bubble": true
+          },
+          {
+            "q": "C7",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 583,
+            "y": 915,
+            "has_bubble": true
+          },
+          {
+            "q": "C8",
+            "chosen": "A",
+            "key": "B",
+            "ok": false,
+            "x": 392,
+            "y": 988,
+            "has_bubble": true
+          },
+          {
+            "q": "C9",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 489,
+            "y": 1063,
+            "has_bubble": true
+          },
+          {
+            "q": "C10",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 583,
+            "y": 1137,
+            "has_bubble": true
+          },
+          {
+            "q": "C11",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 583,
+            "y": 1210,
+            "has_bubble": true
+          },
+          {
+            "q": "C12",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 489,
+            "y": 1285,
+            "has_bubble": true
+          },
+          {
+            "q": "13a",
+            "chosen": "Đ",
+            "key": "S",
+            "ok": false,
+            "x": 925,
+            "y": 477,
+            "has_bubble": true
+          },
+          {
+            "q": "13b",
+            "chosen": "S",
+            "key": "Đ",
+            "ok": false,
+            "x": 1020,
+            "y": 550,
+            "has_bubble": true
+          },
+          {
+            "q": "13c",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 925,
+            "y": 622,
+            "has_bubble": true
+          },
+          {
+            "q": "13d",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 925,
+            "y": 694,
+            "has_bubble": true
+          },
+          {
+            "q": "14a",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 1020,
+            "y": 765,
+            "has_bubble": true
+          },
+          {
+            "q": "14b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 925,
+            "y": 840,
+            "has_bubble": true
+          },
+          {
+            "q": "14c",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 925,
+            "y": 915,
+            "has_bubble": true
+          },
+          {
+            "q": "14d",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 1020,
+            "y": 988,
+            "has_bubble": true
+          },
+          {
+            "q": "15a",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 1020,
+            "y": 1063,
+            "has_bubble": true
+          },
+          {
+            "q": "15b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 925,
+            "y": 1137,
+            "has_bubble": true
+          },
+          {
+            "q": "15c",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 925,
+            "y": 1210,
+            "has_bubble": true
+          },
+          {
+            "q": "15d",
+            "chosen": "S",
+            "key": "Đ",
+            "ok": false,
+            "x": 1020,
+            "y": 1285,
+            "has_bubble": true
+          },
+          {
+            "q": "16a",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 1375,
+            "y": 477,
+            "has_bubble": true
+          },
+          {
+            "q": "16b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 1270,
+            "y": 550,
+            "has_bubble": true
+          },
+          {
+            "q": "16c",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 1375,
+            "y": 622,
+            "has_bubble": true
+          },
+          {
+            "q": "16d",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 1270,
+            "y": 694,
+            "has_bubble": true
+          }
+        ],
+        "p1_answers": {
+          "C1": "A",
+          "C2": "C",
+          "C3": "D",
+          "C4": "B",
+          "C5": "D",
+          "C6": "D",
+          "C7": "C",
+          "C8": "A",
+          "C9": "B",
+          "C10": "C",
+          "C11": "C",
+          "C12": "B"
+        },
+        "p2_answers": {
+          "13a": "Đ",
+          "13b": "S",
+          "13c": "Đ",
+          "13d": "Đ",
+          "14a": "S",
+          "14b": "Đ",
+          "14c": "Đ",
+          "14d": "S",
+          "15a": "S",
+          "15b": "Đ",
+          "15c": "Đ",
+          "15d": "S",
+          "16a": "S",
+          "16b": "Đ",
+          "16c": "S",
+          "16d": "Đ"
+        },
+        "p1_results": {
+          "C1": true,
+          "C2": true,
+          "C3": false,
+          "C4": true,
+          "C5": false,
+          "C6": true,
+          "C7": true,
+          "C8": false,
+          "C9": true,
+          "C10": true,
+          "C11": true,
+          "C12": true
+        },
+        "p2_results": {
+          "13a": false,
+          "13b": false,
+          "13c": true,
+          "13d": true,
+          "14a": true,
+          "14b": true,
+          "14c": true,
+          "14d": true,
+          "15a": true,
+          "15b": true,
+          "15c": true,
+          "15d": false,
+          "16a": true,
+          "16b": true,
+          "16c": true,
+          "16d": true
+        }
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 635,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ý 1: Tải bản lậu sản phẩm có bản quyền",
+              "y_norm": 690,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ý 2: Lấy ảnh người khác bôi nhọ/nói xấu",
+              "y_norm": 740,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ý 3: Lấy phần mềm ghi tên mình là tác giả",
+              "y_norm": 800,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ý 4: Đăng tin chưa xác thực lên mạng",
+              "y_norm": 850,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 880,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "note": "Nhầm 'hàng hoặc cột' (đúng: trước CẢ cột và hàng)",
+              "y_norm": 905,
+              "highlight_box": [
+                895,
+                480,
+                925,
+                715
+              ]
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "Ví dụ đúng $A$1 (0.25đ) + bù trừ 2 nửa ý (quy tắc $ & không đổi = 0.25đ)",
+              "y_norm": 955,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu giải thích địa chỉ tương đối",
+              "y_norm": 970,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 985,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (2 từ khóa & cách kiểm tra)",
+              "y_norm": 995,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 5.50/7.00đ (P.I: 9/12 câu = 2.25đ; P.II: 13/16 ý = 3.25đ). TL: 1.50/3.00đ. Câu 1 đúng 4/4 ý (1.0đ). Câu 2 đúng 0.5đ (bù trừ nửa ý), nhầm 'hàng hoặc cột'; thiếu 2b & C3.",
+      "graded_pages": [
+        "images/graded_exams/001_Bai_001_T1_085756_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672019",
+      "student_name": "Nguyễn Đinh Minh Thư",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.75,
+      "max_score": 10.0,
+      "essay_score": 2.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý đúng trọn vẹn (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 665,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ý 1: Tải nhạc/phim lậu không xin phép tác giả",
+              "y_norm": 690,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ý 2: Đăng video sai sự thật câu like",
+              "y_norm": 730,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ý 3: Dùng ảnh cá nhân chế nhạo/nói xấu",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ý 4: Tự ý lấy tài liệu khác nhận là của mình",
+              "y_norm": 800,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 160,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2a: Đúng phím F4, vị trí thêm dấu $ & ví dụ $C$2",
+              "y_norm": 180,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2b: So sánh chính xác địa chỉ tương đối & tuyệt đối",
+              "y_norm": 235,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.25,
+          "left_y_norm": 300,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đúng từ khóa tìm kiếm tin giả",
+              "y_norm": 320,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Bỏ dở, chưa nêu 2 cách kiểm tra độ tin cậy",
+              "y_norm": 355,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ (P.I 10/12, P.II 16/16 ý). TL: 2.25/3.00đ. Câu 1 (1.0đ) & Câu 2 (1.0đ) làm rất xuất sắc. Câu 3 (0.25đ) đúng từ khóa, bỏ dở 2 cách kiểm tra. Tổng: 8.75/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/002_Bai_002_T1_091539_DaCham.jpg",
+        "images/graded_exams/002_Bai_002_T2_091539_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671519",
+      "student_name": "Lưu Chí Vỹ",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.75,
+      "max_score": 10.0,
+      "essay_score": 0.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 3.0,
+        "p2_score": 4.0,
+        "total_score": 7.0,
+        "max_score": 7.0,
+        "wrong_note": "Trắc nghiệm tuyệt đối 7.00/7.00đ! (P.I: 12/12 câu, P.II: 16/16 ý)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 665,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải lậu sản phẩm có bản quyền",
+              "y_norm": 690,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép đĩa nhạc không xin phép tác giả",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sử dụng phần mềm bẻ khóa không bản quyền",
+              "y_norm": 760,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "note": "Nhầm lẫn 'ý kiến cá nhân' không phải vi phạm bản quyền",
+              "y_norm": 795,
+              "highlight_box": [
+                785,
+                200,
+                810,
+                600
+              ]
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 840,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (Địa chỉ tuyệt đối/tương đối & phím F4)",
+              "y_norm": 850,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 915,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (2 từ khóa & cách kiểm tra tin cậy)",
+              "y_norm": 925,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 7.00/7.00đ tuyệt đối (P.I 12/12, P.II 16/16 ý). TL: 0.75/3.00đ. Câu 1 đúng 3/4 ý (0.75đ), nhầm ý kiến cá nhân; Câu 2 & Câu 3 chưa làm. Tổng: 7.75/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/003_Bai_003_T1_095522_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671739",
+      "student_name": "Nguyễn Trần Ngọc Trân",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.0,
+      "max_score": 10.0,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.0,
+        "p2_score": 3.5,
+        "total_score": 5.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 8/12 (2.00đ) | P.II: 14/16 ý đúng (3.50đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 665,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng tải thông tin sai sự thật",
+              "y_norm": 690,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Dùng sản phẩm bản quyền không xin phép",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ghi âm lén cuộc nói chuyện",
+              "y_norm": 760,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén clip xúc phạm người khác",
+              "y_norm": 795,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 160,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu ý 2a (thao tác phím F4 và thêm ký hiệu $)",
+              "y_norm": 175,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "Đúng so sánh địa chỉ tuyệt đối & tương đối",
+              "y_norm": 230,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 320,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (2 từ khóa & cách kiểm tra)",
+              "y_norm": 335,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 5.50/7.00đ (P.I 8/12, P.II 14/16 ý). TL: 1.50/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 đúng ý so sánh 2b (0.50đ), thiếu 2a; Câu 3 chưa làm. Tổng: 7.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/004_Bai_004_T1_095714_DaCham.jpg",
+        "images/graded_exams/004_Bai_004_T2_095714_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672279",
+      "student_name": "Nguyễn Tấn Khôi",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 6.0,
+      "max_score": 10.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 2.75,
+        "total_score": 5.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 11/16 ý đúng (2.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 665,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lừa đảo chiếm đoạt tài sản qua mạng",
+              "y_norm": 690,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Chửi bới xúc phạm trên mạng",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải bài viết tác giả khác không xin phép",
+              "y_norm": 760,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu 1 ví dụ vi phạm bản quyền/đạo đức",
+              "y_norm": 795,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.25,
+          "left_y_norm": 160,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu ý 2a (phím F4 và cách thêm $)",
+              "y_norm": 175,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đúng tính chất tuyệt đối không đổi (+0.25đ; thiếu tương đối)",
+              "y_norm": 225,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 310,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3",
+              "y_norm": 325,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 5.00/7.00đ (P.I 9/12, P.II 11/16 ý). TL: 1.00/3.00đ. Câu 1 đúng 3 ví dụ (0.75đ). Câu 2 đúng nửa ý 2b (0.25đ), thiếu 2a; Câu 3 chưa làm. Tổng: 6.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/005_Bai_005_T1_095756_DaCham.jpg",
+        "images/graded_exams/005_Bai_005_T2_095756_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672379",
+      "student_name": "Trương Văn Chung",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 6.75,
+      "max_score": 10.0,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.0,
+        "p2_score": 3.5,
+        "total_score": 5.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 8/12 (2.00đ) | P.II: 14/16 ý đúng (3.50đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 665,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng video sai sự thật",
+              "y_norm": 690,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lăng mạ xúc phạm danh dự",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Bán thực phẩm chức năng lậu",
+              "y_norm": 760,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lừa đảo tiền qua không gian mạng",
+              "y_norm": 795,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 160,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "note": "Sai phương pháp chuyển đổi & nhầm lẫn địa chỉ",
+              "y_norm": 185,
+              "highlight_box": [
+                175,
+                180,
+                210,
+                680
+              ]
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.25,
+          "left_y_norm": 270,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đọc bài viết báo lớn (+0.25đ; thiếu từ khóa)",
+              "y_norm": 290,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 5.50/7.00đ (P.I 8/12, P.II 14/16 ý). TL: 1.25/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 sai kiến thức (0.00đ). Câu 3 đúng 1 ý kiểm tra nguồn (0.25đ). Tổng: 6.75/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/006_Bai_006_T1_095848_DaCham.jpg",
+        "images/graded_exams/006_Bai_006_T2_095848_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671879",
+      "student_name": "Phạm Thị Thanh Hiền",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.25,
+      "max_score": 10.0,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.5,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 14/16 ý đúng (3.50đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng tải thông tin sai sự thật lên mạng",
+              "y_norm": 675,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải bài trình chiếu người khác dùng như của mình",
+              "y_norm": 710,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Cố ý ghi âm trái phép các cuộc nói chuyện",
+              "y_norm": 745,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén và lan truyền clip bạo lực học đường",
+              "y_norm": 775,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 805,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu Câu 2a (chưa làm)",
+              "y_norm": 815,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu Câu 2b (chưa làm)",
+              "y_norm": 838,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 860,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Bỏ lửng, thiếu 2 từ khóa tìm kiếm",
+              "y_norm": 872,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Kiểm tra web đuôi .gov.vn của chính phủ (+0.25đ)",
+              "y_norm": 910,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Kiểm tra minh chứng và số liệu rõ ràng (+0.25đ)",
+              "y_norm": 945,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 1.50/3.00đ. Câu 1 đúng xuất sắc 4/4 ý (1.00đ). Câu 2 bỏ trống (0.00đ). Câu 3 đúng 2 cách kiểm tra (0.50đ), thiếu từ khóa. Tổng: 7.25/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/007_Bai_007_T1_095920_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672059",
+      "student_name": "Nguyễn Thị Hoàng Dung",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 9.75,
+      "max_score": 10.0,
+      "essay_score": 3.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 3.0,
+        "p2_score": 3.75,
+        "total_score": 6.75,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 12/12 (3.00đ) | P.II: 15/16 ý đúng (3.75đ)",
+        "bubbles": [
+          {
+            "q": "C1",
+            "chosen": "A",
+            "key": "A",
+            "ok": true,
+            "x": 343,
+            "y": 303,
+            "has_bubble": true
+          },
+          {
+            "q": "C2",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 538,
+            "y": 374,
+            "has_bubble": true
+          },
+          {
+            "q": "C3",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 439,
+            "y": 445,
+            "has_bubble": true
+          },
+          {
+            "q": "C4",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 439,
+            "y": 515,
+            "has_bubble": true
+          },
+          {
+            "q": "C5",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 538,
+            "y": 586,
+            "has_bubble": true
+          },
+          {
+            "q": "C6",
+            "chosen": "D",
+            "key": "D",
+            "ok": true,
+            "x": 635,
+            "y": 657,
+            "has_bubble": true
+          },
+          {
+            "q": "C7",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 538,
+            "y": 728,
+            "has_bubble": true
+          },
+          {
+            "q": "C8",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 439,
+            "y": 798,
+            "has_bubble": true
+          },
+          {
+            "q": "C9",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 439,
+            "y": 869,
+            "has_bubble": true
+          },
+          {
+            "q": "C10",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 538,
+            "y": 940,
+            "has_bubble": true
+          },
+          {
+            "q": "C11",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 538,
+            "y": 1011,
+            "has_bubble": true
+          },
+          {
+            "q": "C12",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 439,
+            "y": 1082,
+            "has_bubble": true
+          },
+          {
+            "q": "13a",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 982,
+            "y": 303,
+            "has_bubble": true
+          },
+          {
+            "q": "13b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 888,
+            "y": 374,
+            "has_bubble": true
+          },
+          {
+            "q": "13c",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 888,
+            "y": 445,
+            "has_bubble": true
+          },
+          {
+            "q": "13d",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 888,
+            "y": 515,
+            "has_bubble": true
+          },
+          {
+            "q": "14a",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 982,
+            "y": 586,
+            "has_bubble": true
+          },
+          {
+            "q": "14b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 888,
+            "y": 657,
+            "has_bubble": true
+          },
+          {
+            "q": "14c",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 888,
+            "y": 728,
+            "has_bubble": true
+          },
+          {
+            "q": "14d",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 982,
+            "y": 798,
+            "has_bubble": true
+          },
+          {
+            "q": "15a",
+            "chosen": "Đ",
+            "key": "S",
+            "ok": false,
+            "x": 888,
+            "y": 869,
+            "has_bubble": true
+          },
+          {
+            "q": "15b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 888,
+            "y": 940,
+            "has_bubble": true
+          },
+          {
+            "q": "15c",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 888,
+            "y": 1011,
+            "has_bubble": true
+          },
+          {
+            "q": "15d",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 888,
+            "y": 1082,
+            "has_bubble": true
+          },
+          {
+            "q": "16a",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 1344,
+            "y": 303,
+            "has_bubble": true
+          },
+          {
+            "q": "16b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 1257,
+            "y": 374,
+            "has_bubble": true
+          },
+          {
+            "q": "16c",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 1344,
+            "y": 445,
+            "has_bubble": true
+          },
+          {
+            "q": "16d",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 1257,
+            "y": 515,
+            "has_bubble": true
+          }
+        ],
+        "p1_answers": {
+          "C1": "A",
+          "C2": "C",
+          "C3": "B",
+          "C4": "B",
+          "C5": "C",
+          "C6": "D",
+          "C7": "C",
+          "C8": "B",
+          "C9": "B",
+          "C10": "C",
+          "C11": "C",
+          "C12": "B"
+        },
+        "p2_answers": {
+          "13a": "S",
+          "13b": "Đ",
+          "13c": "Đ",
+          "13d": "Đ",
+          "14a": "S",
+          "14b": "Đ",
+          "14c": "Đ",
+          "14d": "S",
+          "15a": "Đ",
+          "15b": "Đ",
+          "15c": "Đ",
+          "15d": "Đ",
+          "16a": "S",
+          "16b": "Đ",
+          "16c": "S",
+          "16d": "Đ"
+        },
+        "p1_results": {
+          "C1": true,
+          "C2": true,
+          "C3": true,
+          "C4": true,
+          "C5": true,
+          "C6": true,
+          "C7": true,
+          "C8": true,
+          "C9": true,
+          "C10": true,
+          "C11": true,
+          "C12": true
+        },
+        "p2_results": {
+          "13a": true,
+          "13b": true,
+          "13c": true,
+          "13d": true,
+          "14a": true,
+          "14b": true,
+          "14c": true,
+          "14d": true,
+          "15a": false,
+          "15b": true,
+          "15c": true,
+          "15d": true,
+          "16a": true,
+          "16b": true,
+          "16c": true,
+          "16d": true
+        }
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Chửi bới, lăng mạ hoặc hùa theo tẩy chay cá nhân",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tự ý quay chụp, đăng tin bảo mật người khác",
+              "y_norm": 740,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng tin sai sự thật câu tương tác",
+              "y_norm": 800,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép, đánh cắp nội dung nghệ thuật",
+              "y_norm": 860,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 45,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "Nhấn phím F4 tự động thêm dấu $ (ví dụ $C$2)",
+              "y_norm": 110,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối không đổi / tương đối thay đổi",
+              "y_norm": 280,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 500,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tìm kiếm: 'tin' và 'giả'",
+              "y_norm": 580,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: web chính phủ .gov & minh chứng số liệu",
+              "y_norm": 820,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 3.00/3.00đ tuyệt đối! Trình bày rất chuẩn, lập luận mạch lạc, nắm vững kiến thức F4, địa chỉ ô và nguồn tin số. Tổng: 8.75/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/008_Bai_008_T1_100013_DaCham.jpg",
+        "images/graded_exams/008_Bai_008_T2_100013_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2411532639",
+      "student_name": "Trần Ngọc Anh",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.5,
+      "max_score": 10.0,
+      "essay_score": 2.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.5,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 14/16 ý đúng (3.50đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Bạo lực không gian mạng: chửi bới, hùa tẩy chay",
+              "y_norm": 690,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Vi phạm quyền riêng tư: chụp quay chưa xin phép",
+              "y_norm": 745,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng tin đồn thất thiệt để câu tương tác",
+              "y_norm": 805,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Vi phạm bản quyền: dùng tác phẩm không xin phép",
+              "y_norm": 870,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 45,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Nêu đúng thao tác phím F4 và thêm ký hiệu $",
+              "y_norm": 85,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu ví dụ địa chỉ tuyệt đối (vd: $A$1)",
+              "y_norm": 135,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
+              "y_norm": 180,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 250,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa phù hợp: 'Tác hại' và 'tin giả'",
+              "y_norm": 280,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra tác giả/nguồn gốc và đối chiếu nhà nước",
+              "y_norm": 340,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 2.75/3.00đ. Câu 1 (1.00đ) & Câu 3 (1.00đ) xuất sắc; Câu 2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 8.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/009_Bai_009_T1_100126_DaCham.jpg",
+        "images/graded_exams/009_Bai_009_T2_100126_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671219",
+      "student_name": "Đặng Hải Hoàng",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.5,
+      "max_score": 10.0,
+      "essay_score": 1.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.5,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 14/16 ý đúng (3.50đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép thông tin sửa thành tên mình",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Bình luận thiếu tôn trọng",
+              "y_norm": 730,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng tải video chưa mua bản quyền",
+              "y_norm": 775,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng ảnh chụp lén không xin phép",
+              "y_norm": 820,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 880,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (Bỏ trống toàn bộ địa chỉ tuyệt đối & F4)",
+              "y_norm": 890,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 45,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cụm từ khóa tìm kiếm tin giả",
+              "y_norm": 65,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tìm hiểu trang web an toàn, rõ nguồn gốc xuất xứ (+0.25đ)",
+              "y_norm": 130,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu cách đối chiếu chuyên gia / báo chính thống",
+              "y_norm": 180,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 1.75/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 bỏ trống hoàn toàn (0.00đ). Câu 3 đúng từ khóa và 1 cách kiểm tra (0.75đ). Tổng: 7.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/010_Bai_010_T1_100228_DaCham.jpg",
+        "images/graded_exams/010_Bai_010_T2_100228_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672119",
+      "student_name": "Lê Xuân Ngọc Tiền",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.0,
+      "max_score": 10.0,
+      "essay_score": 2.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.0,
+        "total_score": 5.25,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 12/16 ý đúng (3.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 645,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Phát tán hình ảnh người khác chưa xin phép",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Dùng thông tin bản quyền không mua",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy thông tin mạng thay tên tác giả thành mình",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Phát tán thông tin sai sự thật lên mạng",
+              "y_norm": 810,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 840,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "note": "Nhầm phím 'Ctrl' (đúng: phím F4). Đúng dấu $ và ví dụ $F$2 (+0.25đ)",
+              "y_norm": 860,
+              "highlight_box": [
+                845,
+                450,
+                875,
+                490
+              ]
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "Đúng so sánh tuyệt đối không đổi / tương đối thay đổi",
+              "y_norm": 915,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 45,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cụm từ khóa tác hại & ảnh hưởng tin giả",
+              "y_norm": 75,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra web đáng tin cậy & cập nhật thời sự",
+              "y_norm": 150,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 5.25/7.00đ (P.I 9/12, P.II 12/16 ý). TL: 2.75/3.00đ. Câu 1 (1.00đ) & Câu 3 (1.00đ) trọn vẹn. Câu 2 (0.75đ) đúng bản chất dấu $ và so sánh 2b, nhầm phím Ctrl thay vì F4. Tổng: 8.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/011_Bai_011_T1_100343_DaCham.jpg",
+        "images/graded_exams/011_Bai_011_T2_100343_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672539",
+      "student_name": "Ngô Sỹ Trường Chinh",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.25,
+      "max_score": 10.0,
+      "essay_score": 2.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 2.75,
+        "total_score": 5.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 11/16 ý đúng (2.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Bôi nhọ nói xấu trên mạng",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tung tin đồn nhảm",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Bạo lực tinh thần, bạo lực học đường",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép tác phẩm có bản quyền",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 820,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "note": "Nhầm phím số 4 (đúng: nhấn F4). Đúng ký hiệu $ và ví dụ (0.25đ)",
+              "y_norm": 840,
+              "highlight_box": [
+                835,
+                450,
+                860,
+                530
+              ]
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối không đổi / tương đối thay đổi",
+              "y_norm": 890,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 925,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu 2 từ khóa cụ thể ('tin giả')",
+              "y_norm": 935,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "Đúng cách tra cứu nguồn uy tín từ sách vở và thầy cô",
+              "y_norm": 965,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 5.00/7.00đ. TL: 2.25/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh (0.75đ), nhầm phím số 4 thay vì F4. C3 đúng cách tra cứu nguồn uy tín (0.50đ). Tổng: 7.25/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/012_Bai_012_T1_102543_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671319",
+      "student_name": "Trần Thị Minh Hạnh",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 9.25,
+      "max_score": 10.0,
+      "essay_score": 2.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép thông tin nhận là của mình",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén chụp lén đăng mạng",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Mạo danh để trục lợi",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải lậu sản phẩm bản quyền",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 840,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối",
+              "y_norm": 860,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu ví dụ địa chỉ tuyệt đối cụ thể",
+              "y_norm": 880,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối cố định / tương đối thay đổi",
+              "y_norm": 905,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tìm kiếm tin giả",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: web nhà nước & minh chứng bằng chứng",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ (P.II 16/16 tuyệt đối). TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/013_Bai_013_T1_102628_DaCham.jpg",
+        "images/graded_exams/013_Bai_013_T2_102628_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671679",
+      "student_name": "Nguyễn Mai Trang",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 6.5,
+      "max_score": 10.0,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép thông tin không ghi nguồn",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sử dụng phần mềm bẻ khóa",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu 2 ví dụ vi phạm đạo đức/bản quyền",
+              "y_norm": 765,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 0.50/3.00đ. C1 đúng 2 ý (0.50đ), thiếu 2 ý; C2 & C3 chưa làm. Tổng: 6.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/014_Bai_014_T1_102643_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671359",
+      "student_name": "Nguyễn Bảo Ngọc",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 6.5,
+      "max_score": 10.0,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Xúc phạm nghe lén thông tin cá nhân",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Vi phạm bản quyền phần mềm, phim nhạc",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu 2 ví dụ vi phạm văn hóa số",
+              "y_norm": 765,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 0.50/3.00đ. C1 đúng 2 ý (0.50đ), thiếu 2 ý; C2 & C3 chưa làm. Tổng: 6.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/015_Bai_015_T1_102704_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672259",
+      "student_name": "Lê Hoàng Bảo Yến",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 9.25,
+      "max_score": 10.0,
+      "essay_score": 2.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Xúc phạm lăng mạ người khác",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén nghe lén",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Chụp ảnh ghép chữ bêu rếu",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy sản phẩm người khác nhận là của mình",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 835,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Nêu đúng viết dấu $ và nhấn phím F4",
+              "y_norm": 855,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu ví dụ địa chỉ tuyệt đối",
+              "y_norm": 875,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
+              "y_norm": 905,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tác hại tin giả",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: web .gov.vn & nguồn uy tín",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/016_Bai_016_T1_102730_DaCham.jpg",
+        "images/graded_exams/016_Bai_016_T2_102730_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671999",
+      "student_name": "Nguyễn Lê Chấn Hưng",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.0,
+      "max_score": 10.0,
+      "essay_score": 2.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Xúc phạm danh dự nhân phẩm",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lan truyền thông tin sai sự thật",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Vi phạm bản quyền sản phẩm số",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tự ý dùng thông tin bảo mật người khác",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 820,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đúng ví dụ $F$1 và thêm dấu $ (gạch đỏ phím Shift số 4 -> F4)",
+              "y_norm": 840,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
+              "y_norm": 890,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.25,
+          "left_y_norm": 935,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đúng từ khóa tác hại tin giả",
+              "y_norm": 950,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu 2 cách kiểm tra thông tin",
+              "y_norm": 970,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 2.00/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh 2b (0.75đ). C3 đúng từ khóa (0.25đ), thiếu cách kiểm tra. Tổng: 8.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/017_Bai_017_T1_102746_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671759",
+      "student_name": "Phan Thị Xuân Huyền",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.0,
+      "max_score": 10.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tìm thông tin người khác gây hại",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Dùng tác phẩm không xin phép tác giả",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép web coi là của mình",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đưa thông tin cá nhân người khác lên mạng",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/018_Bai_018_T1_102804_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671699",
+      "student_name": "Trương Đan Huy",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.75,
+      "max_score": 10.0,
+      "essay_score": 2.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải phần mềm bản quyền dùng miễn phí",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén clip bạo lực học đường",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép bài viết web nhận là của mình",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lan truyền thông tin sai lệch",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 835,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đúng ký hiệu $ và ví dụ $B$2*$C$2 (thiếu F4 -> chữ 'v')",
+              "y_norm": 855,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
+              "y_norm": 905,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu 2 từ khóa tìm kiếm (chữ 'v')",
+              "y_norm": 75,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "Đúng 2 cách kiểm tra: chứng minh số liệu & cập nhật uy tín",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 2.25/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh 2b (0.75đ). C3 đúng cách kiểm tra (0.50đ), thiếu từ khóa. Tổng: 8.75/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/019_Bai_019_T1_102835_DaCham.jpg",
+        "images/graded_exams/019_Bai_019_T2_102835_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2403673903",
+      "student_name": "Lê Nguyên Bảo",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 6.75,
+      "max_score": 10.0,
+      "essay_score": 0.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lừa đảo qua mạng",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tuyên truyền sai sự thật",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Làm nhục người khác",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu 1 ví dụ vi phạm bản quyền",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 0.75/3.00đ. C1 đúng 3 ý (0.75đ); C2 & C3 chưa làm. Tổng: 6.75/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/020_Bai_020_T1_102855_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672419",
+      "student_name": "Dương Trí Quyết",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.5,
+      "max_score": 10.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy ảnh người khác chỉnh sửa bôi nhọ",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén clip bạo lực học đường",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải phần mềm bẻ khóa không bản quyền",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép bài viết nhận là của mình",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/021_Bai_021_T1_102915_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671599",
+      "student_name": "Đoàn Trần Nhã Uyên",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 9.25,
+      "max_score": 10.0,
+      "essay_score": 2.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lăng mạ xúc phạm qua mạng",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy thông tin mạng nhận là của mình",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy ảnh cắt ghép chỉnh sửa bêu xấu",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đạo nhái ý tưởng sản phẩm tác giả khác",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 835,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối",
+              "y_norm": 855,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu ví dụ địa chỉ tuyệt đối",
+              "y_norm": 875,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối cố định / tương đối đổi",
+              "y_norm": 905,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tìm kiếm tin giả",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: người gửi/tác giả & đối chiếu cơ quan quản lý",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/022_Bai_022_T1_103044_DaCham.jpg",
+        "images/graded_exams/022_Bai_022_T2_103044_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672399",
+      "student_name": "Đinh Nữ Quỳnh Thy",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 9.25,
+      "max_score": 10.0,
+      "essay_score": 2.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy ảnh người khác đăng lên mạng chưa xin phép",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay clip bạo lực học đường",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép thông tin sửa thành của mình",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng thông tin sai lệch lên mạng",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 835,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối",
+              "y_norm": 855,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu ví dụ địa chỉ tuyệt đối",
+              "y_norm": 875,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi hàng cột",
+              "y_norm": 905,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tác hại tin giả",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: web chính thức nhà nước & nguồn gốc xuất xứ",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/023_Bai_023_T1_103125_DaCham.jpg",
+        "images/graded_exams/023_Bai_023_T2_103125_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672459",
+      "student_name": "Nguyễn Phạm Gia Linh",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.5,
+      "max_score": 10.0,
+      "essay_score": 2.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay video sai sự thật câu like",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải lậu phần mềm",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Chửi bới lăng mạ người khác",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép thông tin nhận là của mình",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 835,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu thao tác phím F4 (chữ 'v')",
+              "y_norm": 855,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
+              "y_norm": 905,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tác hại tin giả",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: hỏi thầy cô & kiểm tra bằng chứng",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 2.50/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng so sánh 2b (0.50đ), thiếu 2a. C3 đúng trọn vẹn (1.0đ). Tổng: 8.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/024_Bai_024_T1_103157_DaCham.jpg",
+        "images/graded_exams/024_Bai_024_T2_103157_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671819",
+      "student_name": "Lê Thị Thúy Nhi",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.0,
+      "max_score": 10.0,
+      "essay_score": 2.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Bắt nạt đe dọa trên mạng",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng thông tin cá nhân chưa xin phép",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy thông tin người khác nhận của mình",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải sản phẩm chưa mua bản quyền",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 835,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "Đúng F4, thêm dấu $ và ví dụ $F$4",
+              "y_norm": 855,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu so sánh 2b (chữ 'v')",
+              "y_norm": 890,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Từ khóa tác hại tin giả",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Kiểm tra độ tin cậy thông tin",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 2.00/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng 2a (0.50đ), thiếu 2b. C3 đúng 1 phần từ khóa & kiểm tra (0.50đ). Tổng: 8.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/025_Bai_025_T1_103226_DaCham.jpg",
+        "images/graded_exams/025_Bai_025_T2_103226_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672199",
+      "student_name": "Phạm Ngọc Thùy Trâm",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.5,
+      "max_score": 10.0,
+      "essay_score": 2.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Từ ngữ thô tục chửi bới",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đánh cắp ý tưởng của người khác",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tuyên truyền thông tin sai lệch",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Bạo lực không phù hợp",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 835,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 850,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tin giả & tác hại",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: minh chứng số liệu & web chính phủ",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/026_Bai_026_T1_103257_DaCham.jpg",
+        "images/graded_exams/026_Bai_026_T2_103257_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671299",
+      "student_name": "Lưu Hoàng Bách",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.25,
+      "max_score": 10.0,
+      "essay_score": 1.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tự ý lấy ảnh chỉnh sửa",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải lậu phần mềm có bản quyền",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép thông tin nhận là của mình",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén lan truyền clip bạo lực",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 835,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 850,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Từ khóa tìm kiếm web uy tín",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: minh chứng số liệu & không tin quan điểm cá nhân",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 1.75/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 bỏ trống. C3 đúng cách kiểm tra (0.75đ). Tổng: 8.25/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/027_Bai_027_T1_103350_DaCham.jpg",
+        "images/graded_exams/027_Bai_027_T2_103350_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671139",
+      "student_name": "Trần Thế Danh",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 9.0,
+      "max_score": 10.0,
+      "essay_score": 3.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tự ý quay video ghi âm người khác",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Bạo lực mạng công kích tài khoản",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải phần mềm lậu",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Dùng lời lẽ thô tục miệt thị",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 835,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "Nhập ký hiệu $, phím tắt F4, ví dụ $B$5",
+              "y_norm": 855,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tương đối đổi / tuyệt đối không đổi",
+              "y_norm": 905,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tác hại tin giả",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: nguồn tác nhân uy tín & số liệu minh chứng",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 3.00/3.00đ tuyệt đối! Trình bày xuất sắc C1, C2 (F4, $B$5, so sánh tương đối/tuyệt đối) và C3 (từ khóa + kiểm tra). Tổng: 9.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/028_Bai_028_T1_103427_DaCham.jpg",
+        "images/graded_exams/028_Bai_028_T2_103427_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672579",
+      "student_name": "Nguyễn Gia Hào",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.75,
+      "max_score": 10.0,
+      "essay_score": 1.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén clip bạo lực học đường",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Bình luận chửi bới người khác",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng ảnh người khác chưa xin phép",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng tin chống phá nhà nước",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 880,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Từ khóa tin giả",
+              "y_norm": 900,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: minh chứng nhà nước & hỏi người lớn/thầy cô",
+              "y_norm": 940,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 1.75/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 bỏ trống. C3 đúng từ khóa & kiểm tra (0.75đ). Tổng: 7.75/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/029_Bai_029_T1_103445_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671259",
+      "student_name": "Lâm Thu Như",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.0,
+      "max_score": 10.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Chửi bới nói xấu trên mạng",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy thông tin người khác sửa thành của mình",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy ảnh người khác đăng lên mạng",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy thông tin bảo mật gửi người khác",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/030_Bai_030_T1_103501_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672339",
+      "student_name": "Cao Xuân Hùng",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 6.5,
+      "max_score": 10.0,
+      "essay_score": 0.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 1 (chữ 'v')",
+              "y_norm": 680,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ (P.II 16/16 ý tuyệt đối). TL: 0.00/3.00đ. Bỏ trống toàn bộ phần tự luận (chữ 'v'). Tổng: 6.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/031_Bai_031_T1_103514_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671779",
+      "student_name": "Nguyễn Ý An Vy",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.5,
+      "max_score": 10.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén lan truyền clip bạo lực",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tự ý lấy ảnh người khác đăng mạng",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải lậu phần mềm bẻ khóa",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Chỉnh sửa thông tin nhận của mình",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Bỏ dở Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/032_Bai_032_T1_103531_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671659",
+      "student_name": "Trần Văn Hải Đăng",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 6.0,
+      "max_score": 10.0,
+      "essay_score": 0.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 1 (chữ 'v')",
+              "y_norm": 680,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 0.00/3.00đ. Bỏ trống toàn bộ phần tự luận (chữ 'v'). Tổng: 6.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/033_Bai_033_T1_103544_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672519",
+      "student_name": "Cao Thanh Gia Bảo",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.5,
+      "max_score": 10.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén clip bạo lực học đường",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép thông tin nhận là của mình",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải lậu phần mềm có bản quyền",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lan truyền hình ảnh xấu",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/034_Bai_034_T1_103556_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671459",
+      "student_name": "Phan Đức Tuấn Anh",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 9.5,
+      "max_score": 10.0,
+      "essay_score": 3.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ngôn ngữ thô tục bôi nhọ",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lan truyền thông tin sai sự thật",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tự ý lấy ảnh người khác bêu nhục",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy sản phẩm người khác không xin phép",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 835,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "Đúng thêm dấu $, nhấn phím F4 và ví dụ $F$2",
+              "y_norm": 855,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
+              "y_norm": 905,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tìm kiếm tin giả",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: web uy tín & minh chứng thuyết phục",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 3.00/3.00đ tuyệt đối! Bài làm xuất sắc nhất lớp: chữ viết rõ ràng, đúng toàn bộ F4, $F$2, so sánh tương đối/tuyệt đối và kiểm tra tin giả. Tổng: 9.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/035_Bai_035_T1_103632_DaCham.jpg",
+        "images/graded_exams/035_Bai_035_T2_103632_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671939",
+      "student_name": "Nguyễn Thị Anh Thư",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.5,
+      "max_score": 10.0,
+      "essay_score": 2.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng ảnh người khác chưa xin phép",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lời nói thô tục lăng mạ",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng thông tin sai sự thật",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay video bạo lực học đường",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 870,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tin giả & hậu quả",
+              "y_norm": 890,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: dẫn chứng số liệu & đài VTV/chính phủ",
+              "y_norm": 930,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/036_Bai_036_T1_103646_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672499",
+      "student_name": "Võ Tá Kỳ",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.0,
+      "max_score": 10.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.25,
+        "p2_score": 3.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 15/16 ý đúng (3.75đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sử dụng tài nguyên bản quyền không mua",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy ảnh cá nhân đăng mạng chưa xin phép",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Không ứng xử văn minh lịch sự",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Chỉnh sửa ảnh bản quyền thành của mình",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.00/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/037_Bai_037_T1_103658_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672079",
+      "student_name": "Nguyễn Thị Như Quỳnh",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 8.5,
+      "max_score": 10.0,
+      "essay_score": 2.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ghi âm sao chép tài liệu không xin phép",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay video trong rạp phim đăng mạng",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải lậu phần mềm bản quyền",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay video bạo lực học đường",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 870,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tin giả & tác hại",
+              "y_norm": 890,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: dẫn chứng số liệu & nguồn VTV/chính phủ",
+              "y_norm": 930,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/038_Bai_038_T1_103712_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672299",
+      "student_name": "Lê Trương Quang Vinh",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.0,
+      "max_score": 10.0,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 0.5,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Không gửi video nhạy cảm người khác",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Không xúc phạm bôi nhọ người khác",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Thiếu 2 ví dụ vi phạm bản quyền/đạo đức",
+              "y_norm": 750,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 0.50/3.00đ. C1 đúng 2 ý (0.50đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/039_Bai_039_T1_103724_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671179",
+      "student_name": "Trương Minh Phước",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.5,
+      "max_score": 10.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải hình ảnh video chưa xin phép",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải lậu phần mềm bản quyền",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép thông tin nhận là của mình",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén clip người khác",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/040_Bai_040_T1_103742_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671499",
+      "student_name": "Phạm Đăng",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.5,
+      "max_score": 10.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải lậu phần mềm bản quyền",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đăng ảnh riêng tư chưa cho phép",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén clip bạo lực học đường",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép trang web nhận mình làm chủ",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/041_Bai_041_T1_103753_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672159",
+      "student_name": "Trịnh Thị Yến Nhi",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 9.25,
+      "max_score": 10.0,
+      "essay_score": 2.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy hình ảnh cá nhân phát tán",
+              "y_norm": 685,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải nội dung chưa mua bản quyền",
+              "y_norm": 725,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đe dọa lừa đảo trên mạng",
+              "y_norm": 765,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Ăn cắp ý tưởng sản phẩm tác giả khác",
+              "y_norm": 805,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.75,
+          "left_y_norm": 650,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Đúng cách nhập ký hiệu $ và ví dụ =$E$4*$F$2 (thiếu F4)",
+              "y_norm": 670,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "So sánh đúng tuyệt đối hoàn toàn không đổi / tương đối đổi",
+              "y_norm": 720,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 60,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 từ khóa tác hại tin giả",
+              "y_norm": 80,
+              "highlight_box": null
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "2 cách kiểm tra: nguồn phát ngôn uy tín & báo chí chính thống",
+              "y_norm": 130,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng ký hiệu $ và so sánh 2b, thiếu F4. Tổng: 9.25/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/042_Bai_042_T1_103813_DaCham.jpg",
+        "images/graded_exams/042_Bai_042_T2_103813_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410671379",
+      "student_name": "Nguyễn Hoàng Anh",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 6.5,
+      "max_score": 10.0,
+      "essay_score": 0.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 660,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 1 (chữ 'v')",
+              "y_norm": 680,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 0.00/3.00đ. Bỏ trống toàn bộ phần tự luận (chữ 'v'). Tổng: 6.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/043_Bai_043_T1_103823_DaCham.jpg"
+      ]
+    },
+    {
+      "hs_id": "2410672479",
+      "student_name": "Lê Thị Kim Phụng",
+      "student_class": "8A7",
+      "dob": "",
+      "total_score": 7.5,
+      "max_score": 10.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 2.5,
+        "p2_score": 4.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "wrong_note": "P.I: 10/12 (2.50đ) | P.II: 16/16 ý tuyệt đối (4.00đ)"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "max_score": 1.0,
+          "score": 1.0,
+          "left_y_norm": 655,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Quay lén lan truyền bạo lực học đường",
+              "y_norm": 680,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Sao chép thông tin nhận là của mình",
+              "y_norm": 715,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Lấy ảnh chỉnh sửa bêu xấu bạn",
+              "y_norm": 750,
+              "highlight_box": null
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "Tải lậu phần mềm có bản quyền",
+              "y_norm": 785,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 2",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 830,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 2 (chữ 'v')",
+              "y_norm": 840,
+              "highlight_box": null
+            }
+          ]
+        },
+        {
+          "question_no": "Câu 3",
+          "max_score": 1.0,
+          "score": 0.0,
+          "left_y_norm": 910,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "note": "Chưa làm Câu 3 (chữ 'v')",
+              "y_norm": 920,
+              "highlight_box": null
+            }
+          ]
+        }
+      ],
+      "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
+      "graded_pages": [
+        "images/graded_exams/044_Bai_044_T1_103836_DaCham.jpg"
+      ]
+    }
+  ]
+}

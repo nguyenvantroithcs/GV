@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tra Cứu Kết Quả Thi & Xem Bài Chấm - THCS Lê Quý Đôn</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20%22100%22%20%22100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+  <style>
+    :root {
+      --primary: #1e40af;
+      --primary-light: #3b82f6;
+      --primary-dark: #1e3a8a;
+      --accent: #d97706;
+      --success: #16a34a;
+      --success-light: #dcfce7;
+      --danger: #dc2626;
+      --danger-light: #fee2e2;
+      --warning: #ca8a04;
+      --warning-light: #fef9c3;
+      --gray-50: #f8fafc;
+      --gray-100: #f1f5f9;
+      --gray-200: #e2e8f0;
+      --gray-300: #cbd5e1;
+      --gray-600: #475569;
+      --gray-700: #334155;
+      --gray-800: #1e293b;
+      --shadow: 0 4px 6px -1px rgba(0,0,0,0.08), 0 2px 4px -2px rgba(0,0,0,0.04);
+      --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.05);
+      --radius: 12px;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    body { background: #f1f5f9; color: var(--gray-800); min-height: 100vh; display: flex; flex-direction: column; }
+
+    /* HEADER */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #ffffff;
+      border-bottom: 1px solid var(--gray-200);
+      padding: 10px 16px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+    }
+    .header-nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(241, 245, 249, 0.95);
+      padding: 4px;
+      border-radius: 12px;
+      border: 1px solid var(--gray-200);
+    }
+    .header-nav-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      border-radius: 9px;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--gray-600);
+      text-decoration: none;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .header-nav-item:hover {
+      color: var(--primary);
+      background: rgba(255, 255, 255, 0.85);
+    }
+    .header-nav-item.active {
+      color: #ffffff;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      box-shadow: 0 2px 6px rgba(37, 99, 235, 0.35);
+    }
+    .nav-badge-hot {
+      font-size: 10px;
+      font-weight: 700;
+      color: #dc2626;
+      background: #fee2e2;
+      border: 1px solid #fecaca;
+      padding: 1px 6px;
+      border-radius: 999px;
+      text-transform: uppercase;
+    }
+    .header-nav-item.active .nav-badge-hot {
+      background: #fef08a;
+      color: #854d0e;
+      border-color: #fde047;
+    }
+
+    /* MAIN CONTAINER */
+    .app-container {
+      max-width: 1000px;
+      width: 100%;
+      margin: 20px auto;
+      padding: 0 16px;
+      flex: 1;
+    }
+
+    /* CARD STYLES */
+    .card {
+      background: #ffffff;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 24px;
+      margin-bottom: 20px;
+      border: 1px solid var(--gray-200);
+    }
+    .card-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--gray-800);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+    .card-subtitle {
+      font-size: 13.5px;
+      color: var(--gray-600);
+      margin-bottom: 18px;
+    }
+
+    /* FORM GRID */
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.5fr 1.2fr auto;
+      gap: 12px;
+      align-items: end;
+    }
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .form-label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gray-700);
+    }
+    .form-control {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid var(--gray-300);
+      border-radius: 8px;
+      font-size: 14px;
+      background: #ffffff;
+      color: var(--gray-800);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .form-control:focus {
+      outline: none;
+      border-color: var(--primary-light);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    }
+    .btn-search {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #ffffff;
+      font-weight: 600;
+      font-size: 14px;
+      padding: 11px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+      white-space: nowrap;
+      height: 42px;
+    }
+    .btn-search:hover {
+      background: linear-gradient(135deg, #1d4ed8, #1e40af);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(37, 99, 235, 0.3);
+    }
+
+    /* ALERT MESSAGES */
+    .alert-box {
+      margin-top: 16px;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 13.5px;
+      display: none;
+      align-items: center;
+      gap: 10px;
+    }
+    .alert-danger { background: var(--danger-light); color: #991b1b; border: 1px solid #fecaca; }
+    .alert-info { background: #e0f2fe; color: #075985; border: 1px solid #bae6fd; }
+    .alert-success { background: var(--success-light); color: #166534; border: 1px solid #bbf7d0; }
+
+    /* RESULT SECTION */
+    #resultSection { display: none; }
+
+    /* STUDENT SUMMARY BANNER */
+    .student-banner {
+      background: linear-gradient(135deg, #1e3a8a, #2563eb);
+      color: #ffffff;
+      border-radius: var(--radius);
+      padding: 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 20px;
+      box-shadow: var(--shadow-lg);
+    }
+    .student-info h2 { font-size: 22px; font-weight: 800; margin-bottom: 4px; }
+    .student-meta { font-size: 13.5px; opacity: 0.9; display: flex; flex-wrap: wrap; gap: 14px; margin-top: 6px; }
+    .student-meta span { display: flex; align-items: center; gap: 4px; }
+    .score-circle {
+      min-width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      background: #ffffff;
+      color: #dc2626;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border: 4px solid #fecaca;
+      flex-shrink: 0;
+    }
+    .score-num { font-size: 32px; font-weight: 900; line-height: 1; }
+    .score-max { font-size: 11.5px; color: var(--gray-600); font-weight: 700; margin-top: 2px; }
+
+    /* SUMMARY STATS BAR */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+    .stat-pill {
+      background: #ffffff;
+      border: 1px solid var(--gray-200);
+      border-radius: 10px;
+      padding: 14px 18px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      box-shadow: var(--shadow);
+    }
+    .stat-icon { font-size: 26px; }
+    .stat-title { font-size: 12px; color: var(--gray-600); font-weight: 600; text-transform: uppercase; }
+    .stat-val { font-size: 18px; font-weight: 800; color: var(--gray-800); }
+
+    /* TEACHER COMMENT BOX */
+    .comment-box {
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      color: #92400e;
+      font-size: 14px;
+    }
+
+    /* OMR BREAKDOWN GRID */
+    .omr-grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .omr-item {
+      border: 1px solid var(--gray-200);
+      border-radius: 8px;
+      padding: 8px 6px;
+      text-align: center;
+      background: #ffffff;
+      transition: all 0.2s;
+    }
+    .omr-item.ok { background: var(--success-light); border-color: #86efac; }
+    .omr-item.err { background: var(--danger-light); border-color: #fca5a5; }
+    .omr-item.empty { background: var(--warning-light); border-color: #fde047; }
+    .omr-q { font-size: 11px; font-weight: 700; color: var(--gray-600); margin-bottom: 2px; }
+    .omr-ans { font-size: 14px; font-weight: 800; }
+    .omr-item.ok .omr-ans { color: #166534; }
+    .omr-item.err .omr-ans { color: #991b1b; }
+    .omr-item.empty .omr-ans { color: #854d0e; }
+    .omr-badge { font-size: 10px; font-weight: 700; margin-top: 2px; display: block; }
+
+    /* ESSAY QUESTION CARDS */
+    .essay-card {
+      border: 1px dashed #ef4444;
+      background: #fffafa;
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 14px;
+    }
+    .essay-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed #fca5a5;
+    }
+    .essay-name { font-size: 16px; font-weight: 800; color: #b91c1c; }
+    .essay-score { font-size: 15px; font-weight: 800; color: #b91c1c; background: #fee2e2; padding: 3px 10px; border-radius: 6px; }
+    .step-list { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .step-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      padding: 8px 12px;
+      background: #ffffff;
+      border-radius: 8px;
+      border: 1px solid var(--gray-200);
+      font-size: 13.5px;
+    }
+    .step-tag {
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 5px;
+      font-size: 12px;
+      flex-shrink: 0;
+    }
+    .step-tag.ok { background: var(--success-light); color: #166534; }
+    .step-tag.err { background: var(--danger-light); color: #991b1b; }
+    .step-tag.missing { background: var(--warning-light); color: #854d0e; }
+
+    /* GRADED IMAGES VIEWER */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 14px;
+    }
+    .gallery-card {
+      border: 1px solid var(--gray-200);
+      border-radius: 10px;
+      overflow: hidden;
+      background: #ffffff;
+      box-shadow: var(--shadow);
+    }
+    .gallery-img-wrap {
+      position: relative;
+      background: #334155;
+      overflow: hidden;
+      cursor: zoom-in;
+    }
+    .gallery-img {
+      width: 100%;
+      height: 380px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.3s;
+    }
+    .gallery-img:hover { transform: scale(1.02); }
+    .gallery-footer {
+      padding: 10px 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f8fafc;
+      font-size: 13px;
+    }
+    .gallery-btn {
+      background: #ffffff;
+      border: 1px solid var(--gray-300);
+      padding: 5px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--gray-700);
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .gallery-btn:hover { background: var(--gray-100); color: var(--primary); }
+
+    /* FEEDBACK FORM */
+    .feedback-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: var(--radius);
+      padding: 22px;
+      margin-top: 24px;
+    }
+    .feedback-title {
+      font-size: 16px;
+      font-weight: 800;
+      color: #166534;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+    .feedback-desc {
+      font-size: 13px;
+      color: #15803d;
+      margin-bottom: 14px;
+      line-height: 1.5;
+    }
+    .feedback-textarea {
+      width: 100%;
+      min-height: 95px;
+      padding: 12px;
+      border: 1px solid #86efac;
+      border-radius: 8px;
+      font-size: 14px;
+      margin-bottom: 10px;
+      background: #ffffff;
+      resize: vertical;
+    }
+    .feedback-textarea:focus { outline: none; border-color: #16a34a; box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.2); }
+    .feedback-inputs {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 12px;
+      align-items: center;
+    }
+    .btn-submit-feedback {
+      background: linear-gradient(135deg, #16a34a, #15803d);
+      color: #ffffff;
+      border: none;
+      padding: 11px 22px;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 14px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .btn-submit-feedback:hover {
+      background: linear-gradient(135deg, #15803d, #14532d);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 8px rgba(22, 163, 74, 0.3);
+    }
+    .btn-submit-feedback:disabled { opacity: 0.6; cursor: not-allowed; }
+
+    /* LIGHTBOX MODAL */
+    .lightbox-modal {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.88);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 16px;
+    }
+    .lightbox-content {
+      position: relative;
+      max-width: 95vw;
+      max-height: 95vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .lightbox-img {
+      max-width: 90vw;
+      max-height: 85vh;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+    .lightbox-close {
+      position: absolute;
+      top: -36px;
+      right: 0;
+      color: #ffffff;
+      font-size: 28px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: var(--gray-600);
+      font-size: 13px;
+      border-top: 1px solid var(--gray-200);
+      background: #ffffff;
+      margin-top: 40px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .form-grid { grid-template-columns: 1fr; }
+      .student-banner { flex-direction: column; align-items: flex-start; }
+      .score-circle { align-self: center; }
+      .feedback-inputs { grid-template-columns: 1fr; }
+      .header-nav-item { padding: 6px 10px; font-size: 12.5px; }
+      .nav-badge-hot { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER VỚI MENU NGANG -->
+  <header>
+    <div style="display:flex;align-items:center;gap:12px;">
+      <nav class="header-nav-menu">
+        <a href="index.html" class="header-nav-item" title="Quay lại Hệ thống đề cương ôn tập">
+          <span>📚</span>
+          <span>Đề Cương Ôn Tập</span>
+        </a>
+        <a href="xem_diem.html" class="header-nav-item active" title="Tra cứu điểm số & xem bài thi chấm bút đỏ">
+          <span>📊</span>
+          <span>Xem Kết Quả Thi</span>
+          <span class="nav-badge-hot">Mới</span>
+        </a>
+      </nav>
+    </div>
+
+    <div style="font-size:12.5px;color:var(--gray-600);font-weight:600;">
+      🏫 THCS Lê Quý Đôn
+    </div>
+  </header>
+
+  <div class="app-container">
+
+    <!-- SEARCH CARD -->
+    <div class="card">
+      <div class="card-title">
+        <span>🔍</span>
+        <span>TRA CỨU KẾT QUẢ BÀI THI</span>
+      </div>
+      <div class="card-subtitle">
+        Nhập thông tin lớp, họ tên và ngày sinh để xem điểm số chi tiết cùng bài làm đã chấm bút đỏ của em.
+      </div>
+
+      <div class="form-grid">
+        <div class="form-group">
+          <label class="form-label" for="classSelect">1. Chọn Lớp</label>
+          <select id="classSelect" class="form-control" onchange="onClassChange()">
+            <option value="">-- Đang tải lớp... --</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="studentNameInput">2. Họ và Tên</label>
+          <input type="text" id="studentNameInput" list="studentDatalist" class="form-control" placeholder="Nhập họ và tên học sinh..." autocomplete="off">
+          <datalist id="studentDatalist"></datalist>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="dobInput">3. Ngày Sinh (dd/mm/yyyy)</label>
+          <input type="text" id="dobInput" class="form-control" placeholder="Ví dụ: 15/08/2012" maxlength="10">
+        </div>
+
+        <button type="button" class="btn-search" onclick="traCuuKetQua()">
+          <span>🔍</span>
+          <span>Tra Cứu</span>
+        </button>
+      </div>
+
+      <!-- ALERTS -->
+      <div id="alertBox" class="alert-box"></div>
+    </div>
+
+    <!-- RESULT SECTION -->
+    <div id="resultSection">
+
+      <!-- BANNER TỔNG HỢP -->
+      <div class="student-banner">
+        <div class="student-info">
+          <div style="font-size:12px;text-transform:uppercase;letter-spacing:1px;opacity:0.8;font-weight:700;" id="resExamTitle">
+            KIỂM TRA GIỮA HỌC KỲ I - TIN HỌC 8
+          </div>
+          <h2 id="resStudentName">Nguyễn Văn Hải</h2>
+          <div class="student-meta">
+            <span>🏫 Lớp: <b id="resStudentClass" style="margin-left:4px;">8A7</b></span>
+            <span>🆔 Mã HS: <b id="resStudentId" style="margin-left:4px;">2410671199</b></span>
+            <span>🎂 Ngày sinh: <b id="resStudentDob" style="margin-left:4px;">--/--/----</b></span>
+          </div>
+        </div>
+
+        <div class="score-circle">
+          <div class="score-num" id="resTotalScore">7.00</div>
+          <div class="score-max">/ 10,00 ĐIỂM</div>
+        </div>
+      </div>
+
+      <!-- TỔNG HỢP ĐIỂM THÀNH PHẦN -->
+      <div class="stats-bar">
+        <div class="stat-pill">
+          <div class="stat-icon">📝</div>
+          <div>
+            <div class="stat-title">Điểm Trắc Nghiệm</div>
+            <div class="stat-val" id="resMcqScore">5,50 / 7,00đ</div>
+          </div>
+        </div>
+        <div class="stat-pill">
+          <div class="stat-icon">✍️</div>
+          <div>
+            <div class="stat-title">Điểm Tự Luận</div>
+            <div class="stat-val" id="resEssayScore">1,50 / 3,00đ</div>
+          </div>
+        </div>
+        <div class="stat-pill">
+          <div class="stat-icon">🎯</div>
+          <div>
+            <div class="stat-title">Tỉ Lệ Đạt</div>
+            <div class="stat-val" id="resRateScore">70.0%</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- NHẬN XÉT CỦA GIÁO VIÊN -->
+      <div class="comment-box" id="resCommentBox">
+        <span style="font-size:22px;line-height:1;">👨‍🏫</span>
+        <div>
+          <b>Nhận xét của Thầy giáo:</b>
+          <p id="resCommentText" style="margin-top:4px;line-height:1.5;">Làm bài tốt, cần chú ý đọc kỹ yêu cầu câu 2.</p>
+        </div>
+      </div>
+
+      <!-- CHI TIẾT TRẮC NGHIỆM -->
+      <div class="card">
+        <div class="card-title">
+          <span>📋</span>
+          <span>CHI TIẾT PHẦN TRẮC NGHIỆM</span>
+        </div>
+        <div class="card-subtitle" id="mcqNoteSummary">
+          Thống kê kết quả 12 câu trắc nghiệm 4 lựa chọn (Phần I) và 16 ý Đúng/Sai (Phần II):
+        </div>
+
+        <div class="omr-grid-container" id="omrGridContainer">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- CHI TIẾT TỰ LUẬN -->
+      <div class="card">
+        <div class="card-title">
+          <span>📐</span>
+          <span>CHI TIẾT PHẦN TỰ LUẬN TỪNG CÂU</span>
+        </div>
+        <div class="card-subtitle">
+          Điểm thành phần và nhận xét sư phạm từng ý của từng câu tự luận:
+        </div>
+
+        <div id="essayQuestionsContainer">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- GALLERY ẢNH BÀI THI ĐÃ CHẤM -->
+      <div class="card">
+        <div class="card-title">
+          <span>🖼️</span>
+          <span>ẢNH BÀI THI CHẤM BÚT ĐỎ SƯ PHẠM</span>
+        </div>
+        <div class="card-subtitle">
+          Học sinh có thể bấm vào ảnh để phóng to xem rõ từng nét chấm bút đỏ, ký hiệu đ/s/v và gạch chữa lỗi của Thầy giáo.
+        </div>
+
+        <div class="gallery-grid" id="gradedGalleryGrid">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- FORM PHẢN HỒI / PHÚC KHẢO CỦA HỌC SINH -->
+      <div class="feedback-box">
+        <div class="feedback-title">
+          <span>💬</span>
+          <span>Ý KIẾN / THẮC MẮC CỦA HỌC SINH</span>
+        </div>
+        <div class="feedback-desc">
+          Nếu em có thắc mắc về điểm số hoặc muốn Thầy giáo xem xét lại câu nào (trắc nghiệm hay tự luận), em hãy ghi rõ ý kiến dưới đây. Ý kiến của em sẽ được lưu trực tiếp vào bảng theo dõi của Thầy để xem xét lại bài:
+        </div>
+
+        <textarea id="feedbackContent" class="feedback-textarea" placeholder="Ví dụ: Thưa thầy, ở câu 2 tự luận phần ví dụ $A$1 em có làm đúng nhưng..."></textarea>
+
+        <div class="feedback-inputs">
+          <input type="text" id="feedbackContact" class="form-control" placeholder="Số điện thoại / Zalo để Thầy phản hồi (tùy chọn)...">
+          <button type="button" class="btn-submit-feedback" id="btnSubmitFeedback" onclick="guiYkienPhucKhao()">
+            <span>🚀</span>
+            <span>Gửi Ý Kiến Đến Thầy</span>
+          </button>
+        </div>
+
+        <div id="feedbackAlert" class="alert-box" style="margin-top:12px;"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- LIGHTBOX MODAL ĐỂ XEM ẢNH FULL SCREEN -->
+  <div id="lightboxModal" class="lightbox-modal" onclick="closeLightbox()">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <button class="lightbox-close" onclick="closeLightbox()">✕</button>
+      <img id="lightboxImg" class="lightbox-img" src="" alt="Ảnh bài thi">
+      <div id="lightboxCaption" style="color:#ffffff;margin-top:8px;font-size:14px;font-weight:600;"></div>
+    </div>
+  </div>
+
+  <footer>
+    <b>Hệ Thống Số Hóa & Tra Cứu Chấm Thi Sư Phạm - ALSM OfficeSuite</b><br>
+    Trường THCS Lê Quý Đôn &copy; 2026-2027. GVBM: Nguyễn Văn Trị.
+  </footer>
+
+  <script>
+    // URL Web App Google Apps Script nhận phản hồi/phúc khảo
+    // Thầy có thể thay bằng URL Web App sau khi Deploy mã Code.gs
+    const GAS_PHUCKHAO_URL = "https://script.google.com/macros/s/AKfycbz_SAMPLE_DEPLOY_ID/exec";
+
+    let currentClassStudents = [];
+    let allExamsData = null;
+    let currentStudentResult = null;
+
+    // 1. KHỞI TẠO DANH SÁCH LỚP
+    document.addEventListener("DOMContentLoaded", async () => {
+      await loadClassList();
+      await loadExamsData();
+    });
+
+    async function loadClassList() {
+      const select = document.getElementById("classSelect");
+      try {
+        const res = await fetch("dslop.json");
+        const list = await res.json();
+        select.innerHTML = '<option value="">-- Chọn Lớp Học --</option>';
+        list.forEach(c => {
+          const tenLop = c.TenLop || c.LopTen || c;
+          const opt = document.createElement("option");
+          opt.value = tenLop;
+          opt.textContent = `Lớp ${tenLop}`;
+          if (tenLop === "8A7") opt.selected = true;
+          select.appendChild(opt);
+        });
+        // Tải danh sách lớp mặc định 8A7
+        onClassChange();
+      } catch (err) {
+        console.warn("Không tải được dslop.json:", err);
+        select.innerHTML = '<option value="8A7" selected>Lớp 8A7</option>';
+        onClassChange();
+      }
+    }
+
+    // 2. KHI ĐỔI LỚP: TẢI DANH SÁCH HỌC SINH TƯƠNG ỨNG ĐỂ GỢI Ý AUTOCOMPLETE
+    async function onClassChange() {
+      const cls = document.getElementById("classSelect").value;
+      const datalist = document.getElementById("studentDatalist");
+      datalist.innerHTML = "";
+      currentClassStudents = [];
+
+      if (!cls) return;
+
+      const fileName = `${cls.toLowerCase()}.json`;
+      try {
+        const res = await fetch(fileName);
+        currentClassStudents = await res.json();
+        currentClassStudents.forEach(st => {
+          const opt = document.createElement("option");
+          opt.value = st.HoTen;
+          datalist.appendChild(opt);
+        });
+      } catch (err) {
+        console.warn(`Chưa có file danh sách ${fileName}:`, err);
+      }
+    }
+
+    // 3. TẢI DỮ LIỆU KẾT QUẢ CHẤM BÀI
+    async function loadExamsData() {
+      try {
+        const res = await fetch("data_ket_qua_thi.json");
+        allExamsData = await res.json();
+      } catch (err) {
+        console.warn("Chưa tải được data_ket_qua_thi.json:", err);
+      }
+    }
+
+    // Helper chuẩn hóa tiếng Việt để so sánh
+    function normStr(s) {
+      if (!s) return "";
+      return s.trim().toLowerCase()
+        .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+        .replace(/đ/g, "d").replace(/\s+/g, " ");
+    }
+
+    // Helper chuẩn hóa ngày sinh về dạng DD/MM/YYYY để so sánh
+    function matchDob(inputDob, studentDob, studentDobDmy) {
+      if (!inputDob) return false;
+      const cleanInput = inputDob.trim().replace(/-/g, "/").replace(/\s+/g, "");
+      
+      const parts = cleanInput.split("/");
+      let normInput = cleanInput;
+      if (parts.length === 3) {
+        if (parts[0].length === 4) {
+          // Định dạng YYYY/MM/DD -> chuyển thành DD/MM/YYYY
+          const y = parts[0];
+          const m = parts[1].padStart(2, "0");
+          const d = parts[2].padStart(2, "0");
+          normInput = `${d}/${m}/${y}`;
+        } else {
+          // Định dạng D/M/Y -> chuyển thành DD/MM/YYYY
+          const d = parts[0].padStart(2, "0");
+          const m = parts[1].padStart(2, "0");
+          const y = parts[2].length === 2 ? "20" + parts[2] : parts[2];
+          normInput = `${d}/${m}/${y}`;
+        }
+      }
+
+      if (studentDobDmy && studentDobDmy.trim() === normInput) return true;
+
+      if (studentDob) {
+        // studentDob có thể là "2013-03-02 00:00:00"
+        const dPart = studentDob.split(" ")[0]; // "2013-03-02"
+        const dParts = dPart.split("-");
+        if (dParts.length === 3) {
+          const dmy = `${dParts[2]}/${dParts[1]}/${dParts[0]}`;
+          if (dmy === normInput) return true;
+        }
+      }
+      return false;
+    }
+
+    // 4. TRA CỨU KẾT QUẢ
+    async function traCuuKetQua() {
+      const cls = document.getElementById("classSelect").value;
+      const nameInput = document.getElementById("studentNameInput").value.trim();
+      const dobInput = document.getElementById("dobInput").value.trim();
+      const alertBox = document.getElementById("alertBox");
+      const resultSec = document.getElementById("resultSection");
+
+      alertBox.style.display = "none";
+      resultSec.style.display = "none";
+
+      if (!cls) {
+        showAlert("Vui lòng chọn lớp học!", "danger");
+        return;
+      }
+      if (!nameInput) {
+        showAlert("Vui lòng nhập họ và tên của em!", "danger");
+        return;
+      }
+      if (!dobInput) {
+        showAlert("Vui lòng nhập ngày tháng năm sinh (ví dụ: 15/08/2012) để xác thực!", "danger");
+        return;
+      }
+
+      // Đối chiếu họ tên và ngày sinh với danh sách học sinh của lớp
+      let matchedStudent = null;
+      if (currentClassStudents.length > 0) {
+        matchedStudent = currentClassStudents.find(st => {
+          const nameMatch = (normStr(st.HoTen) === normStr(nameInput));
+          const dobMatch = matchDob(dobInput, st.Dob, st.dob_dmy);
+          return nameMatch && dobMatch;
+        });
+
+        if (!matchedStudent) {
+          showAlert("⚠️ Không tìm thấy học sinh hoặc Ngày sinh chưa chính xác. Em vui lòng kiểm tra lại Họ tên và Ngày sinh theo đúng danh sách!", "danger");
+          return;
+        }
+      }
+
+      // Đã xác thực thành công danh tính học sinh -> Tìm kết quả chấm thi
+      if (!allExamsData || !allExamsData.students) {
+        await loadExamsData();
+      }
+
+      if (!allExamsData || !allExamsData.students) {
+        showAlert("Hệ thống dữ liệu bài thi đang được cập nhật. Vui lòng thử lại sau!", "info");
+        return;
+      }
+
+      // Tìm bài thi theo Mã HS hoặc Họ tên trong lớp
+      let examResult = allExamsData.students.find(st => {
+        if (matchedStudent && (st.hs_id === matchedStudent.MaHs || st.hs_id === matchedStudent.HsId)) {
+          return true;
+        }
+        return (normStr(st.student_name) === normStr(nameInput) && normStr(st.student_class) === normStr(cls));
+      });
+
+      if (!examResult) {
+        showAlert(`Đã xác thực học sinh ${nameInput} (${cls}). Hiện tại chưa có bài thi số hóa của em trên hệ thống hoặc bài thi đang được xử lý. Em vui lòng liên hệ Thầy giáo!`, "info");
+        return;
+      }
+
+      // Hiển thị kết quả chi tiết
+      currentStudentResult = examResult;
+      renderResult(examResult, matchedStudent);
+    }
+
+    function showAlert(msg, type = "danger") {
+      const alertBox = document.getElementById("alertBox");
+      alertBox.className = `alert-box alert-${type}`;
+      alertBox.textContent = msg;
+      alertBox.style.display = "flex";
+    }
+
+    // 5. HIỂN THỊ CHI TIẾT KẾT QUẢ CHẤM BÀI
+    function renderResult(st, rosterInfo) {
+      const resultSec = document.getElementById("resultSection");
+
+      document.getElementById("resStudentName").textContent = st.student_name || (rosterInfo && rosterInfo.HoTen);
+      document.getElementById("resStudentClass").textContent = st.student_class || (rosterInfo && rosterInfo.LopTen) || "8A7";
+      document.getElementById("resStudentId").textContent = st.hs_id || (rosterInfo && (rosterInfo.MaHs || rosterInfo.HsId)) || "---";
+      document.getElementById("resStudentDob").textContent = (rosterInfo && rosterInfo.dob_dmy) || st.dob || "---";
+
+      const tot = Number(st.total_score || 0);
+      const mx = Number(st.max_score || 10);
+      document.getElementById("resTotalScore").textContent = tot.toFixed(2).replace(".", ",");
+      document.getElementById("resRateScore").textContent = `${((tot / mx) * 100).toFixed(1)}%`;
+
+      const mcq = st.mcq || {};
+      const mcqTot = Number(mcq.total_score || 0);
+      const mcqMx = Number(mcq.max_score || 7);
+      document.getElementById("resMcqScore").textContent = `${mcqTot.toFixed(2).replace(".", ",")} / ${mcqMx.toFixed(2).replace(".", ",")}đ`;
+
+      const esTot = Number(st.essay_score || 0);
+      const esMx = Number(st.essay_max || 3);
+      document.getElementById("resEssayScore").textContent = `${esTot.toFixed(2).replace(".", ",")} / ${esMx.toFixed(2).replace(".", ",")}đ`;
+
+      // Nhận xét giáo viên
+      const cmt = st.summary_comment || "Làm bài tốt, cần chú ý kiểm tra lại các câu sai.";
+      document.getElementById("resCommentText").textContent = cmt;
+
+      // Render lưới trắc nghiệm
+      renderOmrGrid(mcq);
+
+      // Render danh sách câu tự luận
+      renderEssayQuestions(st.questions || []);
+
+      // Render ảnh bài thi đã chấm
+      renderGradedGallery(st.graded_pages || []);
+
+      resultSec.style.display = "block";
+      resultSec.scrollIntoView({ behavior: "smooth" });
+    }
+
+    // 6. RENDER LƯỚI TRẮC NGHIỆM CHI TIẾT
+    function renderOmrGrid(mcq) {
+      const container = document.getElementById("omrGridContainer");
+      container.innerHTML = "";
+
+      const p1Answers = mcq.p1_answers || {};
+      const p1Results = mcq.p1_results || {};
+      const p2Answers = mcq.p2_answers || {};
+      const p2Results = mcq.p2_results || {};
+
+      const keyP1 = (allExamsData && allExamsData.exam_info && allExamsData.exam_info.official_key_p1) || {
+        "C1":"A","C2":"C","C3":"B","C4":"B","C5":"C","C6":"D","C7":"C","C8":"B","C9":"B","C10":"C","C11":"C","C12":"B"
+      };
+      const keyP2 = (allExamsData && allExamsData.exam_info && allExamsData.exam_info.official_key_p2) || {
+        "13a":"S","13b":"Đ","13c":"Đ","13d":"Đ","14a":"S","14b":"Đ","14c":"Đ","14d":"S","15a":"S","15b":"Đ","15c":"Đ","15d":"Đ","16a":"S","16b":"Đ","16c":"S","16d":"Đ"
+      };
+
+      // Phần I (C1..C12)
+      for (let i = 1; i <= 12; i++) {
+        const qKey = `C${i}`;
+        const chosen = p1Answers[qKey] || p1Answers[i] || "";
+        const isOk = (p1Results[qKey] !== undefined) ? p1Results[qKey] : (p1Results[i] !== undefined ? p1Results[i] : (chosen === keyP1[qKey]));
+        const correctKey = keyP1[qKey] || "";
+
+        const item = document.createElement("div");
+        const statusClass = !chosen ? "empty" : (isOk ? "ok" : "err");
+        item.className = `omr-item ${statusClass}`;
+        item.innerHTML = `
+          <div class="omr-q">${qKey}</div>
+          <div class="omr-ans">${chosen || "Trống"}</div>
+          <span class="omr-badge">${isOk ? "✓ Đúng" : (chosen ? `✗ Đáp án: ${correctKey}` : "Chưa tô")}</span>
+        `;
+        container.appendChild(item);
+      }
+
+      // Phần II (13a..16d)
+      const p2Keys = [
+        "13a","13b","13c","13d",
+        "14a","14b","14c","14d",
+        "15a","15b","15c","15d",
+        "16a","16b","16c","16d"
+      ];
+      p2Keys.forEach(k => {
+        const chosen = p2Answers[k] || "";
+        const isOk = (p2Results[k] !== undefined) ? p2Results[k] : (chosen === keyP2[k]);
+        const correctKey = keyP2[k] || "";
+
+        const item = document.createElement("div");
+        const statusClass = !chosen ? "empty" : (isOk ? "ok" : "err");
+        item.className = `omr-item ${statusClass}`;
+        item.innerHTML = `
+          <div class="omr-q">${k}</div>
+          <div class="omr-ans">${chosen || "Trống"}</div>
+          <span class="omr-badge">${isOk ? "✓ Đúng" : (chosen ? `✗ Đ/A: ${correctKey}` : "Chưa tô")}</span>
+        `;
+        container.appendChild(item);
+      });
+
+      if (mcq.wrong_note) {
+        document.getElementById("mcqNoteSummary").textContent = `Tổng kết: ${mcq.wrong_note}`;
+      }
+    }
+
+    // 7. RENDER CHI TIẾT TỰ LUẬN TỪNG CÂU
+    function renderEssayQuestions(questions) {
+      const container = document.getElementById("essayQuestionsContainer");
+      container.innerHTML = "";
+
+      if (!questions || questions.length === 0) {
+        container.innerHTML = '<div style="color:var(--gray-600);font-style:italic;">Chưa có chi tiết tự luận.</div>';
+        return;
+      }
+
+      questions.forEach(q => {
+        const card = document.createElement("div");
+        card.className = "essay-card";
+
+        const qScore = Number(q.score || 0).toFixed(2).replace(".", ",");
+        const qMax = Number(q.max_score || 1).toFixed(2).replace(".", ",");
+
+        let stepsHtml = "";
+        (q.steps || []).forEach(st => {
+          const ok = Boolean(st.ok);
+          const isMissing = Boolean(st.is_missing || (st.kind === "missing"));
+          const tagClass = isMissing ? "missing" : (ok ? "ok" : "err");
+          const tagText = isMissing ? "Thiếu ý" : (ok ? "Đạt" : "Chưa đạt");
+          const label = st.label || (ok ? "+0,25đ" : "0,00đ");
+
+          stepsHtml += `
+            <li class="step-item">
+              <span class="step-tag ${tagClass}">${tagText} (${label})</span>
+              <span style="color:var(--gray-800);">${st.note || ""}</span>
+            </li>
+          `;
+        });
+
+        card.innerHTML = `
+          <div class="essay-header">
+            <span class="essay-name">${q.question_no || "Câu hỏi"}</span>
+            <span class="essay-score">Điểm: ${qScore} / ${qMax}đ</span>
+          </div>
+          <ul class="step-list">
+            ${stepsHtml || '<li style="font-style:italic;color:var(--gray-600);">Không có ghi chú.</li>'}
+          </ul>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // 8. RENDER THƯ VIỆN ẢNH BÀI THI ĐÃ CHẤM
+    function renderGradedGallery(pages) {
+      const container = document.getElementById("gradedGalleryGrid");
+      container.innerHTML = "";
+
+      if (!pages || pages.length === 0) {
+        container.innerHTML = '<div style="color:var(--gray-600);font-style:italic;">Chưa có ảnh bài thi được tải lên cho bài này.</div>';
+        return;
+      }
+
+      pages.forEach((url, idx) => {
+        const card = document.createElement("div");
+        card.className = "gallery-card";
+        const pageLabel = `Trang ${idx + 1} / ${pages.length}`;
+        card.innerHTML = `
+          <div class="gallery-img-wrap" onclick="openLightbox('${url}', '${pageLabel}')">
+            <img class="gallery-img" src="${url}" alt="${pageLabel}" loading="lazy">
+          </div>
+          <div class="gallery-footer">
+            <span style="font-weight:700;color:var(--gray-700);">${pageLabel}</span>
+            <div style="display:flex;gap:6px;">
+              <button class="gallery-btn" onclick="openLightbox('${url}', '${pageLabel}')">🔍 Phóng to</button>
+              <a href="${url}" download class="gallery-btn" target="_blank" style="text-decoration:none;">📥 Tải về</a>
+            </div>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+    }
+
+    // LIGHTBOX
+    function openLightbox(url, caption) {
+      document.getElementById("lightboxImg").src = url;
+      document.getElementById("lightboxCaption").textContent = caption;
+      document.getElementById("lightboxModal").style.display = "flex";
+    }
+    function closeLightbox() {
+      document.getElementById("lightboxModal").style.display = "none";
+    }
+
+    // 9. GỬI Ý KIẾN / THẮC MẮC (PHÚC KHẢO) ĐẾN GOOGLE SHEET
+    async function guiYkienPhucKhao() {
+      if (!currentStudentResult) {
+        alert("Vui lòng tra cứu bài thi trước khi gửi ý kiến!");
+        return;
+      }
+
+      const content = document.getElementById("feedbackContent").value.trim();
+      const contact = document.getElementById("feedbackContact").value.trim();
+      const alertEl = document.getElementById("feedbackAlert");
+      const btn = document.getElementById("btnSubmitFeedback");
+
+      if (!content) {
+        alertEl.className = "alert-box alert-danger";
+        alertEl.textContent = "Em vui lòng nhập nội dung ý kiến hoặc thắc mắc về bài thi trước khi bấm gửi nhé!";
+        alertEl.style.display = "flex";
+        return;
+      }
+
+      btn.disabled = true;
+      btn.innerHTML = "<span>⏳</span><span>Đang gửi ý kiến...</span>";
+
+      const payload = {
+        action: "submit_appeal",
+        timestamp: new Date().toLocaleString("vi-VN"),
+        lop: currentStudentResult.student_class || "",
+        ma_hs: currentStudentResult.hs_id || "",
+        ho_ten: currentStudentResult.student_name || "",
+        dob: currentStudentResult.dob || "",
+        mon_hoc: "Tin học 8",
+        ten_bai_thi: "Kiểm tra Giữa kỳ I",
+        diem_hien_tai: `${Number(currentStudentResult.total_score || 0).toFixed(2)}đ (TN: ${Number((currentStudentResult.mcq && currentStudentResult.mcq.total_score) || 0).toFixed(2)}đ, TL: ${Number(currentStudentResult.essay_score || 0).toFixed(2)}đ)`,
+        y_kien: content,
+        lien_he: contact
+      };
+
+      try {
+        if (GAS_PHUCKHAO_URL && !GAS_PHUCKHAO_URL.includes("SAMPLE_DEPLOY_ID")) {
+          await fetch(GAS_PHUCKHAO_URL, {
+            method: "POST",
+            mode: "no-cors",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: new URLSearchParams(payload)
+          });
+        } else {
+          // Lưu tạm thời vào LocalStorage nếu chưa cấu hình GAS Web App
+          const localList = JSON.parse(localStorage.getItem("appeals_cache") || "[]");
+          localList.push(payload);
+          localStorage.setItem("appeals_cache", JSON.stringify(localList));
+        }
+
+        alertEl.className = "alert-box alert-success";
+        alertEl.innerHTML = `✅ <b>Ý kiến của em đã được gửi thành công!</b> Thầy giáo đã ghi nhận ý kiến về bài thi của em để xem xét lại và phản hồi sớm nhất.`;
+        alertEl.style.display = "flex";
+        document.getElementById("feedbackContent").value = "";
+      } catch (err) {
+        console.error("Lỗi gửi ý kiến:", err);
+        alertEl.className = "alert-box alert-danger";
+        alertEl.textContent = "Có lỗi kết nối khi gửi ý kiến. Em vui lòng thử lại hoặc nhắn tin trực tiếp cho Thầy giáo nhé!";
+        alertEl.style.display = "flex";
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = "<span>🚀</span><span>Gửi Ý Kiến Đến Thầy</span>";
+      }
+    }
+  </script>
+</body>
+</html>
