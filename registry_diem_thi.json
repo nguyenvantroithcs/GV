@@ -1,0 +1,25 @@
+{
+  "updated_at": "2026-11-13T20:49:34.191520",
+  "active_academic_year": "2026 - 2027",
+  "academic_years": [
+    {
+      "year_id": "2026_2027",
+      "year_label": "2026 - 2027",
+      "exams": [
+        {
+          "exam_id": "2026_2027_GK1_Tin8",
+          "exam_title": "Kiểm Tra Giữa Kỳ I - Tin học 8",
+          "term": "GK1",
+          "term_label": "Giữa Kỳ I",
+          "subject_id": "Tin8",
+          "subject_name": "Tin học 8",
+          "grade": 8,
+          "classes": [
+            "8A7"
+          ],
+          "data_file": "data/results/2026_2027_GK1_Tin8.json"
+        }
+      ]
+    }
+  ]
+}

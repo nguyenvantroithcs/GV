@@ -125,12 +125,34 @@
       margin-bottom: 18px;
     }
 
-    /* FORM GRID */
+    /* FORM GRID (PHÂN CẤP NĂM HỌC - ĐỢT THI - LỚP & XÁC THỰC HỌC SINH) */
+    .exam-filter-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.6fr 1.2fr;
+      gap: 12px;
+      align-items: end;
+      margin-bottom: 12px;
+    }
+    .student-auth-grid {
+      display: grid;
+      grid-template-columns: 1.8fr 1.3fr auto;
+      gap: 12px;
+      align-items: end;
+    }
     .form-grid {
       display: grid;
       grid-template-columns: 1fr 1.5fr 1.2fr auto;
       gap: 12px;
       align-items: end;
+    }
+    @media (max-width: 820px) {
+      .exam-filter-grid, .student-auth-grid, .form-grid {
+        grid-template-columns: 1fr !important;
+      }
+      .btn-search {
+        width: 100% !important;
+        justify-content: center !important;
+      }
     }
     .form-group {
       display: flex;
@@ -631,22 +653,40 @@
         Nhập thông tin lớp, họ tên và ngày sinh để xem điểm số chi tiết cùng bài làm đã chấm bút đỏ của em.
       </div>
 
-      <div class="form-grid">
+      <!-- DÒNG 1: BỘ CHỌN ĐỢT THI (PHÂN CẤP: NĂM HỌC -> ĐỢT THI & MÔN -> LỚP) -->
+      <div class="exam-filter-grid">
         <div class="form-group">
-          <label class="form-label" for="classSelect">1. Chọn Lớp</label>
-          <select id="classSelect" class="form-control" onchange="onClassChange()">
-            <option value="">-- Đang tải lớp... --</option>
+          <label class="form-label" for="yearSelect">📅 1. Năm Học</label>
+          <select id="yearSelect" class="form-control" onchange="onYearChange()">
+            <option value="2026_2027">2026 - 2027</option>
           </select>
         </div>
 
         <div class="form-group">
-          <label class="form-label" for="studentNameInput">2. Họ và Tên</label>
+          <label class="form-label" for="examSelect">📝 2. Đợt Thi &amp; Môn Học</label>
+          <select id="examSelect" class="form-control" onchange="onExamChange()">
+            <option value="">-- Đang nạp danh mục đợt thi --</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="classSelect">🏫 3. Lớp Học</label>
+          <select id="classSelect" class="form-control" onchange="onClassChange()">
+            <option value="">-- Đang nạp lớp --</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- DÒNG 2: XÁC THỰC HỌC SINH -->
+      <div class="student-auth-grid">
+        <div class="form-group">
+          <label class="form-label" for="studentNameInput">👤 4. Họ và Tên Học Sinh</label>
           <input type="text" id="studentNameInput" list="studentDatalist" class="form-control" placeholder="Nhập họ và tên học sinh..." autocomplete="off">
           <datalist id="studentDatalist"></datalist>
         </div>
 
         <div class="form-group">
-          <label class="form-label" for="dobInput">3. Ngày Sinh (dd/mm/yyyy)</label>
+          <label class="form-label" for="dobInput">🎂 5. Ngày Sinh (dd/mm/yyyy)</label>
           <input type="text" id="dobInput" class="form-control" placeholder="Ví dụ: 15/08/2012" maxlength="10">
         </div>
 
@@ -837,40 +877,139 @@
     // URL Web App Google Apps Script nhận phản hồi/phúc khảo
     const GAS_PHUCKHAO_URL = "https://script.google.com/macros/s/AKfycby_1gzExhhochtnhtt-o64SpjDxCAaLyZxDdQ6zThOfDm7HJaceUklXzD9R8gx3ew/exec";
 
+    let examRegistry = null;
+    let currentExamConfig = null;
     let currentClassStudents = [];
     let allExamsData = null;
     let currentStudentResult = null;
 
-    // 1. KHỞI TẠO DANH SÁCH LỚP
+    // 1. KHỞI TẠO HỆ THỐNG MỤC LỤC ĐỢT THI (CASCADING REGISTRY)
     document.addEventListener("DOMContentLoaded", async () => {
-      await loadClassList();
-      await loadExamsData();
+      await loadRegistryAndInit();
     });
 
-    async function loadClassList() {
-      const select = document.getElementById("classSelect");
+    async function loadRegistryAndInit() {
+      const yearSelect = document.getElementById("yearSelect");
+
       try {
-        const res = await fetch("dslop.json");
-        const list = await res.json();
-        select.innerHTML = '<option value="">-- Chọn Lớp Học --</option>';
-        list.forEach(c => {
-          const tenLop = c.TenLop || c.LopTen || c;
-          const opt = document.createElement("option");
-          opt.value = tenLop;
-          opt.textContent = `Lớp ${tenLop}`;
-          if (tenLop === "8A7") opt.selected = true;
-          select.appendChild(opt);
-        });
-        // Tải danh sách lớp mặc định 8A7
-        onClassChange();
+        const res = await fetch("registry_diem_thi.json");
+        examRegistry = await res.json();
       } catch (err) {
-        console.warn("Không tải được dslop.json:", err);
-        select.innerHTML = '<option value="8A7" selected>Lớp 8A7</option>';
-        onClassChange();
+        console.warn("Không tải được registry_diem_thi.json, dùng cấu hình mặc định:", err);
+        examRegistry = {
+          academic_years: [
+            {
+              year_id: "2026_2027",
+              year_label: "2026 - 2027",
+              exams: [
+                {
+                  exam_id: "2026_2027_GK1_Tin8",
+                  exam_title: "Kiểm Tra Giữa Kỳ I - Tin học 8",
+                  term: "GK1",
+                  term_label: "Giữa Kỳ I",
+                  subject_id: "Tin8",
+                  subject_name: "Tin học 8",
+                  grade: 8,
+                  classes: ["8A7"],
+                  data_file: "data/results/2026_2027_GK1_Tin8.json"
+                }
+              ]
+            }
+          ]
+        };
       }
+
+      // Nạp danh sách Năm học
+      yearSelect.innerHTML = "";
+      const years = examRegistry.academic_years || [];
+      if (years.length === 0) {
+        yearSelect.innerHTML = '<option value="2026_2027">2026 - 2027</option>';
+      } else {
+        years.forEach((y, idx) => {
+          const opt = document.createElement("option");
+          opt.value = y.year_id;
+          opt.textContent = y.year_label;
+          if (idx === 0) opt.selected = true;
+          yearSelect.appendChild(opt);
+        });
+      }
+
+      onYearChange();
     }
 
-    // 2. KHI ĐỔI LỚP: TẢI DANH SÁCH HỌC SINH TƯƠNG ỨNG ĐỂ GỢI Ý AUTOCOMPLETE
+    // 2. KHI ĐỔI NĂM HỌC: CẬP NHẬT DANH SÁCH ĐỢT THI & MÔN
+    function onYearChange() {
+      const yearId = document.getElementById("yearSelect").value;
+      const examSelect = document.getElementById("examSelect");
+      examSelect.innerHTML = "";
+
+      const yearEntry = (examRegistry.academic_years || []).find(y => y.year_id === yearId);
+      const exams = (yearEntry && yearEntry.exams) || [];
+
+      if (exams.length === 0) {
+        examSelect.innerHTML = '<option value="">-- Chưa có đợt thi nào --</option>';
+        return;
+      }
+
+      exams.forEach((ex, idx) => {
+        const opt = document.createElement("option");
+        opt.value = ex.exam_id;
+        opt.textContent = `${ex.exam_title} (${ex.term_label})`;
+        if (idx === 0) opt.selected = true;
+        examSelect.appendChild(opt);
+      });
+
+      onExamChange();
+    }
+
+    // 3. KHI ĐỔI ĐỢT THI & MÔN: TẢI TỆP KẾT QUẢ RIÊNG & CẬP NHẬT LỚP HỌC
+    async function onExamChange() {
+      const yearId = document.getElementById("yearSelect").value;
+      const examId = document.getElementById("examSelect").value;
+      const classSelect = document.getElementById("classSelect");
+
+      const yearEntry = (examRegistry.academic_years || []).find(y => y.year_id === yearId);
+      currentExamConfig = (yearEntry && yearEntry.exams || []).find(e => e.exam_id === examId);
+
+      // Tải kết quả thi riêng của môn/đợt này
+      const dataUrl = (currentExamConfig && currentExamConfig.data_file) || "data_ket_qua_thi.json";
+      try {
+        const res = await fetch(dataUrl);
+        allExamsData = await res.json();
+      } catch (e) {
+        console.warn(`Không tải được ${dataUrl}, dùng fallback data_ket_qua_thi.json:`, e);
+        try {
+          const res = await fetch("data_ket_qua_thi.json");
+          allExamsData = await res.json();
+        } catch (err) {
+          console.error("Lỗi tải tệp kết quả thi:", err);
+        }
+      }
+
+      // Xác định danh sách lớp thi của đợt này
+      let examClasses = (currentExamConfig && currentExamConfig.classes) || [];
+      if (!examClasses || examClasses.length === 0) {
+        if (allExamsData && allExamsData.students) {
+          examClasses = [...new Set(allExamsData.students.map(s => s.student_class).filter(Boolean))];
+        }
+      }
+      if (examClasses.length === 0) {
+        examClasses = ["8A7"];
+      }
+
+      classSelect.innerHTML = "";
+      examClasses.forEach((cls, idx) => {
+        const opt = document.createElement("option");
+        opt.value = cls;
+        opt.textContent = `Lớp ${cls}`;
+        if (idx === 0) opt.selected = true;
+        classSelect.appendChild(opt);
+      });
+
+      onClassChange();
+    }
+
+    // 4. KHI ĐỔI LỚP: TẢI DANH SÁCH HỌC SINH TƯƠNG ỨNG ĐỂ GỢI Ý AUTOCOMPLETE & ĐỐI CHIẾU
     async function onClassChange() {
       const cls = document.getElementById("classSelect").value;
       const datalist = document.getElementById("studentDatalist");
@@ -889,17 +1028,7 @@
           datalist.appendChild(opt);
         });
       } catch (err) {
-        console.warn(`Chưa có file danh sách ${fileName}:`, err);
-      }
-    }
-
-    // 3. TẢI DỮ LIỆU KẾT QUẢ CHẤM BÀI
-    async function loadExamsData() {
-      try {
-        const res = await fetch("data_ket_qua_thi.json");
-        allExamsData = await res.json();
-      } catch (err) {
-        console.warn("Chưa tải được data_ket_qua_thi.json:", err);
+        console.warn(`Chưa có tệp danh sách ${fileName}:`, err);
       }
     }
 
@@ -1026,6 +1155,8 @@
     function renderResult(st, rosterInfo) {
       const resultSec = document.getElementById("resultSection");
 
+      const exTitle = (currentExamConfig && currentExamConfig.exam_title) || (allExamsData && allExamsData.exam_info && allExamsData.exam_info.exam_title) || "Kiểm Tra Giữa Học Kỳ I - Tin Học 8";
+      document.getElementById("resExamTitle").textContent = exTitle.toUpperCase();
       document.getElementById("resStudentName").textContent = st.student_name || (rosterInfo && rosterInfo.HoTen);
       document.getElementById("resStudentClass").textContent = st.student_class || (rosterInfo && rosterInfo.LopTen) || "8A7";
       document.getElementById("resStudentId").textContent = st.hs_id || (rosterInfo && (rosterInfo.MaHs || rosterInfo.HsId)) || "---";
@@ -1491,8 +1622,9 @@
         ma_hs: currentStudentResult.hs_id || "",
         ho_ten: currentStudentResult.student_name || "",
         dob: currentStudentResult.dob || "",
-        mon_hoc: "Tin học 8",
-        ten_bai_thi: "Kiểm tra Giữa kỳ I",
+        nam_hoc: (currentExamConfig && currentExamConfig.academic_year) || document.getElementById("yearSelect")?.options[document.getElementById("yearSelect")?.selectedIndex]?.text || "2026 - 2027",
+        mon_hoc: (currentExamConfig && currentExamConfig.subject_name) || (allExamsData && allExamsData.exam_info && allExamsData.exam_info.subject) || "Tin học 8",
+        ten_bai_thi: (currentExamConfig && currentExamConfig.exam_title) || (allExamsData && allExamsData.exam_info && allExamsData.exam_info.exam_title) || "Kiểm tra Giữa kỳ I",
         diem_hien_tai: `${Number(currentStudentResult.total_score || 0).toFixed(2)}đ (TN: ${Number((currentStudentResult.mcq && currentStudentResult.mcq.total_score) || 0).toFixed(2)}đ, TL: ${Number(currentStudentResult.essay_score || 0).toFixed(2)}đ)`,
         y_kien: content,
         lien_he: contact

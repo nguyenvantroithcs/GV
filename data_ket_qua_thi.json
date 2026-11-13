@@ -1,9 +1,10 @@
 {
   "exam_info": {
-    "exam_id": "gk1_tin8_26_27",
-    "exam_title": "Kiểm Tra Giữa Học Kỳ I",
+    "exam_id": "2026_2027_GK1_Tin8",
+    "exam_title": "Kiểm Tra Giữa Kỳ I - Tin học 8",
     "subject": "Tin học 8",
-    "academic_year": "2026-2027",
+    "academic_year": "2026 - 2027",
+    "term": "GK1",
     "target_class": "8A7",
     "max_score": 10.0,
     "mcq_max": 7.0,
@@ -478,7 +479,7 @@
       ],
       "summary_comment": "TN: 5.50/7.00đ (P.I: 9/12 câu = 2.25đ; P.II: 13/16 ý = 3.25đ). TL: 1.50/3.00đ. Câu 1 đúng 4/4 ý (1.0đ). Câu 2 đúng 0.5đ (bù trừ nửa ý), nhầm 'hàng hoặc cột'; thiếu 2b & C3.",
       "graded_pages": [
-        "images/graded_exams/001_Bai_001_T1_085756_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/001_Bai_001_T1_085756_DaCham.jpg"
       ]
     },
     {
@@ -911,8 +912,8 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ (P.I 10/12, P.II 16/16 ý). TL: 2.25/3.00đ. Câu 1 (1.0đ) & Câu 2 (1.0đ) làm rất xuất sắc. Câu 3 (0.25đ) đúng từ khóa, bỏ dở 2 cách kiểm tra. Tổng: 8.75/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/002_Bai_002_T1_091539_DaCham.jpg",
-        "images/graded_exams/002_Bai_002_T2_091539_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/002_Bai_002_T1_091539_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/002_Bai_002_T2_091539_DaCham.jpg"
       ]
     },
     {
@@ -1335,7 +1336,7 @@
       ],
       "summary_comment": "TN: 7.00/7.00đ tuyệt đối (P.I 12/12, P.II 16/16 ý). TL: 0.75/3.00đ. Câu 1 đúng 3/4 ý (0.75đ), nhầm ý kiến cá nhân; Câu 2 & Câu 3 chưa làm. Tổng: 7.75/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/003_Bai_003_T1_095522_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/003_Bai_003_T1_095522_DaCham.jpg"
       ]
     },
     {
@@ -1761,8 +1762,8 @@
       ],
       "summary_comment": "TN: 5.50/7.00đ (P.I 8/12, P.II 14/16 ý). TL: 1.50/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 đúng ý so sánh 2b (0.50đ), thiếu 2a; Câu 3 chưa làm. Tổng: 7.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/004_Bai_004_T1_095714_DaCham.jpg",
-        "images/graded_exams/004_Bai_004_T2_095714_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/004_Bai_004_T1_095714_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/004_Bai_004_T2_095714_DaCham.jpg"
       ]
     },
     {
@@ -2189,8 +2190,8 @@
       ],
       "summary_comment": "TN: 5.00/7.00đ (P.I 9/12, P.II 11/16 ý). TL: 1.00/3.00đ. Câu 1 đúng 3 ví dụ (0.75đ). Câu 2 đúng nửa ý 2b (0.25đ), thiếu 2a; Câu 3 chưa làm. Tổng: 6.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/005_Bai_005_T1_095756_DaCham.jpg",
-        "images/graded_exams/005_Bai_005_T2_095756_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/005_Bai_005_T1_095756_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/005_Bai_005_T2_095756_DaCham.jpg"
       ]
     },
     {
@@ -2611,8 +2612,8 @@
       ],
       "summary_comment": "TN: 5.50/7.00đ (P.I 8/12, P.II 14/16 ý). TL: 1.25/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 sai kiến thức (0.00đ). Câu 3 đúng 1 ý kiểm tra nguồn (0.25đ). Tổng: 6.75/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/006_Bai_006_T1_095848_DaCham.jpg",
-        "images/graded_exams/006_Bai_006_T2_095848_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/006_Bai_006_T1_095848_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/006_Bai_006_T2_095848_DaCham.jpg"
       ]
     },
     {
@@ -3055,7 +3056,7 @@
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 1.50/3.00đ. Câu 1 đúng xuất sắc 4/4 ý (1.00đ). Câu 2 bỏ trống (0.00đ). Câu 3 đúng 2 cách kiểm tra (0.50đ), thiếu từ khóa. Tổng: 7.25/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/007_Bai_007_T1_095920_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/007_Bai_007_T1_095920_DaCham.jpg"
       ]
     },
     {
@@ -3487,8 +3488,8 @@
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 3.00/3.00đ tuyệt đối! Trình bày rất chuẩn, lập luận mạch lạc, nắm vững kiến thức F4, địa chỉ ô và nguồn tin số. Tổng: 8.75/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/008_Bai_008_T1_100013_DaCham.jpg",
-        "images/graded_exams/008_Bai_008_T2_100013_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/008_Bai_008_T1_100013_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/008_Bai_008_T2_100013_DaCham.jpg"
       ]
     },
     {
@@ -3929,8 +3930,8 @@
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 2.75/3.00đ. Câu 1 (1.00đ) & Câu 3 (1.00đ) xuất sắc; Câu 2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 8.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/009_Bai_009_T1_100126_DaCham.jpg",
-        "images/graded_exams/009_Bai_009_T2_100126_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/009_Bai_009_T1_100126_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/009_Bai_009_T2_100126_DaCham.jpg"
       ]
     },
     {
@@ -4364,8 +4365,8 @@
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 1.75/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 bỏ trống hoàn toàn (0.00đ). Câu 3 đúng từ khóa và 1 cách kiểm tra (0.75đ). Tổng: 7.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/010_Bai_010_T1_100228_DaCham.jpg",
-        "images/graded_exams/010_Bai_010_T2_100228_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/010_Bai_010_T1_100228_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/010_Bai_010_T2_100228_DaCham.jpg"
       ]
     },
     {
@@ -4802,8 +4803,8 @@
       ],
       "summary_comment": "TN: 5.25/7.00đ (P.I 9/12, P.II 12/16 ý). TL: 2.75/3.00đ. Câu 1 (1.00đ) & Câu 3 (1.00đ) trọn vẹn. Câu 2 (0.75đ) đúng bản chất dấu $ và so sánh 2b, nhầm phím Ctrl thay vì F4. Tổng: 8.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/011_Bai_011_T1_100343_DaCham.jpg",
-        "images/graded_exams/011_Bai_011_T2_100343_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/011_Bai_011_T1_100343_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/011_Bai_011_T2_100343_DaCham.jpg"
       ]
     },
     {
@@ -5241,7 +5242,7 @@
       ],
       "summary_comment": "TN: 5.00/7.00đ. TL: 2.25/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh (0.75đ), nhầm phím số 4 thay vì F4. C3 đúng cách tra cứu nguồn uy tín (0.50đ). Tổng: 7.25/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/012_Bai_012_T1_102543_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/012_Bai_012_T1_102543_DaCham.jpg"
       ]
     },
     {
@@ -5682,8 +5683,8 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ (P.II 16/16 tuyệt đối). TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/013_Bai_013_T1_102628_DaCham.jpg",
-        "images/graded_exams/013_Bai_013_T2_102628_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/013_Bai_013_T1_102628_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/013_Bai_013_T2_102628_DaCham.jpg"
       ]
     },
     {
@@ -6094,7 +6095,7 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 0.50/3.00đ. C1 đúng 2 ý (0.50đ), thiếu 2 ý; C2 & C3 chưa làm. Tổng: 6.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/014_Bai_014_T1_102643_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/014_Bai_014_T1_102643_DaCham.jpg"
       ]
     },
     {
@@ -6505,7 +6506,7 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 0.50/3.00đ. C1 đúng 2 ý (0.50đ), thiếu 2 ý; C2 & C3 chưa làm. Tổng: 6.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/015_Bai_015_T1_102704_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/015_Bai_015_T1_102704_DaCham.jpg"
       ]
     },
     {
@@ -6946,8 +6947,8 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/016_Bai_016_T1_102730_DaCham.jpg",
-        "images/graded_exams/016_Bai_016_T2_102730_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/016_Bai_016_T1_102730_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/016_Bai_016_T2_102730_DaCham.jpg"
       ]
     },
     {
@@ -7380,7 +7381,7 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 2.00/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh 2b (0.75đ). C3 đúng từ khóa (0.25đ), thiếu cách kiểm tra. Tổng: 8.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/017_Bai_017_T1_102746_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/017_Bai_017_T1_102746_DaCham.jpg"
       ]
     },
     {
@@ -7798,7 +7799,7 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/018_Bai_018_T1_102804_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/018_Bai_018_T1_102804_DaCham.jpg"
       ]
     },
     {
@@ -8231,8 +8232,8 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.25/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh 2b (0.75đ). C3 đúng cách kiểm tra (0.50đ), thiếu từ khóa. Tổng: 8.75/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/019_Bai_019_T1_102835_DaCham.jpg",
-        "images/graded_exams/019_Bai_019_T2_102835_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/019_Bai_019_T1_102835_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/019_Bai_019_T2_102835_DaCham.jpg"
       ]
     },
     {
@@ -8651,7 +8652,7 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 0.75/3.00đ. C1 đúng 3 ý (0.75đ); C2 & C3 chưa làm. Tổng: 6.75/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/020_Bai_020_T1_102855_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/020_Bai_020_T1_102855_DaCham.jpg"
       ]
     },
     {
@@ -8751,7 +8752,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/021_Bai_021_T1_102915_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/021_Bai_021_T1_102915_DaCham.jpg"
       ]
     },
     {
@@ -9192,8 +9193,8 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/022_Bai_022_T1_103044_DaCham.jpg",
-        "images/graded_exams/022_Bai_022_T2_103044_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/022_Bai_022_T1_103044_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/022_Bai_022_T2_103044_DaCham.jpg"
       ]
     },
     {
@@ -9634,8 +9635,8 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/023_Bai_023_T1_103125_DaCham.jpg",
-        "images/graded_exams/023_Bai_023_T2_103125_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/023_Bai_023_T1_103125_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/023_Bai_023_T2_103125_DaCham.jpg"
       ]
     },
     {
@@ -10068,8 +10069,8 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 2.50/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng so sánh 2b (0.50đ), thiếu 2a. C3 đúng trọn vẹn (1.0đ). Tổng: 8.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/024_Bai_024_T1_103157_DaCham.jpg",
-        "images/graded_exams/024_Bai_024_T2_103157_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/024_Bai_024_T1_103157_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/024_Bai_024_T2_103157_DaCham.jpg"
       ]
     },
     {
@@ -10502,8 +10503,8 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 2.00/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng 2a (0.50đ), thiếu 2b. C3 đúng 1 phần từ khóa & kiểm tra (0.50đ). Tổng: 8.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/025_Bai_025_T1_103226_DaCham.jpg",
-        "images/graded_exams/025_Bai_025_T2_103226_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/025_Bai_025_T1_103226_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/025_Bai_025_T2_103226_DaCham.jpg"
       ]
     },
     {
@@ -10928,8 +10929,8 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/026_Bai_026_T1_103257_DaCham.jpg",
-        "images/graded_exams/026_Bai_026_T2_103257_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/026_Bai_026_T1_103257_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/026_Bai_026_T2_103257_DaCham.jpg"
       ]
     },
     {
@@ -11354,8 +11355,8 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.75/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 bỏ trống. C3 đúng cách kiểm tra (0.75đ). Tổng: 8.25/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/027_Bai_027_T1_103350_DaCham.jpg",
-        "images/graded_exams/027_Bai_027_T2_103350_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/027_Bai_027_T1_103350_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/027_Bai_027_T2_103350_DaCham.jpg"
       ]
     },
     {
@@ -11787,8 +11788,8 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 3.00/3.00đ tuyệt đối! Trình bày xuất sắc C1, C2 (F4, $B$5, so sánh tương đối/tuyệt đối) và C3 (từ khóa + kiểm tra). Tổng: 9.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/028_Bai_028_T1_103427_DaCham.jpg",
-        "images/graded_exams/028_Bai_028_T2_103427_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/028_Bai_028_T1_103427_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/028_Bai_028_T2_103427_DaCham.jpg"
       ]
     },
     {
@@ -12213,7 +12214,7 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 1.75/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 bỏ trống. C3 đúng từ khóa & kiểm tra (0.75đ). Tổng: 7.75/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/029_Bai_029_T1_103445_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/029_Bai_029_T1_103445_DaCham.jpg"
       ]
     },
     {
@@ -12313,7 +12314,7 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/030_Bai_030_T1_103501_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/030_Bai_030_T1_103501_DaCham.jpg"
       ]
     },
     {
@@ -12708,7 +12709,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ (P.II 16/16 ý tuyệt đối). TL: 0.00/3.00đ. Bỏ trống toàn bộ phần tự luận (chữ 'v'). Tổng: 6.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/031_Bai_031_T1_103514_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/031_Bai_031_T1_103514_DaCham.jpg"
       ]
     },
     {
@@ -13126,7 +13127,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/032_Bai_032_T1_103531_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/032_Bai_032_T1_103531_DaCham.jpg"
       ]
     },
     {
@@ -13203,7 +13204,7 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 0.00/3.00đ. Bỏ trống toàn bộ phần tự luận (chữ 'v'). Tổng: 6.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/033_Bai_033_T1_103544_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/033_Bai_033_T1_103544_DaCham.jpg"
       ]
     },
     {
@@ -13621,7 +13622,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/034_Bai_034_T1_103556_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/034_Bai_034_T1_103556_DaCham.jpg"
       ]
     },
     {
@@ -14053,8 +14054,8 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 3.00/3.00đ tuyệt đối! Bài làm xuất sắc nhất lớp: chữ viết rõ ràng, đúng toàn bộ F4, $F$2, so sánh tương đối/tuyệt đối và kiểm tra tin giả. Tổng: 9.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/035_Bai_035_T1_103632_DaCham.jpg",
-        "images/graded_exams/035_Bai_035_T2_103632_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/035_Bai_035_T1_103632_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/035_Bai_035_T2_103632_DaCham.jpg"
       ]
     },
     {
@@ -14479,7 +14480,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/036_Bai_036_T1_103646_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/036_Bai_036_T1_103646_DaCham.jpg"
       ]
     },
     {
@@ -14897,7 +14898,7 @@
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/037_Bai_037_T1_103658_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/037_Bai_037_T1_103658_DaCham.jpg"
       ]
     },
     {
@@ -15322,7 +15323,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/038_Bai_038_T1_103712_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/038_Bai_038_T1_103712_DaCham.jpg"
       ]
     },
     {
@@ -15733,7 +15734,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 0.50/3.00đ. C1 đúng 2 ý (0.50đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/039_Bai_039_T1_103724_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/039_Bai_039_T1_103724_DaCham.jpg"
       ]
     },
     {
@@ -16151,7 +16152,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/040_Bai_040_T1_103742_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/040_Bai_040_T1_103742_DaCham.jpg"
       ]
     },
     {
@@ -16569,7 +16570,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/041_Bai_041_T1_103753_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/041_Bai_041_T1_103753_DaCham.jpg"
       ]
     },
     {
@@ -17001,8 +17002,8 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng ký hiệu $ và so sánh 2b, thiếu F4. Tổng: 9.25/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/042_Bai_042_T1_103813_DaCham.jpg",
-        "images/graded_exams/042_Bai_042_T2_103813_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/042_Bai_042_T1_103813_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/042_Bai_042_T2_103813_DaCham.jpg"
       ]
     },
     {
@@ -17397,7 +17398,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 0.00/3.00đ. Bỏ trống toàn bộ phần tự luận (chữ 'v'). Tổng: 6.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/043_Bai_043_T1_103823_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/043_Bai_043_T1_103823_DaCham.jpg"
       ]
     },
     {
@@ -17815,7 +17816,7 @@
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
       "graded_pages": [
-        "images/graded_exams/044_Bai_044_T1_103836_DaCham.jpg"
+        "images/graded_exams/2026_2027/GK1/Tin8/8A7/044_Bai_044_T1_103836_DaCham.jpg"
       ]
     }
   ]

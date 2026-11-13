@@ -58,18 +58,19 @@ function khoiTaoTieuDeSheet(customSheet) {
   const headers = [
     "STT",                          // Cột A
     "Thời gian gửi",                // Cột B
-    "Lớp",                          // Cột C
-    "Mã Học Sinh",                  // Cột D
-    "Họ và Tên Học Sinh",          // Cột E
-    "Ngày Sinh",                    // Cột F
-    "Môn Học",                      // Cột G
-    "Tên Bài Thi",                  // Cột H
-    "Điểm Hiện Tại",                // Cột I
-    "Nội Dung Ý Kiến / Thắc Mắc",  // Cột J
-    "SĐT / Zalo Liên Hệ",           // Cột K
-    "Trạng Thái Xử Lý",             // Cột L
-    "Ghi Chú & Kết Quả Của GV",     // Cột M
-    "Thời Gian Giáo Viên Xử Lý"     // Cột N
+    "Năm Học",                      // Cột C
+    "Lớp",                          // Cột D
+    "Mã Học Sinh",                  // Cột E
+    "Họ và Tên Học Sinh",          // Cột F
+    "Ngày Sinh",                    // Cột G
+    "Môn Học",                      // Cột H
+    "Tên Bài Thi",                  // Cột I
+    "Điểm Hiện Tại",                // Cột J
+    "Nội Dung Ý Kiến / Thắc Mắc",  // Cột K
+    "SĐT / Zalo Liên Hệ",           // Cột L
+    "Trạng Thái Xử Lý",             // Cột M
+    "Ghi Chú & Kết Quả Của GV",     // Cột N
+    "Thời Gian Giáo Viên Xử Lý"     // Cột O
   ];
 
   // Nếu dòng 1 chưa có tiêu đề thì ghi vào
@@ -93,18 +94,19 @@ function khoiTaoTieuDeSheet(customSheet) {
   // Đặt độ rộng các cột cho thoáng đẹp, dễ nhìn
   sheet.setColumnWidth(1, 60);   // STT
   sheet.setColumnWidth(2, 150);  // Thời gian gửi
-  sheet.setColumnWidth(3, 80);   // Lớp
-  sheet.setColumnWidth(4, 110);  // Mã HS
-  sheet.setColumnWidth(5, 180);  // Họ tên
-  sheet.setColumnWidth(6, 110);  // Ngày sinh
-  sheet.setColumnWidth(7, 100);  // Môn học
-  sheet.setColumnWidth(8, 160);  // Tên bài thi
-  sheet.setColumnWidth(9, 160);  // Điểm hiện tại
-  sheet.setColumnWidth(10, 320); // Nội dung ý kiến
-  sheet.setColumnWidth(11, 140); // Liên hệ
-  sheet.setColumnWidth(12, 130); // Trạng thái xử lý
-  sheet.setColumnWidth(13, 260); // Ghi chú của GV
-  sheet.setColumnWidth(14, 150); // Thời gian xử lý
+  sheet.setColumnWidth(3, 110);  // Năm học
+  sheet.setColumnWidth(4, 80);   // Lớp
+  sheet.setColumnWidth(5, 110);  // Mã HS
+  sheet.setColumnWidth(6, 180);  // Họ tên
+  sheet.setColumnWidth(7, 110);  // Ngày sinh
+  sheet.setColumnWidth(8, 100);  // Môn học
+  sheet.setColumnWidth(9, 160);  // Tên bài thi
+  sheet.setColumnWidth(10, 160); // Điểm hiện tại
+  sheet.setColumnWidth(11, 320); // Nội dung ý kiến
+  sheet.setColumnWidth(12, 140); // Liên hệ
+  sheet.setColumnWidth(13, 130); // Trạng thái xử lý
+  sheet.setColumnWidth(14, 260); // Ghi chú của GV
+  sheet.setColumnWidth(15, 150); // Thời gian xử lý
 }
 
 /**
@@ -130,6 +132,7 @@ function doPost(e) {
     const lastRow = Math.max(sheet.getLastRow(), 1);
     const stt = lastRow; // Dòng 1 là header nên row 2 sẽ có STT = 1
     const thoiGianGui = data.timestamp || Utilities.formatDate(new Date(), "GMT+7", "dd/MM/yyyy HH:mm:ss");
+    const namHoc = data.nam_hoc || "2026 - 2027";
     const lop = data.lop || "";
     const maHs = data.ma_hs || "";
     const hoTen = data.ho_ten || "";
@@ -146,6 +149,7 @@ function doPost(e) {
     const newRow = [
       stt,
       thoiGianGui,
+      namHoc,
       lop,
       "'" + maHs, // Thêm nháy đơn để bảo toàn mã số dài không bị làm tròn
       hoTen,
@@ -167,16 +171,18 @@ function doPost(e) {
     // Định dạng dòng vừa thêm
     sheet.getRange(currentRow, 1).setHorizontalAlignment("center"); // STT
     sheet.getRange(currentRow, 2).setHorizontalAlignment("center"); // Thời gian
-    sheet.getRange(currentRow, 3).setHorizontalAlignment("center"); // Lớp
-    sheet.getRange(currentRow, 4).setHorizontalAlignment("center"); // Mã HS
-    sheet.getRange(currentRow, 6).setHorizontalAlignment("center"); // Ngày sinh
-    sheet.getRange(currentRow, 11).setHorizontalAlignment("center"); // SĐT
-    sheet.getRange(currentRow, 12).setHorizontalAlignment("center"); // Trạng thái
+    sheet.getRange(currentRow, 3).setHorizontalAlignment("center"); // Năm học
+    sheet.getRange(currentRow, 4).setHorizontalAlignment("center"); // Lớp
+    sheet.getRange(currentRow, 5).setHorizontalAlignment("center"); // Mã HS
+    sheet.getRange(currentRow, 7).setHorizontalAlignment("center"); // Ngày sinh
+    sheet.getRange(currentRow, 12).setHorizontalAlignment("center"); // SĐT
+    sheet.getRange(currentRow, 13).setHorizontalAlignment("center"); // Trạng thái
 
     // Tô màu cảnh báo nhẹ cho trạng thái "Chờ xem xét"
-    sheet.getRange(currentRow, 12).setBackground("#fef3c7").setFontColor("#b45309").setFontWeight("bold");
+    sheet.getRange(currentRow, 13).setBackground("#fef3c7").setFontColor("#b45309").setFontWeight("bold");
     // Bật tự động xuống dòng cho cột ý kiến và ghi chú
-    sheet.getRange(currentRow, 10).setWrap(true);
+    sheet.getRange(currentRow, 11).setWrap(true);
+    sheet.getRange(currentRow, 14).setWrap(true);
     sheet.getRange(currentRow, 13).setWrap(true);
 
     return ContentService.createTextOutput(JSON.stringify({
