@@ -15243,14 +15243,14 @@
           "question_no": "Câu 1",
           "max_score": 1.0,
           "score": 1.0,
-          "left_y_norm": 655,
+          "left_y_norm": 618,
           "steps": [
             {
               "page_index": 0,
               "label": "+0,25đ",
               "ok": true,
               "note": "Ghi âm sao chép tài liệu không xin phép",
-              "y_norm": 680,
+              "y_norm": 655,
               "highlight_box": null
             },
             {
@@ -15258,7 +15258,7 @@
               "label": "+0,25đ",
               "ok": true,
               "note": "Quay video trong rạp phim đăng mạng",
-              "y_norm": 715,
+              "y_norm": 682,
               "highlight_box": null
             },
             {
@@ -15266,7 +15266,7 @@
               "label": "+0,25đ",
               "ok": true,
               "note": "Tải lậu phần mềm bản quyền",
-              "y_norm": 750,
+              "y_norm": 709,
               "highlight_box": null
             },
             {
@@ -15274,7 +15274,7 @@
               "label": "+0,25đ",
               "ok": true,
               "note": "Quay video bạo lực học đường",
-              "y_norm": 785,
+              "y_norm": 741,
               "highlight_box": null
             }
           ]
@@ -15283,15 +15283,16 @@
           "question_no": "Câu 2",
           "max_score": 1.0,
           "score": 0.0,
-          "left_y_norm": 830,
+          "left_y_norm": null,
+          "is_skipped": true,
           "steps": [
             {
               "page_index": 0,
               "label": "0,00đ",
               "ok": false,
               "is_missing": true,
-              "note": "Chưa làm Câu 2 (chữ 'v')",
-              "y_norm": 840,
+              "note": "Chưa làm Câu 2",
+              "y_norm": null,
               "highlight_box": null
             }
           ]
@@ -15300,14 +15301,14 @@
           "question_no": "Câu 3",
           "max_score": 1.0,
           "score": 1.0,
-          "left_y_norm": 870,
+          "left_y_norm": 795,
           "steps": [
             {
               "page_index": 0,
               "label": "+0,50đ",
               "ok": true,
               "note": "2 từ khóa tin giả & tác hại",
-              "y_norm": 890,
+              "y_norm": 832,
               "highlight_box": null
             },
             {
@@ -15315,7 +15316,7 @@
               "label": "+0,50đ",
               "ok": true,
               "note": "2 cách kiểm tra: dẫn chứng số liệu & nguồn VTV/chính phủ",
-              "y_norm": 930,
+              "y_norm": 890,
               "highlight_box": null
             }
           ]
