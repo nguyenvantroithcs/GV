@@ -974,8 +974,8 @@
         container.appendChild(item);
       }
 
-      // Phần II (13a..16d)
-      const p2Keys = [
+      // Phần II (Đúng/Sai)
+      const p2Keys = Object.keys(keyP2).length > 0 ? Object.keys(keyP2) : [
         "13a","13b","13c","13d",
         "14a","14b","14c","14d",
         "15a","15b","15c","15d",
@@ -996,6 +996,30 @@
         `;
         container.appendChild(item);
       });
+
+      // Phần III: Trắc nghiệm Trả lời ngắn (Môn Toán & môn theo chuẩn mới 2025-2027)
+      const p3Answers = mcq.p3_answers || {};
+      const p3Results = mcq.p3_results || {};
+      const keyP3 = (allExamsData && allExamsData.exam_info && allExamsData.exam_info.official_key_p3) || {};
+      const p3Keys = Object.keys(keyP3).length > 0 ? Object.keys(keyP3) : Object.keys(p3Answers);
+
+      if (p3Keys.length > 0) {
+        p3Keys.forEach(k => {
+          const studentAns = p3Answers[k] || "";
+          const correctKey = keyP3[k] || "";
+          const isOk = (p3Results[k] !== undefined) ? p3Results[k] : (studentAns && correctKey && normStr(studentAns) === normStr(correctKey));
+
+          const item = document.createElement("div");
+          const statusClass = !studentAns ? "empty" : (isOk ? "ok" : "err");
+          item.className = `omr-item ${statusClass}`;
+          item.innerHTML = `
+            <div class="omr-q">${k}</div>
+            <div class="omr-ans" style="font-size:12.5px;font-weight:700;letter-spacing:0.3px;">${studentAns || "Trống"}</div>
+            <span class="omr-badge">${isOk ? "✓ Đúng" : (studentAns ? `✗ Đ/A: ${correctKey}` : "Chưa điền")}</span>
+          `;
+          container.appendChild(item);
+        });
+      }
 
       if (mcq.wrong_note) {
         document.getElementById("mcqNoteSummary").textContent = `Tổng kết: ${mcq.wrong_note}`;
