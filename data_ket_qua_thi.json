@@ -419,7 +419,15 @@
               "y_norm": 850,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            620,
+            52,
+            875,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -457,7 +465,15 @@
               "y_norm": 970,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            865,
+            52,
+            975,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -474,7 +490,10 @@
               "y_norm": 995,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 5.50/7.00đ (P.I: 9/12 câu = 2.25đ; P.II: 13/16 ý = 3.25đ). TL: 1.50/3.00đ. Câu 1 đúng 4/4 ý (1.0đ). Câu 2 đúng 0.5đ (bù trừ nửa ý), nhầm 'hàng hoặc cột'; thiếu 2b & C3.",
@@ -858,7 +877,15 @@
               "y_norm": 800,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            650,
+            52,
+            825,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -882,7 +909,15 @@
               "y_norm": 235,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            145,
+            52,
+            260,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -907,7 +942,15 @@
               "y_norm": 355,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            285,
+            52,
+            380,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ (P.I 10/12, P.II 16/16 ý). TL: 2.25/3.00đ. Câu 1 (1.0đ) & Câu 2 (1.0đ) làm rất xuất sắc. Câu 3 (0.25đ) đúng từ khóa, bỏ dở 2 cách kiểm tra. Tổng: 8.75/10.0đ.",
@@ -1297,7 +1340,15 @@
                 600
               ]
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            650,
+            52,
+            820,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -1314,7 +1365,10 @@
               "y_norm": 850,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -1331,7 +1385,10 @@
               "y_norm": 925,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 7.00/7.00đ tuyệt đối (P.I 12/12, P.II 16/16 ý). TL: 0.75/3.00đ. Câu 1 đúng 3/4 ý (0.75đ), nhầm ý kiến cá nhân; Câu 2 & Câu 3 chưa làm. Tổng: 7.75/10.0đ.",
@@ -1715,7 +1772,15 @@
               "y_norm": 795,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            650,
+            52,
+            820,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -1740,7 +1805,15 @@
               "y_norm": 230,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            145,
+            52,
+            255,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -1757,7 +1830,10 @@
               "y_norm": 335,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 5.50/7.00đ (P.I 8/12, P.II 14/16 ý). TL: 1.50/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 đúng ý so sánh 2b (0.50đ), thiếu 2a; Câu 3 chưa làm. Tổng: 7.00/10.0đ.",
@@ -2143,7 +2219,15 @@
               "y_norm": 795,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            650,
+            52,
+            820,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -2168,7 +2252,15 @@
               "y_norm": 225,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            145,
+            52,
+            250,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -2185,7 +2277,10 @@
               "y_norm": 325,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 5.00/7.00đ (P.I 9/12, P.II 11/16 ý). TL: 1.00/3.00đ. Câu 1 đúng 3 ví dụ (0.75đ). Câu 2 đúng nửa ý 2b (0.25đ), thiếu 2a; Câu 3 chưa làm. Tổng: 6.00/10.0đ.",
@@ -2570,7 +2665,15 @@
               "y_norm": 795,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            650,
+            52,
+            820,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -2591,7 +2694,15 @@
                 680
               ]
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            145,
+            52,
+            210,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -2607,7 +2718,15 @@
               "y_norm": 290,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            255,
+            52,
+            315,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 5.50/7.00đ (P.I 8/12, P.II 14/16 ý). TL: 1.25/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 sai kiến thức (0.00đ). Câu 3 đúng 1 ý kiểm tra nguồn (0.25đ). Tổng: 6.75/10.0đ.",
@@ -2992,7 +3111,15 @@
               "y_norm": 775,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            800,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -3018,7 +3145,10 @@
               "y_norm": 838,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -3051,7 +3181,15 @@
               "y_norm": 945,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            845,
+            52,
+            970,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 1.50/3.00đ. Câu 1 đúng xuất sắc 4/4 ý (1.00đ). Câu 2 bỏ trống (0.00đ). Câu 3 đúng 2 cách kiểm tra (0.50đ), thiếu từ khóa. Tổng: 7.25/10.0đ.",
@@ -3435,7 +3573,15 @@
               "y_norm": 860,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            885,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -3459,7 +3605,15 @@
               "y_norm": 280,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            30,
+            52,
+            305,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -3483,7 +3637,15 @@
               "y_norm": 820,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            485,
+            52,
+            845,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 3.00/3.00đ tuyệt đối! Trình bày rất chuẩn, lập luận mạch lạc, nắm vững kiến thức F4, địa chỉ ô và nguồn tin số. Tổng: 8.75/10.0đ.",
@@ -3868,7 +4030,15 @@
               "y_norm": 870,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            895,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -3901,7 +4071,15 @@
               "y_norm": 180,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            30,
+            52,
+            205,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -3925,7 +4103,15 @@
               "y_norm": 340,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            235,
+            52,
+            365,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 2.75/3.00đ. Câu 1 (1.00đ) & Câu 3 (1.00đ) xuất sắc; Câu 2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 8.50/10.0đ.",
@@ -4310,7 +4496,15 @@
               "y_norm": 820,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            845,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -4327,7 +4521,10 @@
               "y_norm": 890,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -4360,7 +4557,15 @@
               "y_norm": 180,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            30,
+            52,
+            205,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 1.75/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 bỏ trống hoàn toàn (0.00đ). Câu 3 đúng từ khóa và 1 cách kiểm tra (0.75đ). Tổng: 7.50/10.0đ.",
@@ -4745,7 +4950,15 @@
               "y_norm": 810,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            630,
+            52,
+            835,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -4774,7 +4987,15 @@
               "y_norm": 915,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            825,
+            52,
+            940,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -4798,7 +5019,15 @@
               "y_norm": 150,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            30,
+            52,
+            175,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 5.25/7.00đ (P.I 9/12, P.II 12/16 ý). TL: 2.75/3.00đ. Câu 1 (1.00đ) & Câu 3 (1.00đ) trọn vẹn. Câu 2 (0.75đ) đúng bản chất dấu $ và so sánh 2b, nhầm phím Ctrl thay vì F4. Tổng: 8.00/10.0đ.",
@@ -5183,7 +5412,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -5212,7 +5449,15 @@
               "y_norm": 890,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            805,
+            52,
+            915,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -5237,7 +5482,15 @@
               "y_norm": 965,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            910,
+            52,
+            975,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 5.00/7.00đ. TL: 2.25/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh (0.75đ), nhầm phím số 4 thay vì F4. C3 đúng cách tra cứu nguồn uy tín (0.50đ). Tổng: 7.25/10.0đ.",
@@ -5621,7 +5874,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -5654,7 +5915,15 @@
               "y_norm": 905,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            825,
+            52,
+            930,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -5678,7 +5947,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ (P.II 16/16 tuyệt đối). TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
@@ -6056,7 +6333,15 @@
               "y_norm": 765,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            790,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -6073,7 +6358,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -6090,7 +6378,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 0.50/3.00đ. C1 đúng 2 ý (0.50đ), thiếu 2 ý; C2 & C3 chưa làm. Tổng: 6.50/10.0đ.",
@@ -6467,7 +6758,15 @@
               "y_norm": 765,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            790,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -6484,7 +6783,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -6501,7 +6803,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 0.50/3.00đ. C1 đúng 2 ý (0.50đ), thiếu 2 ý; C2 & C3 chưa làm. Tổng: 6.50/10.0đ.",
@@ -6885,7 +7190,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -6918,7 +7231,15 @@
               "y_norm": 905,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            820,
+            52,
+            930,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -6942,7 +7263,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
@@ -7327,7 +7656,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -7351,7 +7688,15 @@
               "y_norm": 890,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            805,
+            52,
+            915,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -7376,7 +7721,15 @@
               "y_norm": 970,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            920,
+            52,
+            975,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 2.00/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh 2b (0.75đ). C3 đúng từ khóa (0.25đ), thiếu cách kiểm tra. Tổng: 8.00/10.0đ.",
@@ -7760,7 +8113,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -7777,7 +8138,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -7794,7 +8158,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
@@ -8178,7 +8545,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -8202,7 +8577,15 @@
               "y_norm": 905,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            820,
+            52,
+            930,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -8227,7 +8610,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.25/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh 2b (0.75đ). C3 đúng cách kiểm tra (0.50đ), thiếu từ khóa. Tổng: 8.75/10.0đ.",
@@ -8613,7 +9004,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -8630,7 +9029,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -8647,7 +9049,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 0.75/3.00đ. C1 đúng 3 ý (0.75đ); C2 & C3 chưa làm. Tổng: 6.75/10.0đ.",
@@ -8713,7 +9118,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -8730,7 +9143,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -8747,7 +9163,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
@@ -9131,7 +9550,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -9164,7 +9591,15 @@
               "y_norm": 905,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            820,
+            52,
+            930,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -9188,7 +9623,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
@@ -9573,7 +10016,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -9606,7 +10057,15 @@
               "y_norm": 905,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            820,
+            52,
+            930,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -9630,7 +10089,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
@@ -10015,7 +10482,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -10040,7 +10515,15 @@
               "y_norm": 905,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            820,
+            52,
+            930,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -10064,7 +10547,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 2.50/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng so sánh 2b (0.50đ), thiếu 2a. C3 đúng trọn vẹn (1.0đ). Tổng: 8.50/10.0đ.",
@@ -10449,7 +10940,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -10474,7 +10973,15 @@
               "y_norm": 890,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            820,
+            52,
+            915,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -10498,7 +11005,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 2.00/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng 2a (0.50đ), thiếu 2b. C3 đúng 1 phần từ khóa & kiểm tra (0.50đ). Tổng: 8.00/10.0đ.",
@@ -10883,7 +11398,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -10900,7 +11423,10 @@
               "y_norm": 850,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -10924,7 +11450,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
@@ -11309,7 +11843,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -11326,7 +11868,10 @@
               "y_norm": 850,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -11350,7 +11895,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.75/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 bỏ trống. C3 đúng cách kiểm tra (0.75đ). Tổng: 8.25/10.0đ.",
@@ -11735,7 +12288,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -11759,7 +12320,15 @@
               "y_norm": 905,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            820,
+            52,
+            930,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -11783,7 +12352,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 3.00/3.00đ tuyệt đối! Trình bày xuất sắc C1, C2 (F4, $B$5, so sánh tương đối/tuyệt đối) và C3 (từ khóa + kiểm tra). Tổng: 9.00/10.0đ.",
@@ -12168,7 +12745,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -12185,7 +12770,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -12209,7 +12797,15 @@
               "y_norm": 940,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            865,
+            52,
+            965,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 1.75/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 bỏ trống. C3 đúng từ khóa & kiểm tra (0.75đ). Tổng: 7.75/10.0đ.",
@@ -12275,7 +12871,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -12292,7 +12896,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -12309,7 +12916,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
@@ -12670,7 +13280,10 @@
               "y_norm": 680,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 2",
@@ -12687,7 +13300,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -12704,7 +13320,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ (P.II 16/16 ý tuyệt đối). TL: 0.00/3.00đ. Bỏ trống toàn bộ phần tự luận (chữ 'v'). Tổng: 6.50/10.0đ.",
@@ -13088,7 +13707,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -13105,7 +13732,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -13122,7 +13752,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
@@ -13165,7 +13798,10 @@
               "y_norm": 680,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 2",
@@ -13182,7 +13818,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -13199,7 +13838,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 0.00/3.00đ. Bỏ trống toàn bộ phần tự luận (chữ 'v'). Tổng: 6.00/10.0đ.",
@@ -13583,7 +14225,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -13600,7 +14250,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -13617,7 +14270,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
@@ -14001,7 +14657,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            645,
+            52,
+            830,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -14025,7 +14689,15 @@
               "y_norm": 905,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            820,
+            52,
+            930,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -14049,7 +14721,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            45,
+            52,
+            155,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 3.00/3.00đ tuyệt đối! Bài làm xuất sắc nhất lớp: chữ viết rõ ràng, đúng toàn bộ F4, $F$2, so sánh tương đối/tuyệt đối và kiểm tra tin giả. Tổng: 9.50/10.0đ.",
@@ -14434,7 +15114,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -14451,7 +15139,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -14475,7 +15166,15 @@
               "y_norm": 930,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            855,
+            52,
+            955,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
@@ -14859,7 +15558,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -14876,7 +15583,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -14893,7 +15603,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
@@ -15277,7 +15990,15 @@
               "y_norm": 741,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            618,
+            52,
+            765,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -15295,7 +16016,9 @@
               "y_norm": null,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -15319,7 +16042,15 @@
               "y_norm": 890,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            791,
+            52,
+            960,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
@@ -15696,7 +16427,15 @@
               "y_norm": 750,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            775,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -15713,7 +16452,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -15730,7 +16472,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 0.50/3.00đ. C1 đúng 2 ý (0.50đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.00/10.0đ.",
@@ -16114,7 +16859,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -16131,7 +16884,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -16148,7 +16904,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
@@ -16532,7 +17291,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -16549,7 +17316,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -16566,7 +17336,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
@@ -16950,7 +17723,15 @@
               "y_norm": 805,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            655,
+            52,
+            825,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -16974,7 +17755,15 @@
               "y_norm": 720,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            645,
+            52,
+            755,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 3",
@@ -16998,7 +17787,15 @@
               "y_norm": 130,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 1,
+          "box_2d": [
+            55,
+            52,
+            175,
+            980
+          ],
+          "page_boxes": []
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng ký hiệu $ và so sánh 2b, thiếu F4. Tổng: 9.25/10.0đ.",
@@ -17360,7 +18157,10 @@
               "y_norm": 680,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 2",
@@ -17377,7 +18177,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -17394,7 +18197,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 0.00/3.00đ. Bỏ trống toàn bộ phần tự luận (chữ 'v'). Tổng: 6.50/10.0đ.",
@@ -17778,7 +18584,15 @@
               "y_norm": 785,
               "highlight_box": null
             }
-          ]
+          ],
+          "page_index": 0,
+          "box_2d": [
+            640,
+            52,
+            810,
+            980
+          ],
+          "page_boxes": []
         },
         {
           "question_no": "Câu 2",
@@ -17795,7 +18609,10 @@
               "y_norm": 840,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         },
         {
           "question_no": "Câu 3",
@@ -17812,7 +18629,10 @@
               "y_norm": 920,
               "highlight_box": null
             }
-          ]
+          ],
+          "box_2d": null,
+          "page_boxes": [],
+          "is_skipped": true
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.00/3.00đ. C1 đúng 4/4 ý (1.0đ); C2 & C3 bỏ trống (chữ 'v'). Tổng: 7.50/10.0đ.",
