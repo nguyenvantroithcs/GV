@@ -7209,27 +7209,24 @@
             {
               "page_index": 0,
               "label": "+0,25đ",
-              "ok": true,
               "note": "Nêu đúng viết dấu $ và nhấn phím F4",
-              "y_norm": 855,
-              "highlight_box": null
+              "ok": true,
+              "y_norm": 855
             },
             {
               "page_index": 0,
               "label": "0,00đ",
+              "note": "Thiếu ví dụ địa chỉ tuyệt đối",
               "ok": false,
               "is_missing": true,
-              "note": "Thiếu ví dụ địa chỉ tuyệt đối",
-              "y_norm": 875,
-              "highlight_box": null
+              "y_norm": 885
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,50đ",
-              "ok": true,
               "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
-              "y_norm": 905,
-              "highlight_box": null
+              "ok": true,
+              "y_norm": 100
             }
           ],
           "page_index": 0,
@@ -7239,36 +7236,57 @@
             930,
             980
           ],
-          "page_boxes": []
+          "page_boxes": [
+            {
+              "page_index": 0,
+              "box_2d": [
+                820,
+                52,
+                930,
+                980
+              ],
+              "score": 0.25,
+              "max_score": 0.5
+            },
+            {
+              "page_index": 1,
+              "box_2d": [
+                25,
+                52,
+                225,
+                980
+              ],
+              "score": 0.5,
+              "max_score": 0.5
+            }
+          ]
         },
         {
           "question_no": "Câu 3",
           "max_score": 1.0,
           "score": 1.0,
-          "left_y_norm": 60,
+          "left_y_norm": 250,
           "steps": [
             {
               "page_index": 1,
               "label": "+0,50đ",
-              "ok": true,
               "note": "2 từ khóa tác hại tin giả",
-              "y_norm": 80,
-              "highlight_box": null
+              "ok": true,
+              "y_norm": 320
             },
             {
               "page_index": 1,
               "label": "+0,50đ",
-              "ok": true,
               "note": "2 cách kiểm tra: web .gov.vn & nguồn uy tín",
-              "y_norm": 130,
-              "highlight_box": null
+              "ok": true,
+              "y_norm": 420
             }
           ],
           "page_index": 1,
           "box_2d": [
-            45,
+            240,
             52,
-            155,
+            490,
             980
           ],
           "page_boxes": []
