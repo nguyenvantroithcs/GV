@@ -443,42 +443,135 @@
     }
     .btn-submit-feedback:disabled { opacity: 0.6; cursor: not-allowed; }
 
-    /* LIGHTBOX MODAL */
+    /* LIGHTBOX CHUYÊN NGHIỆP: ZOOM + PAN KÉO THẢ */
     .lightbox-modal {
       display: none;
       position: fixed;
       top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(0,0,0,0.88);
-      z-index: 1000;
-      justify-content: center;
-      align-items: center;
-      padding: 16px;
-    }
-    .lightbox-content {
-      position: relative;
-      max-width: 95vw;
-      max-height: 95vh;
-      display: flex;
+      background: rgba(10, 15, 29, 0.96);
+      z-index: 2000;
       flex-direction: column;
+      overflow: hidden;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    .lb-toolbar {
+      display: flex;
+      justify-content: space-between;
       align-items: center;
+      padding: 10px 18px;
+      background: rgba(30, 41, 59, 0.92);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+      z-index: 10;
+      flex-shrink: 0;
+      color: #fff;
     }
-    .lightbox-img {
-      max-width: 90vw;
-      max-height: 85vh;
-      object-fit: contain;
-      border-radius: 8px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    .lb-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      color: #f1f5f9;
     }
-    .lightbox-close {
-      position: absolute;
-      top: -36px;
-      right: 0;
+    .lb-controls {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .lb-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5px;
+      background: rgba(255, 255, 255, 0.14);
       color: #ffffff;
-      font-size: 28px;
-      background: none;
-      border: none;
+      border: 1px solid rgba(255, 255, 255, 0.22);
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 13.5px;
+      font-weight: 600;
       cursor: pointer;
-      padding: 4px;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+    .lb-btn:hover {
+      background: rgba(255, 255, 255, 0.26);
+      border-color: rgba(255, 255, 255, 0.45);
+      transform: translateY(-1px);
+    }
+    .lb-btn.lb-close {
+      background: #dc2626;
+      border-color: #ef4444;
+      font-weight: 800;
+      margin-left: 6px;
+    }
+    .lb-btn.lb-close:hover {
+      background: #b91c1c;
+    }
+    .lb-zoom-text {
+      font-size: 13px;
+      font-weight: 700;
+      color: #38bdf8;
+      min-width: 50px;
+      text-align: center;
+      background: rgba(0, 0, 0, 0.35);
+      padding: 5px 8px;
+      border-radius: 6px;
+      border: 1px solid rgba(56, 189, 248, 0.3);
+    }
+    .lb-viewport {
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      position: relative;
+      overflow: hidden;
+      cursor: grab;
+      touch-action: none;
+      background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+    }
+    .lb-viewport.grabbing {
+      cursor: grabbing !important;
+    }
+    .lb-canvas {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform-origin: 0 0;
+      will-change: transform;
+      transition: none;
+    }
+    .lb-img {
+      display: block;
+      max-width: none;
+      max-height: none;
+      pointer-events: none;
+      box-shadow: 0 12px 36px rgba(0, 0, 0, 0.6);
+      border-radius: 4px;
+    }
+    .lb-hint {
+      position: absolute;
+      bottom: 14px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(15, 23, 42, 0.85);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #e2e8f0;
+      font-size: 12.5px;
+      padding: 6px 16px;
+      border-radius: 20px;
+      pointer-events: none;
+      backdrop-filter: blur(6px);
+      z-index: 10;
+      white-space: nowrap;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    @media (max-width: 640px) {
+      .lb-toolbar { padding: 8px 10px; }
+      .lb-title-wrap { font-size: 13px; }
+      .lb-btn { padding: 5px 8px; font-size: 12px; }
+      .lb-hint { font-size: 11px; padding: 4px 10px; width: 90%; text-align: center; white-space: normal; }
     }
 
     /* FOOTER */
@@ -696,12 +789,42 @@
 
   </div>
 
-  <!-- LIGHTBOX MODAL ĐỂ XEM ẢNH FULL SCREEN -->
-  <div id="lightboxModal" class="lightbox-modal" onclick="closeLightbox()">
-    <div class="lightbox-content" onclick="event.stopPropagation()">
-      <button class="lightbox-close" onclick="closeLightbox()">✕</button>
-      <img id="lightboxImg" class="lightbox-img" src="" alt="Ảnh bài thi">
-      <div id="lightboxCaption" style="color:#ffffff;margin-top:8px;font-size:14px;font-weight:600;"></div>
+  <!-- LIGHTBOX MODAL CHUYÊN NGHIỆP: ZOOM + PAN KÉO THẢ CHUỘT -->
+  <div id="lightboxModal" class="lightbox-modal">
+    <div class="lb-toolbar">
+      <div class="lb-title-wrap">
+        <span>🔍</span>
+        <span id="lightboxCaption">Trang bài thi</span>
+      </div>
+
+      <div class="lb-controls">
+        <button type="button" class="lb-btn" onclick="zoomIn()" title="Phóng to (+)">
+          <span>➕</span><span>Phóng to</span>
+        </button>
+        <span id="lbZoomLevel" class="lb-zoom-text">100%</span>
+        <button type="button" class="lb-btn" onclick="zoomOut()" title="Thu nhỏ (-)">
+          <span>➖</span><span>Thu nhỏ</span>
+        </button>
+        <button type="button" class="lb-btn" onclick="resetZoom()" title="Đặt lại vừa màn hình (1:1)">
+          <span>↺</span><span>Vừa khung</span>
+        </button>
+        <a id="lbDownloadBtn" href="" download class="lb-btn" target="_blank" title="Tải ảnh gốc về máy">
+          <span>📥</span><span>Tải về</span>
+        </a>
+        <button type="button" class="lb-btn lb-close" onclick="closeLightbox()" title="Đóng (Esc)">
+          <span>✕</span>
+        </button>
+      </div>
+    </div>
+
+    <div id="lbViewport" class="lb-viewport">
+      <div id="lbCanvas" class="lb-canvas">
+        <img id="lightboxImg" class="lb-img" src="" alt="Ảnh bài thi">
+      </div>
+    </div>
+
+    <div class="lb-hint">
+      <span>💡 Lăn chuột hoặc chạm ➕/➖ để phóng to • Đè chuột kéo để xem chi tiết • Nhấp đúp để phóng to nhanh</span>
     </div>
   </div>
 
@@ -1102,14 +1225,241 @@
       });
     }
 
-    // LIGHTBOX
+    // =========================================================================
+    // LIGHTBOX XEM ẢNH BÀI THI: ZOOM IN/OUT, LĂN CHUỘT, ĐÈ CHUỘT KÉO THẢ (PAN)
+    // =========================================================================
+    let lbScale = 1.0;
+    let lbFitScale = 1.0;
+    let lbPanX = 0;
+    let lbPanY = 0;
+    let lbIsDragging = false;
+    let lbStartX = 0;
+    let lbStartY = 0;
+    let lbInitPanX = 0;
+    let lbInitPanY = 0;
+    let lbImgNaturalW = 0;
+    let lbImgNaturalH = 0;
+    let lbTouchStartDist = 0;
+    let lbTouchStartScale = 1.0;
+    let lbEventsInitialized = false;
+
     function openLightbox(url, caption) {
-      document.getElementById("lightboxImg").src = url;
-      document.getElementById("lightboxCaption").textContent = caption;
-      document.getElementById("lightboxModal").style.display = "flex";
+      const modal = document.getElementById("lightboxModal");
+      const img = document.getElementById("lightboxImg");
+      const cap = document.getElementById("lightboxCaption");
+      const dlBtn = document.getElementById("lbDownloadBtn");
+
+      cap.textContent = caption || "Ảnh bài thi đã chấm";
+      if (dlBtn) dlBtn.href = url;
+
+      if (!lbEventsInitialized) {
+        initLightboxEvents();
+        lbEventsInitialized = true;
+      }
+
+      img.src = "";
+      img.onload = () => {
+        lbImgNaturalW = img.naturalWidth || 2000;
+        lbImgNaturalH = img.naturalHeight || 2200;
+        fitImageToScreen();
+      };
+      img.src = url;
+
+      modal.style.display = "flex";
+      document.body.style.overflow = "hidden"; // Chặn cuộn trang web nền
     }
+
     function closeLightbox() {
-      document.getElementById("lightboxModal").style.display = "none";
+      const modal = document.getElementById("lightboxModal");
+      modal.style.display = "none";
+      document.body.style.overflow = "";
+      lbIsDragging = false;
+      const vp = document.getElementById("lbViewport");
+      if (vp) vp.classList.remove("grabbing");
+    }
+
+    function fitImageToScreen() {
+      const vp = document.getElementById("lbViewport");
+      const vw = vp.clientWidth || window.innerWidth;
+      const vh = vp.clientHeight || (window.innerHeight - 56);
+
+      if (!lbImgNaturalW || !lbImgNaturalH) return;
+
+      const scaleX = (vw * 0.94) / lbImgNaturalW;
+      const scaleY = (vh * 0.94) / lbImgNaturalH;
+      lbFitScale = Math.min(scaleX, scaleY, 1.2);
+      lbScale = lbFitScale;
+
+      lbPanX = (vw - lbImgNaturalW * lbScale) / 2;
+      lbPanY = (vh - lbImgNaturalH * lbScale) / 2;
+
+      applyLbTransform();
+    }
+
+    function applyLbTransform() {
+      const canvas = document.getElementById("lbCanvas");
+      const zoomText = document.getElementById("lbZoomLevel");
+
+      if (canvas) {
+        canvas.style.transform = `translate3d(${lbPanX}px, ${lbPanY}px, 0) scale(${lbScale})`;
+      }
+      if (zoomText) {
+        const percent = Math.round((lbScale / lbFitScale) * 100);
+        zoomText.textContent = `${percent}%`;
+      }
+    }
+
+    function zoomIn() {
+      zoomAtCenter(1.3);
+    }
+
+    function zoomOut() {
+      zoomAtCenter(1 / 1.3);
+    }
+
+    function resetZoom() {
+      fitImageToScreen();
+    }
+
+    function zoomAtCenter(factor) {
+      const vp = document.getElementById("lbViewport");
+      const cx = (vp.clientWidth || window.innerWidth) / 2;
+      const cy = (vp.clientHeight || window.innerHeight) / 2;
+      zoomAtPoint(cx, cy, factor);
+    }
+
+    function zoomAtPoint(px, py, factor) {
+      const newScale = Math.max(lbFitScale * 0.5, Math.min(lbFitScale * 7.0, lbScale * factor));
+      if (newScale === lbScale) return;
+
+      const imgX = (px - lbPanX) / lbScale;
+      const imgY = (py - lbPanY) / lbScale;
+
+      lbScale = newScale;
+      lbPanX = px - imgX * lbScale;
+      lbPanY = py - imgY * lbScale;
+
+      applyLbTransform();
+    }
+
+    function initLightboxEvents() {
+      const vp = document.getElementById("lbViewport");
+      if (!vp) return;
+
+      // 1. KÉO THẢ CHUỘT ĐỂ XEM VÙNG CẦN XEM (PAN / DRAG)
+      vp.addEventListener("mousedown", (e) => {
+        if (e.button !== 0) return;
+        lbIsDragging = true;
+        lbStartX = e.clientX;
+        lbStartY = e.clientY;
+        lbInitPanX = lbPanX;
+        lbInitPanY = lbPanY;
+        vp.classList.add("grabbing");
+        e.preventDefault();
+      });
+
+      window.addEventListener("mousemove", (e) => {
+        if (!lbIsDragging) return;
+        lbPanX = lbInitPanX + (e.clientX - lbStartX);
+        lbPanY = lbInitPanY + (e.clientY - lbStartY);
+        applyLbTransform();
+      });
+
+      window.addEventListener("mouseup", () => {
+        if (lbIsDragging) {
+          lbIsDragging = false;
+          vp.classList.remove("grabbing");
+        }
+      });
+
+      // 2. LĂN BÁNH XE CHUỘT ĐỂ PHÓNG TO / THU NHỎ TẠI VỊ TRÍ CON TRỎ
+      vp.addEventListener("wheel", (e) => {
+        e.preventDefault();
+        const factor = e.deltaY < 0 ? 1.18 : 0.85;
+        const rect = vp.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const mouseY = e.clientY - rect.top;
+        zoomAtPoint(mouseX, mouseY, factor);
+      }, { passive: false });
+
+      // 3. NHẤP ĐÚP CHUỘT ĐỂ PHÓNG TO NHANH 2.5X HOẶC VỀ VỪA KHUNG
+      vp.addEventListener("dblclick", (e) => {
+        const rect = vp.getBoundingClientRect();
+        const mouseX = e.clientX - rect.left;
+        const mouseY = e.clientY - rect.top;
+        if (lbScale > lbFitScale * 1.35) {
+          fitImageToScreen();
+        } else {
+          zoomAtPoint(mouseX, mouseY, 2.5);
+        }
+      });
+
+      // 4. CẢM ỨNG TRÊN ĐIỆN THOẠI & MÁY TÍNH BẢNG (1 NGÓN KÉO, 2 NGÓN PINCH ZOOM)
+      vp.addEventListener("touchstart", (e) => {
+        if (e.touches.length === 1) {
+          lbIsDragging = true;
+          lbStartX = e.touches[0].clientX;
+          lbStartY = e.touches[0].clientY;
+          lbInitPanX = lbPanX;
+          lbInitPanY = lbPanY;
+        } else if (e.touches.length === 2) {
+          lbIsDragging = false;
+          lbTouchStartDist = Math.hypot(
+            e.touches[0].clientX - e.touches[1].clientX,
+            e.touches[0].clientY - e.touches[1].clientY
+          );
+          lbTouchStartScale = lbScale;
+        }
+      }, { passive: true });
+
+      vp.addEventListener("touchmove", (e) => {
+        if (e.touches.length === 1 && lbIsDragging) {
+          lbPanX = lbInitPanX + (e.touches[0].clientX - lbStartX);
+          lbPanY = lbInitPanY + (e.touches[0].clientY - lbStartY);
+          applyLbTransform();
+          e.preventDefault();
+        } else if (e.touches.length === 2 && lbTouchStartDist > 0) {
+          const currentDist = Math.hypot(
+            e.touches[0].clientX - e.touches[1].clientX,
+            e.touches[0].clientY - e.touches[1].clientY
+          );
+          const factor = currentDist / lbTouchStartDist;
+          const rect = vp.getBoundingClientRect();
+          const midX = (e.touches[0].clientX + e.touches[1].clientX) / 2 - rect.left;
+          const midY = (e.touches[0].clientY + e.touches[1].clientY) / 2 - rect.top;
+          zoomAtPoint(midX, midY, factor * (lbTouchStartScale / lbScale));
+          e.preventDefault();
+        }
+      }, { passive: false });
+
+      vp.addEventListener("touchend", () => {
+        lbIsDragging = false;
+        lbTouchStartDist = 0;
+      });
+
+      // 5. BÀN PHÍM: ESC ĐỂ ĐÓNG, +, -, 0, PHÍM MŨI TÊN ĐỂ DI CHUYỂN
+      window.addEventListener("keydown", (e) => {
+        const modal = document.getElementById("lightboxModal");
+        if (modal.style.display !== "flex") return;
+
+        if (e.key === "Escape") {
+          closeLightbox();
+        } else if (e.key === "+" || e.key === "=") {
+          zoomIn();
+        } else if (e.key === "-") {
+          zoomOut();
+        } else if (e.key === "0") {
+          resetZoom();
+        } else if (e.key === "ArrowLeft") {
+          lbPanX += 60; applyLbTransform();
+        } else if (e.key === "ArrowRight") {
+          lbPanX -= 60; applyLbTransform();
+        } else if (e.key === "ArrowUp") {
+          lbPanY += 60; applyLbTransform();
+        } else if (e.key === "ArrowDown") {
+          lbPanY -= 60; applyLbTransform();
+        }
+      });
     }
 
     // 9. GỬI Ý KIẾN / THẮC MẮC (PHÚC KHẢO) ĐẾN GOOGLE SHEET
