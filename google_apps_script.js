@@ -1,6 +1,6 @@
 // ================================================================
 // GOOGLE APPS SCRIPT: HỆ THỐNG QUẢN TRỊ ÔN TẬP & BÁO CÁO SƯ PHẠM
-// Tác giả: ALSM Team & Thầy Tri | Phiên bản V2.5 Chuyên sâu
+// Tác giả: ALSM Team & Giáo viên Nguyễn Văn Trị | Phiên bản V2.5 Chuyên sâu
 // ================================================================
 
 const SPREADSHEET_ID = "11l7NlGZSWfNkiPaImIKZw552kMffknSTQFf49KacwL8";

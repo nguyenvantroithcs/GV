@@ -712,7 +712,7 @@
       <div class="comment-box" id="resCommentBox">
         <span style="font-size:22px;line-height:1;">👨‍🏫</span>
         <div>
-          <b>Nhận xét của Thầy giáo:</b>
+          <b>Nhận xét của Giáo viên:</b>
           <p id="resCommentText" style="margin-top:4px;line-height:1.5;">Làm bài tốt, cần chú ý đọc kỹ yêu cầu câu 2.</p>
         </div>
       </div>
@@ -754,7 +754,7 @@
           <span>ẢNH BÀI THI CHẤM BÚT ĐỎ SƯ PHẠM</span>
         </div>
         <div class="card-subtitle">
-          Học sinh có thể bấm vào ảnh để phóng to xem rõ từng nét chấm bút đỏ, ký hiệu đ/s/v và gạch chữa lỗi của Thầy giáo.
+          Học sinh có thể bấm vào ảnh để phóng to xem rõ từng nét chấm bút đỏ, ký hiệu đ/s/v và gạch chữa lỗi của Giáo viên.
         </div>
 
         <div class="gallery-grid" id="gradedGalleryGrid">
@@ -769,16 +769,16 @@
           <span>Ý KIẾN / THẮC MẮC CỦA HỌC SINH</span>
         </div>
         <div class="feedback-desc">
-          Nếu em có thắc mắc về điểm số hoặc muốn Thầy giáo xem xét lại câu nào (trắc nghiệm hay tự luận), em hãy ghi rõ ý kiến dưới đây. Ý kiến của em sẽ được lưu trực tiếp vào bảng theo dõi của Thầy để xem xét lại bài:
+          Nếu em có thắc mắc về điểm số hoặc muốn Giáo viên xem xét lại câu nào (trắc nghiệm hay tự luận), em hãy ghi rõ ý kiến dưới đây. Ý kiến của em sẽ được lưu trực tiếp vào bảng theo dõi của Giáo viên để xem xét lại bài:
         </div>
 
-        <textarea id="feedbackContent" class="feedback-textarea" placeholder="Ví dụ: Thưa thầy, ở câu 2 tự luận phần ví dụ $A$1 em có làm đúng nhưng..."></textarea>
+        <textarea id="feedbackContent" class="feedback-textarea" placeholder="Ví dụ: Thưa thầy/cô, ở câu 2 tự luận phần ví dụ $A$1 em có làm đúng nhưng..."></textarea>
 
         <div class="feedback-inputs">
-          <input type="text" id="feedbackContact" class="form-control" placeholder="Số điện thoại / Zalo để Thầy phản hồi (tùy chọn)...">
+          <input type="text" id="feedbackContact" class="form-control" placeholder="Số điện thoại / Zalo để Giáo viên phản hồi (tùy chọn)...">
           <button type="button" class="btn-submit-feedback" id="btnSubmitFeedback" onclick="guiYkienPhucKhao()">
             <span>🚀</span>
-            <span>Gửi Ý Kiến Đến Thầy</span>
+            <span>Gửi Ý Kiến Đến Giáo Viên</span>
           </button>
         </div>
 
@@ -1006,7 +1006,7 @@
       });
 
       if (!examResult) {
-        showAlert(`Đã xác thực học sinh ${nameInput} (${cls}). Hiện tại chưa có bài thi số hóa của em trên hệ thống hoặc bài thi đang được xử lý. Em vui lòng liên hệ Thầy giáo!`, "info");
+        showAlert(`Đã xác thực học sinh ${nameInput} (${cls}). Hiện tại chưa có bài thi số hóa của em trên hệ thống hoặc bài thi đang được xử lý. Em vui lòng liên hệ Giáo viên!`, "info");
         return;
       }
 
@@ -1514,17 +1514,17 @@
         }
 
         alertEl.className = "alert-box alert-success";
-        alertEl.innerHTML = `✅ <b>Ý kiến của em đã được gửi thành công!</b> Thầy giáo đã ghi nhận ý kiến về bài thi của em để xem xét lại và phản hồi sớm nhất.`;
+        alertEl.innerHTML = `✅ <b>Ý kiến của em đã được gửi thành công!</b> Giáo viên đã ghi nhận ý kiến về bài thi của em để xem xét lại và phản hồi sớm nhất.`;
         alertEl.style.display = "flex";
         document.getElementById("feedbackContent").value = "";
       } catch (err) {
         console.error("Lỗi gửi ý kiến:", err);
         alertEl.className = "alert-box alert-danger";
-        alertEl.textContent = "Có lỗi kết nối khi gửi ý kiến. Em vui lòng thử lại hoặc nhắn tin trực tiếp cho Thầy giáo nhé!";
+        alertEl.textContent = "Có lỗi kết nối khi gửi ý kiến. Em vui lòng thử lại hoặc nhắn tin trực tiếp cho Giáo viên nhé!";
         alertEl.style.display = "flex";
       } finally {
         btn.disabled = false;
-        btn.innerHTML = "<span>🚀</span><span>Gửi Ý Kiến Đến Thầy</span>";
+        btn.innerHTML = "<span>🚀</span><span>Gửi Ý Kiến Đến Giáo Viên</span>";
       }
     }
   </script>

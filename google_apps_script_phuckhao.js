@@ -15,7 +15,7 @@
  * 6. Bấm "Triển khai" (Deploy) -> "Quản lý bản triển khai mới" (New deployment):
  *    - Chọn loại: "Ứng dụng web" (Web app)
  *    - Mô tả: Nhận phản hồi phúc khảo điểm thi
- *    - Thực thi dưới dạng (Execute as): "Tôi" (Me - địa chỉ email của Thầy)
+ *    - Thực thi dưới dạng (Execute as): "Tôi" (Me - địa chỉ email của Giáo viên)
  *    - Ai có quyền truy cập (Who has access): "Bất kỳ ai" (Anyone) -> RẤT QUAN TRỌNG ĐỂ HỌC SINH GỬI ĐƯỢC
  * 7. Bấm "Triển khai" (Deploy) và Cấp quyền (Authorize access).
  * 8. Sao chép "URL ứng dụng web" (Web App URL) dạng:
@@ -69,7 +69,7 @@ function khoiTaoTieuDeSheet(customSheet) {
     "SĐT / Zalo Liên Hệ",           // Cột K
     "Trạng Thái Xử Lý",             // Cột L
     "Ghi Chú & Kết Quả Của GV",     // Cột M
-    "Thời Gian Thầy Xử Lý"          // Cột N
+    "Thời Gian Giáo Viên Xử Lý"     // Cột N
   ];
 
   // Nếu dòng 1 chưa có tiêu đề thì ghi vào
@@ -108,7 +108,7 @@ function khoiTaoTieuDeSheet(customSheet) {
 }
 
 /**
- * Xử lý yêu cầu POST khi học sinh bấm "Gửi Ý Kiến Đến Thầy" từ trang xem_diem.html
+ * Xử lý yêu cầu POST khi học sinh bấm "Gửi Ý Kiến Đến Giáo Viên" từ trang xem_diem.html
  */
 function doPost(e) {
   try {
