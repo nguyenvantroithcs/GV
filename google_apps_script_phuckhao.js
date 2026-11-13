@@ -27,7 +27,7 @@ const SHEET_NAME = "Y_Kien_Hoc_Sinh";
 const SPREADSHEET_ID = "1G0dCebNa3zmRJD4Di4CHem_Vx95nxi9KYuXQ7GgCLnw";
 
 /**
- * Lấy trang tính cần ghi dữ liệu
+ * Lấy trang tính cần ghi dữ liệu (tự tạo sheet nếu chưa có)
  */
 function getTargetSheet() {
   let ss = null;
@@ -35,7 +35,7 @@ function getTargetSheet() {
     ss = SpreadsheetApp.getActiveSpreadsheet();
   } catch (err) {
     // Trường hợp chạy độc lập không gắn sheet
-    ss = SpreadsheetApp.openById(SPREADSHEET_ID);
+    ss = null;
   }
   if (!ss) {
     ss = SpreadsheetApp.openById(SPREADSHEET_ID);
@@ -44,16 +44,16 @@ function getTargetSheet() {
   let sheet = ss.getSheetByName(SHEET_NAME);
   if (!sheet) {
     sheet = ss.insertSheet(SHEET_NAME);
-    khoiTaoTieuDeSheet(sheet);
   }
   return sheet;
 }
 
 /**
  * Khởi tạo tiêu đề cột chuyên nghiệp cho Google Sheet
+ * Bấm chọn hàm này và bấm ▶️ Chạy (Run) để tạo sẵn tiêu đề các cột
  */
-function khoiTaoTieuDeSheet(customSheet) {
-  const sheet = customSheet || getTargetSheet();
+function khoiTaoTieuDeSheet() {
+  const sheet = getTargetSheet();
   
   const headers = [
     "STT",                          // Cột A
@@ -107,6 +107,8 @@ function khoiTaoTieuDeSheet(customSheet) {
   sheet.setColumnWidth(13, 130); // Trạng thái xử lý
   sheet.setColumnWidth(14, 260); // Ghi chú của GV
   sheet.setColumnWidth(15, 150); // Thời gian xử lý
+
+  Logger.log("Đã khởi tạo thành công tiêu đề Google Sheet Y_Kien_Hoc_Sinh!");
 }
 
 /**
