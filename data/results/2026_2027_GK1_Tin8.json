@@ -1334,42 +1334,30 @@
               "page_index": 0,
               "label": "+0,25đ",
               "ok": true,
-              "note": "Tải lậu sản phẩm có bản quyền",
-              "y_norm": 690,
-              "highlight_box": null,
-              "student_text": "Tải lậu sản phẩm có bản quyền"
+              "student_text": "tải lậu một phần mềm có bản quyền về máy để sử dụng miễn phí",
+              "note": "Đúng hành vi vi phạm bản quyền (+0,25đ)"
             },
             {
               "page_index": 0,
               "label": "+0,25đ",
               "ok": true,
-              "note": "Sao chép đĩa nhạc không xin phép tác giả",
-              "y_norm": 725,
-              "highlight_box": null,
-              "student_text": "Sao chép đĩa nhạc không xin phép tác giả"
+              "student_text": "sao chép thông tin từ một trang web và ghi tên mình là tác giả",
+              "note": "Đúng hành vi mạo danh tác giả, đạo văn (+0,25đ)"
             },
             {
               "page_index": 0,
               "label": "+0,25đ",
               "ok": true,
-              "note": "Sử dụng phần mềm bẻ khóa không bản quyền",
-              "y_norm": 760,
-              "highlight_box": null,
-              "student_text": "Sử dụng phần mềm bẻ khóa không bản quyền"
+              "student_text": "tặng đĩa nhạc chưa đc cấp bản quyền hay quyền",
+              "note": "Đúng hành vi phát tán sản phẩm chưa được cấp bản quyền (+0,25đ)"
             },
             {
               "page_index": 0,
               "label": "0,00đ",
               "ok": false,
-              "note": "Nhầm lẫn 'ý kiến cá nhân' không phải vi phạm bản quyền",
-              "y_norm": 795,
-              "highlight_box": [
-                785,
-                200,
-                810,
-                600
-              ],
-              "student_text": "Nhầm lẫn 'ý kiến cá nhân' không phải vi phạm bản quyền"
+              "is_missing": false,
+              "student_text": "Điểm biểu hiện vi phạm là thông tin đưa ra dưới dạng ý kiến quan điểm cá nhân",
+              "note": "Chưa chính xác: Đây là đặc điểm của thông tin, không phải hành vi vi phạm (0,00đ)"
             }
           ],
           "page_index": 0,
@@ -1381,7 +1369,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Tải lậu sản phẩm có bản quyền\n+ Sao chép đĩa nhạc không xin phép tác giả\n+ Sử dụng phần mềm bẻ khóa không bản quyền\n+ Nhầm lẫn 'ý kiến cá nhân' không phải vi phạm bản quyền"
+          "ocr_text": "Câu 1:\n- Điểm biểu hiện vi phạm là thông tin đưa ra dưới dạng ý kiến quan điểm cá nhân\n- tải lậu một phần mềm có bản quyền về máy để sử dụng miễn phí\n- sao chép thông tin từ một trang web và ghi tên mình là tác giả\n- tặng đĩa nhạc chưa đc cấp bản quyền hay quyền"
         },
         {
           "question_no": "Câu 2",
