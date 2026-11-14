@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T23:40:04.322221",
+  "updated_at": "2026-11-14T22:12:07.680198",
   "active_academic_year": "2026 - 2027",
   "academic_years": [
     {
@@ -15,7 +15,8 @@
           "subject_name": "Tin học 8",
           "grade": 8,
           "classes": [
-            "8A7"
+            "8A7",
+            "8A9"
           ],
           "data_file": "data/results/2026_2027_GK1_Tin8.json"
         }
