@@ -393,7 +393,8 @@
               "ok": true,
               "note": "Ý 1: Tải bản lậu sản phẩm có bản quyền",
               "y_norm": 690,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải bản lậu sản phẩm có bản quyền"
             },
             {
               "page_index": 0,
@@ -401,7 +402,8 @@
               "ok": true,
               "note": "Ý 2: Lấy ảnh người khác bôi nhọ/nói xấu",
               "y_norm": 740,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy ảnh người khác bôi nhọ/nói xấu"
             },
             {
               "page_index": 0,
@@ -409,7 +411,8 @@
               "ok": true,
               "note": "Ý 3: Lấy phần mềm ghi tên mình là tác giả",
               "y_norm": 800,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy phần mềm ghi tên mình là tác giả"
             },
             {
               "page_index": 0,
@@ -417,7 +420,8 @@
               "ok": true,
               "note": "Ý 4: Đăng tin chưa xác thực lên mạng",
               "y_norm": 850,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng tin chưa xác thực lên mạng"
             }
           ],
           "page_index": 0,
@@ -446,7 +450,8 @@
                 480,
                 925,
                 715
-              ]
+              ],
+              "student_text": "Nhầm 'hàng hoặc cột' (đúng: trước CẢ cột và hàng)"
             },
             {
               "page_index": 0,
@@ -454,7 +459,8 @@
               "ok": true,
               "note": "Ví dụ đúng $A$1 (0.25đ) + bù trừ 2 nửa ý (quy tắc $ & không đổi = 0.25đ)",
               "y_norm": 955,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Ví dụ đúng $A$1 (0.25đ) + bù trừ 2 nửa ý (quy tắc $ & không đổi = 0.25đ)"
             },
             {
               "page_index": 0,
@@ -463,7 +469,8 @@
               "is_missing": true,
               "note": "Thiếu giải thích địa chỉ tương đối",
               "y_norm": 970,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "page_index": 0,
@@ -488,7 +495,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (2 từ khóa & cách kiểm tra)",
               "y_norm": 995,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -851,7 +859,8 @@
               "ok": true,
               "note": "Ý 1: Tải nhạc/phim lậu không xin phép tác giả",
               "y_norm": 690,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải nhạc/phim lậu không xin phép tác giả"
             },
             {
               "page_index": 0,
@@ -859,7 +868,8 @@
               "ok": true,
               "note": "Ý 2: Đăng video sai sự thật câu like",
               "y_norm": 730,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng video sai sự thật câu like"
             },
             {
               "page_index": 0,
@@ -867,7 +877,8 @@
               "ok": true,
               "note": "Ý 3: Dùng ảnh cá nhân chế nhạo/nói xấu",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Dùng ảnh cá nhân chế nhạo/nói xấu"
             },
             {
               "page_index": 0,
@@ -875,7 +886,8 @@
               "ok": true,
               "note": "Ý 4: Tự ý lấy tài liệu khác nhận là của mình",
               "y_norm": 800,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tự ý lấy tài liệu khác nhận là của mình"
             }
           ],
           "page_index": 0,
@@ -899,7 +911,8 @@
               "ok": true,
               "note": "2a: Đúng phím F4, vị trí thêm dấu $ & ví dụ $C$2",
               "y_norm": 180,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đúng phím F4, vị trí thêm dấu $ & ví dụ $C$2"
             },
             {
               "page_index": 1,
@@ -907,7 +920,8 @@
               "ok": true,
               "note": "2b: So sánh chính xác địa chỉ tương đối & tuyệt đối",
               "y_norm": 235,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh chính xác địa chỉ tương đối & tuyệt đối"
             }
           ],
           "page_index": 1,
@@ -931,7 +945,8 @@
               "ok": true,
               "note": "Đúng từ khóa tìm kiếm tin giả",
               "y_norm": 320,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đúng từ khóa tìm kiếm tin giả"
             },
             {
               "page_index": 1,
@@ -940,7 +955,8 @@
               "is_missing": true,
               "note": "Bỏ dở, chưa nêu 2 cách kiểm tra độ tin cậy",
               "y_norm": 355,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "page_index": 1,
@@ -1309,7 +1325,8 @@
               "ok": true,
               "note": "Tải lậu sản phẩm có bản quyền",
               "y_norm": 690,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải lậu sản phẩm có bản quyền"
             },
             {
               "page_index": 0,
@@ -1317,7 +1334,8 @@
               "ok": true,
               "note": "Sao chép đĩa nhạc không xin phép tác giả",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép đĩa nhạc không xin phép tác giả"
             },
             {
               "page_index": 0,
@@ -1325,7 +1343,8 @@
               "ok": true,
               "note": "Sử dụng phần mềm bẻ khóa không bản quyền",
               "y_norm": 760,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sử dụng phần mềm bẻ khóa không bản quyền"
             },
             {
               "page_index": 0,
@@ -1338,7 +1357,8 @@
                 200,
                 810,
                 600
-              ]
+              ],
+              "student_text": "Nhầm lẫn 'ý kiến cá nhân' không phải vi phạm bản quyền"
             }
           ],
           "page_index": 0,
@@ -1363,7 +1383,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (Địa chỉ tuyệt đối/tương đối & phím F4)",
               "y_norm": 850,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -1383,7 +1404,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (2 từ khóa & cách kiểm tra tin cậy)",
               "y_norm": 925,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -1746,7 +1768,8 @@
               "ok": true,
               "note": "Đăng tải thông tin sai sự thật",
               "y_norm": 690,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng tải thông tin sai sự thật"
             },
             {
               "page_index": 0,
@@ -1754,7 +1777,8 @@
               "ok": true,
               "note": "Dùng sản phẩm bản quyền không xin phép",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Dùng sản phẩm bản quyền không xin phép"
             },
             {
               "page_index": 0,
@@ -1762,7 +1786,8 @@
               "ok": true,
               "note": "Ghi âm lén cuộc nói chuyện",
               "y_norm": 760,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Ghi âm lén cuộc nói chuyện"
             },
             {
               "page_index": 0,
@@ -1770,7 +1795,8 @@
               "ok": true,
               "note": "Quay lén clip xúc phạm người khác",
               "y_norm": 795,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén clip xúc phạm người khác"
             }
           ],
           "page_index": 0,
@@ -1795,7 +1821,8 @@
               "is_missing": true,
               "note": "Thiếu ý 2a (thao tác phím F4 và thêm ký hiệu $)",
               "y_norm": 175,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 1,
@@ -1803,7 +1830,8 @@
               "ok": true,
               "note": "Đúng so sánh địa chỉ tuyệt đối & tương đối",
               "y_norm": 230,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đúng so sánh địa chỉ tuyệt đối & tương đối"
             }
           ],
           "page_index": 1,
@@ -1828,7 +1856,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (2 từ khóa & cách kiểm tra)",
               "y_norm": 335,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -2192,7 +2221,8 @@
               "ok": true,
               "note": "Lừa đảo chiếm đoạt tài sản qua mạng",
               "y_norm": 690,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lừa đảo chiếm đoạt tài sản qua mạng"
             },
             {
               "page_index": 0,
@@ -2200,7 +2230,8 @@
               "ok": true,
               "note": "Chửi bới xúc phạm trên mạng",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Chửi bới xúc phạm trên mạng"
             },
             {
               "page_index": 0,
@@ -2208,7 +2239,8 @@
               "ok": true,
               "note": "Tải bài viết tác giả khác không xin phép",
               "y_norm": 760,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải bài viết tác giả khác không xin phép"
             },
             {
               "page_index": 0,
@@ -2217,7 +2249,8 @@
               "is_missing": true,
               "note": "Thiếu 1 ví dụ vi phạm bản quyền/đạo đức",
               "y_norm": 795,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "page_index": 0,
@@ -2242,7 +2275,8 @@
               "is_missing": true,
               "note": "Thiếu ý 2a (phím F4 và cách thêm $)",
               "y_norm": 175,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 1,
@@ -2250,7 +2284,9 @@
               "ok": true,
               "note": "Đúng tính chất tuyệt đối không đổi (+0.25đ; thiếu tương đối)",
               "y_norm": 225,
-              "highlight_box": null
+              "highlight_box": null,
+              "is_missing": true,
+              "student_text": null
             }
           ],
           "page_index": 1,
@@ -2275,7 +2311,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3",
               "y_norm": 325,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -2639,7 +2676,8 @@
               "ok": true,
               "note": "Đăng video sai sự thật",
               "y_norm": 690,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng video sai sự thật"
             },
             {
               "page_index": 0,
@@ -2647,7 +2685,8 @@
               "ok": true,
               "note": "Lăng mạ xúc phạm danh dự",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lăng mạ xúc phạm danh dự"
             },
             {
               "page_index": 0,
@@ -2655,7 +2694,8 @@
               "ok": true,
               "note": "Bán thực phẩm chức năng lậu",
               "y_norm": 760,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Bán thực phẩm chức năng lậu"
             },
             {
               "page_index": 0,
@@ -2663,7 +2703,8 @@
               "ok": true,
               "note": "Lừa đảo tiền qua không gian mạng",
               "y_norm": 795,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lừa đảo tiền qua không gian mạng"
             }
           ],
           "page_index": 0,
@@ -2692,7 +2733,8 @@
                 180,
                 210,
                 680
-              ]
+              ],
+              "student_text": "Sai phương pháp chuyển đổi & nhầm lẫn địa chỉ"
             }
           ],
           "page_index": 1,
@@ -2716,7 +2758,9 @@
               "ok": true,
               "note": "Đọc bài viết báo lớn (+0.25đ; thiếu từ khóa)",
               "y_norm": 290,
-              "highlight_box": null
+              "highlight_box": null,
+              "is_missing": true,
+              "student_text": null
             }
           ],
           "page_index": 1,
@@ -3085,7 +3129,8 @@
               "ok": true,
               "note": "Đăng tải thông tin sai sự thật lên mạng",
               "y_norm": 675,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng tải thông tin sai sự thật lên mạng"
             },
             {
               "page_index": 0,
@@ -3093,7 +3138,8 @@
               "ok": true,
               "note": "Tải bài trình chiếu người khác dùng như của mình",
               "y_norm": 710,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải bài trình chiếu người khác dùng như của mình"
             },
             {
               "page_index": 0,
@@ -3101,7 +3147,8 @@
               "ok": true,
               "note": "Cố ý ghi âm trái phép các cuộc nói chuyện",
               "y_norm": 745,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Cố ý ghi âm trái phép các cuộc nói chuyện"
             },
             {
               "page_index": 0,
@@ -3109,7 +3156,8 @@
               "ok": true,
               "note": "Quay lén và lan truyền clip bạo lực học đường",
               "y_norm": 775,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén và lan truyền clip bạo lực học đường"
             }
           ],
           "page_index": 0,
@@ -3134,7 +3182,8 @@
               "is_missing": true,
               "note": "Thiếu Câu 2a (chưa làm)",
               "y_norm": 815,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 0,
@@ -3143,7 +3192,8 @@
               "is_missing": true,
               "note": "Thiếu Câu 2b (chưa làm)",
               "y_norm": 838,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -3163,7 +3213,8 @@
               "is_missing": true,
               "note": "Bỏ lửng, thiếu 2 từ khóa tìm kiếm",
               "y_norm": 872,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 0,
@@ -3171,7 +3222,8 @@
               "ok": true,
               "note": "Kiểm tra web đuôi .gov.vn của chính phủ (+0.25đ)",
               "y_norm": 910,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Kiểm tra web đuôi .gov.vn của chính phủ (+0.25đ)"
             },
             {
               "page_index": 0,
@@ -3179,7 +3231,8 @@
               "ok": true,
               "note": "Kiểm tra minh chứng và số liệu rõ ràng (+0.25đ)",
               "y_norm": 945,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Kiểm tra minh chứng và số liệu rõ ràng (+0.25đ)"
             }
           ],
           "page_index": 0,
@@ -3547,7 +3600,8 @@
               "ok": true,
               "note": "Chửi bới, lăng mạ hoặc hùa theo tẩy chay cá nhân",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Chửi bới, lăng mạ hoặc hùa theo tẩy chay cá nhân"
             },
             {
               "page_index": 0,
@@ -3555,7 +3609,8 @@
               "ok": true,
               "note": "Tự ý quay chụp, đăng tin bảo mật người khác",
               "y_norm": 740,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tự ý quay chụp, đăng tin bảo mật người khác"
             },
             {
               "page_index": 0,
@@ -3563,7 +3618,8 @@
               "ok": true,
               "note": "Đăng tin sai sự thật câu tương tác",
               "y_norm": 800,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng tin sai sự thật câu tương tác"
             },
             {
               "page_index": 0,
@@ -3571,7 +3627,8 @@
               "ok": true,
               "note": "Sao chép, đánh cắp nội dung nghệ thuật",
               "y_norm": 860,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép, đánh cắp nội dung nghệ thuật"
             }
           ],
           "page_index": 0,
@@ -3595,7 +3652,8 @@
               "ok": true,
               "note": "Nhấn phím F4 tự động thêm dấu $ (ví dụ $C$2)",
               "y_norm": 110,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Nhấn phím F4 tự động thêm dấu $ (ví dụ $C$2)"
             },
             {
               "page_index": 1,
@@ -3603,7 +3661,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối không đổi / tương đối thay đổi",
               "y_norm": 280,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối không đổi / tương đối thay đổi"
             }
           ],
           "page_index": 1,
@@ -3627,7 +3686,8 @@
               "ok": true,
               "note": "2 từ khóa tìm kiếm: 'tin' và 'giả'",
               "y_norm": 580,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tìm kiếm: 'tin' và 'giả'"
             },
             {
               "page_index": 1,
@@ -3635,7 +3695,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: web chính phủ .gov & minh chứng số liệu",
               "y_norm": 820,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: web chính phủ .gov & minh chứng số liệu"
             }
           ],
           "page_index": 1,
@@ -4004,7 +4065,8 @@
               "ok": true,
               "note": "Bạo lực không gian mạng: chửi bới, hùa tẩy chay",
               "y_norm": 690,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Bạo lực không gian mạng: chửi bới, hùa tẩy chay"
             },
             {
               "page_index": 0,
@@ -4012,7 +4074,8 @@
               "ok": true,
               "note": "Vi phạm quyền riêng tư: chụp quay chưa xin phép",
               "y_norm": 745,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Vi phạm quyền riêng tư: chụp quay chưa xin phép"
             },
             {
               "page_index": 0,
@@ -4020,7 +4083,8 @@
               "ok": true,
               "note": "Đăng tin đồn thất thiệt để câu tương tác",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng tin đồn thất thiệt để câu tương tác"
             },
             {
               "page_index": 0,
@@ -4028,7 +4092,8 @@
               "ok": true,
               "note": "Vi phạm bản quyền: dùng tác phẩm không xin phép",
               "y_norm": 870,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Vi phạm bản quyền: dùng tác phẩm không xin phép"
             }
           ],
           "page_index": 0,
@@ -4052,7 +4117,8 @@
               "ok": true,
               "note": "Nêu đúng thao tác phím F4 và thêm ký hiệu $",
               "y_norm": 85,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Nêu đúng thao tác phím F4 và thêm ký hiệu $"
             },
             {
               "page_index": 1,
@@ -4061,7 +4127,8 @@
               "is_missing": true,
               "note": "Thiếu ví dụ địa chỉ tuyệt đối (vd: $A$1)",
               "y_norm": 135,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 1,
@@ -4069,7 +4136,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
               "y_norm": 180,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối không đổi / tương đối đổi"
             }
           ],
           "page_index": 1,
@@ -4093,7 +4161,8 @@
               "ok": true,
               "note": "2 từ khóa phù hợp: 'Tác hại' và 'tin giả'",
               "y_norm": 280,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa phù hợp: 'Tác hại' và 'tin giả'"
             },
             {
               "page_index": 1,
@@ -4101,7 +4170,8 @@
               "ok": true,
               "note": "2 cách kiểm tra tác giả/nguồn gốc và đối chiếu nhà nước",
               "y_norm": 340,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra tác giả/nguồn gốc và đối chiếu nhà nước"
             }
           ],
           "page_index": 1,
@@ -4470,7 +4540,8 @@
               "ok": true,
               "note": "Sao chép thông tin sửa thành tên mình",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép thông tin sửa thành tên mình"
             },
             {
               "page_index": 0,
@@ -4478,7 +4549,9 @@
               "ok": true,
               "note": "Bình luận thiếu tôn trọng",
               "y_norm": 730,
-              "highlight_box": null
+              "highlight_box": null,
+              "is_missing": true,
+              "student_text": null
             },
             {
               "page_index": 0,
@@ -4486,7 +4559,8 @@
               "ok": true,
               "note": "Đăng tải video chưa mua bản quyền",
               "y_norm": 775,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng tải video chưa mua bản quyền"
             },
             {
               "page_index": 0,
@@ -4494,7 +4568,8 @@
               "ok": true,
               "note": "Đăng ảnh chụp lén không xin phép",
               "y_norm": 820,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng ảnh chụp lén không xin phép"
             }
           ],
           "page_index": 0,
@@ -4519,7 +4594,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (Bỏ trống toàn bộ địa chỉ tuyệt đối & F4)",
               "y_norm": 890,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -4538,7 +4614,8 @@
               "ok": true,
               "note": "2 cụm từ khóa tìm kiếm tin giả",
               "y_norm": 65,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cụm từ khóa tìm kiếm tin giả"
             },
             {
               "page_index": 1,
@@ -4546,7 +4623,8 @@
               "ok": true,
               "note": "Tìm hiểu trang web an toàn, rõ nguồn gốc xuất xứ (+0.25đ)",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tìm hiểu trang web an toàn, rõ nguồn gốc xuất xứ (+0.25đ)"
             },
             {
               "page_index": 1,
@@ -4555,7 +4633,8 @@
               "is_missing": true,
               "note": "Thiếu cách đối chiếu chuyên gia / báo chính thống",
               "y_norm": 180,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "page_index": 1,
@@ -4924,7 +5003,8 @@
               "ok": true,
               "note": "Phát tán hình ảnh người khác chưa xin phép",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Phát tán hình ảnh người khác chưa xin phép"
             },
             {
               "page_index": 0,
@@ -4932,7 +5012,8 @@
               "ok": true,
               "note": "Dùng thông tin bản quyền không mua",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Dùng thông tin bản quyền không mua"
             },
             {
               "page_index": 0,
@@ -4940,7 +5021,8 @@
               "ok": true,
               "note": "Lấy thông tin mạng thay tên tác giả thành mình",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy thông tin mạng thay tên tác giả thành mình"
             },
             {
               "page_index": 0,
@@ -4948,7 +5030,8 @@
               "ok": true,
               "note": "Phát tán thông tin sai sự thật lên mạng",
               "y_norm": 810,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Phát tán thông tin sai sự thật lên mạng"
             }
           ],
           "page_index": 0,
@@ -4977,7 +5060,8 @@
                 450,
                 875,
                 490
-              ]
+              ],
+              "student_text": "Nhầm phím 'Ctrl' (đúng: phím F4). Đúng dấu $ và ví dụ $F$2 (+0.25đ)"
             },
             {
               "page_index": 0,
@@ -4985,7 +5069,8 @@
               "ok": true,
               "note": "Đúng so sánh tuyệt đối không đổi / tương đối thay đổi",
               "y_norm": 915,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đúng so sánh tuyệt đối không đổi / tương đối thay đổi"
             }
           ],
           "page_index": 0,
@@ -5009,7 +5094,8 @@
               "ok": true,
               "note": "2 cụm từ khóa tác hại & ảnh hưởng tin giả",
               "y_norm": 75,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cụm từ khóa tác hại & ảnh hưởng tin giả"
             },
             {
               "page_index": 1,
@@ -5017,7 +5103,8 @@
               "ok": true,
               "note": "2 cách kiểm tra web đáng tin cậy & cập nhật thời sự",
               "y_norm": 150,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra web đáng tin cậy & cập nhật thời sự"
             }
           ],
           "page_index": 1,
@@ -5386,7 +5473,8 @@
               "ok": true,
               "note": "Bôi nhọ nói xấu trên mạng",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Bôi nhọ nói xấu trên mạng"
             },
             {
               "page_index": 0,
@@ -5394,7 +5482,8 @@
               "ok": true,
               "note": "Tung tin đồn nhảm",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tung tin đồn nhảm"
             },
             {
               "page_index": 0,
@@ -5402,7 +5491,8 @@
               "ok": true,
               "note": "Bạo lực tinh thần, bạo lực học đường",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Bạo lực tinh thần, bạo lực học đường"
             },
             {
               "page_index": 0,
@@ -5410,7 +5500,8 @@
               "ok": true,
               "note": "Sao chép tác phẩm có bản quyền",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép tác phẩm có bản quyền"
             }
           ],
           "page_index": 0,
@@ -5439,7 +5530,8 @@
                 450,
                 860,
                 530
-              ]
+              ],
+              "student_text": "Nhầm phím số 4 (đúng: nhấn F4). Đúng ký hiệu $ và ví dụ (0.25đ)"
             },
             {
               "page_index": 0,
@@ -5447,7 +5539,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối không đổi / tương đối thay đổi",
               "y_norm": 890,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối không đổi / tương đối thay đổi"
             }
           ],
           "page_index": 0,
@@ -5472,7 +5565,8 @@
               "is_missing": true,
               "note": "Thiếu 2 từ khóa cụ thể ('tin giả')",
               "y_norm": 935,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 0,
@@ -5480,7 +5574,8 @@
               "ok": true,
               "note": "Đúng cách tra cứu nguồn uy tín từ sách vở và thầy cô",
               "y_norm": 965,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đúng cách tra cứu nguồn uy tín từ sách vở và thầy cô"
             }
           ],
           "page_index": 0,
@@ -5848,7 +5943,8 @@
               "ok": true,
               "note": "Sao chép thông tin nhận là của mình",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép thông tin nhận là của mình"
             },
             {
               "page_index": 0,
@@ -5856,7 +5952,8 @@
               "ok": true,
               "note": "Quay lén chụp lén đăng mạng",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén chụp lén đăng mạng"
             },
             {
               "page_index": 0,
@@ -5864,7 +5961,8 @@
               "ok": true,
               "note": "Mạo danh để trục lợi",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Mạo danh để trục lợi"
             },
             {
               "page_index": 0,
@@ -5872,7 +5970,8 @@
               "ok": true,
               "note": "Tải lậu sản phẩm bản quyền",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải lậu sản phẩm bản quyền"
             }
           ],
           "page_index": 0,
@@ -5896,7 +5995,8 @@
               "ok": true,
               "note": "Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối",
               "y_norm": 860,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối"
             },
             {
               "page_index": 0,
@@ -5905,7 +6005,8 @@
               "is_missing": true,
               "note": "Thiếu ví dụ địa chỉ tuyệt đối cụ thể",
               "y_norm": 880,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 0,
@@ -5913,7 +6014,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối cố định / tương đối thay đổi",
               "y_norm": 905,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối cố định / tương đối thay đổi"
             }
           ],
           "page_index": 0,
@@ -5937,7 +6039,8 @@
               "ok": true,
               "note": "2 từ khóa tìm kiếm tin giả",
               "y_norm": 80,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tìm kiếm tin giả"
             },
             {
               "page_index": 1,
@@ -5945,7 +6048,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: web nhà nước & minh chứng bằng chứng",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: web nhà nước & minh chứng bằng chứng"
             }
           ],
           "page_index": 1,
@@ -6314,7 +6418,8 @@
               "ok": true,
               "note": "Sao chép thông tin không ghi nguồn",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép thông tin không ghi nguồn"
             },
             {
               "page_index": 0,
@@ -6322,7 +6427,8 @@
               "ok": true,
               "note": "Sử dụng phần mềm bẻ khóa",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sử dụng phần mềm bẻ khóa"
             },
             {
               "page_index": 0,
@@ -6331,7 +6437,8 @@
               "is_missing": true,
               "note": "Thiếu 2 ví dụ vi phạm đạo đức/bản quyền",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "page_index": 0,
@@ -6356,7 +6463,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -6376,7 +6484,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -6739,7 +6848,8 @@
               "ok": true,
               "note": "Xúc phạm nghe lén thông tin cá nhân",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Xúc phạm nghe lén thông tin cá nhân"
             },
             {
               "page_index": 0,
@@ -6747,7 +6857,8 @@
               "ok": true,
               "note": "Vi phạm bản quyền phần mềm, phim nhạc",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Vi phạm bản quyền phần mềm, phim nhạc"
             },
             {
               "page_index": 0,
@@ -6756,7 +6867,8 @@
               "is_missing": true,
               "note": "Thiếu 2 ví dụ vi phạm văn hóa số",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "page_index": 0,
@@ -6781,7 +6893,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -6801,7 +6914,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -7164,7 +7278,8 @@
               "ok": true,
               "note": "Xúc phạm lăng mạ người khác",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Xúc phạm lăng mạ người khác"
             },
             {
               "page_index": 0,
@@ -7172,7 +7287,8 @@
               "ok": true,
               "note": "Quay lén nghe lén",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén nghe lén"
             },
             {
               "page_index": 0,
@@ -7180,7 +7296,8 @@
               "ok": true,
               "note": "Chụp ảnh ghép chữ bêu rếu",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Chụp ảnh ghép chữ bêu rếu"
             },
             {
               "page_index": 0,
@@ -7188,7 +7305,8 @@
               "ok": true,
               "note": "Lấy sản phẩm người khác nhận là của mình",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy sản phẩm người khác nhận là của mình"
             }
           ],
           "page_index": 0,
@@ -7211,7 +7329,8 @@
               "label": "+0,25đ",
               "note": "Nêu đúng viết dấu $ và nhấn phím F4",
               "ok": true,
-              "y_norm": 855
+              "y_norm": 855,
+              "student_text": "Nêu đúng viết dấu $ và nhấn phím F4"
             },
             {
               "page_index": 0,
@@ -7219,14 +7338,16 @@
               "note": "Thiếu ví dụ địa chỉ tuyệt đối",
               "ok": false,
               "is_missing": true,
-              "y_norm": 885
+              "y_norm": 885,
+              "student_text": null
             },
             {
               "page_index": 1,
               "label": "+0,50đ",
               "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
               "ok": true,
-              "y_norm": 100
+              "y_norm": 100,
+              "student_text": "So sánh đúng tuyệt đối không đổi / tương đối đổi"
             }
           ],
           "page_index": 0,
@@ -7272,14 +7393,16 @@
               "label": "+0,50đ",
               "note": "2 từ khóa tác hại tin giả",
               "ok": true,
-              "y_norm": 320
+              "y_norm": 320,
+              "student_text": "2 từ khóa tác hại tin giả"
             },
             {
               "page_index": 1,
               "label": "+0,50đ",
               "note": "2 cách kiểm tra: web .gov.vn & nguồn uy tín",
               "ok": true,
-              "y_norm": 420
+              "y_norm": 420,
+              "student_text": "2 cách kiểm tra: web .gov.vn & nguồn uy tín"
             }
           ],
           "page_index": 1,
@@ -7648,7 +7771,8 @@
               "ok": true,
               "note": "Xúc phạm danh dự nhân phẩm",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Xúc phạm danh dự nhân phẩm"
             },
             {
               "page_index": 0,
@@ -7656,7 +7780,8 @@
               "ok": true,
               "note": "Lan truyền thông tin sai sự thật",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lan truyền thông tin sai sự thật"
             },
             {
               "page_index": 0,
@@ -7664,7 +7789,8 @@
               "ok": true,
               "note": "Vi phạm bản quyền sản phẩm số",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Vi phạm bản quyền sản phẩm số"
             },
             {
               "page_index": 0,
@@ -7672,7 +7798,8 @@
               "ok": true,
               "note": "Tự ý dùng thông tin bảo mật người khác",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tự ý dùng thông tin bảo mật người khác"
             }
           ],
           "page_index": 0,
@@ -7696,7 +7823,8 @@
               "ok": true,
               "note": "Đúng ví dụ $F$1 và thêm dấu $ (gạch đỏ phím Shift số 4 -> F4)",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đúng ví dụ $F$1 và thêm dấu $ (gạch đỏ phím Shift số 4 -> F4)"
             },
             {
               "page_index": 0,
@@ -7704,7 +7832,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
               "y_norm": 890,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối không đổi / tương đối đổi"
             }
           ],
           "page_index": 0,
@@ -7728,7 +7857,8 @@
               "ok": true,
               "note": "Đúng từ khóa tác hại tin giả",
               "y_norm": 950,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đúng từ khóa tác hại tin giả"
             },
             {
               "page_index": 0,
@@ -7737,7 +7867,8 @@
               "is_missing": true,
               "note": "Thiếu 2 cách kiểm tra thông tin",
               "y_norm": 970,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "page_index": 0,
@@ -8105,7 +8236,8 @@
               "ok": true,
               "note": "Tìm thông tin người khác gây hại",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tìm thông tin người khác gây hại"
             },
             {
               "page_index": 0,
@@ -8113,7 +8245,8 @@
               "ok": true,
               "note": "Dùng tác phẩm không xin phép tác giả",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Dùng tác phẩm không xin phép tác giả"
             },
             {
               "page_index": 0,
@@ -8121,7 +8254,8 @@
               "ok": true,
               "note": "Sao chép web coi là của mình",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép web coi là của mình"
             },
             {
               "page_index": 0,
@@ -8129,7 +8263,8 @@
               "ok": true,
               "note": "Đưa thông tin cá nhân người khác lên mạng",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đưa thông tin cá nhân người khác lên mạng"
             }
           ],
           "page_index": 0,
@@ -8154,7 +8289,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -8174,7 +8310,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -8537,7 +8674,8 @@
               "ok": true,
               "note": "Tải phần mềm bản quyền dùng miễn phí",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải phần mềm bản quyền dùng miễn phí"
             },
             {
               "page_index": 0,
@@ -8545,7 +8683,8 @@
               "ok": true,
               "note": "Quay lén clip bạo lực học đường",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén clip bạo lực học đường"
             },
             {
               "page_index": 0,
@@ -8553,7 +8692,8 @@
               "ok": true,
               "note": "Sao chép bài viết web nhận là của mình",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép bài viết web nhận là của mình"
             },
             {
               "page_index": 0,
@@ -8561,7 +8701,8 @@
               "ok": true,
               "note": "Lan truyền thông tin sai lệch",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lan truyền thông tin sai lệch"
             }
           ],
           "page_index": 0,
@@ -8585,7 +8726,9 @@
               "ok": true,
               "note": "Đúng ký hiệu $ và ví dụ $B$2*$C$2 (thiếu F4 -> chữ 'v')",
               "y_norm": 855,
-              "highlight_box": null
+              "highlight_box": null,
+              "is_missing": true,
+              "student_text": null
             },
             {
               "page_index": 0,
@@ -8593,7 +8736,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
               "y_norm": 905,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối không đổi / tương đối đổi"
             }
           ],
           "page_index": 0,
@@ -8618,7 +8762,8 @@
               "is_missing": true,
               "note": "Thiếu 2 từ khóa tìm kiếm (chữ 'v')",
               "y_norm": 75,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 1,
@@ -8626,7 +8771,8 @@
               "ok": true,
               "note": "Đúng 2 cách kiểm tra: chứng minh số liệu & cập nhật uy tín",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đúng 2 cách kiểm tra: chứng minh số liệu & cập nhật uy tín"
             }
           ],
           "page_index": 1,
@@ -8995,7 +9141,8 @@
               "ok": true,
               "note": "Lừa đảo qua mạng",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lừa đảo qua mạng"
             },
             {
               "page_index": 0,
@@ -9003,7 +9150,8 @@
               "ok": true,
               "note": "Tuyên truyền sai sự thật",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tuyên truyền sai sự thật"
             },
             {
               "page_index": 0,
@@ -9011,7 +9159,8 @@
               "ok": true,
               "note": "Làm nhục người khác",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Làm nhục người khác"
             },
             {
               "page_index": 0,
@@ -9020,7 +9169,8 @@
               "is_missing": true,
               "note": "Thiếu 1 ví dụ vi phạm bản quyền",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "page_index": 0,
@@ -9045,7 +9195,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -9065,7 +9216,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -9428,7 +9580,8 @@
               "ok": true,
               "note": "Lấy ảnh người khác chỉnh sửa bôi nhọ",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy ảnh người khác chỉnh sửa bôi nhọ"
             },
             {
               "page_index": 0,
@@ -9436,7 +9589,8 @@
               "ok": true,
               "note": "Quay lén clip bạo lực học đường",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén clip bạo lực học đường"
             },
             {
               "page_index": 0,
@@ -9444,7 +9598,8 @@
               "ok": true,
               "note": "Tải phần mềm bẻ khóa không bản quyền",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải phần mềm bẻ khóa không bản quyền"
             },
             {
               "page_index": 0,
@@ -9452,7 +9607,8 @@
               "ok": true,
               "note": "Sao chép bài viết nhận là của mình",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép bài viết nhận là của mình"
             }
           ],
           "page_index": 0,
@@ -9477,7 +9633,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -9497,7 +9654,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -9860,7 +10018,8 @@
               "ok": true,
               "note": "Lăng mạ xúc phạm qua mạng",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lăng mạ xúc phạm qua mạng"
             },
             {
               "page_index": 0,
@@ -9868,7 +10027,8 @@
               "ok": true,
               "note": "Lấy thông tin mạng nhận là của mình",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy thông tin mạng nhận là của mình"
             },
             {
               "page_index": 0,
@@ -9876,7 +10036,8 @@
               "ok": true,
               "note": "Lấy ảnh cắt ghép chỉnh sửa bêu xấu",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy ảnh cắt ghép chỉnh sửa bêu xấu"
             },
             {
               "page_index": 0,
@@ -9884,7 +10045,8 @@
               "ok": true,
               "note": "Đạo nhái ý tưởng sản phẩm tác giả khác",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đạo nhái ý tưởng sản phẩm tác giả khác"
             }
           ],
           "page_index": 0,
@@ -9908,7 +10070,8 @@
               "ok": true,
               "note": "Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối",
               "y_norm": 855,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối"
             },
             {
               "page_index": 0,
@@ -9917,7 +10080,8 @@
               "is_missing": true,
               "note": "Thiếu ví dụ địa chỉ tuyệt đối",
               "y_norm": 875,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 0,
@@ -9925,7 +10089,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối cố định / tương đối đổi",
               "y_norm": 905,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối cố định / tương đối đổi"
             }
           ],
           "page_index": 0,
@@ -9949,7 +10114,8 @@
               "ok": true,
               "note": "2 từ khóa tìm kiếm tin giả",
               "y_norm": 80,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tìm kiếm tin giả"
             },
             {
               "page_index": 1,
@@ -9957,7 +10123,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: người gửi/tác giả & đối chiếu cơ quan quản lý",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: người gửi/tác giả & đối chiếu cơ quan quản lý"
             }
           ],
           "page_index": 1,
@@ -10326,7 +10493,8 @@
               "ok": true,
               "note": "Lấy ảnh người khác đăng lên mạng chưa xin phép",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy ảnh người khác đăng lên mạng chưa xin phép"
             },
             {
               "page_index": 0,
@@ -10334,7 +10502,8 @@
               "ok": true,
               "note": "Quay clip bạo lực học đường",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay clip bạo lực học đường"
             },
             {
               "page_index": 0,
@@ -10342,7 +10511,8 @@
               "ok": true,
               "note": "Sao chép thông tin sửa thành của mình",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép thông tin sửa thành của mình"
             },
             {
               "page_index": 0,
@@ -10350,7 +10520,8 @@
               "ok": true,
               "note": "Đăng thông tin sai lệch lên mạng",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng thông tin sai lệch lên mạng"
             }
           ],
           "page_index": 0,
@@ -10374,7 +10545,8 @@
               "ok": true,
               "note": "Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối",
               "y_norm": 855,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối"
             },
             {
               "page_index": 0,
@@ -10383,7 +10555,8 @@
               "is_missing": true,
               "note": "Thiếu ví dụ địa chỉ tuyệt đối",
               "y_norm": 875,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 0,
@@ -10391,7 +10564,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi hàng cột",
               "y_norm": 905,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối không đổi / tương đối đổi hàng cột"
             }
           ],
           "page_index": 0,
@@ -10415,7 +10589,8 @@
               "ok": true,
               "note": "2 từ khóa tác hại tin giả",
               "y_norm": 80,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tác hại tin giả"
             },
             {
               "page_index": 1,
@@ -10423,7 +10598,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: web chính thức nhà nước & nguồn gốc xuất xứ",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: web chính thức nhà nước & nguồn gốc xuất xứ"
             }
           ],
           "page_index": 1,
@@ -10792,7 +10968,8 @@
               "ok": true,
               "note": "Quay video sai sự thật câu like",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay video sai sự thật câu like"
             },
             {
               "page_index": 0,
@@ -10800,7 +10977,8 @@
               "ok": true,
               "note": "Tải lậu phần mềm",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải lậu phần mềm"
             },
             {
               "page_index": 0,
@@ -10808,7 +10986,8 @@
               "ok": true,
               "note": "Chửi bới lăng mạ người khác",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Chửi bới lăng mạ người khác"
             },
             {
               "page_index": 0,
@@ -10816,7 +10995,8 @@
               "ok": true,
               "note": "Sao chép thông tin nhận là của mình",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép thông tin nhận là của mình"
             }
           ],
           "page_index": 0,
@@ -10841,7 +11021,8 @@
               "is_missing": true,
               "note": "Thiếu thao tác phím F4 (chữ 'v')",
               "y_norm": 855,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             },
             {
               "page_index": 0,
@@ -10849,7 +11030,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
               "y_norm": 905,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối không đổi / tương đối đổi"
             }
           ],
           "page_index": 0,
@@ -10873,7 +11055,8 @@
               "ok": true,
               "note": "2 từ khóa tác hại tin giả",
               "y_norm": 80,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tác hại tin giả"
             },
             {
               "page_index": 1,
@@ -10881,7 +11064,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: hỏi thầy cô & kiểm tra bằng chứng",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: hỏi thầy cô & kiểm tra bằng chứng"
             }
           ],
           "page_index": 1,
@@ -11250,7 +11434,8 @@
               "ok": true,
               "note": "Bắt nạt đe dọa trên mạng",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Bắt nạt đe dọa trên mạng"
             },
             {
               "page_index": 0,
@@ -11258,7 +11443,8 @@
               "ok": true,
               "note": "Đăng thông tin cá nhân chưa xin phép",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng thông tin cá nhân chưa xin phép"
             },
             {
               "page_index": 0,
@@ -11266,7 +11452,8 @@
               "ok": true,
               "note": "Lấy thông tin người khác nhận của mình",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy thông tin người khác nhận của mình"
             },
             {
               "page_index": 0,
@@ -11274,7 +11461,8 @@
               "ok": true,
               "note": "Tải sản phẩm chưa mua bản quyền",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải sản phẩm chưa mua bản quyền"
             }
           ],
           "page_index": 0,
@@ -11298,7 +11486,8 @@
               "ok": true,
               "note": "Đúng F4, thêm dấu $ và ví dụ $F$4",
               "y_norm": 855,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đúng F4, thêm dấu $ và ví dụ $F$4"
             },
             {
               "page_index": 0,
@@ -11307,7 +11496,8 @@
               "is_missing": true,
               "note": "Thiếu so sánh 2b (chữ 'v')",
               "y_norm": 890,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "page_index": 0,
@@ -11331,7 +11521,8 @@
               "ok": true,
               "note": "Từ khóa tác hại tin giả",
               "y_norm": 80,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Từ khóa tác hại tin giả"
             },
             {
               "page_index": 1,
@@ -11339,7 +11530,8 @@
               "ok": true,
               "note": "Kiểm tra độ tin cậy thông tin",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Kiểm tra độ tin cậy thông tin"
             }
           ],
           "page_index": 1,
@@ -11708,7 +11900,8 @@
               "ok": true,
               "note": "Từ ngữ thô tục chửi bới",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Từ ngữ thô tục chửi bới"
             },
             {
               "page_index": 0,
@@ -11716,7 +11909,8 @@
               "ok": true,
               "note": "Đánh cắp ý tưởng của người khác",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đánh cắp ý tưởng của người khác"
             },
             {
               "page_index": 0,
@@ -11724,7 +11918,8 @@
               "ok": true,
               "note": "Tuyên truyền thông tin sai lệch",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tuyên truyền thông tin sai lệch"
             },
             {
               "page_index": 0,
@@ -11732,7 +11927,8 @@
               "ok": true,
               "note": "Bạo lực không phù hợp",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Bạo lực không phù hợp"
             }
           ],
           "page_index": 0,
@@ -11757,7 +11953,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 850,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -11776,7 +11973,8 @@
               "ok": true,
               "note": "2 từ khóa tin giả & tác hại",
               "y_norm": 80,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tin giả & tác hại"
             },
             {
               "page_index": 1,
@@ -11784,7 +11982,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: minh chứng số liệu & web chính phủ",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: minh chứng số liệu & web chính phủ"
             }
           ],
           "page_index": 1,
@@ -12153,7 +12352,8 @@
               "ok": true,
               "note": "Tự ý lấy ảnh chỉnh sửa",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tự ý lấy ảnh chỉnh sửa"
             },
             {
               "page_index": 0,
@@ -12161,7 +12361,8 @@
               "ok": true,
               "note": "Tải lậu phần mềm có bản quyền",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải lậu phần mềm có bản quyền"
             },
             {
               "page_index": 0,
@@ -12169,7 +12370,8 @@
               "ok": true,
               "note": "Sao chép thông tin nhận là của mình",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép thông tin nhận là của mình"
             },
             {
               "page_index": 0,
@@ -12177,7 +12379,8 @@
               "ok": true,
               "note": "Quay lén lan truyền clip bạo lực",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén lan truyền clip bạo lực"
             }
           ],
           "page_index": 0,
@@ -12202,7 +12405,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 850,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -12221,7 +12425,8 @@
               "ok": true,
               "note": "Từ khóa tìm kiếm web uy tín",
               "y_norm": 80,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Từ khóa tìm kiếm web uy tín"
             },
             {
               "page_index": 1,
@@ -12229,7 +12434,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: minh chứng số liệu & không tin quan điểm cá nhân",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: minh chứng số liệu & không tin quan điểm cá nhân"
             }
           ],
           "page_index": 1,
@@ -12598,7 +12804,8 @@
               "ok": true,
               "note": "Tự ý quay video ghi âm người khác",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tự ý quay video ghi âm người khác"
             },
             {
               "page_index": 0,
@@ -12606,7 +12813,8 @@
               "ok": true,
               "note": "Bạo lực mạng công kích tài khoản",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Bạo lực mạng công kích tài khoản"
             },
             {
               "page_index": 0,
@@ -12614,7 +12822,8 @@
               "ok": true,
               "note": "Tải phần mềm lậu",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải phần mềm lậu"
             },
             {
               "page_index": 0,
@@ -12622,7 +12831,8 @@
               "ok": true,
               "note": "Dùng lời lẽ thô tục miệt thị",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Dùng lời lẽ thô tục miệt thị"
             }
           ],
           "page_index": 0,
@@ -12646,7 +12856,8 @@
               "ok": true,
               "note": "Nhập ký hiệu $, phím tắt F4, ví dụ $B$5",
               "y_norm": 855,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Nhập ký hiệu $, phím tắt F4, ví dụ $B$5"
             },
             {
               "page_index": 0,
@@ -12654,7 +12865,8 @@
               "ok": true,
               "note": "So sánh đúng tương đối đổi / tuyệt đối không đổi",
               "y_norm": 905,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tương đối đổi / tuyệt đối không đổi"
             }
           ],
           "page_index": 0,
@@ -12678,7 +12890,8 @@
               "ok": true,
               "note": "2 từ khóa tác hại tin giả",
               "y_norm": 80,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tác hại tin giả"
             },
             {
               "page_index": 1,
@@ -12686,7 +12899,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: nguồn tác nhân uy tín & số liệu minh chứng",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: nguồn tác nhân uy tín & số liệu minh chứng"
             }
           ],
           "page_index": 1,
@@ -13055,7 +13269,8 @@
               "ok": true,
               "note": "Quay lén clip bạo lực học đường",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén clip bạo lực học đường"
             },
             {
               "page_index": 0,
@@ -13063,7 +13278,8 @@
               "ok": true,
               "note": "Bình luận chửi bới người khác",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Bình luận chửi bới người khác"
             },
             {
               "page_index": 0,
@@ -13071,7 +13287,8 @@
               "ok": true,
               "note": "Đăng ảnh người khác chưa xin phép",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng ảnh người khác chưa xin phép"
             },
             {
               "page_index": 0,
@@ -13079,7 +13296,8 @@
               "ok": true,
               "note": "Đăng tin chống phá nhà nước",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng tin chống phá nhà nước"
             }
           ],
           "page_index": 0,
@@ -13104,7 +13322,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -13123,7 +13342,8 @@
               "ok": true,
               "note": "Từ khóa tin giả",
               "y_norm": 900,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Từ khóa tin giả"
             },
             {
               "page_index": 0,
@@ -13131,7 +13351,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: minh chứng nhà nước & hỏi người lớn/thầy cô",
               "y_norm": 940,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: minh chứng nhà nước & hỏi người lớn/thầy cô"
             }
           ],
           "page_index": 0,
@@ -13499,7 +13720,8 @@
               "ok": true,
               "note": "Chửi bới nói xấu trên mạng",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Chửi bới nói xấu trên mạng"
             },
             {
               "page_index": 0,
@@ -13507,7 +13729,8 @@
               "ok": true,
               "note": "Lấy thông tin người khác sửa thành của mình",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy thông tin người khác sửa thành của mình"
             },
             {
               "page_index": 0,
@@ -13515,7 +13738,8 @@
               "ok": true,
               "note": "Lấy ảnh người khác đăng lên mạng",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy ảnh người khác đăng lên mạng"
             },
             {
               "page_index": 0,
@@ -13523,7 +13747,8 @@
               "ok": true,
               "note": "Lấy thông tin bảo mật gửi người khác",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy thông tin bảo mật gửi người khác"
             }
           ],
           "page_index": 0,
@@ -13548,7 +13773,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -13568,7 +13794,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -13932,7 +14159,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 1 (chữ 'v')",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -13952,7 +14180,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -13972,7 +14201,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -14335,7 +14565,8 @@
               "ok": true,
               "note": "Quay lén lan truyền clip bạo lực",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén lan truyền clip bạo lực"
             },
             {
               "page_index": 0,
@@ -14343,7 +14574,8 @@
               "ok": true,
               "note": "Tự ý lấy ảnh người khác đăng mạng",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tự ý lấy ảnh người khác đăng mạng"
             },
             {
               "page_index": 0,
@@ -14351,7 +14583,8 @@
               "ok": true,
               "note": "Tải lậu phần mềm bẻ khóa",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải lậu phần mềm bẻ khóa"
             },
             {
               "page_index": 0,
@@ -14359,7 +14592,8 @@
               "ok": true,
               "note": "Chỉnh sửa thông tin nhận của mình",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Chỉnh sửa thông tin nhận của mình"
             }
           ],
           "page_index": 0,
@@ -14384,7 +14618,8 @@
               "is_missing": true,
               "note": "Bỏ dở Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -14404,7 +14639,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -14768,7 +15004,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 1 (chữ 'v')",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -14788,7 +15025,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -14808,7 +15046,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -15171,7 +15410,8 @@
               "ok": true,
               "note": "Quay lén clip bạo lực học đường",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén clip bạo lực học đường"
             },
             {
               "page_index": 0,
@@ -15179,7 +15419,8 @@
               "ok": true,
               "note": "Sao chép thông tin nhận là của mình",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép thông tin nhận là của mình"
             },
             {
               "page_index": 0,
@@ -15187,7 +15428,8 @@
               "ok": true,
               "note": "Tải lậu phần mềm có bản quyền",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải lậu phần mềm có bản quyền"
             },
             {
               "page_index": 0,
@@ -15195,7 +15437,8 @@
               "ok": true,
               "note": "Lan truyền hình ảnh xấu",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lan truyền hình ảnh xấu"
             }
           ],
           "page_index": 0,
@@ -15220,7 +15463,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -15240,7 +15484,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -15603,7 +15848,8 @@
               "ok": true,
               "note": "Ngôn ngữ thô tục bôi nhọ",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Ngôn ngữ thô tục bôi nhọ"
             },
             {
               "page_index": 0,
@@ -15611,7 +15857,8 @@
               "ok": true,
               "note": "Lan truyền thông tin sai sự thật",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lan truyền thông tin sai sự thật"
             },
             {
               "page_index": 0,
@@ -15619,7 +15866,8 @@
               "ok": true,
               "note": "Tự ý lấy ảnh người khác bêu nhục",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tự ý lấy ảnh người khác bêu nhục"
             },
             {
               "page_index": 0,
@@ -15627,7 +15875,8 @@
               "ok": true,
               "note": "Lấy sản phẩm người khác không xin phép",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy sản phẩm người khác không xin phép"
             }
           ],
           "page_index": 0,
@@ -15651,7 +15900,8 @@
               "ok": true,
               "note": "Đúng thêm dấu $, nhấn phím F4 và ví dụ $F$2",
               "y_norm": 855,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đúng thêm dấu $, nhấn phím F4 và ví dụ $F$2"
             },
             {
               "page_index": 0,
@@ -15659,7 +15909,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối không đổi / tương đối đổi",
               "y_norm": 905,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối không đổi / tương đối đổi"
             }
           ],
           "page_index": 0,
@@ -15683,7 +15934,8 @@
               "ok": true,
               "note": "2 từ khóa tìm kiếm tin giả",
               "y_norm": 80,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tìm kiếm tin giả"
             },
             {
               "page_index": 1,
@@ -15691,7 +15943,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: web uy tín & minh chứng thuyết phục",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: web uy tín & minh chứng thuyết phục"
             }
           ],
           "page_index": 1,
@@ -16060,7 +16313,8 @@
               "ok": true,
               "note": "Đăng ảnh người khác chưa xin phép",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng ảnh người khác chưa xin phép"
             },
             {
               "page_index": 0,
@@ -16068,7 +16322,8 @@
               "ok": true,
               "note": "Lời nói thô tục lăng mạ",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lời nói thô tục lăng mạ"
             },
             {
               "page_index": 0,
@@ -16076,7 +16331,8 @@
               "ok": true,
               "note": "Đăng thông tin sai sự thật",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng thông tin sai sự thật"
             },
             {
               "page_index": 0,
@@ -16084,7 +16340,8 @@
               "ok": true,
               "note": "Quay video bạo lực học đường",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay video bạo lực học đường"
             }
           ],
           "page_index": 0,
@@ -16109,7 +16366,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -16128,7 +16386,8 @@
               "ok": true,
               "note": "2 từ khóa tin giả & hậu quả",
               "y_norm": 890,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tin giả & hậu quả"
             },
             {
               "page_index": 0,
@@ -16136,7 +16395,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: dẫn chứng số liệu & đài VTV/chính phủ",
               "y_norm": 930,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: dẫn chứng số liệu & đài VTV/chính phủ"
             }
           ],
           "page_index": 0,
@@ -16504,7 +16764,8 @@
               "ok": true,
               "note": "Sử dụng tài nguyên bản quyền không mua",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sử dụng tài nguyên bản quyền không mua"
             },
             {
               "page_index": 0,
@@ -16512,7 +16773,8 @@
               "ok": true,
               "note": "Lấy ảnh cá nhân đăng mạng chưa xin phép",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy ảnh cá nhân đăng mạng chưa xin phép"
             },
             {
               "page_index": 0,
@@ -16520,7 +16782,8 @@
               "ok": true,
               "note": "Không ứng xử văn minh lịch sự",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Không ứng xử văn minh lịch sự"
             },
             {
               "page_index": 0,
@@ -16528,7 +16791,8 @@
               "ok": true,
               "note": "Chỉnh sửa ảnh bản quyền thành của mình",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Chỉnh sửa ảnh bản quyền thành của mình"
             }
           ],
           "page_index": 0,
@@ -16553,7 +16817,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -16573,7 +16838,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -16936,7 +17202,8 @@
               "ok": true,
               "note": "Ghi âm sao chép tài liệu không xin phép",
               "y_norm": 655,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Ghi âm sao chép tài liệu không xin phép"
             },
             {
               "page_index": 0,
@@ -16944,7 +17211,8 @@
               "ok": true,
               "note": "Quay video trong rạp phim đăng mạng",
               "y_norm": 682,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay video trong rạp phim đăng mạng"
             },
             {
               "page_index": 0,
@@ -16952,7 +17220,8 @@
               "ok": true,
               "note": "Tải lậu phần mềm bản quyền",
               "y_norm": 709,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải lậu phần mềm bản quyền"
             },
             {
               "page_index": 0,
@@ -16960,7 +17229,8 @@
               "ok": true,
               "note": "Quay video bạo lực học đường",
               "y_norm": 741,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay video bạo lực học đường"
             }
           ],
           "page_index": 0,
@@ -16986,7 +17256,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2",
               "y_norm": null,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -17004,7 +17275,8 @@
               "ok": true,
               "note": "2 từ khóa tin giả & tác hại",
               "y_norm": 832,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tin giả & tác hại"
             },
             {
               "page_index": 0,
@@ -17012,7 +17284,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: dẫn chứng số liệu & nguồn VTV/chính phủ",
               "y_norm": 890,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: dẫn chứng số liệu & nguồn VTV/chính phủ"
             }
           ],
           "page_index": 0,
@@ -17380,7 +17653,8 @@
               "ok": true,
               "note": "Không gửi video nhạy cảm người khác",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Không gửi video nhạy cảm người khác"
             },
             {
               "page_index": 0,
@@ -17388,7 +17662,8 @@
               "ok": true,
               "note": "Không xúc phạm bôi nhọ người khác",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Không xúc phạm bôi nhọ người khác"
             },
             {
               "page_index": 0,
@@ -17397,7 +17672,8 @@
               "is_missing": true,
               "note": "Thiếu 2 ví dụ vi phạm bản quyền/đạo đức",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "page_index": 0,
@@ -17422,7 +17698,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -17442,7 +17719,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -17805,7 +18083,8 @@
               "ok": true,
               "note": "Tải hình ảnh video chưa xin phép",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải hình ảnh video chưa xin phép"
             },
             {
               "page_index": 0,
@@ -17813,7 +18092,8 @@
               "ok": true,
               "note": "Tải lậu phần mềm bản quyền",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải lậu phần mềm bản quyền"
             },
             {
               "page_index": 0,
@@ -17821,7 +18101,8 @@
               "ok": true,
               "note": "Sao chép thông tin nhận là của mình",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép thông tin nhận là của mình"
             },
             {
               "page_index": 0,
@@ -17829,7 +18110,8 @@
               "ok": true,
               "note": "Quay lén clip người khác",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén clip người khác"
             }
           ],
           "page_index": 0,
@@ -17854,7 +18136,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -17874,7 +18157,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -18237,7 +18521,8 @@
               "ok": true,
               "note": "Tải lậu phần mềm bản quyền",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải lậu phần mềm bản quyền"
             },
             {
               "page_index": 0,
@@ -18245,7 +18530,8 @@
               "ok": true,
               "note": "Đăng ảnh riêng tư chưa cho phép",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đăng ảnh riêng tư chưa cho phép"
             },
             {
               "page_index": 0,
@@ -18253,7 +18539,8 @@
               "ok": true,
               "note": "Quay lén clip bạo lực học đường",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén clip bạo lực học đường"
             },
             {
               "page_index": 0,
@@ -18261,7 +18548,8 @@
               "ok": true,
               "note": "Sao chép trang web nhận mình làm chủ",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép trang web nhận mình làm chủ"
             }
           ],
           "page_index": 0,
@@ -18286,7 +18574,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -18306,7 +18595,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -18669,7 +18959,8 @@
               "ok": true,
               "note": "Lấy hình ảnh cá nhân phát tán",
               "y_norm": 685,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy hình ảnh cá nhân phát tán"
             },
             {
               "page_index": 0,
@@ -18677,7 +18968,8 @@
               "ok": true,
               "note": "Tải nội dung chưa mua bản quyền",
               "y_norm": 725,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải nội dung chưa mua bản quyền"
             },
             {
               "page_index": 0,
@@ -18685,7 +18977,8 @@
               "ok": true,
               "note": "Đe dọa lừa đảo trên mạng",
               "y_norm": 765,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Đe dọa lừa đảo trên mạng"
             },
             {
               "page_index": 0,
@@ -18693,7 +18986,8 @@
               "ok": true,
               "note": "Ăn cắp ý tưởng sản phẩm tác giả khác",
               "y_norm": 805,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Ăn cắp ý tưởng sản phẩm tác giả khác"
             }
           ],
           "page_index": 0,
@@ -18717,7 +19011,9 @@
               "ok": true,
               "note": "Đúng cách nhập ký hiệu $ và ví dụ =$E$4*$F$2 (thiếu F4)",
               "y_norm": 670,
-              "highlight_box": null
+              "highlight_box": null,
+              "is_missing": true,
+              "student_text": null
             },
             {
               "page_index": 1,
@@ -18725,7 +19021,8 @@
               "ok": true,
               "note": "So sánh đúng tuyệt đối hoàn toàn không đổi / tương đối đổi",
               "y_norm": 720,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "So sánh đúng tuyệt đối hoàn toàn không đổi / tương đối đổi"
             }
           ],
           "page_index": 1,
@@ -18749,7 +19046,8 @@
               "ok": true,
               "note": "2 từ khóa tác hại tin giả",
               "y_norm": 80,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 từ khóa tác hại tin giả"
             },
             {
               "page_index": 1,
@@ -18757,7 +19055,8 @@
               "ok": true,
               "note": "2 cách kiểm tra: nguồn phát ngôn uy tín & báo chí chính thống",
               "y_norm": 130,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "2 cách kiểm tra: nguồn phát ngôn uy tín & báo chí chính thống"
             }
           ],
           "page_index": 1,
@@ -19127,7 +19426,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 1 (chữ 'v')",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -19147,7 +19447,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -19167,7 +19468,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -19530,7 +19832,8 @@
               "ok": true,
               "note": "Quay lén lan truyền bạo lực học đường",
               "y_norm": 680,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Quay lén lan truyền bạo lực học đường"
             },
             {
               "page_index": 0,
@@ -19538,7 +19841,8 @@
               "ok": true,
               "note": "Sao chép thông tin nhận là của mình",
               "y_norm": 715,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Sao chép thông tin nhận là của mình"
             },
             {
               "page_index": 0,
@@ -19546,7 +19850,8 @@
               "ok": true,
               "note": "Lấy ảnh chỉnh sửa bêu xấu bạn",
               "y_norm": 750,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Lấy ảnh chỉnh sửa bêu xấu bạn"
             },
             {
               "page_index": 0,
@@ -19554,7 +19859,8 @@
               "ok": true,
               "note": "Tải lậu phần mềm có bản quyền",
               "y_norm": 785,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": "Tải lậu phần mềm có bản quyền"
             }
           ],
           "page_index": 0,
@@ -19579,7 +19885,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 2 (chữ 'v')",
               "y_norm": 840,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
@@ -19599,7 +19906,8 @@
               "is_missing": true,
               "note": "Chưa làm Câu 3 (chữ 'v')",
               "y_norm": 920,
-              "highlight_box": null
+              "highlight_box": null,
+              "student_text": null
             }
           ],
           "box_2d": null,
