@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tra Cứu Kết Quả Thi & Xem Bài Chấm - THCS Lê Quý Đôn</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20%22100%22%20%22100%22><text y=%22.9em%22 font-size=%2290%22>📊</text></svg>">
+  <!-- KaTeX hỗ trợ hiển thị công thức Toán học / Tin học chuẩn mực -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
   <style>
     :root {
       --primary: #1e40af;
@@ -571,21 +575,108 @@
     .ocr-txt-err {
       background: #fee2e2;
       color: #991b1b;
-      padding: 2px 6px;
-      border-radius: 4px;
-      border-bottom: 1px dashed #ef4444;
+      padding: 3px 8px;
+      border-radius: 5px;
+      border-bottom: 2px solid #ef4444;
       display: inline-block;
       margin: 2px 0;
+      line-height: 1.5;
     }
     .ocr-err-pill {
       background: #dc2626;
       color: #ffffff;
       font-size: 11px;
       font-weight: 800;
-      padding: 1px 6px;
+      padding: 1px 7px;
       border-radius: 10px;
-      margin-left: 4px;
+      margin-left: 5px;
       vertical-align: middle;
+      display: inline-block;
+    }
+    /* ĐOẠN VIẾT THỪA / LẠC ĐỀ: MÀU XÁM MỜ / VIỀN NÉT ĐỨT */
+    .ocr-txt-redundant {
+      background: #f1f5f9;
+      color: #64748b;
+      padding: 3px 8px;
+      border-radius: 5px;
+      border: 1px dashed #94a3b8;
+      display: inline-block;
+      margin: 2px 0;
+      font-style: italic;
+      line-height: 1.5;
+    }
+    .ocr-redundant-pill {
+      background: #64748b;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 1px 7px;
+      border-radius: 10px;
+      margin-left: 5px;
+      vertical-align: middle;
+      font-style: normal;
+      display: inline-block;
+    }
+    .step-item.is-redundant {
+      background: #f8fafc;
+      border-color: #cbd5e1;
+    }
+    .step-tag-pill.redundant {
+      background: #64748b;
+      color: #ffffff;
+    }
+    .ocr-highlight-box.box-redundant {
+      background: #f8fafc;
+      color: #475569;
+      border: 1px dashed #cbd5e1;
+      border-left: 4px solid #94a3b8;
+      font-style: italic;
+    }
+
+    /* INTERACTIVE TOOLTIPS KHI RÊ CHUỘT / CHẠM VÀO ĐOẠN CHỮ */
+    .has-tooltip {
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+    }
+    .has-tooltip:hover .custom-tooltip,
+    .has-tooltip:focus .custom-tooltip {
+      opacity: 1;
+      visibility: visible;
+      transform: translateX(-50%) translateY(0);
+    }
+    .custom-tooltip {
+      position: absolute;
+      bottom: calc(100% + 8px);
+      left: 50%;
+      transform: translateX(-50%) translateY(4px);
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 12.5px;
+      font-weight: 500;
+      line-height: 1.45;
+      padding: 7px 12px;
+      border-radius: 7px;
+      white-space: normal;
+      width: max-content;
+      max-width: 320px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.25);
+      z-index: 100;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.18s ease;
+      pointer-events: none;
+      text-align: left;
+    }
+    .custom-tooltip::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #0f172a transparent transparent transparent;
     }
     .ocr-page-marker {
       display: inline-flex;
@@ -1557,7 +1648,33 @@
         .replace(/'/g, "&#039;");
     }
 
-    // 7. RENDER BÀI LÀM TỰ LUẬN TỪNG CÂU (FULL OCR TRANSCRIPTION & HIGHLIGHT Ý ĐÚNG)
+    // 7. RENDER BÀI LÀM TỰ LUẬN TỪNG CÂU (TOÀN BỘ NỘI DUNG HS VIẾT, CÔNG THỨC TOÁN, ĐỐI CHIẾU Ý ĐÚNG / SAI / THỪA / THIẾU)
+    function triggerMathRender() {
+      const container = document.getElementById("essayQuestionsContainer");
+      if (!container) return;
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(container, {
+          delimiters: [
+            { left: "$$", right: "$$", display: true },
+            { left: "$", right: "$", display: false }
+          ],
+          throwOnError: false
+        });
+      } else {
+        setTimeout(() => {
+          if (typeof renderMathInElement === 'function') {
+            renderMathInElement(container, {
+              delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false }
+              ],
+              throwOnError: false
+            });
+          }
+        }, 500);
+      }
+    }
+
     function renderEssayQuestions(questions) {
       const container = document.getElementById("essayQuestionsContainer");
       container.innerHTML = "";
@@ -1589,7 +1706,7 @@
         const steps = q.steps || [];
         const isSkipped = Boolean(q.is_skipped || (steps.length === 0 && qScore === 0));
 
-        // 1. KHUNG NỘI DUNG BÀI LÀM CỦA HỌC SINH
+        // 1. KHUNG TOÀN BỘ NỘI DUNG BÀI LÀM VIẾT TAY CỦA HỌC SINH (KÈM CÔNG THỨC TOÁN & TOOLTIP)
         let ocrHtml = "";
         if (isSkipped) {
           ocrHtml = `
@@ -1626,33 +1743,49 @@
             pageSteps.forEach((st) => {
               const ok = Boolean(st.ok);
               const isMissing = Boolean(st.is_missing || (st.kind === "missing"));
+              const isRedundant = Boolean(st.is_redundant || (st.kind === "redundant"));
               const label = st.label || (ok ? "+0,25đ" : "0,00đ");
               const rawText = st.student_text || st.note || "";
+              const noteText = st.note || "";
 
               if (isMissing) {
-                // Ý bị thiếu không viết ra
+                // Ý bị thiếu không viết trên giấy
                 return;
               }
 
               if (ok) {
-                // Ý ĐÚNG: TÔ NỔI BẬT DẠ QUANG VÀNG SÁNG / HUY HIỆU ĐIỂM
+                // Ý ĐÚNG: TÔ NỔI BẬT DẠ QUANG VÀNG SÁNG + HUY HIỆU ĐIỂM + TOOLTIP LỜI PHÊ
                 ocrBodyHtml += `
                   <div class="ocr-paper-line">
-                    <span style="color:#64748b;font-weight:700;margin-right:6px;">•</span>
-                    <mark class="ocr-hl-correct" title="Ý đúng đạt ${label}">
+                    <span style="color:#16a34a;font-weight:700;margin-right:6px;">•</span>
+                    <mark class="ocr-hl-correct has-tooltip" tabindex="0">
                       ⭐ "${escapeHtml(rawText)}"
-                      <span class="ocr-hl-pill">${label}</span>
+                      <span class="ocr-hl-pill">${escapeHtml(label)}</span>
+                      <span class="custom-tooltip">✅ <strong>Ý đúng (${escapeHtml(label)}):</strong> ${escapeHtml(noteText || "Đạt chuẩn yêu cầu barem đáp án.")}</span>
                     </mark>
                   </div>
                 `;
-              } else {
-                // Ý CHƯA CHÍNH XÁC: GẠCH ĐỎ NHẠT
+              } else if (isRedundant) {
+                // Ý VIẾT THỪA / LẠC ĐỀ: MÀU XÁM MỜ + TOOLTIP
                 ocrBodyHtml += `
                   <div class="ocr-paper-line">
-                    <span style="color:#64748b;font-weight:700;margin-right:6px;">•</span>
-                    <span class="ocr-txt-err" title="Chưa chính xác (${label})">
+                    <span style="color:#94a3b8;font-weight:700;margin-right:6px;">•</span>
+                    <span class="ocr-txt-redundant has-tooltip" tabindex="0">
+                      <em>"${escapeHtml(rawText)}"</em>
+                      <span class="ocr-redundant-pill">Ý thừa: 0,00đ</span>
+                      <span class="custom-tooltip">⚡ <strong>Ý viết thừa / Lạc đề (0,00đ):</strong> ${escapeHtml(noteText || "Ý này em viết thêm ngoài yêu cầu đề bài, không thuộc barem đáp án (không trừ điểm nhưng không được cộng điểm).")}</span>
+                    </span>
+                  </div>
+                `;
+              } else {
+                // Ý CHƯA CHÍNH XÁC: GẠCH ĐỎ + TOOLTIP HƯỚNG DẪN SỬA
+                ocrBodyHtml += `
+                  <div class="ocr-paper-line">
+                    <span style="color:#dc2626;font-weight:700;margin-right:6px;">•</span>
+                    <span class="ocr-txt-err has-tooltip" tabindex="0">
                       "${escapeHtml(rawText)}"
-                      <span class="ocr-err-pill">${label}</span>
+                      <span class="ocr-err-pill">${escapeHtml(label)}</span>
+                      <span class="custom-tooltip">❌ <strong>Chưa chính xác:</strong> ${escapeHtml(noteText || "Chưa đúng kiến thức chuẩn theo barem.")}</span>
                     </span>
                   </div>
                 `;
@@ -1663,7 +1796,7 @@
           ocrHtml = `
             <div class="ocr-paper-container">
               <div class="ocr-paper-header">
-                <span>📝 NỘI DUNG BÀI LÀM CỦA EM TRÊN PHIẾU THI:</span>
+                <span>📝 NỘI DUNG BÀI LÀM CỦA EM TRÊN PHIẾU THI (RÊ CHUỘT / CHẠM ĐỂ XEM LỜI PHÊ):</span>
                 <span style="font-size:12px;color:#16a34a;font-weight:700;">Đã ghi nhận bài làm</span>
               </div>
               <div class="ocr-paper-body">
@@ -1673,11 +1806,12 @@
           `;
         }
 
-        // 2. BẢNG CHI TIẾT CHẤM ĐIỂM & NHẬN XÉT SƯ PHẠM CỦA THẦY/CÔ
+        // 2. BẢNG ĐỐI CHIẾU CHI TIẾT TỪNG Ý & LỜI PHÊ SƯ PHẠM CỦA THẦY/CÔ
         let stepsBreakdownHtml = "";
         steps.forEach((st) => {
           const ok = Boolean(st.ok);
           const isMissing = Boolean(st.is_missing || (st.kind === "missing"));
+          const isRedundant = Boolean(st.is_redundant || (st.kind === "redundant"));
           const label = st.label || (ok ? "+0,25đ" : "0,00đ");
           const text = st.student_text || st.note || "";
           const note = st.note || "";
@@ -1701,6 +1835,25 @@
                 </div>
               </li>
             `;
+          } else if (isRedundant) {
+            stepsBreakdownHtml += `
+              <li class="step-item is-redundant">
+                <div class="step-top-row">
+                  <span class="step-tag-pill redundant">⚡ Ý VIẾT THỪA / LẠC ĐỀ (${label})</span>
+                  ${locBadge}
+                </div>
+                <div class="ocr-content-wrap">
+                  <div class="ocr-label">📝 Đoạn chữ em viết thêm:</div>
+                  <div class="ocr-highlight-box box-redundant">
+                    <em>"${escapeHtml(text)}"</em>
+                  </div>
+                </div>
+                <div class="teacher-note-box">
+                  <span>ℹ️</span>
+                  <span><strong>Lời phê của Thầy/Cô:</strong> ${escapeHtml(note || "Ý này viết thêm ngoài phạm vi câu hỏi, không thuộc barem đáp án (không trừ điểm nhưng không được cộng điểm).")}</span>
+                </div>
+              </li>
+            `;
           } else if (ok) {
             stepsBreakdownHtml += `
               <li class="step-item is-correct">
@@ -1709,6 +1862,7 @@
                   ${locBadge}
                 </div>
                 <div class="ocr-content-wrap">
+                  <div class="ocr-label">📝 Đoạn bài làm của em:</div>
                   <div class="ocr-highlight-box highlight-ok">
                     ⭐ "${escapeHtml(text)}"
                   </div>
@@ -1729,6 +1883,7 @@
                   ${locBadge}
                 </div>
                 <div class="ocr-content-wrap">
+                  <div class="ocr-label">📝 Đoạn bài làm của em:</div>
                   <div class="ocr-highlight-box box-err">
                     "${escapeHtml(text)}"
                   </div>
@@ -1753,13 +1908,13 @@
             <div class="essay-score">${qScoreStr} / ${qMaxStr}đ</div>
           </div>
 
-          <!-- Khung toàn bộ bài làm viết tay của học sinh -->
+          <!-- Khung toàn bộ bài làm viết tay của học sinh (nguyên văn từng câu) -->
           ${ocrHtml}
 
           <!-- Chi tiết từng ý & Nhận xét của Thầy/Cô -->
           <div class="essay-breakdown-title">
             <span>🔍</span>
-            <span>Nhận xét sư phạm & Lời phê của Thầy/Cô:</span>
+            <span>Chi tiết đối chiếu từng câu văn & Lời phê của Thầy/Cô:</span>
           </div>
           <ul class="step-list">
             ${stepsBreakdownHtml || '<li style="font-style:italic;color:var(--gray-600);padding:8px;">Không có nhận xét thêm.</li>'}
@@ -1767,6 +1922,9 @@
         `;
         container.appendChild(card);
       });
+
+      // Kích hoạt render công thức Toán học / Tin học KaTeX
+      triggerMathRender();
     }
 
     // 8. RENDER THƯ VIỆN ẢNH BÀI THI ĐÃ CHẤM
