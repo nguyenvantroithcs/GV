@@ -433,7 +433,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Tải bản lậu sản phẩm có bản quyền\n+ Lấy ảnh người khác bôi nhọ/nói xấu\n+ Lấy phần mềm ghi tên mình là tác giả\n+ Đăng tin chưa xác thực lên mạng"
+          "ocr_text": "Câu 1:\n- Tải bản lậu sản phẩm có bản quyền\n- Lấy ảnh người khác bôi nhọ/nói xấu\n- Lấy phần mềm ghi tên mình là tác giả\n- Đăng tin chưa xác thực lên mạng"
         },
         {
           "question_no": "Câu 2",
@@ -484,7 +484,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Nhầm 'hàng hoặc cột' (đúng: trước CẢ cột và hàng)\n+ Ví dụ đúng $A$1 (0.25đ) + bù trừ 2 nửa ý (quy tắc $ & không đổi = 0.25đ)"
+          "ocr_text": "Câu 2:\n- Nhầm 'hàng hoặc cột' (đúng: trước CẢ cột và hàng)\n- Ví dụ đúng $A$1 (0.25đ) + bù trừ 2 nửa ý (quy tắc $ & không đổi = 0.25đ)"
         },
         {
           "question_no": "Câu 3",
@@ -904,7 +904,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Tải nhạc/phim lậu không xin phép tác giả\n+ Đăng video sai sự thật câu like\n+ Dùng ảnh cá nhân chế nhạo/nói xấu\n+ Tự ý lấy tài liệu khác nhận là của mình"
+          "ocr_text": "Câu 1:\n- Tải nhạc/phim lậu không xin phép tác giả\n- Đăng video sai sự thật câu like\n- Dùng ảnh cá nhân chế nhạo/nói xấu\n- Tự ý lấy tài liệu khác nhận là của mình"
         },
         {
           "question_no": "Câu 2",
@@ -940,7 +940,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Đúng phím F4, vị trí thêm dấu $ & ví dụ $C$2\n+ So sánh chính xác địa chỉ tương đối & tuyệt đối"
+          "ocr_text": "Câu 2:\n- Đúng phím F4, vị trí thêm dấu $ & ví dụ $C$2\n- So sánh chính xác địa chỉ tương đối & tuyệt đối"
         },
         {
           "question_no": "Câu 3",
@@ -977,7 +977,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ Đúng từ khóa tìm kiếm tin giả"
+          "ocr_text": "Câu 3:\n- Đúng từ khóa tìm kiếm tin giả"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ (P.I 10/12, P.II 16/16 ý). TL: 2.25/3.00đ. Câu 1 (1.0đ) & Câu 2 (1.0đ) làm rất xuất sắc. Câu 3 (0.25đ) đúng từ khóa, bỏ dở 2 cách kiểm tra. Tổng: 8.75/10.0đ.",
@@ -1369,7 +1369,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n- Điểm biểu hiện vi phạm là thông tin đưa ra dưới dạng ý kiến quan điểm cá nhân\n- tải lậu một phần mềm có bản quyền về máy để sử dụng miễn phí\n- sao chép thông tin từ một trang web và ghi tên mình là tác giả\n- tặng đĩa nhạc chưa đc cấp bản quyền hay quyền"
+          "ocr_text": "Câu 1:\n- tải lậu một phần mềm có bản quyền về máy để sử dụng miễn phí\n- sao chép thông tin từ một trang web và ghi tên mình là tác giả\n- tặng đĩa nhạc chưa đc cấp bản quyền hay quyền\n- Điểm biểu hiện vi phạm là thông tin đưa ra dưới dạng ý kiến quan điểm cá nhân"
         },
         {
           "question_no": "Câu 2",
@@ -1811,7 +1811,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Đăng tải thông tin sai sự thật\n+ Dùng sản phẩm bản quyền không xin phép\n+ Ghi âm lén cuộc nói chuyện\n+ Quay lén clip xúc phạm người khác"
+          "ocr_text": "Câu 1:\n- Đăng tải thông tin sai sự thật\n- Dùng sản phẩm bản quyền không xin phép\n- Ghi âm lén cuộc nói chuyện\n- Quay lén clip xúc phạm người khác"
         },
         {
           "question_no": "Câu 2",
@@ -1848,7 +1848,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Đúng so sánh địa chỉ tuyệt đối & tương đối"
+          "ocr_text": "Câu 2:\n- Đúng so sánh địa chỉ tuyệt đối & tương đối"
         },
         {
           "question_no": "Câu 3",
@@ -2270,7 +2270,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Lừa đảo chiếm đoạt tài sản qua mạng\n+ Chửi bới xúc phạm trên mạng\n+ Tải bài viết tác giả khác không xin phép"
+          "ocr_text": "Câu 1:\n- Lừa đảo chiếm đoạt tài sản qua mạng\n- Chửi bới xúc phạm trên mạng\n- Tải bài viết tác giả khác không xin phép"
         },
         {
           "question_no": "Câu 2",
@@ -2308,7 +2308,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:"
+          "ocr_text": "Câu 2:\n- Thiếu ý 2a (phím F4 và cách thêm $)\n- Đúng tính chất tuyệt đối không đổi (+0.25đ; thiếu tương đối)"
         },
         {
           "question_no": "Câu 3",
@@ -2729,7 +2729,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Đăng video sai sự thật\n+ Lăng mạ xúc phạm danh dự\n+ Bán thực phẩm chức năng lậu\n+ Lừa đảo tiền qua không gian mạng"
+          "ocr_text": "Câu 1:\n- Đăng video sai sự thật\n- Lăng mạ xúc phạm danh dự\n- Bán thực phẩm chức năng lậu\n- Lừa đảo tiền qua không gian mạng"
         },
         {
           "question_no": "Câu 2",
@@ -2761,7 +2761,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Sai phương pháp chuyển đổi & nhầm lẫn địa chỉ"
+          "ocr_text": "Câu 2:\n- Sai phương pháp chuyển đổi & nhầm lẫn địa chỉ"
         },
         {
           "question_no": "Câu 3",
@@ -2789,7 +2789,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:"
+          "ocr_text": "Câu 3:\n- Đọc bài viết báo lớn (+0.25đ; thiếu từ khóa)"
         }
       ],
       "summary_comment": "TN: 5.50/7.00đ (P.I 8/12, P.II 14/16 ý). TL: 1.25/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 sai kiến thức (0.00đ). Câu 3 đúng 1 ý kiểm tra nguồn (0.25đ). Tổng: 6.75/10.0đ.",
@@ -3188,7 +3188,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Đăng tải thông tin sai sự thật lên mạng\n+ Tải bài trình chiếu người khác dùng như của mình\n+ Cố ý ghi âm trái phép các cuộc nói chuyện\n+ Quay lén và lan truyền clip bạo lực học đường"
+          "ocr_text": "Câu 1:\n- Đăng tải thông tin sai sự thật lên mạng\n- Tải bài trình chiếu người khác dùng như của mình\n- Cố ý ghi âm trái phép các cuộc nói chuyện\n- Quay lén và lan truyền clip bạo lực học đường"
         },
         {
           "question_no": "Câu 2",
@@ -3266,7 +3266,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ Kiểm tra web đuôi .gov.vn của chính phủ (+0.25đ)\n+ Kiểm tra minh chứng và số liệu rõ ràng (+0.25đ)"
+          "ocr_text": "Câu 3:\n- Kiểm tra web đuôi .gov.vn của chính phủ (+0.25đ)\n- Kiểm tra minh chứng và số liệu rõ ràng (+0.25đ)"
         }
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 1.50/3.00đ. Câu 1 đúng xuất sắc 4/4 ý (1.00đ). Câu 2 bỏ trống (0.00đ). Câu 3 đúng 2 cách kiểm tra (0.50đ), thiếu từ khóa. Tổng: 7.25/10.0đ.",
@@ -3664,7 +3664,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Chửi bới, lăng mạ hoặc hùa theo tẩy chay cá nhân\n+ Tự ý quay chụp, đăng tin bảo mật người khác\n+ Đăng tin sai sự thật câu tương tác\n+ Sao chép, đánh cắp nội dung nghệ thuật"
+          "ocr_text": "Câu 1:\n- Chửi bới, lăng mạ hoặc hùa theo tẩy chay cá nhân\n- Tự ý quay chụp, đăng tin bảo mật người khác\n- Đăng tin sai sự thật câu tương tác\n- Sao chép, đánh cắp nội dung nghệ thuật"
         },
         {
           "question_no": "Câu 2",
@@ -3700,7 +3700,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Nhấn phím F4 tự động thêm dấu $ (ví dụ $C$2)\n+ So sánh đúng tuyệt đối không đổi / tương đối thay đổi"
+          "ocr_text": "Câu 2:\n- Nhấn phím F4 tự động thêm dấu $ (ví dụ $C$2)\n- So sánh đúng tuyệt đối không đổi / tương đối thay đổi"
         },
         {
           "question_no": "Câu 3",
@@ -3736,7 +3736,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tìm kiếm: 'tin' và 'giả'\n+ 2 cách kiểm tra: web chính phủ .gov & minh chứng số liệu"
+          "ocr_text": "Câu 3:\n- từ khóa tìm kiếm: 'tin' và 'giả'\n- cách kiểm tra: web chính phủ .gov & minh chứng số liệu"
         }
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 3.00/3.00đ tuyệt đối! Trình bày rất chuẩn, lập luận mạch lạc, nắm vững kiến thức F4, địa chỉ ô và nguồn tin số. Tổng: 8.75/10.0đ.",
@@ -4135,7 +4135,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Bạo lực không gian mạng: chửi bới, hùa tẩy chay\n+ Vi phạm quyền riêng tư: chụp quay chưa xin phép\n+ Đăng tin đồn thất thiệt để câu tương tác\n+ Vi phạm bản quyền: dùng tác phẩm không xin phép"
+          "ocr_text": "Câu 1:\n- Bạo lực không gian mạng: chửi bới, hùa tẩy chay\n- Vi phạm quyền riêng tư: chụp quay chưa xin phép\n- Đăng tin đồn thất thiệt để câu tương tác\n- Vi phạm bản quyền: dùng tác phẩm không xin phép"
         },
         {
           "question_no": "Câu 2",
@@ -4181,7 +4181,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Nêu đúng thao tác phím F4 và thêm ký hiệu $\n+ So sánh đúng tuyệt đối không đổi / tương đối đổi"
+          "ocr_text": "Câu 2:\n- Nêu đúng thao tác phím F4 và thêm ký hiệu $\n- So sánh đúng tuyệt đối không đổi / tương đối đổi"
         },
         {
           "question_no": "Câu 3",
@@ -4217,7 +4217,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa phù hợp: 'Tác hại' và 'tin giả'\n+ 2 cách kiểm tra tác giả/nguồn gốc và đối chiếu nhà nước"
+          "ocr_text": "Câu 3:\n- từ khóa phù hợp: 'Tác hại' và 'tin giả'\n- cách kiểm tra tác giả/nguồn gốc và đối chiếu nhà nước"
         }
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 2.75/3.00đ. Câu 1 (1.00đ) & Câu 3 (1.00đ) xuất sắc; Câu 2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 8.50/10.0đ.",
@@ -4617,7 +4617,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Sao chép thông tin sửa thành tên mình\n+ Đăng tải video chưa mua bản quyền\n+ Đăng ảnh chụp lén không xin phép"
+          "ocr_text": "Câu 1:\n- Sao chép thông tin sửa thành tên mình\n- Đăng tải video chưa mua bản quyền\n- Đăng ảnh chụp lén không xin phép"
         },
         {
           "question_no": "Câu 2",
@@ -4685,7 +4685,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 cụm từ khóa tìm kiếm tin giả\n+ Tìm hiểu trang web an toàn, rõ nguồn gốc xuất xứ (+0.25đ)"
+          "ocr_text": "Câu 3:\n- cụm từ khóa tìm kiếm tin giả\n- Tìm hiểu trang web an toàn, rõ nguồn gốc xuất xứ (+0.25đ)"
         }
       ],
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12, P.II 14/16 ý). TL: 1.75/3.00đ. Câu 1 đúng 4/4 ý (1.00đ). Câu 2 bỏ trống hoàn toàn (0.00đ). Câu 3 đúng từ khóa và 1 cách kiểm tra (0.75đ). Tổng: 7.50/10.0đ.",
@@ -5084,7 +5084,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Phát tán hình ảnh người khác chưa xin phép\n+ Dùng thông tin bản quyền không mua\n+ Lấy thông tin mạng thay tên tác giả thành mình\n+ Phát tán thông tin sai sự thật lên mạng"
+          "ocr_text": "Câu 1:\n- Phát tán hình ảnh người khác chưa xin phép\n- Dùng thông tin bản quyền không mua\n- Lấy thông tin mạng thay tên tác giả thành mình\n- Phát tán thông tin sai sự thật lên mạng"
         },
         {
           "question_no": "Câu 2",
@@ -5125,7 +5125,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Nhầm phím 'Ctrl' (đúng: phím F4). Đúng dấu $ và ví dụ $F$2 (+0.25đ)\n+ Đúng so sánh tuyệt đối không đổi / tương đối thay đổi"
+          "ocr_text": "Câu 2:\n- Nhầm phím 'Ctrl' (đúng: phím F4). Đúng dấu $ và ví dụ $F$2 (+0.25đ)\n- Đúng so sánh tuyệt đối không đổi / tương đối thay đổi"
         },
         {
           "question_no": "Câu 3",
@@ -5161,7 +5161,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 cụm từ khóa tác hại & ảnh hưởng tin giả\n+ 2 cách kiểm tra web đáng tin cậy & cập nhật thời sự"
+          "ocr_text": "Câu 3:\n- cụm từ khóa tác hại & ảnh hưởng tin giả\n- cách kiểm tra web đáng tin cậy & cập nhật thời sự"
         }
       ],
       "summary_comment": "TN: 5.25/7.00đ (P.I 9/12, P.II 12/16 ý). TL: 2.75/3.00đ. Câu 1 (1.00đ) & Câu 3 (1.00đ) trọn vẹn. Câu 2 (0.75đ) đúng bản chất dấu $ và so sánh 2b, nhầm phím Ctrl thay vì F4. Tổng: 8.00/10.0đ.",
@@ -5560,7 +5560,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Bôi nhọ nói xấu trên mạng\n+ Tung tin đồn nhảm\n+ Bạo lực tinh thần, bạo lực học đường\n+ Sao chép tác phẩm có bản quyền"
+          "ocr_text": "Câu 1:\n- Bôi nhọ nói xấu trên mạng\n- Tung tin đồn nhảm\n- Bạo lực tinh thần, bạo lực học đường\n- Sao chép tác phẩm có bản quyền"
         },
         {
           "question_no": "Câu 2",
@@ -5601,7 +5601,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Nhầm phím số 4 (đúng: nhấn F4). Đúng ký hiệu $ và ví dụ (0.25đ)\n+ So sánh đúng tuyệt đối không đổi / tương đối thay đổi"
+          "ocr_text": "Câu 2:\n- Nhầm phím số 4 (đúng: nhấn F4). Đúng ký hiệu $ và ví dụ (0.25đ)\n- So sánh đúng tuyệt đối không đổi / tương đối thay đổi"
         },
         {
           "question_no": "Câu 3",
@@ -5638,7 +5638,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ Đúng cách tra cứu nguồn uy tín từ sách vở và thầy cô"
+          "ocr_text": "Câu 3:\n- Đúng cách tra cứu nguồn uy tín từ sách vở và thầy cô"
         }
       ],
       "summary_comment": "TN: 5.00/7.00đ. TL: 2.25/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh (0.75đ), nhầm phím số 4 thay vì F4. C3 đúng cách tra cứu nguồn uy tín (0.50đ). Tổng: 7.25/10.0đ.",
@@ -6036,7 +6036,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Sao chép thông tin nhận là của mình\n+ Quay lén chụp lén đăng mạng\n+ Mạo danh để trục lợi\n+ Tải lậu sản phẩm bản quyền"
+          "ocr_text": "Câu 1:\n- Sao chép thông tin nhận là của mình\n- Quay lén chụp lén đăng mạng\n- Mạo danh để trục lợi\n- Tải lậu sản phẩm bản quyền"
         },
         {
           "question_no": "Câu 2",
@@ -6082,7 +6082,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối\n+ So sánh đúng tuyệt đối cố định / tương đối thay đổi"
+          "ocr_text": "Câu 2:\n- Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối\n- So sánh đúng tuyệt đối cố định / tương đối thay đổi"
         },
         {
           "question_no": "Câu 3",
@@ -6118,7 +6118,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tìm kiếm tin giả\n+ 2 cách kiểm tra: web nhà nước & minh chứng bằng chứng"
+          "ocr_text": "Câu 3:\n- từ khóa tìm kiếm tin giả\n- cách kiểm tra: web nhà nước & minh chứng bằng chứng"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ (P.II 16/16 tuyệt đối). TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
@@ -6509,7 +6509,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Sao chép thông tin không ghi nguồn\n+ Sử dụng phần mềm bẻ khóa"
+          "ocr_text": "Câu 1:\n- Sao chép thông tin không ghi nguồn\n- Sử dụng phần mềm bẻ khóa"
         },
         {
           "question_no": "Câu 2",
@@ -6943,7 +6943,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Xúc phạm nghe lén thông tin cá nhân\n+ Vi phạm bản quyền phần mềm, phim nhạc"
+          "ocr_text": "Câu 1:\n- Xúc phạm nghe lén thông tin cá nhân\n- Vi phạm bản quyền phần mềm, phim nhạc"
         },
         {
           "question_no": "Câu 2",
@@ -7385,7 +7385,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Xúc phạm lăng mạ người khác\n+ Quay lén nghe lén\n+ Chụp ảnh ghép chữ bêu rếu\n+ Lấy sản phẩm người khác nhận là của mình"
+          "ocr_text": "Câu 1:\n- Xúc phạm lăng mạ người khác\n- Quay lén nghe lén\n- Chụp ảnh ghép chữ bêu rếu\n- Lấy sản phẩm người khác nhận là của mình"
         },
         {
           "question_no": "Câu 2",
@@ -7451,7 +7451,7 @@
             }
           ],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n\n[📄 Phần làm tại Trang 1]:\n+ Nêu đúng viết dấu $ và nhấn phím F4\n\n[📄 Phần làm tại Trang 2]:\n+ So sánh đúng tuyệt đối không đổi / tương đối đổi"
+          "ocr_text": "Câu 2:\n\n[📄 Phần làm tại Trang 1]:\n- Nêu đúng viết dấu $ và nhấn phím F4\n\n[📄 Phần làm tại Trang 2]:\n- So sánh đúng tuyệt đối không đổi / tương đối đổi"
         },
         {
           "question_no": "Câu 3",
@@ -7485,7 +7485,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tác hại tin giả\n+ 2 cách kiểm tra: web .gov.vn & nguồn uy tín"
+          "ocr_text": "Câu 3:\n- từ khóa tác hại tin giả\n- cách kiểm tra: web .gov.vn & nguồn uy tín"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
@@ -7884,7 +7884,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Xúc phạm danh dự nhân phẩm\n+ Lan truyền thông tin sai sự thật\n+ Vi phạm bản quyền sản phẩm số\n+ Tự ý dùng thông tin bảo mật người khác"
+          "ocr_text": "Câu 1:\n- Xúc phạm danh dự nhân phẩm\n- Lan truyền thông tin sai sự thật\n- Vi phạm bản quyền sản phẩm số\n- Tự ý dùng thông tin bảo mật người khác"
         },
         {
           "question_no": "Câu 2",
@@ -7920,7 +7920,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Đúng ví dụ $F$1 và thêm dấu $ (gạch đỏ phím Shift số 4 -> F4)\n+ So sánh đúng tuyệt đối không đổi / tương đối đổi"
+          "ocr_text": "Câu 2:\n- Đúng ví dụ $F$1 và thêm dấu $ (gạch đỏ phím Shift số 4 -> F4)\n- So sánh đúng tuyệt đối không đổi / tương đối đổi"
         },
         {
           "question_no": "Câu 3",
@@ -7957,7 +7957,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ Đúng từ khóa tác hại tin giả"
+          "ocr_text": "Câu 3:\n- Đúng từ khóa tác hại tin giả"
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 2.00/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh 2b (0.75đ). C3 đúng từ khóa (0.25đ), thiếu cách kiểm tra. Tổng: 8.00/10.0đ.",
@@ -8355,7 +8355,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Tìm thông tin người khác gây hại\n+ Dùng tác phẩm không xin phép tác giả\n+ Sao chép web coi là của mình\n+ Đưa thông tin cá nhân người khác lên mạng"
+          "ocr_text": "Câu 1:\n- Tìm thông tin người khác gây hại\n- Dùng tác phẩm không xin phép tác giả\n- Sao chép web coi là của mình\n- Đưa thông tin cá nhân người khác lên mạng"
         },
         {
           "question_no": "Câu 2",
@@ -8797,7 +8797,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Tải phần mềm bản quyền dùng miễn phí\n+ Quay lén clip bạo lực học đường\n+ Sao chép bài viết web nhận là của mình\n+ Lan truyền thông tin sai lệch"
+          "ocr_text": "Câu 1:\n- Tải phần mềm bản quyền dùng miễn phí\n- Quay lén clip bạo lực học đường\n- Sao chép bài viết web nhận là của mình\n- Lan truyền thông tin sai lệch"
         },
         {
           "question_no": "Câu 2",
@@ -8834,7 +8834,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ So sánh đúng tuyệt đối không đổi / tương đối đổi"
+          "ocr_text": "Câu 2:\n- So sánh đúng tuyệt đối không đổi / tương đối đổi"
         },
         {
           "question_no": "Câu 3",
@@ -8871,7 +8871,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ Đúng 2 cách kiểm tra: chứng minh số liệu & cập nhật uy tín"
+          "ocr_text": "Câu 3:\n- Đúng 2 cách kiểm tra: chứng minh số liệu & cập nhật uy tín"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.25/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng ví dụ & so sánh 2b (0.75đ). C3 đúng cách kiểm tra (0.50đ), thiếu từ khóa. Tổng: 8.75/10.0đ.",
@@ -9271,7 +9271,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Lừa đảo qua mạng\n+ Tuyên truyền sai sự thật\n+ Làm nhục người khác"
+          "ocr_text": "Câu 1:\n- Lừa đảo qua mạng\n- Tuyên truyền sai sự thật\n- Làm nhục người khác"
         },
         {
           "question_no": "Câu 2",
@@ -9713,7 +9713,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Lấy ảnh người khác chỉnh sửa bôi nhọ\n+ Quay lén clip bạo lực học đường\n+ Tải phần mềm bẻ khóa không bản quyền\n+ Sao chép bài viết nhận là của mình"
+          "ocr_text": "Câu 1:\n- Lấy ảnh người khác chỉnh sửa bôi nhọ\n- Quay lén clip bạo lực học đường\n- Tải phần mềm bẻ khóa không bản quyền\n- Sao chép bài viết nhận là của mình"
         },
         {
           "question_no": "Câu 2",
@@ -10155,7 +10155,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Lăng mạ xúc phạm qua mạng\n+ Lấy thông tin mạng nhận là của mình\n+ Lấy ảnh cắt ghép chỉnh sửa bêu xấu\n+ Đạo nhái ý tưởng sản phẩm tác giả khác"
+          "ocr_text": "Câu 1:\n- Lăng mạ xúc phạm qua mạng\n- Lấy thông tin mạng nhận là của mình\n- Lấy ảnh cắt ghép chỉnh sửa bêu xấu\n- Đạo nhái ý tưởng sản phẩm tác giả khác"
         },
         {
           "question_no": "Câu 2",
@@ -10201,7 +10201,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối\n+ So sánh đúng tuyệt đối cố định / tương đối đổi"
+          "ocr_text": "Câu 2:\n- Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối\n- So sánh đúng tuyệt đối cố định / tương đối đổi"
         },
         {
           "question_no": "Câu 3",
@@ -10237,7 +10237,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tìm kiếm tin giả\n+ 2 cách kiểm tra: người gửi/tác giả & đối chiếu cơ quan quản lý"
+          "ocr_text": "Câu 3:\n- từ khóa tìm kiếm tin giả\n- cách kiểm tra: người gửi/tác giả & đối chiếu cơ quan quản lý"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
@@ -10636,7 +10636,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Lấy ảnh người khác đăng lên mạng chưa xin phép\n+ Quay clip bạo lực học đường\n+ Sao chép thông tin sửa thành của mình\n+ Đăng thông tin sai lệch lên mạng"
+          "ocr_text": "Câu 1:\n- Lấy ảnh người khác đăng lên mạng chưa xin phép\n- Quay clip bạo lực học đường\n- Sao chép thông tin sửa thành của mình\n- Đăng thông tin sai lệch lên mạng"
         },
         {
           "question_no": "Câu 2",
@@ -10682,7 +10682,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối\n+ So sánh đúng tuyệt đối không đổi / tương đối đổi hàng cột"
+          "ocr_text": "Câu 2:\n- Nêu đúng phím F4 chuyển đổi giữa tương đối và tuyệt đối\n- So sánh đúng tuyệt đối không đổi / tương đối đổi hàng cột"
         },
         {
           "question_no": "Câu 3",
@@ -10718,7 +10718,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tác hại tin giả\n+ 2 cách kiểm tra: web chính thức nhà nước & nguồn gốc xuất xứ"
+          "ocr_text": "Câu 3:\n- từ khóa tác hại tin giả\n- cách kiểm tra: web chính thức nhà nước & nguồn gốc xuất xứ"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng F4 và so sánh 2b, thiếu ví dụ 2a. Tổng: 9.25/10.0đ.",
@@ -11117,7 +11117,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Quay video sai sự thật câu like\n+ Tải lậu phần mềm\n+ Chửi bới lăng mạ người khác\n+ Sao chép thông tin nhận là của mình"
+          "ocr_text": "Câu 1:\n- Quay video sai sự thật câu like\n- Tải lậu phần mềm\n- Chửi bới lăng mạ người khác\n- Sao chép thông tin nhận là của mình"
         },
         {
           "question_no": "Câu 2",
@@ -11154,7 +11154,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ So sánh đúng tuyệt đối không đổi / tương đối đổi"
+          "ocr_text": "Câu 2:\n- So sánh đúng tuyệt đối không đổi / tương đối đổi"
         },
         {
           "question_no": "Câu 3",
@@ -11190,7 +11190,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tác hại tin giả\n+ 2 cách kiểm tra: hỏi thầy cô & kiểm tra bằng chứng"
+          "ocr_text": "Câu 3:\n- từ khóa tác hại tin giả\n- cách kiểm tra: hỏi thầy cô & kiểm tra bằng chứng"
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 2.50/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng so sánh 2b (0.50đ), thiếu 2a. C3 đúng trọn vẹn (1.0đ). Tổng: 8.50/10.0đ.",
@@ -11589,7 +11589,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Bắt nạt đe dọa trên mạng\n+ Đăng thông tin cá nhân chưa xin phép\n+ Lấy thông tin người khác nhận của mình\n+ Tải sản phẩm chưa mua bản quyền"
+          "ocr_text": "Câu 1:\n- Bắt nạt đe dọa trên mạng\n- Đăng thông tin cá nhân chưa xin phép\n- Lấy thông tin người khác nhận của mình\n- Tải sản phẩm chưa mua bản quyền"
         },
         {
           "question_no": "Câu 2",
@@ -11626,7 +11626,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Đúng F4, thêm dấu $ và ví dụ $F$4"
+          "ocr_text": "Câu 2:\n- Đúng F4, thêm dấu $ và ví dụ $F$4"
         },
         {
           "question_no": "Câu 3",
@@ -11662,7 +11662,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ Từ khóa tác hại tin giả\n+ Kiểm tra độ tin cậy thông tin"
+          "ocr_text": "Câu 3:\n- Từ khóa tác hại tin giả\n- Kiểm tra độ tin cậy thông tin"
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 2.00/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 đúng 2a (0.50đ), thiếu 2b. C3 đúng 1 phần từ khóa & kiểm tra (0.50đ). Tổng: 8.00/10.0đ.",
@@ -12061,7 +12061,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Từ ngữ thô tục chửi bới\n+ Đánh cắp ý tưởng của người khác\n+ Tuyên truyền thông tin sai lệch\n+ Bạo lực không phù hợp"
+          "ocr_text": "Câu 1:\n- Từ ngữ thô tục chửi bới\n- Đánh cắp ý tưởng của người khác\n- Tuyên truyền thông tin sai lệch\n- Bạo lực không phù hợp"
         },
         {
           "question_no": "Câu 2",
@@ -12119,7 +12119,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tin giả & tác hại\n+ 2 cách kiểm tra: minh chứng số liệu & web chính phủ"
+          "ocr_text": "Câu 3:\n- từ khóa tin giả & tác hại\n- cách kiểm tra: minh chứng số liệu & web chính phủ"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
@@ -12518,7 +12518,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Tự ý lấy ảnh chỉnh sửa\n+ Tải lậu phần mềm có bản quyền\n+ Sao chép thông tin nhận là của mình\n+ Quay lén lan truyền clip bạo lực"
+          "ocr_text": "Câu 1:\n- Tự ý lấy ảnh chỉnh sửa\n- Tải lậu phần mềm có bản quyền\n- Sao chép thông tin nhận là của mình\n- Quay lén lan truyền clip bạo lực"
         },
         {
           "question_no": "Câu 2",
@@ -12576,7 +12576,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ Từ khóa tìm kiếm web uy tín\n+ 2 cách kiểm tra: minh chứng số liệu & không tin quan điểm cá nhân"
+          "ocr_text": "Câu 3:\n- Từ khóa tìm kiếm web uy tín\n- cách kiểm tra: minh chứng số liệu & không tin quan điểm cá nhân"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 1.75/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 bỏ trống. C3 đúng cách kiểm tra (0.75đ). Tổng: 8.25/10.0đ.",
@@ -12975,7 +12975,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Tự ý quay video ghi âm người khác\n+ Bạo lực mạng công kích tài khoản\n+ Tải phần mềm lậu\n+ Dùng lời lẽ thô tục miệt thị"
+          "ocr_text": "Câu 1:\n- Tự ý quay video ghi âm người khác\n- Bạo lực mạng công kích tài khoản\n- Tải phần mềm lậu\n- Dùng lời lẽ thô tục miệt thị"
         },
         {
           "question_no": "Câu 2",
@@ -13011,7 +13011,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Nhập ký hiệu $, phím tắt F4, ví dụ $B$5\n+ So sánh đúng tương đối đổi / tuyệt đối không đổi"
+          "ocr_text": "Câu 2:\n- Nhập ký hiệu $, phím tắt F4, ví dụ $B$5\n- So sánh đúng tương đối đổi / tuyệt đối không đổi"
         },
         {
           "question_no": "Câu 3",
@@ -13047,7 +13047,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tác hại tin giả\n+ 2 cách kiểm tra: nguồn tác nhân uy tín & số liệu minh chứng"
+          "ocr_text": "Câu 3:\n- từ khóa tác hại tin giả\n- cách kiểm tra: nguồn tác nhân uy tín & số liệu minh chứng"
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 3.00/3.00đ tuyệt đối! Trình bày xuất sắc C1, C2 (F4, $B$5, so sánh tương đối/tuyệt đối) và C3 (từ khóa + kiểm tra). Tổng: 9.00/10.0đ.",
@@ -13446,7 +13446,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Quay lén clip bạo lực học đường\n+ Bình luận chửi bới người khác\n+ Đăng ảnh người khác chưa xin phép\n+ Đăng tin chống phá nhà nước"
+          "ocr_text": "Câu 1:\n- Quay lén clip bạo lực học đường\n- Bình luận chửi bới người khác\n- Đăng ảnh người khác chưa xin phép\n- Đăng tin chống phá nhà nước"
         },
         {
           "question_no": "Câu 2",
@@ -13504,7 +13504,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ Từ khóa tin giả\n+ 2 cách kiểm tra: minh chứng nhà nước & hỏi người lớn/thầy cô"
+          "ocr_text": "Câu 3:\n- Từ khóa tin giả\n- cách kiểm tra: minh chứng nhà nước & hỏi người lớn/thầy cô"
         }
       ],
       "summary_comment": "TN: 6.00/7.00đ. TL: 1.75/3.00đ. C1 đúng 4/4 ý (1.0đ). C2 bỏ trống. C3 đúng từ khóa & kiểm tra (0.75đ). Tổng: 7.75/10.0đ.",
@@ -13902,7 +13902,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Chửi bới nói xấu trên mạng\n+ Lấy thông tin người khác sửa thành của mình\n+ Lấy ảnh người khác đăng lên mạng\n+ Lấy thông tin bảo mật gửi người khác"
+          "ocr_text": "Câu 1:\n- Chửi bới nói xấu trên mạng\n- Lấy thông tin người khác sửa thành của mình\n- Lấy ảnh người khác đăng lên mạng\n- Lấy thông tin bảo mật gửi người khác"
         },
         {
           "question_no": "Câu 2",
@@ -14754,7 +14754,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Quay lén lan truyền clip bạo lực\n+ Tự ý lấy ảnh người khác đăng mạng\n+ Tải lậu phần mềm bẻ khóa\n+ Chỉnh sửa thông tin nhận của mình"
+          "ocr_text": "Câu 1:\n- Quay lén lan truyền clip bạo lực\n- Tự ý lấy ảnh người khác đăng mạng\n- Tải lậu phần mềm bẻ khóa\n- Chỉnh sửa thông tin nhận của mình"
         },
         {
           "question_no": "Câu 2",
@@ -15606,7 +15606,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Quay lén clip bạo lực học đường\n+ Sao chép thông tin nhận là của mình\n+ Tải lậu phần mềm có bản quyền\n+ Lan truyền hình ảnh xấu"
+          "ocr_text": "Câu 1:\n- Quay lén clip bạo lực học đường\n- Sao chép thông tin nhận là của mình\n- Tải lậu phần mềm có bản quyền\n- Lan truyền hình ảnh xấu"
         },
         {
           "question_no": "Câu 2",
@@ -16048,7 +16048,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Ngôn ngữ thô tục bôi nhọ\n+ Lan truyền thông tin sai sự thật\n+ Tự ý lấy ảnh người khác bêu nhục\n+ Lấy sản phẩm người khác không xin phép"
+          "ocr_text": "Câu 1:\n- Ngôn ngữ thô tục bôi nhọ\n- Lan truyền thông tin sai sự thật\n- Tự ý lấy ảnh người khác bêu nhục\n- Lấy sản phẩm người khác không xin phép"
         },
         {
           "question_no": "Câu 2",
@@ -16084,7 +16084,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ Đúng thêm dấu $, nhấn phím F4 và ví dụ $F$2\n+ So sánh đúng tuyệt đối không đổi / tương đối đổi"
+          "ocr_text": "Câu 2:\n- Đúng thêm dấu $, nhấn phím F4 và ví dụ $F$2\n- So sánh đúng tuyệt đối không đổi / tương đối đổi"
         },
         {
           "question_no": "Câu 3",
@@ -16120,7 +16120,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tìm kiếm tin giả\n+ 2 cách kiểm tra: web uy tín & minh chứng thuyết phục"
+          "ocr_text": "Câu 3:\n- từ khóa tìm kiếm tin giả\n- cách kiểm tra: web uy tín & minh chứng thuyết phục"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 3.00/3.00đ tuyệt đối! Bài làm xuất sắc nhất lớp: chữ viết rõ ràng, đúng toàn bộ F4, $F$2, so sánh tương đối/tuyệt đối và kiểm tra tin giả. Tổng: 9.50/10.0đ.",
@@ -16519,7 +16519,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Đăng ảnh người khác chưa xin phép\n+ Lời nói thô tục lăng mạ\n+ Đăng thông tin sai sự thật\n+ Quay video bạo lực học đường"
+          "ocr_text": "Câu 1:\n- Đăng ảnh người khác chưa xin phép\n- Lời nói thô tục lăng mạ\n- Đăng thông tin sai sự thật\n- Quay video bạo lực học đường"
         },
         {
           "question_no": "Câu 2",
@@ -16577,7 +16577,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tin giả & hậu quả\n+ 2 cách kiểm tra: dẫn chứng số liệu & đài VTV/chính phủ"
+          "ocr_text": "Câu 3:\n- từ khóa tin giả & hậu quả\n- cách kiểm tra: dẫn chứng số liệu & đài VTV/chính phủ"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
@@ -16975,7 +16975,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Sử dụng tài nguyên bản quyền không mua\n+ Lấy ảnh cá nhân đăng mạng chưa xin phép\n+ Không ứng xử văn minh lịch sự\n+ Chỉnh sửa ảnh bản quyền thành của mình"
+          "ocr_text": "Câu 1:\n- Sử dụng tài nguyên bản quyền không mua\n- Lấy ảnh cá nhân đăng mạng chưa xin phép\n- Không ứng xử văn minh lịch sự\n- Chỉnh sửa ảnh bản quyền thành của mình"
         },
         {
           "question_no": "Câu 2",
@@ -17417,7 +17417,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Ghi âm sao chép tài liệu không xin phép\n+ Quay video trong rạp phim đăng mạng\n+ Tải lậu phần mềm bản quyền\n+ Quay video bạo lực học đường"
+          "ocr_text": "Câu 1:\n- Ghi âm sao chép tài liệu không xin phép\n- Quay video trong rạp phim đăng mạng\n- Tải lậu phần mềm bản quyền\n- Quay video bạo lực học đường"
         },
         {
           "question_no": "Câu 2",
@@ -17475,7 +17475,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tin giả & tác hại\n+ 2 cách kiểm tra: dẫn chứng số liệu & nguồn VTV/chính phủ"
+          "ocr_text": "Câu 3:\n- từ khóa tin giả & tác hại\n- cách kiểm tra: dẫn chứng số liệu & nguồn VTV/chính phủ"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.00/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 bỏ trống (chữ 'v'). Tổng: 8.50/10.0đ.",
@@ -17865,7 +17865,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Không gửi video nhạy cảm người khác\n+ Không xúc phạm bôi nhọ người khác"
+          "ocr_text": "Câu 1:\n- Không gửi video nhạy cảm người khác\n- Không xúc phạm bôi nhọ người khác"
         },
         {
           "question_no": "Câu 2",
@@ -18307,7 +18307,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Tải hình ảnh video chưa xin phép\n+ Tải lậu phần mềm bản quyền\n+ Sao chép thông tin nhận là của mình\n+ Quay lén clip người khác"
+          "ocr_text": "Câu 1:\n- Tải hình ảnh video chưa xin phép\n- Tải lậu phần mềm bản quyền\n- Sao chép thông tin nhận là của mình\n- Quay lén clip người khác"
         },
         {
           "question_no": "Câu 2",
@@ -18749,7 +18749,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Tải lậu phần mềm bản quyền\n+ Đăng ảnh riêng tư chưa cho phép\n+ Quay lén clip bạo lực học đường\n+ Sao chép trang web nhận mình làm chủ"
+          "ocr_text": "Câu 1:\n- Tải lậu phần mềm bản quyền\n- Đăng ảnh riêng tư chưa cho phép\n- Quay lén clip bạo lực học đường\n- Sao chép trang web nhận mình làm chủ"
         },
         {
           "question_no": "Câu 2",
@@ -19191,7 +19191,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Lấy hình ảnh cá nhân phát tán\n+ Tải nội dung chưa mua bản quyền\n+ Đe dọa lừa đảo trên mạng\n+ Ăn cắp ý tưởng sản phẩm tác giả khác"
+          "ocr_text": "Câu 1:\n- Lấy hình ảnh cá nhân phát tán\n- Tải nội dung chưa mua bản quyền\n- Đe dọa lừa đảo trên mạng\n- Ăn cắp ý tưởng sản phẩm tác giả khác"
         },
         {
           "question_no": "Câu 2",
@@ -19228,7 +19228,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 2:\n+ So sánh đúng tuyệt đối hoàn toàn không đổi / tương đối đổi"
+          "ocr_text": "Câu 2:\n- So sánh đúng tuyệt đối hoàn toàn không đổi / tương đối đổi"
         },
         {
           "question_no": "Câu 3",
@@ -19264,7 +19264,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 3:\n+ 2 từ khóa tác hại tin giả\n+ 2 cách kiểm tra: nguồn phát ngôn uy tín & báo chí chính thống"
+          "ocr_text": "Câu 3:\n- từ khóa tác hại tin giả\n- cách kiểm tra: nguồn phát ngôn uy tín & báo chí chính thống"
         }
       ],
       "summary_comment": "TN: 6.50/7.00đ. TL: 2.75/3.00đ. C1 (1.0đ) & C3 (1.0đ) xuất sắc; C2 (0.75đ) đúng ký hiệu $ và so sánh 2b, thiếu F4. Tổng: 9.25/10.0đ.",
@@ -20073,7 +20073,7 @@
           ],
           "page_boxes": [],
           "is_skipped": false,
-          "ocr_text": "Câu 1:\n+ Quay lén lan truyền bạo lực học đường\n+ Sao chép thông tin nhận là của mình\n+ Lấy ảnh chỉnh sửa bêu xấu bạn\n+ Tải lậu phần mềm có bản quyền"
+          "ocr_text": "Câu 1:\n- Quay lén lan truyền bạo lực học đường\n- Sao chép thông tin nhận là của mình\n- Lấy ảnh chỉnh sửa bêu xấu bạn\n- Tải lậu phần mềm có bản quyền"
         },
         {
           "question_no": "Câu 2",
