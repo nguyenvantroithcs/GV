@@ -19407,9 +19407,9 @@
       "student_name": "Trịnh Thị Yến Nhi",
       "student_class": "8A7",
       "dob": "26/01/2013",
-      "total_score": 9.25,
+      "total_score": 9.0,
       "max_score": 10.0,
-      "essay_score": 2.75,
+      "essay_score": 2.5,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -19853,55 +19853,46 @@
         {
           "question_no": "Câu 3",
           "max_score": 1.0,
-          "score": 1.0,
+          "score": 0.75,
           "is_skipped": false,
-          "full_student_text": "Tin giả gây ra nhiều lo lắng, hoang mang trong đời sống hàng ngày của người dân.\n1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".\nTừ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".\n2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.\nCách kiểm tra thông tin tin cậy 2: Kiểm tra tính thời sự, đối chiếu với các nguồn khác xem có số liệu và bằng chứng hình ảnh gốc xác thực hay không.",
+          "full_student_text": "2 từ khoá phù hợp là :\n-> \"Tác hại của tin giả\"\n\n2 cách để kiểm tra, đánh giá bài viết có phải thông tin đáng tin cậy không :\n+1 kiểm tra thông tin đó được phát ngôn từ đâu, có đáng tin cậy không\n+1 thông tin đấy phải đưa ra một ý kiến thống nhất, có sự kiểm tra và độ tin cậy từ nhà báo chí Việt Nam .",
           "steps": [
             {
-              "page_index": 0,
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "student_text": "2 từ khoá phù hợp là :\n-> \"Tác hại của tin giả\"",
+              "note": "Xác định đúng từ khóa 1: \"Tác hại của tin giả\" (+0,25đ).",
+              "y_norm": 350
+            },
+            {
+              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "is_redundant": true,
-              "kind": "redundant",
-              "student_text": "Tin giả gây ra nhiều lo lắng, hoang mang trong đời sống hàng ngày của người dân.",
-              "note": "Bình luận chung về tâm lý, không phải từ khóa hay phương pháp kiểm tra (0,00đ).",
-              "y_norm": 880
+              "is_missing": true,
+              "kind": "missing",
+              "student_text": null,
+              "note": "Thiếu từ khóa thứ 2 (đề bài yêu cầu nêu đủ 2 từ khóa tìm kiếm, mỗi từ đúng 0,25đ; em mới chỉ nêu 1 từ khóa).",
+              "y_norm": null
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".",
-              "note": "Xác định từ khóa tìm kiếm chính xác, đúng trọng tâm đề tài.",
-              "y_norm": 900
+              "student_text": "+1 kiểm tra thông tin đó được phát ngôn từ đâu, có đáng tin cậy không",
+              "note": "Nêu đúng cách 1: Kiểm tra nguồn gốc phát ngôn và độ tin cậy (+0,25đ).",
+              "y_norm": 480
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "Từ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".",
-              "note": "Xác định từ khóa tìm kiếm thứ hai phù hợp logic.",
-              "y_norm": 925
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.",
-              "note": "Nêu đúng phương pháp kiểm tra nguồn thông tin uy tín.",
-              "y_norm": 950
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Cách kiểm tra thông tin tin cậy 2: Kiểm tra tính thời sự, đối chiếu với các nguồn khác xem có số liệu và bằng chứng hình ảnh gốc xác thực hay không.",
-              "note": "Nêu đúng phương pháp kiểm tra chứng cứ và tính thời sự.",
-              "y_norm": 975
+              "student_text": "+1 thông tin đấy phải đưa ra một ý kiến thống nhất, có sự kiểm tra và độ tin cậy từ nhà báo chí Việt Nam .",
+              "note": "Nêu đúng cách 2: Đối chiếu kiểm tra thông tin từ cơ quan báo chí uy tín (+0,25đ).",
+              "y_norm": 550
             }
           ]
         }
