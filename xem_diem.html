@@ -506,6 +506,118 @@
       color: #0f172a;
     }
 
+    /* OCR PAPER SHEET */
+    .ocr-paper-container {
+      background: #fdfefe;
+      border: 1px solid #cbd5e1;
+      border-left: 5px solid #2563eb;
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin: 14px 0 16px 0;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    }
+    .ocr-paper-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px dashed #cbd5e1;
+      font-weight: 800;
+      font-size: 13px;
+      color: #1e40af;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .ocr-paper-body {
+      font-size: 15px;
+      line-height: 1.85;
+      color: #1e293b;
+      word-break: break-word;
+    }
+    .ocr-paper-line {
+      margin-bottom: 8px;
+      padding: 5px 8px;
+      border-radius: 6px;
+      transition: background 0.15s;
+    }
+    .ocr-paper-line:hover {
+      background: #f1f5f9;
+    }
+    /* ĐOẠN ĐÚNG: TÔ DẠ QUANG VÀNG SÁNG / VIỀN XANH LÁ */
+    .ocr-hl-correct {
+      background: #fef08a; /* Vàng dạ quang */
+      color: #14532d;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: 5px;
+      border-bottom: 2px solid #16a34a;
+      box-shadow: 0 1px 4px rgba(22, 163, 74, 0.18);
+      display: inline-block;
+      margin: 2px 0;
+      line-height: 1.5;
+    }
+    .ocr-hl-pill {
+      background: #16a34a;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 7px;
+      border-radius: 12px;
+      margin-left: 6px;
+      vertical-align: middle;
+      display: inline-block;
+    }
+    .ocr-txt-err {
+      background: #fee2e2;
+      color: #991b1b;
+      padding: 2px 6px;
+      border-radius: 4px;
+      border-bottom: 1px dashed #ef4444;
+      display: inline-block;
+      margin: 2px 0;
+    }
+    .ocr-err-pill {
+      background: #dc2626;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 1px 6px;
+      border-radius: 10px;
+      margin-left: 4px;
+      vertical-align: middle;
+    }
+    .ocr-page-marker {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      background: #e0e7ff;
+      color: #3730a3;
+      font-weight: 700;
+      font-size: 12.5px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      margin: 10px 0 6px 0;
+      border: 1px solid #c7d2fe;
+    }
+    .ocr-skipped-note {
+      font-style: italic;
+      color: #94a3b8;
+      padding: 8px 12px;
+      background: #f8fafc;
+      border-radius: 6px;
+      border: 1px dashed #cbd5e1;
+    }
+    .essay-breakdown-title {
+      font-size: 13.5px;
+      font-weight: 800;
+      color: #475569;
+      margin: 16px 0 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
     /* GRADED IMAGES VIEWER */
     .gallery-grid {
       display: grid;
@@ -1445,7 +1557,7 @@
         .replace(/'/g, "&#039;");
     }
 
-    // 7. RENDER BÀI LÀM TỰ LUẬN TỪNG CÂU (OCR & HIGHLIGHT Ý ĐÚNG)
+    // 7. RENDER BÀI LÀM TỰ LUẬN TỪNG CÂU (FULL OCR TRANSCRIPTION & HIGHLIGHT Ý ĐÚNG)
     function renderEssayQuestions(questions) {
       const container = document.getElementById("essayQuestionsContainer");
       container.innerHTML = "";
@@ -1475,93 +1587,156 @@
         }
 
         const steps = q.steps || [];
-        let stepsHtml = "";
+        const isSkipped = Boolean(q.is_skipped || (steps.length === 0 && qScore === 0));
 
-        steps.forEach((st, sIdx) => {
+        // 1. BUILD KHUNG NGUYÊN VĂN BÀI LÀM VIẾT TAY (OCR TRANSCRIPTION)
+        let ocrHtml = "";
+        if (isSkipped) {
+          ocrHtml = `
+            <div class="ocr-paper-container" style="border-left-color: #cbd5e1;">
+              <div class="ocr-paper-header" style="color:#64748b;">
+                <span>📝 NGUYÊN VĂN BÀI LÀM VIẾT TAY CỦA EM (OCR TEXT):</span>
+                <span style="font-size:12px;color:#ef4444;font-weight:700;">Chưa làm</span>
+              </div>
+              <div class="ocr-skipped-note">
+                ⚠️ <em>(Em chưa làm câu này trên phiếu trả lời bài thi)</em>
+              </div>
+            </div>
+          `;
+        } else {
+          // Gom các ý theo trang (nếu học sinh làm rải rác ở nhiều trang hoặc làm ngắt quãng)
+          const pagesMap = {};
+          steps.forEach(st => {
+            const pIdx = typeof st.page_index === "number" ? st.page_index : 0;
+            if (!pagesMap[pIdx]) pagesMap[pIdx] = [];
+            pagesMap[pIdx].push(st);
+          });
+
+          const pageKeys = Object.keys(pagesMap).map(Number).sort((a, b) => a - b);
+          const isMultiPage = pageKeys.length > 1;
+
+          let ocrBodyHtml = "";
+
+          pageKeys.forEach(pIdx => {
+            const pageSteps = pagesMap[pIdx];
+            if (isMultiPage) {
+              ocrBodyHtml += `<div class="ocr-page-marker">📄 Phần làm tại Trang ${pIdx + 1}:</div>`;
+            }
+
+            pageSteps.forEach((st) => {
+              const ok = Boolean(st.ok);
+              const isMissing = Boolean(st.is_missing || (st.kind === "missing"));
+              const label = st.label || (ok ? "+0,25đ" : "0,00đ");
+              const rawText = st.student_text || st.note || "";
+
+              if (isMissing) {
+                // Ý bị thiếu không viết ra
+                return;
+              }
+
+              if (ok) {
+                // Ý ĐÚNG: TÔ NỔI BẬT DẠ QUANG VÀNG SÁNG / HUY HIỆU ĐIỂM
+                ocrBodyHtml += `
+                  <div class="ocr-paper-line">
+                    <span style="color:#64748b;font-weight:700;margin-right:6px;">•</span>
+                    <mark class="ocr-hl-correct" title="Ý đúng đạt ${label}">
+                      ⭐ "${escapeHtml(rawText)}"
+                      <span class="ocr-hl-pill">${label}</span>
+                    </mark>
+                  </div>
+                `;
+              } else {
+                // Ý CHƯA CHÍNH XÁC: GẠCH ĐỎ NHẠT
+                ocrBodyHtml += `
+                  <div class="ocr-paper-line">
+                    <span style="color:#64748b;font-weight:700;margin-right:6px;">•</span>
+                    <span class="ocr-txt-err" title="Chưa chính xác (${label})">
+                      "${escapeHtml(rawText)}"
+                      <span class="ocr-err-pill">${label}</span>
+                    </span>
+                  </div>
+                `;
+              }
+            });
+          });
+
+          ocrHtml = `
+            <div class="ocr-paper-container">
+              <div class="ocr-paper-header">
+                <span>📝 NGUYÊN VĂN BÀI LÀM VIẾT TAY CỦA EM (VĂN BẢN OCR):</span>
+                <span style="font-size:12px;color:#16a34a;font-weight:700;">Đã nhận diện chữ</span>
+              </div>
+              <div class="ocr-paper-body">
+                ${ocrBodyHtml || '<div class="ocr-skipped-note">Chưa nhận diện được nội dung viết tay.</div>'}
+              </div>
+            </div>
+          `;
+        }
+
+        // 2. BUILD BẢNG CHI TIẾT CHẤM ĐIỂM & NHẬN XÉT SƯ PHẠM CỦA GIÁO VIÊN
+        let stepsBreakdownHtml = "";
+        steps.forEach((st) => {
           const ok = Boolean(st.ok);
           const isMissing = Boolean(st.is_missing || (st.kind === "missing"));
           const label = st.label || (ok ? "+0,25đ" : "0,00đ");
+          const text = st.student_text || st.note || "";
+          const note = st.note || "";
 
-          // Extract OCR student text
-          let studentText = (st.student_text !== undefined && st.student_text !== null) ? String(st.student_text).trim() : "";
-          let teacherNote = (st.note || "").trim();
-
-          // Fallback parsing from note if student_text is not explicitly present
-          if (!studentText && teacherNote) {
-            // E.g. "Ý 1: Tải bản lậu sản phẩm có bản quyền" or "2a: Đúng phím F4..."
-            const match = teacherNote.match(/^(Ý\s*\d+|[0-9]+[ab]|Bước\s*\d+|Phần\s*[a-z0-9]+)\s*[:\-]\s*(.*)$/i);
-            if (match) {
-              studentText = match[2].trim();
-              teacherNote = "";
-            } else if (ok) {
-              studentText = teacherNote;
-              teacherNote = "";
-            } else if (isMissing) {
-              studentText = "";
-            } else {
-              studentText = teacherNote;
-            }
-          }
-
-          // Page location badge
           let locBadge = "";
           if (typeof st.page_index === "number") {
             locBadge = `<span class="step-page-loc">📄 Trang ${st.page_index + 1}</span>`;
           }
 
           if (isMissing) {
-            stepsHtml += `
+            stepsBreakdownHtml += `
               <li class="step-item is-missing">
                 <div class="step-top-row">
                   <span class="step-tag-pill missing">⚠️ THIẾU NỘI DUNG (${label})</span>
                   ${locBadge}
                 </div>
                 <div class="ocr-content-wrap">
-                  <div class="ocr-label">Nội dung em chưa làm / bỏ sót:</div>
                   <div class="ocr-highlight-box box-missing">
-                    Chưa làm hoặc thiếu ý: <strong>${escapeHtml(teacherNote || "Chưa có lời giải cho ý này.")}</strong>
+                    Chưa làm hoặc thiếu ý: <strong>${escapeHtml(note || "Chưa có lời giải cho ý này theo barem.")}</strong>
                   </div>
                 </div>
               </li>
             `;
           } else if (ok) {
-            stepsHtml += `
+            stepsBreakdownHtml += `
               <li class="step-item is-correct">
                 <div class="step-top-row">
                   <span class="step-tag-pill ok">✅ ĐÚNG / ĐẠT (${label})</span>
                   ${locBadge}
                 </div>
                 <div class="ocr-content-wrap">
-                  <div class="ocr-label">📝 Đoạn chữ em viết tay (Được công nhận điểm):</div>
                   <div class="ocr-highlight-box highlight-ok">
-                    ⭐ "${escapeHtml(studentText || teacherNote)}"
+                    ⭐ "${escapeHtml(text)}"
                   </div>
                 </div>
-                ${teacherNote && teacherNote !== studentText ? `
+                ${note && note !== text ? `
                   <div class="teacher-note-box">
                     <span>💬</span>
-                    <span><strong>Nhận xét:</strong> ${escapeHtml(teacherNote)}</span>
+                    <span><strong>Nhận xét:</strong> ${escapeHtml(note)}</span>
                   </div>
                 ` : ""}
               </li>
             `;
           } else {
-            stepsHtml += `
+            stepsBreakdownHtml += `
               <li class="step-item is-wrong">
                 <div class="step-top-row">
                   <span class="step-tag-pill err">❌ CHƯA CHÍNH XÁC (${label})</span>
                   ${locBadge}
                 </div>
                 <div class="ocr-content-wrap">
-                  <div class="ocr-label">📝 Đoạn chữ em viết tay:</div>
                   <div class="ocr-highlight-box box-err">
-                    "${escapeHtml(studentText || "Nội dung chưa chính xác")}"
+                    "${escapeHtml(text)}"
                   </div>
                 </div>
-                ${teacherNote ? `
+                ${note ? `
                   <div class="teacher-note-box">
                     <span>💡</span>
-                    <span><strong>Giáo viên hướng dẫn sửa:</strong> ${escapeHtml(teacherNote)}</span>
+                    <span><strong>Hướng dẫn sửa:</strong> ${escapeHtml(note)}</span>
                   </div>
                 ` : ""}
               </li>
@@ -1575,14 +1750,19 @@
               <span class="essay-name">${escapeHtml(q.question_no || `Câu ${qIndex + 1}`)}</span>
               ${statusBadge}
             </div>
-            <div class="essay-score">Điểm: ${qScoreStr} / ${qMaxStr}đ</div>
+            <div class="essay-score">${qScoreStr} / ${qMaxStr}đ</div>
           </div>
-          <div class="essay-intro-note">
-            <span>📋</span>
-            <span>Các ý làm bài của câu này (được tự động gom nhóm mạch lạc, kể cả khi em làm các ý rải rác trên bài thi):</span>
+
+          <!-- Khung toàn bộ bài làm viết tay OCR của học sinh -->
+          ${ocrHtml}
+
+          <!-- Chi tiết từng ý & Nhận xét của Giáo viên -->
+          <div class="essay-breakdown-title">
+            <span>🔍</span>
+            <span>Chi tiết chấm điểm & Lời phê của Giáo viên:</span>
           </div>
           <ul class="step-list">
-            ${stepsHtml || '<li style="font-style:italic;color:var(--gray-600);padding:10px;">Không có nội dung bài làm.</li>'}
+            ${stepsBreakdownHtml || '<li style="font-style:italic;color:var(--gray-600);padding:8px;">Không có nhận xét thêm.</li>'}
           </ul>
         `;
         container.appendChild(card);
