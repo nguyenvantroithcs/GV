@@ -1043,10 +1043,10 @@
       <div class="card">
         <div class="card-title">
           <span>📐</span>
-          <span>BÀI LÀM TỰ LUẬN TỪNG CÂU (NHẬN DIỆN CHỮ VIẾT TAY OCR)</span>
+          <span>CHI TIẾT BÀI LÀM TỰ LUẬN & ĐÁNH GIÁ TỪNG CÂU</span>
         </div>
         <div class="card-subtitle">
-          Toàn bộ nội dung em viết trong phần tự luận được hệ thống nhận diện (OCR) và tự động gom nhóm theo từng câu. Các câu/ý viết đúng đạt điểm được <strong>làm nổi bật màu vàng</strong> để em dễ dàng đối chiếu:
+          Dưới đây là chi tiết bài làm tự luận của em theo từng câu. Thầy/Cô đã đánh dấu nổi bật màu vàng các câu/ý em làm đúng đạt điểm để em và phụ huynh dễ dàng theo dõi:
         </div>
 
         <div id="essayQuestionsContainer">
@@ -1589,13 +1589,13 @@
         const steps = q.steps || [];
         const isSkipped = Boolean(q.is_skipped || (steps.length === 0 && qScore === 0));
 
-        // 1. BUILD KHUNG NGUYÊN VĂN BÀI LÀM VIẾT TAY (OCR TRANSCRIPTION)
+        // 1. KHUNG NỘI DUNG BÀI LÀM CỦA HỌC SINH
         let ocrHtml = "";
         if (isSkipped) {
           ocrHtml = `
             <div class="ocr-paper-container" style="border-left-color: #cbd5e1;">
               <div class="ocr-paper-header" style="color:#64748b;">
-                <span>📝 NGUYÊN VĂN BÀI LÀM VIẾT TAY CỦA EM (OCR TEXT):</span>
+                <span>📝 NỘI DUNG BÀI LÀM CỦA EM TRÊN PHIẾU THI:</span>
                 <span style="font-size:12px;color:#ef4444;font-weight:700;">Chưa làm</span>
               </div>
               <div class="ocr-skipped-note">
@@ -1663,17 +1663,17 @@
           ocrHtml = `
             <div class="ocr-paper-container">
               <div class="ocr-paper-header">
-                <span>📝 NGUYÊN VĂN BÀI LÀM VIẾT TAY CỦA EM (VĂN BẢN OCR):</span>
-                <span style="font-size:12px;color:#16a34a;font-weight:700;">Đã nhận diện chữ</span>
+                <span>📝 NỘI DUNG BÀI LÀM CỦA EM TRÊN PHIẾU THI:</span>
+                <span style="font-size:12px;color:#16a34a;font-weight:700;">Đã ghi nhận bài làm</span>
               </div>
               <div class="ocr-paper-body">
-                ${ocrBodyHtml || '<div class="ocr-skipped-note">Chưa nhận diện được nội dung viết tay.</div>'}
+                ${ocrBodyHtml || '<div class="ocr-skipped-note">Chưa có nội dung bài làm cho câu này.</div>'}
               </div>
             </div>
           `;
         }
 
-        // 2. BUILD BẢNG CHI TIẾT CHẤM ĐIỂM & NHẬN XÉT SƯ PHẠM CỦA GIÁO VIÊN
+        // 2. BẢNG CHI TIẾT CHẤM ĐIỂM & NHẬN XÉT SƯ PHẠM CỦA THẦY/CÔ
         let stepsBreakdownHtml = "";
         steps.forEach((st) => {
           const ok = Boolean(st.ok);
@@ -1716,7 +1716,7 @@
                 ${note && note !== text ? `
                   <div class="teacher-note-box">
                     <span>💬</span>
-                    <span><strong>Nhận xét:</strong> ${escapeHtml(note)}</span>
+                    <span><strong>Lời phê của Thầy/Cô:</strong> ${escapeHtml(note)}</span>
                   </div>
                 ` : ""}
               </li>
@@ -1736,7 +1736,7 @@
                 ${note ? `
                   <div class="teacher-note-box">
                     <span>💡</span>
-                    <span><strong>Hướng dẫn sửa:</strong> ${escapeHtml(note)}</span>
+                    <span><strong>Thầy/Cô hướng dẫn sửa:</strong> ${escapeHtml(note)}</span>
                   </div>
                 ` : ""}
               </li>
@@ -1753,13 +1753,13 @@
             <div class="essay-score">${qScoreStr} / ${qMaxStr}đ</div>
           </div>
 
-          <!-- Khung toàn bộ bài làm viết tay OCR của học sinh -->
+          <!-- Khung toàn bộ bài làm viết tay của học sinh -->
           ${ocrHtml}
 
-          <!-- Chi tiết từng ý & Nhận xét của Giáo viên -->
+          <!-- Chi tiết từng ý & Nhận xét của Thầy/Cô -->
           <div class="essay-breakdown-title">
             <span>🔍</span>
-            <span>Chi tiết chấm điểm & Lời phê của Giáo viên:</span>
+            <span>Nhận xét sư phạm & Lời phê của Thầy/Cô:</span>
           </div>
           <ul class="step-list">
             ${stepsBreakdownHtml || '<li style="font-style:italic;color:var(--gray-600);padding:8px;">Không có nhận xét thêm.</li>'}
