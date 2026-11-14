@@ -3372,9 +3372,9 @@
       "student_name": "Nguyễn Thị Hoàng Dung",
       "student_class": "8A7",
       "dob": "14/04/2013",
-      "total_score": 9.75,
+      "total_score": 9.5,
       "max_score": 10.0,
-      "essay_score": 3.0,
+      "essay_score": 2.75,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -3818,55 +3818,46 @@
         {
           "question_no": "Câu 3",
           "max_score": 1.0,
-          "score": 1.0,
+          "score": 0.75,
           "is_skipped": false,
-          "full_student_text": "Tin giả gây ra nhiều lo lắng, hoang mang trong đời sống hàng ngày của người dân.\n1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".\nTừ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".\n2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.\nCách kiểm tra thông tin tin cậy 2: Kiểm tra tính thời sự, đối chiếu với các nguồn khác xem có số liệu và bằng chứng hình ảnh gốc xác thực hay không.",
+          "full_student_text": "Câu 3:\n- 2 từ khoá 'tin', 'giả'\n- 2 cách để kiểm tra:\n+ Đối chiếu thông tin tìm được trong bài viết với thông tin trên các trang web chính phủ uy tín như: gov.vn...\n+ kiểm tra bằng chứng của bài viết khi đưa ra thông tin đó xem xét có phù hợp không hay chỉ là thông tin mang tính cảm xúc thôi",
           "steps": [
             {
-              "page_index": 0,
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "student_text": "- 2 từ khoá 'tin', 'giả'",
+              "note": "Nêu đúng từ khóa 'tin giả' (+0,25đ). Em tách chữ 'tin giả' thành 2 từ đơn nên chưa đủ 2 từ khóa riêng biệt.",
+              "y_norm": 600
+            },
+            {
+              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "is_redundant": true,
-              "kind": "redundant",
-              "student_text": "Tin giả gây ra nhiều lo lắng, hoang mang trong đời sống hàng ngày của người dân.",
-              "note": "Bình luận chung về tâm lý, không phải từ khóa hay phương pháp kiểm tra (0,00đ).",
-              "y_norm": 880
+              "is_missing": true,
+              "kind": "missing",
+              "student_text": null,
+              "note": "Thiếu từ khóa thứ 2 cụ thể (ví dụ: 'tác hại của tin giả', 'cách nhận biết tin giả': 0,00đ).",
+              "y_norm": null
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".",
-              "note": "Xác định từ khóa tìm kiếm chính xác, đúng trọng tâm đề tài.",
-              "y_norm": 900
+              "student_text": "+ Đối chiếu thông tin tìm được trong bài viết với thông tin trên các trang web chính phủ uy tín như: gov.vn...",
+              "note": "Nêu xuất sắc cách 1: Đối chiếu website chính phủ .gov.vn (+0,25đ).",
+              "y_norm": 680
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "Từ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".",
-              "note": "Xác định từ khóa tìm kiếm thứ hai phù hợp logic.",
-              "y_norm": 925
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.",
-              "note": "Nêu đúng phương pháp kiểm tra nguồn thông tin uy tín.",
-              "y_norm": 950
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Cách kiểm tra thông tin tin cậy 2: Kiểm tra tính thời sự, đối chiếu với các nguồn khác xem có số liệu và bằng chứng hình ảnh gốc xác thực hay không.",
-              "note": "Nêu đúng phương pháp kiểm tra chứng cứ và tính thời sự.",
-              "y_norm": 975
+              "student_text": "+ kiểm tra bằng chứng của bài viết khi đưa ra thông tin đó xem xét có phù hợp không hay chỉ là thông tin mang tính cảm xúc thôi",
+              "note": "Nêu xuất sắc cách 2: Kiểm tra bằng chứng và phân biệt cảm xúc cá nhân (+0,25đ).",
+              "y_norm": 740
             }
           ]
         }
@@ -10115,9 +10106,9 @@
       "student_name": "Đoàn Trần Nhã Uyên",
       "student_class": "8A7",
       "dob": "13/04/2013",
-      "total_score": 9.25,
+      "total_score": 8.5,
       "max_score": 10.0,
-      "essay_score": 2.75,
+      "essay_score": 2.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -10561,55 +10552,38 @@
         {
           "question_no": "Câu 3",
           "max_score": 1.0,
-          "score": 1.0,
+          "score": 0.25,
           "is_skipped": false,
-          "full_student_text": "Tin giả gây ra nhiều lo lắng, hoang mang trong đời sống hàng ngày của người dân.\n1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".\nTừ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".\n2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.\nCách kiểm tra thông tin tin cậy 2: Kiểm tra tính thời sự, đối chiếu với các nguồn khác xem có số liệu và bằng chứng hình ảnh gốc xác thực hay không.",
+          "full_student_text": "3.\na. 2 từ khoá phù hợp để tra cứu thông tin:\n-\n-\nb 2 cách để kiểm tra đánh giá bài viết xem có phải thông tin đáng tin cậy không :\n- xem thông tin đây có nguồn gốc, tên tác giả, và xem những bình luận\n- Kiểm tra thông tin mình dùng xem có nguồn gốc xuất xứ từ đâu, có thật sự đáng tin cậy ko.",
           "steps": [
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "is_redundant": true,
-              "kind": "redundant",
-              "student_text": "Tin giả gây ra nhiều lo lắng, hoang mang trong đời sống hàng ngày của người dân.",
-              "note": "Bình luận chung về tâm lý, không phải từ khóa hay phương pháp kiểm tra (0,00đ).",
-              "y_norm": 880
+              "is_missing": true,
+              "kind": "missing",
+              "student_text": null,
+              "note": "Bỏ trống hoàn toàn cả 2 từ khóa tìm kiếm (chỉ ghi dấu gạch ngang '-', không có chữ nào: 0,00đ).",
+              "y_norm": 300
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".",
-              "note": "Xác định từ khóa tìm kiếm chính xác, đúng trọng tâm đề tài.",
-              "y_norm": 900
+              "student_text": "- xem thông tin đây có nguồn gốc, tên tác giả, và xem những bình luận",
+              "note": "Nêu đúng cách 1: Kiểm tra nguồn gốc và tên tác giả bài viết (+0,25đ).",
+              "y_norm": 420
             },
             {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Từ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".",
-              "note": "Xác định từ khóa tìm kiếm thứ hai phù hợp logic.",
-              "y_norm": 925
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.",
-              "note": "Nêu đúng phương pháp kiểm tra nguồn thông tin uy tín.",
-              "y_norm": 950
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Cách kiểm tra thông tin tin cậy 2: Kiểm tra tính thời sự, đối chiếu với các nguồn khác xem có số liệu và bằng chứng hình ảnh gốc xác thực hay không.",
-              "note": "Nêu đúng phương pháp kiểm tra chứng cứ và tính thời sự.",
-              "y_norm": 975
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "kind": "missing",
+              "student_text": "- Kiểm tra thông tin mình dùng xem có nguồn gốc xuất xứ từ đâu, có thật sự đáng tin cậy ko.",
+              "note": "Ý này lặp lại cách 1 (đều là kiểm tra nguồn gốc), chưa nêu được cách thứ 2 theo barem (đối chiếu báo chí/chứng cứ số liệu/tính thời sự: 0,00đ).",
+              "y_norm": 500
             }
           ]
         }
@@ -10625,9 +10599,9 @@
       "student_name": "Đinh Nữ Quỳnh Thy",
       "student_class": "8A7",
       "dob": "25/10/2013",
-      "total_score": 9.25,
+      "total_score": 8.75,
       "max_score": 10.0,
-      "essay_score": 2.75,
+      "essay_score": 2.25,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -11016,110 +10990,93 @@
         {
           "question_no": "Câu 2",
           "max_score": 1.0,
-          "score": 0.75,
+          "score": 0.5,
           "is_skipped": false,
-          "full_student_text": "Phần mềm Microsoft Excel là ứng dụng bảng tính quen thuộc có biểu tượng màu xanh lá gồm rất nhiều hàng và cột giao nhau.\na) Cách nhập địa chỉ tuyệt đối: Ta gõ thêm dấu $\\$$ trước tên cột và trước tên hàng (hoặc sau khi gõ địa chỉ tương đối thì nhấn phím $F4$).\nVí dụ về một địa chỉ tuyệt đối là: $\\$A\\$1$ (hoặc $\\$C\\$4$, ví dụ công thức: $=\\$A\\$1 * B2$).\nb) Sự khác nhau khi sao chép công thức:\n- Địa chỉ tương đối: Sẽ tự động thay đổi tọa độ cột hoặc hàng tương ứng với vị trí đích khi sao chép.\n- Địa chỉ tuyệt đối sẽ tự động nhảy hàng và cột khi copy công thức.",
+          "full_student_text": "Câu 2:\nb) Địa chỉ tuyệt đối khi sao chép hoàn toàn không thay đổi\na) nhập phím F4 chuyển đổi qua lại giữa địa chỉ tương đối",
           "steps": [
             {
-              "page_index": 0,
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "student_text": "a) nhập phím F4 chuyển đổi qua lại giữa địa chỉ tương đối",
+              "note": "Nêu đúng phím F4 để chuyển đổi địa chỉ (+0,25đ).",
+              "y_norm": 880
+            },
+            {
+              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "is_redundant": true,
-              "kind": "redundant",
-              "student_text": "Phần mềm Microsoft Excel là ứng dụng bảng tính quen thuộc có biểu tượng màu xanh lá gồm rất nhiều hàng và cột giao nhau.",
-              "note": "Ý viết thêm miêu tả giao diện Excel, không thuộc nội dung barem câu hỏi (0,00đ).",
-              "y_norm": 720
+              "is_missing": true,
+              "kind": "missing",
+              "student_text": null,
+              "note": "Thiếu cho ví dụ về một địa chỉ tuyệt đối (ví dụ $A$1, $C$2: 0,00đ).",
+              "y_norm": null
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "a) Cách nhập địa chỉ tuyệt đối: Ta gõ thêm dấu $\\$$ trước tên cột và trước tên hàng (hoặc sau khi gõ địa chỉ tương đối thì nhấn phím $F4$).",
-              "note": "Nêu đúng cách nhập dấu $ và phím F4.",
-              "y_norm": 750
+              "student_text": "b) Địa chỉ tuyệt đối khi sao chép hoàn toàn không thay đổi",
+              "note": "Giải thích đúng tính cố định của địa chỉ tuyệt đối (+0,25đ).",
+              "y_norm": 820
             },
             {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Ví dụ về một địa chỉ tuyệt đối là: $\\$A\\$1$ (hoặc $\\$C\\$4$, ví dụ công thức: $=\\$A\\$1 * B2$).",
-              "note": "Nêu đúng định dạng địa chỉ tuyệt đối $<cột>$<hàng>.",
-              "y_norm": 795
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "b) Sự khác nhau khi sao chép công thức:\n- Địa chỉ tương đối: Sẽ tự động thay đổi tọa độ cột hoặc hàng tương ứng với vị trí đích khi sao chép.",
-              "note": "Giải thích chính xác tính tự động thay đổi của địa chỉ tương đối.",
-              "y_norm": 840
-            },
-            {
-              "page_index": 0,
+              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "kind": "wrong",
-              "student_text": "- Địa chỉ tuyệt đối sẽ tự động nhảy hàng và cột khi copy công thức.",
-              "note": "Sai: Địa chỉ tuyệt đối luôn được giữ cố định nguyên vẹn.",
-              "y_norm": 885
+              "is_missing": true,
+              "kind": "missing",
+              "student_text": null,
+              "note": "Thiếu giải thích địa chỉ tương đối tự động thay đổi tọa độ khi sao chép (0,00đ).",
+              "y_norm": null
             }
           ]
         },
         {
           "question_no": "Câu 3",
           "max_score": 1.0,
-          "score": 1.0,
+          "score": 0.75,
           "is_skipped": false,
-          "full_student_text": "Em sẽ dùng máy tính tại phòng máy của trường hoặc điện thoại có kết nối wifi để bắt đầu tra cứu.\n1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".\nTừ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".\n2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.\nCách kiểm tra thông tin tin cậy 2: Kiểm tra tính thời sự, đối chiếu với các nguồn khác xem có số liệu và bằng chứng hình ảnh gốc xác thực hay không.",
+          "full_student_text": "Câu 3: Hai Từ khoá là\n+' \"Tin giả trên mạng xã hội để lại những tác hại gì ?\"\n+' \"Những tác hại của tin giả trên mạng xã hội là gì ?\"\n- 2 bước kiểm tra:\n+, xem đó có phải là web chính thức của nhà nước hay không\n+, xem rõ nguồn gốc xuất xứ thông tin có phải ở từ Bộ Công Thương hoặc tập đoàn Điện Lực Việt Nam không",
           "steps": [
             {
-              "page_index": 0,
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "student_text": "+' \"Tin giả trên mạng xã hội để lại những tác hại gì ?\"",
+              "note": "Nêu đúng từ khóa 1 về tác hại của tin giả (+0,25đ).",
+              "y_norm": 320
+            },
+            {
+              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "is_redundant": true,
-              "kind": "redundant",
-              "student_text": "Em sẽ dùng máy tính tại phòng máy của trường hoặc điện thoại có kết nối wifi để bắt đầu tra cứu.",
-              "note": "Mô tả thao tác chuẩn bị thiết bị, không thuộc barem câu hỏi (0,00đ).",
-              "y_norm": 880
+              "is_missing": true,
+              "kind": "missing",
+              "student_text": "+' \"Những tác hại của tin giả trên mạng xã hội là gì ?\"",
+              "note": "Từ khóa thứ 2 bị trùng lặp hoàn toàn ý với từ khóa 1 (chỉ đảo thứ tự câu chữ: 0,00đ).",
+              "y_norm": 360
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".",
-              "note": "Xác định từ khóa tìm kiếm chính xác, đúng trọng tâm đề tài.",
-              "y_norm": 900
+              "student_text": "+, xem đó có phải là web chính thức của nhà nước hay không",
+              "note": "Nêu đúng cách 1: Kiểm tra website chính thức của nhà nước (+0,25đ).",
+              "y_norm": 440
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "Từ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".",
-              "note": "Xác định từ khóa tìm kiếm thứ hai phù hợp logic.",
-              "y_norm": 925
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.",
-              "note": "Nêu đúng phương pháp kiểm tra nguồn thông tin uy tín.",
-              "y_norm": 950
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Cách kiểm tra thông tin tin cậy 2: Kiểm tra tính thời sự, đối chiếu với các nguồn khác xem có số liệu và bằng chứng hình ảnh gốc xác thực hay không.",
-              "note": "Nêu đúng phương pháp kiểm tra chứng cứ và tính thời sự.",
-              "y_norm": 975
+              "student_text": "+, xem rõ nguồn gốc xuất xứ thông tin có phải ở từ Bộ Công Thương hoặc tập đoàn Điện Lực Việt Nam không",
+              "note": "Nêu đúng cách 2: Xác minh cơ quan phát ngôn uy tín (+0,25đ).",
+              "y_norm": 500
             }
           ]
         }
@@ -11135,9 +11092,9 @@
       "student_name": "Nguyễn Phạm Gia Linh",
       "student_class": "8A7",
       "dob": "27/11/2013",
-      "total_score": 8.5,
+      "total_score": 8.25,
       "max_score": 10.0,
-      "essay_score": 2.5,
+      "essay_score": 2.25,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -11582,55 +11539,45 @@
         {
           "question_no": "Câu 3",
           "max_score": 1.0,
-          "score": 1.0,
+          "score": 0.75,
           "is_skipped": false,
-          "full_student_text": "Tin giả gây ra nhiều lo lắng, hoang mang trong đời sống hàng ngày của người dân.\n1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".\nTừ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".\n2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.\nCách kiểm tra thông tin tin cậy 2: Kiểm tra tính thời sự, đối chiếu với các nguồn khác xem có số liệu và bằng chứng hình ảnh gốc xác thực hay không.",
+          "full_student_text": "Câu 3: * 2 từ khoá phù hợp để tra cứu thông tin là:\n+ tác giả của thông tin sai lệch tên là gì?\n+ thông tin giả, sai sự thật là gì?\n* 2 cách xác định thông tin chính xác như:\n- hỏi thầy cô, bạn bè để xác minh\n- kiếm bằng chứng của thông tin đang tìm kiếm.",
           "steps": [
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "is_redundant": true,
-              "kind": "redundant",
-              "student_text": "Tin giả gây ra nhiều lo lắng, hoang mang trong đời sống hàng ngày của người dân.",
-              "note": "Bình luận chung về tâm lý, không phải từ khóa hay phương pháp kiểm tra (0,00đ).",
-              "y_norm": 880
+              "kind": "wrong",
+              "student_text": "+ tác giả của thông tin sai lệch tên là gì?",
+              "note": "Từ khóa chưa đúng trọng tâm bài thuyết trình 'Tác hại của tin giả' (0,00đ).",
+              "y_norm": 320
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".",
-              "note": "Xác định từ khóa tìm kiếm chính xác, đúng trọng tâm đề tài.",
-              "y_norm": 900
+              "student_text": "+ thông tin giả, sai sự thật là gì?",
+              "note": "Nêu đúng từ khóa tìm hiểu về khái niệm tin giả (+0,25đ).",
+              "y_norm": 360
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "Từ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".",
-              "note": "Xác định từ khóa tìm kiếm thứ hai phù hợp logic.",
-              "y_norm": 925
+              "student_text": "- hỏi thầy cô, bạn bè để xác minh",
+              "note": "Nêu đúng cách 1: Tham khảo ý kiến người lớn/thầy cô có chuyên môn (+0,25đ).",
+              "y_norm": 440
             },
             {
-              "page_index": 0,
+              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.",
-              "note": "Nêu đúng phương pháp kiểm tra nguồn thông tin uy tín.",
-              "y_norm": 950
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Cách kiểm tra thông tin tin cậy 2: Kiểm tra tính thời sự, đối chiếu với các nguồn khác xem có số liệu và bằng chứng hình ảnh gốc xác thực hay không.",
-              "note": "Nêu đúng phương pháp kiểm tra chứng cứ và tính thời sự.",
-              "y_norm": 975
+              "student_text": "- kiếm bằng chứng của thông tin đang tìm kiếm.",
+              "note": "Nêu đúng cách 2: Kiểm tra chứng cứ xác thực của thông tin (+0,25đ).",
+              "y_norm": 480
             }
           ]
         }
@@ -12632,9 +12579,9 @@
       "student_name": "Lưu Hoàng Bách",
       "student_class": "8A7",
       "dob": "27/10/2013",
-      "total_score": 8.25,
+      "total_score": 8.0,
       "max_score": 10.0,
-      "essay_score": 1.75,
+      "essay_score": 1.5,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -13042,55 +12989,37 @@
         {
           "question_no": "Câu 3",
           "max_score": 1.0,
-          "score": 0.75,
+          "score": 0.5,
           "is_skipped": false,
-          "full_student_text": "Em sẽ dùng máy tính tại phòng máy của trường hoặc điện thoại có kết nối wifi để bắt đầu tra cứu.\n1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".\nTừ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".\n2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.\nCách kiểm tra: Thấy bạn bè chia sẻ tin thì tin tưởng đó là bài viết chuẩn.",
+          "full_student_text": "Câu 3: Để tìm từ khoá trên mạng xã hội xác định thông tin ta cần là:\n- Tìm những từ khoá, trang wed đáng tin cậy trên mạng xã hội\n- Khi kiểm tra thông tin trên mạng ta cần lưu ý:\n+ tìm kiếm những thông tin được đưa ra đi kèm với chứng minh số liệu đã rõ ràng hay chưa\n+ không nên tin vào những thông tin dưới dạng ý kiến, quan điểm cá nhân.",
           "steps": [
             {
               "page_index": 0,
               "label": "0,00đ",
               "ok": false,
-              "is_redundant": true,
-              "kind": "redundant",
-              "student_text": "Em sẽ dùng máy tính tại phòng máy của trường hoặc điện thoại có kết nối wifi để bắt đầu tra cứu.",
-              "note": "Mô tả thao tác chuẩn bị thiết bị, không thuộc barem câu hỏi (0,00đ).",
-              "y_norm": 880
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "1. Từ khóa tìm kiếm 1: \"Tác hại của tin giả trên mạng xã hội\".",
-              "note": "Xác định từ khóa tìm kiếm chính xác, đúng trọng tâm đề tài.",
-              "y_norm": 900
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Từ khóa tìm kiếm 2: \"Cách nhận biết và phòng tránh tin giả\".",
-              "note": "Xác định từ khóa tìm kiếm thứ hai phù hợp logic.",
-              "y_norm": 925
-            },
-            {
-              "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "2. Cách kiểm tra thông tin tin cậy 1: Kiểm tra nguồn tin từ các trang báo chính thống, đài truyền hình hoặc website có đuôi .gov.vn của cơ quan nhà nước.",
-              "note": "Nêu đúng phương pháp kiểm tra nguồn thông tin uy tín.",
+              "is_missing": true,
+              "kind": "missing",
+              "student_text": "- Tìm những từ khoá, trang wed đáng tin cậy trên mạng xã hội",
+              "note": "Không nêu cụ thể từ khóa tìm kiếm nào theo yêu cầu đề bài (chỉ mô tả thao tác chung: 0,00đ).",
               "y_norm": 950
             },
             {
-              "page_index": 0,
-              "label": "0,00đ",
-              "ok": false,
-              "kind": "wrong",
-              "student_text": "Cách kiểm tra: Thấy bạn bè chia sẻ tin thì tin tưởng đó là bài viết chuẩn.",
-              "note": "Sai: Không được tin theo tin đồn truyền miệng hoặc chia sẻ cá nhân chưa kiểm chứng.",
-              "y_norm": 975
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "student_text": "+ tìm kiếm những thông tin được đưa ra đi kèm với chứng minh số liệu đã rõ ràng hay chưa",
+              "note": "Nêu đúng cách 1: Kiểm tra chứng cứ và số liệu rõ ràng (+0,25đ).",
+              "y_norm": 320
+            },
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "student_text": "+ không nên tin vào những thông tin dưới dạng ý kiến, quan điểm cá nhân.",
+              "note": "Nêu đúng cách 2: Phân biệt sự kiện và ý kiến quan điểm cá nhân (+0,25đ).",
+              "y_norm": 380
             }
           ]
         }
