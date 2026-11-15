@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T22:12:07.680198",
+  "updated_at": "2026-11-15T08:31:00.924316",
   "active_academic_year": "2026 - 2027",
   "academic_years": [
     {
@@ -16,6 +16,7 @@
           "grade": 8,
           "classes": [
             "8A7",
+            "8A8",
             "8A9"
           ],
           "data_file": "data/results/2026_2027_GK1_Tin8.json"
