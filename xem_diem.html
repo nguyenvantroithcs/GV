@@ -1619,50 +1619,54 @@
                 question_no: "Câu 15",
                 max_score: 0.5,
                 score: 0.5,
-                prompt: "Tính giá trị của biểu thức $A = x^3 - 3x^2y + 3xy^2 - y^3 - 8$ tại $x - y = -1$.",
-                raw_student_text: "-19",
-                student_answer: "-19",
-                official_key: "-19",
-                teacher_note: "Chính xác tuyệt đối. Học sinh nhận diện đúng hằng đẳng thức $(x - y)^3 - 8$ và tính toán chuẩn xác.",
-                model_solution: "Ta có: $A = (x - y)^3 - 8$\nThay $x - y = -1$ vào biểu thức, ta được:\n$A = (-1)^3 - 8 = -1 - 8$ (hoặc đề quy ước $-19$)\nĐáp số: **-19**"
+                prompt: "Đơn thức $-19x^3y^2$ có phần hệ số là bao nhiêu?",
+                raw_student_text: "câu 15: hệ số là: -19",
+                student_answer: "câu 15: hệ số là: -19",
+                student_text: "câu 15: hệ số là: -19",
+                official_key: "$-19$",
+                teacher_note: "Chính xác tuyệt đối (+0,50đ). Học sinh xác định đúng phần hệ số là $-19$ (đủ dấu âm).",
+                model_solution: "Đơn thức $-19x^3y^2$ có phần hệ số là **$-19$** và phần biến là $x^3y^2$."
               },
               {
                 question_no: "Câu 16",
                 max_score: 0.5,
                 score: 0.5,
-                prompt: "Thu gọn đơn thức $B = 2x^2y \\cdot \\frac{7}{2}y^2$. Xác định hệ số và phần biến.",
-                raw_student_text: "7x^2y^3",
-                student_answer: "$7x^2y^3$",
+                prompt: "Tìm tổng của hai đơn thức $2x^2y^3$ và $5x^2y^3$.",
+                raw_student_text: "câu 16: $7x^2y^3$",
+                student_answer: "câu 16: $7x^2y^3$",
+                student_text: "câu 16: $7x^2y^3$",
                 official_key: "$7x^2y^3$",
-                teacher_note: "Chính xác tuyệt đối (+0,50đ). Học sinh thu gọn đúng hệ số là $7$ và phần biến là $x^2y^3$.",
-                model_solution: "$B = \\left(2 \\cdot \\frac{7}{2}\\right) \\cdot x^2 \\cdot (y \\cdot y^2) = 7x^2y^3$\n- Hệ số: **7**\n- Phần biến: **$x^2y^3$**\nĐáp số: **$7x^2y^3$**"
+                teacher_note: "Chính xác tuyệt đối (+0,50đ). Học sinh cộng đúng hai đơn thức đồng dạng: $(2 + 5)x^2y^3 = 7x^2y^3$.",
+                model_solution: "$$2x^2y^3 + 5x^2y^3 = (2 + 5)x^2y^3 = 7x^2y^3$$\nĐáp số: **$7x^2y^3$**"
               },
               {
                 question_no: "Câu 17",
                 max_score: 0.5,
                 score: 0.5,
-                prompt: "Tính nhanh giá trị biểu thức lũy thừa / nhân đa thức.",
-                raw_student_text: "27",
-                student_answer: "27",
+                prompt: "Để biểu thức $x^3 + 9x^2 + 27x + m$ là lập phương của một tổng thì $m$ nhận giá trị bằng bao nhiêu?",
+                raw_student_text: "câu 17: 27",
+                student_answer: "câu 17: 27",
+                student_text: "câu 17: 27",
                 official_key: "27",
-                teacher_note: "Chính xác tuyệt đối (+0,50đ). Kết quả rút gọn hoàn toàn chuẩn xác.",
-                model_solution: "Thực hiện phép tính rút gọn thu được kết quả: **27**"
+                teacher_note: "Chính xác tuyệt đối (+0,50đ). Học sinh nhận diện đúng hằng đẳng thức $(x + 3)^3$ với $m = 3^3 = 27$.",
+                model_solution: "Biểu thức có dạng lập phương của một tổng $(x + 3)^3 = x^3 + 9x^2 + 27x + 27$.\nDo đó: **$m = 27$**."
               },
               {
                 question_no: "Câu 18",
                 max_score: 0.5,
                 score: 0.5,
-                prompt: "Cho hình vẽ tam giác $ABC$ cân tại $A$ có $\\widehat{A} = 80^\\circ$. Tính số đo góc ngoài tại đỉnh $A$ (hoặc góc liên quan).",
-                raw_student_text: "100",
-                student_answer: "$100^\\circ$",
-                official_key: "$100$ hoặc $100^\\circ$",
-                teacher_note: "Chính xác tuyệt đối (+0,50đ). Tính đúng số đo góc $100^\\circ$.",
-                model_solution: "Góc ngoài tại đỉnh $A$ kề bù với $\\widehat{A}$ nên có số đo là $180^\\circ - 80^\\circ = 100^\\circ$.\nĐáp số: **$100^\\circ$**"
+                prompt: "Tứ giác $ABCD$ có $\\widehat{C} = 60^\\circ, \\widehat{D} = 50^\\circ, \\widehat{A} = 150^\\circ$. Tính số đo của $\\widehat{B}$ (đơn vị: độ).",
+                raw_student_text: "câu 18: $\\widehat{B} = 100^\\circ$",
+                student_answer: "câu 18: $\\widehat{B} = 100^\\circ$",
+                student_text: "câu 18: $\\widehat{B} = 100^\\circ$",
+                official_key: "$100^\\circ$ (hoặc $100$)",
+                teacher_note: "Chính xác tuyệt đối (+0,50đ). Học sinh nhớ đúng định lý tổng các góc trong tứ giác và tính đúng $\\widehat{B} = 100^\\circ$.",
+                model_solution: "Tổng các góc trong tứ giác bằng $360^\\circ$:\n$$\\widehat{B} = 360^\\circ - (\\widehat{A} + \\widehat{C} + \\widehat{D}) = 360^\\circ - (150^\\circ + 60^\\circ + 50^\\circ) = 100^\\circ$$\nĐáp số: **$100^\\circ$**"
               }
             ],
             wrong_note: "Phần I sai C8 (tô D, đáp án đúng B); Phần II & III đúng tuyệt đối 100%."
           },
-          summary_comment: "Bài làm rất tốt phần trắc nghiệm (6,75/7,0đ), trả lời ngắn tính toán chính xác tuyệt đối và nắm vững kiến thức hình học cơ bản (Bài 2 đạt 0,75đ). Khen ngợi em đã ghi đúng các ký hiệu toán học ($M \\neq B, N \\neq C, \\widehat{AMN} = \\widehat{ABC}$). Cần lưu ý: tránh dùng từ khẩu ngữ trong bài hình ('rút ra' $\\rightarrow$ dùng 'Suy ra' hoặc $\\Rightarrow$), lập luận chặt chẽ không nhảy cóc (chứng minh hình thang trước rồi mới kết luận hình thang cân), và nhớ hoàn thành Bài 1 phân tích đa thức thành nhân tử.",
+          summary_comment: "Bài làm rất tốt phần trắc nghiệm (6,75/7,0đ), trả lời ngắn tính toán chính xác 100% và nắm vững kiến thức hình học cơ bản (Bài 2 đạt 0,75đ). Khen ngợi em đã ghi đúng các ký hiệu toán học ($M \\neq B, N \\neq C, \\widehat{AMN} = \\widehat{ABC}, \\widehat{B} = \\widehat{C}$). Cần lưu ý: tránh dùng từ khẩu ngữ trong bài hình ('rút ra' $\\rightarrow$ dùng 'Suy ra' hoặc $\\Rightarrow$), lập luận chặt chẽ không nhảy cóc (chứng minh hình thang trước rồi mới kết luận hình thang cân), và nhớ hoàn thành Bài 1 phân tích đa thức thành nhân tử.",
           questions: [
             {
               question_no: "Bài 1",
@@ -1697,8 +1701,8 @@
               page_index: 1,
               box_2d: [70, 60, 580, 970],
               page_boxes: [],
-              raw_student_text: "GT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; Điểm $N \\in AC\\ (N \\neq C)$; sao cho $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) $BMNC$ là hình...; c)\n\na) Xét $\\Delta ABC$ ta có:\n$\\widehat{AMN} = \\widehat{ABC}\\ (\\text{gt})$\nrút ra $MN // BC$ vì 2 góc ở trên đồng vị\n\nb) Xét $\\Delta ABC$ có:\n$MN // BC$\n$\\widehat{B} = \\widehat{C}\\ (\\Delta ABC)$\nsuy ra tứ giác $BMNC$ là hình thang cân",
-              full_student_text: "GT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; Điểm $N \\in AC\\ (N \\neq C)$; sao cho $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) $BMNC$ là hình...; c)\n\na) Xét $\\Delta ABC$ ta có: $\\widehat{AMN} = \\widehat{ABC}\\ (\\text{gt}) \\rightarrow$ rút ra $MN // BC$ vì 2 góc ở trên đồng vị\nb) Xét $\\Delta ABC$ có: $MN // BC$; $\\widehat{B} = \\widehat{C}\\ (\\Delta ABC) \\rightarrow$ suy ra tứ giác $BMNC$ là hình thang cân",
+              raw_student_text: "GT: ABC cân tại A, M thuộc cạnh AB\n(M ≠ B); Điểm N thuộc cạnh AC (N ≠ C)\nsao cho $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$\nb) BMNC là hình...\nc)\n\na) xét $\\Delta ABC$ ta có\n$\\widehat{AMN} = \\widehat{ABC}\\ (\\text{gt})$\nrút ra $MN // BC$ vì 2 góc ở trên đồng vị\n\nb) xét $\\Delta ABC$, có:\n$MN // BC$\n$\\widehat{B} = \\widehat{C}\\ (\\Delta ABC)$\nsuy ra tứ giác $BMNC$ là hình thang cân",
+              full_student_text: "GT: ABC cân tại A, M thuộc cạnh AB; (M ≠ B); Điểm N thuộc cạnh AC (N ≠ C); sao cho $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) BMNC là hình...; c)\n\na) xét $\\Delta ABC$ ta có: $\\widehat{AMN} = \\widehat{ABC}\\ (\\text{gt}) \\rightarrow$ rút ra $MN // BC$ vì 2 góc ở trên đồng vị\nb) xét $\\Delta ABC$, có: $MN // BC$; $\\widehat{B} = \\widehat{C}\\ (\\Delta ABC) \\rightarrow$ suy ra tứ giác $BMNC$ là hình thang cân",
               model_solution: "**Bài 2 (1,5 điểm): Lời giải mẫu sư phạm chuẩn mực**\n\n**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$:**\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao?:**\n- Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh ở câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\n- Mặt khác, tam giác $ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$.\n- Hình thang $BMNC$ có hai góc kề đáy $BC$ bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\n**c) Tính các góc của tứ giác $BMNC$:**\n- Vì $BMNC$ là hình thang cân nên: $\\widehat{C} = \\widehat{B} = 50^\\circ$ và $\\widehat{BMN} = \\widehat{CNM}$.\n- Do $MN // BC$ nên hai góc $\\widehat{BMN}$ và $\\widehat{B}$ ở vị trí trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra: $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\n- Vậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
               steps: [
                 {
@@ -1706,8 +1710,8 @@
                   label: "+0,25đ",
                   ok: true,
                   kind: "correct",
-                  student_text: "Hình vẽ tam giác ABC và bảng GT, KL (ghi rõ $M \\neq B, N \\neq C, \\widehat{AMN} = \\widehat{ABC}$)",
-                  note: "Hình vẽ tam giác ABC cân và cát tuyến MN trực quan; bảng GT ghi đúng các ký hiệu toán học ($M \\neq B, N \\neq C, \\widehat{AMN} = \\widehat{ABC}$). Phần KL nhớ ghi rõ các câu hỏi b, c.",
+                  student_text: "Hình vẽ tam giác ABC cân và bảng GT, KL: ghi đúng $(M \\neq B)$, $(N \\neq C)$ và $\\widehat{AMN} = \\widehat{ABC}$",
+                  note: "Hình vẽ tam giác cân và cát tuyến $MN$ đạt yêu cầu; bảng Giả thiết ghi đầy đủ và đúng ký hiệu ($M \\neq B, N \\neq C, \\widehat{AMN} = \\widehat{ABC}$). Nhắc nhở sư phạm: Phần Kết luận nhớ ghi đầy đủ nội dung câu hỏi b và c (không nên viết lửng 'là hình...').",
                   y_norm: 120
                 },
                 {
@@ -1715,8 +1719,8 @@
                   label: "+0,25đ",
                   ok: true,
                   kind: "correct",
-                  student_text: "a) xét tam giác ABC ta có: AMN = ABC (gt) rút ra MN // BC vì 2 góc ở trên đồng vị",
-                  note: "Chứng minh đúng quan hệ song song qua 2 góc đồng vị bằng nhau. Sửa lỗi diễn đạt: không dùng từ khẩu ngữ 'rút ra' (dùng 'Suy ra' hoặc $\\Rightarrow$); không cần ghi 'xét tam giác ABC'.",
+                  student_text: "a) xét $\\Delta ABC$ ta có: $\\widehat{AMN} = \\widehat{ABC}\\ (\\text{gt}) \\rightarrow$ rút ra $MN // BC$ vì 2 góc ở trên đồng vị",
+                  note: "Chứng minh đúng $MN // BC$ nhờ hai góc đồng vị bằng nhau ($\\widehat{AMN} = \\widehat{ABC}$). Nhắc nhở sư phạm: Tránh dùng từ khẩu ngữ 'rút ra' (thay bằng 'Suy ra' hoặc $\\Rightarrow$); không cần ghi 'xét $\\Delta ABC$' vì đây là quan hệ giữa hai đường thẳng cắt bởi cát tuyến $AB$.",
                   y_norm: 350
                 },
                 {
@@ -1724,8 +1728,8 @@
                   label: "+0,25đ",
                   ok: true,
                   kind: "correct",
-                  student_text: "b) xét tam giác ABC có: MN // BC; B = C (tam giác ABC) suy ra tứ giác BMNC là hình thang cân",
-                  note: "Nắm vững 2 điều kiện cốt lõi ($MN // BC$ và $\\widehat{B} = \\widehat{C}$) để suy ra hình thang cân. Sửa lỗi lập luận nhảy cóc: cần kết luận BMNC là hình thang trước, rồi mới kết luận hình thang cân; giải thích rõ căn cứ '(vì $\\Delta ABC$ cân tại $A$)'.",
+                  student_text: "b) xét $\\Delta ABC$, có: $MN // BC$; $\\widehat{B} = \\widehat{C}\\ (\\Delta ABC) \\rightarrow$ suy ra tứ giác $BMNC$ là hình thang cân",
+                  note: "Nắm vững 2 điều kiện cốt lõi ($MN // BC$ và $\\widehat{B} = \\widehat{C}$) để suy ra hình thang cân. Nhắc nhở sư phạm: Cần lập luận chặt chẽ hai bước — kết luận $BMNC$ là hình thang trước (vì $MN // BC$), sau đó mới kết hợp $\\widehat{B} = \\widehat{C}$ để suy ra hình thang cân (giải thích rõ căn cứ 'vì $\\Delta ABC$ cân tại $A$').",
                   y_norm: 450
                 },
                 {
@@ -1735,7 +1739,7 @@
                   is_missing: true,
                   kind: "missing",
                   student_text: null,
-                  note: "Thiếu câu 2c: Tính số đo các góc của tứ giác BMNC khi $\\widehat{B} = 50^\\circ$.",
+                  note: "Thiếu câu 2c: Chưa tính số đo các góc của tứ giác $BMNC$ khi $\\widehat{B} = 50^\\circ$.",
                   y_norm: null
                 }
               ]
@@ -2211,7 +2215,8 @@
           statusBadge = `<span class="essay-badge-status partial">⚡ +${qScoreStr}đ (Một phần)</span>`;
         }
 
-        const studentAns = q.student_answer || q.raw_student_text || "";
+        const qLabel = q.question_no || q.q_no || `Câu ${idx + 15}`;
+        const studentAns = q.raw_student_text || q.student_answer || q.student_text || "";
         const studentAnsDisplay = studentAns ? escapeHtml(studentAns) : "<em>(Bỏ trống / Chưa điền)</em>";
 
         let promptHtml = "";
@@ -2219,11 +2224,12 @@
           promptHtml = `<div class="sa-prompt">📌 <strong>Đề bài:</strong> ${escapeHtml(q.prompt)}</div>`;
         }
 
+        const teacherNote = q.teacher_note || q.note || "";
         let noteHtml = "";
-        if (q.teacher_note) {
+        if (teacherNote) {
           noteHtml = `
             <div class="sa-note-box">
-              💬 <strong>Nhận xét giáo viên & sửa lỗi:</strong> ${escapeHtml(q.teacher_note)}
+              💬 <strong>Nhận xét giáo viên & sửa lỗi:</strong> ${escapeHtml(teacherNote)}
             </div>
           `;
         }
@@ -2243,7 +2249,7 @@
           <div class="sa-header">
             <div class="sa-title">
               <span>✏️</span>
-              <span>${escapeHtml(q.question_no || `Câu ${idx + 15}`)}</span>
+              <span>${escapeHtml(qLabel)}</span>
             </div>
             ${statusBadge}
           </div>
@@ -2386,13 +2392,21 @@
           let items = "";
           correctSteps.forEach(st => {
             const lbl = st.label || "+0,25đ";
-            const note = st.note || st.student_text || "Đạt chuẩn yêu cầu đáp án.";
             const loc = typeof st.page_index === "number" ? `<span class="eval-page-badge">Trang ${st.page_index + 1}</span>` : "";
+            let bodyContent = "";
+            if (st.student_text) {
+              bodyContent += `<div style="font-weight:600;color:var(--gray-700);margin-bottom:3px;">📝 <em>${escapeHtml(st.student_text)}</em></div>`;
+            }
+            if (st.note) {
+              bodyContent += `<div class="eval-note">${escapeHtml(st.note)}</div>`;
+            } else if (!st.student_text) {
+              bodyContent += `<div class="eval-note">Đạt chuẩn yêu cầu đáp án.</div>`;
+            }
             items += `
               <li class="eval-item eval-correct">
                 <span class="eval-score-pill pill-green">${escapeHtml(lbl)}</span>
                 <div class="eval-item-body">
-                  <span class="eval-note">${escapeHtml(note)}</span>
+                  ${bodyContent}
                   ${loc}
                 </div>
               </li>
@@ -2429,12 +2443,16 @@
             const tag = isMissing ? "Thiếu ý" : (isRedundant ? "Viết thừa / Chép lại đề" : "Chưa chính xác");
             const note = st.note || "Chưa đạt yêu cầu theo barem đáp án.";
             const loc = typeof st.page_index === "number" ? `<span class="eval-page-badge">Trang ${st.page_index + 1}</span>` : "";
+            let bodyContent = "";
+            if (st.student_text) {
+              bodyContent += `<div style="font-weight:600;color:var(--gray-700);margin-bottom:3px;">📝 <em>${escapeHtml(st.student_text)}</em></div>`;
+            }
+            bodyContent += `<div class="eval-note"><span class="eval-tag">${escapeHtml(tag)}:</span> ${escapeHtml(note)}</div>`;
             items += `
               <li class="eval-item eval-issue">
                 <span class="eval-score-pill pill-red">${escapeHtml(lbl)}</span>
                 <div class="eval-item-body">
-                  <span class="eval-tag">${escapeHtml(tag)}:</span>
-                  <span class="eval-note">${escapeHtml(note)}</span>
+                  ${bodyContent}
                   ${loc}
                 </div>
               </li>
