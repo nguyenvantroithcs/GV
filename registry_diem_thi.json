@@ -1,11 +1,24 @@
 {
-  "updated_at": "2026-11-15T11:07:16.642457",
+  "updated_at": "2026-11-15T20:20:00",
   "active_academic_year": "2026 - 2027",
   "academic_years": [
     {
       "year_id": "2026_2027",
       "year_label": "2026 - 2027",
       "exams": [
+        {
+          "exam_id": "2026_2027_GK1_Toan8",
+          "exam_title": "Kiểm Tra Giữa Kỳ I - Môn Toán 8",
+          "term": "GK1",
+          "term_label": "Giữa Kỳ I",
+          "subject_id": "Toan8",
+          "subject_name": "Toán 8",
+          "grade": 8,
+          "classes": [
+            "8A10"
+          ],
+          "data_file": "data/results/2026_2027_GK1_Toan8.json"
+        },
         {
           "exam_id": "2026_2027_GK1_Tin8",
           "exam_title": "Kiểm Tra Giữa Kỳ I - Tin học 8",
@@ -21,19 +34,6 @@
             "8A9"
           ],
           "data_file": "data/results/2026_2027_GK1_Tin8.json"
-        },
-        {
-          "exam_id": "2026_2027_GK1_Toan8",
-          "exam_title": "Kiểm Tra Giữa Kỳ I - Môn Toán 8",
-          "term": "GK1",
-          "term_label": "Giữa Kỳ I",
-          "subject_id": "Toan8",
-          "subject_name": "Toán 8",
-          "grade": 8,
-          "classes": [
-            "8A10"
-          ],
-          "data_file": "data/results/2026_2027_GK1_Toan8.json"
         }
       ]
     }
