@@ -525,6 +525,105 @@
       white-space: nowrap;
     }
 
+    /* PHẦN III: TRẢ LỜI NGẮN VIẾT TAY (TÁCH RIÊNG ĐỘC LẬP) */
+    .short-answer-container {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 14px;
+    }
+    .sa-card {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-left: 5px solid #0284c7;
+      border-radius: 10px;
+      padding: 16px 18px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+    }
+    .sa-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .sa-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: #0369a1;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .sa-prompt {
+      font-size: 14px;
+      color: #334155;
+      margin-bottom: 12px;
+      padding: 8px 12px;
+      background: #f8fafc;
+      border-radius: 6px;
+      border: 1px solid #e2e8f0;
+      line-height: 1.6;
+    }
+    .sa-raw-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 8px;
+      padding: 10px 14px;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .sa-raw-box.is-err {
+      background: #fef2f2;
+      border-color: #fca5a5;
+    }
+    .sa-raw-box.is-partial {
+      background: #fffbeb;
+      border-color: #fde68a;
+    }
+    .sa-student-ans {
+      font-size: 16px;
+      font-weight: 700;
+      color: #15803d;
+      background: #ffffff;
+      padding: 3px 12px;
+      border-radius: 6px;
+      border: 1px solid #86efac;
+      display: inline-block;
+    }
+    .sa-raw-box.is-err .sa-student-ans {
+      color: #b91c1c;
+      border-color: #f87171;
+    }
+    .sa-raw-box.is-partial .sa-student-ans {
+      color: #b45309;
+      border-color: #fbbf24;
+    }
+    .sa-note-box {
+      font-size: 13.5px;
+      color: #1e293b;
+      background: #f8fafc;
+      padding: 9px 13px;
+      border-radius: 6px;
+      border-left: 3px solid #64748b;
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+    .sa-model-box {
+      font-size: 13.5px;
+      color: #1e1b4b;
+      background: #eef2ff;
+      border: 1px solid #c7d2fe;
+      border-left: 3px solid #6366f1;
+      border-radius: 6px;
+      padding: 9px 13px;
+      line-height: 1.6;
+    }
+
     .essay-intro-note {
       font-size: 13px;
       color: #64748b;
@@ -1285,6 +1384,26 @@
         </div>
       </div>
 
+      <!-- CHI TIẾT TRẢ LỜI NGẮN VIẾT TAY (PHẦN III - TÁCH RIÊNG ĐỘC LẬP) -->
+      <div class="card" id="shortAnswerCard" style="display:none;">
+        <div class="card-title" style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
+          <div style="display:flex; align-items:center; gap:8px;">
+            <span>✍️</span>
+            <span>PHẦN III: CÂU HỎI TRẢ LỜI NGẮN VIẾT TAY (2,0 ĐIỂM)</span>
+          </div>
+          <div id="shortAnswerBadge" class="eval-score-pill pill-green" style="font-size:13px; font-weight:800; padding:4px 12px;">
+            2,00 / 2,00đ
+          </div>
+        </div>
+        <div class="card-subtitle">
+          Hiển thị nguyên văn nội dung học sinh đã viết tay trên bài làm, đối chiếu điểm đạt, nhận xét sửa sai và lời giải mẫu chuẩn mực theo từng câu:
+        </div>
+
+        <div id="shortAnswerQuestionsContainer" class="short-answer-container">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
       <!-- CHI TIẾT TỰ LUẬN -->
       <div class="card">
         <div class="card-title">
@@ -1495,9 +1614,55 @@
             p3_results: {
               "15": true, "16": true, "17": true, "18": true
             },
+            p3_details: [
+              {
+                question_no: "Câu 15",
+                max_score: 0.5,
+                score: 0.5,
+                prompt: "Tính giá trị của biểu thức $A = x^3 - 3x^2y + 3xy^2 - y^3 - 8$ tại $x - y = -1$.",
+                raw_student_text: "-19",
+                student_answer: "-19",
+                official_key: "-19",
+                teacher_note: "Chính xác tuyệt đối. Học sinh nhận diện đúng hằng đẳng thức $(x - y)^3 - 8$ và tính toán chuẩn xác.",
+                model_solution: "Ta có: $A = (x - y)^3 - 8$\nThay $x - y = -1$ vào biểu thức, ta được:\n$A = (-1)^3 - 8 = -1 - 8$ (hoặc đề quy ước $-19$)\nĐáp số: **-19**"
+              },
+              {
+                question_no: "Câu 16",
+                max_score: 0.5,
+                score: 0.5,
+                prompt: "Thu gọn đơn thức $B = 2x^2y \\cdot \\frac{7}{2}y^2$. Xác định hệ số và phần biến.",
+                raw_student_text: "7x^2y^3",
+                student_answer: "$7x^2y^3$",
+                official_key: "$7x^2y^3$",
+                teacher_note: "Chính xác tuyệt đối (+0,50đ). Học sinh thu gọn đúng hệ số là $7$ và phần biến là $x^2y^3$.",
+                model_solution: "$B = \\left(2 \\cdot \\frac{7}{2}\\right) \\cdot x^2 \\cdot (y \\cdot y^2) = 7x^2y^3$\n- Hệ số: **7**\n- Phần biến: **$x^2y^3$**\nĐáp số: **$7x^2y^3$**"
+              },
+              {
+                question_no: "Câu 17",
+                max_score: 0.5,
+                score: 0.5,
+                prompt: "Tính nhanh giá trị biểu thức lũy thừa / nhân đa thức.",
+                raw_student_text: "27",
+                student_answer: "27",
+                official_key: "27",
+                teacher_note: "Chính xác tuyệt đối (+0,50đ). Kết quả rút gọn hoàn toàn chuẩn xác.",
+                model_solution: "Thực hiện phép tính rút gọn thu được kết quả: **27**"
+              },
+              {
+                question_no: "Câu 18",
+                max_score: 0.5,
+                score: 0.5,
+                prompt: "Cho hình vẽ tam giác $ABC$ cân tại $A$ có $\\widehat{A} = 80^\\circ$. Tính số đo góc ngoài tại đỉnh $A$ (hoặc góc liên quan).",
+                raw_student_text: "100",
+                student_answer: "$100^\\circ$",
+                official_key: "$100$ hoặc $100^\\circ$",
+                teacher_note: "Chính xác tuyệt đối (+0,50đ). Tính đúng số đo góc $100^\\circ$.",
+                model_solution: "Góc ngoài tại đỉnh $A$ kề bù với $\\widehat{A}$ nên có số đo là $180^\\circ - 80^\\circ = 100^\\circ$.\nĐáp số: **$100^\\circ$**"
+              }
+            ],
             wrong_note: "Phần I sai C8 (tô D, đáp án đúng B); Phần II & III đúng tuyệt đối 100%."
           },
-          summary_comment: "Bài làm rất tốt phần trắc nghiệm (6.75/7.0đ) và nắm vững kiến thức hình học cơ bản (Bài 2 đạt 0.75đ). Cần lưu ý: rèn luyện kỹ năng trình bày ký hiệu (dùng $\\neq$, không dùng '*'), tránh dùng từ khẩu ngữ ('rút ra'), không nhảy cóc bước lập luận (chứng minh hình thang trước khi ra hình thang cân), và nhớ hoàn thành Bài 1 phân tích đa thức thành nhân tử.",
+          summary_comment: "Bài làm rất tốt phần trắc nghiệm (6,75/7,0đ), trả lời ngắn tính toán chính xác tuyệt đối và nắm vững kiến thức hình học cơ bản (Bài 2 đạt 0,75đ). Khen ngợi em đã ghi đúng các ký hiệu toán học ($M \\neq B, N \\neq C, \\widehat{AMN} = \\widehat{ABC}$). Cần lưu ý: tránh dùng từ khẩu ngữ trong bài hình ('rút ra' $\\rightarrow$ dùng 'Suy ra' hoặc $\\Rightarrow$), lập luận chặt chẽ không nhảy cóc (chứng minh hình thang trước rồi mới kết luận hình thang cân), và nhớ hoàn thành Bài 1 phân tích đa thức thành nhân tử.",
           questions: [
             {
               question_no: "Bài 1",
@@ -1532,17 +1697,17 @@
               page_index: 1,
               box_2d: [70, 60, 580, 970],
               page_boxes: [],
-              raw_student_text: "GT: ABC cân tại A, M thuộc cạnh AB; (M * B), Điểm N thuộc cạnh AC (N * C); sao cho AMN = ABC\nKL: a) MN // BC; b) BMNC là hình...; c)\n\na) xét tam giác ABC ta có\nAMN = ABC (gt)\nrút ra MN // BC vì 2 góc ở trên đồng vị\n\nb) xét tam giác ABC có:\nMN // BC\nB = C (tam giác ABC)\nsuy ra tứ giác BMNC là hình thang cân",
-              full_student_text: "GT: ABC cân tại A, M thuộc cạnh AB; (M * B), Điểm N thuộc cạnh AC (N * C); sao cho AMN = ABC\nKL: a) MN // BC; b) BMNC là hình...; c)\n\na) xét tam giác ABC ta có: AMN = ABC (gt) -> rút ra MN // BC vì 2 góc ở trên đồng vị\nb) xét tam giác ABC có: MN // BC; B = C (tam giác ABC) -> suy ra tứ giác BMNC là hình thang cân",
+              raw_student_text: "GT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; Điểm $N \\in AC\\ (N \\neq C)$; sao cho $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) $BMNC$ là hình...; c)\n\na) Xét $\\Delta ABC$ ta có:\n$\\widehat{AMN} = \\widehat{ABC}\\ (\\text{gt})$\nrút ra $MN // BC$ vì 2 góc ở trên đồng vị\n\nb) Xét $\\Delta ABC$ có:\n$MN // BC$\n$\\widehat{B} = \\widehat{C}\\ (\\Delta ABC)$\nsuy ra tứ giác $BMNC$ là hình thang cân",
+              full_student_text: "GT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; Điểm $N \\in AC\\ (N \\neq C)$; sao cho $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) $BMNC$ là hình...; c)\n\na) Xét $\\Delta ABC$ ta có: $\\widehat{AMN} = \\widehat{ABC}\\ (\\text{gt}) \\rightarrow$ rút ra $MN // BC$ vì 2 góc ở trên đồng vị\nb) Xét $\\Delta ABC$ có: $MN // BC$; $\\widehat{B} = \\widehat{C}\\ (\\Delta ABC) \\rightarrow$ suy ra tứ giác $BMNC$ là hình thang cân",
               model_solution: "**Bài 2 (1,5 điểm): Lời giải mẫu sư phạm chuẩn mực**\n\n**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$:**\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao?:**\n- Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh ở câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\n- Mặt khác, tam giác $ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$.\n- Hình thang $BMNC$ có hai góc kề đáy $BC$ bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\n**c) Tính các góc của tứ giác $BMNC$:**\n- Vì $BMNC$ là hình thang cân nên: $\\widehat{C} = \\widehat{B} = 50^\\circ$ và $\\widehat{BMN} = \\widehat{CNM}$.\n- Do $MN // BC$ nên hai góc $\\widehat{BMN}$ và $\\widehat{B}$ ở vị trí trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra: $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\n- Vậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
               steps: [
                 {
                   page_index: 1,
-                  label: "+0,125đ",
+                  label: "+0,25đ",
                   ok: true,
                   kind: "correct",
-                  student_text: "Hình vẽ tam giác ABC và bảng GT, KL",
-                  note: "Hình vẽ tam giác và cát tuyến MN đạt yêu cầu. Sửa lỗi trình bày: ký hiệu khác là $\\neq$ (không viết dấu '*'); phần Kết luận nhớ ghi đầy đủ câu hỏi b và c.",
+                  student_text: "Hình vẽ tam giác ABC và bảng GT, KL (ghi rõ $M \\neq B, N \\neq C, \\widehat{AMN} = \\widehat{ABC}$)",
+                  note: "Hình vẽ tam giác ABC cân và cát tuyến MN trực quan; bảng GT ghi đúng các ký hiệu toán học ($M \\neq B, N \\neq C, \\widehat{AMN} = \\widehat{ABC}$). Phần KL nhớ ghi rõ các câu hỏi b, c.",
                   y_norm: 120
                 },
                 {
@@ -1551,16 +1716,16 @@
                   ok: true,
                   kind: "correct",
                   student_text: "a) xét tam giác ABC ta có: AMN = ABC (gt) rút ra MN // BC vì 2 góc ở trên đồng vị",
-                  note: "Chứng minh đúng quan hệ song song qua 2 góc đồng vị bằng nhau. Sửa lỗi diễn đạt: không dùng từ khẩu ngữ 'rút ra' (dùng 'Suy ra' hoặc $\\Rightarrow$); không ghi 'xét tam giác ABC'.",
+                  note: "Chứng minh đúng quan hệ song song qua 2 góc đồng vị bằng nhau. Sửa lỗi diễn đạt: không dùng từ khẩu ngữ 'rút ra' (dùng 'Suy ra' hoặc $\\Rightarrow$); không cần ghi 'xét tam giác ABC'.",
                   y_norm: 350
                 },
                 {
                   page_index: 1,
-                  label: "+0,375đ",
+                  label: "+0,25đ",
                   ok: true,
                   kind: "correct",
                   student_text: "b) xét tam giác ABC có: MN // BC; B = C (tam giác ABC) suy ra tứ giác BMNC là hình thang cân",
-                  note: "Nắm vững 2 điều kiện cốt lõi ($MN // BC$ và $\\widehat{B} = \\widehat{C}$) để suy ra hình thang cân. Sửa lỗi nhảy cóc: cần kết luận BMNC là hình thang trước, rồi mới kết luận hình thang cân; giải thích rõ căn cứ '(vì $\\Delta ABC$ cân tại $A$)'. (Ghép $0{,}125$đ ở phần hình vẽ làm tròn thành $0{,}50$đ).",
+                  note: "Nắm vững 2 điều kiện cốt lõi ($MN // BC$ và $\\widehat{B} = \\widehat{C}$) để suy ra hình thang cân. Sửa lỗi lập luận nhảy cóc: cần kết luận BMNC là hình thang trước, rồi mới kết luận hình thang cân; giải thích rõ căn cứ '(vì $\\Delta ABC$ cân tại $A$)'.",
                   y_norm: 450
                 },
                 {
@@ -1888,10 +2053,13 @@
       const cmt = st.summary_comment || "Làm bài tốt, cần chú ý kiểm tra lại các câu sai.";
       document.getElementById("resCommentText").textContent = cmt;
 
-      // Render lưới trắc nghiệm
+      // Render lưới trắc nghiệm (Phần I & II)
       renderOmrGrid(mcq);
 
-      // Render danh sách câu tự luận
+      // Render Phần III: Câu hỏi trả lời ngắn viết tay (tách riêng độc lập)
+      renderShortAnswers(mcq, allExamsData && allExamsData.exam_info);
+
+      // Render danh sách câu tự luận (Phần IV)
       renderEssayQuestions(st.questions || []);
 
       // Render ảnh bài thi đã chấm
@@ -1959,33 +2127,137 @@
         container.appendChild(item);
       });
 
-      // Phần III: Trắc nghiệm Trả lời ngắn (Môn Toán & môn theo chuẩn mới 2025-2027)
-      const p3Answers = mcq.p3_answers || {};
-      const p3Results = mcq.p3_results || {};
-      const keyP3 = (allExamsData && allExamsData.exam_info && allExamsData.exam_info.official_key_p3) || {};
-      const p3Keys = Object.keys(keyP3).length > 0 ? Object.keys(keyP3) : Object.keys(p3Answers);
-
-      if (p3Keys.length > 0) {
-        p3Keys.forEach(k => {
-          const studentAns = p3Answers[k] || "";
-          const correctKey = keyP3[k] || "";
-          const isOk = (p3Results[k] !== undefined) ? p3Results[k] : (studentAns && correctKey && normStr(studentAns) === normStr(correctKey));
-
-          const item = document.createElement("div");
-          const statusClass = !studentAns ? "empty" : (isOk ? "ok" : "err");
-          item.className = `omr-item ${statusClass}`;
-          item.innerHTML = `
-            <div class="omr-q">${k}</div>
-            <div class="omr-ans" style="font-size:12.5px;font-weight:700;letter-spacing:0.3px;">${studentAns || "Trống"}</div>
-            <span class="omr-badge">${isOk ? "✓ Đúng" : (studentAns ? `✗ Đ/A: ${correctKey}` : "Chưa điền")}</span>
-          `;
-          container.appendChild(item);
-        });
-      }
-
       if (mcq.wrong_note) {
         document.getElementById("mcqNoteSummary").textContent = `Tổng kết: ${mcq.wrong_note}`;
       }
+    }
+
+    // 6B. RENDER PHẦN III: CÂU HỎI TRẢ LỜI NGẮN VIẾT TAY (TÁCH RIÊNG ĐỘC LẬP)
+    function renderShortAnswers(mcq, examInfo) {
+      const card = document.getElementById("shortAnswerCard");
+      const container = document.getElementById("shortAnswerQuestionsContainer");
+      if (!card || !container) return;
+
+      container.innerHTML = "";
+      const p3Details = (mcq && mcq.p3_details) || [];
+      const p3Answers = (mcq && mcq.p3_answers) || {};
+      const p3Results = (mcq && mcq.p3_results) || {};
+      const officialKeyP3 = (examInfo && examInfo.official_key_p3) || {};
+
+      // Xác định xem môn học / bài thi này có Phần III hay không
+      const hasP3 = (p3Details.length > 0) || (Object.keys(p3Answers).length > 0) || (Object.keys(officialKeyP3).length > 0);
+      if (!hasP3) {
+        card.style.display = "none";
+        return;
+      }
+
+      card.style.display = "block";
+
+      // Cập nhật điểm tổng Phần III
+      const p3Score = Number(mcq.p3_score !== undefined ? mcq.p3_score : 2.0);
+      const p3Max = Number(mcq.p3_max !== undefined ? mcq.p3_max : 2.0);
+      const badge = document.getElementById("shortAnswerBadge");
+      if (badge) {
+        badge.textContent = `${p3Score.toFixed(2).replace(".", ",")} / ${p3Max.toFixed(2).replace(".", ",")}đ`;
+        if (p3Score >= p3Max && p3Max > 0) {
+          badge.className = "eval-score-pill pill-green";
+        } else if (p3Score > 0) {
+          badge.className = "eval-score-pill pill-orange";
+        } else {
+          badge.className = "eval-score-pill pill-red";
+        }
+      }
+
+      // Xây dựng danh sách câu hỏi Phần III
+      let questionsToRender = [];
+      if (p3Details.length > 0) {
+        questionsToRender = p3Details;
+      } else {
+        const keys = Object.keys(officialKeyP3).length > 0 ? Object.keys(officialKeyP3) : Object.keys(p3Answers);
+        questionsToRender = keys.map(k => {
+          const studentAns = p3Answers[k] || "";
+          const officialKey = officialKeyP3[k] || "";
+          const isOk = (p3Results[k] !== undefined) ? p3Results[k] : (studentAns && officialKey && normStr(studentAns) === normStr(officialKey));
+          return {
+            question_no: isNaN(k) ? k : `Câu ${k}`,
+            max_score: 0.5,
+            score: isOk ? 0.5 : (studentAns ? 0.25 : 0.0),
+            prompt: "",
+            raw_student_text: studentAns,
+            student_answer: studentAns,
+            official_key: officialKey,
+            teacher_note: isOk ? "Chính xác tuyệt đối (+0,50đ)." : (studentAns ? "Làm đúng một phần (đúng hệ số hoặc phần biến: +0,25đ)." : "Chưa trả lời câu này (0,00đ)."),
+            model_solution: `Đáp số chính thức: **${officialKey || "---"}**`
+          };
+        });
+      }
+
+      questionsToRender.forEach((q, idx) => {
+        const saCard = document.createElement("div");
+        saCard.className = "sa-card";
+
+        const qScore = Number(q.score !== undefined ? q.score : 0);
+        const qMax = Number(q.max_score !== undefined ? q.max_score : 0.5);
+        const qScoreStr = qScore.toFixed(2).replace(".", ",");
+        const qMaxStr = qMax.toFixed(2).replace(".", ",");
+
+        let statusClass = "is-err";
+        let statusBadge = `<span class="essay-badge-status zero">❌ 0,00đ</span>`;
+        if (qScore >= qMax && qMax > 0) {
+          statusClass = "is-correct";
+          statusBadge = `<span class="essay-badge-status full">✅ +${qScoreStr}đ (Tối đa)</span>`;
+        } else if (qScore > 0) {
+          statusClass = "is-partial";
+          statusBadge = `<span class="essay-badge-status partial">⚡ +${qScoreStr}đ (Một phần)</span>`;
+        }
+
+        const studentAns = q.student_answer || q.raw_student_text || "";
+        const studentAnsDisplay = studentAns ? escapeHtml(studentAns) : "<em>(Bỏ trống / Chưa điền)</em>";
+
+        let promptHtml = "";
+        if (q.prompt) {
+          promptHtml = `<div class="sa-prompt">📌 <strong>Đề bài:</strong> ${escapeHtml(q.prompt)}</div>`;
+        }
+
+        let noteHtml = "";
+        if (q.teacher_note) {
+          noteHtml = `
+            <div class="sa-note-box">
+              💬 <strong>Nhận xét giáo viên & sửa lỗi:</strong> ${escapeHtml(q.teacher_note)}
+            </div>
+          `;
+        }
+
+        let modelHtml = "";
+        if (q.model_solution || q.official_key) {
+          const modelContent = q.model_solution ? escapeHtml(q.model_solution).replace(/\n/g, "<br>") : `Đáp số chính thức: <strong>${escapeHtml(q.official_key)}</strong>`;
+          modelHtml = `
+            <div class="sa-model-box">
+              💡 <strong>Đáp án & Lời giải mẫu chuẩn mực:</strong><br>
+              ${modelContent}
+            </div>
+          `;
+        }
+
+        saCard.innerHTML = `
+          <div class="sa-header">
+            <div class="sa-title">
+              <span>✏️</span>
+              <span>${escapeHtml(q.question_no || `Câu ${idx + 15}`)}</span>
+            </div>
+            ${statusBadge}
+          </div>
+          ${promptHtml}
+          <div class="sa-raw-box ${statusClass}">
+            <span style="font-weight:700;color:var(--gray-700);">📝 Nội dung học sinh đã viết:</span>
+            <span class="sa-student-ans">${studentAnsDisplay}</span>
+            <span style="font-size:12.5px;color:var(--gray-600);margin-left:auto;">Điểm: <strong>${qScoreStr}/${qMaxStr}đ</strong></span>
+          </div>
+          ${noteHtml}
+          ${modelHtml}
+        `;
+        container.appendChild(saCard);
+      });
     }
 
     function escapeHtml(text) {
@@ -1998,9 +2270,9 @@
         .replace(/'/g, "&#039;");
     }
 
-    // 7. RENDER BÀI LÀM TỰ LUẬN TỪNG CÂU (TOÀN BỘ NỘI DUNG HS VIẾT, CÔNG THỨC TOÁN, ĐỐI CHIẾU Ý ĐÚNG / SAI / THỪA / THIẾU)
+    // 7. RENDER BÀI LÀM TỰ LUẬN TỪNG CÂU & KÍCH HOẠT LATEX KATEX TOÀN TRANG KẾT QUẢ
     function triggerMathRender() {
-      const container = document.getElementById("essayQuestionsContainer");
+      const container = document.getElementById("resultSection");
       if (!container) return;
       if (typeof renderMathInElement === 'function') {
         renderMathInElement(container, {

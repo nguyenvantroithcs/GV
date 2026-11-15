@@ -126,9 +126,59 @@
           "17": true,
           "18": true
         },
+        "p3_details": [
+          {
+            "q_no": "Câu 15",
+            "prompt": "Đơn thức $-19x^3y^2$ có phần hệ số là bao nhiêu?",
+            "max_score": 0.5,
+            "score": 0.5,
+            "student_text": "$-19$",
+            "official_key": "$-19$",
+            "ok": true,
+            "kind": "correct",
+            "note": "Xác định chính xác phần hệ số là $-19$ (đủ dấu âm).",
+            "model_solution": "Đơn thức $-19x^3y^2$ có phần hệ số là $-19$ và phần biến là $x^3y^2$."
+          },
+          {
+            "q_no": "Câu 16",
+            "prompt": "Tìm tổng của hai đơn thức $2x^2y^3$ và $5x^2y^3$.",
+            "max_score": 0.5,
+            "score": 0.5,
+            "student_text": "$7x^2y^3$",
+            "official_key": "$7x^2y^3$",
+            "ok": true,
+            "kind": "correct",
+            "note": "Cộng đúng hai đơn thức đồng dạng: $(2 + 5)x^2y^3 = 7x^2y^3$.",
+            "model_solution": "$2x^2y^3 + 5x^2y^3 = (2 + 5)x^2y^3 = 7x^2y^3$."
+          },
+          {
+            "q_no": "Câu 17",
+            "prompt": "Tính giá trị của đa thức $P = x^3 - 3x^2y + 3xy^2 - y^3$ tại $x = 13, y = 10$.",
+            "max_score": 0.5,
+            "score": 0.5,
+            "student_text": "$27$",
+            "official_key": "$27$",
+            "ok": true,
+            "kind": "correct",
+            "note": "Thu gọn hằng đẳng thức $P = (x - y)^3 = (13 - 10)^3 = 3^3 = 27$.",
+            "model_solution": "$P = x^3 - 3x^2y + 3xy^2 - y^3 = (x - y)^3$. Thay $x = 13, y = 10 \\Rightarrow P = (13 - 10)^3 = 3^3 = 27$."
+          },
+          {
+            "q_no": "Câu 18",
+            "prompt": "Cho tứ giác $ABCD$ có $\\widehat{A} = 70^\\circ, \\widehat{B} = 80^\\circ, \\widehat{C} = 110^\\circ$. Tính số đo góc $\\widehat{D}$.",
+            "max_score": 0.5,
+            "score": 0.5,
+            "student_text": "$100^\\circ$",
+            "official_key": "$100^\\circ$",
+            "ok": true,
+            "kind": "correct",
+            "note": "Tính đúng số đo góc $\\widehat{D} = 360^\\circ - (70^\\circ + 80^\\circ + 110^\\circ) = 100^\\circ$.",
+            "model_solution": "Tổng các góc trong tứ giác bằng $360^\\circ \\Rightarrow \\widehat{D} = 360^\\circ - (\\widehat{A} + \\widehat{B} + \\widehat{C}) = 360^\\circ - (70^\\circ + 80^\\circ + 110^\\circ) = 100^\\circ$."
+          }
+        ],
         "wrong_note": "Phần I sai C8 (tô D, đáp án đúng B); Phần II & III đúng tuyệt đối 100%."
       },
-      "summary_comment": "Bài làm rất tốt phần trắc nghiệm (6.75/7.0đ) và nắm vững kiến thức hình học cơ bản (Bài 2 đạt 0.75đ). Cần lưu ý: rèn luyện kỹ năng trình bày ký hiệu (dùng $\\neq$, không dùng '*'), tránh dùng từ khẩu ngữ ('rút ra'), không nhảy cóc bước lập luận (chứng minh hình thang trước khi ra hình thang cân), và nhớ hoàn thành Bài 1 phân tích đa thức thành nhân tử.",
+      "summary_comment": "Bài làm rất tốt phần trắc nghiệm (6.75/7.0đ) và tự luận hình học (Bài 2 đạt 0.75đ): vẽ hình rõ ràng, ghi đầy đủ giả thiết kết luận với ký hiệu góc $\\widehat{AMN} = \\widehat{ABC}$, điều kiện $M \\neq B, N \\neq C$ và chứng minh đúng hai câu a, b. Cần lưu ý: tránh dùng từ khẩu ngữ ('rút ra'), lập luận chặt chẽ hai bước (chứng minh hình thang trước khi kết luận hình thang cân), và nhớ hoàn thành Bài 1 phân tích đa thức thành nhân tử.",
       "questions": [
         {
           "question_no": "Bài 1",
@@ -168,17 +218,17 @@
             970
           ],
           "page_boxes": [],
-          "raw_student_text": "GT: ABC cân tại A, M thuộc cạnh AB; (M * B), Điểm N thuộc cạnh AC (N * C); sao cho AMN = ABC\nKL: a) MN // BC; b) BMNC là hình...; c)\n\na) xét tam giác ABC ta có\nAMN = ABC (gt)\nrút ra MN // BC vì 2 góc ở trên đồng vị\n\nb) xét tam giác ABC có:\nMN // BC\nB = C (tam giác ABC)\nsuy ra tứ giác BMNC là hình thang cân",
-          "full_student_text": "GT: ABC cân tại A, M thuộc cạnh AB; (M * B), Điểm N thuộc cạnh AC (N * C); sao cho AMN = ABC\nKL: a) MN // BC; b) BMNC là hình...; c)\n\na) xét tam giác ABC ta có: AMN = ABC (gt) -> rút ra MN // BC vì 2 góc ở trên đồng vị\nb) xét tam giác ABC có: MN // BC; B = C (tam giác ABC) -> suy ra tứ giác BMNC là hình thang cân",
+          "raw_student_text": "GT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; Điểm $N \\in AC\\ (N \\neq C)$; sao cho $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) $BMNC$ là hình...; c)\n\na) Xét $\\Delta ABC$ ta có:\n$\\widehat{AMN} = \\widehat{ABC}\\ (\\text{gt})$\nrút ra $MN // BC$ vì 2 góc ở trên đồng vị\n\nb) Xét $\\Delta ABC$ có:\n$MN // BC$\n$\\widehat{B} = \\widehat{C}\\ (\\Delta ABC)$\nsuy ra tứ giác $BMNC$ là hình thang cân",
+          "full_student_text": "GT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; Điểm $N \\in AC\\ (N \\neq C)$; sao cho $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) $BMNC$ là hình...; c)\n\na) Xét $\\Delta ABC$ ta có: $\\widehat{AMN} = \\widehat{ABC}\\ (\\text{gt}) \\Rightarrow$ rút ra $MN // BC$ vì 2 góc ở trên đồng vị\nb) Xét $\\Delta ABC$ có: $MN // BC$; $\\widehat{B} = \\widehat{C}\\ (\\Delta ABC) \\Rightarrow$ suy ra tứ giác $BMNC$ là hình thang cân",
           "model_solution": "**Bài 2 (1,5 điểm): Lời giải mẫu sư phạm chuẩn mực**\n\n**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$:**\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao?:**\n- Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh ở câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\n- Mặt khác, tam giác $ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$.\n- Hình thang $BMNC$ có hai góc kề đáy $BC$ bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\n**c) Tính các góc của tứ giác $BMNC$:**\n- Vì $BMNC$ là hình thang cân nên: $\\widehat{C} = \\widehat{B} = 50^\\circ$ và $\\widehat{BMN} = \\widehat{CNM}$.\n- Do $MN // BC$ nên hai góc $\\widehat{BMN}$ và $\\widehat{B}$ ở vị trí trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra: $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\n- Vậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
               "page_index": 1,
-              "label": "+0,125đ",
+              "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "Hình vẽ tam giác ABC và bảng GT, KL",
-              "note": "Hình vẽ tam giác và cát tuyến MN đạt yêu cầu. Sửa lỗi trình bày: ký hiệu khác là $\\neq$ (không viết dấu '*'); phần Kết luận nhớ ghi đầy đủ câu hỏi b và c.",
+              "student_text": "Hình vẽ $\\Delta ABC$ cân tại $A$, cát tuyến $MN$ và bảng GT, KL (ghi rõ $M \\neq B, N \\neq C, \\widehat{AMN} = \\widehat{ABC}$)",
+              "note": "Hình vẽ tam giác cân và cát tuyến $MN$ đạt yêu cầu; bảng Giả thiết ghi đầy đủ và đúng ký hiệu ($M \\neq B$, $N \\neq C$, góc $\\widehat{AMN} = \\widehat{ABC}$). Nhắc nhở sư phạm: Phần Kết luận nhớ ghi đầy đủ nội dung câu hỏi b và c (không nên viết lửng 'là hình...').",
               "y_norm": 120
             },
             {
@@ -186,17 +236,17 @@
               "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "a) xét tam giác ABC ta có: AMN = ABC (gt) rút ra MN // BC vì 2 góc ở trên đồng vị",
-              "note": "Chứng minh đúng quan hệ song song qua 2 góc đồng vị bằng nhau. Sửa lỗi diễn đạt: không dùng từ khẩu ngữ 'rút ra' (dùng 'Suy ra' hoặc $\\Rightarrow$); không ghi 'xét tam giác ABC'.",
+              "student_text": "a) Xét $\\Delta ABC$ ta có: $\\widehat{AMN} = \\widehat{ABC}\\ (\\text{gt})$ rút ra $MN // BC$ vì 2 góc ở trên đồng vị",
+              "note": "Chứng minh đúng $MN // BC$ nhờ hai góc đồng vị bằng nhau ($\\widehat{AMN} = \\widehat{ABC}$). Nhắc nhở sư phạm: Tránh dùng từ khẩu ngữ 'rút ra' (thay bằng 'Suy ra' hoặc $\\Rightarrow$); không cần ghi 'Xét $\\Delta ABC$' vì đây là quan hệ giữa hai đường thẳng và cát tuyến $AB$.",
               "y_norm": 350
             },
             {
               "page_index": 1,
-              "label": "+0,375đ",
+              "label": "+0,25đ",
               "ok": true,
               "kind": "correct",
-              "student_text": "b) xét tam giác ABC có: MN // BC; B = C (tam giác ABC) suy ra tứ giác BMNC là hình thang cân",
-              "note": "Nắm vững 2 điều kiện cốt lõi ($MN // BC$ và $\\widehat{B} = \\widehat{C}$) để suy ra hình thang cân. Sửa lỗi nhảy cóc: cần kết luận BMNC là hình thang trước, rồi mới kết luận hình thang cân; giải thích rõ căn cứ '(vì $\\Delta ABC$ cân tại $A$)'. (Ghép $0{,}125$đ ở phần hình vẽ làm tròn thành $0{,}50$đ).",
+              "student_text": "b) Xét $\\Delta ABC$ có: $MN // BC$; $\\widehat{B} = \\widehat{C}\\ (\\Delta ABC)$ suy ra tứ giác $BMNC$ là hình thang cân",
+              "note": "Nắm vững 2 điều kiện cốt lõi ($MN // BC$ và $\\widehat{B} = \\widehat{C}$) để suy ra hình thang cân. Nhắc nhở sư phạm: Cần lập luận chặt chẽ hai bước — kết luận $BMNC$ là hình thang trước (vì $MN // BC$), sau đó mới kết hợp $\\widehat{B} = \\widehat{C}$ để suy ra hình thang cân (giải thích rõ căn cứ 'vì $\\Delta ABC$ cân tại $A$').",
               "y_norm": 450
             },
             {
@@ -206,7 +256,7 @@
               "is_missing": true,
               "kind": "missing",
               "student_text": null,
-              "note": "Thiếu câu 2c: Tính số đo các góc của tứ giác BMNC khi $\\widehat{B} = 50^\\circ$.",
+              "note": "Thiếu câu 2c: Chưa tính số đo các góc của tứ giác $BMNC$ khi $\\widehat{B} = 50^\\circ$.",
               "y_norm": null
             }
           ]
