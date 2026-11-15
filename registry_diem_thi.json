@@ -21,6 +21,19 @@
             "8A9"
           ],
           "data_file": "data/results/2026_2027_GK1_Tin8.json"
+        },
+        {
+          "exam_id": "2026_2027_GK1_Toan8",
+          "exam_title": "Kiểm Tra Giữa Kỳ I - Môn Toán 8",
+          "term": "GK1",
+          "term_label": "Giữa Kỳ I",
+          "subject_id": "Toan8",
+          "subject_name": "Toán 8",
+          "grade": 8,
+          "classes": [
+            "8A10"
+          ],
+          "data_file": "data/results/2026_2027_GK1_Toan8.json"
         }
       ]
     }

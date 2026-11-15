@@ -1,0 +1,217 @@
+{
+  "exam_info": {
+    "exam_id": "2026_2027_GK1_Toan8",
+    "exam_title": "Kiểm Tra Giữa Kỳ I - Môn Toán 8",
+    "subject": "Toán 8",
+    "academic_year": "2026 - 2027",
+    "term": "GK1",
+    "target_class": "8A10",
+    "max_score": 10.0,
+    "mcq_max": 7.0,
+    "essay_max": 3.0,
+    "official_key_p1": {
+      "C1": "C",
+      "C2": "D",
+      "C3": "B",
+      "C4": "B",
+      "C5": "A",
+      "C6": "D",
+      "C7": "A",
+      "C8": "B",
+      "C9": "D",
+      "C10": "C",
+      "C11": "B",
+      "C12": "D"
+    },
+    "official_key_p2": {
+      "13a": "Đ",
+      "13b": "S",
+      "13c": "Đ",
+      "13d": "Đ",
+      "14a": "Đ",
+      "14b": "Đ",
+      "14c": "S",
+      "14d": "S"
+    },
+    "official_key_p3": {
+      "15": "-19",
+      "16": "7x^2y^3",
+      "17": "27",
+      "18": "100"
+    }
+  },
+  "students": [
+    {
+      "submission_id": "hs_20261115_191343_001",
+      "student_name": "Trần Như Ngọc",
+      "student_class": "8A10",
+      "subject": "Toán",
+      "stt": 27,
+      "hs_id": "2406785239",
+      "dob": "10/10/2012",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.5,
+      "essay_score": 0.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 280,
+        "p1_score": 2.75,
+        "p2_score": 2.0,
+        "p3_score": 2.0,
+        "total_score": 6.75,
+        "max_score": 7.0,
+        "p1_answers": {
+          "C1": "C",
+          "C2": "D",
+          "C3": "B",
+          "C4": "B",
+          "C5": "A",
+          "C6": "D",
+          "C7": "A",
+          "C8": "D",
+          "C9": "D",
+          "C10": "C",
+          "C11": "B",
+          "C12": "D"
+        },
+        "p1_results": {
+          "C1": true,
+          "C2": true,
+          "C3": true,
+          "C4": true,
+          "C5": true,
+          "C6": true,
+          "C7": true,
+          "C8": false,
+          "C9": true,
+          "C10": true,
+          "C11": true,
+          "C12": true
+        },
+        "p2_answers": {
+          "13a": "Đ",
+          "13b": "S",
+          "13c": "Đ",
+          "13d": "Đ",
+          "14a": "Đ",
+          "14b": "Đ",
+          "14c": "S",
+          "14d": "S"
+        },
+        "p2_results": {
+          "13a": true,
+          "13b": true,
+          "13c": true,
+          "13d": true,
+          "14a": true,
+          "14b": true,
+          "14c": true,
+          "14d": true
+        },
+        "p3_answers": {
+          "15": "-19",
+          "16": "7x^2y^3",
+          "17": "27",
+          "18": "100"
+        },
+        "p3_results": {
+          "15": true,
+          "16": true,
+          "17": true,
+          "18": true
+        },
+        "wrong_note": "Phần I sai C8 (tô D, đáp án đúng B); Phần II & III đúng tuyệt đối 100%."
+      },
+      "summary_comment": "Bài làm rất tốt phần trắc nghiệm (6.75/7.0đ) và nắm vững kiến thức hình học cơ bản (Bài 2 đạt 0.75đ). Cần lưu ý: rèn luyện kỹ năng trình bày ký hiệu (dùng $\\neq$, không dùng '*'), tránh dùng từ khẩu ngữ ('rút ra'), không nhảy cóc bước lập luận (chứng minh hình thang trước khi ra hình thang cân), và nhớ hoàn thành Bài 1 phân tích đa thức thành nhân tử.",
+      "questions": [
+        {
+          "question_no": "Bài 1",
+          "max_score": 1.5,
+          "score": 0.0,
+          "is_skipped": true,
+          "left_y_norm": 690,
+          "box_2d": null,
+          "page_index": 0,
+          "page_boxes": [],
+          "raw_student_text": "Bài 1:",
+          "full_student_text": "Bài 1:\n(Học sinh bỏ trống toàn bộ phần bài làm Bài 1)",
+          "model_solution": "**Bài 1 (1,5 điểm): Phân tích các đa thức sau thành nhân tử**\n\na) $x^2 - 6x = x(x - 6)$\n\nb) $x^2 - 6x + 9 - y^2 = (x^2 - 6x + 9) - y^2 = (x - 3)^2 - y^2 = (x - 3 - y)(x - 3 + y)$\n\nc) $x^3 - 27 + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 9) + (x - 3)(x + 9) = (x - 3)[(x^2 + 3x + 9) + (x + 9)] = (x - 3)(x^2 + 4x + 18)$",
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "kind": "missing",
+              "student_text": null,
+              "note": "Chưa làm Bài 1: Phân tích đa thức thành nhân tử (bỏ trống cả 3 câu a, b, c).",
+              "y_norm": 690
+            }
+          ]
+        },
+        {
+          "question_no": "Bài 2",
+          "max_score": 1.5,
+          "score": 0.75,
+          "left_y_norm": 80,
+          "page_index": 1,
+          "box_2d": [
+            70,
+            60,
+            580,
+            970
+          ],
+          "page_boxes": [],
+          "raw_student_text": "GT: ABC cân tại A, M thuộc cạnh AB; (M * B), Điểm N thuộc cạnh AC (N * C); sao cho AMN = ABC\nKL: a) MN // BC; b) BMNC là hình...; c)\n\na) xét tam giác ABC ta có\nAMN = ABC (gt)\nrút ra MN // BC vì 2 góc ở trên đồng vị\n\nb) xét tam giác ABC có:\nMN // BC\nB = C (tam giác ABC)\nsuy ra tứ giác BMNC là hình thang cân",
+          "full_student_text": "GT: ABC cân tại A, M thuộc cạnh AB; (M * B), Điểm N thuộc cạnh AC (N * C); sao cho AMN = ABC\nKL: a) MN // BC; b) BMNC là hình...; c)\n\na) xét tam giác ABC ta có: AMN = ABC (gt) -> rút ra MN // BC vì 2 góc ở trên đồng vị\nb) xét tam giác ABC có: MN // BC; B = C (tam giác ABC) -> suy ra tứ giác BMNC là hình thang cân",
+          "model_solution": "**Bài 2 (1,5 điểm): Lời giải mẫu sư phạm chuẩn mực**\n\n**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$:**\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao?:**\n- Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh ở câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\n- Mặt khác, tam giác $ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$.\n- Hình thang $BMNC$ có hai góc kề đáy $BC$ bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\n**c) Tính các góc của tứ giác $BMNC$:**\n- Vì $BMNC$ là hình thang cân nên: $\\widehat{C} = \\widehat{B} = 50^\\circ$ và $\\widehat{BMN} = \\widehat{CNM}$.\n- Do $MN // BC$ nên hai góc $\\widehat{BMN}$ và $\\widehat{B}$ ở vị trí trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra: $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\n- Vậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,125đ",
+              "ok": true,
+              "kind": "correct",
+              "student_text": "Hình vẽ tam giác ABC và bảng GT, KL",
+              "note": "Hình vẽ tam giác và cát tuyến MN đạt yêu cầu. Sửa lỗi trình bày: ký hiệu khác là $\\neq$ (không viết dấu '*'); phần Kết luận nhớ ghi đầy đủ câu hỏi b và c.",
+              "y_norm": 120
+            },
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "student_text": "a) xét tam giác ABC ta có: AMN = ABC (gt) rút ra MN // BC vì 2 góc ở trên đồng vị",
+              "note": "Chứng minh đúng quan hệ song song qua 2 góc đồng vị bằng nhau. Sửa lỗi diễn đạt: không dùng từ khẩu ngữ 'rút ra' (dùng 'Suy ra' hoặc $\\Rightarrow$); không ghi 'xét tam giác ABC'.",
+              "y_norm": 350
+            },
+            {
+              "page_index": 1,
+              "label": "+0,375đ",
+              "ok": true,
+              "kind": "correct",
+              "student_text": "b) xét tam giác ABC có: MN // BC; B = C (tam giác ABC) suy ra tứ giác BMNC là hình thang cân",
+              "note": "Nắm vững 2 điều kiện cốt lõi ($MN // BC$ và $\\widehat{B} = \\widehat{C}$) để suy ra hình thang cân. Sửa lỗi nhảy cóc: cần kết luận BMNC là hình thang trước, rồi mới kết luận hình thang cân; giải thích rõ căn cứ '(vì $\\Delta ABC$ cân tại $A$)'. (Ghép $0{,}125$đ ở phần hình vẽ làm tròn thành $0{,}50$đ).",
+              "y_norm": 450
+            },
+            {
+              "page_index": 1,
+              "label": "0,00đ",
+              "ok": false,
+              "is_missing": true,
+              "kind": "missing",
+              "student_text": null,
+              "note": "Thiếu câu 2c: Tính số đo các góc của tứ giác BMNC khi $\\widehat{B} = 50^\\circ$.",
+              "y_norm": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
