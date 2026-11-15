@@ -364,13 +364,138 @@
     .essay-badge-status.zero { background: #fee2e2; color: #b91c1c; border: 1px solid #fecaca; }
 
     .essay-score {
-      font-size: 16px;
+      font-size: 15px;
       font-weight: 800;
-      color: #0f172a;
-      background: #f8fafc;
-      padding: 4px 14px;
+      color: #1e3a8a;
+      background: #eff6ff;
+      padding: 5px 14px;
       border-radius: 8px;
-      border: 1px solid #e2e8f0;
+      border: 1px solid #bfdbfe;
+      white-space: nowrap;
+    }
+
+    /* 1. KHUNG NGUYÊN VĂN BÀI LÀM HỌC SINH */
+    .student-raw-box {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-left: 5px solid #2563eb;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 16px;
+    }
+    .student-raw-box.is-skipped {
+      border-left-color: #94a3b8;
+      background: #f1f5f9;
+    }
+    .raw-box-title {
+      font-size: 13px;
+      font-weight: 800;
+      color: #1e40af;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    .raw-box-content {
+      font-size: 15px;
+      line-height: 1.85;
+      color: #1e293b;
+      word-break: break-word;
+      white-space: pre-wrap;
+    }
+    .skipped-text {
+      color: #dc2626;
+      font-style: italic;
+    }
+
+    /* 2. KHUNG ĐỐI CHIẾU Ý ĐÚNG / Ý SAI, THIẾU */
+    .eval-container {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .eval-block {
+      border-radius: 8px;
+      padding: 12px 16px;
+      border: 1px solid transparent;
+    }
+    .eval-correct-block {
+      background: #f0fdf4;
+      border-color: #bbf7d0;
+    }
+    .eval-issue-block {
+      background: #fef2f2;
+      border-color: #fecaca;
+    }
+    .eval-block.empty-block {
+      background: #f8fafc;
+      border-color: #e2e8f0;
+    }
+    .eval-block-title {
+      font-size: 13px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.3px;
+    }
+    .text-success { color: #166534; }
+    .text-danger { color: #991b1b; }
+    .text-muted { color: #64748b; }
+    .eval-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .eval-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    .eval-score-pill {
+      font-size: 11.5px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 12px;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .pill-green {
+      background: #16a34a;
+      color: #ffffff;
+    }
+    .pill-red {
+      background: #dc2626;
+      color: #ffffff;
+    }
+    .eval-item-body {
+      flex: 1;
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .eval-tag {
+      font-weight: 700;
+      color: #b91c1c;
+    }
+    .eval-note {
+      color: #1e293b;
+    }
+    .eval-page-badge {
+      font-size: 11px;
+      color: #64748b;
+      background: #ffffff;
+      padding: 1px 7px;
+      border-radius: 4px;
+      border: 1px solid #cbd5e1;
+      font-weight: 600;
       white-space: nowrap;
     }
 
@@ -1680,7 +1805,7 @@
       container.innerHTML = "";
 
       if (!questions || questions.length === 0) {
-        container.innerHTML = '<div style="color:var(--gray-600);font-style:italic;">Chưa có chi tiết tự luận.</div>';
+        container.innerHTML = '<div style="color:var(--gray-600);font-style:italic;padding:12px;">Chưa có chi tiết tự luận.</div>';
         return;
       }
 
@@ -1696,208 +1821,138 @@
         // Status badge
         let statusBadge = "";
         if (qScore >= qMax && qMax > 0) {
-          statusBadge = '<span class="essay-badge-status full">✅ Đạt trọn vẹn điểm</span>';
+          statusBadge = '<span class="essay-badge-status full">✅ Đạt tối đa</span>';
         } else if (qScore > 0) {
-          statusBadge = `<span class="essay-badge-status partial">⚡ Đạt một phần (${qScoreStr}/${qMaxStr}đ)</span>`;
+          statusBadge = `<span class="essay-badge-status partial">⚡ Đạt một phần</span>`;
         } else {
-          statusBadge = '<span class="essay-badge-status zero">❌ Chưa đạt điểm</span>';
+          statusBadge = '<span class="essay-badge-status zero">❌ Chưa đạt</span>';
         }
 
         const steps = q.steps || [];
         const isSkipped = Boolean(q.is_skipped || (steps.length === 0 && qScore === 0));
 
-        // 1. KHUNG TOÀN BỘ NỘI DUNG BÀI LÀM VIẾT TAY CỦA HỌC SINH (KÈM CÔNG THỨC TOÁN & TOOLTIP)
-        let ocrHtml = "";
-        if (isSkipped) {
-          ocrHtml = `
-            <div class="ocr-paper-container" style="border-left-color: #cbd5e1;">
-              <div class="ocr-paper-header" style="color:#64748b;">
-                <span>📝 NỘI DUNG BÀI LÀM CỦA EM TRÊN PHIẾU THI:</span>
-                <span style="font-size:12px;color:#ef4444;font-weight:700;">Chưa làm</span>
-              </div>
-              <div class="ocr-skipped-note">
-                ⚠️ <em>(Em chưa làm câu này trên phiếu trả lời bài thi)</em>
-              </div>
+        // 1. NGUYÊN VĂN NỘI DUNG HỌC SINH ĐÃ VIẾT TRONG BÀI LÀM
+        let studentRawText = q.raw_student_text || q.full_student_text || q.student_answer || "";
+        if (!studentRawText) {
+          // Tự động tổng hợp từ steps nếu chưa có trường riêng
+          const texts = [];
+          steps.forEach(st => {
+            if (!st.is_missing && st.kind !== "missing") {
+              const t = st.student_text || "";
+              if (t && !texts.includes(t)) texts.push(t);
+            }
+          });
+          studentRawText = texts.join("\n");
+        }
+
+        let rawTextHtml = "";
+        if (isSkipped || (!studentRawText && qScore === 0)) {
+          rawTextHtml = `
+            <div class="student-raw-box is-skipped">
+              <div class="raw-box-title">📝 NỘI DUNG NGUYÊN VĂN HỌC SINH ĐÃ VIẾT:</div>
+              <div class="raw-box-content skipped-text">⚠️ <em>(Học sinh không làm câu này / bỏ trống trên bài làm)</em></div>
             </div>
           `;
         } else {
-          // Gom các ý theo trang (nếu học sinh làm rải rác ở nhiều trang hoặc làm ngắt quãng)
-          const pagesMap = {};
-          steps.forEach(st => {
-            const pIdx = typeof st.page_index === "number" ? st.page_index : 0;
-            if (!pagesMap[pIdx]) pagesMap[pIdx] = [];
-            pagesMap[pIdx].push(st);
-          });
-
-          const pageKeys = Object.keys(pagesMap).map(Number).sort((a, b) => a - b);
-          const isMultiPage = pageKeys.length > 1;
-
-          let ocrBodyHtml = "";
-
-          pageKeys.forEach(pIdx => {
-            const pageSteps = pagesMap[pIdx];
-            if (isMultiPage) {
-              ocrBodyHtml += `<div class="ocr-page-marker">📄 Phần làm tại Trang ${pIdx + 1}:</div>`;
-            }
-
-            pageSteps.forEach((st) => {
-              const ok = Boolean(st.ok);
-              const isMissing = Boolean(st.is_missing || (st.kind === "missing"));
-              const isRedundant = Boolean(st.is_redundant || (st.kind === "redundant"));
-              const label = st.label || (ok ? "+0,25đ" : "0,00đ");
-              const rawText = st.student_text || st.note || "";
-              const noteText = st.note || "";
-
-              if (isMissing) {
-                // Ý bị thiếu không viết trên giấy
-                return;
-              }
-
-              if (ok) {
-                // Ý ĐÚNG: TÔ NỔI BẬT DẠ QUANG VÀNG SÁNG + HUY HIỆU ĐIỂM + TOOLTIP LỜI PHÊ
-                ocrBodyHtml += `
-                  <div class="ocr-paper-line">
-                    <span style="color:#16a34a;font-weight:700;margin-right:6px;">•</span>
-                    <mark class="ocr-hl-correct has-tooltip" tabindex="0">
-                      ⭐ "${escapeHtml(rawText)}"
-                      <span class="ocr-hl-pill">${escapeHtml(label)}</span>
-                      <span class="custom-tooltip">✅ <strong>Ý đúng (${escapeHtml(label)}):</strong> ${escapeHtml(noteText || "Đạt chuẩn yêu cầu barem đáp án.")}</span>
-                    </mark>
-                  </div>
-                `;
-              } else if (isRedundant) {
-                // Ý VIẾT THỪA / LẠC ĐỀ: MÀU XÁM MỜ + TOOLTIP
-                ocrBodyHtml += `
-                  <div class="ocr-paper-line">
-                    <span style="color:#94a3b8;font-weight:700;margin-right:6px;">•</span>
-                    <span class="ocr-txt-redundant has-tooltip" tabindex="0">
-                      <em>"${escapeHtml(rawText)}"</em>
-                      <span class="ocr-redundant-pill">Ý thừa: 0,00đ</span>
-                      <span class="custom-tooltip">⚡ <strong>Ý viết thừa / Lạc đề (0,00đ):</strong> ${escapeHtml(noteText || "Ý này em viết thêm ngoài yêu cầu đề bài, không thuộc barem đáp án (không trừ điểm nhưng không được cộng điểm).")}</span>
-                    </span>
-                  </div>
-                `;
-              } else {
-                // Ý CHƯA CHÍNH XÁC: GẠCH ĐỎ + TOOLTIP HƯỚNG DẪN SỬA
-                ocrBodyHtml += `
-                  <div class="ocr-paper-line">
-                    <span style="color:#dc2626;font-weight:700;margin-right:6px;">•</span>
-                    <span class="ocr-txt-err has-tooltip" tabindex="0">
-                      "${escapeHtml(rawText)}"
-                      <span class="ocr-err-pill">${escapeHtml(label)}</span>
-                      <span class="custom-tooltip">❌ <strong>Chưa chính xác:</strong> ${escapeHtml(noteText || "Chưa đúng kiến thức chuẩn theo barem.")}</span>
-                    </span>
-                  </div>
-                `;
-              }
-            });
-          });
-
-          ocrHtml = `
-            <div class="ocr-paper-container">
-              <div class="ocr-paper-header">
-                <span>📝 NỘI DUNG BÀI LÀM CỦA EM TRÊN PHIẾU THI (RÊ CHUỘT / CHẠM ĐỂ XEM LỜI PHÊ):</span>
-                <span style="font-size:12px;color:#16a34a;font-weight:700;">Đã ghi nhận bài làm</span>
+          const formattedText = escapeHtml(studentRawText || "(Chưa trích xuất văn bản)").replace(/\n/g, "<br>");
+          rawTextHtml = `
+            <div class="student-raw-box">
+              <div class="raw-box-title">
+                <span>📝 <strong>NỘI DUNG NGUYÊN VĂN HỌC SINH ĐÃ VIẾT TRONG BÀI LÀM:</strong></span>
               </div>
-              <div class="ocr-paper-body">
-                ${ocrBodyHtml || '<div class="ocr-skipped-note">Chưa có nội dung bài làm cho câu này.</div>'}
+              <div class="raw-box-content">
+                <div class="raw-quote-text">${formattedText}</div>
               </div>
             </div>
           `;
         }
 
-        // 2. BẢNG ĐỐI CHIẾU CHI TIẾT TỪNG Ý & LỜI PHÊ SƯ PHẠM CỦA THẦY/CÔ
-        let stepsBreakdownHtml = "";
-        steps.forEach((st) => {
+        // 2. PHÂN LOẠI CÁC Ý: Ý ĐÚNG VÀ Ý SAI/THIẾU/VIẾT LẠI ĐỀ
+        const correctSteps = [];
+        const issueSteps = [];
+
+        steps.forEach(st => {
           const ok = Boolean(st.ok);
-          const isMissing = Boolean(st.is_missing || (st.kind === "missing"));
-          const isRedundant = Boolean(st.is_redundant || (st.kind === "redundant"));
-          const label = st.label || (ok ? "+0,25đ" : "0,00đ");
-          const text = st.student_text || st.note || "";
-          const note = st.note || "";
+          const isMissing = Boolean(st.is_missing || st.kind === "missing");
+          const isRedundant = Boolean(st.is_redundant || st.kind === "redundant");
 
-          let locBadge = "";
-          if (typeof st.page_index === "number") {
-            locBadge = `<span class="step-page-loc">📄 Trang ${st.page_index + 1}</span>`;
-          }
-
-          if (isMissing) {
-            stepsBreakdownHtml += `
-              <li class="step-item is-missing">
-                <div class="step-top-row">
-                  <span class="step-tag-pill missing">⚠️ THIẾU NỘI DUNG (${label})</span>
-                  ${locBadge}
-                </div>
-                <div class="ocr-content-wrap">
-                  <div class="ocr-highlight-box box-missing">
-                    Chưa làm hoặc thiếu ý: <strong>${escapeHtml(note || "Chưa có lời giải cho ý này theo barem.")}</strong>
-                  </div>
-                </div>
-              </li>
-            `;
-          } else if (isRedundant) {
-            stepsBreakdownHtml += `
-              <li class="step-item is-redundant">
-                <div class="step-top-row">
-                  <span class="step-tag-pill redundant">⚡ Ý VIẾT THỪA / LẠC ĐỀ (${label})</span>
-                  ${locBadge}
-                </div>
-                <div class="ocr-content-wrap">
-                  <div class="ocr-label">📝 Đoạn chữ em viết thêm:</div>
-                  <div class="ocr-highlight-box box-redundant">
-                    <em>"${escapeHtml(text)}"</em>
-                  </div>
-                </div>
-                <div class="teacher-note-box">
-                  <span>ℹ️</span>
-                  <span><strong>Lời phê của Thầy/Cô:</strong> ${escapeHtml(note || "Ý này viết thêm ngoài phạm vi câu hỏi, không thuộc barem đáp án (không trừ điểm nhưng không được cộng điểm).")}</span>
-                </div>
-              </li>
-            `;
-          } else if (ok) {
-            stepsBreakdownHtml += `
-              <li class="step-item is-correct">
-                <div class="step-top-row">
-                  <span class="step-tag-pill ok">✅ ĐÚNG / ĐẠT (${label})</span>
-                  ${locBadge}
-                </div>
-                <div class="ocr-content-wrap">
-                  <div class="ocr-label">📝 Đoạn bài làm của em:</div>
-                  <div class="ocr-highlight-box highlight-ok">
-                    ⭐ "${escapeHtml(text)}"
-                  </div>
-                </div>
-                ${note && note !== text ? `
-                  <div class="teacher-note-box">
-                    <span>💬</span>
-                    <span><strong>Lời phê của Thầy/Cô:</strong> ${escapeHtml(note)}</span>
-                  </div>
-                ` : ""}
-              </li>
-            `;
+          if (ok) {
+            correctSteps.push(st);
           } else {
-            stepsBreakdownHtml += `
-              <li class="step-item is-wrong">
-                <div class="step-top-row">
-                  <span class="step-tag-pill err">❌ CHƯA CHÍNH XÁC (${label})</span>
-                  ${locBadge}
-                </div>
-                <div class="ocr-content-wrap">
-                  <div class="ocr-label">📝 Đoạn bài làm của em:</div>
-                  <div class="ocr-highlight-box box-err">
-                    "${escapeHtml(text)}"
-                  </div>
-                </div>
-                ${note ? `
-                  <div class="teacher-note-box">
-                    <span>💡</span>
-                    <span><strong>Thầy/Cô hướng dẫn sửa:</strong> ${escapeHtml(note)}</span>
-                  </div>
-                ` : ""}
-              </li>
-            `;
+            issueSteps.push(st);
           }
         });
+
+        // 2A. CÁC Ý ĐÚNG VÀ ĐIỂM
+        let correctHtml = "";
+        if (correctSteps.length > 0) {
+          let items = "";
+          correctSteps.forEach(st => {
+            const lbl = st.label || "+0,25đ";
+            const note = st.note || st.student_text || "Đạt chuẩn yêu cầu đáp án.";
+            const loc = typeof st.page_index === "number" ? `<span class="eval-page-badge">Trang ${st.page_index + 1}</span>` : "";
+            items += `
+              <li class="eval-item eval-correct">
+                <span class="eval-score-pill pill-green">${escapeHtml(lbl)}</span>
+                <div class="eval-item-body">
+                  <span class="eval-note">${escapeHtml(note)}</span>
+                  ${loc}
+                </div>
+              </li>
+            `;
+          });
+          correctHtml = `
+            <div class="eval-block eval-correct-block">
+              <div class="eval-block-title text-success">
+                <span>✅</span>
+                <strong>CÁC Ý ĐÚNG VÀ ĐIỂM ĐẠT:</strong>
+              </div>
+              <ul class="eval-list">${items}</ul>
+            </div>
+          `;
+        } else {
+          correctHtml = `
+            <div class="eval-block eval-correct-block empty-block">
+              <div class="eval-block-title text-muted">
+                <span>⚪</span>
+                <em>Không có ý đạt điểm trong câu này.</em>
+              </div>
+            </div>
+          `;
+        }
+
+        // 2B. CÁC SAI SÓT, NHẦM, THIẾU HOẶC CHÉP LẠI ĐỀ
+        let issuesHtml = "";
+        if (issueSteps.length > 0) {
+          let items = "";
+          issueSteps.forEach(st => {
+            const lbl = st.label || "0,00đ";
+            const isMissing = Boolean(st.is_missing || st.kind === "missing");
+            const isRedundant = Boolean(st.is_redundant || st.kind === "redundant");
+            const tag = isMissing ? "Thiếu ý" : (isRedundant ? "Viết thừa / Chép lại đề" : "Chưa chính xác");
+            const note = st.note || "Chưa đạt yêu cầu theo barem đáp án.";
+            const loc = typeof st.page_index === "number" ? `<span class="eval-page-badge">Trang ${st.page_index + 1}</span>` : "";
+            items += `
+              <li class="eval-item eval-issue">
+                <span class="eval-score-pill pill-red">${escapeHtml(lbl)}</span>
+                <div class="eval-item-body">
+                  <span class="eval-tag">${escapeHtml(tag)}:</span>
+                  <span class="eval-note">${escapeHtml(note)}</span>
+                  ${loc}
+                </div>
+              </li>
+            `;
+          });
+          issuesHtml = `
+            <div class="eval-block eval-issue-block">
+              <div class="eval-block-title text-danger">
+                <span>⚠️</span>
+                <strong>CÁC SAI SÓT, NHẦM LẪN HOẶC Ý CÒN THIẾU:</strong>
+              </div>
+              <ul class="eval-list">${items}</ul>
+            </div>
+          `;
+        }
 
         card.innerHTML = `
           <div class="essay-header">
@@ -1905,20 +1960,17 @@
               <span class="essay-name">${escapeHtml(q.question_no || `Câu ${qIndex + 1}`)}</span>
               ${statusBadge}
             </div>
-            <div class="essay-score">${qScoreStr} / ${qMaxStr}đ</div>
+            <div class="essay-score">Điểm: <strong>${qScoreStr} / ${qMaxStr}đ</strong></div>
           </div>
 
-          <!-- Khung toàn bộ bài làm viết tay của học sinh (nguyên văn từng câu) -->
-          ${ocrHtml}
+          <!-- 1. Hiển thị lại nguyên văn toàn bộ nội dung học sinh đã viết -->
+          ${rawTextHtml}
 
-          <!-- Chi tiết từng ý & Nhận xét của Thầy/Cô -->
-          <div class="essay-breakdown-title">
-            <span>🔍</span>
-            <span>Chi tiết đối chiếu từng câu văn & Lời phê của Thầy/Cô:</span>
+          <!-- 2. Ngay phía dưới là phần chỉ ra những ý đúng và điểm, sai sót/nhầm/thiếu -->
+          <div class="eval-container">
+            ${correctHtml}
+            ${issuesHtml}
           </div>
-          <ul class="step-list">
-            ${stepsBreakdownHtml || '<li style="font-style:italic;color:var(--gray-600);padding:8px;">Không có nhận xét thêm.</li>'}
-          </ul>
         `;
         container.appendChild(card);
       });
