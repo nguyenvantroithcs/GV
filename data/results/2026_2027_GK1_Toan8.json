@@ -1507,8 +1507,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 8.5,
-      "essay_score": 2.5,
+      "total_score": 8.0,
+      "essay_score": 2.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -1889,7 +1889,7 @@
           }
         ]
       },
-      "summary_comment": "Bài thi đạt điểm Giỏi xuất sắc (8,50 điểm)! Bài 1 đại số làm trọn vẹn 1,5/1,5đ, trả lời ngắn đúng 100%. Lời giải rõ ràng, chữ viết đẹp.",
+      "summary_comment": "Bài thi đạt kết quả Giỏi (8,00 điểm). Bài 1 đại số làm trọn vẹn 1,5/1,5đ, trả lời ngắn đúng 100%. Cần bổ sung bảng GT/KL và cẩn thận hơn khi tính góc ở câu 2c.",
       "questions": [
         {
           "question_no": "Bài 1",
@@ -1938,23 +1938,23 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.0,
+          "score": 0.5,
           "max_score": 1.5,
           "is_skipped": false,
-          "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
-          "student_answer": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "raw_student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) (Chưa làm câu 2c)",
+          "student_answer": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) (Chưa làm câu 2c)",
           "comment": "Hình học (Tam giác cân & Hình thang cân)",
           "model_solution": "**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**Bài giải chi tiết:**\na) Ta có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc ở đáy bằng nhau).\nHình thang $BMNC$ có hai góc kề một đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\nc) Vì $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nHình thang cân có hai góc kề đáy bằng nhau nên:\n$$\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$$\nVậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
               "step_label": "Hình vẽ & GT/KL",
               "page_index": 0,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.",
-              "note": "Có vẽ hình tam giác cân tương đối ở góc trang 1 (+0,25đ).",
-              "teacher_feedback": "Trình bày hình vẽ và GT/KL chuẩn mực.",
+              "label": "0,00đ",
+              "ok": false,
+              "kind": "missing",
+              "student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)",
+              "note": "Có vẽ hình tam giác cân tương đối ở góc trang 1 nhưng chưa ghi bảng GT/KL.",
+              "teacher_feedback": "Cần chú ý vẽ hình và ghi GT/KL.",
               "y_norm": 920
             },
             {
@@ -1975,19 +1975,19 @@
               "ok": true,
               "kind": "correct",
               "student_text": "b) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.",
-              "note": "2b) Nêu được kết luận hình thang cân (+0,25đ).",
+              "note": "2b) Nêu được kết luận hình thang cân (chưa nêu đầy đủ căn cứ) (+0,25đ).",
               "teacher_feedback": "Chứng minh chuẩn.",
               "y_norm": 300
             },
             {
               "step_label": "Câu 2c",
               "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "c) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
-              "note": "2c) Điểm ý tưởng tổng các góc tứ giác (+0,25đ).",
-              "teacher_feedback": "Tính toán chuẩn xác.",
+              "label": "0,00đ",
+              "ok": false,
+              "kind": "missing",
+              "student_text": "c) (Chưa làm câu 2c)",
+              "note": "2c) Tính sai góc $\\widehat{C} = 130^\\circ$ (góc đáy tam giác cân là $50^\\circ$).",
+              "teacher_feedback": "Cần ôn lại tính chất góc trong cùng phía và góc hình thang cân.",
               "y_norm": 450
             }
           ]
@@ -4904,8 +4904,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 9.5,
-      "essay_score": 3.0,
+      "total_score": 9.25,
+      "essay_score": 2.75,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -5286,7 +5286,7 @@
           }
         ]
       },
-      "summary_comment": "Bài làm xuất sắc đạt 9,50 điểm! Tự luận đạt tuyệt đối 3.0/3.0đ, trình bày cẩn thận, phương pháp giải rất tốt.",
+      "summary_comment": "Bài làm rất tốt đạt 9,25 điểm! Tự luận đạt 2,75/3,0đ (Bài 1 đạt 1,5đ trọn vẹn, Bài 2 lập luận rất tốt, cần nhớ ghi thêm bảng GT/KL).",
       "questions": [
         {
           "question_no": "Bài 1",
@@ -5335,23 +5335,23 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.5,
+          "score": 1.25,
           "max_score": 1.5,
           "is_skipped": false,
-          "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
-          "student_answer": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "raw_student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "student_answer": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
           "comment": "Hình học (Tam giác cân & Hình thang cân)",
           "model_solution": "**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**Bài giải chi tiết:**\na) Ta có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc ở đáy bằng nhau).\nHình thang $BMNC$ có hai góc kề một đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\nc) Vì $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nHình thang cân có hai góc kề đáy bằng nhau nên:\n$$\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$$\nVậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
               "step_label": "Hình vẽ & GT/KL",
               "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.",
-              "note": "Hình vẽ + GT/KL chuẩn mực.",
-              "teacher_feedback": "Trình bày hình vẽ và GT/KL chuẩn mực.",
+              "label": "0,00đ",
+              "ok": false,
+              "kind": "missing",
+              "student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)",
+              "note": "Có vẽ hình tam giác $ABC$ nhưng chưa ghi bảng GT/KL.",
+              "teacher_feedback": "Cần chú ý vẽ hình và ghi GT/KL.",
               "y_norm": 260
             },
             {
@@ -6419,8 +6419,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 7.0,
-      "essay_score": 1.25,
+      "total_score": 6.75,
+      "essay_score": 1.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -6801,7 +6801,7 @@
           }
         ]
       },
-      "summary_comment": "Trắc nghiệm và trả lời ngắn làm tốt (5,75đ), Bài 2 hình học đạt 1,25đ. Em cần chú ý làm thêm Bài 1 phân tích đa thức thành nhân tử.",
+      "summary_comment": "Trắc nghiệm và trả lời ngắn làm tốt (5,75đ), Bài 2 hình học đạt 1,00đ (cần ghi thêm GT/KL). Em cần chú ý làm thêm Bài 1 phân tích đa thức thành nhân tử.",
       "questions": [
         {
           "question_no": "Bài 1",
@@ -6829,23 +6829,23 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.25,
+          "score": 1.0,
           "max_score": 1.5,
           "is_skipped": false,
-          "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
-          "student_answer": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "raw_student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "student_answer": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
           "comment": "Hình học (Tam giác cân & Hình thang cân)",
           "model_solution": "**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**Bài giải chi tiết:**\na) Ta có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc ở đáy bằng nhau).\nHình thang $BMNC$ có hai góc kề một đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\nc) Vì $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nHình thang cân có hai góc kề đáy bằng nhau nên:\n$$\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$$\nVậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
               "step_label": "Hình vẽ & GT/KL",
               "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.",
-              "note": "Có vẽ hình tam giác cân chi tiết, đánh dấu ký hiệu (+0,25đ).",
-              "teacher_feedback": "Trình bày hình vẽ và GT/KL chuẩn mực.",
+              "label": "0,00đ",
+              "ok": false,
+              "kind": "missing",
+              "student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)",
+              "note": "Có vẽ hình tam giác cân nhưng chưa ghi bảng GT/KL.",
+              "teacher_feedback": "Cần chú ý vẽ hình và ghi GT/KL.",
               "y_norm": 450
             },
             {
@@ -9318,8 +9318,8 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 7.75,
-      "essay_score": 2.0,
+      "total_score": 7.5,
+      "essay_score": 1.75,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -9700,7 +9700,7 @@
           }
         ]
       },
-      "summary_comment": "Phần đại số Bài 1 làm lại ở trang 2 rất xuất sắc (1,5/1,5đ), trả lời ngắn đúng 100%. Em cần phân bổ thời gian đều hơn để hoàn thành nốt câu 2b và 2c hình học.",
+      "summary_comment": "Phần đại số Bài 1 làm lại ở trang 2 rất xuất sắc (1,5/1,5đ), trả lời ngắn đúng 100%. Em cần phân bổ thời gian đều hơn để vẽ hình và hoàn thành nốt câu 2b và 2c hình học.",
       "questions": [
         {
           "question_no": "Bài 1",
@@ -9749,23 +9749,23 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 0.5,
+          "score": 0.25,
           "max_score": 1.5,
           "is_skipped": false,
-          "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) (Chưa làm câu b)\n\nc) (Chưa làm câu 2c)",
-          "student_answer": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) (Chưa làm câu b)\n\nc) (Chưa làm câu 2c)",
+          "raw_student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) (Chưa làm câu b)\n\nc) (Chưa làm câu 2c)",
+          "student_answer": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) (Chưa làm câu b)\n\nc) (Chưa làm câu 2c)",
           "comment": "Hình học (Tam giác cân & Hình thang cân)",
           "model_solution": "**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**Bài giải chi tiết:**\na) Ta có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc ở đáy bằng nhau).\nHình thang $BMNC$ có hai góc kề một đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\nc) Vì $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nHình thang cân có hai góc kề đáy bằng nhau nên:\n$$\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$$\nVậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
               "step_label": "Hình vẽ & GT/KL",
               "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.",
-              "note": "Hình vẽ và GT/KL đạt yêu cầu.",
-              "teacher_feedback": "Trình bày hình vẽ và GT/KL chuẩn mực.",
+              "label": "0,00đ",
+              "ok": false,
+              "kind": "missing",
+              "student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)",
+              "note": "Có ghi bảng GT/KL nhưng chưa vẽ hình tam giác $ABC$ trên bài làm.",
+              "teacher_feedback": "Cần chú ý vẽ hình và ghi GT/KL.",
               "y_norm": 380
             },
             {
@@ -10328,8 +10328,8 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 5.75,
-      "essay_score": 0.25,
+      "total_score": 5.5,
+      "essay_score": 0.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -10738,23 +10738,23 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 0.25,
+          "score": 0.0,
           "max_score": 1.5,
           "is_skipped": false,
-          "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) (Chưa hoàn thành câu a)\n\nb) (Chưa làm câu b)\n\nc) (Chưa làm câu 2c)",
-          "student_answer": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) (Chưa hoàn thành câu a)\n\nb) (Chưa làm câu b)\n\nc) (Chưa làm câu 2c)",
+          "raw_student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) (Chưa hoàn thành câu a)\n\nb) (Chưa làm câu b)\n\nc) (Chưa làm câu 2c)",
+          "student_answer": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) (Chưa hoàn thành câu a)\n\nb) (Chưa làm câu b)\n\nc) (Chưa làm câu 2c)",
           "comment": "Hình học (Tam giác cân & Hình thang cân)",
           "model_solution": "**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**Bài giải chi tiết:**\na) Ta có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc ở đáy bằng nhau).\nHình thang $BMNC$ có hai góc kề một đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\nc) Vì $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nHình thang cân có hai góc kề đáy bằng nhau nên:\n$$\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$$\nVậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
               "step_label": "Hình vẽ & GT/KL",
               "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.",
-              "note": "Có vẽ hình tam giác cân tương đối (0,125đ) và nêu ý tưởng hình thang câu b (0,125đ) -> ghép tròn +0,25đ.",
-              "teacher_feedback": "Trình bày hình vẽ và GT/KL chuẩn mực.",
+              "label": "0,00đ",
+              "ok": false,
+              "kind": "missing",
+              "student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)",
+              "note": "Có vẽ hình nhưng bảng GT/KL bỏ trống; ý tưởng câu b chưa hoàn chỉnh theo quy tắc kiểm soát 0,125đ.",
+              "teacher_feedback": "Cần chú ý vẽ hình và ghi GT/KL.",
               "y_norm": 300
             },
             {
@@ -10812,8 +10812,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 7.5,
-      "essay_score": 2.0,
+      "total_score": 7.25,
+      "essay_score": 1.75,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -11194,7 +11194,7 @@
           }
         ]
       },
-      "summary_comment": "Bài thi đạt điểm Khá (7,50 điểm). Trả lời ngắn đạt 100%, làm tốt câu 1b và câu 2a, 2c. Cần rèn luyện thêm kỹ năng biến đổi câu 1c.",
+      "summary_comment": "Bài thi đạt điểm Khá (7,25 điểm). Trả lời ngắn đạt 100%, làm tốt câu 1b và câu 2a, 2c (Bài 2 đạt 1,00đ). Cần ghi bảng GT/KL và rèn thêm câu 1c.",
       "questions": [
         {
           "question_no": "Bài 1",
@@ -11243,23 +11243,23 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.25,
+          "score": 1.0,
           "max_score": 1.5,
           "is_skipped": false,
-          "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
-          "student_answer": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "raw_student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "student_answer": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
           "comment": "Hình học (Tam giác cân & Hình thang cân)",
           "model_solution": "**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**Bài giải chi tiết:**\na) Ta có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc ở đáy bằng nhau).\nHình thang $BMNC$ có hai góc kề một đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\nc) Vì $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nHình thang cân có hai góc kề đáy bằng nhau nên:\n$$\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$$\nVậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
               "step_label": "Hình vẽ & GT/KL",
               "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.",
-              "note": "Hình vẽ tam giác cân chi tiết, đánh dấu ký hiệu (+0,25đ).",
-              "teacher_feedback": "Trình bày hình vẽ và GT/KL chuẩn mực.",
+              "label": "0,00đ",
+              "ok": false,
+              "kind": "missing",
+              "student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)",
+              "note": "Có vẽ hình tam giác cân nhưng chưa ghi bảng GT/KL.",
+              "teacher_feedback": "Cần chú ý vẽ hình và ghi GT/KL.",
               "y_norm": 250
             },
             {
@@ -11822,8 +11822,8 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 4.5,
-      "essay_score": 0.25,
+      "total_score": 4.25,
+      "essay_score": 0.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -12232,57 +12232,25 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 0.25,
+          "score": 0.0,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) (Chưa hoàn thành câu a)\n\nb) (Chưa làm câu b)\n\nc) (Chưa làm câu 2c)",
-          "student_answer": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) (Chưa hoàn thành câu a)\n\nb) (Chưa làm câu b)\n\nc) (Chưa làm câu 2c)",
-          "comment": "Hình học (Tam giác cân & Hình thang cân)",
+          "is_skipped": true,
+          "raw_student_text": "⚠️ (Học sinh không làm câu này / bỏ trống trên bài làm)",
+          "student_answer": "⚠️ (Học sinh không làm câu này / bỏ trống trên bài làm)",
+          "comment": "Học sinh bỏ trống Bài 2",
           "model_solution": "**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**Bài giải chi tiết:**\na) Ta có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc ở đáy bằng nhau).\nHình thang $BMNC$ có hai góc kề một đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\nc) Vì $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nHình thang cân có hai góc kề đáy bằng nhau nên:\n$$\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$$\nVậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
-              "step_label": "Hình vẽ & GT/KL",
-              "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.",
-              "note": "Điểm ý tưởng câu 2b (0,125đ) và 2c (0,125đ) ghép tròn thành +0,25đ.",
-              "teacher_feedback": "Trình bày hình vẽ và GT/KL chuẩn mực.",
-              "y_norm": 500
-            },
-            {
-              "step_label": "Câu 2a",
-              "page_index": 1,
-              "label": "0,00đ",
-              "ok": false,
-              "kind": "wrong",
-              "student_text": "a) (Chưa hoàn thành câu a)",
-              "note": "2a) Chưa chứng minh được câu a (0,00đ). Hướng dẫn sửa: Dựa vào $\\widehat{AMN} = \\widehat{ABC}$ (gt) và vị trí đồng vị để suy ra $MN // BC$.",
-              "teacher_feedback": "Cần nắm vững dấu hiệu nhận biết hai đường thẳng song song.",
-              "y_norm": 450
-            },
-            {
-              "step_label": "Câu 2b",
+              "step_label": "Bài 2",
               "page_index": 1,
               "label": "0,00đ",
               "ok": false,
               "kind": "missing",
-              "student_text": "b) (Chưa làm câu b)",
-              "note": "2b) Chưa chứng minh câu b (0,00đ). Hướng dẫn sửa: Nêu $MN // BC \\Rightarrow BMNC$ là hình thang; kết hợp $\\widehat{B} = \\widehat{C}$ (do $\\Delta ABC$ cân tại $A$) $\\Rightarrow BMNC$ là hình thang cân.",
-              "teacher_feedback": "Cần ôn lại định nghĩa và dấu hiệu nhận biết hình thang cân.",
-              "y_norm": 600
-            },
-            {
-              "step_label": "Câu 2c",
-              "page_index": 1,
-              "label": "0,00đ",
-              "ok": false,
-              "kind": "missing",
-              "student_text": "c) (Chưa làm câu 2c)",
-              "note": "2c) Chưa hoàn thành câu 2c (0,00đ). Hướng dẫn sửa: Sử dụng tính chất $\\widehat{C} = \\widehat{B} = 50^\\circ$ và hai góc trong cùng phía bù nhau $\\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$.",
-              "teacher_feedback": "Cần ôn lại tính chất góc trong cùng phía và góc hình thang cân.",
-              "y_norm": 780
+              "is_missing": true,
+              "student_text": "(Bỏ trống)",
+              "note": "Bỏ trống toàn bộ Bài 2 hình học. Hướng dẫn ôn tập: Xem kỹ bài giải mẫu bên dưới; rèn luyện kỹ năng vẽ hình tam giác cân, ghi GT/KL, chứng minh hai đường thẳng song song và tính chất hình thang cân.",
+              "teacher_feedback": "Chưa làm bài hình. Cần chú ý phân bổ thời gian làm bài.",
+              "y_norm": 250
             }
           ]
         }
@@ -12306,8 +12274,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 7.5,
-      "essay_score": 0.75,
+      "total_score": 7.75,
+      "essay_score": 1.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -12688,7 +12656,7 @@
           }
         ]
       },
-      "summary_comment": "Bài làm rất tốt phần trắc nghiệm (6,75/7,0đ), trả lời ngắn tính toán chính xác 100% và nắm vững kiến thức hình học cơ bản (Bài 2 đạt 0,75đ). Cần lưu ý: tránh dùng từ khẩu ngữ trong bài hình ('rút ra' $\\rightarrow$ dùng 'Suy ra' hoặc $\\Rightarrow$), và nhớ hoàn thành Bài 1 phân tích đa thức thành nhân tử.",
+      "summary_comment": "Bài làm rất tốt phần trắc nghiệm (6,75/7,0đ), trả lời ngắn tính toán chính xác 100% và nắm vững kiến thức hình học cơ bản (Bài 2 đạt 1,00đ). Cần lưu ý: tránh dùng từ khẩu ngữ trong bài hình ('rút ra' $\\rightarrow$ dùng 'Suy ra' hoặc $\\Rightarrow$), và nhớ hoàn thành Bài 1 phân tích đa thức thành nhân tử.",
       "questions": [
         {
           "question_no": "Bài 1",
@@ -12716,7 +12684,7 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 0.75,
+          "score": 1.0,
           "max_score": 1.5,
           "is_skipped": false,
           "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) (Chưa làm câu 2c)",
@@ -12749,11 +12717,11 @@
             {
               "step_label": "Câu 2b",
               "page_index": 1,
-              "label": "+0,25đ",
+              "label": "+0,50đ",
               "ok": true,
               "kind": "correct",
               "student_text": "b) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.",
-              "note": "Nắm vững 2 điều kiện ($MN // BC$ và $\\widehat{B} = \\widehat{C}$) suy ra hình thang cân.",
+              "note": "Nắm vững 2 điều kiện ($MN // BC$ và $\\widehat{B} = \\widehat{C}$) suy ra hình thang cân (+0,50đ trọn vẹn).",
               "teacher_feedback": "Chứng minh chuẩn.",
               "y_norm": 600
             },
@@ -14305,8 +14273,8 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 5.5,
-      "essay_score": 1.75,
+      "total_score": 5.25,
+      "essay_score": 1.5,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -14687,7 +14655,7 @@
           }
         ]
       },
-      "summary_comment": "Bài hình 2 làm rất xuất sắc (1,5/1,5đ)! Em cần ôn luyện thêm phần đại số (hằng đẳng thức và phân tích đa thức thành nhân tử) để nâng điểm.",
+      "summary_comment": "Bài hình 2 lập luận rất tốt (1,25/1,5đ, cần chú ý ghi đúng bảng GT/KL). Em cần ôn luyện thêm phần đại số (hằng đẳng thức và phân tích đa thức thành nhân tử) để nâng điểm.",
       "questions": [
         {
           "question_no": "Bài 1",
@@ -14736,23 +14704,23 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.5,
+          "score": 1.25,
           "max_score": 1.5,
           "is_skipped": false,
-          "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
-          "student_answer": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "raw_student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "student_answer": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
           "comment": "Hình học (Tam giác cân & Hình thang cân)",
           "model_solution": "**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**Bài giải chi tiết:**\na) Ta có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc ở đáy bằng nhau).\nHình thang $BMNC$ có hai góc kề một đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\nc) Vì $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nHình thang cân có hai góc kề đáy bằng nhau nên:\n$$\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$$\nVậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
               "step_label": "Hình vẽ & GT/KL",
               "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.",
-              "note": "Hình vẽ và GT/KL đạt yêu cầu.",
-              "teacher_feedback": "Trình bày hình vẽ và GT/KL chuẩn mực.",
+              "label": "0,00đ",
+              "ok": false,
+              "kind": "missing",
+              "student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)",
+              "note": "Có vẽ hình nhưng bảng GT/KL ghi lẫn lộn kết luận vào giả thiết, không đạt yêu cầu barem.",
+              "teacher_feedback": "Cần chú ý vẽ hình và ghi GT/KL.",
               "y_norm": 260
             },
             {
@@ -19238,8 +19206,8 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 7.75,
-      "essay_score": 1.75,
+      "total_score": 7.5,
+      "essay_score": 1.5,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -19620,7 +19588,7 @@
           }
         ]
       },
-      "summary_comment": "Bài thi đạt kết quả tốt (7,75đ). Bài hình 2 giải trọn vẹn và chính xác (1,5/1,5đ), trả lời ngắn đúng 100%. Cần rèn thêm kỹ năng phân tích đa thức Bài 1.",
+      "summary_comment": "Bài thi đạt kết quả tốt (7,50đ). Bài hình 2 giải tốt các câu a, b, c (1,25/1,5đ, cần hoàn thiện nội dung GT/KL), trả lời ngắn đúng 100%. Cần rèn thêm kỹ năng phân tích đa thức Bài 1.",
       "questions": [
         {
           "question_no": "Bài 1",
@@ -19669,23 +19637,23 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.5,
+          "score": 1.25,
           "max_score": 1.5,
           "is_skipped": false,
-          "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
-          "student_answer": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "raw_student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "student_answer": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
           "comment": "Hình học (Tam giác cân & Hình thang cân)",
           "model_solution": "**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**Bài giải chi tiết:**\na) Ta có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc ở đáy bằng nhau).\nHình thang $BMNC$ có hai góc kề một đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\nc) Vì $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nHình thang cân có hai góc kề đáy bằng nhau nên:\n$$\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$$\nVậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
               "step_label": "Hình vẽ & GT/KL",
               "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.",
-              "note": "Hình vẽ + GT/KL chuẩn mực.",
-              "teacher_feedback": "Trình bày hình vẽ và GT/KL chuẩn mực.",
+              "label": "0,00đ",
+              "ok": false,
+              "kind": "missing",
+              "student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)",
+              "note": "Có vẽ hình nhưng bảng GT/KL chỉ kẻ khung ghi tiêu đề, bỏ trống hoàn toàn nội dung.",
+              "teacher_feedback": "Cần chú ý vẽ hình và ghi GT/KL.",
               "y_norm": 260
             },
             {
@@ -19743,8 +19711,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 9.25,
-      "essay_score": 3.0,
+      "total_score": 9.0,
+      "essay_score": 2.75,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -20125,7 +20093,7 @@
           }
         ]
       },
-      "summary_comment": "Bài làm xuất sắc (9,25 điểm)! Tự luận đạt tuyệt đối 3.0/3.0đ, lập luận hình học chặt chẽ, đại số biến đổi thành thạo. Khen ngợi em!",
+      "summary_comment": "Bài làm rất tốt (9,00 điểm)! Tự luận đạt 2,75/3,0đ (Bài 1 đạt 1,5đ trọn vẹn, Bài 2 lập luận xuất sắc, cần nhớ ghi thêm bảng GT/KL).",
       "questions": [
         {
           "question_no": "Bài 1",
@@ -20174,23 +20142,23 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.5,
+          "score": 1.25,
           "max_score": 1.5,
           "is_skipped": false,
-          "raw_student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
-          "student_answer": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "raw_student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
+          "student_answer": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)\n\na) Xét $\\Delta ABC$ có: $\\widehat{AMN} = \\widehat{ABC}$ (giả thiết)\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết)\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (theo câu a) $\\Rightarrow BMNC$ là hình thang.\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc đáy).\nHình thang có hai góc kề đáy bằng nhau $\\Rightarrow BMNC$ là hình thang cân.\n\nc) Vì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nVì $BMNC$ là hình thang cân $\\Rightarrow \\widehat{CNM} = \\widehat{BMN} = 130^\\circ$.\nVậy: $\\widehat{B} = 50^\\circ; \\widehat{C} = 50^\\circ; \\widehat{BMN} = 130^\\circ; \\widehat{CNM} = 130^\\circ$.",
           "comment": "Hình học (Tam giác cân & Hình thang cân)",
           "model_solution": "**Giả thiết (GT):** $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n**Kết luận (KL):**\na) $MN // BC$.\nb) Tứ giác $BMNC$ là hình gì? Vì sao?\nc) Biết $\\widehat{B} = 50^\\circ$. Tính các góc của tứ giác $BMNC$.\n\n**Bài giải chi tiết:**\na) Ta có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị đối với hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$.\n$\\Rightarrow MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\nb) Xét tứ giác $BMNC$ có: $MN // BC$ (chứng minh câu a).\n$\\Rightarrow BMNC$ là **hình thang** (định nghĩa hình thang).\nMặt khác, $\\Delta ABC$ cân tại $A$ (giả thiết) $\\Rightarrow \\widehat{B} = \\widehat{C}$ (hai góc ở đáy bằng nhau).\nHình thang $BMNC$ có hai góc kề một đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (dấu hiệu nhận biết hình thang cân).\n\nc) Vì $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\nDo $MN // BC$, hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\nHình thang cân có hai góc kề đáy bằng nhau nên:\n$$\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$$\nVậy: $\\widehat{B} = 50^\\circ;\\ \\widehat{C} = 50^\\circ;\\ \\widehat{BMN} = 130^\\circ;\\ \\widehat{CNM} = 130^\\circ$.",
           "steps": [
             {
               "step_label": "Hình vẽ & GT/KL",
               "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "Hình vẽ: Tam giác $ABC$ cân tại $A$, cát tuyến $MN$ cắt $AB$ tại $M$, $AC$ tại $N$.\nGT: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \\neq B)$; $N \\in AC\\ (N \\neq C)$; $\\widehat{AMN} = \\widehat{ABC}$\nKL: a) $MN // BC$; b) Tứ giác $BMNC$ là hình gì? Vì sao?; c) Khi $\\widehat{B}=50^\\circ$, tính các góc của $BMNC$.",
-              "note": "Hình vẽ + GT/KL chuẩn mực.",
-              "teacher_feedback": "Trình bày hình vẽ và GT/KL chuẩn mực.",
+              "label": "0,00đ",
+              "ok": false,
+              "kind": "missing",
+              "student_text": "(Chưa vẽ hình hoặc chưa ghi bảng Giả thiết - Kết luận)",
+              "note": "Có vẽ hình tam giác $ABC$ nhưng chưa ghi bảng GT/KL.",
+              "teacher_feedback": "Cần chú ý vẽ hình và ghi GT/KL.",
               "y_norm": 260
             },
             {
