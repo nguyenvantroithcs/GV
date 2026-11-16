@@ -2104,6 +2104,17 @@
       const p2Answers = mcq.p2_answers || {};
       const p2Results = mcq.p2_results || {};
 
+      // Fallback an toàn sư phạm: Nếu chưa có mảng câu trả lời chi tiết nhưng học sinh có điểm
+      const hasAnswers = Object.keys(p1Answers).length > 0 || Object.keys(p2Answers).length > 0;
+      if (!hasAnswers && (mcq.total_score > 0 || mcq.p1_score > 0)) {
+        container.innerHTML = `
+          <div style="grid-column: 1 / -1; padding: 15px; background: #eff6ff; border: 1px dashed #93c5fd; border-radius: 8px; text-align: center; color: #1e40af; font-size: 14px; font-weight: 500;">
+            ℹ️ Học sinh đã hoàn thành phần trắc nghiệm (Đạt <b>${(mcq.p1_score || 0).toFixed(2).replace('.', ',')}đ</b> Phần I &amp; <b>${(mcq.p2_score || 0).toFixed(2).replace('.', ',')}đ</b> Phần II). Chi tiết từng câu tô của em được hiển thị trực tiếp trên ảnh bài làm đã chấm bên dưới.
+          </div>
+        `;
+        return;
+      }
+
       const keyP1 = (allExamsData && allExamsData.exam_info && allExamsData.exam_info.official_key_p1) || {
         "C1":"A","C2":"C","C3":"B","C4":"B","C5":"C","C6":"D","C7":"C","C8":"B","C9":"B","C10":"C","C11":"C","C12":"B"
       };
