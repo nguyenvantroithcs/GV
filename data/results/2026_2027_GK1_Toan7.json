@@ -1,0 +1,4929 @@
+{
+  "exam_info": {
+    "exam_id": "2026_2027_GK1_Toan7",
+    "exam_title": "Kiểm Tra Giữa Kỳ I - Môn Toán 7",
+    "subject": "Toán 7",
+    "academic_year": "2026 - 2027",
+    "term": "GK1",
+    "target_classes": [
+      "7A9",
+      "7A10"
+    ],
+    "max_score": 10.0,
+    "mcq_max": 7.0,
+    "essay_max": 3.0,
+    "official_key_p1": {
+      "C1": "A",
+      "C2": "B",
+      "C3": "D",
+      "C4": "C",
+      "C5": "C",
+      "C6": "B",
+      "C7": "C",
+      "C8": "B",
+      "C9": "A",
+      "C10": "A",
+      "C11": "D",
+      "C12": "D"
+    },
+    "official_key_p2": {
+      "13a": "S",
+      "13b": "Đ",
+      "13c": "Đ",
+      "13d": "S",
+      "14a": "Đ",
+      "14b": "Đ",
+      "14c": "S",
+      "14d": "S"
+    },
+    "official_key_p3": {
+      "C15": "-a",
+      "C16": "1",
+      "C17": "8,5",
+      "C18": "03",
+      "C19": "5,48",
+      "C20": "3",
+      "C21": "115",
+      "C22": "70"
+    }
+  },
+  "students": [
+    {
+      "submission_id": "hs_001",
+      "student_name": "Lê Vũ Phong",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 30,
+      "stt_vnedu": "30",
+      "hs_id": "5063989404",
+      "dob": "27/08/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.25,
+      "essay_score": 0.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.5,
+        "p3_score": 1.5,
+        "total_score": 5.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.50đ, Tự luận: 0.75đ. Khá, làm tốt trắc nghiệm.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/001_Bai_001_T1_133426_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/001_Bai_001_T2_133426_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_002",
+      "student_name": "Phan Nguyễn Anh Minh",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 23,
+      "stt_vnedu": "23",
+      "hs_id": "5063989264",
+      "dob": "27/04/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 10.0,
+      "essay_score": 3.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 3.0,
+        "p2_score": 2.0,
+        "p3_score": 2.0,
+        "total_score": 7.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 7.00đ, Tự luận: 3.00đ. Xuất sắc tuyệt đối 10/10, làm đúng cả C25.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.5,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.5/0.5đ"
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/002_Bai_002_T1_133838_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/002_Bai_002_T2_133838_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_003",
+      "student_name": "Hoàng Tuấn Hưng",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 19,
+      "stt_vnedu": "19",
+      "hs_id": "5063989144",
+      "dob": "13/03/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 9.0,
+      "essay_score": 2.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 3.0,
+        "p2_score": 2.0,
+        "p3_score": 1.5,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.50đ, Tự luận: 2.50đ. Xuất sắc 9,0đ, tự luận làm rất tốt C23 và C24.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/003_Bai_003_T1_133950_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/003_Bai_003_T2_133950_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_004",
+      "student_name": "Hoàng Phú Việt Anh",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 2,
+      "stt_vnedu": "2",
+      "hs_id": "5063988804",
+      "dob": "02/01/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.75,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.75,
+        "p3_score": 1.5,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.75đ, Tự luận: 1.50đ. Khá 7,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.0,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.0/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "C24 tính yAC = 90° (sai), tính toán linh tinh không có căn cứ (0đ)"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/004_Bai_004_T1_134025_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/004_Bai_004_T2_134025_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_005",
+      "student_name": "Đàm Thị Thu Huệ",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 15,
+      "stt_vnedu": "15",
+      "hs_id": "5063989064",
+      "dob": "14/12/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 3.75,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.25,
+        "p2_score": 0.5,
+        "p3_score": 1.0,
+        "total_score": 2.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 2.75đ, Tự luận: 1.00đ. Yếu 3,75đ, hổng kiến thức số học và góc.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/005_Bai_005_T1_134055_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/005_Bai_005_T2_134055_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_006",
+      "student_name": "Nguyễn Đoan Trang",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 36,
+      "stt_vnedu": "36",
+      "hs_id": "5063989524",
+      "dob": "27/09/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 3.75,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 0.5,
+        "p2_score": 1.5,
+        "p3_score": 0.75,
+        "total_score": 2.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 2.75đ, Tự luận: 1.00đ. Yếu 3,75đ, trắc nghiệm P1 sai nhiều.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/006_Bai_006_T1_134134_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/006_Bai_006_T2_134134_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_007",
+      "student_name": "Lý Kiềm Chán",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 6,
+      "stt_vnedu": "6",
+      "hs_id": "5063988884",
+      "dob": "28/07/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 3.75,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 0.5,
+        "p2_score": 1.5,
+        "p3_score": 0.75,
+        "total_score": 2.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 2.75đ, Tự luận: 1.00đ. Yếu 3,75đ, trắc nghiệm P1 sai nhiều.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/007_Bai_007_T1_134209_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/007_Bai_007_T2_134209_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_008",
+      "student_name": "Đỗ Trọng Trí",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 38,
+      "stt_vnedu": "38",
+      "hs_id": "5063989564",
+      "dob": "02/07/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.0,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.5,
+        "p2_score": 1.5,
+        "p3_score": 1.5,
+        "total_score": 4.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 4.50đ, Tự luận: 1.50đ. Trung bình - Khá 6,0đ, làm đúng hết C23.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/008_Bai_008_T1_134229_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_009",
+      "student_name": "Phan Thị Thuỳ Trâm",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 37,
+      "stt_vnedu": "37",
+      "hs_id": "5063989544",
+      "dob": "02/10/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.25,
+      "essay_score": 0.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.0,
+        "p2_score": 2.0,
+        "p3_score": 1.5,
+        "total_score": 5.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.50đ, Tự luận: 0.75đ. Trung bình - Khá 6,25đ, đúng hết Đúng/Sai.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/009_Bai_009_T1_134300_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/009_Bai_009_T2_134300_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_010",
+      "student_name": "Nguyễn Lê Anh Thư",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 35,
+      "stt_vnedu": "35",
+      "hs_id": "5063989504",
+      "dob": "13/09/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.5,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 1.5,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.00đ, Tự luận: 1.50đ. Khá - Giỏi 7,50đ, làm đúng hết C23.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/010_Bai_010_T1_134322_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_011",
+      "student_name": "Phan Thiên Bảo",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 5,
+      "stt_vnedu": "5",
+      "hs_id": "5063988864",
+      "dob": "24/03/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.0,
+      "essay_score": 0.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 1.5,
+        "p3_score": 1.0,
+        "total_score": 5.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.25đ, Tự luận: 1.00đ. Khá 6,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "C24a tính yAC = 80° (sai), 24b chung chung (0đ)"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/011_Bai_011_T1_134406_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/011_Bai_011_T2_134406_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_012",
+      "student_name": "Bùi Khánh Huyền",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 17,
+      "stt_vnedu": "17",
+      "hs_id": "5063989104",
+      "dob": "06/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.5,
+      "essay_score": 2.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 1.75,
+        "p3_score": 1.75,
+        "total_score": 6.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.25đ, Tự luận: 2.25đ. Giỏi 8,50đ, trình bày tự luận rất đẹp ngay trên T1.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/012_Bai_012_T1_134429_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_013",
+      "student_name": "Trịnh Tuấn Kiệt",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 22,
+      "stt_vnedu": "22",
+      "hs_id": "5063989204",
+      "dob": "10/10/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.5,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 1.5,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.00đ, Tự luận: 1.75đ. Khá - Giỏi 7,75đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.0,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.0/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.5,
+          "max_score": 1.0,
+          "note": "C24a chỉ ghi trơ trọi 100° không giải kề bù (0.25đ châm chước); 24b có ý so le trong (0.25đ)"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/013_Bai_013_T1_134458_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/013_Bai_013_T2_134458_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_014",
+      "student_name": "Nguyễn Thị Ngọc Khánh",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 21,
+      "stt_vnedu": "21",
+      "hs_id": "5063989184",
+      "dob": "30/03/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.0,
+      "essay_score": 2.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.0,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.75đ, Tự luận: 2.25đ. Giỏi 8,00đ, làm đúng hết C23.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.75,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.75/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/014_Bai_014_T1_134534_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/014_Bai_014_T2_134534_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_015",
+      "student_name": "Trần Hữu Hoà",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 13,
+      "stt_vnedu": "13",
+      "hs_id": "5063989024",
+      "dob": "03/10/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.0,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.75,
+        "p2_score": 1.5,
+        "p3_score": 1.25,
+        "total_score": 4.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 4.50đ, Tự luận: 0.50đ. Trung bình 5,00đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/015_Bai_015_T1_134624_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/015_Bai_015_T2_134624_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_016",
+      "student_name": "Lưu Đức Hoàng",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 14,
+      "stt_vnedu": "14",
+      "hs_id": "5063989044",
+      "dob": "20/09/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.0,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.25,
+        "p2_score": 1.75,
+        "p3_score": 1.5,
+        "total_score": 4.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 4.50đ, Tự luận: 1.50đ. Trung bình - Khá 6,00đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/016_Bai_016_T1_134653_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/016_Bai_016_T2_134653_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_017",
+      "student_name": "Võ Nguyễn Zu My",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 25,
+      "stt_vnedu": "25",
+      "hs_id": "5063989304",
+      "dob": "29/06/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.0,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.0,
+        "p2_score": 2.0,
+        "p3_score": 1.5,
+        "total_score": 5.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.50đ, Tự luận: 1.75đ. Khá 7,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "C24a ghi 80° (sai, 0đ); 24b chỉ ra cặp góc so le trong 50° song song (0.25đ)"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/017_Bai_017_T1_134724_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/017_Bai_017_T2_134724_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_018",
+      "student_name": "Lê Quang Quốc Anh",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 3,
+      "stt_vnedu": "3",
+      "hs_id": "5063988824",
+      "dob": "20/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.75,
+        "p2_score": 1.75,
+        "p3_score": 1.5,
+        "total_score": 5.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.00đ, Tự luận: 1.25đ. Trung bình - Khá 6,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.0,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.0/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "C24a tính yAC = 80° (sai), 24b chung chung (0đ)"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/018_Bai_018_T1_134804_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/018_Bai_018_T2_134804_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_019",
+      "student_name": "Hoàng Bảo Hân",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 11,
+      "stt_vnedu": "11",
+      "hs_id": "5063988984",
+      "dob": "17/11/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.25,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.75,
+        "p2_score": 1.75,
+        "p3_score": 1.5,
+        "total_score": 5.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.00đ, Tự luận: 1.25đ. Trung bình - Khá 6,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.0,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.0/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/019_Bai_019_T1_134832_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/019_Bai_019_T2_134832_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_020",
+      "student_name": "Hoàng Thị Yến Nhi",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 28,
+      "stt_vnedu": "28",
+      "hs_id": "5063989364",
+      "dob": "08/04/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.25,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.75,
+        "p2_score": 1.5,
+        "p3_score": 0.75,
+        "total_score": 4.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 4.00đ, Tự luận: 1.25đ. Trung bình 5,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/020_Bai_020_T1_134857_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/020_Bai_020_T2_134857_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_021",
+      "student_name": "Võ Tấn Phát",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 29,
+      "stt_vnedu": "29",
+      "hs_id": "5063989384",
+      "dob": "21/11/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.0,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 3.0,
+        "p2_score": 2.0,
+        "p3_score": 1.5,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.50đ, Tự luận: 1.50đ. Giỏi 8,00đ, trắc nghiệm P1 và P2 tuyệt đối.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/021_Bai_021_T1_134931_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/021_Bai_021_T2_134931_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_022",
+      "student_name": "Lưu Trần Phương Thảo",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 34,
+      "stt_vnedu": "34",
+      "hs_id": "5063989484",
+      "dob": "27/03/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 9.0,
+      "essay_score": 2.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.25đ, Tự luận: 2.75đ. Xuất sắc 9,00đ, làm đúng C23, C24 và một phần C25.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.25,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.25/0.5đ"
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/022_Bai_022_T1_135004_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/022_Bai_022_T2_135004_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_023",
+      "student_name": "Lê Thị Quỳnh Chi",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 7,
+      "stt_vnedu": "7",
+      "hs_id": "5063988904",
+      "dob": "24/06/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 2.25,
+      "essay_score": 0.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.25,
+        "p2_score": 1.0,
+        "p3_score": 0.0,
+        "total_score": 2.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 2.25đ, Tự luận: 0.00đ. Yếu 2,25đ, làm ẩu.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.0,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.0/1.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/023_Bai_023_T1_135637_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/023_Bai_023_T2_135637_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_024",
+      "student_name": "Nguyễn Chí Thanh",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 32,
+      "stt_vnedu": "32",
+      "hs_id": "5063989444",
+      "dob": "12/01/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.5,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 2.0,
+        "p3_score": 1.25,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.00đ, Tự luận: 1.50đ. Khá - Giỏi 7,50đ, làm đúng trọn vẹn C23.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/024_Bai_024_T1_152447_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_025",
+      "student_name": "Nguyễn Lê Ánh Tuyết",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 39,
+      "stt_vnedu": "39",
+      "hs_id": "5063988764",
+      "dob": "05/11/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.5,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 2.0,
+        "p3_score": 1.5,
+        "total_score": 6.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.25đ, Tự luận: 1.25đ. Khá - Giỏi 7,50đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/025_Bai_025_T1_152523_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/025_Bai_025_T2_152523_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_026",
+      "student_name": "Trương Kiến Minh",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 24,
+      "stt_vnedu": "24",
+      "hs_id": "5063989284",
+      "dob": "13/06/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.0,
+      "essay_score": 2.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.25,
+        "p2_score": 2.0,
+        "p3_score": 1.5,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.75đ, Tự luận: 2.25đ. Giỏi 8,00đ, làm đúng trọn vẹn C23.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.75,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.75/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/026_Bai_026_T1_152606_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/026_Bai_026_T2_152606_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_027",
+      "student_name": "Nguyễn Đoan Sang",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 31,
+      "stt_vnedu": "31",
+      "hs_id": "5063989424",
+      "dob": "20/03/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.75,
+      "essay_score": 1.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 1.75,
+        "p3_score": 1.5,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6,00đ. Tự luận: 1,75đ (C23: 1,25đ; C24: 0,50đ [tính nhầm 180-80=80 độ]; C25: 0,00đ [biến đổi sai]). Khá - Giỏi 7,75đ sau hậu kiểm.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.5,
+          "max_score": 1.0,
+          "note": "Câu 24 tính nhầm 180 - 80 = 80 độ, ngộ nhận góc (0,50đ)"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 biến đổi sai bản chất toán học, chỉ chép lại đề (0,00đ)",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/027_Bai_027_T1_152641_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/027_Bai_027_T2_152641_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_028",
+      "student_name": "Huỳnh Thị Gia Hân",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 12,
+      "stt_vnedu": "12",
+      "hs_id": "5063989004",
+      "dob": "11/01/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.25,
+      "essay_score": 2.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 1.25,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.75đ, Tự luận: 2.50đ. Giỏi 8,25đ, tự luận làm tuyệt đối C23 và C24.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/028_Bai_028_T1_152707_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/028_Bai_028_T2_152707_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_029",
+      "student_name": "Đinh Đăng An",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 1,
+      "stt_vnedu": "1",
+      "hs_id": "5063988784",
+      "dob": "23/06/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.25,
+      "essay_score": 2.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.25,
+        "p2_score": 1.75,
+        "p3_score": 1.25,
+        "total_score": 5.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.25đ, Tự luận: 2.00đ. Khá 7,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.5,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.5/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/029_Bai_029_T1_152737_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/029_Bai_029_T2_152737_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_030",
+      "student_name": "Hồ Công Nguyên",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 27,
+      "stt_vnedu": "27",
+      "hs_id": "5063989344",
+      "dob": "11/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.25,
+      "essay_score": 0.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.75,
+        "p2_score": 1.25,
+        "p3_score": 1.5,
+        "total_score": 4.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 4.50đ, Tự luận: 0.75đ. Trung bình 5,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/030_Bai_030_T1_152802_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/030_Bai_030_T2_152802_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_031",
+      "student_name": "Vũ Thị Diệu Huyền",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 18,
+      "stt_vnedu": "18",
+      "hs_id": "5063989124",
+      "dob": "01/12/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.0,
+      "essay_score": 0.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.75,
+        "p2_score": 1.5,
+        "p3_score": 1.0,
+        "total_score": 4.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 4.25đ, Tự luận: 1.00đ. Trung bình 5,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "C24a có phép tính 180 - 80 = 100° (0.25đ); 24b giải thích hình chữ Z không đúng ngôn ngữ toán (0đ)"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/031_Bai_031_T1_152825_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/031_Bai_031_T2_152825_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_032",
+      "student_name": "Khúc Nguyễn Thu Ngân",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 26,
+      "stt_vnedu": "26",
+      "hs_id": "5063989324",
+      "dob": "22/07/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.0,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.75,
+        "p2_score": 1.5,
+        "p3_score": 1.5,
+        "total_score": 4.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 4.75đ, Tự luận: 1.25đ. Trung bình - Khá 6,00đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/032_Bai_032_T1_152851_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/032_Bai_032_T2_152851_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_033",
+      "student_name": "Lê Bùi Gia Huy",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 16,
+      "stt_vnedu": "16",
+      "hs_id": "5063989084",
+      "dob": "08/09/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 3.0,
+      "essay_score": 0.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.75,
+        "p2_score": 0.75,
+        "p3_score": 0.5,
+        "total_score": 3.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 3.00đ, Tự luận: 0.00đ. Yếu 3,00đ, không làm tự luận.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.0,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.0/1.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/033_Bai_033_T1_152906_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_034",
+      "student_name": "Nguyễn Xuân Thành",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 33,
+      "stt_vnedu": "33",
+      "hs_id": "5063989464",
+      "dob": "06/08/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.0,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.50đ, Tự luận: 1.75đ. Giỏi 8,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "C24a chỉ ghi đáp số 100° (0.25đ châm chước); 24b chép lại đề không chứng minh (0đ)"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/034_Bai_034_T1_152939_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/034_Bai_034_T2_152939_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_035",
+      "student_name": "Ngô Quỳnh Bảo Yến",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 43,
+      "stt_vnedu": "43",
+      "hs_id": "5063989644",
+      "dob": "11/06/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.0,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 3.0,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.75đ, Tự luận: 2.00đ. Giỏi - Xuất sắc 8,75đ, trắc nghiệm tuyệt đối.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "C24 tính sai 130° và tự lấy bút gạch chéo hủy toàn bộ bài (0đ)"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/035_Bai_035_T1_153006_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/035_Bai_035_T2_153006_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_036",
+      "student_name": "Nguyễn Tuấn Anh",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 4,
+      "stt_vnedu": "4",
+      "hs_id": "5063988844",
+      "dob": "02/03/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.25,
+      "essay_score": 1.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 3.0,
+        "p2_score": 2.0,
+        "p3_score": 1.5,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.50đ, Tự luận: 1.75đ. Giỏi 8,25đ, trắc nghiệm tuyệt đối.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/036_Bai_036_T1_153028_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/036_Bai_036_T2_153028_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_037",
+      "student_name": "Ngô Tiến Dũng",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 10,
+      "stt_vnedu": "10",
+      "hs_id": "5063988964",
+      "dob": "16/04/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 3.25,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.5,
+        "p2_score": 1.0,
+        "p3_score": 0.25,
+        "total_score": 2.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 2,75đ. Tự luận: 0,50đ (Câu 23a làm đúng tính chất phân phối ra 1/5). Tổng điểm sau hậu kiểm: 3,25đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23a làm đúng tính chất phân phối (+0,50đ)",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/037_Bai_037_T1_153059_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/037_Bai_037_T2_153059_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_038",
+      "student_name": "Vũ Thế Danh",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 9,
+      "stt_vnedu": "9",
+      "hs_id": "5063988944",
+      "dob": "28/06/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.75,
+      "essay_score": 2.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6,25đ (P1: 2,50đ [sai C1 tô C, C12 tô B]; P2: 2,00đ; P3: 1,75đ [bỏ trống C16]). Tự luận: 2,50đ (C23: 1,50đ; C24: 1,00đ). Giỏi 8,75đ sau hậu kiểm.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/038_Bai_038_T1_153121_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/038_Bai_038_T2_153121_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_039",
+      "student_name": "Bùi Thị Hải Yến",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 42,
+      "stt_vnedu": "42",
+      "hs_id": "5063989624",
+      "dob": "26/06/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.0,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 2.0,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.50đ, Tự luận: 1.50đ. Giỏi 8,00đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/039_Bai_039_T1_153144_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/039_Bai_039_T2_153144_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_040",
+      "student_name": "Hoàng Văn Vỹ",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 41,
+      "stt_vnedu": "41",
+      "hs_id": "5063989604",
+      "dob": "26/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.5,
+      "essay_score": 2.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.75,
+        "p3_score": 2.0,
+        "total_score": 6.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 6.25đ, Tự luận: 2.25đ. Giỏi 8,50đ, C23 tuyệt đối.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.75,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.75/1.0đ"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/040_Bai_040_T1_153224_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/040_Bai_040_T2_153224_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_041",
+      "student_name": "Triệu Tuấn Hưng",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 20,
+      "stt_vnedu": "20",
+      "hs_id": "5063989164",
+      "dob": "28/01/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.5,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.75,
+        "p2_score": 1.75,
+        "p3_score": 1.75,
+        "total_score": 5.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 5.25đ, Tự luận: 1.25đ. Khá 6,50đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/041_Bai_041_T1_153253_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/041_Bai_041_T2_153253_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_042",
+      "student_name": "Phạm Việt Cường",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 8,
+      "stt_vnedu": "8",
+      "hs_id": "5063988924",
+      "dob": "21/12/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.5,
+      "essay_score": 0.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.0,
+        "p2_score": 2.0,
+        "p3_score": 0.75,
+        "total_score": 4.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 4.75đ, Tự luận: 0.75đ. Trung bình 5,50đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/042_Bai_042_T1_153309_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_043",
+      "student_name": "Phan Thị Ty Ty",
+      "student_class": "7A9",
+      "subject": "Toán 7",
+      "stt": 40,
+      "stt_vnedu": "40",
+      "hs_id": "5063989584",
+      "dob": "22/01/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.0,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.0,
+        "p3_score": 1.0,
+        "total_score": 4.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Điểm TN: 4.50đ, Tự luận: 0.50đ. Trung bình 5,00đ.",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/043_Bai_043_T1_153343_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A9/043_Bai_043_T2_153343_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_042",
+      "student_name": "Nguyễn Thái An",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 1,
+      "stt_vnedu": "1",
+      "hs_id": "5061453224",
+      "dob": "27/10/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.75,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.25,
+        "p2_score": 1.75,
+        "p3_score": 1.25,
+        "total_score": 5.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.25/7.0đ | Tự luận: 1.5/3.0đ. C23c viết 4/9 - 4/9 = 8/9 (0.25đ), GV cũ ghi đè số 0 mực đỏ; C24a có 100° (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/042_Bai_042_T1_155318_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/042_Bai_042_T2_155318_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_023",
+      "student_name": "Nguyễn Thị Vân Anh",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 2,
+      "stt_vnedu": "2",
+      "hs_id": "5061453244",
+      "dob": "05/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.0,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.75,
+        "p2_score": 2.0,
+        "p3_score": 2.0,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.75/7.0đ | Tự luận: 1.25/3.0đ. P2 P3 tuyệt đối; C23 làm tốt 2 ý (1.25đ); C24 sai (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/023_Bai_023_T1_154536_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/023_Bai_023_T2_154536_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_032",
+      "student_name": "Thiều Hạ Mỹ Anh",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 3,
+      "stt_vnedu": "3",
+      "hs_id": "5061453264",
+      "dob": "14/03/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.5,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 3.0,
+        "p2_score": 1.75,
+        "p3_score": 1.25,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "TN: 6.00/7.0đ (P1: 3.0đ, P2: 1.75đ, P3: 1.25đ) | TL: 1.50/3.0đ (C23: 1.0đ [23a: 0.5, 23b: 0.0, 23c: 0.5], C24: 0.5đ). Tổng: 7.50đ",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.0,
+          "max_score": 1.5,
+          "note": "23a: 0.5đ, 23b: 0.0đ (hs ghi 3^2 + -4^2 = -7 là sai, bỏ qua nét vẽ căn đỏ của GV), 23c: 0.5đ (đúng ở đầu trang 2)"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.5,
+          "max_score": 1.0,
+          "note": "24a: ghi đáp số 100° thiếu bước tính; 24b: lập luận so le trong 50° Ax//BC (0.5đ)"
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Bỏ trống"
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/032_Bai_032_T1_154905_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/032_Bai_032_T2_154905_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_028",
+      "student_name": "Trần Hoàng Nhật Anh",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 4,
+      "stt_vnedu": "4",
+      "hs_id": "5061453284",
+      "dob": "01/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.75,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.75,
+        "p3_score": 2.0,
+        "total_score": 6.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.25/7.0đ | Tự luận: 1.5/3.0đ. TN tốt (6.25đ); C23 trọn vẹn 3 ý (1.50đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/028_Bai_028_T1_154724_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/028_Bai_028_T2_154724_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_034",
+      "student_name": "Nguyễn Đàm Thiên Ân",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 5,
+      "stt_vnedu": "5",
+      "hs_id": "5061453304",
+      "dob": "30/07/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.75,
+      "essay_score": 1.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 1.5,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.0/7.0đ | Tự luận: 1.75/3.0đ. C23 trọn vẹn (1.50đ); C24a tính nhầm 50° (0đ), 24b có ý so le trong (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/034_Bai_034_T1_154956_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/034_Bai_034_T2_154956_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_010",
+      "student_name": "Nguyễn Linh Chi",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 6,
+      "stt_vnedu": "6",
+      "hs_id": "5061453324",
+      "dob": "28/10/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.0,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 2.0,
+        "p3_score": 2.0,
+        "total_score": 6.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.75/7.0đ | Tự luận: 1.25/3.0đ. TN tốt (6.75đ); C23 làm được 2 ý (1.25đ); C24 sai (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/010_Bai_010_T1_154026_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/010_Bai_010_T2_154026_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_024",
+      "student_name": "Hứa Bích Duyên",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 7,
+      "stt_vnedu": "7",
+      "hs_id": "5061453344",
+      "dob": "28/10/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.75,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.0,
+        "p2_score": 2.0,
+        "p3_score": 1.25,
+        "total_score": 5.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.25/7.0đ | Tự luận: 0.5/3.0đ. P2 tuyệt đối; C23a có đáp số (0.25đ); C24b có ý tưởng 50° song song (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/024_Bai_024_T1_154607_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/024_Bai_024_T2_154607_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_018",
+      "student_name": "Trần Hải Dương",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 8,
+      "stt_vnedu": "8",
+      "hs_id": "5061453364",
+      "dob": "31/01/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.5,
+      "essay_score": 0.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 2.0,
+        "p3_score": 2.0,
+        "total_score": 6.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.75/7.0đ | Tự luận: 0.75/3.0đ. TN rất tốt 6.75đ; C23a đúng 0.5đ, 23b nhầm -13 (0.25đ), 23c chép đề (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/018_Bai_018_T1_154334_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/018_Bai_018_T2_154334_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_006",
+      "student_name": "Lê Thị Anh Đào",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 9,
+      "stt_vnedu": "9",
+      "hs_id": "5061453384",
+      "dob": "10/07/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 9.0,
+      "essay_score": 2.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 2.0,
+        "p3_score": 2.0,
+        "total_score": 6.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.75/7.0đ | Tự luận: 2.25/3.0đ. C23b tính nhầm = 13 (0.25đ), C24 trọn vẹn (1.00đ), C25 văn xuôi cảm tính (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/006_Bai_006_T1_153842_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/006_Bai_006_T2_153842_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_039",
+      "student_name": "Nguyễn Lê Bảo Đông",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 10,
+      "stt_vnedu": "10",
+      "hs_id": "5061453404",
+      "dob": "18/10/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.25,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.5,
+        "p2_score": 2.0,
+        "p3_score": 1.25,
+        "total_score": 4.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 4.75/7.0đ | Tự luận: 1.5/3.0đ. P2 tuyệt đối; C23 đạt 1.25đ; C24a ghi rõ mực xanh 100° khôi phục +0.25đ",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/039_Bai_039_T1_155205_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/039_Bai_039_T2_155205_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_022",
+      "student_name": "Ngô Khánh Hoàng",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 11,
+      "stt_vnedu": "11",
+      "hs_id": "5061453444",
+      "dob": "14/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.0,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.0,
+        "p2_score": 1.75,
+        "p3_score": 1.25,
+        "total_score": 5.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.0/7.0đ | Tự luận: 1.0/3.0đ. C23a = 0.5đ, 23b = 0.25đ, 23c = 0.25đ; C24 bỏ trống",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.0,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.0/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/022_Bai_022_T1_154513_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/022_Bai_022_T2_154513_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_014",
+      "student_name": "Nguyễn Huy Hoàng",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 12,
+      "stt_vnedu": "12",
+      "hs_id": "5061453464",
+      "dob": "30/01/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 9.0,
+      "essay_score": 2.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 3.0,
+        "p2_score": 2.0,
+        "p3_score": 2.0,
+        "total_score": 7.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 7.0/7.0đ | Tự luận: 2.0/3.0đ. TN tuyệt đối 7.00đ; C23 trọn vẹn (1.50đ); C24a chỉ ghi 100° (0.25đ), 24b nhầm đồng vị (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.5,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.5/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/014_Bai_014_T1_154153_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/014_Bai_014_T2_154153_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_029",
+      "student_name": "Lê Vũ Việt Hùng",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 13,
+      "stt_vnedu": "13",
+      "hs_id": "5061453484",
+      "dob": "18/05/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.75,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.25,
+        "p2_score": 1.5,
+        "p3_score": 1.0,
+        "total_score": 4.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.0/7.0đ | Tự luận: 1.0/3.0đ. C23b đúng 0.5đ, C23c có đáp số 0 (0.25đ), C24a có 100° (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/029_Bai_029_T1_154802_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/029_Bai_029_T2_154802_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_041",
+      "student_name": "Nguyễn Quốc Khánh",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 14,
+      "stt_vnedu": "14",
+      "hs_id": "5061453544",
+      "dob": "02/09/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.75,
+      "essay_score": 1.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.75,
+        "p3_score": 0.5,
+        "total_score": 4.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 4.75/7.0đ | Tự luận: 1.0/3.0đ. C23b đúng 0.5đ, 23a rút gọn 0.25đ; C24a có 100° (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/041_Bai_041_T1_155253_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/041_Bai_041_T2_155253_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_035",
+      "student_name": "Văn Lương Quốc Khánh",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 15,
+      "stt_vnedu": "15",
+      "hs_id": "5053786267",
+      "dob": "02/09/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.25,
+      "essay_score": 2.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.25,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.75/7.0đ | Tự luận: 2.25/3.0đ. C24 vẽ hình và lập luận chứng minh rất chuẩn mực sư phạm (1.00đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/035_Bai_035_T1_155028_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/035_Bai_035_T2_155028_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_019",
+      "student_name": "Nguyễn Đình Anh Khoa",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 16,
+      "stt_vnedu": "16",
+      "hs_id": "5061453564",
+      "dob": "16/08/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.5,
+      "essay_score": 2.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.25/7.0đ | Tự luận: 2.25/3.0đ. C23b tính nhầm -13 (0.25đ); C23a 23c đúng (1.00đ); C24 trọn vẹn (1.00đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/019_Bai_019_T1_154357_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/019_Bai_019_T2_154357_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_040",
+      "student_name": "Đặng Hoàng Kiên",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 17,
+      "stt_vnedu": "17",
+      "hs_id": "5061453584",
+      "dob": "15/08/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 9.0,
+      "essay_score": 2.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.5/7.0đ | Tự luận: 2.5/3.0đ. C23 trọn 1.50đ; C24 lập luận kề bù và phân giác so le trong hoàn hảo (1.00đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/040_Bai_040_T1_155228_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/040_Bai_040_T2_155228_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_013",
+      "student_name": "Mông Quốc Kiên",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 18,
+      "stt_vnedu": "18",
+      "hs_id": "5061453604",
+      "dob": "23/01/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.75,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.25/7.0đ | Tự luận: 1.5/3.0đ. C23 đạt 1.25đ; C24b có ý cặp góc so le trong 50° (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/013_Bai_013_T1_154127_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/013_Bai_013_T2_154127_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_033",
+      "student_name": "Đỗ Nhã Kỳ",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 19,
+      "stt_vnedu": "19",
+      "hs_id": "5061453624",
+      "dob": "20/08/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.0,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 1.25,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.25/7.0đ | Tự luận: 1.25/3.0đ. P2 tuyệt đối; C23 đạt 0.75đ; C24 đạt 0.50đ (24a: 0.25, 24b: 0.25)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.75,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.5,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.5/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/033_Bai_033_T1_154931_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/033_Bai_033_T2_154931_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_003",
+      "student_name": "Lê Thị Thảo Lanh",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 20,
+      "stt_vnedu": "20",
+      "hs_id": "5061453644",
+      "dob": "02/11/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 3.5,
+      "essay_score": 0.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.0,
+        "p2_score": 1.5,
+        "p3_score": 0.75,
+        "total_score": 3.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 3.75/7.0đ | Tự luận: 0.25/3.0đ. C23c có bước phương pháp đầu (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/003_Bai_003_T1_153733_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/003_Bai_003_T2_153733_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_015",
+      "student_name": "Đàm Duy Mạnh",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 21,
+      "stt_vnedu": "21",
+      "hs_id": "5061453664",
+      "dob": "10/12/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.25,
+      "essay_score": 2.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.75,
+        "p3_score": 1.5,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.75/7.0đ | Tự luận: 2.5/3.0đ. C23 và C24 trình bày mẫu mực, trọn vẹn (2.50đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/015_Bai_015_T1_154223_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/015_Bai_015_T2_154223_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_020",
+      "student_name": "Hoàng Tiến Minh",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 22,
+      "stt_vnedu": "22",
+      "hs_id": "5061453684",
+      "dob": "01/10/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.0,
+      "essay_score": 2.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.25,
+        "p2_score": 1.5,
+        "p3_score": 1.75,
+        "total_score": 5.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.5/7.0đ | Tự luận: 2.5/3.0đ. C23 và C24 làm bài đầy đủ, chính xác (2.50đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 1.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 1.0/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/020_Bai_020_T1_154422_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/020_Bai_020_T2_154422_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_008",
+      "student_name": "Trần Hà My",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 23,
+      "stt_vnedu": "23",
+      "hs_id": "5061453704",
+      "dob": "12/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 9.0,
+      "essay_score": 2.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 3.0,
+        "p2_score": 2.0,
+        "p3_score": 2.0,
+        "total_score": 7.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 7.0/7.0đ | Tự luận: 2.0/3.0đ. TN tuyệt đối 7.00đ; C23 trọn vẹn 1.50đ; C24a 0.50đ",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.5,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.5/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/008_Bai_008_T1_153937_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/008_Bai_008_T2_153937_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_016",
+      "student_name": "Bùi Nữ Tuyết Ngân",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 24,
+      "stt_vnedu": "24",
+      "hs_id": "5061453724",
+      "dob": "04/04/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.25,
+      "essay_score": 2.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.5,
+        "p3_score": 1.5,
+        "total_score": 5.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.5/7.0đ | Tự luận: 2.75/3.0đ. C25 xuất sắc nhất lớp chứng minh 3A (0.50đ); C24b nhầm từ đồng vị (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.75,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.75/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.5,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.5/0.5đ",
+          "is_skipped": false
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/016_Bai_016_T1_154252_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/016_Bai_016_T2_154252_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_017",
+      "student_name": "Đỗ Phạm Gia Nghĩa",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 25,
+      "stt_vnedu": "25",
+      "hs_id": "5061453764",
+      "dob": "29/10/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 3.5,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.5,
+        "p2_score": 1.0,
+        "p3_score": 0.5,
+        "total_score": 3.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 3.0/7.0đ | Tự luận: 0.5/3.0đ. C23a có đặt thừa số chung (0.25đ); C24a có 100° (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/017_Bai_017_T1_154314_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/017_Bai_017_T2_154314_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_030",
+      "student_name": "Nguyễn Trần Bảo Ngọc",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 26,
+      "stt_vnedu": "26",
+      "hs_id": "5061453784",
+      "dob": "15/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.75,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.25/7.0đ | Tự luận: 0.5/3.0đ. C23a có đáp số 1/5 (0.25đ), C23c có đáp số 0 (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/030_Bai_030_T1_154823_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_009",
+      "student_name": "Trần Vũ Nguyên",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 27,
+      "stt_vnedu": "27",
+      "hs_id": "5061453804",
+      "dob": "05/08/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.75,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.5/7.0đ | Tự luận: 1.25/3.0đ. C23 làm được 2 ý (1.25đ); C24a tính 130° (0đ), 24b sai lập luận (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/009_Bai_009_T1_154003_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/009_Bai_009_T2_154003_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_012",
+      "student_name": "Ma Văn Nhất",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 28,
+      "stt_vnedu": "28",
+      "hs_id": "5061453824",
+      "dob": "13/07/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.25,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.0,
+        "p2_score": 1.25,
+        "p3_score": 1.75,
+        "total_score": 5.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.0/7.0đ | Tự luận: 1.25/3.0đ. C23 làm được 2 ý (1.25đ); C24a tính 130° (0đ), 24b luẩn quẩn (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/012_Bai_012_T1_154104_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/012_Bai_012_T2_154104_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_036",
+      "student_name": "Trần Thảo Yến Nhi",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 29,
+      "stt_vnedu": "29",
+      "hs_id": "5061453844",
+      "dob": "30/01/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.0,
+      "essay_score": 1.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.25,
+        "p2_score": 1.75,
+        "p3_score": 1.25,
+        "total_score": 5.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.25/7.0đ | Tự luận: 1.75/3.0đ. C23 đạt 1.50đ; C24a tính nhầm 50° (0đ), 24b có ý so le trong (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/036_Bai_036_T1_155050_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/036_Bai_036_T2_155050_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_025",
+      "student_name": "Phan Lê Gia Phúc",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 30,
+      "stt_vnedu": "30",
+      "hs_id": "5061453884",
+      "dob": "23/09/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.0,
+      "essay_score": 0.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.25,
+        "p3_score": 1.25,
+        "total_score": 5.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.0/7.0đ | Tự luận: 0.0/3.0đ. Tự luận bỏ trống (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.0,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.0/1.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/025_Bai_025_T1_154619_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_031",
+      "student_name": "Nguyễn Thanh Tâm",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 31,
+      "stt_vnedu": "31",
+      "hs_id": "5061453904",
+      "dob": "17/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.5,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.75,
+        "p3_score": 1.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.25/7.0đ | Tự luận: 0.5/3.0đ. P3 tuyệt đối (2.00đ); C23b đúng 19 (0.50đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/031_Bai_031_T1_154842_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_027",
+      "student_name": "Đặng Minh Tân",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 32,
+      "stt_vnedu": "32",
+      "hs_id": "5061453924",
+      "dob": "13/08/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 4.5,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.5,
+        "p2_score": 1.5,
+        "p3_score": 1.0,
+        "total_score": 4.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 4.0/7.0đ | Tự luận: 0.5/3.0đ. C23b đúng 19 (0.50đ); C24 sai",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/027_Bai_027_T1_154702_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_005",
+      "student_name": "Nguyễn Đình Thống",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 33,
+      "stt_vnedu": "33",
+      "hs_id": "5061453944",
+      "dob": "03/10/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 3.0,
+      "essay_score": 0.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.25,
+        "p2_score": 0.75,
+        "p3_score": 0.75,
+        "total_score": 2.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 2.75/7.0đ | Tự luận: 0.25/3.0đ. C23a có đáp số 1/5 (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/005_Bai_005_T1_153815_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_021",
+      "student_name": "Nguyễn Hồng Anh Thư",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 34,
+      "stt_vnedu": "34",
+      "hs_id": "5061453964",
+      "dob": "21/09/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.0,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.5,
+        "p3_score": 1.5,
+        "total_score": 5.5,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.5/7.0đ | Tự luận: 0.5/3.0đ. C23b đúng (0.50đ); C24 giải thích ngây thơ giống chữ Z (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/021_Bai_021_T1_154449_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/021_Bai_021_T2_154449_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_037",
+      "student_name": "Võ Trần Thị Anh Thư",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 35,
+      "stt_vnedu": "35",
+      "hs_id": "5061454004",
+      "dob": "16/12/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.5,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.5,
+        "p2_score": 1.75,
+        "p3_score": 1.75,
+        "total_score": 6.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.0/7.0đ | Tự luận: 0.5/3.0đ. C23b đúng 19 (0.50đ); C24 tính bừa 50° (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/037_Bai_037_T1_155116_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/037_Bai_037_T2_155116_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_004",
+      "student_name": "Ngô Quốc Toàn",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 36,
+      "stt_vnedu": "36",
+      "hs_id": "5061454024",
+      "dob": "27/01/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 3.5,
+      "essay_score": 1.25,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 1.0,
+        "p2_score": 0.75,
+        "p3_score": 0.5,
+        "total_score": 2.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 2.25/7.0đ | Tự luận: 1.25/3.0đ. C23a đúng (0.50đ), C23b đúng (0.50đ), C24a có ý (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.0,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.0/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/004_Bai_004_T1_153758_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_038",
+      "student_name": "Đoàn Ngô Quỳnh Trâm",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 37,
+      "stt_vnedu": "37",
+      "hs_id": "5061454044",
+      "dob": "10/03/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 8.25,
+      "essay_score": 1.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 3.0,
+        "p2_score": 2.0,
+        "p3_score": 1.75,
+        "total_score": 6.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.75/7.0đ | Tự luận: 1.5/3.0đ. P1 P2 tuyệt đối; C23c tính nhầm 10/9 (0.25đ); C24a tính nhầm 50° (0đ), 24b có ý (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/038_Bai_038_T1_155138_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/038_Bai_038_T2_155138_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_007",
+      "student_name": "Trịnh Thị Thanh Trúc",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 38,
+      "stt_vnedu": "38",
+      "hs_id": "5061454064",
+      "dob": "14/04/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 9.0,
+      "essay_score": 2.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 3.0,
+        "p2_score": 2.0,
+        "p3_score": 2.0,
+        "total_score": 7.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 7.0/7.0đ | Tự luận: 2.0/3.0đ. TN tuyệt đối 7.00đ; C24b vẽ sai cát tuyến không dùng phân giác (0.25đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.25,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.25/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.75,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.75/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/007_Bai_007_T1_153914_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/007_Bai_007_T2_153914_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_002",
+      "student_name": "Dương Trung Tỷ",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 39,
+      "stt_vnedu": "39",
+      "hs_id": "5061454084",
+      "dob": "09/06/2012",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 6.75,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 1.75,
+        "p3_score": 1.75,
+        "total_score": 6.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 6.25/7.0đ | Tự luận: 1.0/3.0đ. C23 chỉ ghi trơ trọi đáp số (0.75đ), C24a ra 200° (0.25đ), C24b bỏ trống (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.75/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/002_Bai_002_T1_153657_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/002_Bai_002_T2_153657_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_011",
+      "student_name": "Hồ Tấn Vĩ",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 40,
+      "stt_vnedu": "40",
+      "hs_id": "5061454104",
+      "dob": "20/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 5.75,
+      "essay_score": 0.5,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.0,
+        "p2_score": 1.75,
+        "p3_score": 1.5,
+        "total_score": 5.25,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.25/7.0đ | Tự luận: 0.5/3.0đ. Chỉ nộp 1 trang, không làm C24; C23b đúng (0.50đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/011_Bai_011_T1_154039_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_001",
+      "student_name": "Đào Hoàng Phi Yến",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 41,
+      "stt_vnedu": "41",
+      "hs_id": "5061454124",
+      "dob": "21/11/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 7.5,
+      "essay_score": 1.75,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 2.75,
+        "p2_score": 1.5,
+        "p3_score": 1.5,
+        "total_score": 5.75,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 5.75/7.0đ | Tự luận: 1.75/3.0đ. C23 tốt (1.50đ), C24a tính rối rắm ra 200°, 24b nhầm đồng vị (0.25đ ý tưởng)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 1.5,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 1.5/1.5đ"
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.25,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.25/1.0đ",
+          "is_skipped": false
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/001_Bai_001_T1_153632_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/001_Bai_001_T2_153632_DaCham.jpg"
+      ]
+    },
+    {
+      "submission_id": "hs_026",
+      "student_name": "Triệu Mai Thùy",
+      "student_class": "7A10",
+      "subject": "Toán 7",
+      "stt": 42,
+      "stt_vnedu": "42",
+      "hs_id": "5055057984",
+      "dob": "20/02/2014",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 2.0,
+      "essay_score": 0.0,
+      "essay_max": 3.0,
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "p1_score": 0.75,
+        "p2_score": 0.75,
+        "p3_score": 0.5,
+        "total_score": 2.0,
+        "max_score": 7.0,
+        "bubbles": []
+      },
+      "summary_comment": "Trắc nghiệm: 2.0/7.0đ | Tự luận: 0.0/3.0đ. Tự luận sai toàn bộ (0đ)",
+      "questions": [
+        {
+          "question_no": "Câu 23",
+          "score": 0.0,
+          "max_score": 1.5,
+          "note": "Câu 23 đạt 0.0/1.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 24",
+          "score": 0.0,
+          "max_score": 1.0,
+          "note": "Câu 24 đạt 0.0/1.0đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        },
+        {
+          "question_no": "Câu 25",
+          "score": 0.0,
+          "max_score": 0.5,
+          "note": "Câu 25 đạt 0.0/0.5đ",
+          "is_skipped": true,
+          "box_2d": null,
+          "page_boxes": []
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/026_Bai_026_T1_154641_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Toan7/7A10/026_Bai_026_T2_154641_DaCham.jpg"
+      ]
+    }
+  ]
+}
