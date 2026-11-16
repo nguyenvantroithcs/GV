@@ -2432,7 +2432,10 @@
           let items = "";
           correctSteps.forEach(st => {
             const lbl = st.label || "+0,25đ";
-            const loc = typeof st.page_index === "number" ? `<span class="eval-page-badge">Trang ${st.page_index + 1}</span>` : "";
+            const totalPages = (currentStudentResult && currentStudentResult.graded_pages) ? currentStudentResult.graded_pages.length : 1;
+            let pageNum = typeof st.page_index === "number" ? st.page_index + 1 : 1;
+            if (pageNum > totalPages) pageNum = totalPages;
+            const loc = totalPages > 1 ? `<span class="eval-page-badge">Trang ${pageNum}</span>` : "";
             let bodyContent = "";
             if (st.student_text) {
               bodyContent += `<div style="font-weight:600;color:var(--gray-700);margin-bottom:3px;">📝 <em>${escapeHtml(st.student_text)}</em></div>`;
@@ -2482,7 +2485,10 @@
             const isRedundant = Boolean(st.is_redundant || st.kind === "redundant");
             const tag = isMissing ? "Thiếu ý" : (isRedundant ? "Viết thừa / Chép lại đề" : "Chưa chính xác");
             const note = st.note || "Chưa đạt yêu cầu theo barem đáp án.";
-            const loc = typeof st.page_index === "number" ? `<span class="eval-page-badge">Trang ${st.page_index + 1}</span>` : "";
+            const totalPages = (currentStudentResult && currentStudentResult.graded_pages) ? currentStudentResult.graded_pages.length : 1;
+            let pageNum = typeof st.page_index === "number" ? st.page_index + 1 : 1;
+            if (pageNum > totalPages) pageNum = totalPages;
+            const loc = totalPages > 1 ? `<span class="eval-page-badge">Trang ${pageNum}</span>` : "";
             let bodyContent = "";
             if (st.student_text) {
               bodyContent += `<div style="font-weight:600;color:var(--gray-700);margin-bottom:3px;">📝 <em>${escapeHtml(st.student_text)}</em></div>`;
