@@ -2208,7 +2208,7 @@
       let questionsToRender = [];
       if (p3Details.length > 0) {
         questionsToRender = p3Details;
-      } else {
+      } else if (Object.keys(p3Answers).length > 0) {
         const keys = Object.keys(officialKeyP3).length > 0 ? Object.keys(officialKeyP3) : Object.keys(p3Answers);
         questionsToRender = keys.map(k => {
           const studentAns = p3Answers[k] || "";
@@ -2226,6 +2226,14 @@
             model_solution: `Đáp số chính thức: **${officialKey || "---"}**`
           };
         });
+      } else {
+        // Fallback an toàn sư phạm: Chưa bóc tách riêng từng ô viết tay nhưng học sinh có điểm P3
+        container.innerHTML = `
+          <div style="padding: 16px; background: #eff6ff; border: 1px dashed #93c5fd; border-radius: 8px; text-align: center; color: #1e40af; font-size: 14px; font-weight: 500; line-height: 1.6;">
+            ℹ️ Học sinh đạt <b>${p3Score.toFixed(2).replace('.', ',')} / ${p3Max.toFixed(2).replace('.', ',')}đ</b> phần Trả lời ngắn viết tay (C15 – C22). Chi tiết từng câu và nét chấm sửa bút đỏ của Thầy/Cô được thể hiện trực quan trên ảnh bài làm đã chấm bên dưới.
+          </div>
+        `;
+        return;
       }
 
       questionsToRender.forEach((q, idx) => {
