@@ -2066,7 +2066,7 @@
       document.getElementById("resRateScore").textContent = `${((tot / mx) * 100).toFixed(1)}%`;
 
       const mcq = st.mcq || {};
-      const mcqTot = Number(mcq.total_score || 0);
+      const mcqTot = Number(mcq.total_score !== undefined ? mcq.total_score : (mcq.score || 0));
       const mcqMx = Number(mcq.max_score || 7);
       document.getElementById("resMcqScore").textContent = `${mcqTot.toFixed(2).replace(".", ",")} / ${mcqMx.toFixed(2).replace(".", ",")}đ`;
 
@@ -2294,10 +2294,12 @@
             ${statusBadge}
           </div>
           ${promptHtml}
-          <div class="sa-raw-box ${statusClass}">
-            <span style="font-weight:700;color:var(--gray-700);">📝 Nội dung học sinh đã viết:</span>
-            <span class="sa-student-ans">${studentAnsDisplay}</span>
-            <span style="font-size:12.5px;color:var(--gray-600);margin-left:auto;">Điểm: <strong>${qScoreStr}/${qMaxStr}đ</strong></span>
+          <div class="sa-raw-box ${statusClass}" style="flex-direction:column; align-items:flex-start; gap:6px;">
+            <div style="display:flex; justify-content:space-between; width:100%; align-items:center;">
+              <span style="font-weight:700; color:#1e293b;">📝 <strong>NỘI DUNG NGUYÊN VĂN HỌC SINH ĐÃ VIẾT TRONG BÀI LÀM:</strong></span>
+              <span style="font-size:12.5px; color:var(--gray-600);">Điểm: <strong>${qScoreStr}/${qMaxStr}đ</strong></span>
+            </div>
+            <div class="sa-student-ans" style="width:100%; font-size:15px; color:#1e293b; line-height:1.6; padding-left:4px;">${studentAnsDisplay}</div>
           </div>
           ${noteHtml}
           ${modelHtml}
@@ -2392,7 +2394,7 @@
         if (isSkipped || (!studentRawText && qScore === 0)) {
           rawTextHtml = `
             <div class="student-raw-box is-skipped">
-              <div class="raw-box-title">📝 NỘI DUNG NGUYÊN VĂN HỌC SINH ĐÃ VIẾT:</div>
+              <div class="raw-box-title">📝 <strong>NỘI DUNG NGUYÊN VĂN HỌC SINH ĐÃ VIẾT TRONG BÀI LÀM:</strong></div>
               <div class="raw-box-content skipped-text">⚠️ <em>(Học sinh không làm câu này / bỏ trống trên bài làm)</em></div>
             </div>
           `;
