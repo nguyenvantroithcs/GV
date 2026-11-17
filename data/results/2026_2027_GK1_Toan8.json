@@ -451,7 +451,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_034_omr.jpg"
       },
       "summary_comment": "Bài thi đạt điểm Giỏi xuất sắc (8,75 điểm)! Phần I đạt điểm tuyệt đối 12/12 (3,0đ), trả lời ngắn đúng 100% (2,0đ), Bài 1 đại số làm trọn vẹn 1,5/1,5đ. Em cần chú ý ghi tóm tắt Giả thiết - Kết luận cho bài hình và cẩn thận hơn trong phép trừ ở câu 2c.",
       "questions": [
@@ -533,7 +534,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/034_Bai_034_T1_211508_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/034_Bai_034_T2_211508_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_034_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210157_010",
@@ -941,7 +943,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_010_omr.jpg"
       },
       "summary_comment": "Phần I đạt điểm tuyệt đối (3,0/3,0đ), kỹ năng đại số và lập luận tốt. Cần lưu ý luôn vẽ hình và ghi GT/KL khi làm bài hình học.",
       "questions": [
@@ -1023,7 +1026,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/010_Bai_010_T1_210157_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/010_Bai_010_T2_210157_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_010_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211710_039",
@@ -1422,7 +1426,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_039_omr.jpg"
       },
       "summary_comment": "Em cần cố gắng nhiều hơn, tập trung ôn lại kiến thức cơ bản và làm đầy đủ các phần bài tập tự luận.",
       "questions": [
@@ -1463,7 +1468,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/039_Bai_039_T1_211710_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_039_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211802_041",
@@ -1871,7 +1877,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_041_omr.jpg"
       },
       "summary_comment": "Bài thi đạt kết quả Giỏi (8,00 điểm). Bài 1 đại số làm trọn vẹn 1,5/1,5đ, trả lời ngắn đúng 100%. Cần bổ sung bảng GT/KL và cẩn thận hơn khi tính góc ở câu 2c.",
       "questions": [
@@ -1953,7 +1960,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/041_Bai_041_T1_211802_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/041_Bai_041_T2_211802_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_041_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211339_031",
@@ -2357,7 +2365,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_031_omr.jpg"
       },
       "summary_comment": "Phần trắc nghiệm và trả lời ngắn làm rất xuất sắc (6,5/7,0đ)! Tự luận đạt 0,75đ. Em cần rèn thêm kỹ năng phân tích đa thức Bài 1 và hoàn thiện câu 2c.",
       "questions": [
@@ -2431,7 +2440,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/031_Bai_031_T1_211339_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/031_Bai_031_T2_211339_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_031_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211439_033",
@@ -2815,7 +2825,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_033_omr.jpg"
       },
       "summary_comment": "Phần I đạt điểm tuyệt đối 12/12 câu (3,0đ), trả lời ngắn đúng 100%, Bài 1 đại số đạt tuyệt đối 1,5/1,5đ, câu 2 giải trọn vẹn. Tổng điểm Giỏi (8,75đ)!",
       "questions": [
@@ -2897,7 +2908,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/033_Bai_033_T1_211439_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/033_Bai_033_T2_211439_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_033_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210013_007",
@@ -3304,7 +3316,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_007_omr.jpg"
       },
       "summary_comment": "Trắc nghiệm và trả lời ngắn nắm được kiến thức cơ bản (5,25đ). Em cần làm và nộp đầy đủ trang tự luận.",
       "questions": [
@@ -3345,7 +3358,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/007_Bai_007_T1_210013_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_007_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210328_013",
@@ -3752,7 +3766,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_013_omr.jpg"
       },
       "summary_comment": "Em cần cố gắng nhiều hơn, nắm vững kiến thức cơ bản về đơn thức, hằng đẳng thức và làm bài tự luận cẩn thận.",
       "questions": [
@@ -3793,7 +3808,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/013_Bai_013_T1_210328_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_013_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210624_018",
@@ -4201,7 +4217,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_018_omr.jpg"
       },
       "summary_comment": "Bài thi đạt điểm Giỏi xuất sắc (9,00 điểm)! Phần I đạt tuyệt đối 12/12 câu (3,0đ), tự luận trình bày rõ ràng, nắm vững phương pháp.",
       "questions": [
@@ -4283,7 +4300,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/018_Bai_018_T1_210624_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/018_Bai_018_T2_210624_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_018_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210130_009",
@@ -4691,7 +4709,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_009_omr.jpg"
       },
       "summary_comment": "Bài thi đạt điểm gần như tuyệt đối (9,75/10 điểm)! Trình bày khoa học, chữ viết đẹp, lập luận toán học mẫu mực.",
       "questions": [
@@ -4773,7 +4792,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/009_Bai_009_T1_210130_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/009_Bai_009_T2_210130_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_009_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211043_025",
@@ -5181,7 +5201,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_025_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt đạt 9,25 điểm! Tự luận đạt 2,75/3,0đ (Bài 1 đạt 1,5đ trọn vẹn, Bài 2 lập luận rất tốt, cần nhớ ghi thêm bảng GT/KL).",
       "questions": [
@@ -5263,7 +5284,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/025_Bai_025_T1_211043_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/025_Bai_025_T2_211043_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_025_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210819_021",
@@ -5671,7 +5693,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_021_omr.jpg"
       },
       "summary_comment": "Bài thi đạt kết quả xuất sắc (9,25 điểm)! Bài 1 đại số làm trọn vẹn 1,5/1,5đ, trả lời ngắn đúng 100%. Em cần phân bổ thời gian để làm nốt câu 2c hình học.",
       "questions": [
@@ -5753,7 +5776,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/021_Bai_021_T1_210819_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/021_Bai_021_T2_210819_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_021_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_205208_002",
@@ -6161,7 +6185,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_002_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trình bày sạch đẹp rõ ràng. Phần trắc nghiệm và trả lời ngắn làm tốt, tự luận đạt 2,25/3,0đ (Bài 2 làm trọn vẹn). Cần rèn thêm câu 1c nâng cao.",
       "questions": [
@@ -6243,7 +6268,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/002_Bai_002_T1_205208_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/002_Bai_002_T2_205208_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_002_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211623_037",
@@ -6651,7 +6677,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_037_omr.jpg"
       },
       "summary_comment": "Trắc nghiệm và trả lời ngắn làm tốt (5,75đ), Bài 2 hình học đạt 1,00đ (cần ghi thêm GT/KL). Em cần chú ý làm thêm Bài 1 phân tích đa thức thành nhân tử.",
       "questions": [
@@ -6717,7 +6744,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/037_Bai_037_T1_211623_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/037_Bai_037_T2_211623_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_037_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211736_040",
@@ -7124,7 +7152,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_040_omr.jpg"
       },
       "summary_comment": "Trả lời ngắn đạt tuyệt đối 2,0/2,0đ, trắc nghiệm làm khá tốt (5,5/7,0đ). Em cần làm và nộp đầy đủ phần tự luận ở trang 2.",
       "questions": [
@@ -7165,7 +7194,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/040_Bai_040_T1_211736_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_040_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_205826_004",
@@ -7572,7 +7602,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_004_omr.jpg"
       },
       "summary_comment": "Phần trả lời ngắn và trắc nghiệm làm khá tốt (5,5/7,0đ). Em cần chú ý làm và nộp đầy đủ phần tự luận ở trang 2 để nâng cao điểm số.",
       "questions": [
@@ -7613,7 +7644,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/004_Bai_004_T1_205826_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_004_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211107_026",
@@ -8021,7 +8053,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_026_omr.jpg"
       },
       "summary_comment": "Bài làm tốt (8,25 điểm). Trả lời ngắn và Bài 1 đại số làm trọn vẹn 100%. Em cần lưu ý tổng các góc trong tứ giác bằng $360^\\circ$ để tính đúng câu 2c.",
       "questions": [
@@ -8103,7 +8136,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/026_Bai_026_T1_211107_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/026_Bai_026_T2_211107_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_026_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211535_035",
@@ -8511,7 +8545,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_035_omr.jpg"
       },
       "summary_comment": "Bài thi đạt điểm Giỏi xuất sắc (9,25 điểm)! Phần I đạt tuyệt đối 12/12 câu (3,0đ), trả lời ngắn đúng 100%, Bài 1 đại số làm trọn vẹn 1,5/1,5đ. Khen ngợi em!",
       "questions": [
@@ -8593,7 +8628,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/035_Bai_035_T1_211535_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/035_Bai_035_T2_211535_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_035_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210711_019",
@@ -9001,7 +9037,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_019_omr.jpg"
       },
       "summary_comment": "Phần I đạt tuyệt đối 12/12 câu (3,0đ), tự luận đạt điểm Khá Giỏi (8,00đ). Cần lưu ý làm trọn vẹn câu 16 và hoàn thiện tính toán câu 2c.",
       "questions": [
@@ -9083,7 +9120,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/019_Bai_019_T1_210711_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/019_Bai_019_T2_210711_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_019_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_205915_005",
@@ -9491,7 +9529,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_005_omr.jpg"
       },
       "summary_comment": "Phần đại số Bài 1 làm lại ở trang 2 rất xuất sắc (1,5/1,5đ), trả lời ngắn đúng 100%. Em cần phân bổ thời gian đều hơn để vẽ hình và hoàn thành nốt câu 2b và 2c hình học.",
       "questions": [
@@ -9565,7 +9604,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/005_Bai_005_T1_205915_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/005_Bai_005_T2_205915_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_005_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210911_022",
@@ -9973,7 +10013,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_022_omr.jpg"
       },
       "summary_comment": "Bài thi đạt kết quả tốt (8,25 điểm). Trả lời ngắn đạt 100%, câu 1b, 1c và 2a, 2b làm rất tốt. Cần lưu ý không bỏ sót câu 1a cơ bản.",
       "questions": [
@@ -10055,7 +10096,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/022_Bai_022_T1_210911_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/022_Bai_022_T2_210911_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_022_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_205941_006",
@@ -10463,7 +10505,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_006_omr.jpg"
       },
       "summary_comment": "Trả lời ngắn đạt điểm tuyệt đối 2,0/2,0đ. Em cần tập trung luyện thêm kỹ năng phân tích đa thức thành nhân tử và lập luận hình học.",
       "questions": [
@@ -10513,7 +10556,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/006_Bai_006_T1_205941_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/006_Bai_006_T2_205941_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_006_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211648_038",
@@ -10921,7 +10965,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_038_omr.jpg"
       },
       "summary_comment": "Bài thi đạt điểm Khá (7,25 điểm). Trả lời ngắn đạt 100%, làm tốt câu 1b và câu 2a, 2c (Bài 2 đạt 1,00đ). Cần ghi bảng GT/KL và rèn thêm câu 1c.",
       "questions": [
@@ -11003,7 +11048,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/038_Bai_038_T1_211648_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/038_Bai_038_T2_211648_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_038_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210740_020",
@@ -11411,7 +11457,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_020_omr.jpg"
       },
       "summary_comment": "Bài thi đạt điểm Giỏi xuất sắc (9,00 điểm)! Bài hình 2 làm trọn vẹn 1,5/1,5đ, trình bày cẩn thận, chữ viết đẹp.",
       "questions": [
@@ -11493,7 +11540,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/020_Bai_020_T1_210740_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/020_Bai_020_T2_210740_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_020_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210420_015",
@@ -11901,7 +11949,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_015_omr.jpg"
       },
       "summary_comment": "Em cần chú ý ôn tập kỹ hơn về phương pháp phân tích đa thức thành nhân tử và các bước chứng minh hình học.",
       "questions": [
@@ -11943,7 +11992,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/015_Bai_015_T1_210420_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/015_Bai_015_T2_210420_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_015_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_191343_001",
@@ -12351,7 +12401,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_001_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt phần trắc nghiệm (6,75/7,0đ), trả lời ngắn tính toán chính xác 100% và nắm vững kiến thức hình học cơ bản (Bài 2 đạt 1,00đ). Cần lưu ý: tránh dùng từ khẩu ngữ trong bài hình ('rút ra' $\\rightarrow$ dùng 'Suy ra' hoặc $\\Rightarrow$), và nhớ hoàn thành Bài 1 phân tích đa thức thành nhân tử.",
       "questions": [
@@ -12417,7 +12468,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/001_Bai_001_T1_191343_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/001_Bai_001_T2_191343_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_001_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210513_017",
@@ -12825,7 +12877,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_017_omr.jpg"
       },
       "summary_comment": "Bài làm tốt (8,25 điểm). Trắc nghiệm nắm rất chắc, lập luận hình học câu a và b chặt chẽ. Cần lưu ý hoàn thiện câu 1b và tính toán câu 2c.",
       "questions": [
@@ -12907,7 +12960,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/017_Bai_017_T1_210513_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/017_Bai_017_T2_210513_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_017_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210941_023",
@@ -13315,7 +13369,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_023_omr.jpg"
       },
       "summary_comment": "Bài làm Khá (7,75 điểm). Trả lời ngắn đúng 100%, tự luận làm tốt câu 1b, 1c và 2a, 2b. Cần chú ý làm đầy đủ câu 1a và câu 2c.",
       "questions": [
@@ -13397,7 +13452,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/023_Bai_023_T1_210941_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/023_Bai_023_T2_210941_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_023_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210226_011",
@@ -13805,7 +13861,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_011_omr.jpg"
       },
       "summary_comment": "Tự luận đạt tuyệt đối 3.0/3.0đ, trả lời ngắn đúng 100%. Em làm bài rất cẩn thận và nắm chắc kiến thức.",
       "questions": [
@@ -13887,7 +13944,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/011_Bai_011_T1_210226_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/011_Bai_011_T2_210226_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_011_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210257_012",
@@ -14295,7 +14353,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_012_omr.jpg"
       },
       "summary_comment": "Bài hình 2 lập luận rất tốt (1,25/1,5đ, cần chú ý ghi đúng bảng GT/KL). Em cần ôn luyện thêm phần đại số (hằng đẳng thức và phân tích đa thức thành nhân tử) để nâng điểm.",
       "questions": [
@@ -14369,7 +14428,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/012_Bai_012_T1_210257_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/012_Bai_012_T2_210257_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_012_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211407_032",
@@ -14773,7 +14833,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_032_omr.jpg"
       },
       "summary_comment": "Bài thi đạt điểm Giỏi xuất sắc (8,75 điểm)! Trắc nghiệm và trả lời ngắn làm rất chắc (6,25đ), tự luận làm tốt câu 1a, 1b và 2a, 2b.",
       "questions": [
@@ -14855,7 +14916,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/032_Bai_032_T1_211407_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/032_Bai_032_T2_211407_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_032_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211311_030",
@@ -15263,7 +15325,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_030_omr.jpg"
       },
       "summary_comment": "Trả lời ngắn đạt tuyệt đối 2,0/2,0đ, làm tốt câu 1b. Em cần chú ý làm Bài 2 hình học để cải thiện điểm số.",
       "questions": [
@@ -15321,7 +15384,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/030_Bai_030_T1_211311_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/030_Bai_030_T2_211311_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_030_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210049_008",
@@ -15729,7 +15793,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_008_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc! Tự luận đạt điểm tối đa 3.0/3.0đ, nắm rất vững phương pháp chứng minh và biến đổi.",
       "questions": [
@@ -15811,7 +15876,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/008_Bai_008_T1_210049_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/008_Bai_008_T2_210049_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_008_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211135_027",
@@ -16219,7 +16285,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_027_omr.jpg"
       },
       "summary_comment": "Bài hình 2 giải rất xuất sắc (1,25/1,5đ)! Em cần bổ sung bảng Giả thiết - Kết luận khi làm bài hình và hoàn thiện thêm câu 1b, 1c đại số.",
       "questions": [
@@ -16301,7 +16368,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/027_Bai_027_T1_211135_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/027_Bai_027_T2_211135_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_027_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211239_029",
@@ -16709,7 +16777,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_029_omr.jpg"
       },
       "summary_comment": "Trả lời ngắn đạt tuyệt đối 2,0/2,0đ, làm tốt câu 1b. Em cần chú ý làm đầy đủ Bài 2 hình học và cẩn thận câu 1a.",
       "questions": [
@@ -16767,7 +16836,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/029_Bai_029_T1_211239_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/029_Bai_029_T2_211239_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_029_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211559_036",
@@ -17147,7 +17217,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_036_omr.jpg"
       },
       "summary_comment": "Trả lời ngắn đạt tuyệt đối 2,0/2,0đ, làm tốt câu 2c. Em cần chú ý tô đầy đủ các câu trắc nghiệm Phần I và làm Bài 1 đại số.",
       "questions": [
@@ -17213,7 +17284,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/036_Bai_036_T1_211559_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/036_Bai_036_T2_211559_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_036_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210444_016",
@@ -17621,7 +17693,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_016_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc toàn diện (9,75 điểm)! Lời giải tự luận chặt chẽ, sạch đẹp, đúng tuyệt đối cả Bài 1 và Bài 2. Khen ngợi em!",
       "questions": [
@@ -17703,7 +17776,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/016_Bai_016_T1_210444_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/016_Bai_016_T2_210444_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_016_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211204_028",
@@ -18111,7 +18185,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_028_omr.jpg"
       },
       "summary_comment": "Bài thi đạt điểm Giỏi xuất sắc (8,75 điểm)! Tự luận đạt tuyệt đối 3.0/3.0đ, trình bày khoa học, chữ viết đẹp, lập luận toán học mẫu mực.",
       "questions": [
@@ -18193,7 +18268,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/028_Bai_028_T1_211204_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/028_Bai_028_T2_211204_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_028_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_205804_003",
@@ -18601,7 +18677,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_003_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc toàn diện! Tự luận đạt tuyệt đối 3.0/3.0đ, lập luận hình học chặt chẽ, đại số biến đổi thành thạo. Khen ngợi em!",
       "questions": [
@@ -18683,7 +18760,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/003_Bai_003_T1_205804_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/003_Bai_003_T2_205804_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_003_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_210352_014",
@@ -19091,7 +19169,8 @@
             "correct_y": 821,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_014_omr.jpg"
       },
       "summary_comment": "Bài thi đạt kết quả tốt (7,50đ). Bài hình 2 giải tốt các câu a, b, c (1,25/1,5đ, cần hoàn thiện nội dung GT/KL), trả lời ngắn đúng 100%. Cần rèn thêm kỹ năng phân tích đa thức Bài 1.",
       "questions": [
@@ -19165,7 +19244,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/014_Bai_014_T1_210352_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/014_Bai_014_T2_210352_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_014_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_211011_024",
@@ -19573,7 +19653,8 @@
             "correct_y": null,
             "q": "14d"
           }
-        ]
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_024_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt (9,00 điểm)! Tự luận đạt 2,75/3,0đ (Bài 1 đạt 1,5đ trọn vẹn, Bài 2 lập luận xuất sắc, cần nhớ ghi thêm bảng GT/KL).",
       "questions": [
@@ -19655,7 +19736,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/024_Bai_024_T1_211011_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/024_Bai_024_T2_211011_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_024_omr.jpg"
     }
   ]
 }

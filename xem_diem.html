@@ -1379,8 +1379,26 @@
           Thống kê kết quả 12 câu trắc nghiệm 4 lựa chọn (Phần I) và 16 ý Đúng/Sai (Phần II):
         </div>
 
-        <div class="omr-grid-container" id="omrGridContainer">
-          <!-- Populated by JS -->
+        <!-- BỐ CỤC 2 CỘT: ẢNH PHIẾU TÔ GỐC BÊN TRÁI & KẾT QUẢ NHẬN DIỆN BÊN PHẢI -->
+        <div class="omr-section-layout" style="display:flex; gap:20px; align-items:flex-start; margin-top:14px; flex-wrap:wrap;">
+          <!-- Cột Trái: Ảnh phiếu tô gốc (Ground Truth 2 contour) -->
+          <div id="omrCropPreviewBox" class="omr-crop-preview-box" style="flex: 0 0 320px; max-width: 100%; background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 12px; padding: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); text-align: center; display: none;">
+            <div style="font-size: 13px; font-weight: 700; color: #334155; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 6px;">
+              <span>📷</span> <span>Ảnh phiếu tô gốc (Bút tích HS)</span>
+            </div>
+            <div style="position: relative; overflow: hidden; border-radius: 8px; border: 1px solid #e2e8f0; background: #fff; cursor: pointer;" title="Nhấn để phóng to ảnh phiếu tô" onclick="openLightbox(this.querySelector('img').src, 'Ảnh chụp phiếu tô trắc nghiệm gốc')">
+              <img id="omrCropImg" src="" alt="Ảnh phiếu tô trắc nghiệm" style="width: 100%; height: auto; max-height: 480px; object-fit: contain; display: block; margin: 0 auto; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+              <div style="position: absolute; bottom: 6px; right: 6px; background: rgba(15,23,42,0.75); color: #fff; font-size: 11px; padding: 3px 8px; border-radius: 6px; backdrop-filter: blur(4px);">🔍 Phóng to</div>
+            </div>
+            <div style="font-size: 11.5px; color: #64748b; margin-top: 6px; line-height: 1.4;">
+              Ảnh cắt trực tiếp vùng tô Phần I &amp; II từ bài thi gốc để phụ huynh và học sinh đối chiếu minh bạch.
+            </div>
+          </div>
+
+          <!-- Cột Phải: Lưới kết quả nhận diện OMR -->
+          <div class="omr-grid-container" id="omrGridContainer" style="flex: 1 1 380px; margin-top: 0;">
+            <!-- Populated by JS -->
+          </div>
         </div>
       </div>
 
@@ -2079,7 +2097,7 @@
       document.getElementById("resCommentText").textContent = cmt;
 
       // Render lưới trắc nghiệm (Phần I & II)
-      renderOmrGrid(mcq);
+      renderOmrGrid(mcq, st);
 
       // Render Phần III: Câu hỏi trả lời ngắn viết tay (tách riêng độc lập)
       renderShortAnswers(mcq, allExamsData && allExamsData.exam_info);
@@ -2095,9 +2113,22 @@
     }
 
     // 6. RENDER LƯỚI TRẮC NGHIỆM CHI TIẾT
-    function renderOmrGrid(mcq) {
+    function renderOmrGrid(mcq, st) {
       const container = document.getElementById("omrGridContainer");
       container.innerHTML = "";
+
+      // Hiển thị ảnh phiếu tô gốc bên trái nếu có
+      const cropBox = document.getElementById("omrCropPreviewBox");
+      const cropImg = document.getElementById("omrCropImg");
+      const cropUrl = (mcq && mcq.omr_crop_image) || (st && st.omr_crop_image);
+      if (cropBox && cropImg) {
+        if (cropUrl) {
+          cropImg.src = cropUrl + "?v=" + Date.now();
+          cropBox.style.display = "block";
+        } else {
+          cropBox.style.display = "none";
+        }
+      }
 
       const p1Answers = mcq.p1_answers || {};
       const p1Results = mcq.p1_results || {};

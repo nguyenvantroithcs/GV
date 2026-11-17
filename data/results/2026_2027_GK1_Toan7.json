@@ -394,7 +394,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.25
+        "score": 5.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_001_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.75đ, Tự luận: 0.75đ. Tổng: 6.50đ.",
       "questions": [
@@ -491,7 +492,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/001_Bai_001_T1_133426_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/001_Bai_001_T2_133426_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_001_omr.jpg"
     },
     {
       "submission_id": "hs_002",
@@ -839,7 +841,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.5
+        "score": 6.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_002_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.75đ, Tự luận: 3.00đ. Tổng: 8.75đ.",
       "questions": [
@@ -928,7 +931,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/002_Bai_002_T1_133838_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/002_Bai_002_T2_133838_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_002_omr.jpg"
     },
     {
       "submission_id": "hs_003",
@@ -1276,7 +1280,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.0
+        "score": 6.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_003_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.00đ, Tự luận: 2.50đ. Tổng: 6.50đ.",
       "questions": [
@@ -1365,7 +1370,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/003_Bai_003_T1_133950_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/003_Bai_003_T2_133950_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_003_omr.jpg"
     },
     {
       "submission_id": "hs_004",
@@ -1713,7 +1719,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_004_omr.jpg"
       },
       "summary_comment": "Điểm TN: 2.75đ, Tự luận: 1.50đ. Tổng: 4.25đ.",
       "questions": [
@@ -1802,7 +1809,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/004_Bai_004_T1_134025_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/004_Bai_004_T2_134025_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_004_omr.jpg"
     },
     {
       "submission_id": "hs_005",
@@ -2150,7 +2158,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 2.75
+        "score": 2.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_005_omr.jpg"
       },
       "summary_comment": "Điểm TN: 1.75đ, Tự luận: 1.50đ. Tổng: 3.25đ.",
       "questions": [
@@ -2239,7 +2248,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/005_Bai_005_T1_134055_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/005_Bai_005_T2_134055_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_005_omr.jpg"
     },
     {
       "submission_id": "hs_006",
@@ -2587,7 +2597,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 3.0
+        "score": 3.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_006_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.75đ, Tự luận: 1.25đ. Tổng: 8.00đ.",
       "questions": [
@@ -2676,7 +2687,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/006_Bai_006_T1_134134_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/006_Bai_006_T2_134134_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_006_omr.jpg"
     },
     {
       "submission_id": "hs_007",
@@ -3024,7 +3036,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 2.75
+        "score": 2.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_007_omr.jpg"
       },
       "summary_comment": "Điểm TN: 7.00đ, Tự luận: 1.25đ. Tổng: 8.25đ.",
       "questions": [
@@ -3113,7 +3126,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/007_Bai_007_T1_134209_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/007_Bai_007_T2_134209_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_007_omr.jpg"
     },
     {
       "submission_id": "hs_008",
@@ -3461,7 +3475,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 3.25
+        "score": 3.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_008_omr.jpg"
       },
       "summary_comment": "Điểm TN: 7.00đ, Tự luận: 1.50đ. Tổng: 8.50đ.",
       "questions": [
@@ -3541,7 +3556,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/008_Bai_008_T1_134229_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_008_omr.jpg"
     },
     {
       "submission_id": "hs_009",
@@ -3889,7 +3905,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_009_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.75đ, Tự luận: 0.25đ. Tổng: 7.00đ.",
       "questions": [
@@ -3978,7 +3995,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/009_Bai_009_T1_134300_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/009_Bai_009_T2_134300_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_009_omr.jpg"
     },
     {
       "submission_id": "hs_010",
@@ -4326,7 +4344,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.0
+        "score": 5.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_010_omr.jpg"
       },
       "summary_comment": "Điểm TN: 7.00đ, Tự luận: 1.50đ. Tổng: 8.50đ.",
       "questions": [
@@ -4406,7 +4425,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/010_Bai_010_T1_134322_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_010_omr.jpg"
     },
     {
       "submission_id": "hs_011",
@@ -4754,7 +4774,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_011_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.00đ, Tự luận: 1.00đ. Tổng: 6.00đ.",
       "questions": [
@@ -4843,7 +4864,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/011_Bai_011_T1_134406_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/011_Bai_011_T2_134406_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_011_omr.jpg"
     },
     {
       "submission_id": "hs_012",
@@ -5191,7 +5213,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.25
+        "score": 6.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_012_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.00đ, Tự luận: 2.00đ. Tổng: 6.00đ.",
       "questions": [
@@ -5279,7 +5302,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/012_Bai_012_T1_134429_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_012_omr.jpg"
     },
     {
       "submission_id": "hs_013",
@@ -5627,7 +5651,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.0
+        "score": 5.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_013_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.75đ, Tự luận: 1.50đ. Tổng: 8.25đ.",
       "questions": [
@@ -5716,7 +5741,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/013_Bai_013_T1_134458_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/013_Bai_013_T2_134458_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_013_omr.jpg"
     },
     {
       "submission_id": "hs_014",
@@ -6064,7 +6090,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.25
+        "score": 5.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_014_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.50đ, Tự luận: 2.00đ. Tổng: 8.50đ.",
       "questions": [
@@ -6153,7 +6180,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/014_Bai_014_T1_134534_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/014_Bai_014_T2_134534_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_014_omr.jpg"
     },
     {
       "submission_id": "hs_015",
@@ -6501,7 +6529,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 3.75
+        "score": 3.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_015_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.00đ, Tự luận: 0.50đ. Tổng: 6.50đ.",
       "questions": [
@@ -6590,7 +6619,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/015_Bai_015_T1_134624_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/015_Bai_015_T2_134624_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_015_omr.jpg"
     },
     {
       "submission_id": "hs_016",
@@ -6938,7 +6968,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_016_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.00đ, Tự luận: 1.50đ. Tổng: 6.50đ.",
       "questions": [
@@ -7027,7 +7058,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/016_Bai_016_T1_134653_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/016_Bai_016_T2_134653_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_016_omr.jpg"
     },
     {
       "submission_id": "hs_017",
@@ -7375,7 +7407,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.25
+        "score": 6.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_017_omr.jpg"
       },
       "summary_comment": "Điểm TN: 3.25đ, Tự luận: 1.50đ. Tổng: 4.75đ.",
       "questions": [
@@ -7464,7 +7497,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/017_Bai_017_T1_134724_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/017_Bai_017_T2_134724_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_017_omr.jpg"
     },
     {
       "submission_id": "hs_018",
@@ -7812,7 +7846,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_018_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.50đ, Tự luận: 1.00đ. Tổng: 7.50đ.",
       "questions": [
@@ -7901,7 +7936,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/018_Bai_018_T1_134804_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/018_Bai_018_T2_134804_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_018_omr.jpg"
     },
     {
       "submission_id": "hs_019",
@@ -8249,7 +8285,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.0
+        "score": 6.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_019_omr.jpg"
       },
       "summary_comment": "Điểm TN: 7.00đ, Tự luận: 0.75đ. Tổng: 7.75đ.",
       "questions": [
@@ -8338,7 +8375,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/019_Bai_019_T1_134832_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/019_Bai_019_T2_134832_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_019_omr.jpg"
     },
     {
       "submission_id": "hs_020",
@@ -8686,7 +8724,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.75
+        "score": 4.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_020_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.25đ, Tự luận: 1.25đ. Tổng: 6.50đ.",
       "questions": [
@@ -8775,7 +8814,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/020_Bai_020_T1_134857_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/020_Bai_020_T2_134857_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_020_omr.jpg"
     },
     {
       "submission_id": "hs_021",
@@ -9123,7 +9163,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_021_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.75đ, Tự luận: 1.50đ. Tổng: 6.25đ.",
       "questions": [
@@ -9212,7 +9253,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/021_Bai_021_T1_134931_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/021_Bai_021_T2_134931_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_021_omr.jpg"
     },
     {
       "submission_id": "hs_022",
@@ -9560,7 +9602,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_022_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.75đ, Tự luận: 2.75đ. Tổng: 8.50đ.",
       "questions": [
@@ -9649,7 +9692,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/022_Bai_022_T1_135004_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/022_Bai_022_T2_135004_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_022_omr.jpg"
     },
     {
       "submission_id": "hs_023",
@@ -9997,7 +10041,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 2.5
+        "score": 2.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_023_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.75đ, Tự luận: 0.00đ. Tổng: 6.75đ.",
       "questions": [
@@ -10086,7 +10131,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/023_Bai_023_T1_135637_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/023_Bai_023_T2_135637_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_023_omr.jpg"
     },
     {
       "submission_id": "hs_024",
@@ -10434,7 +10480,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_024_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.50đ, Tự luận: 1.50đ. Tổng: 6.00đ.",
       "questions": [
@@ -10514,7 +10561,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/024_Bai_024_T1_152447_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_024_omr.jpg"
     },
     {
       "submission_id": "hs_025",
@@ -10862,7 +10910,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_025_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.25đ, Tự luận: 1.25đ. Tổng: 6.50đ.",
       "questions": [
@@ -10943,7 +10992,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/025_Bai_025_T1_152523_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/025_Bai_025_T2_152523_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_025_omr.jpg"
     },
     {
       "submission_id": "hs_026",
@@ -11291,7 +11341,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.25
+        "score": 5.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_026_omr.jpg"
       },
       "summary_comment": "Điểm TN: 2.25đ, Tự luận: 2.00đ. Tổng: 4.25đ.",
       "questions": [
@@ -11380,7 +11431,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/026_Bai_026_T1_152606_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/026_Bai_026_T2_152606_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_026_omr.jpg"
     },
     {
       "submission_id": "hs_027",
@@ -11728,7 +11780,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_027_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.25đ, Tự luận: 1.75đ. Tổng: 6.00đ.",
       "questions": [
@@ -11817,7 +11870,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/027_Bai_027_T1_152641_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/027_Bai_027_T2_152641_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_027_omr.jpg"
     },
     {
       "submission_id": "hs_028",
@@ -12165,7 +12219,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_028_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.75đ, Tự luận: 2.50đ. Tổng: 8.25đ.",
       "questions": [
@@ -12254,7 +12309,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/028_Bai_028_T1_152707_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/028_Bai_028_T2_152707_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_028_omr.jpg"
     },
     {
       "submission_id": "hs_029",
@@ -12602,7 +12658,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.75
+        "score": 4.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_029_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.50đ, Tự luận: 2.00đ. Tổng: 6.50đ.",
       "questions": [
@@ -12691,7 +12748,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/029_Bai_029_T1_152737_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/029_Bai_029_T2_152737_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_029_omr.jpg"
     },
     {
       "submission_id": "hs_030",
@@ -13039,7 +13097,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 3.5
+        "score": 3.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_030_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.25đ, Tự luận: 1.25đ. Tổng: 7.50đ.",
       "questions": [
@@ -13128,7 +13187,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/030_Bai_030_T1_152802_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/030_Bai_030_T2_152802_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_030_omr.jpg"
     },
     {
       "submission_id": "hs_031",
@@ -13476,7 +13536,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.5
+        "score": 4.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_031_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.50đ, Tự luận: 1.00đ. Tổng: 6.50đ.",
       "questions": [
@@ -13565,7 +13626,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/031_Bai_031_T1_152825_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/031_Bai_031_T2_152825_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_031_omr.jpg"
     },
     {
       "submission_id": "hs_032",
@@ -13913,7 +13975,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.5
+        "score": 4.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_032_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.00đ, Tự luận: 1.25đ. Tổng: 7.25đ.",
       "questions": [
@@ -14002,7 +14065,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/032_Bai_032_T1_152851_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/032_Bai_032_T2_152851_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_032_omr.jpg"
     },
     {
       "submission_id": "hs_033",
@@ -14350,7 +14414,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 3.0
+        "score": 3.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_033_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.25đ, Tự luận: 0.00đ. Tổng: 5.25đ.",
       "questions": [
@@ -14414,7 +14479,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/033_Bai_033_T1_152906_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_033_omr.jpg"
     },
     {
       "submission_id": "hs_034",
@@ -14762,7 +14828,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_034_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.25đ, Tự luận: 2.00đ. Tổng: 8.25đ.",
       "questions": [
@@ -14851,7 +14918,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/034_Bai_034_T1_152939_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/034_Bai_034_T2_152939_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_034_omr.jpg"
     },
     {
       "submission_id": "hs_035",
@@ -15199,7 +15267,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.25
+        "score": 6.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_035_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.00đ, Tự luận: 2.00đ. Tổng: 8.00đ.",
       "questions": [
@@ -15288,7 +15357,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/035_Bai_035_T1_153006_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/035_Bai_035_T2_153006_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_035_omr.jpg"
     },
     {
       "submission_id": "hs_036",
@@ -15636,7 +15706,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_036_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.75đ, Tự luận: 1.00đ. Tổng: 5.75đ.",
       "questions": [
@@ -15725,7 +15796,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/036_Bai_036_T1_153028_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/036_Bai_036_T2_153028_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_036_omr.jpg"
     },
     {
       "submission_id": "hs_037",
@@ -16073,7 +16145,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 3.0
+        "score": 3.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_037_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.75đ, Tự luận: 0.50đ. Tổng: 6.25đ.",
       "questions": [
@@ -16162,7 +16235,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/037_Bai_037_T1_153059_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/037_Bai_037_T2_153059_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_037_omr.jpg"
     },
     {
       "submission_id": "hs_038",
@@ -16510,7 +16584,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.0
+        "score": 6.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_038_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.50đ, Tự luận: 2.50đ. Tổng: 9.00đ.",
       "questions": [
@@ -16599,7 +16674,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/038_Bai_038_T1_153121_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/038_Bai_038_T2_153121_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_038_omr.jpg"
     },
     {
       "submission_id": "hs_039",
@@ -16947,7 +17023,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.25
+        "score": 5.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_039_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.25đ, Tự luận: 2.00đ. Tổng: 6.25đ.",
       "questions": [
@@ -17036,7 +17113,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/039_Bai_039_T1_153144_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/039_Bai_039_T2_153144_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_039_omr.jpg"
     },
     {
       "submission_id": "hs_040",
@@ -17384,7 +17462,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_040_omr.jpg"
       },
       "summary_comment": "Điểm TN: 7.00đ, Tự luận: 2.25đ. Tổng: 9.25đ.",
       "questions": [
@@ -17473,7 +17552,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/040_Bai_040_T1_153224_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/040_Bai_040_T2_153224_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_040_omr.jpg"
     },
     {
       "submission_id": "hs_041",
@@ -17821,7 +17901,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.5
+        "score": 4.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_041_omr.jpg"
       },
       "summary_comment": "Điểm TN: 3.75đ, Tự luận: 1.25đ. Tổng: 5.00đ.",
       "questions": [
@@ -17910,7 +17991,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/041_Bai_041_T1_153253_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/041_Bai_041_T2_153253_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_041_omr.jpg"
     },
     {
       "submission_id": "hs_042",
@@ -18258,7 +18340,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.0
+        "score": 5.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_042_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.50đ, Tự luận: 0.75đ. Tổng: 5.25đ.",
       "questions": [
@@ -18346,7 +18429,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/042_Bai_042_T1_153309_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_042_omr.jpg"
     },
     {
       "submission_id": "hs_043",
@@ -18694,7 +18778,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 3.0
+        "score": 3.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_043_omr.jpg"
       },
       "summary_comment": "Điểm TN: 3.50đ, Tự luận: 1.00đ. Tổng: 4.50đ.",
       "questions": [
@@ -18783,7 +18868,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/043_Bai_043_T1_153343_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/043_Bai_043_T2_153343_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_043_omr.jpg"
     },
     {
       "submission_id": "hs_042",
@@ -19131,7 +19217,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.25
+        "score": 4.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_042_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.50đ, Tự luận: 1.75đ. Tổng: 6.25đ.",
       "questions": [
@@ -19196,7 +19283,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/042_Bai_042_T1_155318_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/042_Bai_042_T2_155318_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_042_omr.jpg"
     },
     {
       "submission_id": "hs_023",
@@ -19544,7 +19632,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.25
+        "score": 6.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_023_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.75đ, Tự luận: 1.25đ. Tổng: 8.00đ.",
       "questions": [
@@ -19609,7 +19698,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/023_Bai_023_T1_154536_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/023_Bai_023_T2_154536_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_023_omr.jpg"
     },
     {
       "submission_id": "hs_032",
@@ -19957,7 +20047,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_032_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.00đ, Tự luận: 1.75đ. Tổng: 7.75đ.",
       "questions": [
@@ -20022,7 +20113,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/032_Bai_032_T1_154905_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/032_Bai_032_T2_154905_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_032_omr.jpg"
     },
     {
       "submission_id": "hs_028",
@@ -20370,7 +20462,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_028_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.75đ, Tự luận: 1.00đ. Tổng: 6.75đ.",
       "questions": [
@@ -20435,7 +20528,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/028_Bai_028_T1_154724_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/028_Bai_028_T2_154724_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_028_omr.jpg"
     },
     {
       "submission_id": "hs_034",
@@ -20783,7 +20877,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.0
+        "score": 6.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_034_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.25đ, Tự luận: 1.50đ. Tổng: 7.75đ.",
       "questions": [
@@ -20848,7 +20943,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/034_Bai_034_T1_154956_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/034_Bai_034_T2_154956_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_034_omr.jpg"
     },
     {
       "submission_id": "hs_010",
@@ -21196,7 +21292,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.5
+        "score": 6.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_010_omr.jpg"
       },
       "summary_comment": "Điểm TN: 7.00đ, Tự luận: 1.25đ. Tổng: 8.25đ.",
       "questions": [
@@ -21261,7 +21358,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/010_Bai_010_T1_154026_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/010_Bai_010_T2_154026_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_010_omr.jpg"
     },
     {
       "submission_id": "hs_024",
@@ -21609,7 +21707,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.25
+        "score": 4.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_024_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.50đ, Tự luận: 0.50đ. Tổng: 5.00đ.",
       "questions": [
@@ -21674,7 +21773,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/024_Bai_024_T1_154607_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/024_Bai_024_T2_154607_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_024_omr.jpg"
     },
     {
       "submission_id": "hs_018",
@@ -22022,7 +22122,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_018_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.50đ, Tự luận: 0.75đ. Tổng: 7.25đ.",
       "questions": [
@@ -22087,7 +22188,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/018_Bai_018_T1_154334_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/018_Bai_018_T2_154334_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_018_omr.jpg"
     },
     {
       "submission_id": "hs_006",
@@ -22435,7 +22537,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.25
+        "score": 6.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_006_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.75đ, Tự luận: 2.25đ. Tổng: 9.00đ.",
       "questions": [
@@ -22500,7 +22603,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/006_Bai_006_T1_153842_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/006_Bai_006_T2_153842_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_006_omr.jpg"
     },
     {
       "submission_id": "hs_039",
@@ -22848,7 +22952,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.0
+        "score": 4.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_039_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.25đ, Tự luận: 1.50đ. Tổng: 5.75đ.",
       "questions": [
@@ -22913,7 +23018,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/039_Bai_039_T1_155205_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/039_Bai_039_T2_155205_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_039_omr.jpg"
     },
     {
       "submission_id": "hs_022",
@@ -23261,7 +23367,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_022_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.75đ, Tự luận: 0.75đ. Tổng: 6.50đ.",
       "questions": [
@@ -23326,7 +23433,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/022_Bai_022_T1_154513_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/022_Bai_022_T2_154513_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_022_omr.jpg"
     },
     {
       "submission_id": "hs_014",
@@ -23674,7 +23782,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.0
+        "score": 6.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_014_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.50đ, Tự luận: 2.00đ. Tổng: 8.50đ.",
       "questions": [
@@ -23739,7 +23848,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/014_Bai_014_T1_154153_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/014_Bai_014_T2_154153_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_014_omr.jpg"
     },
     {
       "submission_id": "hs_029",
@@ -24087,7 +24197,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.75
+        "score": 4.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_029_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.50đ, Tự luận: 1.00đ. Tổng: 5.50đ.",
       "questions": [
@@ -24152,7 +24263,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/029_Bai_029_T1_154802_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/029_Bai_029_T2_154802_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_029_omr.jpg"
     },
     {
       "submission_id": "hs_041",
@@ -24500,7 +24612,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.0
+        "score": 4.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_041_omr.jpg"
       },
       "summary_comment": "Điểm TN: 3.75đ, Tự luận: 1.50đ. Tổng: 5.25đ.",
       "questions": [
@@ -24565,7 +24678,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/041_Bai_041_T1_155253_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/041_Bai_041_T2_155253_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_041_omr.jpg"
     },
     {
       "submission_id": "hs_035",
@@ -24913,7 +25027,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.0
+        "score": 6.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_035_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.00đ, Tự luận: 2.00đ. Tổng: 8.00đ.",
       "questions": [
@@ -24978,7 +25093,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/035_Bai_035_T1_155028_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/035_Bai_035_T2_155028_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_035_omr.jpg"
     },
     {
       "submission_id": "hs_019",
@@ -25326,7 +25442,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.5
+        "score": 6.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_019_omr.jpg"
       },
       "summary_comment": "Điểm TN: 7.00đ, Tự luận: 2.25đ. Tổng: 9.25đ.",
       "questions": [
@@ -25391,7 +25508,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/019_Bai_019_T1_154357_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/019_Bai_019_T2_154357_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_019_omr.jpg"
     },
     {
       "submission_id": "hs_040",
@@ -25739,7 +25857,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.5
+        "score": 6.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_040_omr.jpg"
       },
       "summary_comment": "Điểm TN: 7.00đ, Tự luận: 2.50đ. Tổng: 9.50đ.",
       "questions": [
@@ -25804,7 +25923,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/040_Bai_040_T1_155228_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/040_Bai_040_T2_155228_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_040_omr.jpg"
     },
     {
       "submission_id": "hs_013",
@@ -26152,7 +26272,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.5
+        "score": 6.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_013_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.75đ, Tự luận: 1.50đ. Tổng: 8.25đ.",
       "questions": [
@@ -26217,7 +26338,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/013_Bai_013_T1_154127_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/013_Bai_013_T2_154127_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_013_omr.jpg"
     },
     {
       "submission_id": "hs_033",
@@ -26565,7 +26687,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.25
+        "score": 5.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_033_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.25đ, Tự luận: 1.25đ. Tổng: 6.50đ.",
       "questions": [
@@ -26630,7 +26753,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/033_Bai_033_T1_154931_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/033_Bai_033_T2_154931_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_033_omr.jpg"
     },
     {
       "submission_id": "hs_003",
@@ -26978,7 +27102,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.0
+        "score": 4.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_003_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.00đ, Tự luận: 0.25đ. Tổng: 4.25đ.",
       "questions": [
@@ -27043,7 +27168,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/003_Bai_003_T1_153733_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/003_Bai_003_T2_153733_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_003_omr.jpg"
     },
     {
       "submission_id": "hs_015",
@@ -27391,7 +27517,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_015_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.00đ, Tự luận: 2.50đ. Tổng: 8.50đ.",
       "questions": [
@@ -27456,7 +27583,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/015_Bai_015_T1_154223_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/015_Bai_015_T2_154223_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_015_omr.jpg"
     },
     {
       "submission_id": "hs_020",
@@ -27804,7 +27932,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.25
+        "score": 5.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_020_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.25đ, Tự luận: 2.50đ. Tổng: 7.75đ.",
       "questions": [
@@ -27869,7 +27998,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/020_Bai_020_T1_154422_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/020_Bai_020_T2_154422_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_020_omr.jpg"
     },
     {
       "submission_id": "hs_008",
@@ -28217,7 +28347,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.25
+        "score": 6.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_008_omr.jpg"
       },
       "summary_comment": "Điểm TN: 7.00đ, Tự luận: 2.00đ. Tổng: 9.00đ.",
       "questions": [
@@ -28282,7 +28413,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/008_Bai_008_T1_153937_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/008_Bai_008_T2_153937_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_008_omr.jpg"
     },
     {
       "submission_id": "hs_016",
@@ -28630,7 +28762,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.25
+        "score": 5.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_016_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.00đ, Tự luận: 2.50đ. Tổng: 7.50đ.",
       "questions": [
@@ -28695,7 +28828,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/016_Bai_016_T1_154252_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/016_Bai_016_T2_154252_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_016_omr.jpg"
     },
     {
       "submission_id": "hs_017",
@@ -29043,7 +29177,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 3.5
+        "score": 3.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_017_omr.jpg"
       },
       "summary_comment": "Điểm TN: 3.25đ, Tự luận: 0.50đ. Tổng: 3.75đ.",
       "questions": [
@@ -29108,7 +29243,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/017_Bai_017_T1_154314_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/017_Bai_017_T2_154314_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_017_omr.jpg"
     },
     {
       "submission_id": "hs_030",
@@ -29456,7 +29592,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.0
+        "score": 6.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_030_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.25đ, Tự luận: 0.50đ. Tổng: 6.75đ.",
       "questions": [
@@ -29520,7 +29657,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/030_Bai_030_T1_154823_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_030_omr.jpg"
     },
     {
       "submission_id": "hs_009",
@@ -29868,7 +30006,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.25
+        "score": 6.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_009_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.75đ, Tự luận: 1.50đ. Tổng: 8.25đ.",
       "questions": [
@@ -29933,7 +30072,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/009_Bai_009_T1_154003_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/009_Bai_009_T2_154003_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_009_omr.jpg"
     },
     {
       "submission_id": "hs_012",
@@ -30281,7 +30421,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.5
+        "score": 4.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_012_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.00đ, Tự luận: 1.25đ. Tổng: 5.25đ.",
       "questions": [
@@ -30346,7 +30487,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/012_Bai_012_T1_154104_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/012_Bai_012_T2_154104_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_012_omr.jpg"
     },
     {
       "submission_id": "hs_036",
@@ -30694,7 +30836,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.0
+        "score": 5.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_036_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.75đ, Tự luận: 1.75đ. Tổng: 6.50đ.",
       "questions": [
@@ -30759,7 +30902,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/036_Bai_036_T1_155050_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/036_Bai_036_T2_155050_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_036_omr.jpg"
     },
     {
       "submission_id": "hs_025",
@@ -31107,7 +31251,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.25
+        "score": 5.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_025_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.25đ, Tự luận: 0.00đ. Tổng: 5.25đ.",
       "questions": [
@@ -31171,7 +31316,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/025_Bai_025_T1_154619_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_025_omr.jpg"
     },
     {
       "submission_id": "hs_031",
@@ -31519,7 +31665,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.25
+        "score": 5.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_031_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.50đ, Tự luận: 0.50đ. Tổng: 6.00đ.",
       "questions": [
@@ -31583,7 +31730,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/031_Bai_031_T1_154842_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_031_omr.jpg"
     },
     {
       "submission_id": "hs_027",
@@ -31931,7 +32079,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.0
+        "score": 4.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_027_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.25đ, Tự luận: 0.50đ. Tổng: 4.75đ.",
       "questions": [
@@ -31995,7 +32144,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/027_Bai_027_T1_154702_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_027_omr.jpg"
     },
     {
       "submission_id": "hs_005",
@@ -32343,7 +32493,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 2.0
+        "score": 2.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_005_omr.jpg"
       },
       "summary_comment": "Điểm TN: 1.75đ, Tự luận: 0.25đ. Tổng: 2.00đ.",
       "questions": [
@@ -32407,7 +32558,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/005_Bai_005_T1_153815_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_005_omr.jpg"
     },
     {
       "submission_id": "hs_021",
@@ -32755,7 +32907,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.25
+        "score": 5.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_021_omr.jpg"
       },
       "summary_comment": "Điểm TN: 4.75đ, Tự luận: 0.75đ. Tổng: 5.50đ.",
       "questions": [
@@ -32820,7 +32973,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/021_Bai_021_T1_154449_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/021_Bai_021_T2_154449_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_021_omr.jpg"
     },
     {
       "submission_id": "hs_037",
@@ -33168,7 +33322,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.5
+        "score": 5.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_037_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.75đ, Tự luận: 0.25đ. Tổng: 6.00đ.",
       "questions": [
@@ -33233,7 +33388,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/037_Bai_037_T1_155116_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/037_Bai_037_T2_155116_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_037_omr.jpg"
     },
     {
       "submission_id": "hs_004",
@@ -33581,7 +33737,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 3.0
+        "score": 3.0,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_004_omr.jpg"
       },
       "summary_comment": "Điểm TN: 2.75đ, Tự luận: 1.25đ. Tổng: 4.00đ.",
       "questions": [
@@ -33645,7 +33802,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/004_Bai_004_T1_153758_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_004_omr.jpg"
     },
     {
       "submission_id": "hs_038",
@@ -33993,7 +34151,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_038_omr.jpg"
       },
       "summary_comment": "Điểm TN: 6.50đ, Tự luận: 1.50đ. Tổng: 8.00đ.",
       "questions": [
@@ -34058,7 +34217,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/038_Bai_038_T1_155138_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/038_Bai_038_T2_155138_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_038_omr.jpg"
     },
     {
       "submission_id": "hs_007",
@@ -34406,7 +34566,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 6.5
+        "score": 6.5,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_007_omr.jpg"
       },
       "summary_comment": "Điểm TN: 7.00đ, Tự luận: 2.00đ. Tổng: 9.00đ.",
       "questions": [
@@ -34471,7 +34632,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/007_Bai_007_T1_153914_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/007_Bai_007_T2_153914_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_007_omr.jpg"
     },
     {
       "submission_id": "hs_002",
@@ -34819,7 +34981,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_002_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.75đ, Tự luận: 1.25đ. Tổng: 7.00đ.",
       "questions": [
@@ -34884,7 +35047,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/002_Bai_002_T1_153657_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/002_Bai_002_T2_153657_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_002_omr.jpg"
     },
     {
       "submission_id": "hs_011",
@@ -35232,7 +35396,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 4.75
+        "score": 4.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_011_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.00đ, Tự luận: 0.25đ. Tổng: 5.25đ.",
       "questions": [
@@ -35296,7 +35461,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/011_Bai_011_T1_154039_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_011_omr.jpg"
     },
     {
       "submission_id": "hs_001",
@@ -35644,7 +35810,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 5.75
+        "score": 5.75,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_001_omr.jpg"
       },
       "summary_comment": "Điểm TN: 5.75đ, Tự luận: 2.00đ. Tổng: 7.75đ.",
       "questions": [
@@ -35709,7 +35876,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/001_Bai_001_T1_153632_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/001_Bai_001_T2_153632_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_001_omr.jpg"
     },
     {
       "submission_id": "hs_026",
@@ -36057,7 +36225,8 @@
           }
         ],
         "p3_max": 2.0,
-        "score": 2.25
+        "score": 2.25,
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_026_omr.jpg"
       },
       "summary_comment": "Điểm TN: 2.25đ, Tự luận: 0.00đ. Tổng: 2.25đ.",
       "questions": [
@@ -36122,7 +36291,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/026_Bai_026_T1_154641_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan7/7A10/026_Bai_026_T2_154641_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A10/hs_026_omr.jpg"
     }
   ]
 }
