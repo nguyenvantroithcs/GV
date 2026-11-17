@@ -401,90 +401,52 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 0.75,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "(a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$; (b) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$; (c) [T2] $\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{3}{6} + \\frac{1}{6}\\right)^2 - \\frac{4}{9} = \\frac{4^2}{6} - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$",
-          "student_answer": "a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$\nb) $\\sqrt{9} + (-4)^2 = \\sqrt{9} + -16 = \\sqrt{-7}$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 0.75,
           "steps": [
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$",
-              "note": "Làm đúng trọn vẹn câu a (+0,50đ)."
+              "note": "a) Đúng 1/5 (+0,50đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) $\\sqrt{9} = 3$",
-              "note": "Khai căn đúng $\\sqrt{9} = 3$ (+0,25đ)."
+              "note": "b) Khai căn đúng √9=3; nhầm (-4)^2=-16 ra -13 (+0,25đ)."
             },
             {
-              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "b) Nhầm $(-4)^2 = -16$",
-              "note": "Nhầm dấu âm lũy thừa chẵn, dẫn đến $\\sqrt{-7}$ không hợp lệ."
-            },
-            {
-              "page_index": 1,
-              "label": "0,00đ",
-              "ok": false,
-              "kind": "missing",
-              "student_text": "Ý c biến đổi sai",
-              "note": "Biến đổi sai phép tính trong ngoặc và bỏ trị tuyệt đối."
+              "note": "c) Chưa làm hoàn thiện câu c."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 0.0,
           "max_score": 1.0,
-          "is_skipped": false,
-          "raw_student_text": "[T2] (a) Vì yAx và bAx là 2 góc kề bù, tổng số đo của 2 góc kề bù là $180^\\circ$. Mà Ax là tia phân giác của góc yAC. Để tính yAC ta còn tính góc xAC... ta lấy $180^\\circ - 80^\\circ = 100^\\circ$. Vậy góc yAC = $200^\\circ$ (hoặc $100^\\circ$). (b) $Ax \\parallel BC$ vì nó được cắt bởi cùng 1 đường thẳng yb và tạo ra 1 cặp góc đồng vị = nhau.",
-          "student_answer": "a) $130^\\circ$\nb) tia $BC$ có $50^\\circ$ còn tia $tAx$ có $130^\\circ$",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "a) Ghi kết quả $130^\\circ$",
-              "note": "Tính sai góc kề bù (kết quả đúng là $100^\\circ$)."
+              "note": "a) Ghi sai góc kề bù (130°)."
             },
             {
-              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "b) Không chứng minh được",
-              "note": "Không tính được góc phân giác $50^\\circ$ và vị trí so le trong."
+              "note": "b) Chưa chứng minh được Ax // BC."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.0,
           "max_score": 0.5,
-          "is_skipped": false,
-          "raw_student_text": "⚠️ *(Học sinh không làm / bỏ trống)*",
-          "student_answer": "Chép đề, ghi $A = 2$ vì có phân số...",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "Lập luận cảm tính",
-              "note": "Chưa có phương pháp nhân $3A$ trừ $A$."
+              "note": "Chưa làm câu 25."
             }
           ]
         }
@@ -849,82 +811,52 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 1.5,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "(a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5}$; (b) $\\sqrt{9} + (-4)^2 = 19$; (c) $\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{7}{6} + \\frac{1}{6}\\right)^2 - \\frac{4}{9} = -\\frac{4^2}{6} - \\frac{4}{9} = -\\frac{4}{9} - \\frac{4}{9} = 0$",
-          "student_answer": "a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot (\\frac{15}{21} + \\frac{6}{21}) = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$\nb) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$\nc) $(\\frac{1}{2} + \\frac{1}{6})^2 - |-\\frac{4}{9}| = (\\frac{2}{3})^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 1.5,
           "steps": [
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Làm đúng trọn vẹn ra $\\frac{1}{5}$",
-              "note": "Áp dụng đúng tính chất phân phối (+0,50đ)."
+              "note": "a) Áp dụng đúng tính chất phân phối ra 1/5 (+0,50đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Đúng $\\sqrt{9}=3, (-4)^2=16 \\Rightarrow 19$",
-              "note": "Tính đúng từng thành phần và kết quả (+0,50đ)."
+              "note": "b) Tính đúng √9 + (-4)^2 = 3 + 16 = 19 (+0,50đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "c) $(\\frac{2}{3})^2 - \\frac{4}{9} = 0$",
-              "note": "Tính đúng lũy thừa và hiệu bằng 0 (+0,50đ)."
+              "note": "c) Tính đúng lũy thừa và hiệu bằng 0 (+0,50đ)."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 1.0,
           "max_score": 1.0,
-          "is_skipped": false,
-          "raw_student_text": "[T2] (a) Vì yAx và bAx là 2 góc kề bù tổng số đo là $= 180^\\circ$... $180^\\circ - 80^\\circ = 100^\\circ$ vậy $xAC = 100^\\circ$... $100^\\circ \\cdot 2 = 200^\\circ$... $= 200^\\circ$; (b) \"\"",
-          "student_answer": "a) $\\widehat{yAC} = 180^\\circ - 80^\\circ = 100^\\circ$\nb) $\\widehat{xAC} = 50^\\circ$, so le trong với $\\widehat{C} = 50^\\circ \\Rightarrow Ax // BC$",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 1.0,
           "steps": [
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Tính đúng góc kề bù $\\widehat{yAC} = 100^\\circ$",
-              "note": "Lập luận kề bù chuẩn xác (+0,50đ)."
+              "note": "a) Tính đúng góc kề bù yAC = 100° (+0,50đ)."
             },
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Phân giác $\\widehat{xAC}=50^\\circ = \\widehat{C} \\Rightarrow Ax // BC$",
-              "note": "Chỉ ra cặp góc so le trong bằng nhau chuẩn mực (+0,50đ)."
+              "note": "b) Chỉ ra cặp góc so le trong bằng nhau 50° nên Ax // BC (+0,50đ)."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.5,
           "max_score": 0.5,
-          "is_skipped": false,
-          "raw_student_text": "$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$\n$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2024}} + \\frac{1}{3^{2025}}$\n$3A - A = (1 + \\frac{1}{3} + \\frac{1}{3^2} \\dots \\frac{1}{3^{2024}} + \\frac{1}{3^{2025}}) - (\\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}})$\n$3A - A = 1 - \\frac{1}{3^{2026}}$\n$2A = 1 - \\frac{1}{3^{2026}}$\n$A = (1 - \\frac{1}{3^{2026}}) : 2$\n$A = \\frac{1}{2} - \\frac{1}{3^{2026} \\cdot 2}$\nVì A là $\\frac{1}{2}$ trừ đi mất một phần nên không thể lớn hơn hoặc bằng $\\frac{1}{2}$\nVậy $A < \\frac{1}{2}$",
-          "student_answer": "Nhân $3A = 1 + \\frac{1}{3} + \\dots$, lấy $3A - A = 2A = 1 - \\frac{1}{3^{2026}} < 1 \\Rightarrow A < \\frac{1}{2}$",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.5,
           "steps": [
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "Chứng minh $2A = 1 - \\frac{1}{3^{2026}} < 1 \\Rightarrow A < \\frac{1}{2}$",
-              "note": "Lời giải sáng tạo, chuẩn xác 100% (+0,50đ)."
+              "note": "Chứng minh 2A = 1 - 1/3^2026 < 1 => A < 1/2 sáng tạo chuẩn xác (+0,50đ)."
             }
           ]
         }
@@ -950,8 +882,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 6.75,
-      "essay_score": 0.5,
+      "total_score": 8.75,
+      "essay_score": 2.5,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -1289,81 +1221,51 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 0.5,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "(a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\frac{1}{6} = \\frac{1}{5} = \\frac{15}{21} \\cdot \\frac{6}{21} = \\frac{10}{21} + \\frac{1}{5} = \\frac{71}{105}$; (b) $\\sqrt{9} + (-4)^2 = 4 \\times 2 = 8$; $\\sqrt{9} + (-8) = -5$; (c) $\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{2}{3} \\cdot 2 = \\frac{4}{3}$",
-          "student_answer": "a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5}$\nb) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$\nc) $(\\frac{1}{2} + \\frac{1}{6})^2 - |-\\frac{4}{9}| = \\frac{4}{9} - \\frac{4}{9} = 0$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 1.5,
           "steps": [
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Ra đúng $\\frac{1}{5}$",
-              "note": "Tính đúng câu a (+0,50đ)."
+              "note": "a) Đặt nhân tử chung 1/5 * 1 = 1/5 đúng trọn vẹn (+0,50đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Đúng kết quả 19",
-              "note": "Tính đúng câu b (+0,50đ)."
+              "note": "b) Khai căn và tính đúng ra 19 (+0,50đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "c) Đúng kết quả 0",
-              "note": "Tính đúng câu c (+0,50đ)."
+              "note": "c) Tính (4/6)^2 - 4/9 = 0 đúng chuẩn mực (+0,50đ)."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 0.0,
           "max_score": 1.0,
-          "is_skipped": false,
-          "raw_student_text": "[T2] (a) Là $50^\\circ$; (b) Vì hai bên đối nhau và 2 góc là góc đối đỉnh",
-          "student_answer": "a) $\\widehat{yAC} = 100^\\circ$\nb) $\\widehat{xAC} = 50^\\circ = \\widehat{ACB}$ ở vị trí so le trong nên $Ax // BC$",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 1.0,
           "steps": [
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Tính đúng $\\widehat{yAC} = 100^\\circ$",
-              "note": "Đúng câu a (+0,50đ)."
+              "note": "a) Lập luận kề bù tính đúng yAC = 180° - 80° = 100° (+0,50đ)."
             },
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) So le trong bằng nhau $\\Rightarrow Ax // BC$",
-              "note": "Đúng câu b (+0,50đ)."
+              "note": "b) Tia phân giác xAC = 50° = ACB ở vị trí so le trong nên Ax // BC (+0,50đ)."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.0,
           "max_score": 0.5,
-          "is_skipped": true,
-          "raw_student_text": "[T2] $\\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$; $\\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} = \\frac{13}{27}$; $\\frac{13}{27} = \\frac{1}{2}$",
-          "student_answer": "⚠️ (Học sinh không làm câu này / bỏ trống trên bài làm)",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "missing",
-              "student_text": "Bỏ trống",
               "note": "Chưa làm câu 25."
             }
           ]
@@ -1374,7 +1276,7 @@
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/003_Bai_003_T2_133950_DaCham.jpg"
       ],
       "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_003_omr.jpg",
-      "score": 6.75
+      "score": 8.75
     },
     {
       "submission_id": "hs_004",
@@ -1390,8 +1292,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 7.0,
-      "essay_score": 1.0,
+      "total_score": 7.5,
+      "essay_score": 1.5,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -1729,81 +1631,51 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 1.0,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "(a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$; (b) $\\sqrt{9} + (-7)^2 = \\sqrt{9} + (-4)^2 = 3 + 16 = 19$; (c) $\\left(\\frac{1}{4} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{7}{9}\\right| = \\frac{2}{9} + \\frac{2}{9} = \\frac{8}{9}$",
-          "student_answer": "a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$\nb) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$\nc) $(\\frac{1}{2} + \\frac{1}{6})^2 - |-\\frac{4}{9}| = \\frac{4}{9} - \\frac{4}{9} = 0$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 1.5,
           "steps": [
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Đúng $\\frac{1}{5}$",
-              "note": "Đúng câu a (+0,50đ)."
+              "note": "a) Làm đúng trọn vẹn ra 1/5 (+0,50đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Đúng 19",
-              "note": "Đúng câu b (+0,50đ)."
+              "note": "b) Tính đúng 3 + 16 = 19 (+0,50đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "c) Đúng 0",
-              "note": "Đúng câu c (+0,50đ)."
+              "note": "c) Tính đúng 4/9 - 4/9 = 0 (+0,50đ)."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 0.0,
           "max_score": 1.0,
-          "is_skipped": false,
-          "raw_student_text": "(a) $= 100^\\circ$; (b) $Ax \\parallel BC$",
-          "student_answer": "a) $\\widehat{yAC} = 90^\\circ$\nb) $90^\\circ + 80^\\circ - 50^\\circ = 120^\\circ$, $Ax // BC$",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 1,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "a) Ghi $90^\\circ$",
-              "note": "Tính sai góc kề bù (0,00đ)."
+              "note": "a) Tính sai góc kề bù yAC = 90°."
             },
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "b) Phép tính vô nghĩa",
-              "note": "Không chứng minh được $Ax // BC$ (0,00đ)."
+              "note": "b) Chưa chứng minh được Ax // BC."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.0,
           "max_score": 0.5,
-          "is_skipped": true,
-          "raw_student_text": "không có T2",
-          "student_answer": "⚠️ (Học sinh không làm câu này / bỏ trống trên bài làm)",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "missing",
-              "student_text": "Bỏ trống",
               "note": "Chưa làm câu 25."
             }
           ]
@@ -1814,7 +1686,7 @@
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/004_Bai_004_T2_134025_DaCham.jpg"
       ],
       "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_004_omr.jpg",
-      "score": 7.0
+      "score": 7.5
     },
     {
       "submission_id": "hs_005",
@@ -2169,81 +2041,51 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 1.0,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "(a) $\\frac{1}{5}$; (b) $13$; (c) $\\frac{8}{9}$",
-          "student_answer": "a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$\nb) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$\nc) $(\\frac{1}{2} + \\frac{1}{6})^2 - [-\\frac{4}{9}] = \\dots = -\\frac{7}{9}$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 1.0,
           "steps": [
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Đúng $\\frac{1}{5}$",
-              "note": "Đúng câu a (+0,50đ)."
+              "note": "a) Tính đúng ra 1/5 (+0,50đ)."
             },
             {
-              "page_index": 1,
-              "label": "+0,50đ",
+              "label": "+0,25đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Đúng 19",
-              "note": "Đúng câu b (+0,50đ)."
+              "note": "b) Khai căn đúng √9=3, tính ra -13 nhầm dấu (+0,25đ)."
             },
             {
-              "page_index": 2,
-              "label": "0,00đ",
-              "ok": false,
-              "kind": "error",
-              "student_text": "c) Ra $-\\frac{7}{9}$",
-              "note": "Sai phép tính trong ngoặc và lũy thừa."
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "c) Có ý tưởng khai triển lũy thừa (+0,25đ)."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 0.5,
           "max_score": 1.0,
-          "is_skipped": false,
-          "raw_student_text": "không có T2",
-          "student_answer": "a) $100^\\circ$\nb) $Ax // BC$ là cặp góc song song",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 0.5,
           "steps": [
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Ghi đúng $100^\\circ$",
-              "note": "Đúng kết quả góc kề bù (+0,50đ)."
+              "note": "a) Tính đúng góc kề bù yAC = 100° (+0,50đ)."
             },
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "b) Chưa chứng minh",
-              "note": "Không chỉ ra góc so le trong bằng nhau."
+              "note": "b) Chưa chứng minh được Ax // BC."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.0,
           "max_score": 0.5,
-          "is_skipped": false,
-          "raw_student_text": "không có T2",
-          "student_answer": "câu 25: (để trống)",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "missing",
-              "student_text": "Bỏ trống",
               "note": "Chưa làm câu 25."
             }
           ]
@@ -2270,8 +2112,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 6.75,
-      "essay_score": 1.25,
+      "total_score": 7.0,
+      "essay_score": 1.5,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -2609,81 +2451,51 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 0.75,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "(a) $\\frac{1}{5} \\times \\frac{15}{21} + \\frac{1}{5} \\times \\frac{6}{21} = \\frac{1}{5} \\times \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\times \\frac{21}{21} = \\frac{1}{5} \\times 1 = \\frac{1}{5}$; (b) [T2] $\\sqrt{9} + (-4)^2 = 3 + 16 - 3 = 13$; (c) [T2] $\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{3}{6} + \\frac{1}{6}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$",
-          "student_answer": "a) $\\frac{1}{5} \\cdot 1 = 1$\nb) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$\nc) $(\\frac{1}{2} + \\frac{1}{6})^2 - [-\\frac{4}{9}] = \\dots = -\\frac{7}{9}$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 1.0,
           "steps": [
             {
-              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Có bước nhân với 1 nhưng kết quả ghi 1",
-              "note": "Đạt ý tưởng đặt nhân tử chung (+0,25đ)."
+              "note": "a) Biến đổi phân phối đúng; nhầm số học dòng cuối (+0,25đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Đúng 19",
-              "note": "Đúng câu b (+0,50đ)."
+              "note": "b) Khai căn và lũy thừa đúng 3+16; nhầm số học 13 (+0,50đ đề xuất: 0,25đ+0,25đ)."
             },
             {
-              "page_index": 2,
-              "label": "0,00đ",
-              "ok": false,
-              "kind": "error",
-              "student_text": "c) Ra $-\\frac{7}{9}$",
-              "note": "Biến đổi sai phép tính."
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "c) Có ý quy đồng mẫu số (+0,25đ)."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 0.5,
           "max_score": 1.0,
-          "is_skipped": false,
-          "raw_student_text": "[T2] (a) Số đo của góc yAC là $100^\\circ$. Vì yAC và CAB là 2 góc kề bù mà 2 góc kề bù có tổng số đo bằng $180^\\circ$ nên ta có $180^\\circ - 80^\\circ = 100^\\circ$. (b) Vì góc xAC và ACB là cặp góc so le trong và đều bằng $50^\\circ$... Nên nó song song. Dựa theo dấu hiệu nhận biết 2 đường song song.",
-          "student_answer": "a) Số góc đo được là: $100^\\circ$\nb) $Ax // BC$ là một cặp góc song song",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 0.5,
           "steps": [
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Ghi đúng $100^\\circ$",
-              "note": "Đúng kết quả (+0,50đ)."
+              "note": "a) Tính đúng góc kề bù yAC = 100° (+0,50đ)."
             },
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "b) Chưa chứng minh",
-              "note": "Không lập luận so le trong."
+              "note": "b) Chưa chứng minh hoàn thiện Ax // BC."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.0,
           "max_score": 0.5,
-          "is_skipped": false,
-          "raw_student_text": "[T2] $A < \\frac{1}{2} = \\text{vì } \\frac{1}{3^{2026}}$ sẽ ra đáp án số nhỏ hơn so với phân số $\\frac{1}{2}$ và khi tử là các số 1 cộng lại chỉ bằng 1 và mẫu số theo thứ tự tăng dần thì đáp án sẽ càng nhỏ hơn.",
-          "student_answer": "câu 25: (để trống)",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "missing",
-              "student_text": "Bỏ trống",
               "note": "Chưa làm câu 25."
             }
           ]
@@ -2694,7 +2506,7 @@
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/006_Bai_006_T2_134134_DaCham.jpg"
       ],
       "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_006_omr.jpg",
-      "score": 6.75
+      "score": 7.0
     },
     {
       "submission_id": "hs_007",
@@ -6211,8 +6023,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 6.25,
-      "essay_score": 0.5,
+      "total_score": 6.75,
+      "essay_score": 1.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -6550,82 +6362,52 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 0.5,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "(a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\times \\frac{6}{21} = \\frac{15}{21} + \\frac{6}{21} \\cdot \\frac{1}{5} = \\frac{21}{21} \\cdot \\frac{1}{5} = 1 \\cdot \\frac{1}{5} = \\frac{1}{5}$; (b) $\\sqrt{9} + (-4)^2 = 3 + 4^2 = 3 + 16 = 19$; (c) [T2] $\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{9}{18} + \\frac{3}{18}\\right)^2 - \\frac{8}{18} = \\left(\\frac{12}{18}\\right)^2 - \\frac{8}{18} = \\frac{2^2}{3} - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$",
-          "student_answer": "a) $\\frac{1}{5} \\cdot \\frac{15+6}{21} = \\dots = \\frac{3}{7}$\nb) $\\sqrt{3} + (-16) = -19$\nc) $(\\frac{1}{2} + \\frac{1}{6})^2 - |-\\frac{4}{9}| = \\frac{4}{9} - \\frac{4}{9} = 1$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 0.5,
           "steps": [
             {
-              "page_index": 1,
               "label": "+0,25đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Đặt nhân tử chung $\\frac{1}{5}$",
-              "note": "Đạt ý tưởng đặt thừa số chung (+0,25đ)."
+              "note": "a) Quy đồng mẫu số 105 dài nhưng đúng hướng (+0,25đ)."
             },
             {
-              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "note": "b) Khai căn đúng, nhầm số âm ra -19 (+0,25đ)."
+            },
+            {
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "b) Tính sai ra -19",
-              "note": "Khai căn và lũy thừa sai."
-            },
-            {
-              "page_index": 1,
-              "label": "+0,25đ",
-              "ok": true,
-              "kind": "correct",
-              "student_text": "c) Đưa về $\\frac{4}{9} - \\frac{4}{9}$",
-              "note": "Tính đúng lũy thừa trong ngoặc (+0,25đ)."
+              "note": "c) Tính sai kết quả 1."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 0.0,
           "max_score": 1.0,
-          "is_skipped": false,
-          "raw_student_text": "[T2] (a) Vì góc yAC và góc yAB là 2 góc kề bù với nhau nên tổng số đo bằng $180^\\circ$... ta lấy góc BAC trừ tổng số đo 2 góc ta được $100^\\circ \\Rightarrow yAC = 100^\\circ$. (b) Vì Ax là tia phân giác của yAC nên $yAx = CAx = \\frac{1}{2} yAC = 50^\\circ$. Và góc $BCA = 50^\\circ$. 2 góc yAx và BCA đều bằng $50^\\circ$ qua đường thẳng cắt thì yAx và BCA là hai góc so le trong bằng nhau vậy nên suy ra $Ax \\parallel BC$.",
-          "student_answer": "a) có 3 góc là $yAx, xAC, yAC$\nb) chúng nhìn song vì là so le",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 0.5,
           "steps": [
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "a) Không tính số đo",
-              "note": "Sai yêu cầu đề bài."
+              "note": "a) Tính sai góc kề bù."
             },
             {
-              "page_index": 2,
-              "label": "0,00đ",
-              "ok": false,
-              "kind": "error",
-              "student_text": "b) Không chứng minh",
-              "note": "Chưa tính góc phân giác."
+              "label": "+0,50đ",
+              "ok": true,
+              "note": "b) Nhận biết cặp góc so le trong bằng nhau (+0,50đ)."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.0,
           "max_score": 0.5,
-          "is_skipped": false,
-          "raw_student_text": "chứng minh ra $A < \\frac{1}{2}$ ai đó ta có vỏ cử gió là la",
-          "student_answer": "chứng minh ra $A < 1/2$ vì...",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "Lập luận không căn cứ",
-              "note": "Chưa làm được."
+              "note": "Chưa làm câu 25."
             }
           ]
         }
@@ -6635,7 +6417,7 @@
         "images/graded_exams/2026_2027/GK1/Toan7/7A9/015_Bai_015_T2_134624_DaCham.jpg"
       ],
       "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan7/7A9/hs_015_omr.jpg",
-      "score": 6.25
+      "score": 6.75
     },
     {
       "submission_id": "hs_016",
@@ -6990,81 +6772,51 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 1.5,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "(a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$; (b) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$; (c) $\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\frac{4}{9} - \\frac{4}{9} = 0$",
-          "student_answer": "a) $\\frac{1}{5} \\cdot 1 = \\frac{1}{5}$\nb) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$\nc) $(\\frac{1}{2} + \\frac{1}{6})^2 - |-\\frac{4}{9}| = \\frac{4}{9} - (\\frac{4}{9}) = \\frac{8}{9}$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 1.5,
           "steps": [
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Đúng $\\frac{1}{5}$",
-              "note": "Đúng câu a (+0,50đ)."
+              "note": "a) Làm đúng trọn vẹn ra 1/5 (+0,50đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Đúng 19",
-              "note": "Đúng câu b (+0,50đ)."
+              "note": "b) Khai căn và tính đúng ra 19 (+0,50đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "c) Tính đúng $(\\frac{1}{2}+\\frac{1}{6})^2 = \\frac{4}{9}$",
-              "note": "Làm đúng trọn vẹn câu c (+0,50đ)."
+              "note": "c) Rút gọn thẳng 4/9 - 4/9 = 0 đúng bản chất (+0,50đ)."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 0.25,
           "max_score": 1.0,
-          "is_skipped": false,
-          "raw_student_text": "[T2] (a) Số đo góc yAC là: $180^\\circ - 80^\\circ = 100^\\circ$ ($yAB = 180^\\circ, CAB = 80^\\circ$); (b) Vì có 1 cặp góc đồng vị là: xAC và ACB nên $Ax \\parallel BC$",
-          "student_answer": "a) Số đo góc $yAC: 80^\\circ$\nb) $Ax$ và $BC$ cùng cắt đường thẳng $AC$ tạo thành 2 góc bằng nhau cặp góc so le trong $= 50^\\circ$",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 0.25,
           "steps": [
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "a) Ghi $80^\\circ$",
-              "note": "Tính sai góc kề bù."
+              "note": "a) Tính sai góc kề bù yAC = 80°."
             },
             {
-              "page_index": 2,
               "label": "+0,25đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Nêu cặp góc so le trong bằng nhau $= 50^\\circ$",
-              "note": "Nhận biết đúng quan hệ so le trong $50^\\circ$ (+0,25đ)."
+              "note": "b) Nhận biết cặp góc so le trong xAC và ACB (+0,25đ)."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.0,
           "max_score": 0.5,
-          "is_skipped": true,
-          "raw_student_text": "[T2] Cho $A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2026}}$; $3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}}$; $3A - A = 1 - \\frac{1}{3^{2026}}$; $2A = 1 - \\frac{1}{3^{2026}}$; $A = \\frac{1}{2 \\cdot 3^{2026}}$. Vì $\\frac{1}{2}$ trừ được cho A nên $A < \\frac{1}{2}$.",
-          "student_answer": "⚠️ (Bỏ trống)",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "missing",
-              "student_text": "Bỏ trống",
               "note": "Chưa làm câu 25."
             }
           ]
@@ -10510,73 +10262,46 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 1.5,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "a) $\\frac{1}{5} \\cdot \\frac{15}{21} \\cdot \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\frac{15}{21} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\frac{5}{7} \\cdot \\frac{7}{7} = \\frac{1}{5} \\cdot \\frac{7}{7} = \\frac{7}{35}$; b) $\\sqrt{9} + (-4)^2 = \\sqrt{9} + 4^2 = \\sqrt{9} + 8$; c) $(\\frac{1}{2}+\\frac{1}{6})^2 - |-\\frac{4}{9}| = (\\frac{2}{8})^2 - |-\\frac{4}{9}| = (\\frac{4}{16}) - |-\\frac{4}{9}| = \\frac{4}{16} - \\frac{4}{9} = \\frac{4}{16} : \\frac{4}{9} = \\frac{1}{7}$",
-          "student_answer": "a) $\\frac{1}{5} \\cdot (\\frac{15}{21} + \\frac{6}{15}) = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$\nb) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$\nc) $(\\frac{3+1}{6})^2 - (-\\frac{4}{9}) = \\frac{4}{9} - \\frac{4}{9} = 0$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 1.5,
           "steps": [
             {
-              "page_index": 0,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Đúng $\\frac{1}{5}$",
-              "note": "Đúng câu a (+0,50đ)."
+              "note": "a) Làm đúng trọn vẹn câu a (+0,50đ)."
             },
             {
-              "page_index": 0,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Đúng 19",
-              "note": "Đúng câu b (+0,50đ)."
+              "note": "b) Làm đúng trọn vẹn câu b (+0,50đ)."
             },
             {
-              "page_index": 0,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "c) Đúng 0",
-              "note": "Đúng câu c (+0,50đ)."
+              "note": "c) Làm đúng trọn vẹn câu c (+0,50đ)."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 0.0,
           "max_score": 1.0,
-          "is_skipped": true,
-          "raw_student_text": "Câu 24: a) Số đo góc yAC là 50°; b) Vì Ax và BC đều có số đo là 50° nên góc Ax và BC song song với nhau",
-          "student_answer": "⚠️ (Bỏ trống)",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 0,
               "label": "0,00đ",
               "ok": false,
-              "kind": "missing",
-              "student_text": "Bỏ trống",
-              "note": "Chưa làm câu 24."
+              "note": "Chưa làm câu 24 (không có bài làm trên T2)."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.0,
           "max_score": 0.5,
-          "is_skipped": true,
-          "raw_student_text": "⚠️ *(Học sinh không làm / bỏ trống)*",
-          "student_answer": "⚠️ (Bỏ trống)",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 0,
               "label": "0,00đ",
               "ok": false,
-              "kind": "missing",
-              "student_text": "Bỏ trống",
               "note": "Chưa làm câu 25."
             }
           ]
@@ -11373,81 +11098,51 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 1.5,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "Câu 23: a) $\\frac{1}{5} \\cdot \\frac{15}{21} \\cdot \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{36}{3015}$; b) = 16; c) = 4/16",
-          "student_answer": "a) $\\frac{1}{7} + \\frac{2}{35} = \\frac{1}{5}$\nb) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$\nc) $(\\frac{1}{2} + \\frac{1}{6})^2 - |-\\frac{4}{9}| = \\frac{4}{9} - |-\\frac{4}{9}| = 0$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 1.5,
           "steps": [
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Rút gọn từng tích rồi cộng đúng ra $\\frac{1}{5}$",
-              "note": "Đúng câu a (+0,50đ)."
+              "note": "a) Tính đúng câu a (+0,50đ)."
             },
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Đúng 19",
-              "note": "Đúng câu b (+0,50đ)."
+              "note": "b) Tính đúng câu b (+0,50đ)."
             },
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "c) Đúng 0",
-              "note": "Đúng câu c (+0,50đ)."
+              "note": "c) Tính đúng câu c (+0,50đ)."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 0.5,
           "max_score": 1.0,
-          "is_skipped": false,
-          "raw_student_text": "Câu 24: a) = 60; b) vì hai cặp góc đồng vị với nhau; tiếp T2: = 640411; b) vì A = 3/18 nên A $\\le$ 1/2",
-          "student_answer": "a) Vì $\\widehat{BAC}$ kề bù với $\\widehat{yAC}$ nên $\\widehat{yAC} = 180^\\circ - 80^\\circ = 100^\\circ$\nb) Hai đường thẳng $Ax // BC$ vì có một đường thẳng $By$ cắt tạo nên cặp góc so le trong...",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 0.5,
           "steps": [
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Tính đúng $\\widehat{yAC} = 100^\\circ$",
-              "note": "Đúng góc kề bù (+0,50đ)."
+              "note": "a) Lập luận kề bù tính đúng yAC = 100° (+0,50đ)."
             },
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "b) Chưa chỉ rõ góc bằng nhau",
-              "note": "Chưa tính góc phân giác $50^\\circ$."
+              "note": "b) Lập luận chứng minh còn lúng túng chưa đủ ý."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.0,
           "max_score": 0.5,
-          "is_skipped": false,
-          "raw_student_text": "Câu 25: b) vì A = 3/18 nên A $\\le$ 1/2",
-          "student_answer": "C25 (để trống)",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "missing",
-              "student_text": "Bỏ trống",
               "note": "Chưa làm câu 25."
             }
           ]
@@ -15308,82 +15003,52 @@
       "questions": [
         {
           "question_no": "Câu 23",
-          "score": 1.5,
           "max_score": 1.5,
-          "is_skipped": false,
-          "raw_student_text": "Câu 23: a) $\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot (\\frac{15+6}{21}) = \\frac{1}{5} \\cdot \\frac{90}{21} = \\frac{6}{7}$ (Kết quả đã rút gọn tối thiểu); b) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$; c) $(\\frac{1}{2}+\\frac{1}{6})^2 - |-\\frac{4}{9}| = \\frac{4}{9} - |-\\frac{4}{9}| = \\frac{8}{9}$",
-          "student_answer": "a) $\\frac{1}{5} \\cdot 1 = \\frac{1}{5}$\nb) $\\sqrt{9} + (-4)^2 = 3 + 16 = 19$\nc) $(\\frac{1}{2} + \\frac{1}{6})^2 - |-\\frac{4}{9}| = \\frac{4}{9} - \\frac{4}{9} = 0$",
-          "model_solution": "a) Áp dụng tính chất phân phối $a \\cdot b + a \\cdot c = a \\cdot (b + c)$:\n$$\\frac{1}{5} \\cdot \\frac{15}{21} + \\frac{1}{5} \\cdot \\frac{6}{21} = \\frac{1}{5} \\cdot \\left(\\frac{15}{21} + \\frac{6}{21}\\right) = \\frac{1}{5} \\cdot \\frac{21}{21} = \\frac{1}{5} \\cdot 1 = \\frac{1}{5}$$\n\nb) Ta có: $\\sqrt{9} = 3$ và $(-4)^2 = 16$.\n$$\\sqrt{9} + (-4)^2 = 3 + 16 = 19$$\n\nc) Ta thực hiện phép tính trong ngoặc trước:\n$$\\frac{1}{2} + \\frac{1}{6} = \\frac{3}{6} + \\frac{1}{6} = \\frac{4}{6} = \\frac{2}{3}$$\nDo đó:\n$$\\left(\\frac{1}{2} + \\frac{1}{6}\\right)^2 - \\left|-\\frac{4}{9}\\right| = \\left(\\frac{2}{3}\\right)^2 - \\frac{4}{9} = \\frac{4}{9} - \\frac{4}{9} = 0$$",
+          "score": 1.5,
           "steps": [
             {
-              "page_index": 1,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Đúng $\\frac{1}{5}$",
-              "note": "Đúng câu a (+0,50đ)."
+              "note": "a) Tính đúng câu a (+0,50đ)."
             },
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "b) Đúng 19",
-              "note": "Đúng câu b (+0,50đ)."
+              "note": "b) Tính đúng câu b (+0,50đ)."
             },
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "c) Đúng 0",
-              "note": "Đúng câu c (+0,50đ)."
+              "note": "c) Tính đúng câu c (+0,50đ)."
             }
           ]
         },
         {
           "question_no": "Câu 24",
-          "score": 0.5,
           "max_score": 1.0,
-          "is_skipped": false,
-          "raw_student_text": "Câu 24: a) Vì tia phân giác của yAC mà yAC và BAC tạo thành 1 góc kề bù. CAB = 80° vì vậy bên kia là yAC = 100° (kề bù); b) Ax // BC vì đường thẳng y đi cắt mà yAC = 100. Ax là tia phân giác chia đôi yAC vì vậy xAC = 50°, mà ACB cũng bằng 50°. Suy ra xAC là góc so le trong bằng nhau nên Ax // BC",
-          "student_answer": "a) Vì kề bù nên $yAC = 100^\\circ$\nb) Vì $Ax$ và $BC$ (So le trong) nên $Ax // BC$",
-          "model_solution": "a) Vì $\\widehat{yAC}$ và $\\widehat{BAC}$ là hai góc kề bù nên:\n$$\\widehat{yAC} + \\widehat{BAC} = 180^\\circ$$\n$$\\Rightarrow \\widehat{yAC} = 180^\\circ - \\widehat{BAC} = 180^\\circ - 80^\\circ = 100^\\circ$$\nVậy $\\widehat{yAC} = 100^\\circ$.\n\nb) Vì $Ax$ là tia phân giác của góc $\\widehat{yAC}$ nên:\n$$\\widehat{xAC} = \\frac{1}{2}\\widehat{yAC} = \\frac{1}{2} \\cdot 100^\\circ = 50^\\circ$$\nTa có: $\\widehat{xAC} = 50^\\circ$ và $\\widehat{BCA} = 50^\\circ$ (theo giả thiết).\nSuy ra: $\\widehat{xAC} = \\widehat{BCA} = 50^\\circ$.\nMà hai góc $\\widehat{xAC}$ và $\\widehat{BCA}$ ở vị trí so le trong đối với cát tuyến $AC$.\nDo đó $Ax // BC$ (dấu hiệu nhận biết hai đường thẳng song song).",
+          "score": 0.5,
           "steps": [
             {
-              "page_index": 2,
               "label": "+0,50đ",
               "ok": true,
-              "kind": "correct",
-              "student_text": "a) Đúng $100^\\circ$",
-              "note": "Đúng góc kề bù (+0,50đ)."
+              "note": "a) Tính đúng góc kề bù yAC = 100° ở phần sửa (+0,50đ)."
             },
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "b) Chưa chỉ ra góc bằng nhau",
-              "note": "Chưa tính góc phân giác $50^\\circ$."
+              "note": "b) Lập luận so le trong chưa hoàn thiện."
             }
           ]
         },
         {
           "question_no": "Câu 25",
-          "score": 0.0,
           "max_score": 0.5,
-          "is_skipped": false,
-          "raw_student_text": "Câu 25: Vì trung bình 1/3 = 0,(3)... và khi cho nó có số dù bất kì là có số nào cũng không vượt quá 0,5 mà 0,5 = 1/2 vì vậy A $\\le$ 1/2. VD: A = 1/3 + 1/3² + 1/3³; A = ... = 0,(0123456789) nó nhỏ hơn 0,5",
-          "student_answer": "Vì A có thể < 1/2 nên A...",
-          "model_solution": "Ta có:\n$$A = \\frac{1}{3} + \\frac{1}{3^2} + \\frac{1}{3^3} + \\dots + \\frac{1}{3^{2025}} + \\frac{1}{3^{2026}}$$\nNhân cả hai vế với 3:\n$$3A = 1 + \\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2025}}$$\nTrừ vế theo vế $3A$ cho $A$:\n$$3A - A = \\left(1 + \\frac{1}{3} + \\dots + \\frac{1}{3^{2025}}\\right) - \\left(\\frac{1}{3} + \\frac{1}{3^2} + \\dots + \\frac{1}{3^{2026}}\\right)$$\n$$2A = 1 - \\frac{1}{3^{2026}}$$\nSuy ra:\n$$A = \\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}}$$\nVì $\\frac{1}{2 \\cdot 3^{2026}} > 0$ nên $\\frac{1}{2} - \\frac{1}{2 \\cdot 3^{2026}} < \\frac{1}{2}$.\nVậy $A < \\frac{1}{2}$ (điều phải chứng minh).",
+          "score": 0.0,
           "steps": [
             {
-              "page_index": 2,
               "label": "0,00đ",
               "ok": false,
-              "kind": "error",
-              "student_text": "Lập luận cảm tính",
-              "note": "Chưa làm được."
+              "note": "Chưa làm hoàn thiện câu 25."
             }
           ]
         }
