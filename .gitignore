@@ -3,3 +3,6 @@
 *.dll
 _backups/
 
+
+# Local Teacher Audit Tool
+gv_duyet*
