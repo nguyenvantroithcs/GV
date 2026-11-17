@@ -397,7 +397,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.999996542930603
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_085756_001_omr.jpg"
       },
       "summary_comment": "TN: 5.50/7.00đ (P.I 9/12 = 2.25đ; P.II 13/16 ý = 3.25đ). TL: 1.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.50đ, Câu 3: 0đ). Tổng: 7.00/10.0đ.",
       "questions": [
@@ -558,7 +559,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/001_Bai_001_T1_085756_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_085756_001_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_091539_002",
@@ -910,7 +912,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6093553304672241
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_091539_002_omr.jpg"
       },
       "summary_comment": "TN: 6.50/7.00đ (P.I 10/12 = 2.50đ; P.II 16/16 ý = 4.00đ). TL: 2.25/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3: 0.25đ). Tổng: 8.75/10.0đ.",
       "questions": [
@@ -1115,7 +1118,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/002_Bai_002_T1_091539_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/002_Bai_002_T2_091539_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_091539_002_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_095522_003",
@@ -1466,7 +1470,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5057677030563354
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_095522_003_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.75/7.0đ | TL: 0.75/3.0đ. OMR trôi lệch; P1 2.25đ (9/12), P2 3.50đ (14/16), TL 0.75đ",
       "questions": [
@@ -1584,7 +1589,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/003_Bai_003_T1_095522_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_095522_003_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_095714_004",
@@ -1936,7 +1942,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.44330766797065735
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_095714_004_omr.jpg"
       },
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12 = 2.25đ; P.II 14/16 ý = 3.50đ). TL: 1.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.50đ, Câu 3: 0đ). Tổng: 7.25/10.0đ.",
       "questions": [
@@ -2098,7 +2105,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/004_Bai_004_T1_095714_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/004_Bai_004_T2_095714_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_095714_004_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_095756_005",
@@ -2450,7 +2458,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4079579710960388
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_095756_005_omr.jpg"
       },
       "summary_comment": "TN: 5.25/7.00đ (P.I 10/12 = 2.50đ; P.II 11/16 ý = 2.75đ). TL: 1.00/3.00đ (Câu 1: 0.75đ, Câu 2: 0.25đ, Câu 3: 0đ). Tổng: 6.25/10.0đ.",
       "questions": [
@@ -2613,7 +2622,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/005_Bai_005_T1_095756_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/005_Bai_005_T2_095756_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_095756_005_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_095848_006",
@@ -2965,7 +2975,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.707840621471405
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_095848_006_omr.jpg"
       },
       "summary_comment": "TN: 7.00/7.00đ (P.I 12/12 = 3.00đ; P.II 16/16 ý = 4.00đ). TL: 1.25/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0.25đ). Tổng: 8.25/10.0đ.",
       "questions": [
@@ -3128,7 +3139,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/006_Bai_006_T1_095848_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/006_Bai_006_T2_095848_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_095848_006_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_095920_007",
@@ -3479,7 +3491,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6887214779853821
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_095920_007_omr.jpg"
       },
       "summary_comment": "TN: 7.00/7.00đ (P.I 12/12 = 3.00đ; P.II 16/16 ý = 4.00đ). TL: 1.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0.50đ). Tổng: 8.50/10.0đ.",
       "questions": [
@@ -3640,7 +3653,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/007_Bai_007_T1_095920_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_095920_007_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_100013_008",
@@ -3992,7 +4006,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.668452262878418
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_100013_008_omr.jpg"
       },
       "summary_comment": "TN: 6.25/7.00đ (P.I 12/12 = 3.00đ; P.II 13/16 ý = 3.25đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3: 0.75đ). Tổng: 9.00/10.0đ.",
       "questions": [
@@ -4186,7 +4201,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/008_Bai_008_T1_100013_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/008_Bai_008_T2_100013_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_100013_008_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_100126_009",
@@ -4538,7 +4554,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.2456692010164261
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_100126_009_omr.jpg"
       },
       "summary_comment": "TN: 6.75/7.00đ (P.I 11/12 = 2.75đ; P.II 16/16 ý = 4.00đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3 tốt (1.00đ)). Tổng: 9.50/10.0đ.",
       "questions": [
@@ -4741,7 +4758,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/009_Bai_009_T1_100126_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/009_Bai_009_T2_100126_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_100126_009_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_100228_010",
@@ -5093,7 +5111,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8222533464431763
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_100228_010_omr.jpg"
       },
       "summary_comment": "TN: 7.00/7.00đ (P.I 12/12 = 3.00đ; P.II 16/16 ý = 4.00đ). TL: 1.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0.75đ). Tổng: 8.75/10.0đ.",
       "questions": [
@@ -5254,7 +5273,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/010_Bai_010_T1_100228_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/010_Bai_010_T2_100228_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_100228_010_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_100343_011",
@@ -5606,7 +5626,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4978475868701935
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_100343_011_omr.jpg"
       },
       "summary_comment": "TN: 6.50/7.00đ (P.I 12/12 = 3.00đ; P.II 14/16 ý = 3.50đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3 tốt (1.00đ)). Tổng: 9.25/10.0đ.",
       "questions": [
@@ -5809,7 +5830,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/011_Bai_011_T1_100343_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/011_Bai_011_T2_100343_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_100343_011_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_102543_012",
@@ -6160,7 +6182,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.48719143867492676
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102543_012_omr.jpg"
       },
       "summary_comment": "TN: 6.25/7.00đ (P.I 12/12 = 3.00đ; P.II 13/16 ý = 3.25đ). TL: 2.25/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3: 0.50đ). Tổng: 8.50/10.0đ.",
       "questions": [
@@ -6363,7 +6386,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/012_Bai_012_T1_102543_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102543_012_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_102628_013",
@@ -6715,7 +6739,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5566422939300537
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102628_013_omr.jpg"
       },
       "summary_comment": "TN: 6.75/7.00đ (P.I 11/12 = 2.75đ; P.II 16/16 ý = 4.00đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3 tốt (1.00đ)). Tổng: 9.50/10.0đ.",
       "questions": [
@@ -6918,7 +6943,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/013_Bai_013_T1_102628_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/013_Bai_013_T2_102628_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102628_013_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_102643_014",
@@ -7269,7 +7295,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.2530025839805603
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102643_014_omr.jpg"
       },
       "summary_comment": "TN: 5.25/7.00đ (P.I 7/12 = 1.75đ; P.II 14/16 ý = 3.50đ). TL: 0.50/3.00đ (Câu 1: 0.50đ, Câu 2: 0đ, Câu 3: 0đ). Tổng: 5.75/10.0đ.",
       "questions": [
@@ -7388,7 +7415,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/014_Bai_014_T1_102643_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102643_014_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_102704_015",
@@ -7739,7 +7767,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.43243637681007385
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102704_015_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 6.5/7.0đ | TL: 0.5/3.0đ. OMR match fail 0.432; P1 2.75đ (11/12), P2 3.75đ (15/16), TL 0.50đ",
       "questions": [
@@ -7858,7 +7887,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/015_Bai_015_T1_102704_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102704_015_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_102730_016",
@@ -8210,7 +8240,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4975212514400482
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102730_016_omr.jpg"
       },
       "summary_comment": "TN: 5.75/7.00đ (P.I 8/12 = 2.00đ; P.II 15/16 ý = 3.75đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3 tốt (1.00đ)). Tổng: 8.50/10.0đ.",
       "questions": [
@@ -8413,7 +8444,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/016_Bai_016_T1_102730_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/016_Bai_016_T2_102730_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102730_016_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_102746_017",
@@ -8764,7 +8796,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5399295687675476
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102746_017_omr.jpg"
       },
       "summary_comment": "TN: 6.50/7.00đ (P.I 12/12 = 3.00đ; P.II 14/16 ý = 3.50đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3: 0.25đ). Tổng: 8.50/10.0đ.",
       "questions": [
@@ -8968,7 +9001,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/017_Bai_017_T1_102746_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102746_017_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_102804_018",
@@ -9319,7 +9353,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5909889340400696
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102804_018_omr.jpg"
       },
       "summary_comment": "TN: 6.50/7.00đ (P.I 10/12 = 2.50đ; P.II 16/16 ý = 4.00đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 7.50/10.0đ.",
       "questions": [
@@ -9437,7 +9472,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/018_Bai_018_T1_102804_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102804_018_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_102835_019",
@@ -9789,7 +9825,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4849569797515869
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102835_019_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 6.0/7.0đ | TL: 2.25/3.0đ. OMR match fail 0.485; P1 2.25đ (9/12), P2 3.75đ (15/16), TL 2.25đ",
       "questions": [
@@ -9993,7 +10030,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/019_Bai_019_T1_102835_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/019_Bai_019_T2_102835_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102835_019_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_102855_020",
@@ -10344,7 +10382,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5101848244667053
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102855_020_omr.jpg"
       },
       "summary_comment": "TN: 4.50/7.00đ (P.I 7/12 = 1.75đ; P.II 11/16 ý = 2.75đ). TL: 0.75/3.00đ (Câu 1: 0.75đ, Câu 2: 0đ, Câu 3: 0đ). Tổng: 5.25/10.0đ.",
       "questions": [
@@ -10462,7 +10501,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/020_Bai_020_T1_102855_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102855_020_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_102915_021",
@@ -10813,7 +10853,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.33853355050086975
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102915_021_omr.jpg"
       },
       "summary_comment": "TN: 4.25/7.00đ (P.I 5/12 = 1.25đ; P.II 12/16 ý = 3.00đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 5.25/10.0đ.",
       "questions": [
@@ -10931,7 +10972,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/021_Bai_021_T1_102915_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_102915_021_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103044_022",
@@ -11283,7 +11325,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.709710419178009
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103044_022_omr.jpg"
       },
       "summary_comment": "TN: 4.75/7.00đ (P.I 8/12 = 2.00đ; P.II 11/16 ý = 2.75đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3: 0.25đ). Tổng: 6.75/10.0đ.",
       "questions": [
@@ -11469,7 +11512,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/022_Bai_022_T1_103044_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/022_Bai_022_T2_103044_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103044_022_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103125_023",
@@ -11821,7 +11865,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6341559290885925
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103125_023_omr.jpg"
       },
       "summary_comment": "TN: 6.50/7.00đ (P.I 12/12 = 3.00đ; P.II 14/16 ý = 3.50đ). TL: 2.25/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.50đ, Câu 3: 0.75đ). Tổng: 8.75/10.0đ.",
       "questions": [
@@ -12007,7 +12052,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/023_Bai_023_T1_103125_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/023_Bai_023_T2_103125_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103125_023_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103157_024",
@@ -12359,7 +12405,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5805038809776306
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103157_024_omr.jpg"
       },
       "summary_comment": "TN: 6.25/7.00đ (P.I 11/12 = 2.75đ; P.II 14/16 ý = 3.50đ). TL: 2.25/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.50đ, Câu 3: 0.75đ). Tổng: 8.50/10.0đ.",
       "questions": [
@@ -12553,7 +12600,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/024_Bai_024_T1_103157_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/024_Bai_024_T2_103157_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103157_024_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103226_025",
@@ -12905,7 +12953,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.598005473613739
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103226_025_omr.jpg"
       },
       "summary_comment": "TN: 6.25/7.00đ (P.I 12/12 = 3.00đ; P.II 13/16 ý = 3.25đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.50đ, Câu 3: 0.50đ). Tổng: 8.25/10.0đ.",
       "questions": [
@@ -13110,7 +13159,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/025_Bai_025_T1_103226_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/025_Bai_025_T2_103226_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103226_025_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103257_026",
@@ -13462,7 +13512,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5582795739173889
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103257_026_omr.jpg"
       },
       "summary_comment": "TN: 5.75/7.00đ (P.I 10/12 = 2.50đ; P.II 13/16 ý = 3.25đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3 tốt (1.00đ)). Tổng: 7.75/10.0đ.",
       "questions": [
@@ -13623,7 +13674,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/026_Bai_026_T1_103257_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/026_Bai_026_T2_103257_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103257_026_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103350_027",
@@ -13975,7 +14027,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.40761709213256836
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103350_027_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.25/7.0đ | TL: 1.5/3.0đ. OMR P2 lệch viền; P1 2.25đ (9/12), P2 3.00đ (12/16), TL 1.50đ",
       "questions": [
@@ -14141,7 +14194,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/027_Bai_027_T1_103350_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/027_Bai_027_T2_103350_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103350_027_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103427_028",
@@ -14493,7 +14547,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.43023446202278137
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103427_028_omr.jpg"
       },
       "summary_comment": "TN: 4.50/7.00đ (P.I 7/12 = 1.75đ; P.II 11/16 ý = 2.75đ). TL: 3.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3 tốt (1.00đ)). Tổng: 7.50/10.0đ.",
       "questions": [
@@ -14696,7 +14751,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/028_Bai_028_T1_103427_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/028_Bai_028_T2_103427_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103427_028_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103445_029",
@@ -15047,7 +15103,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5821375846862793
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103445_029_omr.jpg"
       },
       "summary_comment": "TN: 4.25/7.00đ (P.I 11/12 = 2.75đ; P.II 6/16 ý = 1.50đ). TL: 1.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0.75đ). Tổng: 6.00/10.0đ.",
       "questions": [
@@ -15207,7 +15264,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/029_Bai_029_T1_103445_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103445_029_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103501_030",
@@ -15558,7 +15616,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.2836001217365265
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103501_030_omr.jpg"
       },
       "summary_comment": "TN: 3.50/7.00đ (P.I 5/12 = 1.25đ; P.II 9/16 ý = 2.25đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 4.50/10.0đ.",
       "questions": [
@@ -15676,7 +15735,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/030_Bai_030_T1_103501_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103501_030_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103514_031",
@@ -16027,7 +16087,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.44958120584487915
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103514_031_omr.jpg"
       },
       "summary_comment": "TN: 5.25/7.00đ (P.I 10/12 = 2.50đ; P.II 11/16 ý = 2.75đ). TL: 0.00/3.00đ (Câu 1: 0đ, Câu 2: 0đ, Câu 3: 0đ). Tổng: 5.25/10.0đ.",
       "questions": [
@@ -16103,7 +16164,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/031_Bai_031_T1_103514_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103514_031_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103531_032",
@@ -16454,7 +16516,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.495724618434906
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103531_032_omr.jpg"
       },
       "summary_comment": "TN: 5.00/7.00đ (P.I 9/12 = 2.25đ; P.II 11/16 ý = 2.75đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 6.00/10.0đ.",
       "questions": [
@@ -16572,7 +16635,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/032_Bai_032_T1_103531_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103531_032_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103544_033",
@@ -16923,7 +16987,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.3571906089782715
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103544_033_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.0/7.0đ | TL: 0.0/3.0đ. OMR P2 lệch cột; P1 1.00đ (4/12), P2 4.00đ (16/16), TL 0.00đ",
       "questions": [
@@ -16999,7 +17064,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/033_Bai_033_T1_103544_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103544_033_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103556_034",
@@ -17350,7 +17416,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4208624064922333
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103556_034_omr.jpg"
       },
       "summary_comment": "TN: 5.25/7.00đ (P.I 8/12 = 2.00đ; P.II 13/16 ý = 3.25đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 6.25/10.0đ.",
       "questions": [
@@ -17468,7 +17535,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/034_Bai_034_T1_103556_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103556_034_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103632_035",
@@ -17820,7 +17888,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5481745004653931
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103632_035_omr.jpg"
       },
       "summary_comment": "TN: 6.25/7.00đ (P.I 10/12 = 2.50đ; P.II 15/16 ý = 3.75đ). TL: 3.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3 tốt (1.00đ)). Tổng: 9.25/10.0đ.",
       "questions": [
@@ -18023,7 +18092,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/035_Bai_035_T1_103632_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/035_Bai_035_T2_103632_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103632_035_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103646_036",
@@ -18374,7 +18444,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5597890019416809
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103646_036_omr.jpg"
       },
       "summary_comment": "TN: 4.75/7.00đ (P.I 8/12 = 2.00đ; P.II 11/16 ý = 2.75đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3 tốt (1.00đ)). Tổng: 6.75/10.0đ.",
       "questions": [
@@ -18534,7 +18605,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/036_Bai_036_T1_103646_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103646_036_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103658_037",
@@ -18885,7 +18957,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5891005992889404
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103658_037_omr.jpg"
       },
       "summary_comment": "TN: 5.75/7.00đ (P.I 11/12 = 2.75đ; P.II 12/16 ý = 3.00đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 6.75/10.0đ.",
       "questions": [
@@ -19003,7 +19076,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/037_Bai_037_T1_103658_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103658_037_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103712_038",
@@ -19354,7 +19428,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7328641414642334
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103712_038_omr.jpg"
       },
       "summary_comment": "TN: 5.50/7.00đ (P.I 8/12 = 2.00đ; P.II 14/16 ý = 3.50đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3 tốt (1.00đ)). Tổng: 7.50/10.0đ.",
       "questions": [
@@ -19514,7 +19589,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/038_Bai_038_T1_103712_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103712_038_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103724_039",
@@ -19865,7 +19941,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5015726089477539
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103724_039_omr.jpg"
       },
       "summary_comment": "TN: 6.00/7.00đ (P.I 10/12 = 2.50đ; P.II 14/16 ý = 3.50đ). TL: 0.50/3.00đ (Câu 1: 0.50đ, Câu 2: 0đ, Câu 3: 0đ). Tổng: 6.50/10.0đ.",
       "questions": [
@@ -19984,7 +20061,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/039_Bai_039_T1_103724_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103724_039_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103742_040",
@@ -20335,7 +20413,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5735663771629333
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103742_040_omr.jpg"
       },
       "summary_comment": "TN: 5.75/7.00đ (P.I 10/12 = 2.50đ; P.II 13/16 ý = 3.25đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 6.75/10.0đ.",
       "questions": [
@@ -20453,7 +20532,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/040_Bai_040_T1_103742_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103742_040_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103753_041",
@@ -20804,7 +20884,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.43542397022247314
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103753_041_omr.jpg"
       },
       "summary_comment": "TN: 4.50/7.00đ (P.I 6/12 = 1.50đ; P.II 12/16 ý = 3.00đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 5.50/10.0đ.",
       "questions": [
@@ -20922,7 +21003,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/041_Bai_041_T1_103753_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103753_041_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103813_042",
@@ -21274,7 +21356,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4545152187347412
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103813_042_omr.jpg"
       },
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12 = 2.25đ; P.II 14/16 ý = 3.50đ). TL: 2.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3: 0.75đ). Tổng: 8.25/10.0đ.",
       "questions": [
@@ -21468,7 +21551,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/042_Bai_042_T1_103813_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/042_Bai_042_T2_103813_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103813_042_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103823_043",
@@ -21819,7 +21903,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4636228382587433
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103823_043_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.5/7.0đ | TL: 0.0/3.0đ. OMR P2 lệch cột; P1 1.50đ (6/12), P2 4.00đ (16/16), TL 0.00đ",
       "questions": [
@@ -21895,7 +21980,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/043_Bai_043_T1_103823_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103823_043_omr.jpg"
     },
     {
       "submission_id": "hs_20261113_103836_044",
@@ -22246,7 +22332,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4814739525318146
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103836_044_omr.jpg"
       },
       "summary_comment": "TN: 5.75/7.00đ (P.I 9/12 = 2.25đ; P.II 14/16 ý = 3.50đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 6.75/10.0đ.",
       "questions": [
@@ -22364,7 +22451,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A7/044_Bai_044_T1_103836_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103836_044_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_01",
@@ -22716,7 +22804,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7322291731834412
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_01_omr.jpg"
       },
       "summary_comment": "TN: 6.00/7.00đ (P.I 11/12 = 2.75đ; P.II 13/16 ý = 3.25đ). TL: 1.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.50đ, Câu 3: 0.25đ). Tổng: 7.75/10.0đ.",
       "questions": [
@@ -22858,7 +22947,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/014_Bai_014_T1_075659_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/014_Bai_014_T2_075659_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_01_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_02",
@@ -23209,7 +23299,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.47312071919441223
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_02_omr.jpg"
       },
       "summary_comment": "TN: 6.00/7.00đ (P.I 9/12 = 2.25đ; P.II 15/16 ý = 3.75đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3 tốt (1.00đ)). Tổng: 8.75/10.0đ.",
       "questions": [
@@ -23349,8 +23440,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/029_Bai_029_T1_080633_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/029_Bai_029_T1_080616_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_02_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_03",
@@ -23702,7 +23794,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6591776013374329
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_03_omr.jpg"
       },
       "summary_comment": "TN: 6.75/7.00đ (P.I 11/12 = 2.75đ; P.II 16/16 ý = 4.00đ). TL: 3.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3 tốt (1.00đ)). Tổng: 9.75/10.0đ.",
       "questions": [
@@ -23844,7 +23937,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/022_Bai_022_T1_080238_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/022_Bai_022_T2_080238_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_03_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_04",
@@ -24196,7 +24290,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7011417150497437
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_04_omr.jpg"
       },
       "summary_comment": "TN: 6.00/7.00đ (P.I 11/12 = 2.75đ; P.II 13/16 ý = 3.25đ). TL: 3.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3 tốt (1.00đ)). Tổng: 9.00/10.0đ.",
       "questions": [
@@ -24361,7 +24456,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/033_Bai_033_T1_080826_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/033_Bai_033_T2_080826_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_04_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_05",
@@ -24712,7 +24808,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6362096071243286
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_05_omr.jpg"
       },
       "summary_comment": "TN: 5.00/7.00đ (P.I 8/12 = 2.00đ; P.II 12/16 ý = 3.00đ). TL: 1.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0.50đ). Tổng: 6.50/10.0đ.",
       "questions": [
@@ -24840,8 +24937,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/039_Bai_039_T1_081628_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/039_Bai_039_T1_081609_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_05_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_06",
@@ -25193,7 +25291,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.807322084903717
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_06_omr.jpg"
       },
       "summary_comment": "TN: 5.50/7.00đ (P.I 8/12 = 2.00đ; P.II 14/16 ý = 3.50đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3 tốt (1.00đ)). Tổng: 8.25/10.0đ.",
       "questions": [
@@ -25366,7 +25465,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/016_Bai_016_T1_075809_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/016_Bai_016_T2_075809_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_06_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_07",
@@ -25717,7 +25817,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.19728747010231018
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_07_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.5/7.0đ | TL: 1.25/3.0đ. Ảnh chụp ngang, xoay sai góc; P1 2.00đ, P2 3.50đ, TL 1.25đ",
       "questions": [
@@ -25838,7 +25939,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/037_Bai_037_T1_081519_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_07_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_08",
@@ -26189,7 +26291,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.18476925790309906
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_08_omr.jpg"
       },
       "summary_comment": "TN: 5.00/7.00đ (P.I 6/12 = 1.50đ; P.II 14/16 ý = 3.50đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 6.00/10.0đ.",
       "questions": [
@@ -26289,8 +26392,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/038_Bai_038_T1_081552_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/038_Bai_038_T1_081547_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_08_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_09",
@@ -26641,7 +26745,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5480621457099915
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_09_omr.jpg"
       },
       "summary_comment": "TN: 5.25/7.00đ (P.I 8/12 = 2.00đ; P.II 13/16 ý = 3.25đ). TL: 2.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.50đ, Câu 3 tốt (1.00đ)). Tổng: 7.75/10.0đ.",
       "questions": [
@@ -26781,8 +26886,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/015_Bai_015_T1_075736_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/015_Bai_015_T1_075732_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_09_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_10",
@@ -27134,7 +27240,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.2803032398223877
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_10_omr.jpg"
       },
       "summary_comment": "TN: 6.50/7.00đ (P.I 11/12 = 2.75đ; P.II 15/16 ý = 3.75đ). TL: 2.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.50đ, Câu 3 tốt (1.00đ)). Tổng: 9.00/10.0đ.",
       "questions": [
@@ -27291,7 +27398,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/017_Bai_017_T1_075845_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/017_Bai_017_T2_075845_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_10_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_11",
@@ -27643,7 +27751,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.45918482542037964
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_11_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 6.5/7.0đ | TL: 3.0/3.0đ. OMR match fail 0.459; P1 2.75đ (11/12), P2 3.75đ (15/16), TL 3.00đ",
       "questions": [
@@ -27783,9 +27892,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/031_Bai_031_T1_080721_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/031_Bai_031_T1_080709_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/031_Bai_031_T2_080721_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_11_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_12",
@@ -28137,7 +28247,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6166123747825623
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_12_omr.jpg"
       },
       "summary_comment": "TN: 6.50/7.00đ (P.I 12/12 = 3.00đ; P.II 14/16 ý = 3.50đ). TL: 2.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3: 0.75đ). Tổng: 9.00/10.0đ.",
       "questions": [
@@ -28285,9 +28396,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/034_Bai_034_T1_080905_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/034_Bai_034_T1_080902_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/034_Bai_034_T2_080905_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_12_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_13",
@@ -28639,7 +28751,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7524914145469666
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_13_omr.jpg"
       },
       "summary_comment": "TN: 5.75/7.00đ (P.I 8/12 = 2.00đ; P.II 15/16 ý = 3.75đ). TL: 1.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0.50đ). Tổng: 7.25/10.0đ.",
       "questions": [
@@ -28771,9 +28884,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/021_Bai_021_T1_080209_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/021_Bai_021_T1_080145_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/021_Bai_021_T2_080209_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_13_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_14",
@@ -29124,7 +29238,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5152672529220581
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_14_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 4.75/7.0đ | TL: 1.0/3.0đ. OMR P2 lệch cột; P1 1.00đ (4/12), P2 3.75đ (15/16), TL 1.00đ",
       "questions": [
@@ -29224,8 +29339,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/026_Bai_026_T1_080447_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/026_Bai_026_T1_080508_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_14_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_15",
@@ -29576,7 +29692,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.35146933794021606
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_15_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 4.0/7.0đ | TL: 1.0/3.0đ. OMR P2 trôi hàng; P1 0.75đ (3/12), P2 3.25đ (13/16), TL 1.00đ",
       "questions": [
@@ -29696,8 +29813,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/013_Bai_013_T1_075626_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/013_Bai_013_T1_075609_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_15_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_16",
@@ -30049,7 +30167,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8418139815330505
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_16_omr.jpg"
       },
       "summary_comment": "TN: 7.00/7.00đ (P.I 12/12 = 3.00đ; P.II 16/16 ý = 4.00đ). TL: 3.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3 tốt (1.00đ)). Tổng: 10.00/10.0đ.",
       "questions": [
@@ -30189,9 +30308,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/008_Bai_008_T1_075323_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/008_Bai_008_T1_075300_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/008_Bai_008_T2_075323_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_16_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_17",
@@ -30543,7 +30663,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.2767397165298462
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_17_omr.jpg"
       },
       "summary_comment": "TN: 3.75/7.00đ (P.I 5/12 = 1.25đ; P.II 10/16 ý = 2.50đ). TL: 1.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0.50đ). Tổng: 5.25/10.0đ.",
       "questions": [
@@ -30683,9 +30804,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/027_Bai_027_T1_080521_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/027_Bai_027_T1_080539_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/027_Bai_027_T2_080521_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_17_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_18",
@@ -31037,7 +31159,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.607466459274292
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_18_omr.jpg"
       },
       "summary_comment": "TN: 6.50/7.00đ (P.I 12/12 = 3.00đ; P.II 14/16 ý = 3.50đ). TL: 3.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3 tốt (1.00đ)). Tổng: 9.50/10.0đ.",
       "questions": [
@@ -31177,9 +31300,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/011_Bai_011_T1_075517_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/011_Bai_011_T1_075505_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/011_Bai_011_T2_075517_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_18_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_19",
@@ -31530,7 +31654,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4020616114139557
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_19_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 6.5/7.0đ | TL: 1.25/3.0đ. OMR match fail 0.402; P1 2.50đ (10/12), P2 4.00đ (16/16), TL 1.25đ",
       "questions": [
@@ -31650,8 +31775,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/002_Bai_002_T2_074854_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/002_Bai_002_T1_074854_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_19_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_20",
@@ -32003,7 +32129,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5659908652305603
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_20_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 4.5/7.0đ | TL: 1.75/3.0đ. OMR P2 lệch cột; P1 1.00đ (4/12), P2 3.50đ (14/16), TL 1.75đ",
       "questions": [
@@ -32123,9 +32250,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/005_Bai_005_T1_075131_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/005_Bai_005_T1_075111_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/005_Bai_005_T2_075131_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_20_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_21",
@@ -32477,7 +32605,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6777986288070679
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_21_omr.jpg"
       },
       "summary_comment": "TN: 5.50/7.00đ (P.I 9/12 = 2.25đ; P.II 13/16 ý = 3.25đ). TL: 1.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3: 0đ). Tổng: 7.25/10.0đ.",
       "questions": [
@@ -32632,9 +32761,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/023_Bai_023_T1_080315_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/023_Bai_023_T1_080340_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/023_Bai_023_T2_080315_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_21_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_22",
@@ -32985,7 +33115,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5619510412216187
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_22_omr.jpg"
       },
       "summary_comment": "TN: 5.50/7.00đ (P.I 9/12 = 2.25đ; P.II 13/16 ý = 3.25đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 6.50/10.0đ.",
       "questions": [
@@ -33085,8 +33216,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/024_Bai_024_T1_080344_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/024_Bai_024_T1_080405_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_22_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_23",
@@ -33438,7 +33570,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.32806286215782166
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_23_omr.jpg"
       },
       "summary_comment": "TN: 6.75/7.00đ (P.I 11/12 = 2.75đ; P.II 16/16 ý = 4.00đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3: 0.75đ). Tổng: 9.50/10.0đ.",
       "questions": [
@@ -33586,9 +33719,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/019_Bai_019_T1_080036_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/019_Bai_019_T1_080005_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/019_Bai_019_T2_080036_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_23_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_24",
@@ -33940,7 +34074,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7661839723587036
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_24_omr.jpg"
       },
       "summary_comment": "TN: 6.75/7.00đ (P.I 11/12 = 2.75đ; P.II 16/16 ý = 4.00đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3 tốt (1.00đ)). Tổng: 8.75/10.0đ.",
       "questions": [
@@ -34083,9 +34218,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/003_Bai_003_T1_074932_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/003_Bai_003_T1_074943_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/003_Bai_003_T2_074932_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_24_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_25",
@@ -34437,7 +34573,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4342314898967743
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_25_omr.jpg"
       },
       "summary_comment": "TN: 5.00/7.00đ (P.I 8/12 = 2.00đ; P.II 12/16 ý = 3.00đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3: 0đ). Tổng: 7.00/10.0đ.",
       "questions": [
@@ -34580,9 +34717,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/012_Bai_012_T1_075549_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/012_Bai_012_T1_075547_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/012_Bai_012_T2_075549_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_25_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_26",
@@ -34934,7 +35072,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.3532349169254303
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_26_omr.jpg"
       },
       "summary_comment": "TN: 6.75/7.00đ (P.I 11/12 = 2.75đ; P.II 16/16 ý = 4.00đ). TL: 2.25/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.50đ, Câu 3: 0.75đ). Tổng: 9.00/10.0đ.",
       "questions": [
@@ -35082,9 +35221,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/007_Bai_007_T1_075253_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/007_Bai_007_T1_075219_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/007_Bai_007_T2_075253_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_26_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_27",
@@ -35435,7 +35575,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.3727571666240692
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_27_omr.jpg"
       },
       "summary_comment": "TN: 5.25/7.00đ (P.I 8/12 = 2.00đ; P.II 13/16 ý = 3.25đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3 tốt (1.00đ)). Tổng: 7.25/10.0đ.",
       "questions": [
@@ -35555,8 +35696,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/018_Bai_018_T1_080006_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/018_Bai_018_T1_075938_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_27_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_28",
@@ -35908,7 +36050,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5866988897323608
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_28_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.0/7.0đ | TL: 3.0/3.0đ. OMR P2 trôi hàng; P1 1.25đ (5/12), P2 3.75đ (15/16), TL 3.00đ",
       "questions": [
@@ -36071,9 +36214,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/006_Bai_006_T1_075211_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/006_Bai_006_T1_075145_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/006_Bai_006_T2_075211_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_28_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_29",
@@ -36425,7 +36569,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5541706085205078
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_29_omr.jpg"
       },
       "summary_comment": "TN: 7.00/7.00đ (P.I 12/12 = 3.00đ; P.II 16/16 ý = 4.00đ). TL: 3.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3 tốt (1.00đ)). Tổng: 10.00/10.0đ.",
       "questions": [
@@ -36588,9 +36733,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/009_Bai_009_T1_075355_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/009_Bai_009_T1_075348_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/009_Bai_009_T2_075355_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_29_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_30",
@@ -36942,7 +37088,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6489742994308472
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_30_omr.jpg"
       },
       "summary_comment": "TN: 5.75/7.00đ (P.I 12/12 = 3.00đ; P.II 11/16 ý = 2.75đ). TL: 1.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0.50đ). Tổng: 7.25/10.0đ.",
       "questions": [
@@ -37054,9 +37201,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/040_Bai_040_T1_081702_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/040_Bai_040_T1_081656_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/040_Bai_040_T2_081702_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_30_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_31",
@@ -37407,7 +37555,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4828115403652191
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_31_omr.jpg"
       },
       "summary_comment": "TN: 4.50/7.00đ (P.I 8/12 = 2.00đ; P.II 10/16 ý = 2.50đ). TL: 1.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3: 0đ). Tổng: 5.50/10.0đ.",
       "questions": [
@@ -37507,8 +37656,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/028_Bai_028_T1_080556_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/028_Bai_028_T1_080557_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_31_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_32",
@@ -37860,7 +38010,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.34970855712890625
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_32_omr.jpg"
       },
       "summary_comment": "TN: 5.50/7.00đ (P.I 9/12 = 2.25đ; P.II 13/16 ý = 3.25đ). TL: 1.25/3.00đ (Câu 1: 0.25đ, Câu 2: 0.75đ, Câu 3: 0.25đ). Tổng: 6.75/10.0đ.",
       "questions": [
@@ -38015,9 +38166,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/020_Bai_020_T1_080126_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/020_Bai_020_T1_080102_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/020_Bai_020_T2_080126_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_32_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_33",
@@ -38369,7 +38521,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4762427508831024
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_33_omr.jpg"
       },
       "summary_comment": "TN: 6.25/7.00đ (P.I 10/12 = 2.50đ; P.II 15/16 ý = 3.75đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3: 0.75đ). Tổng: 9.00/10.0đ.",
       "questions": [
@@ -38532,9 +38685,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/004_Bai_004_T1_075047_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/004_Bai_004_T1_075029_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/004_Bai_004_T2_075047_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_33_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_34",
@@ -38886,7 +39040,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.682295560836792
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_34_omr.jpg"
       },
       "summary_comment": "TN: 6.25/7.00đ (P.I 12/12 = 3.00đ; P.II 13/16 ý = 3.25đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3: 0.75đ). Tổng: 9.00/10.0đ.",
       "questions": [
@@ -39049,9 +39204,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/035_Bai_035_T1_080939_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/035_Bai_035_T1_081334_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/035_Bai_035_T2_080939_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_34_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_35",
@@ -39402,7 +39558,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.3938167691230774
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_35_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.5/7.0đ | TL: 1.5/3.0đ. OMR match fail 0.394; P1 2.00đ (8/12), P2 3.50đ (14/16), TL 1.50đ",
       "questions": [
@@ -39514,8 +39671,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/030_Bai_030_T1_080658_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/030_Bai_030_T1_080636_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_35_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_36",
@@ -39867,7 +40025,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7706547379493713
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_36_omr.jpg"
       },
       "summary_comment": "TN: 2.75/7.00đ (P.I 2/12 = 0.50đ; P.II 9/16 ý = 2.25đ). TL: 2.50/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.50đ, Câu 3 tốt (1.00đ)). Tổng: 5.25/10.0đ.",
       "questions": [
@@ -40038,9 +40197,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/036_Bai_036_T1_081432_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/036_Bai_036_T1_081424_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/036_Bai_036_T2_081432_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_36_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_37",
@@ -40391,7 +40551,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5593817234039307
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_37_omr.jpg"
       },
       "summary_comment": "TN: 5.50/7.00đ (P.I 8/12 = 2.00đ; P.II 14/16 ý = 3.50đ). TL: 1.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.75đ, Câu 3: 0đ). Tổng: 7.25/10.0đ.",
       "questions": [
@@ -40511,8 +40672,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/001_Bai_001_T1_074817_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/001_Bai_001_T1_074801_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_37_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_38",
@@ -40863,7 +41025,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5505861043930054
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_38_omr.jpg"
       },
       "summary_comment": "TN: 5.00/7.00đ (P.I 7/12 = 1.75đ; P.II 13/16 ý = 3.25đ). TL: 1.25/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0.25đ, Câu 3: 0đ). Tổng: 6.25/10.0đ.",
       "questions": [
@@ -40984,7 +41147,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/002_Bai_002_T1_074854_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_38_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_39",
@@ -41336,7 +41500,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7613242864608765
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_39_omr.jpg"
       },
       "summary_comment": "TN: 6.75/7.00đ (P.I 11/12 = 2.75đ; P.II 16/16 ý = 4.00đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3 tốt (1.00đ)). Tổng: 8.75/10.0đ.",
       "questions": [
@@ -41491,9 +41656,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/010_Bai_010_T1_075440_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/010_Bai_010_T1_075431_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/010_Bai_010_T2_075440_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_39_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_40",
@@ -41845,7 +42011,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6014596223831177
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_40_omr.jpg"
       },
       "summary_comment": "TN: 6.75/7.00đ (P.I 12/12 = 3.00đ; P.II 15/16 ý = 3.75đ). TL: 3.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3 tốt (1.00đ)). Tổng: 9.75/10.0đ.",
       "questions": [
@@ -42018,7 +42185,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/032_Bai_032_T1_080748_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/032_Bai_032_T2_080748_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_40_omr.jpg"
     },
     {
       "submission_id": "hs_8a8_41",
@@ -42370,7 +42538,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7264742255210876
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_41_omr.jpg"
       },
       "summary_comment": "TN: 5.25/7.00đ (P.I 9/12 = 2.25đ; P.II 12/16 ý = 3.00đ). TL: 2.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2: 0đ, Câu 3 tốt (1.00đ)). Tổng: 7.25/10.0đ.",
       "questions": [
@@ -42525,9 +42694,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A8/025_Bai_025_T1_080413_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A8/025_Bai_025_T1_080444_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A8/025_Bai_025_T2_080413_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_41_omr.jpg"
     },
     {
       "submission_id": "sub_001",
@@ -42878,7 +43048,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8165777921676636
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_001_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm đạt điểm cao, phần tự luận trình bày rõ ràng, đạt chuẩn kiến thức.",
       "questions": [
@@ -43006,8 +43177,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/004_Bai_004_T1_210541_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/004_Bai_004_T1_205646_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_001_omr.jpg"
     },
     {
       "submission_id": "sub_002",
@@ -43358,7 +43530,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7118974328041077
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_002_omr.jpg"
       },
       "summary_comment": "Bài làm khá tốt, nắm vững kiến thức trọng tâm, tự luận cần rèn luyện trình bày chi tiết hơn.",
       "questions": [
@@ -43496,7 +43669,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/019_Bai_019_T1_211422_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_002_omr.jpg"
     },
     {
       "submission_id": "sub_003",
@@ -43848,7 +44022,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7439579367637634
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_003_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm đạt điểm cao, phần tự luận trình bày rõ ràng, đạt chuẩn kiến thức.",
       "questions": [
@@ -44009,7 +44184,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/022_Bai_022_T1_211548_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/022_Bai_022_T2_211548_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_003_omr.jpg"
     },
     {
       "submission_id": "sub_004",
@@ -44361,7 +44537,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8488807678222656
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_004_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm đạt điểm cao, phần tự luận trình bày rõ ràng, đạt chuẩn kiến thức.",
       "questions": [
@@ -44489,9 +44666,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/014_Bai_014_T1_211125_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/014_Bai_014_T1_210309_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/014_Bai_014_T2_211125_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_004_omr.jpg"
     },
     {
       "submission_id": "sub_005",
@@ -44842,7 +45020,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5055763721466064
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_005_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.5/7.0đ | TL: 0.0/3.0đ. OMR P2 lệch viền; P1 2.00đ, P2 3.50đ (14/16), TL 0.00đ",
       "questions": [
@@ -44922,7 +45101,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/007_Bai_007_T1_205825_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_005_omr.jpg"
     },
     {
       "submission_id": "sub_006",
@@ -45273,7 +45453,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7538567781448364
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_006_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -45414,8 +45595,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/006_Bai_006_T2_205806_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/006_Bai_006_T1_205806_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_006_omr.jpg"
     },
     {
       "submission_id": "sub_007",
@@ -45766,7 +45948,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7436376810073853
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_007_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm đạt điểm cao, phần tự luận trình bày rõ ràng, đạt chuẩn kiến thức.",
       "questions": [
@@ -45895,7 +46078,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/018_Bai_018_T1_211354_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_007_omr.jpg"
     },
     {
       "submission_id": "sub_008",
@@ -46246,7 +46430,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.3826502859592438
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_008_omr.jpg"
       },
       "summary_comment": "Bài làm đạt yêu cầu, phần trắc nghiệm cơ bản ổn định, cần rèn luyện thêm kỹ năng diễn đạt tự luận.",
       "questions": [
@@ -46352,8 +46537,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/012_Bai_012_T1_210944_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/012_Bai_012_T1_210143_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_008_omr.jpg"
     },
     {
       "submission_id": "sub_009",
@@ -46704,7 +46890,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.42920300364494324
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_009_omr.jpg"
       },
       "summary_comment": "Bài làm đạt yêu cầu, phần trắc nghiệm cơ bản ổn định, cần rèn luyện thêm kỹ năng diễn đạt tự luận.",
       "questions": [
@@ -46814,8 +47001,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/008_Bai_008_T1_210753_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/008_Bai_008_T1_205924_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_009_omr.jpg"
     },
     {
       "submission_id": "sub_010",
@@ -47166,7 +47354,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5122198462486267
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_010_omr.jpg"
       },
       "summary_comment": "Bài làm đạt yêu cầu, phần trắc nghiệm cơ bản ổn định, cần rèn luyện thêm kỹ năng diễn đạt tự luận.",
       "questions": [
@@ -47242,7 +47431,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/001_Bai_001_T1_205359_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_010_omr.jpg"
     },
     {
       "submission_id": "sub_011",
@@ -47593,7 +47783,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5045951008796692
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_011_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 6.25/7.0đ | TL: 1.0/3.0đ. OMR P2 lệch viền; P1 2.75đ, P2 3.50đ (14/16), TL 1.00đ",
       "questions": [
@@ -47703,8 +47894,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/007_Bai_007_T1_210722_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/007_Bai_007_T1_205825_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_011_omr.jpg"
     },
     {
       "submission_id": "sub_012",
@@ -48055,7 +48247,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8717291951179504
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_012_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm đạt điểm cao, phần tự luận trình bày rõ ràng, đạt chuẩn kiến thức.",
       "questions": [
@@ -48174,8 +48367,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/010_Bai_010_T1_210857_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/010_Bai_010_T1_210045_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_012_omr.jpg"
     },
     {
       "submission_id": "sub_013",
@@ -48526,7 +48720,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8869941830635071
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_013_omr.jpg"
       },
       "summary_comment": "Bài làm khá tốt, nắm vững kiến thức trọng tâm, tự luận cần rèn luyện trình bày chi tiết hơn.",
       "questions": [
@@ -48633,7 +48828,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/021_Bai_021_T1_211509_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_013_omr.jpg"
     },
     {
       "submission_id": "sub_014",
@@ -48985,7 +49181,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6184468865394592
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_014_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -49117,9 +49314,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/015_Bai_015_T1_211204_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/015_Bai_015_T1_210342_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/015_Bai_015_T2_211204_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_014_omr.jpg"
     },
     {
       "submission_id": "sub_015",
@@ -49470,7 +49668,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.498635470867157
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_015_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.75/7.0đ | TL: 0.0/3.0đ. OMR P2 lệch viền; P1 2.50đ, P2 3.25đ (13/16), TL 0.00đ",
       "questions": [
@@ -49546,7 +49745,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/003_Bai_003_T1_205617_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_015_omr.jpg"
     },
     {
       "submission_id": "sub_016",
@@ -49897,7 +50097,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4784623086452484
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_016_omr.jpg"
       },
       "summary_comment": "Bài làm khá tốt, nắm vững kiến thức trọng tâm, tự luận cần rèn luyện trình bày chi tiết hơn.",
       "questions": [
@@ -50003,8 +50204,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/011_Bai_011_T1_210923_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/011_Bai_011_T1_210107_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_016_omr.jpg"
     },
     {
       "submission_id": "sub_017",
@@ -50355,7 +50557,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5065704584121704
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_017_omr.jpg"
       },
       "summary_comment": "Bài làm đạt yêu cầu, phần trắc nghiệm cơ bản ổn định, cần rèn luyện thêm kỹ năng diễn đạt tự luận.",
       "questions": [
@@ -50463,7 +50666,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/009_Bai_009_T1_205951_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_017_omr.jpg"
     },
     {
       "submission_id": "sub_018",
@@ -50814,7 +51018,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5964738726615906
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_018_omr.jpg"
       },
       "summary_comment": "Bài làm khá tốt, nắm vững kiến thức trọng tâm, tự luận cần rèn luyện trình bày chi tiết hơn.",
       "questions": [
@@ -50943,7 +51148,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/023_Bai_023_T1_211605_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_018_omr.jpg"
     },
     {
       "submission_id": "sub_019",
@@ -51295,7 +51501,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5518099665641785
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_019_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -51427,9 +51634,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/003_Bai_003_T1_210512_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/003_Bai_003_T1_205617_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/003_Bai_003_T2_210512_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_019_omr.jpg"
     },
     {
       "submission_id": "sub_020",
@@ -51781,7 +51989,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6865992546081543
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_020_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -51915,7 +52124,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/026_Bai_026_T1_211739_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/026_Bai_026_T2_211739_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_020_omr.jpg"
     },
     {
       "submission_id": "sub_021",
@@ -52267,7 +52477,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8581481575965881
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_021_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -52432,7 +52643,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/014_Bai_014_T1_210309_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/014_Bai_014_T2_210309_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_021_omr.jpg"
     },
     {
       "submission_id": "sub_022",
@@ -52783,7 +52995,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6201015710830688
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_022_omr.jpg"
       },
       "summary_comment": "Bài làm đạt yêu cầu, phần trắc nghiệm cơ bản ổn định, cần rèn luyện thêm kỹ năng diễn đạt tự luận.",
       "questions": [
@@ -52890,7 +53103,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/006_Bai_006_T1_205806_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_022_omr.jpg"
     },
     {
       "submission_id": "sub_023",
@@ -53242,7 +53456,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.832244873046875
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_023_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm đạt điểm cao, phần tự luận trình bày rõ ràng, đạt chuẩn kiến thức.",
       "questions": [
@@ -53385,7 +53600,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/008_Bai_008_T1_205924_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/008_Bai_008_T2_205924_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_023_omr.jpg"
     },
     {
       "submission_id": "sub_024",
@@ -53736,7 +53952,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4369553327560425
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_024_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 6.25/7.0đ | TL: 1.0/3.0đ. OMR P2 lệch viền; P1 2.25đ, P2 4.00đ (16/16), TL 1.00đ",
       "questions": [
@@ -53843,7 +54060,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/024_Bai_024_T1_211625_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_024_omr.jpg"
     },
     {
       "submission_id": "sub_025",
@@ -54194,7 +54412,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4104001820087433
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_025_omr.jpg"
       },
       "summary_comment": "Bài làm khá tốt, nắm vững kiến thức trọng tâm, tự luận cần rèn luyện trình bày chi tiết hơn.",
       "questions": [
@@ -54301,7 +54520,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/011_Bai_011_T1_210107_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_025_omr.jpg"
     },
     {
       "submission_id": "sub_026",
@@ -54652,7 +54872,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8022160530090332
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_026_omr.jpg"
       },
       "summary_comment": "Bài làm khá tốt, nắm vững kiến thức trọng tâm, tự luận cần rèn luyện trình bày chi tiết hơn.",
       "questions": [
@@ -54762,8 +54983,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/013_Bai_013_T1_211047_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/013_Bai_013_T1_210220_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_026_omr.jpg"
     },
     {
       "submission_id": "sub_027",
@@ -55115,7 +55337,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4785846471786499
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_027_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm đạt điểm cao, phần tự luận trình bày rõ ràng, đạt chuẩn kiến thức.",
       "questions": [
@@ -55249,7 +55472,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/013_Bai_013_T1_210220_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/013_Bai_013_T2_210220_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_027_omr.jpg"
     },
     {
       "submission_id": "sub_028",
@@ -55600,7 +55824,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.3608075678348541
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_028_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 6.0/7.0đ | TL: 0.0/3.0đ. OMR P2 lệch viền; P1 2.00đ, P2 4.00đ (16/16), TL 0.00đ",
       "questions": [
@@ -55675,8 +55900,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/005_Bai_005_T1_210608_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/005_Bai_005_T1_205717_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_028_omr.jpg"
     },
     {
       "submission_id": "sub_029",
@@ -56028,7 +56254,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6703251600265503
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_029_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm đạt điểm cao, phần tự luận trình bày rõ ràng, đạt chuẩn kiến thức.",
       "questions": [
@@ -56193,7 +56420,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/010_Bai_010_T1_210045_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/010_Bai_010_T2_210045_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_029_omr.jpg"
     },
     {
       "submission_id": "sub_030",
@@ -56544,7 +56772,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8534880876541138
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_030_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -56677,7 +56906,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/005_Bai_005_T1_205717_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_030_omr.jpg"
     },
     {
       "submission_id": "sub_031",
@@ -57029,7 +57259,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7116182446479797
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_031_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -57163,7 +57394,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/017_Bai_017_T1_211322_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/017_Bai_017_T2_211322_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_031_omr.jpg"
     },
     {
       "submission_id": "sub_032",
@@ -57515,7 +57747,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.541786253452301
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_032_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -57671,7 +57904,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/015_Bai_015_T1_210342_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/015_Bai_015_T2_210342_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_032_omr.jpg"
     },
     {
       "submission_id": "sub_033",
@@ -58022,7 +58256,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7538193464279175
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_033_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm đạt điểm cao, phần tự luận trình bày rõ ràng, đạt chuẩn kiến thức.",
       "questions": [
@@ -58142,7 +58377,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/020_Bai_020_T1_211446_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_033_omr.jpg"
     },
     {
       "submission_id": "sub_034",
@@ -58494,7 +58730,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.9134061336517334
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_034_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -58648,9 +58885,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/002_Bai_002_T1_210436_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/002_Bai_002_T1_205556_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/002_Bai_002_T2_210436_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_034_omr.jpg"
     },
     {
       "submission_id": "sub_035",
@@ -59001,7 +59239,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5028267502784729
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_035_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.75/7.0đ | TL: 1.5/3.0đ. OMR P2 lệch viền; P1 2.00đ, P2 3.75đ (15/16), TL 1.50đ",
       "questions": [
@@ -59120,8 +59359,9 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/009_Bai_009_T1_210837_DaCham.jpg"
-      ]
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/009_Bai_009_T1_205951_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_035_omr.jpg"
     },
     {
       "submission_id": "sub_036",
@@ -59473,7 +59713,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6657407283782959
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_036_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -59629,7 +59870,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/016_Bai_016_T1_211238_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/016_Bai_016_T2_211238_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_036_omr.jpg"
     },
     {
       "submission_id": "sub_037",
@@ -59980,7 +60222,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.605008065700531
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_037_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm đạt điểm cao, phần tự luận trình bày rõ ràng, đạt chuẩn kiến thức.",
       "questions": [
@@ -60100,7 +60343,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/025_Bai_025_T1_211645_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_037_omr.jpg"
     },
     {
       "submission_id": "sub_038",
@@ -60452,7 +60696,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8605836033821106
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_038_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -60617,7 +60862,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/012_Bai_012_T1_210143_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/012_Bai_012_T2_210143_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_038_omr.jpg"
     },
     {
       "submission_id": "sub_039",
@@ -60968,7 +61214,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6045792698860168
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_039_omr.jpg"
       },
       "summary_comment": "Bài làm khá tốt, nắm vững kiến thức trọng tâm, tự luận cần rèn luyện trình bày chi tiết hơn.",
       "questions": [
@@ -61088,7 +61335,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/004_Bai_004_T1_205646_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_039_omr.jpg"
     },
     {
       "submission_id": "sub_040",
@@ -61440,7 +61688,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6437593698501587
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_040_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm chính xác, tự luận lập luận chặt chẽ, tư duy sư phạm sắc bén.",
       "questions": [
@@ -61572,9 +61821,10 @@
         }
       ],
       "graded_pages": [
-        "images/graded_exams/2026_2027/GK1/Tin8/8A9/006_Bai_006_T1_210705_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A9/006_Bai_006_T1_205806_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/006_Bai_006_T2_210705_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_040_omr.jpg"
     },
     {
       "submission_id": "sub_041",
@@ -61925,7 +62175,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.3491290807723999
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_041_omr.jpg"
       },
       "summary_comment": "Bài làm đạt yêu cầu, phần trắc nghiệm cơ bản ổn định, cần rèn luyện thêm kỹ năng diễn đạt tự luận.",
       "questions": [
@@ -62032,7 +62283,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A9/002_Bai_002_T1_205556_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A9/sub_041_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084433_005",
@@ -62384,7 +62636,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8183050155639648
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084433_005_omr.jpg"
       },
       "summary_comment": "Bài thi xuất sắc, đạt điểm 10 tuyệt đối cả phần trắc nghiệm và tự luận!",
       "questions": [
@@ -62534,7 +62787,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/005_Bai_005_T1_084433_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/005_Bai_005_T2_084433_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084433_005_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085941_031",
@@ -62886,7 +63140,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.653323769569397
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085941_031_omr.jpg"
       },
       "summary_comment": "Bài làm giỏi 8.50đ; phần tự luận xuất sắc đạt 3.0/3.0đ; trắc nghiệm cần cẩn thận hơn ở Phần II.",
       "questions": [
@@ -63051,7 +63306,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/031_Bai_031_T1_085941_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/031_Bai_031_T2_085941_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085941_031_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084529_007",
@@ -63402,7 +63658,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4603176414966583
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084529_007_omr.jpg"
       },
       "summary_comment": "Đạt yêu cầu; trắc nghiệm 4.75đ; tự luận làm tốt Câu 1, chưa làm Câu 2 và Câu 3.",
       "questions": [
@@ -63503,7 +63760,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/007_Bai_007_T1_084529_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084529_007_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084747_009",
@@ -63855,7 +64113,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5681505799293518
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084747_009_omr.jpg"
       },
       "summary_comment": "Bài làm tốt, tự luận đạt 2.5/3.0đ; cần chú ý phân biệt tương đối và từ khóa thứ 2.",
       "questions": [
@@ -64036,7 +64295,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/009_Bai_009_T1_084747_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/009_Bai_009_T2_084747_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084747_009_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084324_003",
@@ -64388,7 +64648,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7614572644233704
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084324_003_omr.jpg"
       },
       "summary_comment": "Bài làm khá, trắc nghiệm 6.0đ; tự luận làm tốt Câu 1, Câu 2 thiếu ví dụ & tuyệt đối, Câu 3 bỏ trống.",
       "questions": [
@@ -64541,7 +64802,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/003_Bai_003_T1_084324_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/003_Bai_003_T2_084324_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084324_003_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084140_001",
@@ -64893,7 +65155,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5811172723770142
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084140_001_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, trắc nghiệm tuyệt đối 7.0/7.0; tự luận cần bổ sung ví dụ và giải thích chi tiết ở Câu 2.",
       "questions": [
@@ -65074,7 +65337,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/001_Bai_001_T1_084140_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/001_Bai_001_T2_084140_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084140_001_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085437_022",
@@ -65425,7 +65689,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.2783592641353607
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085437_022_omr.jpg"
       },
       "summary_comment": "Đạt mức trung bình khá (6.25đ); cần phân bổ thời gian để hoàn thành đầy đủ các câu tự luận.",
       "questions": [
@@ -65546,7 +65811,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/022_Bai_022_T1_085437_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085437_022_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_090342_038",
@@ -65898,7 +66164,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6460357308387756
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090342_038_omr.jpg"
       },
       "summary_comment": "Bài làm khá 7.50đ; cần trình bày đủ 4 biểu hiện ở Câu 1 và nhớ bổ sung ví dụ minh họa ở Câu 2.",
       "questions": [
@@ -66048,7 +66315,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/038_Bai_038_T1_090342_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/038_Bai_038_T2_090342_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090342_038_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_090040_033",
@@ -66400,7 +66668,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6048575043678284
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090040_033_omr.jpg"
       },
       "summary_comment": "Bài làm giỏi 8.25đ; Câu 1 và Câu 2 làm trọn vẹn điểm; bỏ sót Câu 3, cần chú ý đọc kĩ đề.",
       "questions": [
@@ -66545,7 +66814,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/033_Bai_033_T1_090040_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/033_Bai_033_T2_090040_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090040_033_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085630_026",
@@ -66897,7 +67167,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7274747490882874
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085630_026_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc 9.75đ; tự luận 3.0/3.0đ, trình bày khoa học và lập luận chặt chẽ.",
       "questions": [
@@ -67062,7 +67333,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/026_Bai_026_T1_085630_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/026_Bai_026_T2_085630_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085630_026_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085138_016",
@@ -67414,7 +67686,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6858447194099426
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085138_016_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, chữ viết sạch đẹp; tự luận đạt điểm tuyệt đối 3.0/3.0đ.",
       "questions": [
@@ -67579,7 +67852,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/016_Bai_016_T1_085138_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/016_Bai_016_T2_085138_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085138_016_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085321_019",
@@ -67931,7 +68205,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4111286401748657
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085321_019_omr.jpg"
       },
       "summary_comment": "Bài làm giỏi, đạt 8.5/10đ; tự luận làm tốt Câu 1 và Câu 3; Câu 2 cần phân biệt đầy đủ cả 2 loại địa chỉ.",
       "questions": [
@@ -68104,7 +68379,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/019_Bai_019_T1_085321_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/019_Bai_019_T2_085321_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085321_019_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085540_024",
@@ -68456,7 +68732,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7105615139007568
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085540_024_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc tuyệt đối 10/10! Chữ viết rõ ràng, kiến thức chuẩn xác, lập luận thuyết phục.",
       "questions": [
@@ -68644,7 +68921,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/024_Bai_024_T1_085540_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/024_Bai_024_T2_085540_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085540_024_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084805_010",
@@ -68995,7 +69273,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5420892834663391
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084805_010_omr.jpg"
       },
       "summary_comment": "Bài làm khá; tự luận Câu 1 & 2 làm rất tốt; Câu 3 thiếu từ khóa tìm kiếm.",
       "questions": [
@@ -69136,7 +69415,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/010_Bai_010_T1_084805_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084805_010_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085836_030",
@@ -69488,7 +69768,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.9045329093933105
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085836_030_omr.jpg"
       },
       "summary_comment": "Bài làm giỏi 9.00đ; lập luận tốt, tự luận đạt 2.75/3.0đ; chú ý nêu rõ phím F4 ở Câu 2a.",
       "questions": [
@@ -69653,7 +69934,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/030_Bai_030_T1_085836_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/030_Bai_030_T2_085836_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085836_030_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085418_021",
@@ -70005,7 +70287,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.2609812915325165
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085418_021_omr.jpg"
       },
       "summary_comment": "Trắc nghiệm làm rất tốt (6.25/7.0đ); phần tự luận mới làm Câu 1, bỏ trống Câu 2 và phần lớn Câu 3.",
       "questions": [
@@ -70119,7 +70402,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/021_Bai_021_T1_085418_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/021_Bai_021_T2_085418_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085418_021_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084402_004",
@@ -70471,7 +70755,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5809061527252197
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084402_004_omr.jpg"
       },
       "summary_comment": "Bài thi xuất sắc, đạt điểm 10 tuyệt đối cả phần trắc nghiệm và tự luận!",
       "questions": [
@@ -70644,7 +70929,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/004_Bai_004_T1_084402_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/004_Bai_004_T2_084402_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084402_004_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_090014_032",
@@ -70996,7 +71282,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7677727341651917
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090014_032_omr.jpg"
       },
       "summary_comment": "Bài làm giỏi 8.00đ; Câu 1 và Câu 2 làm rất chi tiết và hiểu bài; tiếc là bỏ trống hoàn toàn Câu 3.",
       "questions": [
@@ -71141,7 +71428,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/032_Bai_032_T1_090014_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/032_Bai_032_T2_090014_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090014_032_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085701_027",
@@ -71492,7 +71780,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7778770923614502
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085701_027_omr.jpg"
       },
       "summary_comment": "Bài làm giỏi 8.75đ; tự luận đạt 2.25/3.0đ; lưu ý lượt tương tác không phản ánh độ chính xác của tin.",
       "questions": [
@@ -71633,7 +71922,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/027_Bai_027_T1_085701_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085701_027_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085027_015",
@@ -71985,7 +72275,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8690727353096008
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085027_015_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc; trắc nghiệm 6.75/7.0đ; tự luận 2.75/3.0đ; trình bày rõ ràng, đủ ý.",
       "questions": [
@@ -72127,7 +72418,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/015_Bai_015_T1_085027_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/015_Bai_015_T2_085027_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085027_015_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085718_028",
@@ -72478,7 +72770,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5024964213371277
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085718_028_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.0/7.0đ | TL: 1.0/3.0đ. OMR P2 lệch cột; P1 1.25đ (5/12), P2 3.75đ (15/16), TL 1.00đ",
       "questions": [
@@ -72579,7 +72872,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/028_Bai_028_T1_085718_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085718_028_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084511_006",
@@ -72931,7 +73225,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.763220489025116
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084511_006_omr.jpg"
       },
       "summary_comment": "Bài làm tốt, tự luận Câu 1 & 2 đạt tuyệt đối; Câu 3 bỏ trống.",
       "questions": [
@@ -73076,7 +73371,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/006_Bai_006_T1_084511_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/006_Bai_006_T2_084511_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084511_006_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_090412_039",
@@ -73428,7 +73724,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6616502404212952
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090412_039_omr.jpg"
       },
       "summary_comment": "Bài làm giỏi 8.25đ; tự luận 2.75/3.0đ, nắm rất chắc kiến thức và diễn đạt mạch lạc.",
       "questions": [
@@ -73601,7 +73898,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/039_Bai_039_T1_090412_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/039_Bai_039_T2_090412_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090412_039_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_090309_037",
@@ -73952,7 +74250,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7923489809036255
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090309_037_omr.jpg"
       },
       "summary_comment": "Bài làm khá 7.25đ; làm tốt Câu 1 và một phần Câu 3; bỏ trống toàn bộ Câu 2 bảng tính.",
       "questions": [
@@ -74073,7 +74372,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/037_Bai_037_T1_090309_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090309_037_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085557_025",
@@ -74424,7 +74724,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.48588165640830994
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085557_025_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 4.75/7.0đ | TL: 1.0/3.0đ. OMR P2 lệch cột; P1 1.00đ (4/12), P2 3.75đ (15/16), TL 1.00đ",
       "questions": [
@@ -74525,7 +74826,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/025_Bai_025_T1_085557_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085557_025_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_090115_034",
@@ -74877,7 +75179,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5357130765914917
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090115_034_omr.jpg"
       },
       "summary_comment": "Bài làm giỏi 9.25đ; trình bày rõ ràng, tự luận 2.50/3.0đ; Câu 3 cần nêu đủ 2 từ khóa và 2 cách kiểm tra.",
       "questions": [
@@ -75027,7 +75330,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/034_Bai_034_T1_090115_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/034_Bai_034_T2_090115_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090115_034_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084907_012",
@@ -75379,7 +75683,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6831538081169128
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084907_012_omr.jpg"
       },
       "summary_comment": "Bài làm tốt, trắc nghiệm 6.25đ; tự luận làm tốt Câu 1 & 2; Câu 3 thiếu từ khóa tìm kiếm.",
       "questions": [
@@ -75521,7 +75826,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/012_Bai_012_T1_084907_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/012_Bai_012_T2_084907_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084907_012_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_090155_035",
@@ -75873,7 +76179,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7323136329650879
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090155_035_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc tuyệt đối 10/10! Kiến thức vững vàng, lập luận sắc bén, trình bày khoa học.",
       "questions": [
@@ -76015,7 +76322,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/035_Bai_035_T1_090155_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/035_Bai_035_T2_090155_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090155_035_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084227_002",
@@ -76367,7 +76675,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.661070704460144
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084227_002_omr.jpg"
       },
       "summary_comment": "Bài làm tốt, tự luận giải thích rõ ràng; cần bổ sung ví dụ Câu 2 và cách kiểm tra thứ 2 ở Câu 3.",
       "questions": [
@@ -76540,7 +76849,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/002_Bai_002_T1_084227_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/002_Bai_002_T2_084227_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084227_002_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084924_013",
@@ -76891,7 +77201,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5120688080787659
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084924_013_omr.jpg"
       },
       "summary_comment": "Bài làm đạt khá; trắc nghiệm 5.5đ; tự luận làm tốt Câu 1; Câu 2 thiếu phần b; Câu 3 bỏ trống.",
       "questions": [
@@ -77004,7 +77315,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/013_Bai_013_T1_084924_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084924_013_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085800_029",
@@ -77356,7 +77668,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6653292179107666
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085800_029_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc tuyệt đối 10/10! Cả trắc nghiệm và tự luận đều đạt điểm tối đa, bài làm rất mẫu mực.",
       "questions": [
@@ -77521,7 +77834,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/029_Bai_029_T1_085800_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/029_Bai_029_T2_085800_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085800_029_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085350_020",
@@ -77873,7 +78187,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4444018304347992
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085350_020_omr.jpg"
       },
       "summary_comment": "Bài làm giỏi 9.25đ; lập luận rõ ràng, trình bày sạch sẽ; Câu 3 bổ sung thêm 1 từ khóa.",
       "questions": [
@@ -78046,7 +78361,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/020_Bai_020_T1_085350_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/020_Bai_020_T2_085350_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085350_020_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084941_014",
@@ -78397,7 +78713,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.5034999847412109
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084941_014_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.5/7.0đ | TL: 0.0/3.0đ. OMR match fail 0.503 & lệch cột P2; P1 1.75đ (7/12), P2 3.75đ (15/16), TL 0.00đ",
       "questions": [
@@ -78426,7 +78743,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/014_Bai_014_T1_084941_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084941_014_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084835_011",
@@ -78778,7 +79096,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.666681170463562
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084835_011_omr.jpg"
       },
       "summary_comment": "Bài làm rất tốt, tự luận đạt 2.75/3.0đ; lập luận rõ ràng, đầy đủ ý.",
       "questions": [
@@ -78943,7 +79262,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/011_Bai_011_T1_084835_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/011_Bai_011_T2_084835_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084835_011_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_090229_036",
@@ -79295,7 +79615,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7707536816596985
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090229_036_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc tuyệt đối 10/10! Ví dụ tự luận gắn liền thực tế công thức tính doanh thu rất sáng tạo.",
       "questions": [
@@ -79437,7 +79758,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/036_Bai_036_T1_090229_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/036_Bai_036_T2_090229_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090229_036_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085247_018",
@@ -79789,7 +80111,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.6956400871276855
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085247_018_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc, trắc nghiệm tuyệt đối 7.0/7.0đ; tự luận 2.75/3.0đ, lập luận sâu sắc.",
       "questions": [
@@ -79954,7 +80277,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/018_Bai_018_T1_085247_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/018_Bai_018_T2_085247_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085247_018_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085506_023",
@@ -80306,7 +80630,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.8958349227905273
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085506_023_omr.jpg"
       },
       "summary_comment": "Bài làm xuất sắc tuyệt đối 10/10! Trắc nghiệm và tự luận đều hoàn hảo, kiến thức thực tế rất vững.",
       "questions": [
@@ -80471,7 +80796,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/023_Bai_023_T1_085506_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/023_Bai_023_T2_085506_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085506_023_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_090435_040",
@@ -80822,7 +81148,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.7697916030883789
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090435_040_omr.jpg"
       },
       "summary_comment": "Bài làm giỏi 8.50đ; trắc nghiệm đạt tuyệt đối 7.0/7.0đ; tự luận cần đẩy nhanh tốc độ để hoàn thiện các câu còn lại.",
       "questions": [
@@ -80943,7 +81270,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/040_Bai_040_T1_090435_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_090435_040_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_085212_017",
@@ -81295,7 +81623,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4699680507183075
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085212_017_omr.jpg"
       },
       "summary_comment": "Bài làm khá tốt, tự luận đạt 2.50/3.0đ; cần chú ý bổ sung ví dụ minh họa và tiêu chí kiểm chứng tin giả.",
       "questions": [
@@ -81460,7 +81789,8 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/017_Bai_017_T1_085212_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/017_Bai_017_T2_085212_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085212_017_omr.jpg"
     },
     {
       "submission_id": "hs_20261115_084656_008",
@@ -81811,7 +82141,8 @@
           "dx": 10,
           "dy": 10,
           "match_score": 0.4861117899417877
-        }
+        },
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084656_008_omr.jpg"
       },
       "summary_comment": "Hậu kiểm khảo thí: TN: 5.75/7.0đ | TL: 0.0/3.0đ. Góc chụp nghiêng & match fail 0.486; P1 2.75đ (11/12), P2 3.00đ (12/16), TL 0.00đ",
       "questions": [
@@ -81840,7 +82171,8 @@
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/008_Bai_008_T1_084656_DaCham.jpg"
-      ]
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084656_008_omr.jpg"
     }
   ]
 }
