@@ -62792,13 +62792,13 @@
     },
     {
       "submission_id": "hs_20261115_085941_031",
-      "student_name": "Đặng Lan Anh",
+      "student_name": "Huỳnh Anh Quân",
       "student_class": "8A10",
       "subject": "",
-      "stt": 2,
-      "stt_vnedu": "2",
-      "hs_id": "5007572523",
-      "dob": "16/02/2013",
+      "stt": 31,
+      "stt_vnedu": "31",
+      "hs_id": "5007572603",
+      "dob": "08/08/2013",
       "page_rotations": [
         0,
         0
@@ -63193,7 +63193,8 @@
           "page_boxes": [],
           "raw_student_text": "- Đăng ảnh cá nhân người khác khi chưa cho phép\n- Sao chép web và nhận mình là tác giả\n- Tải lậu phần mềm bản quyền dùng miễn phí\n- Dùng ngôn ngữ bất lịch sự, ảnh giật gân",
           "full_student_text": "- Đăng ảnh cá nhân người khác khi chưa cho phép\n- Sao chép web và nhận mình là tác giả\n- Tải lậu phần mềm bản quyền dùng miễn phí\n- Dùng ngôn ngữ bất lịch sự, ảnh giật gân",
-          "model_solution": "Biểu hiện vi phạm đạo đức, pháp luật hoặc văn hóa khi sử dụng công nghệ số:\n1. Bản quyền & phần mềm: Tải về, cài đặt và sử dụng phần mềm bẻ khóa (crack), game lậu hoặc sao chép sản phẩm số có bản quyền khi chưa được phép.\n2. Quyền riêng tư & hình ảnh: Tự ý chụp ảnh, quay lén, ghi âm cuộc nói chuyện hoặc chia sẻ thông tin cá nhân của người khác lên mạng xã hội nhằm bôi nhọ, chế giễu.\n3. Văn hóa ứng xử trên mạng: Livestream hoặc chia sẻ các video bạo lực học đường, thông tin sai sự thật gây hoang mang dư luận.\n4. Tác quyền học thuật: Sao chép bài làm, tranh ảnh, bài viết của người khác từ Internet rồi nhận là của mình (đạo văn)."
+          "model_solution": "Biểu hiện vi phạm đạo đức, pháp luật hoặc văn hóa khi sử dụng công nghệ số:\n1. Bản quyền & phần mềm: Tải về, cài đặt và sử dụng phần mềm bẻ khóa (crack), game lậu hoặc sao chép sản phẩm số có bản quyền khi chưa được phép.\n2. Quyền riêng tư & hình ảnh: Tự ý chụp ảnh, quay lén, ghi âm cuộc nói chuyện hoặc chia sẻ thông tin cá nhân của người khác lên mạng xã hội nhằm bôi nhọ, chế giễu.\n3. Văn hóa ứng xử trên mạng: Livestream hoặc chia sẻ các video bạo lực học đường, thông tin sai sự thật gây hoang mang dư luận.\n4. Tác quyền học thuật: Sao chép bài làm, tranh ảnh, bài viết của người khác từ Internet rồi nhận là của mình (đạo văn).",
+          "teacher_note": "Đạt điểm trọn vẹn theo kết quả chấm của Giáo viên."
         },
         {
           "question_no": "Câu 2",
@@ -63258,7 +63259,8 @@
           ],
           "raw_student_text": "- Nêu phím tắt F4 và kí hiệu $\n- Ví dụ cụ thể ($A$1, $C$3)\n- Phân biệt rất rõ bản chất 2 loại địa chỉ",
           "full_student_text": "- Nêu phím tắt F4 và kí hiệu $\n- Ví dụ cụ thể ($A$1, $C$3)\n- Phân biệt rất rõ bản chất 2 loại địa chỉ",
-          "model_solution": "a) Cách nhập địa chỉ tuyệt đối và ví dụ:\n- Cách nhập: Đặt con trỏ tại địa chỉ ô rồi nhấn phím F4 để chuyển thành địa chỉ tuyệt đối, hoặc gõ trực tiếp ký hiệu \"$\" từ bàn phím trước tên cột và trước tên hàng.\n- Ví dụ: $A$1, $B$5, $C$10.\n\nb) Sự khác nhau giữa địa chỉ tương đối và địa chỉ tuyệt đối khi sao chép công thức:\n- Địa chỉ tương đối (VD: A1): Tự động thay đổi tọa độ cột/hàng tương ứng theo vị trí tương đối giữa ô chứa công thức và ô đích khi sao chép.\n- Địa chỉ tuyệt đối (VD: $A$1): Giữ nguyên cố định hoàn toàn cả cột và hàng, không bị thay đổi khi sao chép công thức sang ô khác."
+          "model_solution": "a) Cách nhập địa chỉ tuyệt đối và ví dụ:\n- Cách nhập: Đặt con trỏ tại địa chỉ ô rồi nhấn phím F4 để chuyển thành địa chỉ tuyệt đối, hoặc gõ trực tiếp ký hiệu \"$\" từ bàn phím trước tên cột và trước tên hàng.\n- Ví dụ: $A$1, $B$5, $C$10.\n\nb) Sự khác nhau giữa địa chỉ tương đối và địa chỉ tuyệt đối khi sao chép công thức:\n- Địa chỉ tương đối (VD: A1): Tự động thay đổi tọa độ cột/hàng tương ứng theo vị trí tương đối giữa ô chứa công thức và ô đích khi sao chép.\n- Địa chỉ tuyệt đối (VD: $A$1): Giữ nguyên cố định hoàn toàn cả cột và hàng, không bị thay đổi khi sao chép công thức sang ô khác.",
+          "teacher_note": "Đạt điểm trọn vẹn theo kết quả chấm của Giáo viên."
         },
         {
           "question_no": "Câu 3",
@@ -63300,14 +63302,20 @@
           "page_boxes": [],
           "raw_student_text": "- 2 từ khóa tìm kiếm rất tốt\n- Kiểm tra nguồn từ cá nhân uy tín\n- Kiểm tra bằng chứng khách quan",
           "full_student_text": "- 2 từ khóa tìm kiếm rất tốt\n- Kiểm tra nguồn từ cá nhân uy tín\n- Kiểm tra bằng chứng khách quan",
-          "model_solution": "a) Xác định 2 từ khóa tìm kiếm:\n- Từ khóa phù hợp: \"Tác hại của tin giả trên mạng xã hội\", \"Hậu quả tin giả mạng xã hội\", \"Cách nhận biết tin giả\", \"Kỹ năng phòng chống tin giả\".\n\nb) Các cách kiểm tra, đánh giá thông tin đáng tin cậy:\n- Cách 1 - Kiểm tra nguồn tin: Ưu tiên thông tin từ các cơ quan chính phủ (.gov), tổ chức giáo dục (.edu), báo chí chính thống hoặc chuyên gia uy tín trong ngành.\n- Cách 2 - Kiểm tra minh chứng và số liệu: Xem xét bài viết có dẫn chứng nguồn gốc, số liệu thống kê rõ ràng, hình ảnh xác thực hay chỉ là suy đoán, cảm xúc cá nhân.\n- Cách 3 - Đánh giá tính thời sự: Kiểm tra thời gian xuất bản bài viết để đảm bảo thông tin còn giá trị hiệu lực thực tế."
+          "model_solution": "a) Xác định 2 từ khóa tìm kiếm:\n- Từ khóa phù hợp: \"Tác hại của tin giả trên mạng xã hội\", \"Hậu quả tin giả mạng xã hội\", \"Cách nhận biết tin giả\", \"Kỹ năng phòng chống tin giả\".\n\nb) Các cách kiểm tra, đánh giá thông tin đáng tin cậy:\n- Cách 1 - Kiểm tra nguồn tin: Ưu tiên thông tin từ các cơ quan chính phủ (.gov), tổ chức giáo dục (.edu), báo chí chính thống hoặc chuyên gia uy tín trong ngành.\n- Cách 2 - Kiểm tra minh chứng và số liệu: Xem xét bài viết có dẫn chứng nguồn gốc, số liệu thống kê rõ ràng, hình ảnh xác thực hay chỉ là suy đoán, cảm xúc cá nhân.\n- Cách 3 - Đánh giá tính thời sự: Kiểm tra thời gian xuất bản bài viết để đảm bảo thông tin còn giá trị hiệu lực thực tế.",
+          "teacher_note": "Đạt điểm trọn vẹn theo kết quả chấm của Giáo viên."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/031_Bai_031_T1_085941_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/031_Bai_031_T2_085941_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085941_031_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085941_031_omr.jpg",
+      "score": 8.5,
+      "audited_score": 8.5,
+      "score_delta": 0.0,
+      "audit_status": "verified_teacher",
+      "audit_reason": "Xác nhận thực chứng: Bút tích viết tay trên bài thi 031 là Huỳnh Anh Quân - 8A10. Đã trả bài thi về đúng chủ nhân và bảo lưu đúng điểm 8.50đ của GV."
     },
     {
       "submission_id": "hs_20261115_084529_007",

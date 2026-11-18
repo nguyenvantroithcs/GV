@@ -290,7 +290,121 @@
       font-size: 14px;
     }
 
-    /* OMR BREAKDOWN GRID */
+    /* OMR BREAKDOWN GRID & DYNAMIC COLUMNS (THEO LAYOUT PHIẾU TÔ) */
+    .omr-columns-container {
+      display: flex;
+      gap: 10px;
+      width: 100%;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+    .omr-layout-column {
+      flex: 1 1 150px;
+      min-width: 135px;
+      background: #f8fafc;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 10px;
+      padding: 6px;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.03);
+    }
+    .omr-column-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 6px;
+      background: #ffffff;
+      border: 1.5px solid #cbd5e1;
+      border-radius: 6px;
+      font-size: 10.5px;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 6px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+      letter-spacing: 0.2px;
+      white-space: nowrap;
+      gap: 4px;
+    }
+    .omr-column-header .col-score-pill {
+      background: #eff6ff;
+      color: #2563eb;
+      padding: 1px 6px;
+      border-radius: 8px;
+      font-size: 10px;
+      font-weight: 800;
+    }
+    .omr-column-body {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    .omr-col-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 4px 6px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      border: 1px solid transparent;
+      min-height: 31px;
+      box-sizing: border-box;
+      transition: all 0.15s ease;
+    }
+    .omr-col-row.ok {
+      background: #f0fdf4;
+      border-color: #86efac;
+      color: #166534;
+    }
+    .omr-col-row.err {
+      background: #fef2f2;
+      border-color: #fca5a5;
+      color: #991b1b;
+    }
+    .omr-col-row.empty {
+      background: #fefce8;
+      border-color: #fde047;
+      color: #854d0e;
+    }
+    .omr-col-q {
+      font-weight: 800;
+      font-size: 12px;
+      min-width: 28px;
+      color: #475569;
+    }
+    .omr-col-row.ok .omr-col-q { color: #15803d; }
+    .omr-col-row.err .omr-col-q { color: #b91c1c; }
+    .omr-col-row.empty .omr-col-q { color: #a16207; }
+
+    .omr-col-ans {
+      font-size: 13px;
+      font-weight: 900;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: #ffffff;
+      border: 1.5px solid currentColor;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+      margin: 0 4px;
+    }
+    .omr-col-badge {
+      font-size: 11px;
+      font-weight: 700;
+      text-align: right;
+      white-space: nowrap;
+    }
+    .omr-col-pts {
+      font-size: 10px;
+      opacity: 0.85;
+      font-weight: 600;
+      margin-left: 1px;
+    }
+
+    /* Fallback tile view */
     .omr-grid-container {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(75px, 1fr));
@@ -1302,7 +1416,7 @@
           <input type="text" id="dobInput" class="form-control" placeholder="Ví dụ: 15/08/2012" maxlength="10">
         </div>
 
-        <button type="button" class="btn-search" onclick="traCuuKetQua()">
+        <button type="button" id="btnSearch" class="btn-search" onclick="traCuuKetQua()">
           <span>🔍</span>
           <span>Tra Cứu</span>
         </button>
@@ -1381,22 +1495,43 @@
 
         <!-- BỐ CỤC 2 CỘT: ẢNH PHIẾU TÔ GỐC BÊN TRÁI & KẾT QUẢ NHẬN DIỆN BÊN PHẢI -->
         <div class="omr-section-layout" style="display:flex; gap:20px; align-items:flex-start; margin-top:14px; flex-wrap:wrap;">
-          <!-- Cột Trái: Ảnh phiếu tô gốc (Ground Truth 2 contour) -->
-          <div id="omrCropPreviewBox" class="omr-crop-preview-box" style="flex: 0 0 320px; max-width: 100%; background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 12px; padding: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.04); text-align: center; display: none;">
-            <div style="font-size: 13px; font-weight: 700; color: #334155; margin-bottom: 8px; display: flex; align-items: center; justify-content: center; gap: 6px;">
-              <span>📷</span> <span>Ảnh phiếu tô gốc (Bút tích HS)</span>
+          <!-- Cột Trái: Ảnh phiếu tô OMR phối cảnh phẳng + SVG Viền Tròn Đúng / Sai -->
+          <div id="omrCropPreviewBox" class="omr-crop-preview-box" style="flex: 0 0 460px; max-width: 100%; background: #f8fafc; border: 1.5px solid #cbd5e1; border-radius: 12px; padding: 14px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); text-align: center; display: none;">
+            <div style="font-size: 13.5px; font-weight: 700; color: #1e293b; margin-bottom: 8px; display: flex; align-items: center; justify-content: space-between;">
+              <span style="display:flex; align-items:center; gap:6px;"><span>📷</span> <span>Phiếu Trắc Nghiệm Bút Tích HS</span></span>
+              <span id="omrFlatBadge" style="font-size: 11px; background: #e0f2fe; color: #0284c7; padding: 2px 8px; border-radius: 12px; font-weight: 600;">Chuẩn Phối Cảnh</span>
             </div>
-            <div style="position: relative; overflow: hidden; border-radius: 8px; border: 1px solid #e2e8f0; background: #fff; cursor: pointer;" title="Nhấn để phóng to ảnh phiếu tô" onclick="openLightbox(this.querySelector('img').src, 'Ảnh chụp phiếu tô trắc nghiệm gốc')">
-              <img id="omrCropImg" src="" alt="Ảnh phiếu tô trắc nghiệm" style="width: 100%; height: auto; max-height: 480px; object-fit: contain; display: block; margin: 0 auto; transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
-              <div style="position: absolute; bottom: 6px; right: 6px; background: rgba(15,23,42,0.75); color: #fff; font-size: 11px; padding: 3px 8px; border-radius: 6px; backdrop-filter: blur(4px);">🔍 Phóng to</div>
+            <div id="omrClientWrapper" style="position: relative; width: 100%; border-radius: 8px; overflow: hidden; background: #0f172a; box-shadow: 0 4px 12px rgba(0,0,0,0.2); line-height: 0; cursor: pointer;" title="Nhấn để phóng to ảnh phiếu tô" onclick="openLightbox(document.getElementById('omrCropImg').src, 'Ảnh chụp phiếu tô trắc nghiệm gốc')">
+              <img id="omrCropImg" src="" alt="Phiếu tô trắc nghiệm" style="width: 100%; height: auto; display: block; user-select: none;">
+              <svg id="omrClientSvg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;" preserveAspectRatio="none">
+                <!-- SVG Circles injected dynamically -->
+              </svg>
+              <div style="position: absolute; bottom: 8px; right: 8px; background: rgba(15,23,42,0.8); color: #fff; font-size: 11px; padding: 3px 8px; border-radius: 6px; backdrop-filter: blur(4px); line-height: 1.4;">🔍 Phóng to</div>
             </div>
+            
+            <!-- Chú thích viền tròn chuẩn sư phạm -->
+            <div style="display: flex; justify-content: center; align-items: center; gap: 14px; margin-top: 10px; font-size: 12px; font-weight: 700; flex-wrap: wrap;">
+              <span style="display: inline-flex; align-items: center; gap: 6px; color: #2563eb;">
+                <span style="display: inline-block; width: 14px; height: 14px; border: 3px solid #2563eb; border-radius: 50%; box-sizing: border-box;"></span>
+                Tô đúng (+0.25đ)
+              </span>
+              <span style="display: inline-flex; align-items: center; gap: 6px; color: #dc2626;">
+                <span style="display: inline-block; width: 14px; height: 14px; border: 3px solid #dc2626; border-radius: 50%; box-sizing: border-box;"></span>
+                Tô sai (0đ)
+              </span>
+              <span style="display: inline-flex; align-items: center; gap: 6px; color: #d97706;">
+                <span style="display: inline-block; width: 14px; height: 14px; border: 2.5px dashed #f59e0b; border-radius: 50%; box-sizing: border-box;"></span>
+                Đáp án chuẩn
+              </span>
+            </div>
+
             <div style="font-size: 11.5px; color: #64748b; margin-top: 6px; line-height: 1.4;">
-              Ảnh cắt trực tiếp vùng tô Phần I &amp; II từ bài thi gốc để phụ huynh và học sinh đối chiếu minh bạch.
+              Viền tròn rỗng bao quanh vết tô giúp HS nhìn rõ vết chì của mình và đối chiếu trực quan ngay lập tức.
             </div>
           </div>
 
-          <!-- Cột Phải: Lưới kết quả nhận diện OMR -->
-          <div class="omr-grid-container" id="omrGridContainer" style="flex: 1 1 380px; margin-top: 0;">
+          <!-- Cột Phải: Đối soát OMR theo layout cột của phần tô -->
+          <div id="omrGridContainer" style="flex: 1 1 420px; min-width: 320px; margin-top: 0;">
             <!-- Populated by JS -->
           </div>
         </div>
@@ -1793,6 +1928,82 @@
     let currentClassStudents = [];
     let allExamsData = null;
     let currentStudentResult = null;
+    let omrFlatMap = {};
+
+    /* =========================================================
+       CẤU HÌNH TỌA ĐỘ OMR CHUẨN PHỐI CẢNH & TRẢI PHẲNG (ĐA MÔN)
+    ========================================================= */
+    const OMR_CONFIGS = {
+      '2026_2027_GK1_Toan7': {
+        w: 817, h: 888, rDot: 15, strokeW: 3.5,
+        p1RowsY: [0.068, 0.148, 0.226, 0.307, 0.384, 0.465, 0.543, 0.624, 0.702, 0.780, 0.857, 0.936].map(r => r * 888),
+        p1ColsX: { 'A': 0.198 * 817, 'B': 0.308 * 817, 'C': 0.416 * 817, 'D': 0.524 * 817 },
+        p2Items: [
+          { key: '13a', y: 0.063*888, xD: 0.813*817, xS: 0.922*817 },
+          { key: '13b', y: 0.141*888, xD: 0.813*817, xS: 0.922*817 },
+          { key: '13c', y: 0.222*888, xD: 0.813*817, xS: 0.922*817 },
+          { key: '13d', y: 0.300*888, xD: 0.813*817, xS: 0.922*817 },
+          { key: '14a', y: 0.379*888, xD: 0.813*817, xS: 0.922*817 },
+          { key: '14b', y: 0.458*888, xD: 0.813*817, xS: 0.922*817 },
+          { key: '14c', y: 0.539*888, xD: 0.813*817, xS: 0.922*817 },
+          { key: '14d', y: 0.621*888, xD: 0.813*817, xS: 0.922*817 }
+        ]
+      },
+      '2026_2027_GK1_Tin8': {
+        w: 1080, h: 880, rDot: 19, strokeW: 4.0,
+        p1RowsY: [74, 142, 210, 278, 348, 418, 486, 555, 624, 694, 763, 832],
+        p1ColsX: { 'A': 152, 'B': 237, 'C': 322, 'D': 407 },
+        p2Items: [
+          { key: '13a', y: 74,  xD: 626, xS: 712 },
+          { key: '13b', y: 142, xD: 626, xS: 712 },
+          { key: '13c', y: 210, xD: 626, xS: 712 },
+          { key: '13d', y: 278, xD: 626, xS: 712 },
+          { key: '14a', y: 348, xD: 626, xS: 712 },
+          { key: '14b', y: 418, xD: 626, xS: 712 },
+          { key: '14c', y: 486, xD: 626, xS: 712 },
+          { key: '14d', y: 555, xD: 626, xS: 712 },
+          { key: '15a', y: 624, xD: 626, xS: 712 },
+          { key: '15b', y: 694, xD: 626, xS: 712 },
+          { key: '15c', y: 763, xD: 626, xS: 712 },
+          { key: '15d', y: 832, xD: 626, xS: 712 },
+          { key: '16a', y: 74,  xD: 948, xS: 1034 },
+          { key: '16b', y: 142, xD: 948, xS: 1034 },
+          { key: '16c', y: 210, xD: 948, xS: 1034 },
+          { key: '16d', y: 278, xD: 948, xS: 1034 }
+        ]
+      },
+      '2026_2027_GK1_Toan8': {
+        w: 960, h: 860, rDot: 15, strokeW: 3.5,
+        p1RowsY: [169, 223, 277, 330, 384, 438, 492, 546, 600, 653, 707, 761],
+        p1ColsX: { 'A': 138, 'B': 185, 'C': 232, 'D': 280 },
+        p2Items: [
+          { key: '13a', y: 169, xD: 460, xS: 508 },
+          { key: '13b', y: 223, xD: 460, xS: 508 },
+          { key: '13c', y: 277, xD: 460, xS: 508 },
+          { key: '13d', y: 330, xD: 460, xS: 508 },
+          { key: '14a', y: 169, xD: 700, xS: 748 },
+          { key: '14b', y: 223, xD: 700, xS: 748 },
+          { key: '14c', y: 277, xD: 700, xS: 748 },
+          { key: '14d', y: 330, xD: 700, xS: 748 }
+        ]
+      }
+    };
+
+    function getStudentKey(st) {
+      if (!st) return "";
+      let subId = st.submission_id;
+      if (!subId && (st.omr_crop_image || (st.mcq && st.mcq.omr_crop_image))) {
+        const path = st.omr_crop_image || (st.mcq && st.mcq.omr_crop_image) || "";
+        const m = path.match(/(hs_[^/._]+)/);
+        if (m) subId = m[1];
+      }
+      return (st.student_class || "") + "_" + (subId || st.student_name || "");
+    }
+
+    function getCurrentOmrConfig() {
+      const eid = (currentExamConfig && currentExamConfig.exam_id) || (allExamsData && allExamsData.exam_info && allExamsData.exam_info.exam_id) || '2026_2027_GK1_Toan7';
+      return OMR_CONFIGS[eid] || OMR_CONFIGS['2026_2027_GK1_Toan7'];
+    }
 
     // 1. KHỞI TẠO HỆ THỐNG MỤC LỤC ĐỢT THI (CASCADING REGISTRY)
     document.addEventListener("DOMContentLoaded", async () => {
@@ -1869,11 +2080,25 @@
       const examId = document.getElementById("examSelect").value;
       const classSelect = document.getElementById("classSelect");
       const currentClassVal = classSelect.value;
+      const btnSearch = document.getElementById("btnSearch");
+
+      // Xóa dữ liệu bộ nhớ ngay lập tức để chống xung đột race condition / hiển thị nhầm môn
+      allExamsData = null;
+      omrFlatMap = {};
+      if (btnSearch) {
+        btnSearch.disabled = true;
+        btnSearch.innerHTML = "<span>⏳</span><span>Đang tải môn học...</span>";
+      }
 
       const yearEntry = (examRegistry.academic_years || []).find(y => y.year_id === yearId);
       currentExamConfig = (yearEntry && yearEntry.exams || []).find(e => e.exam_id === examId);
 
       await loadExamsData();
+
+      if (btnSearch) {
+        btnSearch.disabled = false;
+        btnSearch.innerHTML = "<span>🔍</span><span>Tra Cứu</span>";
+      }
 
       // Xác định danh sách lớp thi của đợt này
       let examClasses = (currentExamConfig && currentExamConfig.classes) || [];
@@ -1906,21 +2131,34 @@
         const res = await fetch(fetchUrl, { cache: "no-store" });
         if (res.ok) {
           allExamsData = await res.json();
-          return;
         }
       } catch (e) {
         console.warn(`Không tải được qua network ${dataUrl}, dùng dữ liệu dự phòng:`, e);
       }
 
+      // Nạp bản đồ ảnh OMR đã phối cảnh trải phẳng (omr_flat.json)
+      omrFlatMap = {};
+      try {
+        const flatUrl = dataUrl.replace(/\.json$/i, "_omr_flat.json");
+        const fRes = await fetch(flatUrl + (flatUrl.includes("?") ? "&" : "?") + "v=" + Date.now(), { cache: "no-store" });
+        if (fRes.ok) {
+          omrFlatMap = await fRes.json();
+        }
+      } catch (e) {
+        console.warn("Không tải được omr_flat.json:", e);
+      }
+
       // Fallback khi chạy file:/// hoặc mất kết nối
-      if (currentExamConfig && currentExamConfig.exam_id === "2026_2027_GK1_Toan8") {
-        allExamsData = FALLBACK_TOAN8_DATA;
-      } else {
-        try {
-          const res = await fetch("data_ket_qua_thi.json?v=" + Date.now(), { cache: "no-store" });
-          allExamsData = await res.json();
-        } catch (err) {
-          console.error("Lỗi tải tệp kết quả thi fallback:", err);
+      if (!allExamsData) {
+        if (currentExamConfig && currentExamConfig.exam_id === "2026_2027_GK1_Toan8") {
+          allExamsData = FALLBACK_TOAN8_DATA;
+        } else {
+          try {
+            const res = await fetch("data_ket_qua_thi.json?v=" + Date.now(), { cache: "no-store" });
+            allExamsData = await res.json();
+          } catch (err) {
+            console.error("Lỗi tải tệp kết quả thi fallback:", err);
+          }
         }
       }
     }
@@ -2032,8 +2270,10 @@
         }
       }
 
-      // Đã xác thực thành công danh tính học sinh -> Tìm kết quả chấm thi
-      if (!allExamsData || !allExamsData.students) {
+      // Đã xác thực thành công danh tính học sinh -> Đảm bảo nạp đúng môn học đang chọn
+      const selectedExamId = document.getElementById("examSelect") ? document.getElementById("examSelect").value : "";
+      const currentLoadedExamId = allExamsData && allExamsData.exam_info && allExamsData.exam_info.exam_id;
+      if (!allExamsData || !allExamsData.students || (selectedExamId && currentLoadedExamId !== selectedExamId)) {
         await loadExamsData();
       }
 
@@ -2112,28 +2352,109 @@
       resultSec.scrollIntoView({ behavior: "smooth" });
     }
 
-    // 6. RENDER LƯỚI TRẮC NGHIỆM CHI TIẾT
+    // 6. RENDER LƯỚI TRẮC NGHIỆM CHI TIẾT & PHỦ VIỀN TRÒN SVG PHỐI CẢNH
     function renderOmrGrid(mcq, st) {
       const container = document.getElementById("omrGridContainer");
       container.innerHTML = "";
 
-      // Hiển thị ảnh phiếu tô gốc bên trái nếu có
+      // Hiển thị ảnh phiếu tô gốc / phối cảnh trải phẳng bên trái
+      const sKey = getStudentKey(st);
+      const omrUrl = (omrFlatMap && omrFlatMap[sKey]) || (mcq && mcq.omr_crop_image) || (st && st.omr_crop_image) || "";
       const cropBox = document.getElementById("omrCropPreviewBox");
       const cropImg = document.getElementById("omrCropImg");
-      const cropUrl = (mcq && mcq.omr_crop_image) || (st && st.omr_crop_image);
+      const svg = document.getElementById("omrClientSvg");
+      const flatBadge = document.getElementById("omrFlatBadge");
+
+      const isFlat = Boolean(omrFlatMap && omrFlatMap[sKey]);
+      if (flatBadge) {
+        flatBadge.textContent = isFlat ? "Chuẩn Phối Cảnh" : "Ảnh Gốc";
+        flatBadge.style.background = isFlat ? "#e0f2fe" : "#f1f5f9";
+        flatBadge.style.color = isFlat ? "#0284c7" : "#64748b";
+      }
+
       if (cropBox && cropImg) {
-        if (cropUrl) {
-          cropImg.src = cropUrl + "?v=" + Date.now();
+        if (omrUrl) {
+          cropImg.src = omrUrl + "?v=" + Date.now();
           cropBox.style.display = "block";
         } else {
           cropBox.style.display = "none";
         }
       }
 
-      const p1Answers = mcq.p1_answers || {};
-      const p1Results = mcq.p1_results || {};
-      const p2Answers = mcq.p2_answers || {};
-      const p2Results = mcq.p2_results || {};
+      const p1Answers = (mcq && mcq.p1_answers) || {};
+      const p1Results = (mcq && mcq.p1_results) || {};
+      const p2Answers = (mcq && mcq.p2_answers) || {};
+      const p2Results = (mcq && mcq.p2_results) || {};
+
+      const keyP1 = (allExamsData && allExamsData.exam_info && allExamsData.exam_info.official_key_p1) || {
+        "C1":"A","C2":"C","C3":"B","C4":"B","C5":"C","C6":"D","C7":"C","C8":"B","C9":"B","C10":"C","C11":"C","C12":"B"
+      };
+      const keyP2 = (allExamsData && allExamsData.exam_info && allExamsData.exam_info.official_key_p2) || {
+        "13a":"S","13b":"Đ","13c":"Đ","13d":"Đ","14a":"S","14b":"Đ","14c":"Đ","14d":"S","15a":"S","15b":"Đ","15c":"Đ","15d":"Đ","16a":"S","16b":"Đ","16c":"S","16d":"Đ"
+      };
+
+      // VẼ VIỀN TRÒN SVG TRỰC QUAN TRÊN ẢNH PHIẾU TÔ (ĐÚNG: XANH BLUE, SAI: ĐỎ, ĐÁP ÁN: VÀNG NÉT ĐỨT)
+      const cfg = getCurrentOmrConfig();
+      if (svg && cfg) {
+        svg.innerHTML = "";
+        svg.setAttribute("viewBox", `0 0 ${cfg.w} ${cfg.h}`);
+
+        function drawOmrCircle(cx, cy, r, color, isDashed = false, strokeW = null) {
+          const c = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+          c.setAttribute("cx", cx);
+          c.setAttribute("cy", cy);
+          c.setAttribute("r", r);
+          c.setAttribute("fill", "transparent");
+          c.setAttribute("stroke", color);
+          c.setAttribute("stroke-width", strokeW || (cfg.strokeW || 3.5));
+          if (isDashed) {
+            c.setAttribute("stroke-dasharray", "4,3");
+          }
+          svg.appendChild(c);
+        }
+
+        // 1. Phần I: 12 câu trắc nghiệm nhiều lựa chọn
+        for (let i = 1; i <= 12; i++) {
+          const qKey = `C${i}`;
+          const cy = cfg.p1RowsY[i - 1];
+          const chosen = p1Answers[qKey] || p1Answers[i] || "";
+          const correctKey = keyP1[qKey] || "";
+          const isOk = (p1Results[qKey] !== undefined) ? p1Results[qKey] : (chosen === correctKey && chosen !== "");
+
+          if (chosen && cfg.p1ColsX && cfg.p1ColsX[chosen]) {
+            // Viền dày màu xanh blue nếu tô đúng, màu đỏ nếu tô sai
+            drawOmrCircle(cfg.p1ColsX[chosen], cy, cfg.rDot || 16, isOk ? "#2563eb" : "#dc2626");
+          }
+
+          // Nếu học sinh tô sai hoặc để trống: Vẽ viền vàng nét đứt tại đáp án chuẩn
+          if (!isOk && correctKey && cfg.p1ColsX && cfg.p1ColsX[correctKey]) {
+            drawOmrCircle(cfg.p1ColsX[correctKey], cy, (cfg.rDot || 16) + 1, "#f59e0b", true, 2.5);
+          }
+        }
+
+        // 2. Phần II: Trắc nghiệm Đúng / Sai
+        if (cfg.p2Items && Array.isArray(cfg.p2Items)) {
+          cfg.p2Items.forEach(item => {
+            const subKey = item.key;
+            const cy = item.y;
+            const chosen = p2Answers[subKey] || "";
+            const correctKey = keyP2[subKey] || "";
+            const isOk = (p2Results[subKey] !== undefined) ? p2Results[subKey] : (chosen === correctKey && chosen !== "");
+
+            if (chosen && (chosen === 'Đ' || chosen === 'S')) {
+              const cx = (chosen === 'Đ') ? item.xD : item.xS;
+              // Viền dày màu xanh blue nếu tô đúng, màu đỏ nếu tô sai
+              drawOmrCircle(cx, cy, cfg.rDot || 16, isOk ? "#2563eb" : "#dc2626");
+            }
+
+            // Nếu tô sai hoặc để trống: Vẽ viền vàng nét đứt tại đáp án chuẩn
+            if (!isOk && correctKey && (correctKey === 'Đ' || correctKey === 'S')) {
+              const correctX = (correctKey === 'Đ') ? item.xD : item.xS;
+              drawOmrCircle(correctX, cy, (cfg.rDot || 16) + 1, "#f59e0b", true, 2.5);
+            }
+          });
+        }
+      }
 
       // Fallback an toàn sư phạm: Nếu chưa có mảng câu trả lời chi tiết nhưng học sinh có điểm
       const hasAnswers = Object.keys(p1Answers).length > 0 || Object.keys(p2Answers).length > 0;
@@ -2146,53 +2467,156 @@
         return;
       }
 
-      const keyP1 = (allExamsData && allExamsData.exam_info && allExamsData.exam_info.official_key_p1) || {
-        "C1":"A","C2":"C","C3":"B","C4":"B","C5":"C","C6":"D","C7":"C","C8":"B","C9":"B","C10":"C","C11":"C","C12":"B"
-      };
-      const keyP2 = (allExamsData && allExamsData.exam_info && allExamsData.exam_info.official_key_p2) || {
-        "13a":"S","13b":"Đ","13c":"Đ","13d":"Đ","14a":"S","14b":"Đ","14c":"Đ","14d":"S","15a":"S","15b":"Đ","15c":"Đ","15d":"Đ","16a":"S","16b":"Đ","16c":"S","16d":"Đ"
-      };
-
-      // Phần I (C1..C12)
+      // 1. Chuẩn bị danh sách Phần I (C1..C12)
+      const p1List = [];
       for (let i = 1; i <= 12; i++) {
         const qKey = `C${i}`;
         const chosen = p1Answers[qKey] || p1Answers[i] || "";
-        const isOk = (p1Results[qKey] !== undefined) ? p1Results[qKey] : (p1Results[i] !== undefined ? p1Results[i] : (chosen === keyP1[qKey]));
+        const isOk = (p1Results[qKey] !== undefined) ? p1Results[qKey] : (chosen === keyP1[qKey] && chosen !== "");
         const correctKey = keyP1[qKey] || "";
-
-        const item = document.createElement("div");
-        const statusClass = !chosen ? "empty" : (isOk ? "ok" : "err");
-        item.className = `omr-item ${statusClass}`;
-        item.innerHTML = `
-          <div class="omr-q">${qKey}</div>
-          <div class="omr-ans">${chosen || "Trống"}</div>
-          <span class="omr-badge">${isOk ? "✓ Đúng" : (chosen ? `✗ Đáp án: ${correctKey}` : "Chưa tô")}</span>
-        `;
-        container.appendChild(item);
+        p1List.push({ label: `C${i}`, chosen, correctKey, isOk });
       }
 
-      // Phần II (Đúng/Sai)
-      const p2Keys = Object.keys(keyP2).length > 0 ? Object.keys(keyP2) : [
+      // 2. Chuẩn bị danh sách Phần II (Đúng/Sai)
+      const p2Keys = (cfg.p2Items && cfg.p2Items.map(it => it.key)) || (Object.keys(keyP2).length > 0 ? Object.keys(keyP2) : [
         "13a","13b","13c","13d",
         "14a","14b","14c","14d",
         "15a","15b","15c","15d",
         "16a","16b","16c","16d"
-      ];
+      ]);
+      const p2ItemsMap = {};
       p2Keys.forEach(k => {
         const chosen = p2Answers[k] || "";
-        const isOk = (p2Results[k] !== undefined) ? p2Results[k] : (chosen === keyP2[k]);
+        const isOk = (p2Results[k] !== undefined) ? p2Results[k] : (chosen === keyP2[k] && chosen !== "");
         const correctKey = keyP2[k] || "";
-
-        const item = document.createElement("div");
-        const statusClass = !chosen ? "empty" : (isOk ? "ok" : "err");
-        item.className = `omr-item ${statusClass}`;
-        item.innerHTML = `
-          <div class="omr-q">${k}</div>
-          <div class="omr-ans">${chosen || "Trống"}</div>
-          <span class="omr-badge">${isOk ? "✓ Đúng" : (chosen ? `✗ Đ/A: ${correctKey}` : "Chưa tô")}</span>
-        `;
-        container.appendChild(item);
+        p2ItemsMap[k] = { label: k, chosen, correctKey, isOk };
       });
+
+      // Cập nhật tiêu đề phụ đúng số lượng câu của đợt thi
+      const subtitle = document.getElementById("mcqNoteSummary");
+      if (subtitle) {
+        if (mcq.wrong_note) {
+          subtitle.textContent = `Tổng kết: ${mcq.wrong_note}`;
+        } else {
+          subtitle.textContent = `Thống kê kết quả 12 câu trắc nghiệm (Phần I) và ${p2Keys.length} ý Đúng/Sai (Phần II) theo đúng layout cột phiếu tô:`;
+        }
+      }
+
+      // XÂY DỰNG CÁC CỘT THEO ĐÚNG HÌNH HỌC PHIẾU TÔ (MỖI CÂU TRÊN 1 HÀNG)
+      const eid = (currentExamConfig && currentExamConfig.exam_id) || (allExamsData && allExamsData.exam_info && allExamsData.exam_info.exam_id) || "";
+      const p1Score = Number(mcq.p1_score !== undefined ? mcq.p1_score : (mcq.score || 0));
+      const p2Score = Number(mcq.p2_score || 0);
+
+      const columnsContainer = document.createElement("div");
+      columnsContainer.className = "omr-columns-container";
+
+      function createOmrRow(it) {
+        const row = document.createElement("div");
+        const statusClass = !it.chosen ? "empty" : (it.isOk ? "ok" : "err");
+        row.className = `omr-col-row ${statusClass}`;
+
+        const leftWrap = document.createElement("div");
+        leftWrap.style.cssText = "display: flex; align-items: center; gap: 8px;";
+
+        const qSpan = document.createElement("span");
+        qSpan.className = "omr-col-q";
+        qSpan.textContent = it.label;
+        leftWrap.appendChild(qSpan);
+
+        const ansBubble = document.createElement("span");
+        ansBubble.className = "omr-col-ans";
+        ansBubble.textContent = it.chosen || "—";
+        if (!it.chosen) {
+          ansBubble.style.cssText = "border-style: dashed; color: #94a3b8; border-color: #cbd5e1;";
+        }
+        leftWrap.appendChild(ansBubble);
+        row.appendChild(leftWrap);
+
+        const badgeSpan = document.createElement("span");
+        badgeSpan.className = "omr-col-badge";
+        if (it.isOk) {
+          badgeSpan.innerHTML = `✓ Đúng <span class="omr-col-pts">+0.25đ</span>`;
+        } else if (it.chosen) {
+          badgeSpan.innerHTML = `✗ Đ/A: <b>${it.correctKey}</b>`;
+        } else {
+          badgeSpan.innerHTML = `Chưa tô (<b>${it.correctKey}</b>)`;
+        }
+        row.appendChild(badgeSpan);
+
+        return row;
+      }
+
+      function buildColumn(title, scoreText, itemsList) {
+        const col = document.createElement("div");
+        col.className = "omr-layout-column";
+
+        const header = document.createElement("div");
+        header.className = "omr-column-header";
+        header.innerHTML = `<span>${title}</span>${scoreText ? `<span class="col-score-pill">${scoreText}</span>` : ''}`;
+        col.appendChild(header);
+
+        const body = document.createElement("div");
+        body.className = "omr-column-body";
+
+        itemsList.forEach(it => {
+          body.appendChild(createOmrRow(it));
+        });
+
+        col.appendChild(body);
+        return col;
+      }
+
+      // Phân chia cột đối soát OMR theo layout phiếu tô của từng môn học
+      if (eid.includes("Toan7") || (p2Keys.length <= 8 && !eid.includes("Toan8"))) {
+        // TOÁN 7: Đúng 2 CỘT theo layout phiếu tô (Cột 1: C1-12, Cột 2: 13a-14d, mỗi thứ trên 1 hàng)
+        const col1 = buildColumn("📋 CỘT 1 (C1 - C12)", `${p1Score.toFixed(2)}đ`, p1List);
+        columnsContainer.appendChild(col1);
+
+        const p2List = ['13a','13b','13c','13d','14a','14b','14c','14d']
+          .filter(k => p2ItemsMap[k])
+          .map(k => p2ItemsMap[k]);
+        const col2 = buildColumn("⚖️ CỘT 2 (13a - 14d)", `${p2Score.toFixed(2)}đ`, p2List);
+        columnsContainer.appendChild(col2);
+
+      } else if (eid.includes("Toan8")) {
+        // TOÁN 8: 3 CỘT theo 3 khối phiếu tô (Khối 1: C1-12, Khối 2: Câu 13, Khối 3: Câu 14)
+        const col1 = buildColumn("📋 KHỐI 1 (C1 - C12)", `${p1Score.toFixed(2)}đ`, p1List);
+        columnsContainer.appendChild(col1);
+
+        const c13List = ['13a','13b','13c','13d'].filter(k => p2ItemsMap[k]).map(k => p2ItemsMap[k]);
+        const col2 = buildColumn("⚖️ CÂU 13", "", c13List);
+        columnsContainer.appendChild(col2);
+
+        const c14List = ['14a','14b','14c','14d'].filter(k => p2ItemsMap[k]).map(k => p2ItemsMap[k]);
+        const col3 = buildColumn("⚖️ CÂU 14", "", c14List);
+        columnsContainer.appendChild(col3);
+
+      } else if (eid.includes("Tin8")) {
+        // TIN 8: 3 CỘT theo 3 khung phiếu tô (Khung 1: C1-12, Khung 2: C13-15, Khung 3: C16)
+        const col1 = buildColumn("📋 KHUNG 1 (C1 - 12)", `${p1Score.toFixed(2)}đ`, p1List);
+        columnsContainer.appendChild(col1);
+
+        const c13_15 = ['13a','13b','13c','13d','14a','14b','14c','14d','15a','15b','15c','15d']
+          .filter(k => p2ItemsMap[k])
+          .map(k => p2ItemsMap[k]);
+        const col2 = buildColumn("⚖️ KHUNG 2 (C13 - 15)", "", c13_15);
+        columnsContainer.appendChild(col2);
+
+        const c16 = ['16a','16b','16c','16d'].filter(k => p2ItemsMap[k]).map(k => p2ItemsMap[k]);
+        const col3 = buildColumn("⚖️ KHUNG 3 (C16)", "", c16);
+        columnsContainer.appendChild(col3);
+
+      } else {
+        // Mặc định: 2 Cột (Phần I và Phần II)
+        const col1 = buildColumn("📋 PHẦN I (C1 - 12)", `${p1Score.toFixed(2)}đ`, p1List);
+        columnsContainer.appendChild(col1);
+
+        const p2List = p2Keys.map(k => p2ItemsMap[k] || { label: k, chosen: "", correctKey: "", isOk: false });
+        const col2 = buildColumn("⚖️ PHẦN II (ĐÚNG / SAI)", `${p2Score.toFixed(2)}đ`, p2List);
+        columnsContainer.appendChild(col2);
+      }
+
+      container.appendChild(columnsContainer);
 
       if (mcq.wrong_note) {
         document.getElementById("mcqNoteSummary").textContent = `Tổng kết: ${mcq.wrong_note}`;
