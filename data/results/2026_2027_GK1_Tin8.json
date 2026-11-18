@@ -82183,6 +82183,533 @@
       "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084656_008_omr.jpg",
       "audit_status": "verified_teacher",
       "audit_reason": "Xác nhận thực chứng & Giáo viên duyệt: Bài thi không ghi tên số 008 là của em Bùi Nguyễn Gia Huy (STT 16). Bút tích lớp 8A10 bằng bút bi xanh trùng khớp 100% với bài thi môn Toán 8; thói quen làm bài trắc nghiệm và bỏ trắng tự luận trùng khớp."
+    },
+    {
+      "submission_id": "hs_20261118_225910_041",
+      "student_name": "Đặng Lan Anh",
+      "student_class": "8A10",
+      "subject": "Tin học 8",
+      "stt": 2,
+      "stt_vnedu": "2",
+      "hs_id": "5007572523",
+      "ma_hs": "2406784819",
+      "dob": "16/02/2013",
+      "page_rotations": [
+        0,
+        0
+      ],
+      "max_score": 10.0,
+      "total_score": 9.75,
+      "score": 9.75,
+      "mcq_score": 6.75,
+      "mcq_max": 7.0,
+      "essay_score": 3.0,
+      "essay_max": 3.0,
+      "summary_comment": "Bài thi xuất sắc đạt 9.75đ (TN: 6.75đ, TL: 3.00đ); trắc nghiệm P1 đạt 12/12, P2 đạt 15/16 (chỉ bỏ trống ý 14d); tự luận đạt điểm tối đa 3.0/3.0đ.",
+      "mcq": {
+        "has_mcq_on_page": true,
+        "page_index": 0,
+        "y_norm": 255,
+        "p1_score": 3.0,
+        "p2_score": 3.75,
+        "total_score": 6.75,
+        "max_score": 7.0,
+        "p1_ok_count": 12,
+        "p2_ok_count": 15,
+        "p1_answers": {
+          "C1": "A",
+          "C2": "C",
+          "C3": "B",
+          "C4": "B",
+          "C5": "C",
+          "C6": "D",
+          "C7": "C",
+          "C8": "B",
+          "C9": "B",
+          "C10": "C",
+          "C11": "C",
+          "C12": "B"
+        },
+        "p2_answers": {
+          "13a": "S",
+          "13b": "Đ",
+          "13c": "Đ",
+          "13d": "Đ",
+          "14a": "S",
+          "14b": "Đ",
+          "14c": "Đ",
+          "14d": "",
+          "15a": "S",
+          "15b": "Đ",
+          "15c": "Đ",
+          "15d": "Đ",
+          "16a": "S",
+          "16b": "Đ",
+          "16c": "S",
+          "16d": "Đ"
+        },
+        "p1_results": {
+          "C1": true,
+          "C2": true,
+          "C3": true,
+          "C4": true,
+          "C5": true,
+          "C6": true,
+          "C7": true,
+          "C8": true,
+          "C9": true,
+          "C10": true,
+          "C11": true,
+          "C12": true
+        },
+        "p2_results": {
+          "13a": true,
+          "13b": true,
+          "13c": true,
+          "13d": true,
+          "14a": true,
+          "14b": true,
+          "14c": true,
+          "14d": false,
+          "15a": true,
+          "15b": true,
+          "15c": true,
+          "15d": true,
+          "16a": true,
+          "16b": true,
+          "16c": true,
+          "16d": true
+        },
+        "wrong_note": "P.I: 12/12 (3.00đ) | P.II: 15/16 ý đúng (3.75đ) (Chưa tô 14d)",
+        "bubbles": [
+          {
+            "q": "C1",
+            "chosen": "A",
+            "key": "A",
+            "ok": true,
+            "x": 298,
+            "y": 253,
+            "has_bubble": true
+          },
+          {
+            "q": "C2",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 488,
+            "y": 324,
+            "has_bubble": true
+          },
+          {
+            "q": "C3",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 383,
+            "y": 399,
+            "has_bubble": true
+          },
+          {
+            "q": "C4",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 393,
+            "y": 475,
+            "has_bubble": true
+          },
+          {
+            "q": "C5",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 488,
+            "y": 551,
+            "has_bubble": true
+          },
+          {
+            "q": "C6",
+            "chosen": "D",
+            "key": "D",
+            "ok": true,
+            "x": 583,
+            "y": 636,
+            "has_bubble": true
+          },
+          {
+            "q": "C7",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 488,
+            "y": 702,
+            "has_bubble": true
+          },
+          {
+            "q": "C8",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 393,
+            "y": 777,
+            "has_bubble": true
+          },
+          {
+            "q": "C9",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 383,
+            "y": 853,
+            "has_bubble": true
+          },
+          {
+            "q": "C10",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 473,
+            "y": 929,
+            "has_bubble": true
+          },
+          {
+            "q": "C11",
+            "chosen": "C",
+            "key": "C",
+            "ok": true,
+            "x": 483,
+            "y": 1009,
+            "has_bubble": true
+          },
+          {
+            "q": "C12",
+            "chosen": "B",
+            "key": "B",
+            "ok": true,
+            "x": 378,
+            "y": 1080,
+            "has_bubble": true
+          },
+          {
+            "q": "13a",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 923,
+            "y": 252,
+            "has_bubble": true
+          },
+          {
+            "q": "13b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 833,
+            "y": 328,
+            "has_bubble": true
+          },
+          {
+            "q": "13c",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 841,
+            "y": 419,
+            "has_bubble": true
+          },
+          {
+            "q": "13d",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 829,
+            "y": 479,
+            "has_bubble": true
+          },
+          {
+            "q": "14a",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 915,
+            "y": 555,
+            "has_bubble": true
+          },
+          {
+            "q": "14b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 825,
+            "y": 626,
+            "has_bubble": true
+          },
+          {
+            "q": "14c",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 833,
+            "y": 710,
+            "has_bubble": true
+          },
+          {
+            "q": "14d",
+            "chosen": "",
+            "key": "S",
+            "ok": false,
+            "x": 841,
+            "y": 777,
+            "has_bubble": true
+          },
+          {
+            "q": "15a",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 923,
+            "y": 869,
+            "has_bubble": true
+          },
+          {
+            "q": "15b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 833,
+            "y": 929,
+            "has_bubble": true
+          },
+          {
+            "q": "15c",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 829,
+            "y": 1004,
+            "has_bubble": true
+          },
+          {
+            "q": "15d",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 829,
+            "y": 1080,
+            "has_bubble": true
+          },
+          {
+            "q": "16a",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 1272,
+            "y": 264,
+            "has_bubble": true
+          },
+          {
+            "q": "16b",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 1182,
+            "y": 336,
+            "has_bubble": true
+          },
+          {
+            "q": "16c",
+            "chosen": "S",
+            "key": "S",
+            "ok": true,
+            "x": 1272,
+            "y": 411,
+            "has_bubble": true
+          },
+          {
+            "q": "16d",
+            "chosen": "Đ",
+            "key": "Đ",
+            "ok": true,
+            "x": 1178,
+            "y": 487,
+            "has_bubble": true
+          }
+        ],
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261118_225910_041_omr.jpg"
+      },
+      "questions": [
+        {
+          "question_no": "Câu 1",
+          "score": 1.0,
+          "max_score": 1.0,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Đăng ảnh cá nhân khi chưa được phép",
+              "y_norm": 625
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Sao chép thông tin nhận là tác giả",
+              "y_norm": 680
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Tải lậu phần mềm bản quyền",
+              "y_norm": 745
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Ngôn ngữ bất lịch sự, giật gân",
+              "y_norm": 810
+            }
+          ],
+          "box_2d": [
+            600,
+            50,
+            850,
+            960
+          ],
+          "page_index": 0,
+          "page_boxes": [],
+          "raw_student_text": "- Đăng ảnh cá nhân người khác lên khi chưa được cho phép\n- Sao chép thông tin từ một trang web và nhận mình là tác giả\n- Tải lậu một phần mềm có bản quyền về máy để sử dụng miễn phí\n- Dùng ngôn ngữ bất lịch sự, thiếu văn hoá, dùng hình ảnh giật gân khi thiết kế sản phẩm số",
+          "full_student_text": "- Đăng ảnh cá nhân người khác lên khi chưa được cho phép\n- Sao chép thông tin từ một trang web và nhận mình là tác giả\n- Tải lậu một phần mềm có bản quyền về máy để sử dụng miễn phí\n- Dùng ngôn ngữ bất lịch sự, thiếu văn hoá, dùng hình ảnh giật gân khi thiết kế sản phẩm số",
+          "teacher_note": "Trình bày 4 hành vi vi phạm chuẩn mực rất rõ ràng, chuẩn xác (1.0/1.0đ)."
+        },
+        {
+          "question_no": "Câu 2",
+          "score": 1.0,
+          "max_score": 1.0,
+          "steps": [
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Nêu cách nhập ký hiệu $ (bàn phím / ảo)",
+              "y_norm": 890
+            },
+            {
+              "page_index": 0,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Ví dụ cố định $A, $1 và tuyệt đối $C$2",
+              "y_norm": 935
+            },
+            {
+              "page_index": 1,
+              "label": "+0,50đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Phân biệt rất rõ bản chất 2 loại địa chỉ khi sao chép",
+              "y_norm": 60
+            }
+          ],
+          "box_2d": [
+            860,
+            50,
+            990,
+            960
+          ],
+          "page_index": 0,
+          "page_boxes": [
+            {
+              "page_index": 0,
+              "box_2d": [
+                860,
+                50,
+                990,
+                960
+              ]
+            },
+            {
+              "page_index": 1,
+              "box_2d": [
+                30,
+                50,
+                180,
+                960
+              ]
+            }
+          ],
+          "raw_student_text": "a/ Nhấn kí hiệu $ trên bàn phím để cố định hoặc kích chuột $ trên bàn phím ảo. Ví dụ $A cố định cột A, $1 cố định hàng, Địa chỉ tuyệt đối $C$2.\nb/ Sự khác là: Địa chỉ tương đối khi sao chép công thức sẽ bị thay đổi địa chỉ; Địa chỉ tuyệt đối khi sao chép công thức sẽ không thay đổi mà giữ nguyên địa chỉ.",
+          "full_student_text": "a/ Nhấn kí hiệu $ trên bàn phím để cố định hoặc kích chuột $ trên bàn phím ảo. Ví dụ $A cố định cột A, $1 cố định hàng, Địa chỉ tuyệt đối $C$2.\nb/ Sự khác là: Địa chỉ tương đối khi sao chép công thức sẽ bị thay đổi địa chỉ; Địa chỉ tuyệt đối khi sao chép công thức sẽ không thay đổi mà giữ nguyên địa chỉ.",
+          "teacher_note": "Trả lời đầy đủ, chính xác cả 2 ý a và b, ví dụ cụ thể rõ ràng (1.0/1.0đ)."
+        },
+        {
+          "question_no": "Câu 3",
+          "score": 1.0,
+          "max_score": 1.0,
+          "steps": [
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Từ khóa 1 đúng trọng tâm",
+              "y_norm": 230
+            },
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Từ khóa 2 đúng trọng tâm",
+              "y_norm": 265
+            },
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Kiểm tra thông tin từ cá nhân uy tín",
+              "y_norm": 355
+            },
+            {
+              "page_index": 1,
+              "label": "+0,25đ",
+              "ok": true,
+              "kind": "correct",
+              "note": "Đạt: Kiểm tra minh chứng khách quan",
+              "y_norm": 395
+            }
+          ],
+          "box_2d": [
+            190,
+            50,
+            420,
+            960
+          ],
+          "page_index": 1,
+          "page_boxes": [],
+          "raw_student_text": "- 2 từ khoá là: Tác hại của tin giả trên mạng xã hội là gì?; Tác hại của tin giả trên mạng xã hội như thế nào?\n- 2 cách để kiểm tra đánh giá có phải là thông tin đáng tin cậy hay không là:\n  + Thông tin từ cá nhân uy tín\n  + Thông tin có sự bằng chứng khách quan",
+          "full_student_text": "- 2 từ khoá là: Tác hại của tin giả trên mạng xã hội là gì?; Tác hại của tin giả trên mạng xã hội như thế nào?\n- 2 cách để kiểm tra đánh giá có phải là thông tin đáng tin cậy hay không là:\n  + Thông tin từ cá nhân uy tín\n  + Thông tin có sự bằng chứng khách quan",
+          "teacher_note": "Tìm kiếm từ khóa rất tốt, cách đánh giá chuẩn mực (1.0/1.0đ)."
+        }
+      ],
+      "graded_pages": [
+        "images/graded_exams/2026_2027/GK1/Tin8/8A10/041_Bai_041_T1_225910_DaCham.jpg",
+        "images/graded_exams/2026_2027/GK1/Tin8/8A10/041_Bai_041_T2_225910_DaCham.jpg"
+      ],
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261118_225910_041_omr.jpg",
+      "original_score": 9.75,
+      "audited_score": 9.75,
+      "score_delta": 0.0,
+      "audit_status": "verified_teacher",
+      "audit_reason": "Bổ sung bài thi chính thức của em Đặng Lan Anh (STT 2 vnEdu): Chấm thực chứng bằng thị giác AI. Trắc nghiệm 6.75/7.00đ (đúng 12/12 P1, đúng 15/16 P2, chỉ để trống 14d); Tự luận 3.00/3.00đ xuất sắc. Tổng 9.75đ."
     }
   ]
 }
