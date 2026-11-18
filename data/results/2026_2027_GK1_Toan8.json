@@ -59,8 +59,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 8.75,
-      "essay_score": 2.25,
+      "total_score": 9.0,
+      "essay_score": 2.5,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -491,7 +491,7 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 0.75,
+          "score": 1.0,
           "max_score": 1.5,
           "raw_student_text": "Bài 2: Hình vẽ\na) Vì $\\widehat{N}$ và $\\widehat{C}$ là cặp góc đồng vị. Suy ra $MN // BC$\nb) Tứ giác BMNC là hình thang cân vì: $\\Delta ABC$ cân tại A nên cạnh $AC = AB \\Rightarrow$ Hai cạnh bên bằng nhau $\\Rightarrow NC = MB$ (DHNB).\na) Vì trong $\\Delta ABC$, có $\\widehat{AMN} = \\widehat{ABC}$ (Hai góc đồng vị) $\\Rightarrow MN // BC$ (đpcm)\nb) Tứ giác BMNC là hình thang cân vì: (Lấy O là giao điểm của đoạn thẳng NB và MC) Xét $\\Delta NCM$ có: $ON = OM$ (vì O là giao điểm và $\\Delta ABC$ cân tại A). Xét $\\Delta COB$ có: $OC = OB$ (vì O là giao điểm và $\\Delta ABC$ cân tại A). Từ (1) và (2) $\\Rightarrow NB = MC$ nên tứ giác BMNC là hình thang cân\nc) $\\widehat{C} = 50^\\circ$ (vì BMNC là hình thang cân). Tổng 4 góc của một tứ giác bằng $360^\\circ$ nên $\\widehat{N}$ và $\\widehat{M} = 360^\\circ - (50^\\circ + 50^\\circ) = 160^\\circ \\Rightarrow \\widehat{N} = 80^\\circ$ và $\\widehat{M} = 80^\\circ$. Vậy $\\widehat{N} = 80^\\circ, \\widehat{M} = 80^\\circ, \\widehat{C} = 50^\\circ, \\widehat{B} = 50^\\circ$\nBài 1:\na) $x^2 - 6x = x(x - 6)$\nb) $x^2 - 6x + 9 - y^2 = (x-3)^2 - y^2 = (x-3-y)(x-3+y)$\nc) $x^3 - 27 + (x-3)(x+9) = (x-3)(x^2 + 3x + 9) + (x-3)(x+9) = (x-3)(x^2 + 3x + 9 + x + 9) = (x-3)(x^2 + 4x + 18)$\nBổ sung câu b bài 2:\nXét $\\Delta ABC$, ta có: $MN // BC$ (câu a); $\\widehat{B} = \\widehat{C}$ ($\\Delta ABC$ cân tại A) $\\Rightarrow$ Tứ giác BMNC là hình thang cân",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 2 - 1,5 điểm):**\n- **Hình vẽ**: Vẽ $\\Delta ABC$ tương đối cân tại $A$, cát tuyến $MN$ song song với $BC$ ($M \\in AB, N \\in AC$).\n- **Giả thiết (GT)**: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \neq B)$; $N \\in AC\\ (N \neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n- **Kết luận (KL)**: \n  + a) $MN // BC$\n  + b) Tứ giác $BMNC$ là hình gì? Vì sao?\n  + c) Biết $\\widehat{B} = 50^\\circ$. Tính số đo các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$ (0,25 điểm):**\nXét hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$:\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị.\nSuy ra $MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao? (0,50 điểm):**\n- Vì $MN // BC$ (theo câu a) nên tứ giác $BMNC$ là hình thang (theo định nghĩa).\n- Lại có: $\\Delta ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$ (hay $\\widehat{ABC} = \\widehat{ACB}$).\n- Hình thang $BMNC$ có hai góc kề đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (theo dấu hiệu nhận biết).\n\n**c) Tính số đo các góc của tứ giác $BMNC$ (0,50 điểm):**\n- Do $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\n- Vì $MN // BC$ nên $\\widehat{BMN}$ và $\\widehat{B}$ là hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$ (hai góc kề đáy nhỏ của hình thang cân bằng nhau).\n- **Vậy số đo các góc của tứ giác $BMNC$ là**:\n$$\\widehat{B} = 50^\\circ; \\quad \\widehat{C} = 50^\\circ; \\quad \\widehat{BMN} = 130^\\circ; \\quad \\widehat{CNM} = 130^\\circ.$$",
@@ -528,14 +528,21 @@
               "note": "2c) Tính đúng góc $\\widehat{C} = \\widehat{B} = 50^\\circ$ (+0,25đ). Nhắc nhở sửa sai: Phép trừ $360^\\circ - (50^\\circ + 50^\\circ) = 360^\\circ - 100^\\circ$ em tính nhầm thành $160^\\circ$ (kết quả đúng là $260^\\circ \\Rightarrow \\widehat{BMN} = \\widehat{CNM} = 130^\\circ$). Cần ghi rõ tên góc $\\widehat{BMN}, \\widehat{CNM}$.",
               "y_norm": 350
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] Ảnh T2 phần cuối trang (dưới Bài 1) HS có ghi rõ 'Bổ sung câu b bài 2: MN // BC (câu a), góc B = góc C (tam giác ABC cân tại A) => Tứ giác BMNC là hình thang cân' (đủ cả 2 căn cứ, đạt trọn 0,50đ thay vì 0,25đ; đoạn làm 2b dùng giao điểm O ở trên HS đã đóng ngoặc ghi S hủy bỏ). Hình vẽ không có GT/KL (0,00đ), 2a đúng (0,25đ), 2c đúng góc C = 50° nhưng trừ nhầm 360°-100°=160° (0,25đ). Tổng Bài 2 = 1,00đ."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/034_Bai_034_T1_211508_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/034_Bai_034_T2_211508_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_034_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_034_omr.jpg",
+      "original_score": 8.75,
+      "audited_score": 9.0,
+      "score_delta": 0.25,
+      "score": 9.0,
+      "audit_reason": "OMR P1 (12/12=3,00đ), P2 (6/8=1,50đ), P3 (4/4=2,00đ) và Bài 1 (1,50đ) đều khớp ảnh gốc. Phát hiện bỏ sót đoạn 'Bổ sung câu b bài 2' ở cuối Trang 2 chứng minh đủ MN // BC và góc B = góc C nên tăng Bài 2 từ 0,75đ lên 1,00đ (+0,25đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210157_010",
@@ -551,17 +558,17 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 8.0,
-      "essay_score": 2.25,
+      "total_score": 7.5,
+      "essay_score": 2.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 3.0,
+        "p1_score": 2.75,
         "p2_score": 1.25,
         "p3_score": 1.5,
-        "total_score": 5.75,
+        "total_score": 5.5,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
@@ -571,7 +578,7 @@
           "C5": "A",
           "C6": "D",
           "C7": "A",
-          "C8": "B",
+          "C8": "A",
           "C9": "D",
           "C10": "C",
           "C11": "B",
@@ -585,7 +592,7 @@
           "C5": true,
           "C6": true,
           "C7": true,
-          "C8": true,
+          "C8": false,
           "C9": true,
           "C10": true,
           "C11": true,
@@ -594,22 +601,22 @@
         "p2_answers": {
           "13a": "Đ",
           "13b": "S",
-          "13c": "Đ",
-          "13d": "S",
+          "13c": "S",
+          "13d": "Đ",
           "14a": "Đ",
           "14b": "S",
-          "14c": "Đ",
-          "14d": "S"
+          "14c": "S",
+          "14d": "Đ"
         },
         "p2_results": {
           "13a": true,
           "13b": true,
-          "13c": true,
-          "13d": false,
+          "13c": false,
+          "13d": true,
           "14a": true,
           "14b": false,
-          "14c": false,
-          "14d": true
+          "14c": true,
+          "14d": false
         },
         "p3_answers": {
           "15": "-19",
@@ -983,7 +990,7 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.0,
+          "score": 0.75,
           "max_score": 1.5,
           "raw_student_text": "T1: Tự luận. Bài 1: a) $x^2 - 6x = x(x - 6)$. b) $x^2 - 6x + 9 - y^2 = (x - 3)^2 - y^2 = (x - 3 - y)(x - 3 + y)$. c) $x^3 - 27 + (x - 3)(x + 9) = x^3 - 3^3 + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 9) + (x - 3)(x + 9) = (x - 3)(x^2 - 4x + 18)$. T2: Bài 2: a) Vì AMN = ABC (gt) mà AMN và ABC ở vị trí đồng vị => MN // BC. b) Hình tứ giác BMNC là hình tam giác cân - Vì MN // BC. c) M = 50°, N = 50°, C = 50°. b) Xét tứ giác BMNC có: MN // BC (câu a) => Tứ giác BMNC là hình thang cân có: Lại xét h.t BMNC có: ABC = ACB (ΔABC cân tại A) => H.t BMNC là h.t cân",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 2 - 1,5 điểm):**\n- **Hình vẽ**: Vẽ $\\Delta ABC$ tương đối cân tại $A$, cát tuyến $MN$ song song với $BC$ ($M \\in AB, N \\in AC$).\n- **Giả thiết (GT)**: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \neq B)$; $N \\in AC\\ (N \neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n- **Kết luận (KL)**: \n  + a) $MN // BC$\n  + b) Tứ giác $BMNC$ là hình gì? Vì sao?\n  + c) Biết $\\widehat{B} = 50^\\circ$. Tính số đo các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$ (0,25 điểm):**\nXét hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$:\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị.\nSuy ra $MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao? (0,50 điểm):**\n- Vì $MN // BC$ (theo câu a) nên tứ giác $BMNC$ là hình thang (theo định nghĩa).\n- Lại có: $\\Delta ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$ (hay $\\widehat{ABC} = \\widehat{ACB}$).\n- Hình thang $BMNC$ có hai góc kề đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (theo dấu hiệu nhận biết).\n\n**c) Tính số đo các góc của tứ giác $BMNC$ (0,50 điểm):**\n- Do $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\n- Vì $MN // BC$ nên $\\widehat{BMN}$ và $\\widehat{B}$ là hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$ (hai góc kề đáy nhỏ của hình thang cân bằng nhau).\n- **Vậy số đo các góc của tứ giác $BMNC$ là**:\n$$\\widehat{B} = 50^\\circ; \\quad \\widehat{C} = 50^\\circ; \\quad \\widehat{BMN} = 130^\\circ; \\quad \\widehat{CNM} = 130^\\circ.$$",
@@ -1020,14 +1027,21 @@
               "note": "2c) Điểm ý tưởng tính góc tứ giác.",
               "y_norm": 720
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] Trên T2, HS có vẽ hình và kẻ khung GT/KL nhưng bỏ trống hoàn toàn nội dung GT/KL (0,00đ); 2a đúng (0,25đ); 2b phần làm lại bên dưới đủ MN // BC và góc ABC = góc ACB nên đạt 0,50đ; riêng 2c HS chỉ ghi 'M = 50°; N = 50°; C = 50°' không có lập luận và sai bản chất tổng góc tứ giác -> 0,00đ (chấm cũ cho 0,25đ điểm ý tưởng là chấm lỏng và trái quy tắc chỉ xét điểm ý tưởng với câu >= 0,75đ). Tổng Bài 2 = 0,75đ."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/010_Bai_010_T1_210157_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/010_Bai_010_T2_210157_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_010_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_010_omr.jpg",
+      "original_score": 8.0,
+      "audited_score": 7.5,
+      "score_delta": -0.5,
+      "score": 7.5,
+      "audit_reason": "Soi OMR gốc: P1 tô C8=A (đáp án B -> sai, giảm P1 từ 3,00 xuống 2,75đ); P2 đọc nhầm 4 ý 13c=S, 13d=Đ, 14c=S, 14d=Đ (đúng 5/8, giữ 1,25đ). P3 (1,50đ) và Bài 1 (1,25đ, 1c nhầm dấu x^2-4x+18) khớp ảnh gốc. Bài 2 hạ 2c từ 0,25đ xuống 0,00đ -> tổng 7,50đ (-0,50đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211710_039",
@@ -1042,17 +1056,17 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 2.75,
+      "total_score": 3.0,
       "essay_score": 0.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 1.25,
+        "p1_score": 1.5,
         "p2_score": 1.0,
         "p3_score": 0.5,
-        "total_score": 2.75,
+        "total_score": 3.0,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
@@ -1063,8 +1077,8 @@
           "C6": "D",
           "C7": "C",
           "C8": "C",
-          "C9": null,
-          "C10": null,
+          "C9": "C",
+          "C10": "C",
           "C11": "B",
           "C12": "D"
         },
@@ -1078,7 +1092,7 @@
           "C7": false,
           "C8": false,
           "C9": false,
-          "C10": false,
+          "C10": true,
           "C11": true,
           "C12": true
         },
@@ -1469,7 +1483,13 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/039_Bai_039_T1_211710_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_039_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_039_omr.jpg",
+      "original_score": 2.75,
+      "audited_score": 3.0,
+      "score_delta": 0.25,
+      "score": 3.0,
+      "audit_reason": "Soi OMR gốc: HS có tô rõ ô C ở cả C9 (đáp án D -> sai) và C10 (đáp án C -> đúng, +0,25đ) nhưng bản cũ đọc sót thành trống (null). P1 tăng từ 1,25đ lên 1,50đ (6/12 đúng). P2 (4/8=1,00đ), P3 (chỉ làm C15=-19 đạt 0,50đ) và Tự luận bỏ trống (0,00đ) khớp ảnh gốc -> tổng 3,00đ (+0,25đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211802_041",
@@ -1485,8 +1505,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 8.0,
-      "essay_score": 2.0,
+      "total_score": 7.75,
+      "essay_score": 1.75,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -1917,7 +1937,7 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 0.5,
+          "score": 0.25,
           "max_score": 1.5,
           "raw_student_text": "B. TỰ LUẬN\nCâu 1:\na) $x^2 - 6x = x(x - 6)$\nb) $x^2 - 6x + 9 - y^2 = (x-3)^2 - y^2 = (x-3-y)(x-3+y)$\nc) $x^3 - 27 + (x-3)(x+9) = (x-3)(x^2+3x+9) + (x-3)(x+9) = (x-3)(x^2+3x+9+x+9) = (x-3)(x^2+4x+18)$\nCâu 2:\na) Vì MN và BC là một đoạn thẳng cắt qua nên có cặp góc đồng vị là: $\\widehat{N}$ và $\\widehat{C}$; $\\widehat{M}$ và $\\widehat{B}$. Mà theo định lý hai đường thẳng bị cắt và tạo thành các cặp góc đồng vị thì đó là hai đg thẳng song song $\\Rightarrow MN // BC$\nb) Tứ giác BMNC là hình thang cân\nc) Vì ABC là hình tam giác nên có số đo = 180°. Mà điểm M thuộc cạnh AB, N thuộc cạnh AC. Nên ta có: $N + M = 180^\\circ \\Rightarrow \\widehat{B} + \\widehat{M} + \\widehat{N} = 230^\\circ \\Rightarrow 360^\\circ - 230^\\circ = 130^\\circ \\Rightarrow \\widehat{C} = 130^\\circ$. Vậy số đo của các góc tứ giác $BMNC = 360^\\circ$.",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 2 - 1,5 điểm):**\n- **Hình vẽ**: Vẽ $\\Delta ABC$ tương đối cân tại $A$, cát tuyến $MN$ song song với $BC$ ($M \\in AB, N \\in AC$).\n- **Giả thiết (GT)**: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \neq B)$; $N \\in AC\\ (N \neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n- **Kết luận (KL)**: \n  + a) $MN // BC$\n  + b) Tứ giác $BMNC$ là hình gì? Vì sao?\n  + c) Biết $\\widehat{B} = 50^\\circ$. Tính số đo các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$ (0,25 điểm):**\nXét hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$:\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị.\nSuy ra $MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao? (0,50 điểm):**\n- Vì $MN // BC$ (theo câu a) nên tứ giác $BMNC$ là hình thang (theo định nghĩa).\n- Lại có: $\\Delta ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$ (hay $\\widehat{ABC} = \\widehat{ACB}$).\n- Hình thang $BMNC$ có hai góc kề đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (theo dấu hiệu nhận biết).\n\n**c) Tính số đo các góc của tứ giác $BMNC$ (0,50 điểm):**\n- Do $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\n- Vì $MN // BC$ nên $\\widehat{BMN}$ và $\\widehat{B}$ là hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$ (hai góc kề đáy nhỏ của hình thang cân bằng nhau).\n- **Vậy số đo các góc của tứ giác $BMNC$ là**:\n$$\\widehat{B} = 50^\\circ; \\quad \\widehat{C} = 50^\\circ; \\quad \\widehat{BMN} = 130^\\circ; \\quad \\widehat{CNM} = 130^\\circ.$$",
@@ -1954,14 +1974,21 @@
               "note": "2c) Tính sai góc $\\widehat{C} = 130^\\circ$ (góc đáy tam giác cân là $50^\\circ$).",
               "y_norm": 450
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] Trên T1-T2: vẽ hình không có GT/KL (0,00đ); 2a có nêu cặp góc đồng vị suy ra MN // BC (châm chước cách diễn đạt vụng, giữ 0,25đ); 2b HS chỉ viết duy nhất 1 dòng kết luận 'Tứ giác BMNC là hình thang cân.' hoàn toàn không có bất kỳ căn cứ hay lập luận chứng minh nào -> 0,00đ (chấm cũ cho 0,25đ là chấm lỏng); 2c tính sai góc C = 130° (0,00đ). Tổng Bài 2 = 0,25đ."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/041_Bai_041_T1_211802_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/041_Bai_041_T2_211802_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_041_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_041_omr.jpg",
+      "original_score": 8.0,
+      "audited_score": 7.75,
+      "score_delta": -0.25,
+      "score": 7.75,
+      "audit_reason": "OMR P1 (10/12=2,50đ), P2 (6/8=1,50đ), P3 (4/4=2,00đ) và Bài 1 (1,50đ) đều khớp ảnh gốc. Bài 2 giảm 0,25đ ở câu 2b do chỉ ghi tên hình thang cân mà không giải thích vì sao -> tổng 7,75đ (-0,25đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211339_031",
@@ -1977,62 +2004,62 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 7.25,
-      "essay_score": 0.75,
+      "total_score": 4.0,
+      "essay_score": 0.25,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.75,
-        "p2_score": 1.75,
+        "p1_score": 0.75,
+        "p2_score": 1.0,
         "p3_score": 2.0,
-        "total_score": 6.5,
+        "total_score": 6.75,
         "max_score": 7.0,
         "p1_answers": {
-          "C1": "C",
-          "C2": "D",
-          "C3": "B",
+          "C1": "A",
+          "C2": "A",
+          "C3": "D",
           "C4": "B",
-          "C5": null,
-          "C6": "D",
-          "C7": "A",
-          "C8": "B",
-          "C9": "D",
-          "C10": "C",
+          "C5": "A",
+          "C6": "C",
+          "C7": "D",
+          "C8": "D",
+          "C9": "B",
+          "C10": "B",
           "C11": "B",
-          "C12": "D"
+          "C12": "C"
         },
         "p1_results": {
-          "C1": true,
-          "C2": true,
-          "C3": true,
+          "C1": false,
+          "C2": false,
+          "C3": false,
           "C4": true,
-          "C5": false,
-          "C6": true,
-          "C7": true,
-          "C8": true,
-          "C9": true,
-          "C10": true,
+          "C5": true,
+          "C6": false,
+          "C7": false,
+          "C8": false,
+          "C9": false,
+          "C10": false,
           "C11": true,
-          "C12": true
+          "C12": false
         },
         "p2_answers": {
-          "13a": "Đ",
+          "13a": "S",
           "13b": "S",
-          "13c": "S",
+          "13c": "Đ",
           "13d": "Đ",
-          "14a": "Đ",
+          "14a": "S",
           "14b": "Đ",
           "14c": "S",
           "14d": "S"
         },
         "p2_results": {
-          "13a": true,
+          "13a": false,
           "13b": true,
-          "13c": false,
+          "13c": true,
           "13d": true,
-          "14a": true,
+          "14a": false,
           "14b": true,
           "14c": true,
           "14d": true
@@ -2366,13 +2393,14 @@
             "q": "14d"
           }
         ],
-        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_031_omr.jpg"
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_031_omr.jpg",
+        "mcq_score": 1.75
       },
       "summary_comment": "Phần trắc nghiệm và trả lời ngắn làm rất xuất sắc (6,5/7,0đ)! Tự luận đạt 0,75đ. Em cần rèn thêm kỹ năng phân tích đa thức Bài 1 và hoàn thiện câu 2c.",
       "questions": [
         {
           "question_no": "Bài 1",
-          "score": 0.25,
+          "score": 0.0,
           "max_score": 1.5,
           "raw_student_text": "Bài 1:\na) $x^2 - 6x = x(x - 6x)$\nB) $x^2 - 6x + 9 - y^2 = x^2 - 6x$\nC) $x^3 - 27 + (x-3)(x+9) = (x-3)(x+9)$\nBài 2:\nHình vẽ $\\Delta ABC$\na) Đường thẳng MN và đường thẳng BC là hai đường song song với nhau\nb) Tứ giác BMNC là hình thang vì có MN // BC\nc) (để trống)",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 1 - 1,5 điểm):**\na) Phân tích $x^2 - 6x$:\n$$x^2 - 6x = x \\cdot x - x \\cdot 6 = x(x - 6)$$\n\nb) Phân tích $x^2 - 6x + 9 - y^2$:\nNhóm ba hạng tử đầu áp dụng hằng đẳng thức bình phương của một hiệu:\n$$x^2 - 6x + 9 - y^2 = (x^2 - 6x + 9) - y^2 = (x - 3)^2 - y^2$$\nÁp dụng hằng đẳng thức hiệu hai bình phương $A^2 - B^2 = (A - B)(A + B)$:\n$$= (x - 3 - y)(x - 3 + y)$$\n\nc) Phân tích $x^3 - 27 + (x - 3)(x + 9)$:\nÁp dụng hằng đẳng thức $A^3 - B^3 = (A - B)(A^2 + AB + B^2)$ với $x^3 - 27 = x^3 - 3^3$:\n$$x^3 - 27 + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 9) + (x - 3)(x + 9)$$\nĐặt nhân tử chung $(x - 3)$:\n$$= (x - 3)[(x^2 + 3x + 9) + (x + 9)] = (x - 3)(x^2 + 4x + 18)$$",
@@ -2393,11 +2421,12 @@
               "note": "1b, 1c) Chưa hoàn thành câu 1b và 1c.",
               "y_norm": 850
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] Trên T1: 1a HS viết x^2 - 6x = x(x - 6x) là biến đổi sai hoàn toàn (không chia nhân tử chung x ở hạng tử 6x), 1b và 1c đều viết sai biểu thức -> 0,00đ (chấm cũ cho 0,25đ ở 1a là chấm lỏng)."
         },
         {
           "question_no": "Bài 2",
-          "score": 0.5,
+          "score": 0.25,
           "max_score": 1.5,
           "raw_student_text": "Bài 1:\na) $x^2 - 6x = x(x - 6x)$\nB) $x^2 - 6x + 9 - y^2 = x^2 - 6x$\nC) $x^3 - 27 + (x-3)(x+9) = (x-3)(x+9)$\nBài 2:\nHình vẽ $\\Delta ABC$\na) Đường thẳng MN và đường thẳng BC là hai đường song song với nhau\nb) Tứ giác BMNC là hình thang vì có MN // BC\nc) (để trống)",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 2 - 1,5 điểm):**\n- **Hình vẽ**: Vẽ $\\Delta ABC$ tương đối cân tại $A$, cát tuyến $MN$ song song với $BC$ ($M \\in AB, N \\in AC$).\n- **Giả thiết (GT)**: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \neq B)$; $N \\in AC\\ (N \neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n- **Kết luận (KL)**: \n  + a) $MN // BC$\n  + b) Tứ giác $BMNC$ là hình gì? Vì sao?\n  + c) Biết $\\widehat{B} = 50^\\circ$. Tính số đo các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$ (0,25 điểm):**\nXét hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$:\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị.\nSuy ra $MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao? (0,50 điểm):**\n- Vì $MN // BC$ (theo câu a) nên tứ giác $BMNC$ là hình thang (theo định nghĩa).\n- Lại có: $\\Delta ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$ (hay $\\widehat{ABC} = \\widehat{ACB}$).\n- Hình thang $BMNC$ có hai góc kề đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (theo dấu hiệu nhận biết).\n\n**c) Tính số đo các góc của tứ giác $BMNC$ (0,50 điểm):**\n- Do $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\n- Vì $MN // BC$ nên $\\widehat{BMN}$ và $\\widehat{B}$ là hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$ (hai góc kề đáy nhỏ của hình thang cân bằng nhau).\n- **Vậy số đo các góc của tứ giác $BMNC$ là**:\n$$\\widehat{B} = 50^\\circ; \\quad \\widehat{C} = 50^\\circ; \\quad \\widehat{BMN} = 130^\\circ; \\quad \\widehat{CNM} = 130^\\circ.$$",
@@ -2434,14 +2463,21 @@
               "note": "2c) Chưa làm câu 2c.",
               "y_norm": 750
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] Trên T2: chỉ vẽ hình không có GT/KL (0,00đ); 2a chỉ ghi 'Đường thẳng MN và đường thẳng BC là hai đường song song với nhau' không có bất kỳ chứng minh/lập luận nào -> 0,00đ (chấm cũ cho 0,25đ là chấm lỏng); 2b nêu đúng 'Tứ giác BMNC là hình thang vì có MN // BC' (+0,25đ); 2c bỏ trống (0,00đ). Tổng Bài 2 = 0,25đ."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/031_Bai_031_T1_211339_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/031_Bai_031_T2_211339_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_031_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_031_omr.jpg",
+      "original_score": 7.25,
+      "audited_score": 7.0,
+      "score_delta": -0.25,
+      "score": 7.0,
+      "audit_reason": "Soi OMR gốc: C5 tô đậm ô A (đáp án A -> đúng, +0,25đ; bản cũ đọc sót thành null) nên P1 tăng từ 2,75đ lên 3,00đ (12/12). P2 (7/8=1,75đ) và P3 (4/4=2,00đ) khớp ảnh gốc. Tuy nhiên tự luận cũ chấm lỏng: Bài 1a sai x(x-6x) -> 0,00đ (-0,25đ) và Bài 2a không có chứng minh -> 0,00đ (-0,25đ). Tổng 7,00đ (-0,25đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211439_033",
@@ -2457,7 +2493,7 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 8.75,
+      "total_score": 9.25,
       "essay_score": 2.75,
       "essay_max": 3.0,
       "mcq": {
@@ -2465,9 +2501,9 @@
         "page_index": 0,
         "y_norm": 280,
         "p1_score": 3.0,
-        "p2_score": 1.0,
+        "p2_score": 1.5,
         "p3_score": 2.0,
-        "total_score": 6.0,
+        "total_score": 6.5,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
@@ -2500,8 +2536,8 @@
         "p2_answers": {
           "13a": "Đ",
           "13b": "S",
-          "13c": null,
-          "13d": null,
+          "13c": "Đ",
+          "13d": "Đ",
           "14a": "Đ",
           "14b": "S",
           "14c": "S",
@@ -2510,8 +2546,8 @@
         "p2_results": {
           "13a": true,
           "13b": true,
-          "13c": false,
-          "13d": false,
+          "13c": true,
+          "13d": true,
           "14a": true,
           "14b": false,
           "14c": true,
@@ -2909,7 +2945,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/033_Bai_033_T1_211439_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/033_Bai_033_T2_211439_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_033_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_033_omr.jpg",
+      "original_score": 8.75,
+      "audited_score": 9.25,
+      "score_delta": 0.5,
+      "score": 9.25,
+      "audit_reason": "Soi OMR gốc: Phần II HS tô rõ 13c=Đ và 13d=Đ (cả 2 đều khớp đáp án Đ) nhưng bản cũ đọc sót thành trống (null), nên P2 tăng từ 1,00đ lên 1,50đ (+0,50đ). P1 (12/12=3,00đ), P3 (4/4=2,00đ), Bài 1 (1,50đ; lưu ý 1c đã ra đúng (x-3)(x^2+4x+18) rồi viết dở thêm '= (x-3)' ở dưới, khoan dung giữ 0,50đ) và Bài 2 (1,25đ; thiếu hình vẽ và GT/KL) khớp ảnh gốc -> tổng 9,25đ (+0,50đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210013_007",
@@ -2924,7 +2966,7 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 5.25,
+      "total_score": 4.75,
       "essay_score": 0.0,
       "essay_max": 3.0,
       "mcq": {
@@ -2933,18 +2975,18 @@
         "y_norm": 280,
         "p1_score": 2.25,
         "p2_score": 1.5,
-        "p3_score": 1.5,
-        "total_score": 5.25,
+        "p3_score": 1.0,
+        "total_score": 4.75,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
           "C3": "B",
           "C4": "B",
-          "C5": "A",
+          "C5": "B",
           "C6": "D",
           "C7": "B",
-          "C8": "D",
+          "C8": "B",
           "C9": "C",
           "C10": "C",
           "C11": "B",
@@ -2955,34 +2997,34 @@
           "C2": true,
           "C3": true,
           "C4": true,
-          "C5": true,
+          "C5": false,
           "C6": true,
           "C7": false,
-          "C8": false,
+          "C8": true,
           "C9": false,
           "C10": true,
           "C11": true,
           "C12": true
         },
         "p2_answers": {
-          "13a": "Đ",
-          "13b": "S",
+          "13a": "S",
+          "13b": "Đ",
           "13c": "Đ",
           "13d": "Đ",
           "14a": "Đ",
-          "14b": "S",
+          "14b": "Đ",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
-          "13a": true,
-          "13b": true,
+          "13a": false,
+          "13b": false,
           "13c": true,
           "13d": true,
           "14a": true,
-          "14b": false,
+          "14b": true,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -3061,13 +3103,13 @@
             "question_no": "Câu 18",
             "prompt": "Tứ giác $ABCD$ có $\\widehat{C} = 60^\\circ, \\widehat{D} = 50^\\circ, \\widehat{A} = 150^\\circ$. Tính số đo của $\\widehat{B}$ (đơn vị: độ).",
             "max_score": 0.5,
-            "score": 0.5,
-            "student_text": "$100^\\circ$",
-            "raw_student_text": "100^\\circ",
-            "student_answer": "100",
+            "score": 0.0,
+            "student_text": "400°",
+            "raw_student_text": "400°",
+            "student_answer": "400°",
             "official_key": "$100^\\circ$ (hoặc $100$)",
-            "is_correct": true,
-            "ok": true,
+            "is_correct": false,
+            "ok": false,
             "kind": "correct",
             "teacher_note": "Đúng (+0,50đ).",
             "note": "Đúng (+0,50đ).",
@@ -3359,7 +3401,13 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/007_Bai_007_T1_210013_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_007_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_007_omr.jpg",
+      "original_score": 5.25,
+      "audited_score": 4.75,
+      "score_delta": -0.5,
+      "score": 4.75,
+      "audit_reason": "Soi OMR gốc: P1 đọc sai C5=B (sai) và C8=B (đúng) -> tổng P1 vẫn 2,25đ (9/12); P2 đọc sai 4 ý 13a=S (sai), 13b=Đ (sai), 14b=Đ (đúng), 14d=S (đúng) -> tổng P2 vẫn 1,50đ (6/8). Phần III trên T1 ghi rõ 'C18: 400°' (nét số 4 giống hệt số 4 ở 7x^4y^6, cũ đọc nhầm thành 100°) nên trừ 0,50đ câu 18 (P3 còn 1,00đ). Tự luận bỏ trống (0,00đ) -> tổng 4,75đ (-0,50đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210328_013",
@@ -3374,40 +3422,40 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 2.5,
+      "total_score": 3.0,
       "essay_score": 0.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 0.75,
-        "p2_score": 0.5,
+        "p1_score": 1.0,
+        "p2_score": 0.75,
         "p3_score": 1.25,
-        "total_score": 2.5,
+        "total_score": 3.0,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
-          "C2": "C",
+          "C2": "D",
           "C3": "A",
-          "C4": "C",
+          "C4": "D",
           "C5": "B",
-          "C6": "B",
-          "C7": "A",
-          "C8": "D",
+          "C6": "D",
+          "C7": "C",
+          "C8": "A",
           "C9": "C",
           "C10": "D",
           "C11": "B",
-          "C12": "C"
+          "C12": "A"
         },
         "p1_results": {
           "C1": true,
-          "C2": false,
+          "C2": true,
           "C3": false,
           "C4": false,
           "C5": false,
-          "C6": false,
-          "C7": true,
+          "C6": true,
+          "C7": false,
           "C8": false,
           "C9": false,
           "C10": false,
@@ -3419,9 +3467,9 @@
           "13b": "Đ",
           "13c": "S",
           "13d": "S",
-          "14a": "Đ",
-          "14b": "S",
-          "14c": "Đ",
+          "14a": "S",
+          "14b": "Đ",
+          "14c": "S",
           "14d": "Đ"
         },
         "p2_results": {
@@ -3429,9 +3477,9 @@
           "13b": false,
           "13c": false,
           "13d": false,
-          "14a": true,
-          "14b": false,
-          "14c": false,
+          "14a": false,
+          "14b": true,
+          "14c": true,
           "14d": false
         },
         "p3_answers": {
@@ -3809,7 +3857,13 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/013_Bai_013_T1_210328_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_013_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_013_omr.jpg",
+      "original_score": 2.5,
+      "audited_score": 3.0,
+      "score_delta": 0.5,
+      "score": 3.0,
+      "audit_reason": "OMR cũ bị lệch nặng: P1 thực tế tô C2=D (đúng), C4=D (sai), C6=D (đúng), C7=C (sai), C8=A (sai), C12=A (sai) -> đúng 4/12 (C1,C2,C6,C11) = 1,00đ (+0,25đ); P2 thực tế tô 14a=S (sai), 14b=Đ (đúng), 14c=S (đúng) -> đúng 3/8 (13a,14b,14c) = 0,75đ (+0,25đ). P3 (1,25đ: C15=19 [0,25], C16=7x^2y^3 [0,50], C17=-19 [0,00], C18=100° [0,50]) và Tự luận bị gạch bỏ toàn bộ (0,00đ) khớp ảnh gốc -> tổng 3,00đ (+0,50đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210624_018",
@@ -3869,21 +3923,21 @@
           "13a": "Đ",
           "13b": "S",
           "13c": "Đ",
-          "13d": "Đ",
+          "13d": "S",
           "14a": "Đ",
           "14b": "Đ",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": true,
           "13b": true,
           "13c": true,
-          "13d": true,
+          "13d": false,
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -4301,7 +4355,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/018_Bai_018_T1_210624_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/018_Bai_018_T2_210624_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_018_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_018_omr.jpg",
+      "original_score": 9.0,
+      "audited_score": 9.0,
+      "score_delta": 0.0,
+      "score": 9.0,
+      "audit_reason": "Soi OMR gốc: P1 khớp 12/12 (3,00đ); P2 phát hiện 2 ô đọc ngược là 13d=S (đáp án Đ -> sai) và 14d=S (đáp án S -> đúng), tổng P2 vẫn 7/8 = 1,75đ. P3 (1,75đ: C17=3 đạt 0,25đ), Bài 1 (1,25đ: 1c chưa rút gọn bước cuối) và Bài 2 (1,25đ: đủ hình+GT/KL 0,25đ, 2a 0,25đ, 2b chỉ c/m hình thang 0,25đ, 2c đúng 0,50đ) khớp ảnh gốc -> giữ tổng 9,00đ, cập nhật lại bài làm P2.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210130_009",
@@ -4333,11 +4393,11 @@
           "C1": "C",
           "C2": "D",
           "C3": "B",
-          "C4": "B",
+          "C4": "A",
           "C5": "A",
           "C6": "D",
           "C7": "A",
-          "C8": "D",
+          "C8": "B",
           "C9": "D",
           "C10": "C",
           "C11": "B",
@@ -4347,11 +4407,11 @@
           "C1": true,
           "C2": true,
           "C3": true,
-          "C4": true,
+          "C4": false,
           "C5": true,
           "C6": true,
           "C7": true,
-          "C8": false,
+          "C8": true,
           "C9": true,
           "C10": true,
           "C11": true,
@@ -4710,7 +4770,8 @@
             "q": "14d"
           }
         ],
-        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_009_omr.jpg"
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_009_omr.jpg",
+        "mcq_score": 4.75
       },
       "summary_comment": "Bài thi đạt điểm gần như tuyệt đối (9,75/10 điểm)! Trình bày khoa học, chữ viết đẹp, lập luận toán học mẫu mực.",
       "questions": [
@@ -4793,7 +4854,12 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/009_Bai_009_T1_210130_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/009_Bai_009_T2_210130_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_009_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_009_omr.jpg",
+      "original_score": 9.75,
+      "audited_score": 9.75,
+      "score_delta": 0.0,
+      "score": 9.75,
+      "audit_status": "pass_vision"
     },
     {
       "submission_id": "hs_20261115_211043_025",
@@ -4809,7 +4875,7 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 9.25,
+      "total_score": 9.0,
       "essay_score": 2.75,
       "essay_max": 3.0,
       "mcq": {
@@ -4818,8 +4884,8 @@
         "y_norm": 280,
         "p1_score": 2.75,
         "p2_score": 2.0,
-        "p3_score": 1.75,
-        "total_score": 6.5,
+        "p3_score": 1.5,
+        "total_score": 6.25,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
@@ -4828,8 +4894,8 @@
           "C4": "B",
           "C5": "A",
           "C6": "D",
-          "C7": "A",
-          "C8": "D",
+          "C7": "B",
+          "C8": "B",
           "C9": "D",
           "C10": "C",
           "C11": "B",
@@ -4842,8 +4908,8 @@
           "C4": true,
           "C5": true,
           "C6": true,
-          "C7": true,
-          "C8": false,
+          "C7": false,
+          "C8": true,
           "C9": true,
           "C10": true,
           "C11": true,
@@ -4946,10 +5012,10 @@
             "question_no": "Câu 18",
             "prompt": "Tứ giác $ABCD$ có $\\widehat{C} = 60^\\circ, \\widehat{D} = 50^\\circ, \\widehat{A} = 150^\\circ$. Tính số đo của $\\widehat{B}$ (đơn vị: độ).",
             "max_score": 0.5,
-            "score": 0.25,
-            "student_text": "$90^\\circ$",
+            "score": 0.0,
+            "student_text": "\\widehat{B} = 95^\\circ",
             "raw_student_text": "\\widehat{B} = 95^\\circ",
-            "student_answer": "90",
+            "student_answer": "\\widehat{B} = 95^\\circ",
             "official_key": "$100^\\circ$ (hoặc $100$)",
             "is_correct": false,
             "ok": false,
@@ -5285,7 +5351,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/025_Bai_025_T1_211043_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/025_Bai_025_T2_211043_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_025_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_025_omr.jpg",
+      "original_score": 9.25,
+      "audited_score": 9.0,
+      "score_delta": -0.25,
+      "score": 9.0,
+      "audit_reason": "Soi OMR gốc: P1 tô C7=B (đáp án A -> sai, cũ đọc nhầm A) và C8=B (đáp án B -> đúng, cũ đọc nhầm D), tổng P1 vẫn 11/12 = 2,75đ; P2 đúng 8/8 (2,00đ). Phần III trên T1 câu 18 HS chỉ ghi đáp số sai 'góc B = 95°' không trình bày phép tính nên không đủ căn cứ cho 0,25đ -> sửa về 0,00đ (P3 còn 1,50đ). Bài 1 (1,50đ) và Bài 2 (1,25đ: chỉ vẽ hình không có GT/KL) khớp ảnh gốc -> tổng 9,00đ (-0,25đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210819_021",
@@ -5301,8 +5373,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 9.25,
-      "essay_score": 2.5,
+      "total_score": 8.75,
+      "essay_score": 2.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -5321,8 +5393,8 @@
           "C5": "A",
           "C6": "D",
           "C7": "A",
-          "C8": "D",
-          "C9": "D",
+          "C8": "B",
+          "C9": "C",
           "C10": "C",
           "C11": "B",
           "C12": "D"
@@ -5335,8 +5407,8 @@
           "C5": true,
           "C6": true,
           "C7": true,
-          "C8": false,
-          "C9": true,
+          "C8": true,
+          "C9": false,
           "C10": true,
           "C11": true,
           "C12": true
@@ -5733,7 +5805,7 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.0,
+          "score": 0.5,
           "max_score": 1.5,
           "raw_student_text": "T1: B. TỰ LUẬN. Bài 1: a) $x^2 - 6x = x(x - 6)$. b) $x^2 - 6x + 9 - y^2 = x^2 - 2x3 + 3^2 - y^2 = (x - 3)^2 - y^2 = (x - 3 - y)(x - 3 + y)$. T2: c) $x^3 - 27 + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 3^2) + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 9 + x + 9) = (x - 3)[(x^2 + 3x + 9) + (x + 9)] = (x - 3)(x^2 + 4x + 18)$. Bài 2: GT: Cho ΔABC cân tại A, M ∈ AB, N ∈ AC, MAN = ABC, B = 50°. KL: MN // BC; BMNC là hình thang cân. a) Vì AMN = ABC. AMN và ABC ở vị trí đồng vị. Suy ra MN // BC. b) Tứ giác BMNC là hình thang cân vì nó có 2 cặp cạnh song song, 2 đường chéo và theo trên kết luận Và vì MN // BC; ABC = ACB (cân tại A). c)",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 2 - 1,5 điểm):**\n- **Hình vẽ**: Vẽ $\\Delta ABC$ tương đối cân tại $A$, cát tuyến $MN$ song song với $BC$ ($M \\in AB, N \\in AC$).\n- **Giả thiết (GT)**: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \neq B)$; $N \\in AC\\ (N \neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n- **Kết luận (KL)**: \n  + a) $MN // BC$\n  + b) Tứ giác $BMNC$ là hình gì? Vì sao?\n  + c) Biết $\\widehat{B} = 50^\\circ$. Tính số đo các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$ (0,25 điểm):**\nXét hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$:\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị.\nSuy ra $MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao? (0,50 điểm):**\n- Vì $MN // BC$ (theo câu a) nên tứ giác $BMNC$ là hình thang (theo định nghĩa).\n- Lại có: $\\Delta ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$ (hay $\\widehat{ABC} = \\widehat{ACB}$).\n- Hình thang $BMNC$ có hai góc kề đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (theo dấu hiệu nhận biết).\n\n**c) Tính số đo các góc của tứ giác $BMNC$ (0,50 điểm):**\n- Do $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\n- Vì $MN // BC$ nên $\\widehat{BMN}$ và $\\widehat{B}$ là hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$ (hai góc kề đáy nhỏ của hình thang cân bằng nhau).\n- **Vậy số đo các góc của tứ giác $BMNC$ là**:\n$$\\widehat{B} = 50^\\circ; \\quad \\widehat{C} = 50^\\circ; \\quad \\widehat{BMN} = 130^\\circ; \\quad \\widehat{CNM} = 130^\\circ.$$",
@@ -5770,14 +5842,21 @@
               "note": "2c) Chưa làm kịp câu 2c.",
               "y_norm": 750
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (Hình vẽ & GT/KL) Trên hình vẽ T2 HS chỉ đánh dấu điểm M, N mà quên vẽ đoạn thẳng/cát tuyến MN (không thể hiện tứ giác BMNC); GT ghi nhầm góc MAN = ABC và thiếu điều kiện M != B, N != C; KL thiếu câu c. | [Vision Audit] (Câu 2b) HS viết sai kiến thức ('vì nó có 2 cặp cạnh song song, 2 đường chéo và theo trên kết luận'), dù cuối ý có bổ sung 'Và vì MN // BC, ABC = ACB (cân tại A)'. Chỉ chấm 0,25đ."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/021_Bai_021_T1_210819_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/021_Bai_021_T2_210819_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_021_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_021_omr.jpg",
+      "original_score": 9.25,
+      "audited_score": 8.75,
+      "score_delta": -0.5,
+      "score": 8.75,
+      "audit_reason": "Điều chỉnh tổng từ 9,25 -> 8,75 (-0,50đ). Phần I: sửa lỗi đọc OMR C8=B (đúng) và C9=C (sai), điểm P1 giữ nguyên 2,75đ. Phần II (2,00đ), Phần III (2,00đ), Bài 1 (1,50đ) chuẩn. Bài 2 giảm từ 1,00 -> 0,50đ do thiếu nét vẽ MN + sai GT (-0,25đ) và câu 2b viết sai kiến thức 2 cặp cạnh song song (-0,25đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_205208_002",
@@ -5793,30 +5872,30 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 8.25,
-      "essay_score": 2.25,
+      "total_score": 8.5,
+      "essay_score": 2.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.25,
+        "p1_score": 2.75,
         "p2_score": 1.75,
         "p3_score": 2.0,
-        "total_score": 6.0,
+        "total_score": 6.5,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
           "C3": "B",
           "C4": "B",
-          "C5": "A",
+          "C5": "B",
           "C6": "D",
           "C7": "A",
-          "C8": "D",
-          "C9": "C",
+          "C8": "B",
+          "C9": "D",
           "C10": "C",
-          "C11": "A",
+          "C11": "B",
           "C12": "D"
         },
         "p1_results": {
@@ -5824,13 +5903,13 @@
           "C2": true,
           "C3": true,
           "C4": true,
-          "C5": true,
+          "C5": false,
           "C6": true,
           "C7": true,
-          "C8": false,
-          "C9": false,
+          "C8": true,
+          "C9": true,
           "C10": true,
-          "C11": false,
+          "C11": true,
           "C12": true
         },
         "p2_answers": {
@@ -6225,7 +6304,7 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.25,
+          "score": 1.0,
           "max_score": 1.5,
           "raw_student_text": "T1: Bài 1: a) $x^2 - 6x = x(x - 6)$. b) $x^2 - 6x + 9 - y^2 = (x^2 - 6x + 9) - y^2 = (x^2 - 6x + 3^2) - y^2 = (x^2 - 2 \\cdot x \\cdot 3 + 3^2) - y^2 = (x - 3)^2 - y^2 = [(x - 3) + (-y)][(x - 3) - (-y)]$. c) $x^3 - 27 + (x - 3)(x + 9) = $. T2: Bài 2: GT: ΔABC cân tại A, M thuộc cạnh AB (M ≠ B), điểm N thuộc cạnh AC (N ≠ C). Sao cho AMN = ABC, B = 50°. KL: a) MN // BC; b) BMNC là hình...; c) B = 50° Số đo các góc của tứ giác BMNC. Chứng Minh: a) ta có: AMN = ABC (gt) => M = B (đồng vị và gt) do đó MN // BC (theo cặp góc đồng vị). b) tứ giác BMNC là hình thang cân vì: xét tứ giác BMN có: MN // BC (theo giả thuyết vừa chứng minh ở câu a đồng vị); MB = NC (do cạnh AB và cạnh AC là bằng nhau vì ΔABC là tam giác cân trong đó điểm M nằm thuộc cạnh AB nên và điểm N thuộc cạnh AC nên MB = NC) => do đó BMNC là hình thang cân (Định lí 1 cặp cạnh bằng nhau và song song). c) B = M = 50° vì AMN = ABC mà M thuộc cạnh AB nên B = M. theo định lí B + M + N + C = 360° (Hình thang cân) <=> B = 50°; C = 50°; M = 130°; N = 130°",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 2 - 1,5 điểm):**\n- **Hình vẽ**: Vẽ $\\Delta ABC$ tương đối cân tại $A$, cát tuyến $MN$ song song với $BC$ ($M \\in AB, N \\in AC$).\n- **Giả thiết (GT)**: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \neq B)$; $N \\in AC\\ (N \neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n- **Kết luận (KL)**: \n  + a) $MN // BC$\n  + b) Tứ giác $BMNC$ là hình gì? Vì sao?\n  + c) Biết $\\widehat{B} = 50^\\circ$. Tính số đo các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$ (0,25 điểm):**\nXét hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$:\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị.\nSuy ra $MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao? (0,50 điểm):**\n- Vì $MN // BC$ (theo câu a) nên tứ giác $BMNC$ là hình thang (theo định nghĩa).\n- Lại có: $\\Delta ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$ (hay $\\widehat{ABC} = \\widehat{ACB}$).\n- Hình thang $BMNC$ có hai góc kề đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (theo dấu hiệu nhận biết).\n\n**c) Tính số đo các góc của tứ giác $BMNC$ (0,50 điểm):**\n- Do $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\n- Vì $MN // BC$ nên $\\widehat{BMN}$ và $\\widehat{B}$ là hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$ (hai góc kề đáy nhỏ của hình thang cân bằng nhau).\n- **Vậy số đo các góc của tứ giác $BMNC$ là**:\n$$\\widehat{B} = 50^\\circ; \\quad \\widehat{C} = 50^\\circ; \\quad \\widehat{BMN} = 130^\\circ; \\quad \\widehat{CNM} = 130^\\circ.$$",
@@ -6262,14 +6341,21 @@
               "note": "2c) Tính đúng 4 góc của hình thang cân: $\\widehat{B}=50^\\circ, \\widehat{C}=50^\\circ, \\widehat{M}=130^\\circ, \\widehat{N}=130^\\circ$.",
               "y_norm": 720
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (Câu 2b) Giữ điểm 0,25đ nhưng sửa nhận xét: HS chứng minh được MN // BC (hình thang, +0,25đ), không hề dùng góc đáy bằng nhau như nhận xét cũ mà chứng minh sai MB = NC và ghi sai 'Định lí 1 cặp cạnh bằng nhau và song song'. | [Vision Audit] (Câu 2c) Nêu được tổng 4 góc tứ giác = 360 độ và ghi kết quả 4 góc (50°, 50°, 130, 130) nhưng không có phép tính giải thích ra 130°, thiếu ký hiệu góc/độ và dòng đầu ghi mâu thuẫn góc B = góc M = 50°."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/002_Bai_002_T1_205208_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/002_Bai_002_T2_205208_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_002_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_002_omr.jpg",
+      "original_score": 8.25,
+      "audited_score": 8.5,
+      "score_delta": 0.25,
+      "score": 8.5,
+      "audit_reason": "Điều chỉnh tổng từ 8,25 -> 8,50 (+0,25đ). Phần I: OMR cũ bị trượt tọa độ nên đọc sai 4 câu (C5=B, C8=B, C9=D, C11=B); thực tế HS đúng 11/12 câu = 2,75đ (+0,50đ). Phần II (1,75đ), Phần III (2,00đ), Bài 1 (1,00đ) chuẩn. Bài 2 giảm từ 1,25 -> 1,00đ (-0,25đ câu 2c do thiếu bước tính và ghi mâu thuẫn góc M = 50°; đồng thời sửa nhận xét câu 2b).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211623_037",
@@ -6745,7 +6831,12 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/037_Bai_037_T1_211623_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/037_Bai_037_T2_211623_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_037_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_037_omr.jpg",
+      "original_score": 6.75,
+      "audited_score": 6.75,
+      "score_delta": 0.0,
+      "score": 6.75,
+      "audit_status": "pass_vision"
     },
     {
       "submission_id": "hs_20261115_211736_040",
@@ -6760,23 +6851,23 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 5.5,
+      "total_score": 4.85,
       "essay_score": 0.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.5,
-        "p2_score": 1.0,
+        "p1_score": 2.25,
+        "p2_score": 0.6,
         "p3_score": 2.0,
         "total_score": 5.5,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
-          "C3": "B",
-          "C4": "A",
+          "C3": "C",
+          "C4": "D",
           "C5": "B",
           "C6": "D",
           "C7": "A",
@@ -6789,7 +6880,7 @@
         "p1_results": {
           "C1": true,
           "C2": true,
-          "C3": true,
+          "C3": false,
           "C4": false,
           "C5": false,
           "C6": true,
@@ -6804,21 +6895,21 @@
           "13a": "S",
           "13b": "Đ",
           "13c": "Đ",
-          "13d": "Đ",
+          "13d": "S",
           "14a": "Đ",
           "14b": "S",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": false,
           "13b": false,
           "13c": true,
-          "13d": true,
+          "13d": false,
           "14a": true,
           "14b": false,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -7153,7 +7244,8 @@
             "q": "14d"
           }
         ],
-        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_040_omr.jpg"
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_040_omr.jpg",
+        "mcq_score": 2.85
       },
       "summary_comment": "Trả lời ngắn đạt tuyệt đối 2,0/2,0đ, trắc nghiệm làm khá tốt (5,5/7,0đ). Em cần làm và nộp đầy đủ phần tự luận ở trang 2.",
       "questions": [
@@ -7195,7 +7287,12 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/040_Bai_040_T1_211736_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_040_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_040_omr.jpg",
+      "original_score": 5.5,
+      "audited_score": 5.5,
+      "score_delta": 0.0,
+      "score": 5.5,
+      "audit_status": "pass_vision"
     },
     {
       "submission_id": "hs_20261115_205826_004",
@@ -7226,49 +7323,49 @@
           "C1": "C",
           "C2": "D",
           "C3": "B",
-          "C4": "B",
+          "C4": "D",
           "C5": "B",
           "C6": "D",
-          "C7": "B",
+          "C7": "A",
           "C8": "D",
           "C9": "C",
-          "C10": "C",
-          "C11": "A",
+          "C10": "B",
+          "C11": "B",
           "C12": "D"
         },
         "p1_results": {
           "C1": true,
           "C2": true,
           "C3": true,
-          "C4": true,
+          "C4": false,
           "C5": false,
           "C6": true,
-          "C7": false,
+          "C7": true,
           "C8": false,
           "C9": false,
-          "C10": true,
-          "C11": false,
+          "C10": false,
+          "C11": true,
           "C12": true
         },
         "p2_answers": {
           "13a": "Đ",
           "13b": "S",
-          "13c": "Đ",
+          "13c": "S",
           "13d": "Đ",
           "14a": "Đ",
           "14b": "Đ",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": true,
           "13b": true,
-          "13c": true,
+          "13c": false,
           "13d": true,
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -7645,7 +7742,13 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/004_Bai_004_T1_205826_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_004_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_004_omr.jpg",
+      "original_score": 5.5,
+      "audited_score": 5.5,
+      "score_delta": 0.0,
+      "score": 5.5,
+      "audit_reason": "Phiếu OMR bị nghiêng gây lệch lưới chấm cũ rất nặng: sửa 4 câu P1 (C4=D sai, C7=A đúng, C10=B sai, C11=B đúng -> 7/12 = 1,75đ) và 2 ý P2 (13c=S sai, 14d=S đúng -> 7/8 = 1,75đ). Phần III (2,00đ) và Tự luận (0,00đ, bỏ trống) chuẩn. Tổng điểm giữ nguyên 5,50đ do sai lệch OMR bù trừ lẫn nhau.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211107_026",
@@ -7661,28 +7764,28 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 8.75,
+      "total_score": 8.5,
       "essay_score": 2.25,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.5,
+        "p1_score": 2.25,
         "p2_score": 2.0,
         "p3_score": 2.0,
-        "total_score": 6.5,
+        "total_score": 6.25,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
-          "C3": "B",
-          "C4": "B",
-          "C5": "B",
+          "C3": "C",
+          "C4": "D",
+          "C5": "A",
           "C6": "D",
           "C7": "A",
-          "C8": "D",
-          "C9": "D",
+          "C8": "B",
+          "C9": "C",
           "C10": "C",
           "C11": "B",
           "C12": "D"
@@ -7690,13 +7793,13 @@
         "p1_results": {
           "C1": true,
           "C2": true,
-          "C3": true,
-          "C4": true,
-          "C5": false,
+          "C3": false,
+          "C4": false,
+          "C5": true,
           "C6": true,
           "C7": true,
-          "C8": false,
-          "C9": true,
+          "C8": true,
+          "C9": false,
           "C10": true,
           "C11": true,
           "C12": true
@@ -8137,7 +8240,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/026_Bai_026_T1_211107_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/026_Bai_026_T2_211107_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_026_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_026_omr.jpg",
+      "original_score": 8.75,
+      "audited_score": 8.5,
+      "score_delta": -0.25,
+      "score": 8.5,
+      "audit_reason": "Điều chỉnh tổng từ 8,75 -> 8,50 (-0,25đ). Phần I: OMR cũ đọc nhầm 5 câu (thực tế C3=C sai, C4=D sai, C5=A đúng, C8=B đúng, C9=C sai -> 9/12 = 2,25đ, giảm 0,25đ). Phần II (2,00đ), Phần III (2,00đ), Bài 1 (1,50đ) và Bài 2 (0,75đ: Hình+GT/KL 0,25; 2a 0,25; 2b 0,25 chỉ nêu MN//BC; 2c 0,00 đóng ngoặc hủy và ghi tổng 180°) khớp chuẩn.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211535_035",
@@ -8629,7 +8738,12 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/035_Bai_035_T1_211535_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/035_Bai_035_T2_211535_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_035_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_035_omr.jpg",
+      "original_score": 9.25,
+      "audited_score": 9.25,
+      "score_delta": 0.0,
+      "score": 9.25,
+      "audit_status": "pass_vision"
     },
     {
       "submission_id": "hs_20261115_210711_019",
@@ -8645,17 +8759,17 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 8.0,
+      "total_score": 6.75,
       "essay_score": 2.25,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 3.0,
-        "p2_score": 1.5,
+        "p1_score": 2.25,
+        "p2_score": 1.0,
         "p3_score": 1.25,
-        "total_score": 5.75,
+        "total_score": 6.0,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
@@ -8664,11 +8778,11 @@
           "C4": "B",
           "C5": "A",
           "C6": "D",
-          "C7": "A",
+          "C7": "B",
           "C8": "B",
-          "C9": "D",
+          "C9": "A",
           "C10": "C",
-          "C11": "B",
+          "C11": "C",
           "C12": "D"
         },
         "p1_results": {
@@ -8678,32 +8792,32 @@
           "C4": true,
           "C5": true,
           "C6": true,
-          "C7": true,
+          "C7": false,
           "C8": true,
-          "C9": true,
+          "C9": false,
           "C10": true,
-          "C11": true,
+          "C11": false,
           "C12": true
         },
         "p2_answers": {
           "13a": "Đ",
-          "13b": "S",
+          "13b": "Đ",
           "13c": "Đ",
           "13d": "Đ",
           "14a": "Đ",
           "14b": "S",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": true,
-          "13b": true,
+          "13b": false,
           "13c": true,
           "13d": true,
           "14a": true,
           "14b": false,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -9038,7 +9152,8 @@
             "q": "14d"
           }
         ],
-        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_019_omr.jpg"
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_019_omr.jpg",
+        "mcq_score": 3.25
       },
       "summary_comment": "Phần I đạt tuyệt đối 12/12 câu (3,0đ), tự luận đạt điểm Khá Giỏi (8,00đ). Cần lưu ý làm trọn vẹn câu 16 và hoàn thiện tính toán câu 2c.",
       "questions": [
@@ -9114,14 +9229,21 @@
               "note": "2c) Điểm ý tưởng câu c (+0,25đ).",
               "y_norm": 750
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (Câu 2c) Giữ nguyên 0,25đ nhưng làm rõ đây là điểm thành phần tính đúng góc C = 50° (không phải điểm ý tưởng); HS chưa tính góc BMN và CNM."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/019_Bai_019_T1_210711_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/019_Bai_019_T2_210711_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_019_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_019_omr.jpg",
+      "original_score": 8.0,
+      "audited_score": 8.25,
+      "score_delta": 0.25,
+      "score": 8.25,
+      "audit_reason": "Điều chỉnh tổng từ 8,00 -> 8,25 (+0,25đ). Phần I (3,00đ), Phần III (1,25đ: C16=10x^4y^6 0đ, C17=3 0,25đ), Bài 1 (1,25đ: 1c chép nhầm x+5 và chưa thu gọn) và Bài 2 (1,00đ) chuẩn điểm. Phần II: do vết tẩy chì mờ, OMR cũ đọc nhầm 3 ý (thực tế 13d=S sai, 14b=Đ đúng, 14d=S đúng -> 7/8 = 1,75đ, tăng +0,25đ).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_205915_005",
@@ -9137,17 +9259,17 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 7.5,
-      "essay_score": 1.75,
+      "total_score": 8.0,
+      "essay_score": 2.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.5,
+        "p1_score": 2.75,
         "p2_score": 1.25,
         "p3_score": 2.0,
-        "total_score": 5.75,
+        "total_score": 6.0,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
@@ -9157,8 +9279,8 @@
           "C5": "A",
           "C6": "D",
           "C7": "A",
-          "C8": "D",
-          "C9": "C",
+          "C8": "A",
+          "C9": "D",
           "C10": "C",
           "C11": "B",
           "C12": "D"
@@ -9172,7 +9294,7 @@
           "C6": true,
           "C7": true,
           "C8": false,
-          "C9": false,
+          "C9": true,
           "C10": true,
           "C11": true,
           "C12": true
@@ -9181,9 +9303,9 @@
           "13a": "Đ",
           "13b": "S",
           "13c": "S",
-          "13d": "S",
+          "13d": "Đ",
           "14a": "Đ",
-          "14b": "Đ",
+          "14b": "S",
           "14c": "S",
           "14d": "Đ"
         },
@@ -9191,9 +9313,9 @@
           "13a": true,
           "13b": true,
           "13c": false,
-          "13d": false,
+          "13d": true,
           "14a": true,
-          "14b": true,
+          "14b": false,
           "14c": true,
           "14d": false
         },
@@ -9569,7 +9691,7 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 0.25,
+          "score": 0.5,
           "max_score": 1.5,
           "raw_student_text": "T1: Bài 1: a) $x^2 - 6x = x^2 - (3x)^2$ sai. b) $x^2 - 6x + 9 - y^2 = x^2 - 3x^2 - r$. c) $x^3 - 27 + (x - 3)(x + 9) = x^3 - ...$. Bài 2: hình vẽ. T2: GT: ΔABC cân tại A, M ∈ AB, N ∈ AC, M ≠ B, N ≠ C, AMN = ABC. KL: MN // BC. Câu 1: a) $x^2 - 6x = x(x - 6)$. b) $x^2 - 6x + 9 - y^2 = (x - 3)^2 - y^2 = (x - 3 - y)(x - 3 + y)$. c) $x^3 - 27 + (x - 3)(x + 9) = x^3 - 3^3 + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 9) + (x - 3)(x + 9) = (x - 3)(x^2 + 4x + 18)$. Câu 2: a) Vì AMN = ABC (gt) mà AMN và ABC ở vị trí đồng vị => MN // BC",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 2 - 1,5 điểm):**\n- **Hình vẽ**: Vẽ $\\Delta ABC$ tương đối cân tại $A$, cát tuyến $MN$ song song với $BC$ ($M \\in AB, N \\in AC$).\n- **Giả thiết (GT)**: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \neq B)$; $N \\in AC\\ (N \neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n- **Kết luận (KL)**: \n  + a) $MN // BC$\n  + b) Tứ giác $BMNC$ là hình gì? Vì sao?\n  + c) Biết $\\widehat{B} = 50^\\circ$. Tính số đo các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$ (0,25 điểm):**\nXét hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$:\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị.\nSuy ra $MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao? (0,50 điểm):**\n- Vì $MN // BC$ (theo câu a) nên tứ giác $BMNC$ là hình thang (theo định nghĩa).\n- Lại có: $\\Delta ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$ (hay $\\widehat{ABC} = \\widehat{ACB}$).\n- Hình thang $BMNC$ có hai góc kề đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (theo dấu hiệu nhận biết).\n\n**c) Tính số đo các góc của tứ giác $BMNC$ (0,50 điểm):**\n- Do $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\n- Vì $MN // BC$ nên $\\widehat{BMN}$ và $\\widehat{B}$ là hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$ (hai góc kề đáy nhỏ của hình thang cân bằng nhau).\n- **Vậy số đo các góc của tứ giác $BMNC$ là**:\n$$\\widehat{B} = 50^\\circ; \\quad \\widehat{C} = 50^\\circ; \\quad \\widehat{BMN} = 130^\\circ; \\quad \\widehat{CNM} = 130^\\circ.$$",
@@ -9598,14 +9720,21 @@
               "note": "2b, 2c) Chưa làm kịp câu b và câu c.",
               "y_norm": 650
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (Hình vẽ & GT/KL) Bản chấm cũ nhận định sai là 'chưa vẽ hình': trên góc dưới bên phải Trang 1 cạnh chữ 'Bài 2:' HS đã vẽ hình tam giác ABC có cát tuyến MN và ký hiệu góc rất rõ; đầu Trang 2 có bảng GT/KL đầy đủ cho phần đã làm (+0,25đ)."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/005_Bai_005_T1_205915_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/005_Bai_005_T2_205915_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_005_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_005_omr.jpg",
+      "original_score": 7.5,
+      "audited_score": 8.0,
+      "score_delta": 0.5,
+      "score": 8.0,
+      "audit_reason": "Điều chỉnh tổng từ 7,50 -> 8,00 (+0,50đ). Phần I: sửa OMR C8=A (sai) và C9=D (tô nét vòng chì đúng, +0,25đ -> 11/12 = 2,75đ). Phần II: sửa OMR 13d=Đ (đúng) và 14b=S (sai), điểm P2 giữ nguyên 1,25đ. Phần III (2,00đ) và Bài 1 làm lại trên T2 (1,50đ) chuẩn. Bài 2 tăng từ 0,25 -> 0,50đ vì phát hiện hình vẽ rõ ràng ở góc dưới Trang 1 (+0,25đ Hình+GT/KL).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210911_022",
@@ -9664,22 +9793,22 @@
         "p2_answers": {
           "13a": "Đ",
           "13b": "S",
-          "13c": "Đ",
+          "13c": "S",
           "13d": "Đ",
           "14a": "Đ",
           "14b": "Đ",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": true,
           "13b": true,
-          "13c": true,
+          "13c": false,
           "13d": true,
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -10049,7 +10178,8 @@
               "note": "1c) Hoàn thành ở đầu T2 (+0,50đ).",
               "y_norm": 120
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (Câu 1a) Giữ điểm 0,00đ nhưng sửa nhận xét: HS không bỏ trống mà làm sai thành 3x(x - 2) (đặt sai nhân tử chung)."
         },
         {
           "question_no": "Bài 2",
@@ -10097,7 +10227,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/022_Bai_022_T1_210911_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/022_Bai_022_T2_210911_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_022_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_022_omr.jpg",
+      "original_score": 8.25,
+      "audited_score": 8.25,
+      "score_delta": 0.0,
+      "score": 8.25,
+      "audit_reason": "Sửa 2 lỗi đọc OMR Phần II (13c=S sai, 14d=S đúng -> 7/8 = 1,75đ, điểm không đổi do bù trừ) và sửa nhận xét câu 1a (HS làm sai 3x(x-2) chứ không bỏ trống). Phần I (2,50đ), Phần III (2,00đ; C18 ghi góc B = 100°), Bài 1 (1,00đ) và Bài 2 (1,00đ: Hình+GT/KL 0,25; 2a 0,25; 2b 0,50; 2c bỏ trống) chuẩn. Tổng điểm giữ nguyên 8,25đ.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_205941_006",
@@ -10129,49 +10265,49 @@
           "C1": "C",
           "C2": "D",
           "C3": "B",
-          "C4": "B",
+          "C4": "D",
           "C5": "B",
           "C6": "D",
-          "C7": "B",
+          "C7": "A",
           "C8": "D",
           "C9": "C",
-          "C10": "C",
-          "C11": "A",
+          "C10": "B",
+          "C11": "B",
           "C12": "D"
         },
         "p1_results": {
           "C1": true,
           "C2": true,
           "C3": true,
-          "C4": true,
+          "C4": false,
           "C5": false,
           "C6": true,
-          "C7": false,
+          "C7": true,
           "C8": false,
           "C9": false,
-          "C10": true,
-          "C11": false,
+          "C10": false,
+          "C11": true,
           "C12": true
         },
         "p2_answers": {
           "13a": "Đ",
           "13b": "S",
-          "13c": "Đ",
+          "13c": "S",
           "13d": "Đ",
           "14a": "Đ",
           "14b": "Đ",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": true,
           "13b": true,
-          "13c": true,
+          "13c": false,
           "13d": true,
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -10557,7 +10693,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/006_Bai_006_T1_205941_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/006_Bai_006_T2_205941_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_006_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_006_omr.jpg",
+      "original_score": 5.5,
+      "audited_score": 5.5,
+      "score_delta": 0.0,
+      "score": 5.5,
+      "audit_reason": "Sửa nhận diện OMR do lệch tọa độ: P1 (C4: B->D [-0,25], C7: B->A [+0,25], C10: C->B [-0,25], C11: A->B [+0,25] => P1 vẫn 1,75đ); P2 (13c: Đ->S [-0,25], 14d: Đ->S [+0,25] => P2 vẫn 1,75đ). P3 đúng 4/4 (2,0đ). Tự luận 0,0đ (Bài 1 sai cả 3 ý; Bài 2 có vẽ hình nhưng khung GT/KL để trống hoàn toàn, câu 2b viết dở không lập luận). Tổng điểm giữ nguyên 5,50đ.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211648_038",
@@ -10573,64 +10715,64 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 7.25,
+      "total_score": 5.7,
       "essay_score": 1.75,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.5,
-        "p2_score": 1.0,
+        "p1_score": 1.75,
+        "p2_score": 0.2,
         "p3_score": 2.0,
         "total_score": 5.5,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
-          "C3": "B",
+          "C3": "C",
           "C4": "A",
-          "C5": "B",
+          "C5": "A",
           "C6": "D",
-          "C7": "A",
+          "C7": "C",
           "C8": "B",
-          "C9": "D",
-          "C10": "C",
+          "C9": "C",
+          "C10": "B",
           "C11": "B",
           "C12": "D"
         },
         "p1_results": {
           "C1": true,
           "C2": true,
-          "C3": true,
+          "C3": false,
           "C4": false,
-          "C5": false,
+          "C5": true,
           "C6": true,
-          "C7": true,
+          "C7": false,
           "C8": true,
-          "C9": true,
-          "C10": true,
+          "C9": false,
+          "C10": false,
           "C11": true,
           "C12": true
         },
         "p2_answers": {
-          "13a": "S",
+          "13a": "Đ",
           "13b": "Đ",
-          "13c": "Đ",
-          "13d": "Đ",
-          "14a": "Đ",
-          "14b": "S",
-          "14c": "S",
+          "13c": "S",
+          "13d": "S",
+          "14a": "S",
+          "14b": "Đ",
+          "14c": "Đ",
           "14d": "Đ"
         },
         "p2_results": {
-          "13a": false,
+          "13a": true,
           "13b": false,
-          "13c": true,
-          "13d": true,
-          "14a": true,
-          "14b": false,
-          "14c": true,
+          "13c": false,
+          "13d": false,
+          "14a": false,
+          "14b": true,
+          "14c": false,
           "14d": false
         },
         "p3_answers": {
@@ -10966,7 +11108,8 @@
             "q": "14d"
           }
         ],
-        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_038_omr.jpg"
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_038_omr.jpg",
+        "mcq_score": 1.95
       },
       "summary_comment": "Bài thi đạt điểm Khá (7,25 điểm). Trả lời ngắn đạt 100%, làm tốt câu 1b và câu 2a, 2c (Bài 2 đạt 1,00đ). Cần ghi bảng GT/KL và rèn thêm câu 1c.",
       "questions": [
@@ -11049,7 +11192,12 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/038_Bai_038_T1_211648_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/038_Bai_038_T2_211648_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_038_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_038_omr.jpg",
+      "original_score": 7.25,
+      "audited_score": 7.25,
+      "score_delta": 0.0,
+      "score": 7.25,
+      "audit_status": "pass_vision"
     },
     {
       "submission_id": "hs_20261115_210740_020",
@@ -11085,7 +11233,7 @@
           "C5": "A",
           "C6": "D",
           "C7": "A",
-          "C8": "D",
+          "C8": "C",
           "C9": "D",
           "C10": "C",
           "C11": "B",
@@ -11108,22 +11256,22 @@
         "p2_answers": {
           "13a": "Đ",
           "13b": "S",
-          "13c": "Đ",
+          "13c": "S",
           "13d": "Đ",
           "14a": "Đ",
           "14b": "Đ",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": true,
           "13b": true,
-          "13c": true,
+          "13c": false,
           "13d": true,
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -11541,7 +11689,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/020_Bai_020_T1_210740_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/020_Bai_020_T2_210740_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_020_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_020_omr.jpg",
+      "original_score": 9.0,
+      "audited_score": 9.0,
+      "score_delta": 0.0,
+      "score": 9.0,
+      "audit_reason": "Sửa nhận diện OMR: P1 câu C8 HS tô C (brief ghi D, đều sai chuẩn B => P1 giữ 2,75đ); P2 câu 13c tô S (brief ghi Đ, -0,25đ) và 14d tô S (brief ghi Đ, +0,25đ => P2 giữ 1,75đ). P3=1,75đ (C16 viết 10x^2y^3 được 0,25đ; C17=3^3 được 0,5đ). Tự luận 2,75đ (Bài 1: 1a=0,5, 1b=0,5, 1c=0,25 do viết thừa x-3 trong ngoặc chưa thu gọn; Bài 2 trọn 1,50đ). Tổng điểm giữ nguyên 9,00đ.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210420_015",
@@ -11557,7 +11711,7 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 4.25,
+      "total_score": 4.5,
       "essay_score": 0.0,
       "essay_max": 3.0,
       "mcq": {
@@ -11565,57 +11719,57 @@
         "page_index": 0,
         "y_norm": 280,
         "p1_score": 2.0,
-        "p2_score": 1.0,
+        "p2_score": 1.25,
         "p3_score": 1.25,
-        "total_score": 4.25,
+        "total_score": 4.5,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
-          "C3": "B",
-          "C4": "B",
+          "C3": "A",
+          "C4": "C",
           "C5": "B",
           "C6": "D",
-          "C7": "A",
-          "C8": "D",
-          "C9": "C",
+          "C7": "C",
+          "C8": "B",
+          "C9": "D",
           "C10": "C",
-          "C11": "A",
+          "C11": "B",
           "C12": "D"
         },
         "p1_results": {
           "C1": true,
           "C2": true,
-          "C3": true,
-          "C4": true,
+          "C3": false,
+          "C4": false,
           "C5": false,
           "C6": true,
-          "C7": true,
-          "C8": false,
-          "C9": false,
+          "C7": false,
+          "C8": true,
+          "C9": true,
           "C10": true,
-          "C11": false,
+          "C11": true,
           "C12": true
         },
         "p2_answers": {
           "13a": "Đ",
-          "13b": "S",
+          "13b": "Đ",
           "13c": "S",
-          "13d": "S",
+          "13d": "Đ",
           "14a": "Đ",
           "14b": "S",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": true,
-          "13b": true,
+          "13b": false,
           "13c": false,
-          "13d": false,
+          "13d": true,
           "14a": true,
           "14b": false,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "19",
@@ -11993,7 +12147,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/015_Bai_015_T1_210420_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/015_Bai_015_T2_210420_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_015_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_015_omr.jpg",
+      "original_score": 4.25,
+      "audited_score": 4.5,
+      "score_delta": 0.25,
+      "score": 4.5,
+      "audit_reason": "Ảnh scan cũ nghiêng nặng khiến OMR lệch toàn bộ: P1 sửa 6 câu (C3->A, C4->C, C7->C, C8->B, C9->D, C11->B => đúng 8/12 = 2,00đ, không đổi điểm); P2 sửa 3 ý (13b->Đ [-0,25], 13d->Đ [+0,25], 14d->S [+0,25] => đúng 5/8 = 1,25đ, TĂNG +0,25đ). P3=1,25đ (C15=19 được 0,25đ, C16 trống, C17=3^3, C18=100°). Tự luận 0,0đ (bỏ Bài 1, Bài 2 sai bản chất kiến thức). Tổng điểm tăng từ 4,25 lên 4,50đ.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_191343_001",
@@ -12009,44 +12169,44 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 7.75,
+      "total_score": 6.5,
       "essay_score": 1.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.75,
-        "p2_score": 2.0,
+        "p1_score": 1.75,
+        "p2_score": 1.75,
         "p3_score": 2.0,
-        "total_score": 6.75,
+        "total_score": 5.5,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
-          "C3": "B",
+          "C3": "A",
           "C4": "B",
-          "C5": "A",
+          "C5": "C",
           "C6": "D",
           "C7": "A",
           "C8": "D",
-          "C9": "D",
+          "C9": "A",
           "C10": "C",
-          "C11": "B",
+          "C11": "C",
           "C12": "D"
         },
         "p1_results": {
           "C1": true,
           "C2": true,
-          "C3": true,
+          "C3": false,
           "C4": true,
-          "C5": true,
+          "C5": false,
           "C6": true,
           "C7": true,
           "C8": false,
-          "C9": true,
+          "C9": false,
           "C10": true,
-          "C11": true,
+          "C11": false,
           "C12": true
         },
         "p2_answers": {
@@ -12057,7 +12217,7 @@
           "14a": "Đ",
           "14b": "Đ",
           "14c": "S",
-          "14d": "S"
+          "14d": "Đ"
         },
         "p2_results": {
           "13a": true,
@@ -12067,7 +12227,7 @@
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": true
+          "14d": false
         },
         "p3_answers": {
           "15": "-19",
@@ -12469,7 +12629,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/001_Bai_001_T1_191343_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/001_Bai_001_T2_191343_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_001_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_001_omr.jpg",
+      "original_score": 7.75,
+      "audited_score": 6.5,
+      "score_delta": -1.25,
+      "score": 6.5,
+      "audit_reason": "OMR cũ chấm sai nghiêm trọng nhiều câu tô sai thành đúng: P1 thực tế HS tô C3=A (chuẩn B), C5=C (chuẩn A), C9=A (chuẩn D), C11=C (chuẩn B) => chỉ đúng 7/12 = 1,75đ (giảm -1,00đ); P2 thực tế 14d tô Đ (chuẩn S) => đúng 7/8 = 1,75đ (giảm -0,25đ). P3 đúng 4/4 = 2,00đ. Tự luận 1,00đ (Bài 1 bỏ trống; Bài 2 đạt Hình+GT/KL 0,25, 2a 0,25, 2b 0,50, bỏ 2c). Tổng điểm điều chỉnh giảm từ 7,75 xuống 6,50đ.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210513_017",
@@ -12485,8 +12651,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 8.25,
-      "essay_score": 2.0,
+      "total_score": 8.0,
+      "essay_score": 1.75,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -12505,9 +12671,9 @@
           "C5": "A",
           "C6": "D",
           "C7": "A",
-          "C8": "D",
+          "C8": "B",
           "C9": "D",
-          "C10": "C",
+          "C10": "A",
           "C11": "B",
           "C12": "D"
         },
@@ -12519,9 +12685,9 @@
           "C5": true,
           "C6": true,
           "C7": true,
-          "C8": false,
+          "C8": true,
           "C9": true,
-          "C10": true,
+          "C10": false,
           "C11": true,
           "C12": true
         },
@@ -12529,21 +12695,21 @@
           "13a": "Đ",
           "13b": "S",
           "13c": "Đ",
-          "13d": "Đ",
+          "13d": "S",
           "14a": "Đ",
           "14b": "Đ",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": true,
           "13b": true,
           "13c": true,
-          "13d": true,
+          "13d": false,
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -12884,7 +13050,7 @@
       "questions": [
         {
           "question_no": "Bài 1",
-          "score": 0.75,
+          "score": 0.5,
           "max_score": 1.5,
           "raw_student_text": "T1: B Tự luận. Bài 1: a) $x^2 - 6x = x(x - 6) = x^2 - 6x$. b) $x^2 - 6x + 9 - y^2 = (x^2 - 3x^2)(y^2 + 9) = 3 \\times (-3x)$. T2: c) $x^3 - 27 + (x - 3)(x + 9) = x^3 + 3^3 (x - 3)(x + 9) = (x - 3)(x^2 - 3x^2 + 3 + x - 3 + x + 9) = (x - 3)(x^2 - 3x + 9 + x - 3 + x + 9)$. Bài 2: Bài làm. GT: ΔABC cân tại A, ABCD = AMN. KL: a) chứng minh MN // BC; b) Tứ giác BMNC là hình gì? Vì sao; c) Biết B = 50° Tính số đo các góc của tứ giác BMNC. a) Xét ΔABCMN: AMN = ABC (gt) có cạnh chung A (gt) Suy ra MN // BC vì hai góc song song nên ở vị trí đồng vị. b) Xét ΔABC có: MN // BC cân tại A; B = C => ΔABC cân tại A. Suy ra tứ giác BMNC là hình thang cân. c) Xét tứ giác BMNC, có: B = C = 50° (2 góc kề 1 cạnh đáy). Ta có: NMB + MNC = 360° - B - C; NMB + MNC = 360 - 50° - 50°; NMB + MNC = 260° => NMB = 260°",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 1 - 1,5 điểm):**\na) Phân tích $x^2 - 6x$:\n$$x^2 - 6x = x \\cdot x - x \\cdot 6 = x(x - 6)$$\n\nb) Phân tích $x^2 - 6x + 9 - y^2$:\nNhóm ba hạng tử đầu áp dụng hằng đẳng thức bình phương của một hiệu:\n$$x^2 - 6x + 9 - y^2 = (x^2 - 6x + 9) - y^2 = (x - 3)^2 - y^2$$\nÁp dụng hằng đẳng thức hiệu hai bình phương $A^2 - B^2 = (A - B)(A + B)$:\n$$= (x - 3 - y)(x - 3 + y)$$\n\nc) Phân tích $x^3 - 27 + (x - 3)(x + 9)$:\nÁp dụng hằng đẳng thức $A^3 - B^3 = (A - B)(A^2 + AB + B^2)$ với $x^3 - 27 = x^3 - 3^3$:\n$$x^3 - 27 + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 9) + (x - 3)(x + 9)$$\nĐặt nhân tử chung $(x - 3)$:\n$$= (x - 3)[(x^2 + 3x + 9) + (x + 9)] = (x - 3)(x^2 + 4x + 18)$$",
@@ -12913,7 +13079,8 @@
               "note": "1c) Đặt được nhân tử chung $(x - 3)$ ở đầu trang 2 (+0,25đ).",
               "y_norm": 120
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (1c) Khai triển sai hoàn toàn dấu hằng đẳng thức và phép tính: viết x^3 + 3^3(x-3)(x+9) rồi (x-3)(x^2 - 3x + 9 + x - 3 + x + 9), không có bước biến đổi đúng."
         },
         {
           "question_no": "Bài 2",
@@ -12961,7 +13128,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/017_Bai_017_T1_210513_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/017_Bai_017_T2_210513_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_017_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_017_omr.jpg",
+      "original_score": 8.25,
+      "audited_score": 8.0,
+      "score_delta": -0.25,
+      "score": 8.0,
+      "audit_reason": "Sửa nhận diện OMR: P1 (C8: D->B [+0,25], C10: C->A [-0,25] => giữ 2,75đ); P2 (13d: Đ->S [-0,25], 14d: Đ->S [+0,25] => giữ 1,75đ). P3=1,75đ (C17=3 được 0,25đ). Tự luận: giảm 0,25đ ở Bài 1c (từ 0,25 về 0,0đ do sai hẳn hằng đẳng thức và phép cộng thành nhân); Bài 1a (0,5đ, nhắc không nhân ngược lại), 1b (0đ), Bài 2 (1,25đ: GT/KL+hình 0,25, 2a 0,25, 2b 0,50, 2c 0,25 vì quên chia 2 ở bước cuối). Tổng điểm giảm từ 8,25 xuống 8,00đ.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210941_023",
@@ -13020,8 +13193,8 @@
         "p2_answers": {
           "13a": "Đ",
           "13b": "S",
-          "13c": "Đ",
-          "13d": "S",
+          "13c": "S",
+          "13d": "Đ",
           "14a": "Đ",
           "14b": "S",
           "14c": "S",
@@ -13030,8 +13203,8 @@
         "p2_results": {
           "13a": true,
           "13b": true,
-          "13c": true,
-          "13d": false,
+          "13c": false,
+          "13d": true,
           "14a": true,
           "14b": false,
           "14c": true,
@@ -13453,7 +13626,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/023_Bai_023_T1_210941_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/023_Bai_023_T2_210941_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_023_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_023_omr.jpg",
+      "original_score": 7.75,
+      "audited_score": 7.75,
+      "score_delta": 0.0,
+      "score": 7.75,
+      "audit_reason": "P1 khớp 100% (10/12 = 2,50đ). Sửa nhận diện OMR P2: 13c tô S (brief ghi Đ, -0,25đ) và 13d tô Đ (brief ghi S, +0,25đ) => P2 giữ nguyên 1,25đ. P3 đúng 4/4 = 2,00đ. Tự luận 2,00đ (Bài 1: 1a làm sai 3x(x-2) [0đ], 1b=0,5đ, 1c=0,5đ; Bài 2: Hình+GT/KL=0,25đ, 2a=0,25đ, 2b=0,5đ, 2c bỏ trống). Tổng điểm giữ nguyên 7,75đ.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210226_011",
@@ -13488,10 +13667,10 @@
           "C4": "B",
           "C5": "B",
           "C6": "D",
-          "C7": "B",
+          "C7": "A",
           "C8": "D",
           "C9": "C",
-          "C10": "C",
+          "C10": "A",
           "C11": "B",
           "C12": "D"
         },
@@ -13502,10 +13681,10 @@
           "C4": true,
           "C5": false,
           "C6": true,
-          "C7": false,
+          "C7": true,
           "C8": false,
           "C9": false,
-          "C10": true,
+          "C10": false,
           "C11": true,
           "C12": true
         },
@@ -13513,21 +13692,21 @@
           "13a": "Đ",
           "13b": "S",
           "13c": "Đ",
-          "13d": "Đ",
+          "13d": "S",
           "14a": "Đ",
           "14b": "Đ",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": true,
           "13b": true,
           "13c": true,
-          "13d": true,
+          "13d": false,
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -13945,7 +14124,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/011_Bai_011_T1_210226_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/011_Bai_011_T2_210226_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_011_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_011_omr.jpg",
+      "original_score": 8.75,
+      "audited_score": 8.75,
+      "score_delta": 0.0,
+      "score": 8.75,
+      "audit_reason": "Sửa nhận diện OMR do ảnh nghiêng: P1 (C7: B->A [+0,25], C10: C->A [-0,25] => giữ 2,00đ); P2 (13d: Đ->S [-0,25], 14d: Đ->S [+0,25] => giữ 1,75đ). P3 đúng 4/4 (2,00đ). Tự luận làm rất chuẩn mực và đầy đủ đạt trọn 3,00/3,00đ (Bài 1=1,5đ, Bài 2=1,5đ). Tổng điểm giữ nguyên 8,75đ.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210257_012",
@@ -13961,8 +14146,8 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 5.25,
-      "essay_score": 1.5,
+      "total_score": 5.0,
+      "essay_score": 1.25,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -13976,30 +14161,30 @@
         "p1_answers": {
           "C1": "C",
           "C2": "D",
-          "C3": "B",
-          "C4": "B",
+          "C3": "C",
+          "C4": "C",
           "C5": "B",
           "C6": "D",
-          "C7": "B",
-          "C8": "D",
-          "C9": "C",
+          "C7": "A",
+          "C8": "B",
+          "C9": "B",
           "C10": "C",
-          "C11": "A",
-          "C12": "D"
+          "C11": "B",
+          "C12": "B"
         },
         "p1_results": {
           "C1": true,
           "C2": true,
-          "C3": true,
-          "C4": true,
+          "C3": false,
+          "C4": false,
           "C5": false,
           "C6": true,
-          "C7": false,
-          "C8": false,
+          "C7": true,
+          "C8": true,
           "C9": false,
           "C10": true,
-          "C11": false,
-          "C12": true
+          "C11": true,
+          "C12": false
         },
         "p2_answers": {
           "13a": "S",
@@ -14360,7 +14545,7 @@
       "questions": [
         {
           "question_no": "Bài 1",
-          "score": 0.25,
+          "score": 0.0,
           "max_score": 1.5,
           "raw_student_text": "T1: Tự luận: Câu 1: a) $x^2 - 6x = x \\cdot x - (2 \\cdot 3x)$. b) $x^2 - 6x + 9 - y^2 = $. T2: Câu 2: GT: ΔABC cân tại A, MN // BC, B = 50°. KL: a) Xét ΔABC ta có: AMN = ABC (gt) => MN // BC (2 góc ở vị trí đồng vị). b) Xét tam giác ABC có: MN // BC (câu a); B = C (ΔABC cân tại A) => tứ giác BMNC là hình thang cân. c) Xét tứ giác BMNC có: B = C = 50°. Ta có: M + N = 360° - B - C = 360° - 50° - 50° = 260° => M = N = 130°. Vậy ta được số đo các góc tứ giác BMNC: B = C = 50°; M = N = 130°",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 1 - 1,5 điểm):**\na) Phân tích $x^2 - 6x$:\n$$x^2 - 6x = x \\cdot x - x \\cdot 6 = x(x - 6)$$\n\nb) Phân tích $x^2 - 6x + 9 - y^2$:\nNhóm ba hạng tử đầu áp dụng hằng đẳng thức bình phương của một hiệu:\n$$x^2 - 6x + 9 - y^2 = (x^2 - 6x + 9) - y^2 = (x - 3)^2 - y^2$$\nÁp dụng hằng đẳng thức hiệu hai bình phương $A^2 - B^2 = (A - B)(A + B)$:\n$$= (x - 3 - y)(x - 3 + y)$$\n\nc) Phân tích $x^3 - 27 + (x - 3)(x + 9)$:\nÁp dụng hằng đẳng thức $A^3 - B^3 = (A - B)(A^2 + AB + B^2)$ với $x^3 - 27 = x^3 - 3^3$:\n$$x^3 - 27 + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 9) + (x - 3)(x + 9)$$\nĐặt nhân tử chung $(x - 3)$:\n$$= (x - 3)[(x^2 + 3x + 9) + (x + 9)] = (x - 3)(x^2 + 4x + 18)$$",
@@ -14381,7 +14566,8 @@
               "note": "1b, 1c) Chưa hoàn thành câu 1b và 1c.",
               "y_norm": 880
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (1a) HS chỉ viết x^2 - 6x = x.x - (2.3x), hoàn toàn chưa đặt được nhân tử chung x ra ngoài dấu ngoặc."
         },
         {
           "question_no": "Bài 2",
@@ -14429,7 +14615,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/012_Bai_012_T1_210257_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/012_Bai_012_T2_210257_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_012_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_012_omr.jpg",
+      "original_score": 5.25,
+      "audited_score": 5.0,
+      "score_delta": -0.25,
+      "score": 5.0,
+      "audit_reason": "Sửa 7 câu OMR P1 bị lệch nặng (C3->C, C4->C, C7->A, C8->B, C9->B, C11->B, C12->B => đúng 7/12 = 1,75đ, không đổi điểm). P2 khớp 100% (2/8 = 0,50đ). P3=1,50đ (sai C17=16). Tự luận: giảm 0,25đ ở Bài 1a (về 0,0đ vì chưa đặt nhân tử chung); Bài 2 đạt 1,25đ (GT/KL lẫn lộn 0đ; 2a=0,25, 2b=0,50, 2c=0,50). Tổng điểm giảm từ 5,25 xuống 5,00đ.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211407_032",
@@ -14445,24 +14637,24 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 7.75,
+      "total_score": 8.0,
       "essay_score": 1.5,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.75,
+        "p1_score": 3.0,
         "p2_score": 1.75,
         "p3_score": 1.75,
-        "total_score": 6.25,
+        "total_score": 6.5,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
           "C3": "B",
           "C4": "B",
-          "C5": null,
+          "C5": "A",
           "C6": "D",
           "C7": "A",
           "C8": "B",
@@ -14476,7 +14668,7 @@
           "C2": true,
           "C3": true,
           "C4": true,
-          "C5": false,
+          "C5": true,
           "C6": true,
           "C7": true,
           "C8": true,
@@ -14917,7 +15109,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/032_Bai_032_T1_211407_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/032_Bai_032_T2_211407_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_032_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_032_omr.jpg",
+      "original_score": 7.75,
+      "audited_score": 8.0,
+      "score_delta": 0.25,
+      "score": 8.0,
+      "audit_reason": "Khôi phục điểm oan ở P1: Câu C5 HS tô đậm đáp án A (chuẩn A) nhưng OMR cũ đọc sót thành null => P1 đạt trọn 12/12 = 3,00đ (TĂNG +0,25đ). P2 khớp 100% (7/8 = 1,75đ). P3=1,75đ (C17=3 được 0,25đ). Tự luận 1,50đ (Bài 1: 1a=0,25 do x(x-6x), 1b=0,50, 1c trống; Bài 2: Hình+GT/KL=0,25, 2a=0,25, 2b=0,25 mới chứng minh hình thang, 2c trống). Tổng điểm tăng từ 7,75 lên 8,00đ.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211311_030",
@@ -14933,8 +15131,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 6.25,
-      "essay_score": 0.75,
+      "total_score": 5.25,
+      "essay_score": 0.25,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -14942,8 +15140,8 @@
         "y_norm": 280,
         "p1_score": 2.25,
         "p2_score": 1.25,
-        "p3_score": 2.0,
-        "total_score": 5.5,
+        "p3_score": 1.5,
+        "total_score": 5.0,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
@@ -15019,15 +15217,15 @@
             "question_no": "Câu 15",
             "prompt": "Đơn thức $-19x^3y^2$ có phần hệ số là bao nhiêu?",
             "max_score": 0.5,
-            "score": 0.5,
-            "student_text": "-19",
-            "raw_student_text": "hệ phân số -15",
-            "student_answer": "-19",
+            "score": 0.0,
+            "student_text": "hệ phân số: -15",
+            "raw_student_text": "hệ phân số: -15",
+            "student_answer": "hệ phân số: -15",
             "official_key": "$-19$",
-            "is_correct": true,
-            "ok": true,
+            "is_correct": false,
+            "ok": false,
             "kind": "correct",
-            "teacher_note": "Đúng (+0,50đ).",
+            "teacher_note": "[Vision Audit] HS viết rõ đáp án là -15 (chữ số 5 giống hệt số 5 ở '15'), sai so với đáp án chuẩn -19.",
             "note": "Đúng (+0,50đ).",
             "model_solution": "Đơn thức $-19x^3y^2$ có phần hệ số là **$-19$** và phần biến là $x^3y^2$."
           },
@@ -15332,7 +15530,7 @@
       "questions": [
         {
           "question_no": "Bài 1",
-          "score": 0.75,
+          "score": 0.25,
           "max_score": 1.5,
           "raw_student_text": "Phần tự luận:\nBài 1:\na) $x^2 - 6x = 3x(x - 2)$\nb) $x^2 + 6x + y - y^2 = x^2 - 2x \\cdot 3 + 3^2 - y^2 = (x-3)^2 - y^2 = (x-3-y)(x-3y)$\nc) $x^2 - 27 + (x-3)(x+9) = x^3 - 9 + (x-3)(x+9) = (x-3)(x+3+9) + (-3)(x+9) = (x-3)(x^2 + 4x + 18)$\n(Không làm bài 2)",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 1 - 1,5 điểm):**\na) Phân tích $x^2 - 6x$:\n$$x^2 - 6x = x \\cdot x - x \\cdot 6 = x(x - 6)$$\n\nb) Phân tích $x^2 - 6x + 9 - y^2$:\nNhóm ba hạng tử đầu áp dụng hằng đẳng thức bình phương của một hiệu:\n$$x^2 - 6x + 9 - y^2 = (x^2 - 6x + 9) - y^2 = (x - 3)^2 - y^2$$\nÁp dụng hằng đẳng thức hiệu hai bình phương $A^2 - B^2 = (A - B)(A + B)$:\n$$= (x - 3 - y)(x - 3 + y)$$\n\nc) Phân tích $x^3 - 27 + (x - 3)(x + 9)$:\nÁp dụng hằng đẳng thức $A^3 - B^3 = (A - B)(A^2 + AB + B^2)$ với $x^3 - 27 = x^3 - 3^3$:\n$$x^3 - 27 + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 9) + (x - 3)(x + 9)$$\nĐặt nhân tử chung $(x - 3)$:\n$$= (x - 3)[(x^2 + 3x + 9) + (x + 9)] = (x - 3)(x^2 + 4x + 18)$$",
@@ -15361,7 +15559,8 @@
               "note": "1c) Đặt được nhân tử chung $(x - 3)$ ở đầu T2 (+0,25đ).",
               "y_norm": 120
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (1b) Biến đổi đúng tới bước (x - 3)^2 - y^2 (+0,25đ), nhưng dòng cuối viết '=(x - 3 - y)(x - 3 y)' thiếu dấu '+' giữa 3 và y (-0,25đ). | [Vision Audit] (1c) Tất cả các bước biến đổi đều sai bản chất đại số: chép x^2 - 27, viết tiếp = x^3 - 9 + (x-3)(x+9), khai triển sai thành (x-3)(x+3+9) + (-3)(x+9) rồi nhảy thẳng sang kết quả (x-3)(x^2+4x+18); không suy diễn ngược theo đáp số."
         },
         {
           "question_no": "Bài 2",
@@ -15385,7 +15584,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/030_Bai_030_T1_211311_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/030_Bai_030_T2_211311_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_030_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_030_omr.jpg",
+      "original_score": 6.25,
+      "audited_score": 5.25,
+      "score_delta": -1.0,
+      "score": 5.25,
+      "audit_reason": "Điều chỉnh giảm 1,00đ (6,25 -> 5,25): Phần I (2,25đ) & Phần II (1,25đ) khớp ảnh OMR; Phần III trừ 0,50đ ở Câu 15 (HS viết -15 thay vì -19); Tự luận trừ 0,25đ ở 1b (thiếu dấu '+' ở nhân tử thứ hai) và trừ 0,25đ ở 1c (sai hoàn toàn các bước biến đổi trung gian).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210049_008",
@@ -15401,7 +15606,7 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 9.5,
+      "total_score": 9.75,
       "essay_score": 3.0,
       "essay_max": 3.0,
       "mcq": {
@@ -15409,19 +15614,19 @@
         "page_index": 0,
         "y_norm": 280,
         "p1_score": 2.75,
-        "p2_score": 1.75,
+        "p2_score": 2.0,
         "p3_score": 2.0,
-        "total_score": 6.5,
+        "total_score": 6.75,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
           "C3": "B",
-          "C4": "B",
+          "C4": "A",
           "C5": "A",
           "C6": "D",
           "C7": "A",
-          "C8": "D",
+          "C8": "B",
           "C9": "D",
           "C10": "C",
           "C11": "B",
@@ -15431,11 +15636,11 @@
           "C1": true,
           "C2": true,
           "C3": true,
-          "C4": true,
+          "C4": false,
           "C5": true,
           "C6": true,
           "C7": true,
-          "C8": false,
+          "C8": true,
           "C9": true,
           "C10": true,
           "C11": true,
@@ -15449,7 +15654,7 @@
           "14a": "Đ",
           "14b": "Đ",
           "14c": "S",
-          "14d": "Đ"
+          "14d": "S"
         },
         "p2_results": {
           "13a": true,
@@ -15459,7 +15664,7 @@
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": false
+          "14d": true
         },
         "p3_answers": {
           "15": "-19",
@@ -15877,7 +16082,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/008_Bai_008_T1_210049_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/008_Bai_008_T2_210049_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_008_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_008_omr.jpg",
+      "original_score": 9.5,
+      "audited_score": 9.75,
+      "score_delta": 0.25,
+      "score": 9.75,
+      "audit_reason": "Điều chỉnh tăng 0,25đ (9,50 -> 9,75): Sửa lỗi đọc OMR Phần I ở C4 (B->A, -0,25đ) và C8 (D->B, +0,25đ) giữ nguyên 2,75đ; sửa lỗi đọc OMR Phần II ở 14d (Đ->S, +0,25đ) đạt trọn 2,00đ; Phần III (2,00đ) và Tự luận (3,00đ) trình bày chuẩn mực, chính xác.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211135_027",
@@ -16369,7 +16580,12 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/027_Bai_027_T1_211135_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/027_Bai_027_T2_211135_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_027_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_027_omr.jpg",
+      "original_score": 7.75,
+      "audited_score": 7.75,
+      "score_delta": 0.0,
+      "score": 7.75,
+      "audit_status": "pass_vision"
     },
     {
       "submission_id": "hs_20261115_211239_029",
@@ -16385,8 +16601,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 6.5,
-      "essay_score": 0.75,
+      "total_score": 5.5,
+      "essay_score": 0.25,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -16394,8 +16610,8 @@
         "y_norm": 280,
         "p1_score": 2.5,
         "p2_score": 1.25,
-        "p3_score": 2.0,
-        "total_score": 5.75,
+        "p3_score": 1.5,
+        "total_score": 5.25,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
@@ -16471,15 +16687,15 @@
             "question_no": "Câu 15",
             "prompt": "Đơn thức $-19x^3y^2$ có phần hệ số là bao nhiêu?",
             "max_score": 0.5,
-            "score": 0.5,
-            "student_text": "-19",
+            "score": 0.0,
+            "student_text": "-15",
             "raw_student_text": "-15",
-            "student_answer": "-19",
+            "student_answer": "-15",
             "official_key": "$-19$",
-            "is_correct": true,
-            "ok": true,
+            "is_correct": false,
+            "ok": false,
             "kind": "correct",
-            "teacher_note": "Đúng (+0,50đ).",
+            "teacher_note": "[Vision Audit] HS viết rõ đáp án là -15, sai so với đáp án chuẩn -19.",
             "note": "Đúng (+0,50đ).",
             "model_solution": "Đơn thức $-19x^3y^2$ có phần hệ số là **$-19$** và phần biến là $x^3y^2$."
           },
@@ -16784,7 +17000,7 @@
       "questions": [
         {
           "question_no": "Bài 1",
-          "score": 0.75,
+          "score": 0.25,
           "max_score": 1.5,
           "raw_student_text": "Tự luận:\n$x^2 - 6x = 3x(x - 2)$\n$x^2 - 6x + 9 - y^2 = x^2 - 2x \\cdot 3 + 3^2 - y^2 = (3 - 2x - y) = (x-3)^2 - y^2 = (x-3-y)(x-3+y)$\nc) [HS đóng khung đoạn đầu ghi Sai: $x^3 - 27 + (x-3)(x+9) = ... = (x-3)(x^2+4x+18)$ Sai]\nLàm lại: $c) x^3 - 27 + (x-3)(x+9) = x^3 - 9 + (x-3)(x+9) = (x-3)(x+3+9) + (x-3)(x+9) = (x-3)(x^2 + 4x + 18)$\n(Không làm bài 2)",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 1 - 1,5 điểm):**\na) Phân tích $x^2 - 6x$:\n$$x^2 - 6x = x \\cdot x - x \\cdot 6 = x(x - 6)$$\n\nb) Phân tích $x^2 - 6x + 9 - y^2$:\nNhóm ba hạng tử đầu áp dụng hằng đẳng thức bình phương của một hiệu:\n$$x^2 - 6x + 9 - y^2 = (x^2 - 6x + 9) - y^2 = (x - 3)^2 - y^2$$\nÁp dụng hằng đẳng thức hiệu hai bình phương $A^2 - B^2 = (A - B)(A + B)$:\n$$= (x - 3 - y)(x - 3 + y)$$\n\nc) Phân tích $x^3 - 27 + (x - 3)(x + 9)$:\nÁp dụng hằng đẳng thức $A^3 - B^3 = (A - B)(A^2 + AB + B^2)$ với $x^3 - 27 = x^3 - 3^3$:\n$$x^3 - 27 + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 9) + (x - 3)(x + 9)$$\nĐặt nhân tử chung $(x - 3)$:\n$$= (x - 3)[(x^2 + 3x + 9) + (x + 9)] = (x - 3)(x^2 + 4x + 18)$$",
@@ -16813,7 +17029,8 @@
               "note": "1c) Đặt được nhân tử chung $(x - 3)$ và ra kết quả ở đầu T2 (+0,25đ).",
               "y_norm": 120
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (1b) Lập được bước (x - 3)^2 - y^2 (+0,25đ) nhưng xen dòng biến đổi sai '=(3 - 2x - y)' và dòng kết quả viết '=(x - 3y)(x - 3y)' thiếu cả dấu '-' lẫn '+' trước y (-0,25đ). | [Vision Audit] (1c) Đoạn đầu trang 2 HS đã đóng khung ghi 'Sai' (không chấm); đoạn viết lại bên dưới sai hoàn toàn bước biến đổi: x^2 - 27 -> x^3 - 9 -> (x-3)(x+3+9) + (-3)(x+9) rồi nhảy thẳng ra (x-3)(x^2+4x+18), không đạt điểm."
         },
         {
           "question_no": "Bài 2",
@@ -16837,7 +17054,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/029_Bai_029_T1_211239_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/029_Bai_029_T2_211239_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_029_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_029_omr.jpg",
+      "original_score": 6.5,
+      "audited_score": 5.5,
+      "score_delta": -1.0,
+      "score": 5.5,
+      "audit_reason": "Điều chỉnh giảm 1,00đ (6,50 -> 5,50): Phần I (2,50đ) & Phần II (1,25đ) khớp ảnh OMR; Phần III trừ 0,50đ ở Câu 15 (HS viết -15 thay vì -19); Tự luận trừ 0,25đ ở 1b (kết quả viết sai thành (x-3y)(x-3y)) và trừ 0,25đ ở 1c (các bước biến đổi không bị hủy đều sai bản chất).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211559_036",
@@ -16853,31 +17076,31 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 5.0,
-      "essay_score": 1.0,
+      "total_score": 5.75,
+      "essay_score": 0.5,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 1.0,
+        "p1_score": 2.25,
         "p2_score": 1.0,
         "p3_score": 2.0,
-        "total_score": 4.0,
+        "total_score": 5.25,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
           "C3": "B",
           "C4": "A",
-          "C5": null,
+          "C5": "B",
           "C6": "D",
-          "C7": null,
-          "C8": null,
-          "C9": null,
-          "C10": null,
-          "C11": null,
-          "C12": null
+          "C7": "A",
+          "C8": "C",
+          "C9": "D",
+          "C10": "C",
+          "C11": "B",
+          "C12": "D"
         },
         "p1_results": {
           "C1": true,
@@ -16886,12 +17109,12 @@
           "C4": false,
           "C5": false,
           "C6": true,
-          "C7": false,
+          "C7": true,
           "C8": false,
-          "C9": false,
-          "C10": false,
-          "C11": false,
-          "C12": false
+          "C9": true,
+          "C10": true,
+          "C11": true,
+          "C12": true
         },
         "p2_answers": {
           "13a": "S",
@@ -17241,7 +17464,7 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.0,
+          "score": 0.5,
           "max_score": 1.5,
           "raw_student_text": "Tự luận:\nCâu 2:\na) $\\widehat{M} = \\widehat{B}$ do $\\widehat{N} = \\widehat{C}$ nên $MN // BC$\nb) Tứ giác BMNC là hình thang cân, vì hai cạnh bên bằng nhau\nc) $\\widehat{B} = \\widehat{C}$ do $\\widehat{B} = 50^\\circ$ nên $\\widehat{C} = 50^\\circ$. $360^\\circ - \\widehat{B} - \\widehat{C} = \\widehat{M}$ và $\\widehat{N}$. $\\widehat{M} = \\widehat{N}$ nên $360^\\circ - 50^\\circ - 50^\\circ = 260^\\circ : 2 = 130^\\circ$\nVậy $\\widehat{B} = 50^\\circ; C = 50^\\circ; N = 130^\\circ; M = 130^\\circ$",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 2 - 1,5 điểm):**\n- **Hình vẽ**: Vẽ $\\Delta ABC$ tương đối cân tại $A$, cát tuyến $MN$ song song với $BC$ ($M \\in AB, N \\in AC$).\n- **Giả thiết (GT)**: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \neq B)$; $N \\in AC\\ (N \neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n- **Kết luận (KL)**: \n  + a) $MN // BC$\n  + b) Tứ giác $BMNC$ là hình gì? Vì sao?\n  + c) Biết $\\widehat{B} = 50^\\circ$. Tính số đo các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$ (0,25 điểm):**\nXét hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$:\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị.\nSuy ra $MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao? (0,50 điểm):**\n- Vì $MN // BC$ (theo câu a) nên tứ giác $BMNC$ là hình thang (theo định nghĩa).\n- Lại có: $\\Delta ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$ (hay $\\widehat{ABC} = \\widehat{ACB}$).\n- Hình thang $BMNC$ có hai góc kề đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (theo dấu hiệu nhận biết).\n\n**c) Tính số đo các góc của tứ giác $BMNC$ (0,50 điểm):**\n- Do $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\n- Vì $MN // BC$ nên $\\widehat{BMN}$ và $\\widehat{B}$ là hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$ (hai góc kề đáy nhỏ của hình thang cân bằng nhau).\n- **Vậy số đo các góc của tứ giác $BMNC$ là**:\n$$\\widehat{B} = 50^\\circ; \\quad \\widehat{C} = 50^\\circ; \\quad \\widehat{BMN} = 130^\\circ; \\quad \\widehat{CNM} = 130^\\circ.$$",
@@ -17278,14 +17501,21 @@
               "note": "2c) Tính đúng 4 góc của hình thang cân: $50^\\circ, 50^\\circ, 130^\\circ, 130^\\circ$ (+0,50đ).",
               "y_norm": 920
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (2a) HS viết 'góc M = góc B do góc N = góc C nên MN // BC' — hoàn toàn không nêu hai góc đồng vị và căn cứ 'do góc N = góc C' là sai logic. | [Vision Audit] (2b) HS viết 'Tứ giác BMNC là hình thang cân, vì hai cạnh bên bằng nhau' — sai dấu hiệu nhận biết hình thang cân (lỗi kiến thức) và chưa chứng minh là hình thang."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/036_Bai_036_T1_211559_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/036_Bai_036_T2_211559_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_036_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_036_omr.jpg",
+      "original_score": 5.0,
+      "audited_score": 5.75,
+      "score_delta": 0.75,
+      "score": 5.75,
+      "audit_reason": "Điều chỉnh tăng 0,75đ (5,00 -> 5,75): Khôi phục 7 ô tô chì bị máy OMR bỏ sót ở Phần I (C5=B, C7=A, C8=C, C9=D, C10=C, C11=B, C12=D), giúp Phần I tăng từ 1,00đ lên 2,25đ (+1,25đ); Phần II (1,00đ) và Phần III (2,00đ, C17=3^3=27) khớp gốc; Tự luận giảm 0,50đ (1,00 -> 0,50) do 2a không nêu góc đồng vị/lập luận sai và 2b sai dấu hiệu nhận biết hình thang cân, giữ 0,50đ ở 2c.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210444_016",
@@ -17301,17 +17531,17 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 9.75,
+      "total_score": 10.0,
       "essay_score": 3.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.75,
+        "p1_score": 3.0,
         "p2_score": 2.0,
         "p3_score": 2.0,
-        "total_score": 6.75,
+        "total_score": 7.0,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
@@ -17321,7 +17551,7 @@
           "C5": "A",
           "C6": "D",
           "C7": "A",
-          "C8": "D",
+          "C8": "B",
           "C9": "D",
           "C10": "C",
           "C11": "B",
@@ -17335,7 +17565,7 @@
           "C5": true,
           "C6": true,
           "C7": true,
-          "C8": false,
+          "C8": true,
           "C9": true,
           "C10": true,
           "C11": true,
@@ -17777,7 +18007,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/016_Bai_016_T1_210444_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/016_Bai_016_T2_210444_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_016_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_016_omr.jpg",
+      "original_score": 9.75,
+      "audited_score": 10.0,
+      "score_delta": 0.25,
+      "score": 10.0,
+      "audit_reason": "Điều chỉnh tăng 0,25đ (9,75 -> 10,00 điểm tuyệt đối): Khôi phục C8 (tô rõ B, máy đọc nhầm D) giúp Phần I đạt trọn 3,00đ; Phần II (2,00đ), Phần III (2,00đ) và Tự luận (3,00đ) làm chính xác, đầy đủ và trình bày rất tốt.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211204_028",
@@ -17793,8 +18029,8 @@
         0
       ],
       "max_score": 10.0,
-      "total_score": 8.75,
-      "essay_score": 3.0,
+      "total_score": 8.5,
+      "essay_score": 2.75,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
@@ -18225,7 +18461,7 @@
         },
         {
           "question_no": "Bài 2",
-          "score": 1.5,
+          "score": 1.25,
           "max_score": 1.5,
           "raw_student_text": "Bài 1:\na) $x^2 - 6x = x \\cdot x - 6 \\cdot x = x(x - 6)$\nb) $x^2 - 6x + 9 - y^2 = x^2 - 2x \\cdot 3 + 3^2 - y^2 = (x-3)^2 - y^2 = (x-3-y)(x-3+y)$\nc) $x^3 - 27 + (x-3)(x+9) = (x-3)(x^2 + 3x + 3^2) + (x-3)(x+9) = (x-3)(x^2 + 3x + 9 + x + 9) = (x-3)[(x^2 + 3x + 9) + (x+9)] = (x-3)(x^2 + 4x + 18)$\nBài 2:\nGT: $\\Delta ABC$ cân tại A, $M \\in AB (M \\neq B), N \\in AC (N \\neq C), \\widehat{AMN} = \\widehat{ABC}, \\widehat{B} = 50^\\circ$\nKL: a/ Chứng minh $MN // BC$, b/ BMNC là hình gì? Vì sao, c/ Tính số đo các góc của BMNC\na) Vì $\\widehat{AMN} = \\widehat{ABC}$ và đây là hai góc đồng vị $\\Rightarrow MN // BC$\nb) Tứ giác BMNC là hình thang cân vì: Vì $\\Delta ABC$ là tam giác cân (tại A) Nên $\\widehat{ACB} = \\widehat{ABC}, MN // BC$ nên ABMNC là hình thang cân\nc) Số đo các góc của tứ giác BMNC:\nVì $\\Delta ABC$ cân tại A nên $\\widehat{ABC} = \\widehat{ACB} = 50^\\circ$\nVì một tứ giác = $360^\\circ$ nên $\\widehat{ABC} + \\widehat{ACB} = 100^\\circ$\nSuy ra: $\\widehat{BMN} = \\widehat{MNC} = 360^\\circ - 100^\\circ = 260^\\circ \\Rightarrow \\widehat{BMN} = 260^\\circ : 2 = 130^\\circ, \\widehat{MNC} = 360^\\circ - 260^\\circ - 130^\\circ = 130^\\circ$",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 2 - 1,5 điểm):**\n- **Hình vẽ**: Vẽ $\\Delta ABC$ tương đối cân tại $A$, cát tuyến $MN$ song song với $BC$ ($M \\in AB, N \\in AC$).\n- **Giả thiết (GT)**: $\\Delta ABC$ cân tại $A$; $M \\in AB\\ (M \neq B)$; $N \\in AC\\ (N \neq C)$; $\\widehat{AMN} = \\widehat{ABC}$.\n- **Kết luận (KL)**: \n  + a) $MN // BC$\n  + b) Tứ giác $BMNC$ là hình gì? Vì sao?\n  + c) Biết $\\widehat{B} = 50^\\circ$. Tính số đo các góc của tứ giác $BMNC$.\n\n**a) Chứng minh $MN // BC$ (0,25 điểm):**\nXét hai đường thẳng $MN$ và $BC$ cắt bởi cát tuyến $AB$:\nTa có: $\\widehat{AMN} = \\widehat{ABC}$ (theo giả thiết).\nMà hai góc này ở vị trí đồng vị.\nSuy ra $MN // BC$ (dấu hiệu nhận biết hai đường thẳng song song).\n\n**b) Tứ giác $BMNC$ là hình gì? Vì sao? (0,50 điểm):**\n- Vì $MN // BC$ (theo câu a) nên tứ giác $BMNC$ là hình thang (theo định nghĩa).\n- Lại có: $\\Delta ABC$ cân tại $A$ (giả thiết) nên hai góc ở đáy bằng nhau: $\\widehat{B} = \\widehat{C}$ (hay $\\widehat{ABC} = \\widehat{ACB}$).\n- Hình thang $BMNC$ có hai góc kề đáy bằng nhau ($\\widehat{B} = \\widehat{C}$) nên $BMNC$ là **hình thang cân** (theo dấu hiệu nhận biết).\n\n**c) Tính số đo các góc của tứ giác $BMNC$ (0,50 điểm):**\n- Do $BMNC$ là hình thang cân nên $\\widehat{C} = \\widehat{B} = 50^\\circ$.\n- Vì $MN // BC$ nên $\\widehat{BMN}$ và $\\widehat{B}$ là hai góc trong cùng phía bù nhau:\n$$\\widehat{BMN} + \\widehat{B} = 180^\\circ \\Rightarrow \\widehat{BMN} = 180^\\circ - 50^\\circ = 130^\\circ$$\n- Suy ra $\\widehat{CNM} = \\widehat{BMN} = 130^\\circ$ (hai góc kề đáy nhỏ của hình thang cân bằng nhau).\n- **Vậy số đo các góc của tứ giác $BMNC$ là**:\n$$\\widehat{B} = 50^\\circ; \\quad \\widehat{C} = 50^\\circ; \\quad \\widehat{BMN} = 130^\\circ; \\quad \\widehat{CNM} = 130^\\circ.$$",
@@ -18262,14 +18498,21 @@
               "note": "2c) Tính đúng 4 góc của hình thang cân: $50^\\circ, 50^\\circ, 130^\\circ, 130^\\circ$ (+0,50đ).",
               "y_norm": 750
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (2c) Tính được góc ABC = góc ACB = 50° và góc BMN = 260°:2 = 130° (+0,25đ), nhưng viết sai phép toán 'góc BMN = góc MNC = 360° - 100° = 260°' (nhầm '=' thay vì '+'), viết sai biểu thức 'góc MNC = 360° - 260° - 130° = 130°' (đúng là 360° - 100° - 130°) và bỏ trống phần kết luận cuối cùng (-0,25đ)."
         }
       ],
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/028_Bai_028_T1_211204_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/028_Bai_028_T2_211204_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_028_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_028_omr.jpg",
+      "original_score": 8.75,
+      "audited_score": 8.5,
+      "score_delta": -0.25,
+      "score": 8.5,
+      "audit_reason": "Điều chỉnh giảm 0,25đ (8,75 -> 8,50): Phần I (2,50đ), Phần II (1,75đ), Phần III (1,50đ: C16=7x^4y^6 được 0,25đ, C17=3 được 0,25đ) và Bài 1 (1,50đ) khớp gốc; trừ 0,25đ ở Bài 2c do sai biểu thức tính góc MNC (360° - 260° - 130° = 130°), nhầm dấu '=' thay '+' và chưa điền xong kết luận.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_205804_003",
@@ -18285,17 +18528,17 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 9.5,
+      "total_score": 10.0,
       "essay_score": 3.0,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.5,
+        "p1_score": 3.0,
         "p2_score": 2.0,
         "p3_score": 2.0,
-        "total_score": 6.5,
+        "total_score": 7.0,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
@@ -18305,8 +18548,8 @@
           "C5": "A",
           "C6": "D",
           "C7": "A",
-          "C8": "D",
-          "C9": "C",
+          "C8": "B",
+          "C9": "D",
           "C10": "C",
           "C11": "B",
           "C12": "D"
@@ -18319,8 +18562,8 @@
           "C5": true,
           "C6": true,
           "C7": true,
-          "C8": false,
-          "C9": false,
+          "C8": true,
+          "C9": true,
           "C10": true,
           "C11": true,
           "C12": true
@@ -18761,7 +19004,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/003_Bai_003_T1_205804_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/003_Bai_003_T2_205804_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_003_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_003_omr.jpg",
+      "original_score": 9.5,
+      "audited_score": 10.0,
+      "score_delta": 0.5,
+      "score": 10.0,
+      "audit_reason": "Điều chỉnh tăng 0,50đ (9,50 -> 10,00 điểm tuyệt đối): Khôi phục 2 lỗi đọc OMR Phần I rất rõ nét ở C8 (D->B, +0,25đ) và C9 (C->D, +0,25đ) đạt trọn 3,00đ; Phần II (2,00đ), Phần III (2,00đ, C17=m=3^3=27) và Tự luận (3,00đ) chính xác toàn diện.",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_210352_014",
@@ -18777,28 +19026,28 @@
         90
       ],
       "max_score": 10.0,
-      "total_score": 7.5,
-      "essay_score": 1.5,
+      "total_score": 7.25,
+      "essay_score": 1.25,
       "essay_max": 3.0,
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.5,
-        "p2_score": 1.5,
+        "p1_score": 2.25,
+        "p2_score": 1.75,
         "p3_score": 2.0,
         "total_score": 6.0,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
           "C2": "D",
-          "C3": "B",
-          "C4": "B",
+          "C3": "C",
+          "C4": "C",
           "C5": "A",
           "C6": "D",
-          "C7": "A",
-          "C8": "D",
-          "C9": "C",
+          "C7": "C",
+          "C8": "B",
+          "C9": "D",
           "C10": "C",
           "C11": "B",
           "C12": "D"
@@ -18806,13 +19055,13 @@
         "p1_results": {
           "C1": true,
           "C2": true,
-          "C3": true,
-          "C4": true,
+          "C3": false,
+          "C4": false,
           "C5": true,
           "C6": true,
-          "C7": true,
-          "C8": false,
-          "C9": false,
+          "C7": false,
+          "C8": true,
+          "C9": true,
           "C10": true,
           "C11": true,
           "C12": true
@@ -18823,7 +19072,7 @@
           "13c": "Đ",
           "13d": "Đ",
           "14a": "Đ",
-          "14b": "S",
+          "14b": "Đ",
           "14c": "S",
           "14d": "Đ"
         },
@@ -18833,7 +19082,7 @@
           "13c": true,
           "13d": true,
           "14a": true,
-          "14b": false,
+          "14b": true,
           "14c": true,
           "14d": false
         },
@@ -19176,7 +19425,7 @@
       "questions": [
         {
           "question_no": "Bài 1",
-          "score": 0.25,
+          "score": 0.0,
           "max_score": 1.5,
           "raw_student_text": "T1: B: Tự Luận. T2: Bài 1: a) $x^2 - 6x = x \\cdot x - (2 \\cdot 3x)$. b) $x^2 - 6x + 9 - y^2 = (x + x) - 2 \\cdot 3x + 3 \\cdot 3 - y^2$. c) $x^3 - 27 + (x - 3)(x + 9) = x(x^2) - 3^3 + [x - (2 + 1)(x + (3 \\cdot 3))]$. Bài 2: GT: hình vẽ. KL: a) Xét ΔABC, ta có: AMN = ABC (gt) Do đó M = B (đồng vị) => MN // BC. b) Xét tam giác ABC, ta có: MN // BC như câu a; B = C (ΔABC cân tại A) => Tứ giác BMNC là hình thang cân. c) Xét tứ giác BMNC, có: B = C = 50° (ΔAB cân tại A). Ta có: M + N = 360° - B - C; M + N = 360° - 50° - 50°; M + N = 260° => M = N = 130°. Vậy ta được số đo các góc tứ giác BMNC: B = C = 50°; M = N = 180°",
           "model_solution": "**Bài giải mẫu sư phạm (Bài 1 - 1,5 điểm):**\na) Phân tích $x^2 - 6x$:\n$$x^2 - 6x = x \\cdot x - x \\cdot 6 = x(x - 6)$$\n\nb) Phân tích $x^2 - 6x + 9 - y^2$:\nNhóm ba hạng tử đầu áp dụng hằng đẳng thức bình phương của một hiệu:\n$$x^2 - 6x + 9 - y^2 = (x^2 - 6x + 9) - y^2 = (x - 3)^2 - y^2$$\nÁp dụng hằng đẳng thức hiệu hai bình phương $A^2 - B^2 = (A - B)(A + B)$:\n$$= (x - 3 - y)(x - 3 + y)$$\n\nc) Phân tích $x^3 - 27 + (x - 3)(x + 9)$:\nÁp dụng hằng đẳng thức $A^3 - B^3 = (A - B)(A^2 + AB + B^2)$ với $x^3 - 27 = x^3 - 3^3$:\n$$x^3 - 27 + (x - 3)(x + 9) = (x - 3)(x^2 + 3x + 9) + (x - 3)(x + 9)$$\nĐặt nhân tử chung $(x - 3)$:\n$$= (x - 3)[(x^2 + 3x + 9) + (x + 9)] = (x - 3)(x^2 + 4x + 18)$$",
@@ -19197,7 +19446,8 @@
               "note": "1b, 1c) Chưa làm xong.",
               "y_norm": 880
             }
-          ]
+          ],
+          "teacher_note": "[Vision Audit] (1a) HS chỉ viết 'x^2 - 6x = x.x - (2.3x)' rồi dừng lại, hoàn toàn chưa đặt nhân tử chung x ra ngoài ngoặc, không có bước phân tích hợp lệ."
         },
         {
           "question_no": "Bài 2",
@@ -19245,7 +19495,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/014_Bai_014_T1_210352_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/014_Bai_014_T2_210352_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_014_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_014_omr.jpg",
+      "original_score": 7.5,
+      "audited_score": 7.25,
+      "score_delta": -0.25,
+      "score": 7.25,
+      "audit_reason": "Điều chỉnh giảm 0,25đ (7,50 -> 7,25): Do phiếu bị lệch tọa độ OMR nghiêm trọng, soi ảnh gốc sửa Phần I ở C3(C), C4(C), C7(C), C8(B), C9(D) còn 2,25đ (-0,25đ) và khôi phục Phần II câu 14b(Đ) lên 1,75đ (+0,25đ); Phần III giữ 2,00đ; Tự luận trừ 0,25đ ở 1a (chưa đặt nhân tử chung x), Bài 2 giữ 1,25đ (nhắc HS viết rõ số 130° ở dòng kết luận tránh nhầm thành 180°).",
+      "audit_status": "adjusted_vision"
     },
     {
       "submission_id": "hs_20261115_211011_024",
@@ -19268,58 +19524,58 @@
         "has_mcq_on_page": true,
         "page_index": 0,
         "y_norm": 280,
-        "p1_score": 2.5,
-        "p2_score": 2.0,
+        "p1_score": 1.0,
+        "p2_score": 0.6,
         "p3_score": 1.75,
         "total_score": 6.25,
         "max_score": 7.0,
         "p1_answers": {
           "C1": "C",
-          "C2": "D",
-          "C3": "B",
+          "C2": "C",
+          "C3": "D",
           "C4": "B",
-          "C5": "B",
-          "C6": "D",
-          "C7": "A",
+          "C5": "A",
+          "C6": "C",
+          "C7": "D",
           "C8": "D",
-          "C9": "D",
-          "C10": "C",
+          "C9": "B",
+          "C10": "B",
           "C11": "B",
-          "C12": "D"
+          "C12": "C"
         },
         "p1_results": {
           "C1": true,
-          "C2": true,
-          "C3": true,
+          "C2": false,
+          "C3": false,
           "C4": true,
-          "C5": false,
-          "C6": true,
-          "C7": true,
+          "C5": true,
+          "C6": false,
+          "C7": false,
           "C8": false,
-          "C9": true,
-          "C10": true,
+          "C9": false,
+          "C10": false,
           "C11": true,
-          "C12": true
+          "C12": false
         },
         "p2_answers": {
-          "13a": "Đ",
-          "13b": "S",
-          "13c": "Đ",
+          "13a": "S",
+          "13b": "Đ",
+          "13c": "S",
           "13d": "Đ",
           "14a": "Đ",
           "14b": "Đ",
           "14c": "S",
-          "14d": "S"
+          "14d": "Đ"
         },
         "p2_results": {
-          "13a": true,
-          "13b": true,
-          "13c": true,
+          "13a": false,
+          "13b": false,
+          "13c": false,
           "13d": true,
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": true
+          "14d": false
         },
         "p3_answers": {
           "15": "-19",
@@ -19654,7 +19910,8 @@
             "q": "14d"
           }
         ],
-        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_024_omr.jpg"
+        "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_024_omr.jpg",
+        "mcq_score": 1.6
       },
       "summary_comment": "Bài làm rất tốt (9,00 điểm)! Tự luận đạt 2,75/3,0đ (Bài 1 đạt 1,5đ trọn vẹn, Bài 2 lập luận xuất sắc, cần nhớ ghi thêm bảng GT/KL).",
       "questions": [
@@ -19737,7 +19994,13 @@
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/024_Bai_024_T1_211011_DaCham.jpg",
         "images/graded_exams/2026_2027/GK1/Toan8/8A10/024_Bai_024_T2_211011_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_024_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Toan8/8A10/hs_024_omr.jpg",
+      "original_score": 9.0,
+      "audited_score": 9.0,
+      "score_delta": 0.0,
+      "score": 9.0,
+      "audit_reason": "Điều chỉnh chi tiết OMR nhưng giữ nguyên tổng điểm (9,00 -> 9,00): Sửa 3 câu máy đọc nhầm ở Phần I là C5 (B->A, +0,25đ), C7 (A->B, -0,25đ) và C8 (D->C, 0đ), tổng Phần I giữ 2,50đ; Phần II (2,00đ), Phần III (1,75đ: C17=3 được 0,25đ) và Tự luận (2,75đ: thiếu GT/KL 0đ; nhắc HS sửa lỗi diễn đạt nhầm '2 cạnh đáy' thành '2 góc kề một đáy' ở 2b và lỗi nối dấu '=' ở 2c).",
+      "audit_status": "adjusted_vision"
     }
   ]
 }
