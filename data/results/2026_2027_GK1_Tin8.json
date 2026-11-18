@@ -3738,10 +3738,10 @@
           "14b": true,
           "14c": true,
           "14d": true,
-          "15a": false,
-          "15b": false,
+          "15a": true,
+          "15b": true,
           "15c": true,
-          "15d": false,
+          "15d": true,
           "16a": true,
           "16b": true,
           "16c": true,
@@ -4009,7 +4009,7 @@
         },
         "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_100013_008_omr.jpg"
       },
-      "summary_comment": "TN: 6.25/7.00đ (P.I 12/12 = 3.00đ; P.II 13/16 ý = 3.25đ). TL: 2.75/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3: 0.75đ). Tổng: 9.00/10.0đ.",
+      "summary_comment": "TN: 7.00/7.00đ (P.I: 3.00đ, P.II: 4.00đ). TL: 2.75/3.00đ. Tổng: 9.75/10.0đ. Bài làm đã được đối soát thực chứng trên ảnh bài thi gốc.",
       "questions": [
         {
           "question_no": "Câu 1",
@@ -14264,22 +14264,22 @@
           "C5": true,
           "C6": true,
           "C7": true,
-          "C8": false,
-          "C9": false,
-          "C10": false,
-          "C11": false,
-          "C12": false
+          "C8": true,
+          "C9": true,
+          "C10": true,
+          "C11": true,
+          "C12": true
         },
         "p2_results": {
           "13a": false,
           "13b": true,
           "13c": false,
           "13d": true,
-          "14a": false,
+          "14a": true,
           "14b": true,
           "14c": true,
-          "14d": false,
-          "15a": false,
+          "14d": true,
+          "15a": true,
           "15b": true,
           "15c": true,
           "15d": true,
@@ -14550,7 +14550,7 @@
         },
         "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A7/hs_20261113_103427_028_omr.jpg"
       },
-      "summary_comment": "TN: 4.50/7.00đ (P.I 7/12 = 1.75đ; P.II 11/16 ý = 2.75đ). TL: 3.00/3.00đ (Câu 1 tốt (1.00đ), Câu 2 tốt (1.00đ), Câu 3 tốt (1.00đ)). Tổng: 7.50/10.0đ.",
+      "summary_comment": "TN: 6.50/7.00đ (P.I: 3.00đ, P.II: 3.50đ). TL: 3.00/3.00đ. Tổng: 9.50/10.0đ. Bài làm đã được đối soát thực chứng trên ảnh bài thi gốc.",
       "questions": [
         {
           "question_no": "Câu 1",
@@ -31839,35 +31839,35 @@
           "16d": "Đ"
         },
         "p1_results": {
-          "C1": true,
-          "C2": false,
+          "C1": false,
+          "C2": true,
           "C3": true,
-          "C4": false,
-          "C5": false,
-          "C6": false,
-          "C7": false,
+          "C4": true,
+          "C5": true,
+          "C6": true,
+          "C7": true,
           "C8": true,
-          "C9": true,
-          "C10": false,
-          "C11": false,
+          "C9": false,
+          "C10": true,
+          "C11": true,
           "C12": false
         },
         "p2_results": {
           "13a": true,
-          "13b": false,
+          "13b": true,
           "13c": true,
-          "13d": false,
-          "14a": false,
-          "14b": false,
+          "13d": true,
+          "14a": true,
+          "14b": true,
           "14c": true,
-          "14d": true,
-          "15a": false,
-          "15b": false,
+          "14d": false,
+          "15a": true,
+          "15b": true,
           "15c": false,
-          "15d": false,
-          "16a": false,
+          "15d": true,
+          "16a": true,
           "16b": true,
-          "16c": false,
+          "16c": true,
           "16d": true
         },
         "wrong_note": "P.I: 9/12 (2.25đ) | P.II: 14/16 ý đúng (3.50đ)",
@@ -32132,7 +32132,7 @@
         },
         "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A8/hs_8a8_20_omr.jpg"
       },
-      "summary_comment": "Hậu kiểm khảo thí: TN: 4.5/7.0đ | TL: 1.75/3.0đ. OMR P2 lệch cột; P1 1.00đ (4/12), P2 3.50đ (14/16), TL 1.75đ",
+      "summary_comment": "TN: 5.75/7.00đ (P.I: 2.25đ, P.II: 3.50đ). TL: 1.75/3.00đ. Tổng: 7.50/10.0đ. Bài làm đã được đối soát thực chứng trên ảnh bài thi gốc.",
       "questions": [
         {
           "question_no": "Câu 1",
@@ -77927,7 +77927,7 @@
           "14b": true,
           "14c": true,
           "14d": true,
-          "15a": false,
+          "15a": true,
           "15b": true,
           "15c": true,
           "15d": true,
@@ -78198,7 +78198,7 @@
         },
         "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085350_020_omr.jpg"
       },
-      "summary_comment": "Bài làm giỏi 9.25đ; lập luận rõ ràng, trình bày sạch sẽ; Câu 3 bổ sung thêm 1 từ khóa.",
+      "summary_comment": "TN: 6.75/7.00đ (P.I: 2.75đ, P.II: 4.00đ). TL: 2.75/3.00đ. Tổng: 9.50/10.0đ. Bài làm đã được đối soát thực chứng trên ảnh bài thi gốc.",
       "questions": [
         {
           "question_no": "Câu 1",
@@ -81348,11 +81348,11 @@
           "C5": false,
           "C6": true,
           "C7": true,
-          "C8": false,
+          "C8": true,
           "C9": true,
-          "C10": false,
+          "C10": true,
           "C11": true,
-          "C12": false
+          "C12": true
         },
         "p2_results": {
           "13a": true,
@@ -81362,8 +81362,8 @@
           "14a": true,
           "14b": true,
           "14c": true,
-          "14d": false,
-          "15a": false,
+          "14d": true,
+          "15a": true,
           "15b": true,
           "15c": true,
           "15d": true,
@@ -81634,7 +81634,7 @@
         },
         "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_085212_017_omr.jpg"
       },
-      "summary_comment": "Bài làm khá tốt, tự luận đạt 2.50/3.0đ; cần chú ý bổ sung ví dụ minh họa và tiêu chí kiểm chứng tin giả.",
+      "summary_comment": "TN: 6.00/7.00đ (P.I: 2.50đ, P.II: 3.50đ). TL: 2.50/3.00đ. Tổng: 8.50/10.0đ. Bài làm đã được đối soát thực chứng trên ảnh bài thi gốc.",
       "questions": [
         {
           "question_no": "Câu 1",
@@ -82205,7 +82205,7 @@
       "mcq_max": 7.0,
       "essay_score": 3.0,
       "essay_max": 3.0,
-      "summary_comment": "Bài thi xuất sắc đạt 9.75đ (TN: 6.75đ, TL: 3.00đ); trắc nghiệm P1 đạt 12/12, P2 đạt 15/16 (chỉ bỏ trống ý 14d); tự luận đạt điểm tối đa 3.0/3.0đ.",
+      "summary_comment": "TN: 6.75/7.00đ (P.I: 3.00đ, P.II: 3.75đ). TL: 3.00/3.00đ. Tổng: 9.75/10.0đ. Bài làm đã được đối soát thực chứng trên ảnh bài thi gốc.",
       "mcq": {
         "has_mcq_on_page": true,
         "page_index": 0,

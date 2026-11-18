@@ -2663,7 +2663,7 @@
           const cy = cfg.p1RowsY[i - 1];
           const chosen = p1Answers[qKey] || p1Answers[i] || "";
           const correctKey = keyP1[qKey] || "";
-          const isOk = (p1Results[qKey] !== undefined) ? p1Results[qKey] : (chosen === correctKey && chosen !== "");
+          const isOk = (chosen && correctKey) ? (chosen === correctKey) : Boolean(p1Results[qKey]);
 
           if (chosen && cfg.p1ColsX && cfg.p1ColsX[chosen]) {
             // Viền dày màu xanh blue nếu tô đúng, màu đỏ nếu tô sai
@@ -2683,7 +2683,7 @@
             const cy = item.y;
             const chosen = p2Answers[subKey] || "";
             const correctKey = keyP2[subKey] || "";
-            const isOk = (p2Results[subKey] !== undefined) ? p2Results[subKey] : (chosen === correctKey && chosen !== "");
+            const isOk = (chosen && correctKey) ? (chosen === correctKey) : Boolean(p2Results[subKey]);
 
             if (chosen && (chosen === 'Đ' || chosen === 'S')) {
               const cx = (chosen === 'Đ') ? item.xD : item.xS;
@@ -2716,8 +2716,8 @@
       for (let i = 1; i <= 12; i++) {
         const qKey = `C${i}`;
         const chosen = p1Answers[qKey] || p1Answers[i] || "";
-        const isOk = (p1Results[qKey] !== undefined) ? p1Results[qKey] : (chosen === keyP1[qKey] && chosen !== "");
         const correctKey = keyP1[qKey] || "";
+        const isOk = (chosen && correctKey) ? (chosen === correctKey) : Boolean(p1Results[qKey]);
         p1List.push({ label: `C${i}`, chosen, correctKey, isOk });
       }
 
@@ -2731,8 +2731,8 @@
       const p2ItemsMap = {};
       p2Keys.forEach(k => {
         const chosen = p2Answers[k] || "";
-        const isOk = (p2Results[k] !== undefined) ? p2Results[k] : (chosen === keyP2[k] && chosen !== "");
         const correctKey = keyP2[k] || "";
+        const isOk = (chosen && correctKey) ? (chosen === correctKey) : Boolean(p2Results[k]);
         p2ItemsMap[k] = { label: k, chosen, correctKey, isOk };
       });
 
