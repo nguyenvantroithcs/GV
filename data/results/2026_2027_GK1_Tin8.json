@@ -81802,13 +81802,13 @@
     },
     {
       "submission_id": "hs_20261115_084656_008",
-      "student_name": "Chưa ghi tên (Đang đối chiếu loại trừ)",
+      "student_name": "Bùi Nguyễn Gia Huy",
       "student_class": "8A10",
       "subject": "",
-      "stt": 99,
-      "stt_vnedu": 99,
-      "hs_id": "",
-      "dob": "",
+      "stt": 16,
+      "stt_vnedu": "16",
+      "hs_id": "5008152383",
+      "dob": "07/12/2013",
       "page_rotations": [
         0
       ],
@@ -82180,7 +82180,9 @@
       "graded_pages": [
         "images/graded_exams/2026_2027/GK1/Tin8/8A10/008_Bai_008_T1_084656_DaCham.jpg"
       ],
-      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084656_008_omr.jpg"
+      "omr_crop_image": "images/omr_crops/2026_2027/GK1/Tin8/8A10/hs_20261115_084656_008_omr.jpg",
+      "audit_status": "verified_teacher",
+      "audit_reason": "Xác nhận thực chứng & Giáo viên duyệt: Bài thi không ghi tên số 008 là của em Bùi Nguyễn Gia Huy (STT 16). Bút tích lớp 8A10 bằng bút bi xanh trùng khớp 100% với bài thi môn Toán 8; thói quen làm bài trắc nghiệm và bỏ trắng tự luận trùng khớp."
     }
   ]
 }
