@@ -112,7 +112,7 @@ function khoiTaoTieuDeSheet() {
 }
 
 /**
- * Xử lý yêu cầu POST khi học sinh bấm "Gửi Ý Kiến Đến Giáo Viên" từ trang xem_diem.html
+ * Xử lý yêu cầu POST: Gửi ý kiến phúc khảo mới HOẶC Cập nhật lời giải đáp của Giáo viên
  */
 function doPost(e) {
   try {
@@ -131,6 +131,75 @@ function doPost(e) {
       }
     }
 
+    // 1. CHỨC NĂNG CẬP NHẬT GHI CHÚ / GIẢI ĐÁP CỦA GIÁO VIÊN
+    if (data.action === "update_teacher_note" || data.action === "update_feedback") {
+      const targetStt = parseInt(data.stt || data.row_index || 0, 10);
+      const newStatus = data.trang_thai || "Đã giải quyết";
+      const teacherNote = data.ghi_chu_gv || "";
+      const processedTime = data.thoi_gian_xu_ly || Utilities.formatDate(new Date(), "GMT+7", "dd/MM/yyyy HH:mm:ss");
+
+      const lastRow = sheet.getLastRow();
+      let foundRow = -1;
+
+      if (targetStt > 0) {
+        // Tìm dòng có STT khớp ở cột 1
+        const sttValues = sheet.getRange(2, 1, Math.max(1, lastRow - 1), 1).getValues();
+        for (let i = 0; i < sttValues.length; i++) {
+          if (parseInt(sttValues[i][0], 10) === targetStt) {
+            foundRow = i + 2;
+            break;
+          }
+        }
+      }
+
+      if (foundRow === -1 && data.ma_hs) {
+        // Fallback tìm theo Mã HS và Môn học
+        const idValues = sheet.getRange(2, 5, Math.max(1, lastRow - 1), 4).getValues(); // Cột 5 đến 8
+        for (let i = 0; i < idValues.length; i++) {
+          const rowHsId = ("" + idValues[i][0]).replace(/^'/, "").trim();
+          const rowMon = ("" + idValues[i][3]).trim();
+          if (rowHsId === ("" + data.ma_hs).trim()) {
+            if (!data.mon_hoc || rowMon.includes(data.mon_hoc)) {
+              foundRow = i + 2;
+              break;
+            }
+          }
+        }
+      }
+
+      if (foundRow > 1) {
+        // Cập nhật Cột M: Trạng thái (Cột 13)
+        sheet.getRange(foundRow, 13).setValue(newStatus);
+        if (newStatus === "Đã giải quyết") {
+          sheet.getRange(foundRow, 13).setBackground("#dcfce7").setFontColor("#15803d").setFontWeight("bold");
+        } else if (newStatus === "Bảo lưu điểm") {
+          sheet.getRange(foundRow, 13).setBackground("#f1f5f9").setFontColor("#475569").setFontWeight("bold");
+        } else {
+          sheet.getRange(foundRow, 13).setBackground("#fef3c7").setFontColor("#b45309").setFontWeight("bold");
+        }
+
+        // Cập nhật Cột N: Ghi Chú & Kết Quả Của GV (Cột 14)
+        sheet.getRange(foundRow, 14).setValue(teacherNote);
+        sheet.getRange(foundRow, 14).setWrap(true);
+
+        // Cập nhật Cột O: Thời Gian Xử Lý (Cột 15)
+        sheet.getRange(foundRow, 15).setValue(processedTime);
+        sheet.getRange(foundRow, 15).setHorizontalAlignment("center");
+
+        return ContentService.createTextOutput(JSON.stringify({
+          status: "success",
+          message: `Đã cập nhật phản hồi của Giáo viên cho dòng STT ${targetStt} thành công!`,
+          row: foundRow
+        })).setMimeType(ContentService.MimeType.JSON);
+      } else {
+        return ContentService.createTextOutput(JSON.stringify({
+          status: "error",
+          message: `Không tìm thấy dòng phù hợp với STT ${targetStt} hoặc Mã HS ${data.ma_hs}!`
+        })).setMimeType(ContentService.MimeType.JSON);
+      }
+    }
+
+    // 2. CHỨC NĂNG MẶC ĐỊNH: HỌC SINH GỬI Ý KIẾN MỚI
     const lastRow = Math.max(sheet.getLastRow(), 1);
     const stt = lastRow; // Dòng 1 là header nên row 2 sẽ có STT = 1
     const thoiGianGui = data.timestamp || Utilities.formatDate(new Date(), "GMT+7", "dd/MM/yyyy HH:mm:ss");
@@ -202,12 +271,51 @@ function doPost(e) {
 }
 
 /**
- * Xử lý yêu cầu GET: Kiểm tra kết nối Web App hoặc lấy danh sách ý kiến
+ * Xử lý yêu cầu GET: Kiểm tra kết nối Web App HOẶC Lấy danh sách toàn bộ phản hồi & giải đáp của GV
  */
 function doGet(e) {
   const sheet = getTargetSheet();
   const lastRow = sheet.getLastRow();
+  const action = (e && e.parameter && e.parameter.action) || "";
 
+  // Hỗ trợ lấy toàn bộ danh sách phản hồi để hiển thị công khai trên xem_diem.html
+  if (action === "get_all" || action === "get_feedbacks" || action === "list") {
+    if (lastRow <= 1) {
+      return ContentService.createTextOutput(JSON.stringify({
+        status: "success",
+        total: 0,
+        feedbacks: []
+      })).setMimeType(ContentService.MimeType.JSON);
+    }
+
+    const dataRange = sheet.getRange(2, 1, lastRow - 1, 15);
+    const values = dataRange.getValues();
+    const feedbacks = values.map(row => ({
+      stt: row[0],
+      timestamp: row[1] ? (row[1] instanceof Date ? Utilities.formatDate(row[1], "GMT+7", "dd/MM/yyyy HH:mm:ss") : "" + row[1]) : "",
+      nam_hoc: "" + (row[2] || ""),
+      lop: "" + (row[3] || ""),
+      ma_hs: ("" + (row[4] || "")).replace(/^'/, ""),
+      ho_ten: "" + (row[5] || ""),
+      dob: row[6] ? (row[6] instanceof Date ? Utilities.formatDate(row[6], "GMT+7", "dd/MM/yyyy") : "" + row[6]) : "",
+      mon_hoc: "" + (row[7] || ""),
+      ten_bai_thi: "" + (row[8] || ""),
+      diem_hien_tai: "" + (row[9] || ""),
+      y_kien: "" + (row[10] || ""),
+      lien_he: ("" + (row[11] || "")).replace(/^'/, ""),
+      trang_thai: "" + (row[12] || "Chờ xem xét"),
+      ghi_chu_gv: "" + (row[13] || ""),
+      thoi_gian_xu_ly: row[14] ? (row[14] instanceof Date ? Utilities.formatDate(row[14], "GMT+7", "dd/MM/yyyy HH:mm:ss") : "" + row[14]) : ""
+    }));
+
+    return ContentService.createTextOutput(JSON.stringify({
+      status: "success",
+      total: feedbacks.length,
+      feedbacks: feedbacks
+    })).setMimeType(ContentService.MimeType.JSON);
+  }
+
+  // Mặc định: Trả về trạng thái hoạt động của Web App
   return ContentService.createTextOutput(JSON.stringify({
     status: "online",
     message: "Hệ thống Web App Google Sheets nhận phúc khảo đang hoạt động bình thường!",

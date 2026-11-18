@@ -1,0 +1,53 @@
+[
+  {
+    "stt": 1,
+    "timestamp": "18/11/2026 21:10:15",
+    "nam_hoc": "2026 - 2027",
+    "lop": "8A10",
+    "ma_hs": "5007572523",
+    "ho_ten": "Đặng Lan Anh",
+    "dob": "16/02/2013",
+    "mon_hoc": "Tin học 8",
+    "ten_bai_thi": "Kiểm Tra Giữa Kỳ I - Tin học 8",
+    "diem_hien_tai": "9.75đ (TN: 6.75đ, TL: 3.00đ)",
+    "y_kien": "Thưa thầy, bài thi môn Tin học 8 của em trước đó bị ghép nhầm tên và điểm, em đã nạp lại bài thi gốc để thầy chấm lại giúp em ạ.",
+    "lien_he": "0987654321",
+    "trang_thai": "Đã giải quyết",
+    "ghi_chu_gv": "Thầy đã đối soát trực tiếp trên ảnh bài thi gốc của em: Phần I đúng 12/12 câu (3.00đ); Phần II đúng 15/16 ý (3.75đ); Phần Tự luận đạt trọn vẹn 3.00/3.00đ (Câu 1: 1.0đ, Câu 2: 1.0đ, Câu 3: 1.0đ). Tổng điểm thực chứng đạt 9.75 / 10.00 điểm. Đã cập nhật ảnh chấm đỏ sư phạm và điểm chính thức trên hệ thống.",
+    "thoi_gian_xu_ly": "18/11/2026 23:15:00"
+  },
+  {
+    "stt": 2,
+    "timestamp": "18/11/2026 21:25:30",
+    "nam_hoc": "2026 - 2027",
+    "lop": "8A10",
+    "ma_hs": "5007572551",
+    "ho_ten": "Huỳnh Anh Quân",
+    "dob": "10/11/2013",
+    "mon_hoc": "Tin học 8",
+    "ten_bai_thi": "Kiểm Tra Giữa Kỳ I - Tin học 8",
+    "diem_hien_tai": "8.50đ (TN: 5.50đ, TL: 3.00đ)",
+    "y_kien": "Thưa thầy, em tra cứu điểm Tin 8 kiểm tra giúp em bài thi số 031 ạ.",
+    "lien_he": "0912345678",
+    "trang_thai": "Đã giải quyết",
+    "ghi_chu_gv": "Thầy đã xác minh bút tích và trả bài thi số 031 về đúng tên em Huỳnh Anh Quân (8A10). Điểm chính thức: 8.50đ (Trắc nghiệm: 5.50đ, Tự luận: 3.00đ). Em đã có thể tra cứu và xem chi tiết bài chấm bình thường.",
+    "thoi_gian_xu_ly": "18/11/2026 23:20:00"
+  },
+  {
+    "stt": 3,
+    "timestamp": "18/11/2026 21:40:12",
+    "nam_hoc": "2026 - 2027",
+    "lop": "8A10",
+    "ma_hs": "5007572535",
+    "ho_ten": "Bùi Nguyễn Gia Huy",
+    "dob": "25/08/2013",
+    "mon_hoc": "Tin học 8",
+    "ten_bai_thi": "Kiểm Tra Giữa Kỳ I - Tin học 8",
+    "diem_hien_tai": "4.25đ (TN: 4.25đ, TL: 0.00đ)",
+    "y_kien": "Thưa thầy, em đi thi có làm bài trắc nghiệm nhưng bài bị sót tên chưa thấy điểm ạ.",
+    "lien_he": "0933221144",
+    "trang_thai": "Đã giải quyết",
+    "ghi_chu_gv": "Thầy đã xác minh bài thi số 008 (không điền tên) chính là của em dựa trên so khớp bút tích mực bi xanh lớp 8A10 và bài thi môn Toán. Điểm Trắc nghiệm 4.25đ, Tự luận bỏ trắng 0đ. Tổng điểm 4.25đ đã được cập nhật cho em.",
+    "thoi_gian_xu_ly": "18/11/2026 23:22:00"
+  }
+]

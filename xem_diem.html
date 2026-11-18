@@ -1187,6 +1187,213 @@
     }
     .btn-submit-feedback:disabled { opacity: 0.6; cursor: not-allowed; }
 
+    /* DANH SÁCH Ý KIẾN PHẢN HỒI & GIẢI ĐÁP CỦA GIÁO VIÊN */
+    .feedback-history-card {
+      margin-top: 24px;
+      border: 1.5px solid #cbd5e1;
+      border-radius: var(--radius);
+      background: #ffffff;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.05);
+      overflow: hidden;
+    }
+    .feedback-history-header {
+      background: #f8fafc;
+      padding: 16px 20px;
+      border-bottom: 1.5px solid #e2e8f0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .feedback-history-title {
+      font-size: 15.5px;
+      font-weight: 800;
+      color: #0f172a;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .fb-filter-bar {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .fb-filter-btn {
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      border: 1px solid #cbd5e1;
+      background: #ffffff;
+      color: #475569;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .fb-filter-btn:hover {
+      background: #f1f5f9;
+      color: #1e293b;
+    }
+    .fb-filter-btn.active {
+      background: #2563eb;
+      color: #ffffff;
+      border-color: #2563eb;
+      box-shadow: 0 2px 6px rgba(37,99,235,0.25);
+    }
+    .btn-refresh-feedbacks {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      padding: 5px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #475569;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.15s;
+    }
+    .btn-refresh-feedbacks:hover {
+      background: #e2e8f0;
+      color: #0f172a;
+    }
+    .feedback-list-container {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      padding: 20px;
+      max-height: 620px;
+      overflow-y: auto;
+    }
+    .fb-item-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      background: #ffffff;
+      padding: 14px 18px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+      transition: all 0.2s;
+    }
+    .fb-item-card:hover {
+      border-color: #94a3b8;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+    }
+    .fb-item-card.is-my-feedback {
+      border: 2px solid #2563eb;
+      background: #f8faff;
+      position: relative;
+    }
+    .fb-item-card.is-my-feedback::before {
+      content: "Ý kiến của em";
+      position: absolute;
+      top: -10px;
+      right: 18px;
+      background: #2563eb;
+      color: #ffffff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 10px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(37,99,235,0.3);
+    }
+    .fb-header-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 10px;
+    }
+    .fb-student-info {
+      font-size: 13.5px;
+      font-weight: 700;
+      color: #1e293b;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .fb-class-badge {
+      font-size: 11.5px;
+      font-weight: 800;
+      background: #e0e7ff;
+      color: #3730a3;
+      padding: 2px 8px;
+      border-radius: 6px;
+      border: 1px solid #c7d2fe;
+    }
+    .fb-exam-badge {
+      font-size: 11.5px;
+      font-weight: 600;
+      background: #f1f5f9;
+      color: #475569;
+      padding: 2px 8px;
+      border-radius: 6px;
+    }
+    .fb-status-pill {
+      font-size: 11.5px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 14px;
+      white-space: nowrap;
+    }
+    .fb-status-resolved {
+      background: #dcfce7;
+      color: #15803d;
+      border: 1px solid #bbf7d0;
+    }
+    .fb-status-pending {
+      background: #fef3c7;
+      color: #b45309;
+      border: 1px solid #fde68a;
+    }
+    .fb-status-retained {
+      background: #f1f5f9;
+      color: #475569;
+      border: 1px solid #cbd5e1;
+    }
+    .fb-question-box {
+      background: #f8fafc;
+      border-left: 3.5px solid #64748b;
+      padding: 10px 14px;
+      border-radius: 4px 6px 6px 4px;
+      font-size: 13.5px;
+      color: #334155;
+      line-height: 1.55;
+      margin-bottom: 10px;
+    }
+    .fb-question-box strong {
+      color: #0f172a;
+    }
+    .fb-teacher-box {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-left: 4px solid #16a34a;
+      padding: 12px 15px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      color: #14532d;
+      line-height: 1.6;
+    }
+    .fb-teacher-box.pending {
+      background: #fffbeb;
+      border-color: #fde68a;
+      border-left-color: #f59e0b;
+      color: #92400e;
+      font-style: italic;
+    }
+    .fb-time-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+      color: #94a3b8;
+      margin-top: 8px;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
     /* LIGHTBOX CHUYÊN NGHIỆP: ZOOM + PAN KÉO THẢ */
     .lightbox-modal {
       display: none;
@@ -1610,6 +1817,39 @@
         <div id="feedbackAlert" class="alert-box" style="margin-top:12px;"></div>
       </div>
 
+      <!-- DANH SÁCH Ý KIẾN PHẢN HỒI & KẾT QUẢ GIẢI ĐÁP CỦA THẦY -->
+      <div class="feedback-history-card" id="feedbackHistoryCard">
+        <div class="feedback-history-header">
+          <div class="feedback-history-title">
+            <span>📋</span>
+            <span>KẾT QUẢ GIẢI ĐÁP PHẢN HỒI &amp; PHÚC KHẢO CỦA THẦY</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+            <div class="fb-filter-bar" id="fbFilterBar">
+              <button type="button" class="fb-filter-btn active" onclick="locPhanHoiTheoLop('ALL', this)">Tất cả</button>
+              <button type="button" class="fb-filter-btn" id="btnFilterMyFeedback" onclick="locPhanHoiCuaToi(this)" style="display:none;">Ý kiến của em</button>
+              <button type="button" class="fb-filter-btn" onclick="locPhanHoiTheoLop('7A9', this)">7A9</button>
+              <button type="button" class="fb-filter-btn" onclick="locPhanHoiTheoLop('7A10', this)">7A10</button>
+              <button type="button" class="fb-filter-btn" onclick="locPhanHoiTheoLop('8A7', this)">8A7</button>
+              <button type="button" class="fb-filter-btn" onclick="locPhanHoiTheoLop('8A8', this)">8A8</button>
+              <button type="button" class="fb-filter-btn" onclick="locPhanHoiTheoLop('8A9', this)">8A9</button>
+              <button type="button" class="fb-filter-btn" onclick="locPhanHoiTheoLop('8A10', this)">8A10</button>
+            </div>
+            <button type="button" class="btn-refresh-feedbacks" onclick="taiDanhSachPhanHoi(true)" title="Cập nhật ý kiến mới nhất từ máy chủ">
+              <span>🔄</span><span>Cập nhật</span>
+            </button>
+          </div>
+        </div>
+        <div style="padding: 12px 20px 0 20px; font-size: 13px; color: #64748b; line-height: 1.5;">
+          Danh sách các ý kiến, thắc mắc của học sinh đã gửi và lời giải đáp thực chứng từ ảnh bài thi gốc của Thầy để các em tiện theo dõi:
+        </div>
+        <div class="feedback-list-container" id="feedbackListContainer">
+          <div style="text-align: center; padding: 25px; color: #94a3b8; font-size: 13.5px;">
+            ⏳ Đang tải danh sách phản hồi từ hệ thống...
+          </div>
+        </div>
+      </div>
+
     </div>
 
   </div>
@@ -2008,6 +2248,7 @@
     // 1. KHỞI TẠO HỆ THỐNG MỤC LỤC ĐỢT THI (CASCADING REGISTRY)
     document.addEventListener("DOMContentLoaded", async () => {
       await loadRegistryAndInit();
+      taiDanhSachPhanHoi();
     });
 
     async function loadRegistryAndInit() {
@@ -2347,6 +2588,9 @@
 
       // Render ảnh bài thi đã chấm
       renderGradedGallery(st.graded_pages || []);
+
+      // Cập nhật và làm nổi bật ý kiến phản hồi của học sinh này (nếu có)
+      capNhatPhanHoiTheoHocSinh(st);
 
       resultSec.style.display = "block";
       resultSec.scrollIntoView({ behavior: "smooth" });
@@ -3337,6 +3581,28 @@
         alertEl.innerHTML = `✅ <b>Ý kiến của em đã được gửi thành công!</b> Giáo viên đã ghi nhận ý kiến về bài thi của em để xem xét lại và phản hồi sớm nhất.`;
         alertEl.style.display = "flex";
         document.getElementById("feedbackContent").value = "";
+
+        // Tự động cập nhật danh sách hiển thị ngay lập tức
+        cachedFeedbacks.unshift({
+          stt: cachedFeedbacks.length + 1,
+          timestamp: payload.timestamp,
+          nam_hoc: payload.nam_hoc,
+          lop: payload.lop,
+          ma_hs: payload.ma_hs,
+          ho_ten: payload.ho_ten,
+          dob: payload.dob,
+          mon_hoc: payload.mon_hoc,
+          ten_bai_thi: payload.ten_bai_thi,
+          diem_hien_tai: payload.diem_hien_tai,
+          y_kien: payload.y_kien,
+          lien_he: payload.lien_he,
+          trang_thai: "Chờ xem xét",
+          ghi_chu_gv: "",
+          thoi_gian_xu_ly: ""
+        });
+        renderDanhSachPhanHoi();
+        taiDanhSachPhanHoi(true);
+
       } catch (err) {
         console.error("Lỗi gửi ý kiến:", err);
         alertEl.className = "alert-box alert-danger";
@@ -3346,6 +3612,231 @@
         btn.disabled = false;
         btn.innerHTML = "<span>🚀</span><span>Gửi Ý Kiến Đến Giáo Viên</span>";
       }
+    }
+
+    // 10. QUẢN LÝ & HIỂN THỊ DANH SÁCH Ý KIẾN PHẢN HỒI & GIẢI ĐÁP CỦA GIÁO VIÊN
+    let cachedFeedbacks = [];
+    let currentFilterLop = "ALL";
+    let filterMyFeedbackOnly = false;
+
+    async function taiDanhSachPhanHoi(forceRefresh = false) {
+      const container = document.getElementById("feedbackListContainer");
+      if (!container) return;
+
+      if (forceRefresh) {
+        container.innerHTML = `<div style="text-align: center; padding: 25px; color: #64748b; font-size: 13.5px;">⏳ Đang đồng bộ phản hồi mới nhất từ Google Sheets...</div>`;
+      }
+
+      // 1. Tải trước từ file tĩnh cục bộ data/student_feedbacks.json (nhanh tức thì, không phụ thuộc mạng)
+      try {
+        const respLocal = await fetch("data/student_feedbacks.json?v=" + Date.now());
+        if (respLocal.ok) {
+          const localData = await respLocal.json();
+          if (Array.isArray(localData) && localData.length > 0) {
+            cachedFeedbacks = localData;
+            renderDanhSachPhanHoi();
+          }
+        }
+      } catch (e) {
+        console.warn("Chưa tải được data/student_feedbacks.json:", e);
+      }
+
+      // 2. Tải trực tiếp từ Google Apps Script Web App nếu có kết nối mạng
+      if (GAS_PHUCKHAO_URL && !GAS_PHUCKHAO_URL.includes("SAMPLE_DEPLOY_ID")) {
+        try {
+          const fetchUrl = `${GAS_PHUCKHAO_URL}?action=get_all&t=${Date.now()}`;
+          const res = await fetch(fetchUrl);
+          if (res.ok) {
+            const json = await res.json();
+            if (json && (json.status === "success" || Array.isArray(json.feedbacks))) {
+              const liveFeedbacks = json.feedbacks || json.data || [];
+              if (liveFeedbacks.length > 0) {
+                cachedFeedbacks = liveFeedbacks;
+                renderDanhSachPhanHoi();
+              }
+            }
+          }
+        } catch (err) {
+          console.warn("Không kết nối được trực tiếp tới GAS Web App:", err);
+        }
+      }
+
+      // Nếu vẫn chưa có dữ liệu nào
+      if (!cachedFeedbacks || cachedFeedbacks.length === 0) {
+        container.innerHTML = `
+          <div style="text-align: center; padding: 30px 15px; color: #94a3b8; font-size: 13.5px;">
+            📭 Hiện tại chưa có ý kiến phản hồi nào trong hệ thống.
+          </div>
+        `;
+      } else {
+        renderDanhSachPhanHoi();
+      }
+    }
+
+    function renderDanhSachPhanHoi() {
+      const container = document.getElementById("feedbackListContainer");
+      if (!container) return;
+
+      if (!cachedFeedbacks || cachedFeedbacks.length === 0) {
+        container.innerHTML = `
+          <div style="text-align: center; padding: 30px 15px; color: #94a3b8; font-size: 13.5px;">
+            📭 Hiện tại chưa có ý kiến phản hồi nào trong hệ thống.
+          </div>
+        `;
+        return;
+      }
+
+      const curHsId = (currentStudentResult && currentStudentResult.hs_id) || "";
+      const curName = (currentStudentResult && currentStudentResult.student_name) || "";
+      const curClass = (currentStudentResult && currentStudentResult.student_class) || "";
+
+      // Lọc theo lớp và theo bản thân
+      let filtered = cachedFeedbacks.slice();
+
+      if (filterMyFeedbackOnly && (curHsId || curName)) {
+        filtered = filtered.filter(f => {
+          const fId = ("" + (f.ma_hs || "")).trim();
+          const fName = normStr("" + (f.ho_ten || ""));
+          return (curHsId && fId === curHsId) || (curName && fName === normStr(curName));
+        });
+      } else if (currentFilterLop !== "ALL") {
+        filtered = filtered.filter(f => ("" + (f.lop || "")).toUpperCase().includes(currentFilterLop));
+      }
+
+      // Sắp xếp: Ý kiến của bản thân đưa lên hàng đầu, sau đó theo STT mới nhất
+      filtered.sort((a, b) => {
+        const aIsMine = (curHsId && ("" + a.ma_hs).trim() === curHsId) || (curName && normStr(a.ho_ten) === normStr(curName));
+        const bIsMine = (curHsId && ("" + b.ma_hs).trim() === curHsId) || (curName && normStr(b.ho_ten) === normStr(curName));
+        if (aIsMine && !bIsMine) return -1;
+        if (!aIsMine && bIsMine) return 1;
+        return (parseInt(b.stt, 10) || 0) - (parseInt(a.stt, 10) || 0);
+      });
+
+      if (filtered.length === 0) {
+        container.innerHTML = `
+          <div style="text-align: center; padding: 30px 15px; color: #64748b; font-size: 13.5px;">
+            🔍 Không có phản hồi nào phù hợp với bộ lọc đã chọn.
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = "";
+      filtered.forEach(f => {
+        const isMine = (curHsId && ("" + f.ma_hs).trim() === curHsId) || (curName && normStr(f.ho_ten) === normStr(curName));
+        const card = document.createElement("div");
+        card.className = `fb-item-card ${isMine ? 'is-my-feedback' : ''}`;
+
+        // Trạng thái xử lý
+        const status = f.trang_thai || "Chờ xem xét";
+        let statusClass = "fb-status-pending";
+        let statusIcon = "⏳";
+        if (status.includes("Đã giải quyết") || status.includes("Đã xử lý") || status.includes("Hoàn thành")) {
+          statusClass = "fb-status-resolved";
+          statusIcon = "✅";
+        } else if (status.includes("Bảo lưu")) {
+          statusClass = "fb-status-retained";
+          statusIcon = "🔒";
+        }
+
+        // Che mờ 1 phần mã HS để bảo vệ quyền riêng tư nếu không phải chính chủ
+        const rawHsId = ("" + (f.ma_hs || "")).replace(/^'/, "");
+        const displayId = (isMine || rawHsId.length <= 4) ? rawHsId : (rawHsId.substring(0, rawHsId.length - 4) + "****");
+
+        card.innerHTML = `
+          <div class="fb-header-row">
+            <div class="fb-student-info">
+              <span class="fb-class-badge">${escapeHtml(f.lop || "8A")}</span>
+              <span style="font-weight: 800; color: #0f172a;">${escapeHtml(f.ho_ten || "Học sinh")}</span>
+              ${displayId ? `<span style="font-size: 11.5px; color: #64748b; font-weight: 500;">(Mã: ${escapeHtml(displayId)})</span>` : ''}
+              <span class="fb-exam-badge">${escapeHtml(f.mon_hoc || "Tin học 8")}</span>
+            </div>
+            <div class="fb-status-pill ${statusClass}">
+              <span>${statusIcon}</span> <span>${escapeHtml(status)}</span>
+            </div>
+          </div>
+
+          <div class="fb-question-box">
+            <div style="font-size: 11.5px; font-weight: 700; color: #475569; margin-bottom: 3px; display:flex; align-items:center; gap:5px;">
+              <span>🗣️</span> <span>Ý kiến / Thắc mắc của học sinh:</span>
+            </div>
+            <div>${escapeHtml(f.y_kien || "(Không có nội dung)")}</div>
+          </div>
+
+          ${f.ghi_chu_gv ? `
+            <div class="fb-teacher-box">
+              <div style="font-size: 12px; font-weight: 800; color: #166534; margin-bottom: 4px; display: flex; align-items: center; gap: 6px;">
+                <span>👨‍🏫</span> <span>GIẢI ĐÁP SƯ PHẠM CỦA THẦY:</span>
+              </div>
+              <div style="white-space: pre-line;">${escapeHtml(f.ghi_chu_gv)}</div>
+            </div>
+          ` : `
+            <div class="fb-teacher-box pending">
+              <span>⏳ Thầy đang kiểm tra lại bài thi trên ảnh gốc và sẽ giải đáp sớm cho em...</span>
+            </div>
+          `}
+
+          <div class="fb-time-row">
+            <span>📅 Gửi lúc: ${escapeHtml(f.timestamp || "---")}</span>
+            ${f.thoi_gian_xu_ly ? `<span>⏱️ Thầy xử lý: ${escapeHtml(f.thoi_gian_xu_ly)}</span>` : ''}
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+    }
+
+    function locPhanHoiTheoLop(lop, btn) {
+      currentFilterLop = lop;
+      filterMyFeedbackOnly = false;
+      document.querySelectorAll(".fb-filter-btn").forEach(b => b.classList.remove("active"));
+      if (btn) btn.classList.add("active");
+      renderDanhSachPhanHoi();
+    }
+
+    function locPhanHoiCuaToi(btn) {
+      filterMyFeedbackOnly = true;
+      currentFilterLop = "ALL";
+      document.querySelectorAll(".fb-filter-btn").forEach(b => b.classList.remove("active"));
+      if (btn) btn.classList.add("active");
+      renderDanhSachPhanHoi();
+    }
+
+    function capNhatPhanHoiTheoHocSinh(st) {
+      const btnMy = document.getElementById("btnFilterMyFeedback");
+      if (!st) {
+        if (btnMy) btnMy.style.display = "none";
+        return;
+      }
+
+      // Kiểm tra xem học sinh này có phản hồi trong danh sách không
+      const curHsId = ("" + (st.hs_id || "")).trim();
+      const curName = normStr("" + (st.student_name || ""));
+      const hasFeedback = cachedFeedbacks.some(f => {
+        const fId = ("" + (f.ma_hs || "")).trim();
+        const fName = normStr("" + (f.ho_ten || ""));
+        return (curHsId && fId === curHsId) || (curName && fName === curName);
+      });
+
+      if (btnMy) {
+        btnMy.style.display = hasFeedback ? "inline-block" : "none";
+      }
+
+      // Tự động chuyển bộ lọc theo lớp của học sinh nếu chưa chọn
+      const stClass = ("" + (st.student_class || "")).toUpperCase();
+      if (stClass) {
+        const classBtns = document.querySelectorAll(".fb-filter-btn");
+        classBtns.forEach(b => {
+          if (b.textContent.trim().toUpperCase() === stClass) {
+            b.classList.add("active");
+            currentFilterLop = stClass;
+          } else if (b.textContent.trim() === "Tất cả") {
+            b.classList.remove("active");
+          }
+        });
+      }
+
+      renderDanhSachPhanHoi();
     }
   </script>
 </body>
