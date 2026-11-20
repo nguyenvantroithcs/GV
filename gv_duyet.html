@@ -830,14 +830,14 @@
       align-items: center;
       gap: 8px;
     }
-    /* VIEW 0: NAME & IDENTITY REVIEW MODE */
+    /* VIEW 0: NAME & IDENTITY REVIEW MODE (DUYỆT TỪNG BÀI SIÊU TỐC) */
     .name-view-container {
       width: 100%;
       height: 100%;
       display: flex;
       flex-direction: column;
       overflow: hidden;
-      background: #0f172a;
+      background: #090d16;
     }
     .name-toolbar {
       padding: 6px 14px;
@@ -875,81 +875,102 @@
       border-radius: 12px;
       border: 1px solid #059669;
     }
-    .name-grid-scroll {
-      flex: 1;
-      overflow-y: auto;
-      padding: 14px;
+    .name-counter-pill {
+      background: #334155;
+      color: #e2e8f0;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 12px;
     }
-    .name-cards-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
-      gap: 14px;
-    }
-    .name-card {
+    .name-reassign-bar {
       background: #1e293b;
-      border: 1.5px solid #334155;
+      border-bottom: 2px solid #ca8a04;
+      padding: 8px 16px;
+      flex-shrink: 0;
+    }
+    .name-viewer-workspace {
+      flex: 1;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: stretch;
+      padding: 10px 14px 14px 14px;
+      background: #0b1120;
+    }
+    .name-big-crop-box {
+      width: 100%;
+      max-width: 1280px;
+      height: 100%;
+      overflow-y: auto;
+      overflow-x: auto;
       border-radius: 8px;
-      padding: 10px 12px;
+      border: 2px solid #334155;
+      background: #020617;
       display: flex;
       flex-direction: column;
-      gap: 6px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-      transition: all 0.2s;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      position: relative;
     }
-    .name-card:hover {
+    .name-big-crop-box:hover {
       border-color: #38bdf8;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.35);
     }
-    .name-card.verified {
-      border-color: #22c55e;
-      background: #062a1c;
-    }
-    .name-card-header {
+    .name-sticky-header-bar {
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      background: rgba(15, 23, 42, 0.95);
+      backdrop-filter: blur(8px);
+      padding: 8px 16px;
+      border-bottom: 2px solid #38bdf8;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      gap: 8px;
+      gap: 12px;
+      flex-wrap: wrap;
     }
-    .name-card-info {
-      display: flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 12.5px;
-      overflow: hidden;
+    .name-stt-pill {
+      background: #38bdf8;
+      color: #041226;
+      font-size: 13px;
+      font-weight: 900;
+      padding: 2px 8px;
+      border-radius: 6px;
     }
-    .name-stt-badge {
-      background: #334155;
-      color: #f8fafc;
-      font-size: 11px;
-      font-weight: 800;
-      padding: 1px 6px;
-      border-radius: 4px;
-      flex-shrink: 0;
+    .name-student-title {
+      font-size: 16px;
+      font-weight: 900;
+      color: #facc15;
+      letter-spacing: 0.5px;
     }
-    .name-st-title {
-      font-weight: 800;
-      color: #f8fafc;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-    .name-st-class {
+    .name-class-tag {
+      font-size: 13px;
+      font-weight: 700;
       color: #94a3b8;
-      font-size: 11px;
-      flex-shrink: 0;
+    }
+    .name-score-pill {
+      background: #1e293b;
+      border: 1px solid #475569;
+      color: #38bdf8;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 2px 8px;
+      border-radius: 6px;
     }
     .btn-verify-name {
-      padding: 3px 8px;
-      font-size: 11px;
+      padding: 4px 12px;
+      font-size: 12px;
       font-weight: 700;
-      border-radius: 5px;
+      border-radius: 6px;
       border: 1px solid #475569;
       background: #334155;
       color: #cbd5e1;
       cursor: pointer;
       display: inline-flex;
       align-items: center;
-      gap: 4px;
+      gap: 5px;
       transition: all 0.15s;
       white-space: nowrap;
       flex-shrink: 0;
@@ -963,51 +984,21 @@
       color: #ffffff;
       border-color: #22c55e;
     }
-    .name-card-crop-box {
+    .name-crop-img-wrap {
       width: 100%;
-      height: 135px;
-      overflow: hidden;
-      position: relative;
-      border-radius: 6px;
-      background: #000;
-      border: 1px solid #475569;
-      cursor: zoom-in;
-    }
-    .name-card-crop-box img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: auto;
-      transform-origin: top left;
-      user-select: none;
-    }
-    .name-crop-zoom-hint {
-      position: absolute;
-      bottom: 4px;
-      right: 6px;
-      background: rgba(0,0,0,0.7);
-      color: #cbd5e1;
-      font-size: 10px;
-      padding: 1px 6px;
-      border-radius: 4px;
-      pointer-events: none;
-    }
-    .name-card-footer {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      font-size: 11.5px;
-      gap: 8px;
-      margin-top: 2px;
+      justify-content: center;
+      background: #000;
+      padding-bottom: 30px;
     }
-    .name-reassign-wrap {
-      display: none;
-      margin-top: 6px;
-      padding: 6px 8px;
-      background: #0f172a;
-      border: 1px dashed #ca8a04;
-      border-radius: 6px;
+    .name-crop-img-wrap img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+      display: block;
+      transform-origin: top center;
+      transition: width 0.15s ease-out;
+      user-select: none;
     }
   </style>
 </head>
@@ -1085,24 +1076,72 @@
   <!-- WORKSPACE -->
   <div class="workspace">
 
-    <!-- 0. CHẾ ĐỘ DUYỆT HỌ & TÊN HỌC SINH THEO LỚP -->
+    <!-- 0. CHẾ ĐỘ DUYỆT HỌ & TÊN HỌC SINH (DUYỆT TỪNG BÀI SIÊU TỐC) -->
     <div class="name-view-container" id="nameViewContainer" style="display:none;">
+      <!-- Toolbar Tab 0 -->
       <div class="name-toolbar">
         <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
           <div class="name-title-badge">
             <span>👤</span>
-            <span>DUYỆT DANH TÍNH &amp; HỌ TÊN THEO LỚP</span>
+            <span>0. DUYỆT HỌ &amp; TÊN</span>
           </div>
           <span id="nameClassInfoBadge" class="name-class-pill">Lớp ---</span>
           <span id="nameStatsBadge" class="name-stats-pill">Đã duyệt: 0/0 (0%)</span>
+          <span id="nameCounterBadge" class="name-counter-pill">Bài 1 / 1</span>
         </div>
-        <div style="display:flex; align-items:center; gap:8px;">
-          <button class="btn btn-outline-success" onclick="markAllClassNamesVerified()" title="Xác nhận khớp toàn bộ họ tên học sinh lớp này">🌟 Duyệt Khớp Cả Lớp</button>
+
+        <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+          <button class="btn btn-outline-warning" onclick="toggleSingleReassignPanel()" title="Hoán đổi bài thi này sang học sinh khác nếu gán nhầm danh tính">✏️ Đổi HS Khác</button>
+          
+          <div class="essay-zoom-bar">
+            <button class="essay-zoom-btn" onclick="changeNameZoom(-15)" title="Thu nhỏ">−</button>
+            <span id="nameZoomVal" style="font-size:11px; color:#94a3b8; min-width:36px; text-align:center;">100%</span>
+            <button class="essay-zoom-btn" onclick="changeNameZoom(15)" title="Phóng to">+</button>
+            <button class="essay-zoom-btn" onclick="resetNameZoom()" title="Vừa khung">100%</button>
+          </div>
+
+          <button class="btn btn-success" id="btnNameVerifyNext" onclick="markCurrentTabVerified()" title="Xác nhận khớp họ tên học sinh này và chuyển sang bài tiếp theo (Phím Space)">
+            ✅ Duyệt &amp; Tiếp (Space)
+          </button>
         </div>
       </div>
 
-      <div class="name-grid-scroll" id="nameGridScroll">
-        <div class="name-cards-grid" id="nameCardsGrid"></div>
+      <!-- Khung hoán đổi bài thi (ẩn/hiện khi bấm Đổi HS) -->
+      <div class="name-reassign-bar" id="nameSingleReassignBar" style="display:none;">
+        <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap; width:100%; max-width:1280px; margin:0 auto;">
+          <span style="font-size:12px; font-weight:800; color:#f59e0b;">⚠️ BÀI THI NÀY THỰC SỰ CỦA HỌC SINH NÀO?</span>
+          <span style="font-size:12px; color:#cbd5e1;">Hoán đổi với:</span>
+          <select id="nameSingleReassignSelect" class="form-select form-select-sm" style="width:auto; min-width:260px; background:#1e293b; color:#fff; border-color:#ca8a04;">
+          </select>
+          <button class="btn btn-warning btn-sm" onclick="applySingleReassign()" style="font-weight:700;">💾 Lưu Đổi Bài</button>
+          <button class="btn btn-dark btn-sm" onclick="toggleSingleReassignPanel()">Đóng</button>
+        </div>
+      </div>
+
+      <!-- Vùng hiển thị ảnh crop to nét -->
+      <div class="name-viewer-workspace">
+        <div class="name-big-crop-box" id="nameBigCropBox">
+          <!-- Thanh dải đối soát dính phía trên -->
+          <div class="name-sticky-header-bar">
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <span class="name-stt-pill" id="nameSttDisplay">#01</span>
+              <span class="name-student-title" id="nameStudentNameDisplay">NGUYỄN VĂN HẢI</span>
+              <span class="name-class-tag" id="nameClassDisplay">(8A7)</span>
+              <span class="name-score-pill" id="nameScoreDisplay">Điểm: 0.00đ</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:8px;">
+              <button class="btn-verify-name" id="btnToggleNameVerify" onclick="toggleCurrentStudentNameVerify()" title="Click để đảo trạng thái duyệt">
+                ⏳ Chưa duyệt (Space)
+              </button>
+            </div>
+          </div>
+
+          <!-- Ảnh Trang 1 khổ lớn (hiển thị tiêu đề và tên viết tay siêu to rõ ràng) -->
+          <div class="name-crop-img-wrap" id="nameCropImgWrap">
+            <img id="nameLargeCropImg" src="" alt="Trang 1 bài thi" loading="eager">
+            <div id="nameEmptyImgMsg" style="display:none; color:#64748b; padding:80px 20px; text-align:center; font-size:14px;">Chưa có ảnh scan Trang 1 của học sinh này</div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -1727,207 +1766,166 @@
     }
 
     /* =========================================================
-       0. CHẾ ĐỘ DUYỆT HỌ & TÊN HỌC SINH THEO LỚP
+       0. CHẾ ĐỘ DUYỆT HỌ & TÊN HỌC SINH (DUYỆT TỪNG BÀI SIÊU TỐC)
     ========================================================= */
-    function renderNameMode() {
-      if (!allExamData || !allExamData.students) return;
+    let nameZoomLevel = 100;
+
+    function renderNameMode(customSt) {
+      if (studentsList.length === 0) return;
+      const st = customSt || studentsList[currentStudentIndex];
+      if (!st) return;
+
+      const sKey = getStudentKey(st);
+      const rec = getStudentAuditRecord(st);
+      const isNameVerified = !!rec.name;
+
+      // Cập nhật huy hiệu lớp & tiến độ cả lớp
       const selectedClass = document.getElementById("classSelect").value;
       const raw = allExamData.students || [];
-      const list = raw.filter(st => (selectedClass === "ALL" || st.student_class === selectedClass));
+      const classKey = (selectedClass === "ALL" ? st.student_class : selectedClass);
+      const classStudents = raw.filter(s => (selectedClass === "ALL" || s.student_class === classKey));
+      const classVerifiedCount = classStudents.filter(s => !!getStudentAuditRecord(s).name).length;
+      const pct = classStudents.length > 0 ? Math.round((classVerifiedCount / classStudents.length) * 100) : 0;
 
       const classBadge = document.getElementById("nameClassInfoBadge");
       if (classBadge) {
-        classBadge.textContent = selectedClass === "ALL" ? `Tất cả các lớp (${list.length} HS)` : `Lớp ${selectedClass} (${list.length} HS)`;
+        classBadge.textContent = `Lớp ${st.student_class}`;
+      }
+      const statsBadge = document.getElementById("nameStatsBadge");
+      if (statsBadge) {
+        statsBadge.textContent = `Đã duyệt: ${classVerifiedCount}/${classStudents.length} (${pct}%)`;
+      }
+      const counterBadge = document.getElementById("nameCounterBadge");
+      if (counterBadge) {
+        counterBadge.textContent = `Bài ${currentStudentIndex + 1} / ${studentsList.length}`;
       }
 
-      updateNameStatsBadge(list);
+      // Cập nhật thông tin học sinh trên thanh sticky
+      const sttEl = document.getElementById("nameSttDisplay");
+      if (sttEl) sttEl.textContent = `#${st.stt || (currentStudentIndex + 1)}`;
 
-      const grid = document.getElementById("nameCardsGrid");
-      grid.innerHTML = "";
+      const nameEl = document.getElementById("nameStudentNameDisplay");
+      if (nameEl) nameEl.textContent = st.student_name || "Chưa có tên";
 
-      if (list.length === 0) {
-        grid.innerHTML = `<div style="grid-column: 1/-1; text-align:center; color:#94a3b8; padding:40px; font-size:14px;">Không tìm thấy học sinh nào trong lớp đã chọn.</div>`;
-        return;
+      const classEl = document.getElementById("nameClassDisplay");
+      if (classEl) classEl.textContent = `(${st.student_class || ''})`;
+
+      const scoreEl = document.getElementById("nameScoreDisplay");
+      if (scoreEl) scoreEl.textContent = `Điểm: ${(st.total_score || 0).toFixed(2)}đ`;
+
+      // Cập nhật nút trạng thái duyệt
+      const btnToggle = document.getElementById("btnToggleNameVerify");
+      if (btnToggle) {
+        if (isNameVerified) {
+          btnToggle.className = "btn-verify-name verified";
+          btnToggle.innerHTML = "✓ ĐÃ KHỚP HỌ TÊN";
+        } else {
+          btnToggle.className = "btn-verify-name";
+          btnToggle.innerHTML = "⏳ CHƯA DUYỆT (Space)";
+        }
       }
 
-      list.forEach((st, idx) => {
-        const sKey = getStudentKey(st);
-        const rec = getStudentAuditRecord(st);
-        const isNameVerified = !!rec.name;
-        const page1Url = (st.graded_pages && st.graded_pages[0]) || "";
-        const domKey = sKey.replace(/[^a-zA-Z0-9_-]/g, '_');
+      // Cập nhật ảnh Trang 1
+      const page1Url = (st.graded_pages && st.graded_pages[0]) || "";
+      const img = document.getElementById("nameLargeCropImg");
+      const emptyMsg = document.getElementById("nameEmptyImgMsg");
 
-        const card = document.createElement("div");
-        card.className = "name-card" + (isNameVerified ? " verified" : "");
-        card.id = `nameCard_${domKey}`;
+      if (img) {
+        if (page1Url) {
+          img.src = page1Url;
+          img.style.display = "block";
+          if (emptyMsg) emptyMsg.style.display = "none";
+        } else {
+          img.style.display = "none";
+          if (emptyMsg) emptyMsg.style.display = "block";
+        }
+        applyNameZoom();
+      }
 
-        card.innerHTML = `
-          <div class="name-card-header">
-            <div class="name-card-info">
-              <span class="name-stt-badge">#${st.stt || (idx + 1)}</span>
-              <span class="name-st-title" title="${escapeHtml(st.student_name)}">${escapeHtml(st.student_name)}</span>
-              <span class="name-st-class">(${escapeHtml(st.student_class)})</span>
-            </div>
-            <button class="btn-verify-name ${isNameVerified ? 'verified' : ''}" id="btnVerifyName_${domKey}" onclick="toggleStudentNameVerify('${escapeHtml(sKey)}', this)">
-              ${isNameVerified ? '✓ Đã khớp' : '⏳ Chưa duyệt'}
-            </button>
-          </div>
-          <div class="name-card-crop-box" onclick="openNameLightbox('${escapeHtml(page1Url)}', '${escapeHtml(st.student_name)} (${escapeHtml(st.student_class)})')">
-            ${page1Url ? `<img src="${escapeHtml(page1Url)}" alt="Phách ${escapeHtml(st.student_name)}" loading="lazy">` : '<div style="color:#64748b; padding:45px 10px; text-align:center; font-size:12px;">Chưa có ảnh scan Trang 1</div>'}
-            <div class="name-crop-zoom-hint">🔍 Phóng to</div>
-          </div>
-          <div class="name-card-footer">
-            <span style="color:#cbd5e1; font-weight:700;">Điểm: <b style="color:#f59e0b;">${(st.total_score||0).toFixed(2)}đ</b></span>
-            <div style="display:flex; gap:6px;">
-              <button class="btn btn-dark" style="padding:2px 8px; font-size:11px;" onclick="toggleReassignPanel('${escapeHtml(sKey)}')" title="Đổi bài thi sang học sinh khác nếu gán nhầm">✏️ Đổi HS</button>
-              <button class="btn btn-primary" style="padding:2px 8px; font-size:11px;" onclick="goToStudentDetail('${escapeHtml(sKey)}')" title="Mở chi tiết bài chấm của học sinh này">👁️ Xem bài</button>
-            </div>
-          </div>
-          <div class="name-reassign-wrap" id="reassign_${domKey}">
-            <div style="font-size:11px; color:#f59e0b; font-weight:700; margin-bottom:4px;">⚠️ Hoán đổi bài thi sang học sinh khác trong lớp:</div>
-            <div style="display:flex; gap:6px; align-items:center;">
-              <select class="form-select form-select-sm" id="reassignSel_${domKey}" style="background:#1e293b; color:#fff; border-color:#475569; font-size:11px; padding:2px 6px; flex:1;">
-              </select>
-              <button class="btn btn-warning" style="padding:2px 8px; font-size:11px; font-weight:700;" onclick="applyReassign('${escapeHtml(sKey)}')">Lưu đổi</button>
-            </div>
-          </div>
-        `;
+      // Cuộn lên đầu để tiêu đề và họ tên luôn đập vào mắt ngay lập tức
+      const box = document.getElementById("nameBigCropBox");
+      if (box) {
+        box.scrollTop = 0;
+      }
 
-        grid.appendChild(card);
-      });
+      // Đóng panel reassign nếu đang mở
+      const rBar = document.getElementById("nameSingleReassignBar");
+      if (rBar) rBar.style.display = "none";
     }
 
-    function updateNameStatsBadge(customList) {
-      const selectedClass = document.getElementById("classSelect").value;
-      const raw = allExamData.students || [];
-      const list = customList || raw.filter(st => (selectedClass === "ALL" || st.student_class === selectedClass));
-      let verifiedCount = 0;
-      list.forEach(st => {
-        const rec = getStudentAuditRecord(st);
-        if (rec.name) verifiedCount++;
-      });
-      const pct = list.length > 0 ? Math.round((verifiedCount / list.length) * 100) : 0;
-      const badge = document.getElementById("nameStatsBadge");
-      if (badge) {
-        badge.textContent = `Đã duyệt họ tên: ${verifiedCount}/${list.length} (${pct}%)`;
+    function changeNameZoom(delta) {
+      nameZoomLevel = Math.max(50, Math.min(250, nameZoomLevel + delta));
+      applyNameZoom();
+    }
+
+    function resetNameZoom() {
+      nameZoomLevel = 100;
+      applyNameZoom();
+    }
+
+    function applyNameZoom() {
+      const img = document.getElementById("nameLargeCropImg");
+      const lbl = document.getElementById("nameZoomVal");
+      if (img) {
+        img.style.width = nameZoomLevel + "%";
+        img.style.maxWidth = nameZoomLevel <= 100 ? "100%" : "none";
+      }
+      if (lbl) {
+        lbl.textContent = nameZoomLevel + "%";
       }
     }
 
-    function toggleStudentNameVerify(sKey, btn) {
-      const rec = studentAuditStatus[sKey] || { name: false, omr: false, hw: false, essay: false, verified: false };
+    function toggleCurrentStudentNameVerify() {
+      if (studentsList.length === 0) return;
+      const st = studentsList[currentStudentIndex];
+      const sKey = getStudentKey(st);
+      const rec = getStudentAuditRecord(st);
       rec.name = !rec.name;
       rec.last_updated = new Date().toISOString();
+      rec.verified = isStudentFullyVerified(st);
+      st.audit_tabs = { ...rec };
+      st.audit_status = rec.verified ? "verified" : (rec.name || rec.omr || rec.hw || rec.essay ? "partial" : "pending");
       studentAuditStatus[sKey] = rec;
 
-      const st = (allExamData.students || []).find(s => getStudentKey(s) === sKey);
-      if (st) {
-        rec.verified = isStudentFullyVerified(st);
-        st.audit_tabs = { ...rec };
-        st.audit_status = rec.verified ? "verified" : (rec.name || rec.omr || rec.hw || rec.essay ? "partial" : "pending");
-      }
-
       saveLocalAuditCache();
-
-      const domKey = sKey.replace(/[^a-zA-Z0-9_-]/g, '_');
-      const card = document.getElementById(`nameCard_${domKey}`);
-      if (card && btn) {
-        if (rec.name) {
-          card.classList.add("verified");
-          btn.classList.add("verified");
-          btn.innerHTML = "✓ Đã khớp";
-        } else {
-          card.classList.remove("verified");
-          btn.classList.remove("verified");
-          btn.innerHTML = "⏳ Chưa duyệt";
-        }
-      }
-
-      updateNameStatsBadge();
+      renderStudentDropdownItem(currentStudentIndex);
       updateAuditUI();
+      renderNameMode(st);
     }
 
-    function markAllClassNamesVerified() {
-      if (!allExamData || !allExamData.students) return;
-      const selectedClass = document.getElementById("classSelect").value;
-      const raw = allExamData.students || [];
-      const list = raw.filter(st => (selectedClass === "ALL" || st.student_class === selectedClass));
-      if (list.length === 0) return;
-
-      list.forEach(st => {
-        const sKey = getStudentKey(st);
-        const rec = getStudentAuditRecord(st);
-        rec.name = true;
-        rec.last_updated = new Date().toISOString();
-        rec.verified = isStudentFullyVerified(st);
-        st.audit_tabs = { ...rec };
-        st.audit_status = rec.verified ? "verified" : "partial";
-        studentAuditStatus[sKey] = rec;
-      });
-
-      saveLocalAuditCache();
-      showToast(`🌟 Đã duyệt khớp họ tên ${list.length} học sinh ${selectedClass === "ALL" ? "" : "lớp " + selectedClass}!`);
-      renderNameMode();
-      updateAuditUI();
-    }
-
-    function goToStudentDetail(sKey) {
-      const idx = studentsList.findIndex(s => getStudentKey(s) === sKey);
-      if (idx >= 0) {
-        currentStudentIndex = idx;
-        document.getElementById("studentSelect").value = idx;
-        switchMode("OMR");
-        loadCurrentStudent();
+    function toggleSingleReassignPanel() {
+      const bar = document.getElementById("nameSingleReassignBar");
+      if (!bar) return;
+      if (bar.style.display === "none" || bar.style.display === "") {
+        const sel = document.getElementById("nameSingleReassignSelect");
+        sel.innerHTML = "";
+        const curSt = studentsList[currentStudentIndex];
+        const curClass = curSt ? curSt.student_class : "";
+        const classStudents = (allExamData.students || []).filter(s => s.student_class === curClass);
+        classStudents.forEach(targetSt => {
+          const opt = document.createElement("option");
+          opt.value = getStudentKey(targetSt);
+          opt.textContent = `${targetSt.stt || ''}. ${targetSt.student_name} (${targetSt.student_class})`;
+          if (curSt && getStudentKey(targetSt) === getStudentKey(curSt)) opt.selected = true;
+          sel.appendChild(opt);
+        });
+        bar.style.display = "block";
       } else {
-        const rawIdx = (allExamData.students || []).findIndex(s => getStudentKey(s) === sKey);
-        if (rawIdx >= 0) {
-          const st = allExamData.students[rawIdx];
-          document.getElementById("classSelect").value = st.student_class;
-          filterAndRenderStudents();
-          const newIdx = studentsList.findIndex(s => getStudentKey(s) === sKey);
-          if (newIdx >= 0) {
-            currentStudentIndex = newIdx;
-            document.getElementById("studentSelect").value = newIdx;
-          }
-          switchMode("OMR");
-          loadCurrentStudent();
-        }
+        bar.style.display = "none";
       }
     }
 
-    function toggleReassignPanel(sKey) {
-      const domKey = sKey.replace(/[^a-zA-Z0-9_-]/g, '_');
-      const p = document.getElementById(`reassign_${domKey}`);
-      if (!p) return;
-      if (p.style.display === "block") {
-        p.style.display = "none";
-      } else {
-        const sel = document.getElementById(`reassignSel_${domKey}`);
-        if (sel && sel.options.length === 0) {
-          const curSt = (allExamData.students || []).find(s => getStudentKey(s) === sKey);
-          const curClass = curSt ? curSt.student_class : "";
-          const classStudents = (allExamData.students || []).filter(s => s.student_class === curClass);
-          classStudents.forEach(targetSt => {
-            const opt = document.createElement("option");
-            opt.value = getStudentKey(targetSt);
-            opt.textContent = `${targetSt.stt || ''}. ${targetSt.student_name} (${targetSt.student_class})`;
-            if (getStudentKey(targetSt) === sKey) opt.selected = true;
-            sel.appendChild(opt);
-          });
-        }
-        p.style.display = "block";
-      }
-    }
-
-    function applyReassign(sKey) {
-      const domKey = sKey.replace(/[^a-zA-Z0-9_-]/g, '_');
-      const sel = document.getElementById(`reassignSel_${domKey}`);
+    function applySingleReassign() {
+      if (studentsList.length === 0) return;
+      const curSt = studentsList[currentStudentIndex];
+      const sKey = getStudentKey(curSt);
+      const sel = document.getElementById("nameSingleReassignSelect");
       if (!sel) return;
       const targetKey = sel.value;
       if (targetKey === sKey) {
         alert("Vui lòng chọn học sinh khác để hoán đổi bài thi.");
         return;
       }
-      const curSt = (allExamData.students || []).find(s => getStudentKey(s) === sKey);
       const targetSt = (allExamData.students || []).find(s => getStudentKey(s) === targetKey);
       if (!curSt || !targetSt) return;
 
@@ -1977,25 +1975,10 @@
       targetSt.reassigned = true;
 
       showToast(`🔄 Đã hoán đổi bài thi giữa ${curSt.student_name} và ${targetSt.student_name}! Bấm nút 💾 Lưu để ghi lại.`);
-      renderNameMode();
+      const bar = document.getElementById("nameSingleReassignBar");
+      if (bar) bar.style.display = "none";
       filterAndRenderStudents();
-    }
-
-    function openNameLightbox(imgUrl, studentTitle) {
-      if (!imgUrl) return;
-      const modal = document.getElementById("nameLightboxModal");
-      const img = document.getElementById("nameLightboxImg");
-      const title = document.getElementById("nameLightboxTitle");
-      if (!modal || !img) return;
-      title.textContent = `🔍 Soi phách & Tiêu đề bài thi: ${studentTitle}`;
-      img.src = imgUrl;
-      modal.style.display = "flex";
-    }
-
-    function closeNameLightbox(e) {
-      if (e && e.target && e.target.tagName === "IMG") return;
-      const modal = document.getElementById("nameLightboxModal");
-      if (modal) modal.style.display = "none";
+      renderNameMode(curSt);
     }
 
     /* =========================================================
