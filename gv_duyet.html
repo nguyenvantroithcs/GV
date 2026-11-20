@@ -830,6 +830,185 @@
       align-items: center;
       gap: 8px;
     }
+    /* VIEW 0: NAME & IDENTITY REVIEW MODE */
+    .name-view-container {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      background: #0f172a;
+    }
+    .name-toolbar {
+      padding: 6px 14px;
+      background: #1e293b;
+      border-bottom: 1px solid #334155;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-shrink: 0;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .name-title-badge {
+      font-size: 13px;
+      font-weight: 800;
+      color: #38bdf8;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .name-class-pill {
+      background: #0284c7;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 10px;
+      border-radius: 12px;
+    }
+    .name-stats-pill {
+      background: #064e3b;
+      color: #6ee7b7;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 2px 10px;
+      border-radius: 12px;
+      border: 1px solid #059669;
+    }
+    .name-grid-scroll {
+      flex: 1;
+      overflow-y: auto;
+      padding: 14px;
+    }
+    .name-cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 14px;
+    }
+    .name-card {
+      background: #1e293b;
+      border: 1.5px solid #334155;
+      border-radius: 8px;
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: all 0.2s;
+    }
+    .name-card:hover {
+      border-color: #38bdf8;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+    }
+    .name-card.verified {
+      border-color: #22c55e;
+      background: #062a1c;
+    }
+    .name-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+    }
+    .name-card-info {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12.5px;
+      overflow: hidden;
+    }
+    .name-stt-badge {
+      background: #334155;
+      color: #f8fafc;
+      font-size: 11px;
+      font-weight: 800;
+      padding: 1px 6px;
+      border-radius: 4px;
+      flex-shrink: 0;
+    }
+    .name-st-title {
+      font-weight: 800;
+      color: #f8fafc;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .name-st-class {
+      color: #94a3b8;
+      font-size: 11px;
+      flex-shrink: 0;
+    }
+    .btn-verify-name {
+      padding: 3px 8px;
+      font-size: 11px;
+      font-weight: 700;
+      border-radius: 5px;
+      border: 1px solid #475569;
+      background: #334155;
+      color: #cbd5e1;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: all 0.15s;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .btn-verify-name:hover {
+      background: #475569;
+      color: #fff;
+    }
+    .btn-verify-name.verified {
+      background: #16a34a;
+      color: #ffffff;
+      border-color: #22c55e;
+    }
+    .name-card-crop-box {
+      width: 100%;
+      height: 135px;
+      overflow: hidden;
+      position: relative;
+      border-radius: 6px;
+      background: #000;
+      border: 1px solid #475569;
+      cursor: zoom-in;
+    }
+    .name-card-crop-box img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      transform-origin: top left;
+      user-select: none;
+    }
+    .name-crop-zoom-hint {
+      position: absolute;
+      bottom: 4px;
+      right: 6px;
+      background: rgba(0,0,0,0.7);
+      color: #cbd5e1;
+      font-size: 10px;
+      padding: 1px 6px;
+      border-radius: 4px;
+      pointer-events: none;
+    }
+    .name-card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11.5px;
+      gap: 8px;
+      margin-top: 2px;
+    }
+    .name-reassign-wrap {
+      display: none;
+      margin-top: 6px;
+      padding: 6px 8px;
+      background: #0f172a;
+      border: 1px dashed #ca8a04;
+      border-radius: 6px;
+    }
   </style>
 </head>
 <body>
@@ -845,6 +1024,9 @@
 
     <!-- CHUYỂN CHẾ ĐỘ XEM TRỰC QUAN -->
     <div class="header-center">
+      <button class="mode-tab" id="tabModeName" onclick="switchMode('NAME')">
+        <span>👤</span> <span>0. Họ &amp; Tên</span> <span class="tab-check-badge" id="badgeTabName">✓</span>
+      </button>
       <button class="mode-tab active" id="tabModeOmr" onclick="switchMode('OMR')">
         <span>●</span> <span>1. Phiếu OMR</span> <span class="tab-check-badge" id="badgeTabOmr">✓</span>
       </button>
@@ -902,6 +1084,27 @@
 
   <!-- WORKSPACE -->
   <div class="workspace">
+
+    <!-- 0. CHẾ ĐỘ DUYỆT HỌ & TÊN HỌC SINH THEO LỚP -->
+    <div class="name-view-container" id="nameViewContainer" style="display:none;">
+      <div class="name-toolbar">
+        <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
+          <div class="name-title-badge">
+            <span>👤</span>
+            <span>DUYỆT DANH TÍNH &amp; HỌ TÊN THEO LỚP</span>
+          </div>
+          <span id="nameClassInfoBadge" class="name-class-pill">Lớp ---</span>
+          <span id="nameStatsBadge" class="name-stats-pill">Đã duyệt: 0/0 (0%)</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:8px;">
+          <button class="btn btn-outline-success" onclick="markAllClassNamesVerified()" title="Xác nhận khớp toàn bộ họ tên học sinh lớp này">🌟 Duyệt Khớp Cả Lớp</button>
+        </div>
+      </div>
+
+      <div class="name-grid-scroll" id="nameGridScroll">
+        <div class="name-cards-grid" id="nameCardsGrid"></div>
+      </div>
+    </div>
 
     <!-- 1. CHẾ ĐỘ OMR: CHẤM TRÒN ĐÈ TRỰC TIẾP LÊN Ô TÔ -->
     <div class="omr-view-container" id="omrViewContainer">
@@ -1204,33 +1407,36 @@
 
     /* Quản lý trạng thái duyệt chi tiết theo từng Tab */
     function getStudentAuditRecord(st) {
-      if (!st) return { omr: false, hw: false, essay: false, verified: false };
+      if (!st) return { name: false, omr: false, hw: false, essay: false, verified: false };
       const sKey = getStudentKey(st);
       let rec = studentAuditStatus[sKey];
       if (!rec) {
         if (st.audit_tabs) {
           rec = st.audit_tabs;
         } else if (st.audit_status === "verified" || st.audit_status === "audited_vision" || st.audit_status === "adjusted_vision") {
-          rec = { omr: true, hw: true, essay: true, verified: true };
+          rec = { name: true, omr: true, hw: true, essay: true, verified: true };
         } else {
-          rec = { omr: false, hw: false, essay: false, verified: false };
+          rec = { name: false, omr: false, hw: false, essay: false, verified: false };
         }
         studentAuditStatus[sKey] = rec;
       } else if (typeof rec === "string") {
         if (rec === "verified" || rec === "audited_vision" || rec === "adjusted_vision") {
-          rec = { omr: true, hw: true, essay: true, verified: true };
+          rec = { name: true, omr: true, hw: true, essay: true, verified: true };
         } else {
-          rec = { omr: false, hw: false, essay: false, verified: false };
+          rec = { name: false, omr: false, hw: false, essay: false, verified: false };
         }
         studentAuditStatus[sKey] = rec;
+      }
+      if (rec.name === undefined) {
+        rec.name = !!rec.verified;
       }
       return rec;
     }
 
     function getRequiredTabs() {
       const eid = (currentExamConfig && currentExamConfig.exam_id) || "";
-      if (eid.includes("Tin8")) return ["omr", "essay"];
-      return ["omr", "hw", "essay"];
+      if (eid.includes("Tin8")) return ["name", "omr", "essay"];
+      return ["name", "omr", "hw", "essay"];
     }
 
     function isStudentFullyVerified(st) {
@@ -1270,7 +1476,12 @@
       });
     }
 
-    function onClassChange() { filterAndRenderStudents(); }
+    function onClassChange() {
+      filterAndRenderStudents();
+      if (currentMode === "NAME") {
+        renderNameMode();
+      }
+    }
     function onFilterChange() { filterAndRenderStudents(); }
 
     function filterAndRenderStudents() {
@@ -1286,7 +1497,8 @@
 
         if (filterMode === "TAB_PENDING") {
           let tabKey = "omr";
-          if (currentMode === "OMR") tabKey = "omr";
+          if (currentMode === "NAME") tabKey = "name";
+          else if (currentMode === "OMR") tabKey = "omr";
           else if (currentMode === "HW") tabKey = "hw";
           else if (currentMode === "ESSAY") tabKey = "essay";
           else if (currentMode === "FULL") return !isFull;
@@ -1369,17 +1581,21 @@
     function switchMode(mode) {
       currentMode = mode;
       document.querySelectorAll(".mode-tab").forEach(t => t.classList.remove("active"));
+      if (mode === "NAME") document.getElementById("tabModeName").classList.add("active");
       if (mode === "OMR") document.getElementById("tabModeOmr").classList.add("active");
       if (mode === "HW") document.getElementById("tabModeHw").classList.add("active");
       if (mode === "ESSAY") document.getElementById("tabModeEssay").classList.add("active");
       if (mode === "FULL") document.getElementById("tabModeFull").classList.add("active");
 
+      document.getElementById("nameViewContainer").style.display = (mode === "NAME" ? "flex" : "none");
       document.getElementById("omrViewContainer").style.display = (mode === "OMR" ? "flex" : "none");
       document.getElementById("hwViewContainer").style.display = (mode === "HW" ? "flex" : "none");
       document.getElementById("essayViewContainer").style.display = (mode === "ESSAY" ? "flex" : "none");
       document.getElementById("fullViewContainer").style.display = (mode === "FULL" ? "flex" : "none");
 
-      if (studentsList.length > 0) {
+      if (mode === "NAME") {
+        renderNameMode();
+      } else if (studentsList.length > 0) {
         const st = studentsList[currentStudentIndex];
         if (mode === "OMR") renderOmrMode(st);
         else if (mode === "HW") renderHandwritingMode(st);
@@ -1408,7 +1624,10 @@
       if (btnTab) {
         let tabName = "Tab Này";
         let isDone = false;
-        if (currentMode === "OMR") {
+        if (currentMode === "NAME") {
+          tabName = "0. Họ & Tên";
+          isDone = !!rec.name;
+        } else if (currentMode === "OMR") {
           tabName = "1. OMR";
           isDone = !!rec.omr;
         } else if (currentMode === "HW") {
@@ -1432,6 +1651,10 @@
       }
 
       // Cập nhật các badge tick xanh trên từng tab trên Header
+      const bName = document.getElementById("badgeTabName");
+      if (bName) {
+        bName.className = "tab-check-badge " + (rec.name ? "checked" : "");
+      }
       const bOmr = document.getElementById("badgeTabOmr");
       if (bOmr) {
         bOmr.className = "tab-check-badge " + (rec.omr ? "checked" : "");
@@ -1496,10 +1719,283 @@
         loadedPage1Img.src = page1Url;
       }
 
-      if (currentMode === "OMR") renderOmrMode(st);
+      if (currentMode === "NAME") renderNameMode();
+      else if (currentMode === "OMR") renderOmrMode(st);
       else if (currentMode === "HW") renderHandwritingMode(st);
       else if (currentMode === "ESSAY") renderEssayMode(st);
       else if (currentMode === "FULL") showFullPage(0);
+    }
+
+    /* =========================================================
+       0. CHẾ ĐỘ DUYỆT HỌ & TÊN HỌC SINH THEO LỚP
+    ========================================================= */
+    function renderNameMode() {
+      if (!allExamData || !allExamData.students) return;
+      const selectedClass = document.getElementById("classSelect").value;
+      const raw = allExamData.students || [];
+      const list = raw.filter(st => (selectedClass === "ALL" || st.student_class === selectedClass));
+
+      const classBadge = document.getElementById("nameClassInfoBadge");
+      if (classBadge) {
+        classBadge.textContent = selectedClass === "ALL" ? `Tất cả các lớp (${list.length} HS)` : `Lớp ${selectedClass} (${list.length} HS)`;
+      }
+
+      updateNameStatsBadge(list);
+
+      const grid = document.getElementById("nameCardsGrid");
+      grid.innerHTML = "";
+
+      if (list.length === 0) {
+        grid.innerHTML = `<div style="grid-column: 1/-1; text-align:center; color:#94a3b8; padding:40px; font-size:14px;">Không tìm thấy học sinh nào trong lớp đã chọn.</div>`;
+        return;
+      }
+
+      list.forEach((st, idx) => {
+        const sKey = getStudentKey(st);
+        const rec = getStudentAuditRecord(st);
+        const isNameVerified = !!rec.name;
+        const page1Url = (st.graded_pages && st.graded_pages[0]) || "";
+        const domKey = sKey.replace(/[^a-zA-Z0-9_-]/g, '_');
+
+        const card = document.createElement("div");
+        card.className = "name-card" + (isNameVerified ? " verified" : "");
+        card.id = `nameCard_${domKey}`;
+
+        card.innerHTML = `
+          <div class="name-card-header">
+            <div class="name-card-info">
+              <span class="name-stt-badge">#${st.stt || (idx + 1)}</span>
+              <span class="name-st-title" title="${escapeHtml(st.student_name)}">${escapeHtml(st.student_name)}</span>
+              <span class="name-st-class">(${escapeHtml(st.student_class)})</span>
+            </div>
+            <button class="btn-verify-name ${isNameVerified ? 'verified' : ''}" id="btnVerifyName_${domKey}" onclick="toggleStudentNameVerify('${escapeHtml(sKey)}', this)">
+              ${isNameVerified ? '✓ Đã khớp' : '⏳ Chưa duyệt'}
+            </button>
+          </div>
+          <div class="name-card-crop-box" onclick="openNameLightbox('${escapeHtml(page1Url)}', '${escapeHtml(st.student_name)} (${escapeHtml(st.student_class)})')">
+            ${page1Url ? `<img src="${escapeHtml(page1Url)}" alt="Phách ${escapeHtml(st.student_name)}" loading="lazy">` : '<div style="color:#64748b; padding:45px 10px; text-align:center; font-size:12px;">Chưa có ảnh scan Trang 1</div>'}
+            <div class="name-crop-zoom-hint">🔍 Phóng to</div>
+          </div>
+          <div class="name-card-footer">
+            <span style="color:#cbd5e1; font-weight:700;">Điểm: <b style="color:#f59e0b;">${(st.total_score||0).toFixed(2)}đ</b></span>
+            <div style="display:flex; gap:6px;">
+              <button class="btn btn-dark" style="padding:2px 8px; font-size:11px;" onclick="toggleReassignPanel('${escapeHtml(sKey)}')" title="Đổi bài thi sang học sinh khác nếu gán nhầm">✏️ Đổi HS</button>
+              <button class="btn btn-primary" style="padding:2px 8px; font-size:11px;" onclick="goToStudentDetail('${escapeHtml(sKey)}')" title="Mở chi tiết bài chấm của học sinh này">👁️ Xem bài</button>
+            </div>
+          </div>
+          <div class="name-reassign-wrap" id="reassign_${domKey}">
+            <div style="font-size:11px; color:#f59e0b; font-weight:700; margin-bottom:4px;">⚠️ Hoán đổi bài thi sang học sinh khác trong lớp:</div>
+            <div style="display:flex; gap:6px; align-items:center;">
+              <select class="form-select form-select-sm" id="reassignSel_${domKey}" style="background:#1e293b; color:#fff; border-color:#475569; font-size:11px; padding:2px 6px; flex:1;">
+              </select>
+              <button class="btn btn-warning" style="padding:2px 8px; font-size:11px; font-weight:700;" onclick="applyReassign('${escapeHtml(sKey)}')">Lưu đổi</button>
+            </div>
+          </div>
+        `;
+
+        grid.appendChild(card);
+      });
+    }
+
+    function updateNameStatsBadge(customList) {
+      const selectedClass = document.getElementById("classSelect").value;
+      const raw = allExamData.students || [];
+      const list = customList || raw.filter(st => (selectedClass === "ALL" || st.student_class === selectedClass));
+      let verifiedCount = 0;
+      list.forEach(st => {
+        const rec = getStudentAuditRecord(st);
+        if (rec.name) verifiedCount++;
+      });
+      const pct = list.length > 0 ? Math.round((verifiedCount / list.length) * 100) : 0;
+      const badge = document.getElementById("nameStatsBadge");
+      if (badge) {
+        badge.textContent = `Đã duyệt họ tên: ${verifiedCount}/${list.length} (${pct}%)`;
+      }
+    }
+
+    function toggleStudentNameVerify(sKey, btn) {
+      const rec = studentAuditStatus[sKey] || { name: false, omr: false, hw: false, essay: false, verified: false };
+      rec.name = !rec.name;
+      rec.last_updated = new Date().toISOString();
+      studentAuditStatus[sKey] = rec;
+
+      const st = (allExamData.students || []).find(s => getStudentKey(s) === sKey);
+      if (st) {
+        rec.verified = isStudentFullyVerified(st);
+        st.audit_tabs = { ...rec };
+        st.audit_status = rec.verified ? "verified" : (rec.name || rec.omr || rec.hw || rec.essay ? "partial" : "pending");
+      }
+
+      saveLocalAuditCache();
+
+      const domKey = sKey.replace(/[^a-zA-Z0-9_-]/g, '_');
+      const card = document.getElementById(`nameCard_${domKey}`);
+      if (card && btn) {
+        if (rec.name) {
+          card.classList.add("verified");
+          btn.classList.add("verified");
+          btn.innerHTML = "✓ Đã khớp";
+        } else {
+          card.classList.remove("verified");
+          btn.classList.remove("verified");
+          btn.innerHTML = "⏳ Chưa duyệt";
+        }
+      }
+
+      updateNameStatsBadge();
+      updateAuditUI();
+    }
+
+    function markAllClassNamesVerified() {
+      if (!allExamData || !allExamData.students) return;
+      const selectedClass = document.getElementById("classSelect").value;
+      const raw = allExamData.students || [];
+      const list = raw.filter(st => (selectedClass === "ALL" || st.student_class === selectedClass));
+      if (list.length === 0) return;
+
+      list.forEach(st => {
+        const sKey = getStudentKey(st);
+        const rec = getStudentAuditRecord(st);
+        rec.name = true;
+        rec.last_updated = new Date().toISOString();
+        rec.verified = isStudentFullyVerified(st);
+        st.audit_tabs = { ...rec };
+        st.audit_status = rec.verified ? "verified" : "partial";
+        studentAuditStatus[sKey] = rec;
+      });
+
+      saveLocalAuditCache();
+      showToast(`🌟 Đã duyệt khớp họ tên ${list.length} học sinh ${selectedClass === "ALL" ? "" : "lớp " + selectedClass}!`);
+      renderNameMode();
+      updateAuditUI();
+    }
+
+    function goToStudentDetail(sKey) {
+      const idx = studentsList.findIndex(s => getStudentKey(s) === sKey);
+      if (idx >= 0) {
+        currentStudentIndex = idx;
+        document.getElementById("studentSelect").value = idx;
+        switchMode("OMR");
+        loadCurrentStudent();
+      } else {
+        const rawIdx = (allExamData.students || []).findIndex(s => getStudentKey(s) === sKey);
+        if (rawIdx >= 0) {
+          const st = allExamData.students[rawIdx];
+          document.getElementById("classSelect").value = st.student_class;
+          filterAndRenderStudents();
+          const newIdx = studentsList.findIndex(s => getStudentKey(s) === sKey);
+          if (newIdx >= 0) {
+            currentStudentIndex = newIdx;
+            document.getElementById("studentSelect").value = newIdx;
+          }
+          switchMode("OMR");
+          loadCurrentStudent();
+        }
+      }
+    }
+
+    function toggleReassignPanel(sKey) {
+      const domKey = sKey.replace(/[^a-zA-Z0-9_-]/g, '_');
+      const p = document.getElementById(`reassign_${domKey}`);
+      if (!p) return;
+      if (p.style.display === "block") {
+        p.style.display = "none";
+      } else {
+        const sel = document.getElementById(`reassignSel_${domKey}`);
+        if (sel && sel.options.length === 0) {
+          const curSt = (allExamData.students || []).find(s => getStudentKey(s) === sKey);
+          const curClass = curSt ? curSt.student_class : "";
+          const classStudents = (allExamData.students || []).filter(s => s.student_class === curClass);
+          classStudents.forEach(targetSt => {
+            const opt = document.createElement("option");
+            opt.value = getStudentKey(targetSt);
+            opt.textContent = `${targetSt.stt || ''}. ${targetSt.student_name} (${targetSt.student_class})`;
+            if (getStudentKey(targetSt) === sKey) opt.selected = true;
+            sel.appendChild(opt);
+          });
+        }
+        p.style.display = "block";
+      }
+    }
+
+    function applyReassign(sKey) {
+      const domKey = sKey.replace(/[^a-zA-Z0-9_-]/g, '_');
+      const sel = document.getElementById(`reassignSel_${domKey}`);
+      if (!sel) return;
+      const targetKey = sel.value;
+      if (targetKey === sKey) {
+        alert("Vui lòng chọn học sinh khác để hoán đổi bài thi.");
+        return;
+      }
+      const curSt = (allExamData.students || []).find(s => getStudentKey(s) === sKey);
+      const targetSt = (allExamData.students || []).find(s => getStudentKey(s) === targetKey);
+      if (!curSt || !targetSt) return;
+
+      if (!confirm(`Xác nhận hoán đổi toàn bộ bài thi và điểm giữa:\n- [${curSt.student_name} (${curSt.student_class})]\nvà\n- [${targetSt.student_name} (${targetSt.student_class})]?`)) {
+        return;
+      }
+
+      const tempProps = {
+        submission_id: curSt.submission_id,
+        graded_pages: curSt.graded_pages,
+        raw_images: curSt.raw_images,
+        omr_crop_image: curSt.omr_crop_image,
+        mcq: curSt.mcq,
+        essay_score: curSt.essay_score,
+        total_score: curSt.total_score,
+        score: curSt.score,
+        essay_feedback: curSt.essay_feedback,
+        essay_details: curSt.essay_details,
+        notes: curSt.notes,
+        reassigned: true
+      };
+
+      curSt.submission_id = targetSt.submission_id;
+      curSt.graded_pages = targetSt.graded_pages;
+      curSt.raw_images = targetSt.raw_images;
+      curSt.omr_crop_image = targetSt.omr_crop_image;
+      curSt.mcq = targetSt.mcq;
+      curSt.essay_score = targetSt.essay_score;
+      curSt.total_score = targetSt.total_score;
+      curSt.score = targetSt.score;
+      curSt.essay_feedback = targetSt.essay_feedback;
+      curSt.essay_details = targetSt.essay_details;
+      curSt.notes = targetSt.notes;
+      curSt.reassigned = true;
+
+      targetSt.submission_id = tempProps.submission_id;
+      targetSt.graded_pages = tempProps.graded_pages;
+      targetSt.raw_images = tempProps.raw_images;
+      targetSt.omr_crop_image = tempProps.omr_crop_image;
+      targetSt.mcq = tempProps.mcq;
+      targetSt.essay_score = tempProps.essay_score;
+      targetSt.total_score = tempProps.total_score;
+      targetSt.score = tempProps.score;
+      targetSt.essay_feedback = tempProps.essay_feedback;
+      targetSt.essay_details = tempProps.essay_details;
+      targetSt.notes = tempProps.notes;
+      targetSt.reassigned = true;
+
+      showToast(`🔄 Đã hoán đổi bài thi giữa ${curSt.student_name} và ${targetSt.student_name}! Bấm nút 💾 Lưu để ghi lại.`);
+      renderNameMode();
+      filterAndRenderStudents();
+    }
+
+    function openNameLightbox(imgUrl, studentTitle) {
+      if (!imgUrl) return;
+      const modal = document.getElementById("nameLightboxModal");
+      const img = document.getElementById("nameLightboxImg");
+      const title = document.getElementById("nameLightboxTitle");
+      if (!modal || !img) return;
+      title.textContent = `🔍 Soi phách & Tiêu đề bài thi: ${studentTitle}`;
+      img.src = imgUrl;
+      modal.style.display = "flex";
+    }
+
+    function closeNameLightbox(e) {
+      if (e && e.target && e.target.tagName === "IMG") return;
+      const modal = document.getElementById("nameLightboxModal");
+      if (modal) modal.style.display = "none";
     }
 
     /* =========================================================
@@ -2401,7 +2897,8 @@
 
       const sKey = getStudentKey(st);
       const rec = getStudentAuditRecord(st);
-      if (currentMode === "OMR") rec.omr = true;
+      if (currentMode === "NAME") rec.name = true;
+      else if (currentMode === "OMR") rec.omr = true;
       else if (currentMode === "HW") rec.hw = true;
       else if (currentMode === "ESSAY") rec.essay = true;
       rec.verified = isStudentFullyVerified(st);
@@ -2421,7 +2918,10 @@
       const rec = getStudentAuditRecord(st);
 
       let tabLabel = "Tab Này";
-      if (currentMode === "OMR") {
+      if (currentMode === "NAME") {
+        rec.name = true;
+        tabLabel = "Họ & Tên";
+      } else if (currentMode === "OMR") {
         rec.omr = true;
         tabLabel = "OMR";
       } else if (currentMode === "HW") {
@@ -2431,6 +2931,7 @@
         rec.essay = true;
         tabLabel = "Tự Luận";
       } else if (currentMode === "FULL") {
+        rec.name = true;
         rec.omr = true;
         rec.hw = true;
         rec.essay = true;
@@ -2470,6 +2971,7 @@
       const sKey = getStudentKey(st);
       const rec = getStudentAuditRecord(st);
 
+      rec.name = true;
       rec.omr = true;
       rec.hw = true;
       rec.essay = true;
@@ -2531,7 +3033,7 @@
       (allExamData.students || []).forEach(s => {
         const r = getStudentAuditRecord(s);
         s.audit_tabs = r;
-        s.audit_status = isStudentFullyVerified(s) ? "verified" : (r.omr || r.hw || r.essay ? "partial" : "pending");
+        s.audit_status = isStudentFullyVerified(s) ? "verified" : (r.name || r.omr || r.hw || r.essay ? "partial" : "pending");
       });
 
       if (serverOnline) {
@@ -2588,14 +3090,18 @@
         } else if (e.code === "ArrowRight" || e.code === "KeyD") {
           e.preventDefault();
           navigateStudent(1);
-        } else if (e.code === "Digit1") {
+        } else if (e.code === "Digit0" || e.code === "Numpad0") {
+          switchMode('NAME');
+        } else if (e.code === "Digit1" || e.code === "Numpad1") {
           switchMode('OMR');
-        } else if (e.code === "Digit2") {
+        } else if (e.code === "Digit2" || e.code === "Numpad2") {
           switchMode('HW');
-        } else if (e.code === "Digit3") {
+        } else if (e.code === "Digit3" || e.code === "Numpad3") {
           switchMode('ESSAY');
-        } else if (e.code === "Digit4") {
+        } else if (e.code === "Digit4" || e.code === "Numpad4") {
           switchMode('FULL');
+        } else if (e.code === "Escape") {
+          closeNameLightbox();
         }
       });
     }
@@ -2610,12 +3116,14 @@
 
     function showHelpModal() {
       alert("⌨️ HƯỚNG DẪN DUYỆT BÀI SIÊU TỐC THEO TỪNG TAB:\n\n" +
+        "• Phím 0: Chuyển sang Tab 0. Họ & Tên (Duyệt đối soát danh tính học sinh cả lớp)\n" +
         "• Phím 1, 2, 3, 4: Chuyển giữa các Tab (1. OMR, 2. Điền khuyết, 3. Tự luận, 4. Toàn trang)\n" +
         "• Phím Space: DUYỆT RIÊNG TAB ĐANG MỞ & tự động chuyển sang học sinh tiếp theo (GIỮ NGUYÊN TAB HIỆN TẠI để duyệt liên tục cả lớp!)\n" +
-        "• Phím Shift + Space (hoặc Ctrl + Space): DUYỆT TOÀN BỘ CẢ 3 TAB của học sinh này & chuyển tiếp\n" +
+        "• Phím Shift + Space (hoặc Ctrl + Space): DUYỆT TOÀN BỘ CÁC TAB của học sinh này & chuyển tiếp\n" +
         "• Lọc '⏳ Chưa duyệt Tab này': Lọc ra danh sách các học sinh chưa duyệt xong phần hiện tại\n" +
         "• Phím A / Mũi tên Trái: Lùi về học sinh trước\n" +
         "• Phím D / Mũi tên Phải: Sang học sinh tiếp theo\n" +
+        "• Phím Esc: Đóng cửa sổ phóng to soi phách\n" +
         "• Nút 💾 Lưu: Ghi dữ liệu đã duyệt xuống máy chủ (tự động sao lưu bản backup an toàn).");
     }
 
@@ -2638,5 +3146,15 @@
       }
     }
   </script>
+  <!-- LIGHTBOX PREVIEW HEADER / TRANG 1 -->
+  <div id="nameLightboxModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:3000; justify-content:center; align-items:center; flex-direction:column; padding:20px;" onclick="closeNameLightbox(event)">
+    <div style="background:#1e293b; border:1px solid #334155; border-radius:8px; padding:8px 16px; margin-bottom:10px; display:flex; justify-content:space-between; align-items:center; width:100%; max-width:960px;" onclick="event.stopPropagation()">
+      <span id="nameLightboxTitle" style="font-size:13px; font-weight:800; color:#38bdf8;">Phóng to tiêu đề bài thi</span>
+      <button class="btn btn-dark" style="padding:2px 8px; font-size:12px;" onclick="closeNameLightbox()">✕ Đóng (Esc)</button>
+    </div>
+    <div style="max-width:960px; max-height:85vh; overflow:auto; border-radius:8px; box-shadow:0 10px 40px rgba(0,0,0,0.8);" onclick="event.stopPropagation()">
+      <img id="nameLightboxImg" src="" style="width:100%; height:auto; display:block;" alt="Phóng to bài thi">
+    </div>
+  </div>
 </body>
 </html>
