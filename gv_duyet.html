@@ -1086,6 +1086,14 @@
         <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
           <button class="btn btn-outline-warning" onclick="toggleSingleReassignPanel()" title="Hoán đổi bài thi này sang học sinh khác nếu gán nhầm danh tính">✏️ Đổi HS Khác</button>
           
+          <!-- Bộ nút xoay ảnh -->
+          <div class="essay-zoom-bar">
+            <button class="essay-zoom-btn" onclick="rotateNameImage(-90)" title="Xoay ngược chiều kim đồng hồ -90° (Phím Shift + R)">⟲ -90°</button>
+            <span id="nameRotateVal" style="font-size:11px; color:#38bdf8; min-width:32px; text-align:center; font-weight:700;">0°</span>
+            <button class="essay-zoom-btn" onclick="rotateNameImage(90)" title="Xoay thuận chiều kim đồng hồ +90° (Phím R)">⟳ +90°</button>
+            <button class="essay-zoom-btn" onclick="resetNameRotation()" title="Đặt lại góc xoay ban đầu 0°">0°</button>
+          </div>
+
           <div class="essay-zoom-bar">
             <button class="essay-zoom-btn" onclick="changeNameZoom(-15)" title="Thu nhỏ">−</button>
             <span id="nameZoomVal" style="font-size:11px; color:#94a3b8; min-width:36px; text-align:center;">100%</span>
@@ -1762,6 +1770,7 @@
        0. CHẾ ĐỘ DUYỆT HỌ & TÊN HỌC SINH (DUYỆT TỪNG BÀI SIÊU TỐC)
     ========================================================= */
     let nameZoomLevel = 100;
+    let nameRotation = 0;
 
     function renderNameMode(customSt) {
       if (studentsList.length === 0) return;
@@ -1771,6 +1780,7 @@
       const sKey = getStudentKey(st);
       const rec = getStudentAuditRecord(st);
       const isNameVerified = !!rec.name;
+      nameRotation = rec.rotation || 0;
 
       // Cập nhật huy hiệu lớp & tiến độ cả lớp
       const selectedClass = document.getElementById("classSelect").value;
@@ -1832,7 +1842,7 @@
           img.style.display = "none";
           if (emptyMsg) emptyMsg.style.display = "block";
         }
-        applyNameZoom();
+        applyNameTransform();
       }
 
       // Cuộn lên đầu để tiêu đề và họ tên luôn đập vào mắt ngay lập tức
@@ -1846,25 +1856,70 @@
       if (rBar) rBar.style.display = "none";
     }
 
+    function rotateNameImage(delta) {
+      nameRotation = (nameRotation + delta) % 360;
+      if (nameRotation < 0) nameRotation += 360;
+
+      if (studentsList.length > 0) {
+        const st = studentsList[currentStudentIndex];
+        const sKey = getStudentKey(st);
+        const rec = getStudentAuditRecord(st);
+        rec.rotation = nameRotation;
+        studentAuditStatus[sKey] = rec;
+        saveLocalAuditCache();
+      }
+
+      applyNameTransform();
+      showToast(`🔄 Đã xoay ảnh: ${nameRotation}°`);
+    }
+
+    function resetNameRotation() {
+      nameRotation = 0;
+      if (studentsList.length > 0) {
+        const st = studentsList[currentStudentIndex];
+        const sKey = getStudentKey(st);
+        const rec = getStudentAuditRecord(st);
+        delete rec.rotation;
+        studentAuditStatus[sKey] = rec;
+        saveLocalAuditCache();
+      }
+      applyNameTransform();
+      showToast("🔄 Đặt lại góc xoay: 0°");
+    }
+
     function changeNameZoom(delta) {
       nameZoomLevel = Math.max(50, Math.min(250, nameZoomLevel + delta));
-      applyNameZoom();
+      applyNameTransform();
     }
 
     function resetNameZoom() {
       nameZoomLevel = 100;
-      applyNameZoom();
+      applyNameTransform();
     }
 
-    function applyNameZoom() {
+    function applyNameTransform() {
       const img = document.getElementById("nameLargeCropImg");
-      const lbl = document.getElementById("nameZoomVal");
+      const lblRot = document.getElementById("nameRotateVal");
+      const lblZoom = document.getElementById("nameZoomVal");
+      if (lblRot) lblRot.textContent = `${nameRotation}°`;
+      if (lblZoom) lblZoom.textContent = `${nameZoomLevel}%`;
+
       if (img) {
-        img.style.width = nameZoomLevel + "%";
+        img.style.width = `${nameZoomLevel}%`;
         img.style.maxWidth = nameZoomLevel <= 100 ? "100%" : "none";
-      }
-      if (lbl) {
-        lbl.textContent = nameZoomLevel + "%";
+
+        if (nameRotation === 0) {
+          img.style.transform = "none";
+          img.style.margin = "0 auto";
+        } else {
+          img.style.transform = `rotate(${nameRotation}deg)`;
+          img.style.transformOrigin = "top center";
+          if (nameRotation === 90 || nameRotation === 270) {
+            img.style.margin = "40px auto 140px auto";
+          } else {
+            img.style.margin = "0 auto";
+          }
+        }
       }
     }
 
@@ -3076,6 +3131,11 @@
           switchMode('ESSAY');
         } else if (e.code === "Digit4" || e.code === "Numpad4") {
           switchMode('FULL');
+        } else if (e.code === "KeyR") {
+          e.preventDefault();
+          if (currentMode === "NAME") {
+            rotateNameImage(e.shiftKey ? -90 : 90);
+          }
         } else if (e.code === "Escape") {
           closeNameLightbox();
         }
@@ -3096,6 +3156,7 @@
         "• Phím 1, 2, 3, 4: Chuyển giữa các Tab (1. OMR, 2. Điền khuyết, 3. Tự luận, 4. Toàn trang)\n" +
         "• Phím Space: DUYỆT RIÊNG TAB ĐANG MỞ & tự động chuyển sang học sinh tiếp theo (GIỮ NGUYÊN TAB HIỆN TẠI để duyệt liên tục cả lớp!)\n" +
         "• Phím Shift + Space (hoặc Ctrl + Space): DUYỆT TOÀN BỘ CÁC TAB của học sinh này & chuyển tiếp\n" +
+        "• Phím R / Shift + R: Xoay ảnh +90° / -90° (ở Tab 0. Họ & Tên)\n" +
         "• Lọc '⏳ Chưa duyệt Tab này': Lọc ra danh sách các học sinh chưa duyệt xong phần hiện tại\n" +
         "• Phím A / Mũi tên Trái: Lùi về học sinh trước\n" +
         "• Phím D / Mũi tên Phải: Sang học sinh tiếp theo\n" +
